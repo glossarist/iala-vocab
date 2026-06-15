@@ -1,0 +1,62 @@
+id: iala
+domain: metanorma.github.io/iala-vocab
+uriBase: https://metanorma.github.io/iala-vocab
+basePath: /iala-vocab/
+title: IALA Dictionary
+subtitle: International Association of Marine Aids to Navigation and Lighthouse Authorities Dictionary
+description: Terminology from the IALA Dictionary of Marine Aids to Navigation
+uiLanguages:
+- code: eng
+  label: English
+datasets:
+- id: iala-1970-89
+  localPath: datasets/iala-1970-89
+  color: '#003366'
+- id: iala-2023
+  localPath: datasets/iala-2023
+  color: '#00857E'
+routing: []
+branding:
+  primaryColor: '#003366'
+  darkColor: '#001a33'
+  fonts:
+    header:
+      family: Source Serif 4
+      source: google
+      weights:
+      - 400
+      - 600
+    body:
+      family: Source Sans 3
+      source: google
+      weights:
+      - 400
+      - 500
+      - 700
+  ownerName: IALA
+  ownerUrl: https://www.iala-aism.org
+features:
+  news: false
+  stats: true
+  graph: true
+  about: true
+  search: true
+  poweredBy:
+    title: Glossarist
+    url: https://glossarist.org
+pages:
+- type: about
+  route: about
+  title: About
+  icon: info
+  source: about-eng.md
+defaults:
+  language: eng
+datasetGroups:
+- id: iala
+  label: IALA Dictionary
+  datasets:
+  - iala-1970-89
+  - iala-2023
+  color: '#003366'
+copyright: IALA
