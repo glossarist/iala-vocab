@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Luminous_Element
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 2-3-085-eng
 termid: 2-3-085

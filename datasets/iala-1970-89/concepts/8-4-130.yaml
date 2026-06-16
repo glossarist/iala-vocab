@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Inspection_cover
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 8-4-130-eng
 termid: 8-4-130

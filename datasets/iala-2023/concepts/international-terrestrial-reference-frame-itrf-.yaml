@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/International_Terrestrial_Reference_Frame_(ITRF)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: international-terrestrial-reference-frame-itrf--eng
 termid: international-terrestrial-reference-frame-itrf-

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Audit
+dates:
+- type: amended
+  date: '2023'
 ---
 id: audit-eng
 termid: audit

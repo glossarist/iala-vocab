@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/On-the-Job_Training_(OJT)
+dates:
+- type: amended
+  date: '2023'
 ---
 id: on-the-job-training-ojt--eng
 termid: on-the-job-training-ojt-

@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Useful_Life_(of_a_lamp)
+dates:
+- type: accepted
+  date: 1970-1989
+- type: amended
+  date: '2018'
 ---
 id: 2-3-445-eng
 termid: 2-3-445

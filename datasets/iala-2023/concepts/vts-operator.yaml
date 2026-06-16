@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/VTS_Operator
+dates:
+- type: amended
+  date: '2023'
 ---
 id: vts-operator-eng
 termid: vts-operator

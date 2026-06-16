@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Fog_signal
+dates:
+- type: amended
+  date: '2017'
+- type: amended
+  date: '2023'
 ---
 id: fog-signal-eng
 termid: fog-signal

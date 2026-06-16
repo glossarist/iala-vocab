@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Updating_training
+dates:
+- type: amended
+  date: '2023'
 ---
 id: updating-training-eng
 termid: updating-training

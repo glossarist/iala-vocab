@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Submarine_(power)_cable
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-6-075-eng
 termid: 6-6-075

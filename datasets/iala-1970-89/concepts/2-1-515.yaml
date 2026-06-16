@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Thermal_Radiator
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 2-1-515-eng
 termid: 2-1-515

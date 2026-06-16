@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Difference_in_Time_Of_Arrival_(DTOA)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: difference-in-time-of-arrival-dtoa--eng
 termid: difference-in-time-of-arrival-dtoa-

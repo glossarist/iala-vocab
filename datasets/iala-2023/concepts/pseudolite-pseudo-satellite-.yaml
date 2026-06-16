@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Pseudolite_(pseudo-satellite)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: pseudolite-pseudo-satellite--eng
 termid: pseudolite-pseudo-satellite-

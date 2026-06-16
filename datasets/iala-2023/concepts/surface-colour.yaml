@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Surface_Colour
+dates:
+- type: amended
+  date: '2018'
+- type: amended
+  date: '2023'
 ---
 id: surface-colour-eng
 termid: surface-colour

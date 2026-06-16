@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Participating_Vessel
+dates:
+- type: amended
+  date: '2012'
+- type: amended
+  date: '2023'
 ---
 id: participating-vessel-eng
 termid: participating-vessel

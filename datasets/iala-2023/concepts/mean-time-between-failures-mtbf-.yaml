@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Mean_time_between_failures_(MTBF)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: mean-time-between-failures-mtbf--eng
 termid: mean-time-between-failures-mtbf-

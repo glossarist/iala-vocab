@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Mean_Time_To_Repair/Restore_(MTTR)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: mean-time-to-repair-restore-mttr--eng
 termid: mean-time-to-repair-restore-mttr-

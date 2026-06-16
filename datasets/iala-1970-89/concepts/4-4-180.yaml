@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Decca_Zone
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 4-4-180-eng
 termid: 4-4-180

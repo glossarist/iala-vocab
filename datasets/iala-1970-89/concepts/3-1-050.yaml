@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Free_sound_field
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 3-1-050-eng
 termid: 3-1-050

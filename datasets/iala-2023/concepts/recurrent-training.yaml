@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Recurrent_training
+dates:
+- type: amended
+  date: '2023'
 ---
 id: recurrent-training-eng
 termid: recurrent-training

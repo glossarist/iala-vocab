@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Message_Markers
+dates:
+- type: amended
+  date: '2012'
+- type: amended
+  date: '2023'
 ---
 id: message-markers-eng
 termid: message-markers

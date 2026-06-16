@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Pulse_forming_line
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 4-3-385-eng
 termid: 4-3-385

@@ -11,6 +11,12 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Sector_Accuracy
+dates:
+- type: amended
+  date: '2016'
+- type: amended
+  date: '2023'
+approval: Dictionary Working Group
 ---
 id: sector-accuracy-eng
 termid: sector-accuracy

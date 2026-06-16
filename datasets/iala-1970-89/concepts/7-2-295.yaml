@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Flange_(of_a_girder)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 7-2-295-eng
 termid: 7-2-295

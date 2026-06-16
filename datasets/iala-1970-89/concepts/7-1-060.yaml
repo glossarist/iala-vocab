@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Landing_stage_(2)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 7-1-060-eng
 termid: 7-1-060

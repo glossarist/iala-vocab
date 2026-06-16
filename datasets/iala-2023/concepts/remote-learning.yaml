@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Remote_learning
+dates:
+- type: amended
+  date: '2023'
 ---
 id: remote-learning-eng
 termid: remote-learning

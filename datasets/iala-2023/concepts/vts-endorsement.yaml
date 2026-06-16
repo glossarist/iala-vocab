@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/VTS_endorsement
+dates:
+- type: amended
+  date: '2023'
 ---
 id: vts-endorsement-eng
 termid: vts-endorsement

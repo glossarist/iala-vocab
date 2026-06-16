@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Approved_VTS_training_course
+dates:
+- type: amended
+  date: '2023'
 ---
 id: approved-vts-training-course-eng
 termid: approved-vts-training-course

@@ -16,6 +16,11 @@ related:
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 4-1-1040
+dates:
+- type: accepted
+  date: 1970-1989
+- type: amended
+  date: '2023'
 ---
 id: 4-1-1040-eng
 termid: 4-1-1040

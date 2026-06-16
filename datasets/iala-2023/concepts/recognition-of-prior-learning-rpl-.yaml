@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Recognition_of_prior_learning_(RPL)
+dates:
+- type: amended
+  date: '2023'
 ---
 id: recognition-of-prior-learning-rpl--eng
 termid: recognition-of-prior-learning-rpl-

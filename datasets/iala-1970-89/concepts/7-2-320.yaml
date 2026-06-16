@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Flange_(of_a_tube_or_pipe)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 7-2-320-eng
 termid: 7-2-320

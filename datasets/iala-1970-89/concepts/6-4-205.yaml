@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Phase_voltage_(of_a_three-phase_alternator)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-4-205-eng
 termid: 6-4-205

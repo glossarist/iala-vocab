@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Absolute_accuracy
+dates:
+- type: amended
+  date: '2023'
 ---
 id: absolute-accuracy-eng
 termid: absolute-accuracy

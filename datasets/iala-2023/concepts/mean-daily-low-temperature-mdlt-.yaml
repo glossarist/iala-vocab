@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Mean_Daily_Low_Temperature_(MDLT)
+dates:
+- type: amended
+  date: '2023'
 ---
 id: mean-daily-low-temperature-mdlt--eng
 termid: mean-daily-low-temperature-mdlt-

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Aid_to_navigation_station
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 1-1-020-eng
 termid: 1-1-020

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Conversion_of_electric_energy
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: conversion-of-electric-energy-eng
 termid: conversion-of-electric-energy

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Fog_signal_port
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 3-2-110-eng
 termid: 3-2-110

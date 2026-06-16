@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Easily_recognizable_structure
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 2-6-035-eng
 termid: 2-6-035

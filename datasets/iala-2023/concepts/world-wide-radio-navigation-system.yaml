@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/World-Wide_Radio_Navigation_System
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: world-wide-radio-navigation-system-eng
 termid: world-wide-radio-navigation-system

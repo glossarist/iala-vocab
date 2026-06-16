@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Near_Miss
+dates:
+- type: amended
+  date: '2012'
+- type: amended
+  date: '2023'
 ---
 id: near-miss-eng
 termid: near-miss

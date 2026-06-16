@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Initial_Operational_Capability_(IOC)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: initial-operational-capability-ioc--eng
 termid: initial-operational-capability-ioc-

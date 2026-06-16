@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Identification_of_an_AtoN_Light
+dates:
+- type: amended
+  date: '2018'
+- type: amended
+  date: '2023'
 ---
 id: identification-of-an-aton-light-eng
 termid: identification-of-an-aton-light

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Foreshore
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 7-4-010-eng
 termid: 7-4-010

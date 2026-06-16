@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Loran_Slew_control
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 4-4-090-eng
 termid: 4-4-090

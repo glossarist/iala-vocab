@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Craft_autonomous_integrity_monitoring_(CAIM)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: craft-autonomous-integrity-monitoring-caim--eng
 termid: craft-autonomous-integrity-monitoring-caim-

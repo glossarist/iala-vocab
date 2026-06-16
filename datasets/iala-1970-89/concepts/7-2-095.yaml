@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Facing_wall
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 7-2-095-eng
 termid: 7-2-095

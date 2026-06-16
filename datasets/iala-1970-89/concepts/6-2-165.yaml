@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Induction_coil
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-2-165-eng
 termid: 6-2-165

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Rack
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 2-2-055-eng
 termid: 2-2-055

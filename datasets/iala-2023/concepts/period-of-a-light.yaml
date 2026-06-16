@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Period_of_a_light
+dates:
+- type: amended
+  date: '2023'
 ---
 id: period-of-a-light-eng
 termid: period-of-a-light

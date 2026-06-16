@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Rake_(of_a_pile)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 7-5-245-eng
 termid: 7-5-245

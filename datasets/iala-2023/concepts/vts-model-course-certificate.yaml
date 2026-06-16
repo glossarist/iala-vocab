@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/VTS_model_course_certificate
+dates:
+- type: amended
+  date: '2023'
 ---
 id: vts-model-course-certificate-eng
 termid: vts-model-course-certificate

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Flashing_(Optical)_Apparatus
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 2-2-180-eng
 termid: 2-2-180

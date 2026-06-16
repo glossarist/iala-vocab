@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Lightning_conductor
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-8-125-eng
 termid: 6-8-125

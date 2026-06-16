@@ -11,6 +11,12 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Heritage_marine_aid_to_navigation
+dates:
+- type: amended
+  date: '2022'
+- type: amended
+  date: '2023'
+approval: Dictionary Management Group
 ---
 id: heritage-marine-aid-to-navigation-eng
 termid: heritage-marine-aid-to-navigation

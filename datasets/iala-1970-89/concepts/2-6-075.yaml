@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Middle-Ground_Marks_(or_Buoys)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 2-6-075-eng
 termid: 2-6-075

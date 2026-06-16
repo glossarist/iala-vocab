@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Fenders
+dates:
+- type: accepted
+  date: 1970-1989
+- type: amended
+  date: '2018'
 ---
 id: 8-4-145-eng
 termid: 8-4-145

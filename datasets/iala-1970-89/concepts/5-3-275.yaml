@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Rise_time_(of_a_pulse)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 5-3-275-eng
 termid: 5-3-275

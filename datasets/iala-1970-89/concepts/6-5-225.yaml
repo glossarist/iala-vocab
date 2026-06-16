@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Battery_charger
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-5-225-eng
 termid: 6-5-225

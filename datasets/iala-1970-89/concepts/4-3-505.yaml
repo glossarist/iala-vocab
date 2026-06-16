@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Side_lobe_suppression
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 4-3-505-eng
 termid: 4-3-505

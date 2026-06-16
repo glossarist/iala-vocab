@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/VTS_workstation
+dates:
+- type: amended
+  date: '2012'
+- type: amended
+  date: '2023'
 ---
 id: vts-workstation-eng
 termid: vts-workstation

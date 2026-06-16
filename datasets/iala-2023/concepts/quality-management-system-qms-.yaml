@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Quality_Management_System_(QMS)
+dates:
+- type: amended
+  date: '2012'
+- type: amended
+  date: '2023'
 ---
 id: quality-management-system-qms--eng
 termid: quality-management-system-qms-

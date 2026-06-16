@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Aeronautical_Light
+dates:
+- type: amended
+  date: '2023'
 ---
 id: aeronautical-light-eng
 termid: aeronautical-light

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/High_Pressure_Arc_Discharge_Lamp
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 2-3-415-eng
 termid: 2-3-415

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Organ_of_Vision
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: organ-of-vision-eng
 termid: organ-of-vision

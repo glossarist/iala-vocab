@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Automatic_Identification_System_(AIS)_(2)
+dates:
+- type: amended
+  date: '2012'
+- type: amended
+  date: '2023'
 ---
 id: automatic-identification-system-ais-2--eng
 termid: automatic-identification-system-ais-2-

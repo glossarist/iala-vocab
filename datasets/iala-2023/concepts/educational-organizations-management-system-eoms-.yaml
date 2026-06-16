@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Educational_organizations_management_system_(EOMS)
+dates:
+- type: amended
+  date: '2023'
 ---
 id: educational-organizations-management-system-eoms--eng
 termid: educational-organizations-management-system-eoms-

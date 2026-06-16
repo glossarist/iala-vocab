@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Vertical_Beam_Divergence
+dates:
+- type: amended
+  date: '2018'
+- type: amended
+  date: '2023'
 ---
 id: vertical-beam-divergence-eng
 termid: vertical-beam-divergence

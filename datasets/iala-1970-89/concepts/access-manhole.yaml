@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Access_manhole
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: access-manhole-eng
 termid: access-manhole

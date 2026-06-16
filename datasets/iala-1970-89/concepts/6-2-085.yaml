@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Cylinder_liner
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-2-085-eng
 termid: 6-2-085

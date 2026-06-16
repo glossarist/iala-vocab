@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Jetty
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 7-1-035-eng
 termid: 7-1-035

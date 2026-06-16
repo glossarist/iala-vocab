@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Morse_Code_Fog_Signal
+dates:
+- type: amended
+  date: '2023'
 ---
 id: morse-code-fog-signal-eng
 termid: morse-code-fog-signal

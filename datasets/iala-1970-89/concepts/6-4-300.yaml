@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Resistance_starting_(of_a_motor)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-4-300-eng
 termid: 6-4-300

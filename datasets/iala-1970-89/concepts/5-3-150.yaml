@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Peak_pulse_power_(carrier_frequency)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 5-3-150-eng
 termid: 5-3-150

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Model_course
+dates:
+- type: amended
+  date: '2023'
 ---
 id: model-course-eng
 termid: model-course

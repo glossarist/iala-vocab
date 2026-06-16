@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Wave_antenna
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 4-1-495-eng
 termid: 4-1-495

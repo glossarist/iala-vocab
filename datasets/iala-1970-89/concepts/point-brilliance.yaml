@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Point_Brilliance
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: point-brilliance-eng
 termid: point-brilliance

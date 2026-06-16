@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Instantaneous"_automatic_gain_control
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 4-3-315-eng
 termid: 4-3-315

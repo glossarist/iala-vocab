@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Rotary_electric_machine
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-4-000-eng
 termid: 6-4-000

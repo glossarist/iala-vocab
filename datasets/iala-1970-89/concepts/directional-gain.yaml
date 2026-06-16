@@ -16,6 +16,11 @@ related:
   ref:
     source: urn:iala:dictionary:2023
     concept_id: directional-gain
+dates:
+- type: accepted
+  date: 1970-1989
+- type: amended
+  date: '2023'
 ---
 id: directional-gain-eng
 termid: directional-gain

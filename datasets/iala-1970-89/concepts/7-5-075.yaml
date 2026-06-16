@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Dead_load
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 7-5-075-eng
 termid: 7-5-075

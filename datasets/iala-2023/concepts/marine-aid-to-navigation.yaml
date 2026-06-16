@@ -11,6 +11,12 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Marine_Aid_to_Navigation
+dates:
+- type: amended
+  date: '2016'
+- type: amended
+  date: '2023'
+approval: Dictionary Working Group
 ---
 id: marine-aid-to-navigation-eng
 termid: marine-aid-to-navigation

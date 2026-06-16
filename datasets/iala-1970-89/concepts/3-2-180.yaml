@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Diaphragm
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 3-2-180-eng
 termid: 3-2-180

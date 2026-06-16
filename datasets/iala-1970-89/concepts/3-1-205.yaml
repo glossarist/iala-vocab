@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Normal_threshold_of_hearing
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 3-1-205-eng
 termid: 3-1-205

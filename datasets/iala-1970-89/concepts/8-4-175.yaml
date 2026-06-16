@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Metacentre_(of_a_buoy)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 8-4-175-eng
 termid: 8-4-175

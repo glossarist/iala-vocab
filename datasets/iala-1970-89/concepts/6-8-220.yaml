@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Time_switch_(2)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-8-220-eng
 termid: 6-8-220

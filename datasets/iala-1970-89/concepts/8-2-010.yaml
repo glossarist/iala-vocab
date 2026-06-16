@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Spare_light_vessel_(GB)
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 8-2-010-eng
 termid: 8-2-010

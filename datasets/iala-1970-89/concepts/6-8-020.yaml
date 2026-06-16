@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Rated_power_output
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 6-8-020-eng
 termid: 6-8-020

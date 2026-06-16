@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Sound_pressure_level
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 3-1-065-eng
 termid: 3-1-065

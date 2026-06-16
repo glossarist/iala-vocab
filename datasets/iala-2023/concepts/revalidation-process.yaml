@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Revalidation_process
+dates:
+- type: amended
+  date: '2023'
 ---
 id: revalidation-process-eng
 termid: revalidation-process

@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Output_device
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 5-3-515-eng
 termid: 5-3-515

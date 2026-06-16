@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Competent_Authority_(AtoN)
+dates:
+- type: amended
+  date: '2018'
+- type: amended
+  date: '2023'
 ---
 id: competent-authority-aton--eng
 termid: competent-authority-aton-

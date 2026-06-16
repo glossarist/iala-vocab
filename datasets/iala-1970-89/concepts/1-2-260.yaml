@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Dike
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 1-2-260-eng
 termid: 1-2-260

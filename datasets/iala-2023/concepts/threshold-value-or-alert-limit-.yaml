@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Threshold_value_(or_alert_limit)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: threshold-value-or-alert-limit--eng
 termid: threshold-value-or-alert-limit-

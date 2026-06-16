@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Effective_radius_of_the_earth
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: effective-radius-of-the-earth-eng
 termid: effective-radius-of-the-earth

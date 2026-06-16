@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Interim_approval
+dates:
+- type: amended
+  date: '2023'
 ---
 id: interim-approval-eng
 termid: interim-approval

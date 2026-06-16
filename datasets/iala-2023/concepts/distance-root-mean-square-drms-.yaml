@@ -11,6 +11,11 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Distance_root_mean_square_(dRMS)
+dates:
+- type: amended
+  date: '2009'
+- type: amended
+  date: '2023'
 ---
 id: distance-root-mean-square-drms--eng
 termid: distance-root-mean-square-drms-

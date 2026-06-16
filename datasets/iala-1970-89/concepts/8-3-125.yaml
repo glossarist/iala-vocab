@@ -11,6 +11,9 @@ sources:
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Chain_locker
+dates:
+- type: accepted
+  date: 1970-1989
 ---
 id: 8-3-125-eng
 termid: 8-3-125
