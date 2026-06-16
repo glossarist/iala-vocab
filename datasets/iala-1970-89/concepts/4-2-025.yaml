@@ -1,71 +1,52 @@
 ---
 id: 4-2-025
-termid: 4-2-025
+data:
+  identifier: 4-2-025
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Types_of_service
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 4-2-025
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-2-025-eng
 termid: 4-2-025
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Types of service
   normative_status: preferred
 definition:
-- content: |-
-    1. Beacon service
-
-
-    A service provided independently of weather conditions, the station transmitting signals at certain fixed times daily or continuously.
-
-
-    Reference: A.L.R.S. (modified)
-
-
-
-    2. Clear weather transmission
-
-
-    Signals transmitted during clear weather by a station whose service is extended during periods of fog or low visibility.
-
-
-
-    3. Fog service
-
-
-    The service provided by a radio beacon as an aid to navigation during periods of fog or low visibility.
-
-
-
-    4. Calibration service
-
-
-    A service provided for the purpose of calibration of direction finders.
-
-
-    Reference: A.L.R.S. (modified)
+- content: 1. Beacon service
+- content: A service provided independently of weather conditions, the station transmitting
+    signals at certain fixed times daily or continuously.
+- content: 2. Clear weather transmission
+- content: Signals transmitted during clear weather by a station whose service is
+    extended during periods of fog or low visibility.
+- content: 3. Fog service
+- content: The service provided by a radio beacon as an aid to navigation during periods
+    of fog or low visibility.
+- content: 4. Calibration service
+- content: A service provided for the purpose of calibration of direction finders.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: A.L.R.S
+  modification: modified from source
+- type: authoritative
+  origin:
+    ref: A.L.R.S
+  modification: modified from source

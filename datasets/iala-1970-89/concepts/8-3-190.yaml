@@ -1,51 +1,40 @@
 ---
 id: 8-3-190
-termid: 8-3-190
+data:
+  identifier: 8-3-190
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Mooring_recovery_wire
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 8-3-190
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 8-3-190-eng
 termid: 8-3-190
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Mooring recovery wire
   normative_status: preferred
 definition:
-- content: |-
-    Swamp wire
-
-
-    A loop of fibre or wire rope, thrown over a buoy to pick up the buoy chain when lifting.
-
-
-
-    Note :
-
-
-    In the USA, the terms lariat and lasso are applied to a loop of fibre or wire rope, or chain, thrown over an unlighted buoy when picking it up out of the water.
+- content: Swamp wire
+- content: A loop of fibre or wire rope, thrown over a buoy to pick up the buoy chain
+    when lifting.
+- content: 'Note :'
+- content: In the USA, the terms lariat and lasso are applied to a loop of fibre or
+    wire rope, or chain, thrown over an unlighted buoy when picking it up out of the
+    water.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

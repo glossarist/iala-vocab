@@ -1,50 +1,43 @@
 ---
 id: 2-1-025
-termid: 2-1-025
+data:
+  identifier: 2-1-025
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Quantity_of_Light
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-1-025
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-1-025-eng
 termid: 2-1-025
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Quantity of Light
   normative_status: preferred
+- type: symbol
+  designation: Q Q = ? F.dt
+  normative_status: preferred
 definition:
-- content: |-
-    The product of luminous flux (F) and its duration (dt).
-
-
-    Symbol: Q Q = ? F.dt
-
-
-    Unit: lumen-second (lm.s), lumen-hour (lm.h)
-
-
-    Reference: C.I.E. (modified)
+- content: The product of luminous flux (F) and its duration (dt).
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
+examples:
+- content: lumen-second (lm.s), lumen-hour (lm.h)

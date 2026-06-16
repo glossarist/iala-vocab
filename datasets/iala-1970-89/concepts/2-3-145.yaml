@@ -1,56 +1,46 @@
 ---
 id: 2-3-145
-termid: 2-3-145
+data:
+  identifier: 2-3-145
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Lampholder
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-3-145
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-3-145-eng
 termid: 2-3-145
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Lampholder
   normative_status: preferred
+- type: expression
+  designation: Socket
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Socket
-
-
-    A device into which the cap of a lamp is inserted, for holding it in position and usually connecting it with the electric supply.
-
-
-
-    Note 1: In English, when the context is clear, the abbreviation Holder is commonly used.
-
-
-
-    Note 2: See Note: to 2-3-110.
-
-
-
-    Reference: C.I.E. (modified)
+- content: A device into which the cap of a lamp is inserted, for holding it in position
+    and usually connecting it with the electric supply.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: In English, when the context is clear, the abbreviation Holder is commonly
+    used.
+- content: 'See Note: to 2-3-110.'

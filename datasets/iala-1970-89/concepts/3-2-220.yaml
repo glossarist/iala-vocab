@@ -1,37 +1,32 @@
 ---
 id: 3-2-220
-termid: 3-2-220
+data:
+  identifier: 3-2-220
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-3
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-3
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Electromagnetic_horn
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 3-2-220-eng
 termid: 3-2-220
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Electromagnetic horn
   normative_status: preferred
 definition:
-- content: |-
-    Alternative terms: Electromagnetic horn (G.B.), (Electromagnetic air) Oscillator (U.S.A.)
-
-
-    A fog signal apparatus comprising a resonant diaphragm maintained in vibrating motion by electromagnetic action.
+- content: 'Alternative terms: Electromagnetic horn (G.B.), (Electromagnetic air)
+    Oscillator (U.S.A.)'
+- content: A fog signal apparatus comprising a resonant diaphragm maintained in vibrating
+    motion by electromagnetic action.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

@@ -1,44 +1,39 @@
 ---
 id: 5-3-360
-termid: 5-3-360
+data:
+  identifier: 5-3-360
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Analogue_signal
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 5-3-360
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 5-3-360-eng
 termid: 5-3-360
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Analogue signal
   normative_status: preferred
 definition:
-- content: |-
-    A signal in which the physical quantity used for transmission varies in an unquantized way according to the value of a physical quantity of the same or different nature.
-
-
-    Reference: I.E.C. (extract)
+- content: A signal in which the physical quantity used for transmission varies in
+    an unquantized way according to the value of a physical quantity of the same or
+    different nature.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.C. (extract)

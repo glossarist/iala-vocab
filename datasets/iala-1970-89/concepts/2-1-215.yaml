@@ -1,46 +1,40 @@
 ---
 id: 2-1-215
-termid: 2-1-215
+data:
+  identifier: 2-1-215
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Linear_Absorption_Coefficient
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-1-215-eng
 termid: 2-1-215
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Linear Absorption Coefficient
   normative_status: preferred
+- type: symbol
+  designation: a
+  normative_status: preferred
 definition:
-- content: |-
-    Linear Absorption Coefficient (of an absorbing medium)
-
-
-    The quotient of the internal absorptance of a path element traversed by the radiation, by the length (dl) of this element.
-
-
-    Symbol: a
-
-
-    Unit: m-1
-
-
-    Reference: C.I.E. (modified)
+- content: Linear Absorption Coefficient (of an absorbing medium)
+- content: The quotient of the internal absorptance of a path element traversed by
+    the radiation, by the length (dl) of this element.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
+examples:
+- content: m-1

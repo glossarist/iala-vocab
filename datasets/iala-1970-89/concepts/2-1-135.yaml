@@ -1,43 +1,38 @@
 ---
 id: 2-1-135
-termid: 2-1-135
+data:
+  identifier: 2-1-135
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Specular_Reflection_(2)
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-1-135-eng
 termid: 2-1-135
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Specular Reflection (2)
   normative_status: preferred
+- type: expression
+  designation: Regular Reflection
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Regular Reflection
-
-
-    Reflection without diffusion in accordance with the laws of optical reflection, as in a mirror.
-
-
-
-
-
-    Reference: C.I.E. (modified) (Fig. 7a)
+- content: Reflection without diffusion in accordance with the laws of optical reflection,
+    as in a mirror.
+- content: "![Ch2_Fig7.jpg](/iala-vocab/images/iala/Ch2_Fig7.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E.  (Fig. 7a)
+  modification: modified from source

@@ -14,7 +14,8 @@ end
 def get_eng_definition(docs)
   docs.each do |doc|
     next unless doc
-    if doc['language_code'] == 'eng'
+    lang = doc.dig('data', 'language_code') || doc['language_code']
+    if lang == 'eng'
       defs = doc['definition']
       if defs && defs.is_a?(Array) && defs[0] && defs[0]['content']
         return defs[0]['content']
@@ -30,9 +31,9 @@ Dir.glob("#{dir_1970}/*.yaml").each do |file|
     docs = YAML.load_stream(File.read(file))
     managed = docs[0]
     next unless managed
-    termid = managed['termid']
+    termid = managed.dig('data', 'identifier') || managed['termid'] || managed['id']
     next unless termid
-    
+
     eng_def = get_eng_definition(docs)
     concepts_1970[termid] = { file: file, docs: docs, eng_def: eng_def }
   rescue => e
@@ -46,9 +47,9 @@ Dir.glob("#{dir_2023}/*.yaml").each do |file|
     docs = YAML.load_stream(File.read(file))
     managed = docs[0]
     next unless managed
-    termid = managed['termid']
+    termid = managed.dig('data', 'identifier') || managed['termid'] || managed['id']
     next unless termid
-    
+
     eng_def = get_eng_definition(docs)
     concepts_2023[termid] = { file: file, docs: docs, eng_def: eng_def }
   rescue => e
@@ -87,8 +88,8 @@ concepts_1970.each do |termid, data_1970|
     
     if norm_1970 == norm_2023 && !norm_1970.empty?
       identical_count += 1
-      rel_1970 << { 'type' => 'identical', 'ref' => { 'source' => urn_2023, 'concept_id' => termid } }
-      rel_2023 << { 'type' => 'identical', 'ref' => { 'source' => urn_1970, 'concept_id' => termid } }
+      rel_1970 << { 'type' => 'equivalent', 'ref' => { 'source' => urn_2023, 'concept_id' => termid } }
+      rel_2023 << { 'type' => 'equivalent', 'ref' => { 'source' => urn_1970, 'concept_id' => termid } }
     else
       superseded_count += 1
       rel_1970 << { 'type' => 'superseded_by', 'ref' => { 'source' => urn_2023, 'concept_id' => termid } }

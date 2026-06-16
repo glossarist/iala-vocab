@@ -1,11 +1,12 @@
 ---
 id: 6-3-220
-termid: 6-3-220
+data:
+  identifier: 6-3-220
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-unknown
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-unknown
-  ref_type: section
 sources:
 - type: authoritative
   origin:
@@ -16,30 +17,20 @@ related:
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 6-3-220
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 6-3-220-spa
 termid: 6-3-220
-language_code: spa
+data:
+  language_code: spa
 terms:
 - type: expression
   designation: Cut-in wind speed (of a wind-power genearator)/es
   normative_status: preferred
 definition:
-- content: |-
-    Velocidad de arranque del viento (de un generador eólico)
-
-
-
-    Velocidad del viento a partir de la cual el generador comienza a producir energía utilizable.
+- content: Velocidad de arranque del viento (de un generador eólico)
+- content: Velocidad del viento a partir de la cual el generador comienza a producir
+    energía utilizable.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

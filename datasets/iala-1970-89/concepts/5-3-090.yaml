@@ -1,41 +1,36 @@
 ---
 id: 5-3-090
-termid: 5-3-090
+data:
+  identifier: 5-3-090
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Single_sideband_transmission_(SSB)
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-3-090-eng
 termid: 5-3-090
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Single sideband transmission (SSB)
   normative_status: preferred
 definition:
-- content: |-
-    The method of operation in which either the upper or lower sideband (as produced by the process of modulation) is transmitted.
-
-
-
-    Note: In practice the carrier is often partially or wholly suppressed.
-
-
-    Reference: I.E.C. (modified)
+- content: The method of operation in which either the upper or lower sideband (as
+    produced by the process of modulation) is transmitted.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: I.E.C
+  modification: modified from source
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: In practice the carrier is often partially or wholly suppressed.

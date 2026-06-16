@@ -1,37 +1,31 @@
 ---
 id: 4-4-185
-termid: 4-4-185
+data:
+  identifier: 4-4-185
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Decca_Lane_slip
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-4-185-eng
 termid: 4-4-185
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Decca Lane slip
   normative_status: preferred
 definition:
-- content: |-
-    Lane slip (in Decca)
-
-
-    A fault due to temporary loss of signal, etc., whereby the Decometer, while reading correctly on its fraction pointer, reads incorrectly on its lane pointer.
+- content: Lane slip (in Decca)
+- content: A fault due to temporary loss of signal, etc., whereby the Decometer, while
+    reading correctly on its fraction pointer, reads incorrectly on its lane pointer.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

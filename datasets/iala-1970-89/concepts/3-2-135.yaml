@@ -1,37 +1,32 @@
 ---
 id: 3-2-135
-termid: 3-2-135
+data:
+  identifier: 3-2-135
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-3
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-3
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Cylinder
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 3-2-135-eng
 termid: 3-2-135
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Diaphone - Cylinder
   normative_status: preferred
 definition:
-- content: |-
-    Cylinder (of a diaphone)
-
-
-    The fixed part of the modulator in which one part of the double piston slides; the modulation of the air is obtained by action of the slots on the two parts of the modulator moving in and out of concidence.
+- content: Cylinder (of a diaphone)
+- content: The fixed part of the modulator in which one part of the double piston
+    slides; the modulation of the air is obtained by action of the slots on the two
+    parts of the modulator moving in and out of concidence.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

@@ -1,25 +1,22 @@
 ---
 id: 8-4-160
-termid: 8-4-160
+data:
+  identifier: 8-4-160
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Safety_hand-hold
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2018'
 ---
 id: 8-4-160-eng
 termid: 8-4-160
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Safety hand-hold
@@ -31,24 +28,21 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
 ---
 id: 8-4-160-spa
 termid: 8-4-160
-language_code: spa
+data:
+  language_code: spa
 terms:
 - type: expression
   designation: Safety hand-hold/es
   normative_status: preferred
 definition:
-- content: "Asa de seguridad\n\n\n\nParte de la superestructura A la que se sujeta
-    el personal  de servicio para evitar caer. \n."
+- content: Asa de seguridad
+- content: |-
+    Parte de la superestructura A la que se sujeta el personal  de servicio para evitar caer.
+    .
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

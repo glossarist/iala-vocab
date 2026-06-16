@@ -1,40 +1,36 @@
 ---
 id: 5-3-430
-termid: 5-3-430
+data:
+  identifier: 5-3-430
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Gray_code
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-3-430-eng
 termid: 5-3-430
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Gray code
   normative_status: preferred
+- type: expression
+  designation: Reflected binary code
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Reflected binary code
-
-
-    A binary code in which sequential numbers are represented by binary expressions each of which differs from the preceding expression in one place only.
-
-
-    Reference: ANSI
+- content: A binary code in which sequential numbers are represented by binary expressions
+    each of which differs from the preceding expression in one place only.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: ANSI

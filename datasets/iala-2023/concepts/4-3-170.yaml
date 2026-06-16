@@ -1,47 +1,44 @@
 ---
 id: 4-3-170
-termid: 4-3-170
+data:
+  identifier: 4-3-170
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Echo_box
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 4-3-170
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-3-170-eng
 termid: 4-3-170
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Echo box
   normative_status: preferred
+- type: expression
+  designation: Phantom target (U.S.A.)
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Phantom target (U.S.A.)
-
-
-    A resonant cavity, with small damping, energised by part of the transmitted pulse power. The train of damped oscillations, immediately following the transmitted pulse, is fed into the radar receiver to provide an overall test of the radar set.
-
-
-    Reference: B.S. (modified)
+- content: A resonant cavity, with small damping, energised by part of the transmitted
+    pulse power. The train of damped oscillations, immediately following the transmitted
+    pulse, is fed into the radar receiver to provide an overall test of the radar
+    set.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: B.S
+  modification: modified from source

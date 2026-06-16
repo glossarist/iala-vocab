@@ -1,37 +1,31 @@
 ---
 id: 5-1-045
-termid: 5-1-045
+data:
+  identifier: 5-1-045
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Mean_time_to_repair
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-1-045-eng
 termid: 5-1-045
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Mean time to repair
   normative_status: preferred
 definition:
-- content: |-
-    Acronym: MTTR
-
-
-    The total corrective maintenance time divided by the total number of corrective actions during a given period of time.
+- content: 'Acronym: MTTR'
+- content: The total corrective maintenance time divided by the total number of corrective
+    actions during a given period of time.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

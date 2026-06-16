@@ -1,40 +1,35 @@
 ---
 id: 2-5-225
-termid: 2-5-225
+data:
+  identifier: 2-5-225
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Sector_Angle
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-5-225
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-5-225-eng
 termid: 2-5-225
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Sector Angle
   normative_status: preferred
 definition:
 - content: The horizontal angle subtended by a sector of a sector light. (Fig.45)
+- content: "![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

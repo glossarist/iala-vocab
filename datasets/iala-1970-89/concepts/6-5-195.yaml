@@ -1,38 +1,32 @@
 ---
 id: 6-5-195
-termid: 6-5-195
+data:
+  identifier: 6-5-195
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-6
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-6
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Battery_lead
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 6-5-195-eng
 termid: 6-5-195
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Battery lead
   normative_status: preferred
 definition:
-- content: |-
-    A cable that connects a terminal with an external circuit or load.
-
-
-
-    Note: In French, the term cosse refers to any device that enables a battery lead to be fixed to a terminal.
+- content: A cable that connects a terminal with an external circuit or load.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: In French, the term cosse refers to any device that enables a battery lead
+    to be fixed to a terminal.

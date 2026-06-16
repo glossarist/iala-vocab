@@ -1,38 +1,32 @@
 ---
 id: 1-1-240
-termid: 1-1-240
+data:
+  identifier: 1-1-240
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-1
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-1
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Wave_front
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 1-1-240-eng
 termid: 1-1-240
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Wave front
   normative_status: preferred
 definition:
-- content: |-
-    The part of the wave observed from the side towards which the wave is travelling.
-
-
-
-    Reference: I.E.C.
+- content: The part of the wave observed from the side towards which the wave is travelling.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.C

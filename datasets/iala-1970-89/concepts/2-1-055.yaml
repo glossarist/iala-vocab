@@ -1,73 +1,56 @@
 ---
 id: 2-1-055
-termid: 2-1-055
+data:
+  identifier: 2-1-055
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Illuminance
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-1-055
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-1-055-eng
 termid: 2-1-055
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Illuminance
   normative_status: preferred
+- type: symbol
+  designation: E
+  normative_status: preferred
 definition:
-- content: |-
-    Illuminance (at a point of a surface)
-
-
-    The quotient of the luminous flux (dF) incident on an infinitesimal element of the surface containing the point under consideration, by the area (dA) of that element.
-
-
-
-
-
-    Symbol: E
-
-
-    Unit: lux (lx)
-
-
-    lumen per square metre (lm/m2)
-
-
-    Reference: C.I.E. (modified)
-
-
-
-    Note 1: If the luminous flux may be considered uniformly distributed over a finite plane surface of area A, the illuminance on this surface is given by
-
-
-    (Equation)
-
-
-    where F is the total luminous flux incident on the surface.
-
-
-
-    Note 2: The continued use of the former term Illumination with the meaning above is now deprecated as this use conflicts with the general meaning of the term (2-5-010).
+- content: Illuminance (at a point of a surface)
+- content: The quotient of the luminous flux (dF) incident on an infinitesimal element
+    of the surface containing the point under consideration, by the area (dA) of that
+    element.
+- content: "![Ch2_Fig3.jpg](/iala-vocab/images/iala/Ch2_Fig3.jpg)"
+- content: lumen per square metre (lm/m2)
+- content: "(Equation)"
+- content: where F is the total luminous flux incident on the surface.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: If the luminous flux may be considered uniformly distributed over a finite
+    plane surface of area A, the illuminance on this surface is given by
+- content: The continued use of the former term Illumination with the meaning above
+    is now deprecated as this use conflicts with the general meaning of the term {{2-5-010,
+    Lighting}}.
+examples:
+- content: lux (lx)

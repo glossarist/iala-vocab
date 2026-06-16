@@ -1,44 +1,37 @@
 ---
 id: 4-2-205
-termid: 4-2-205
+data:
+  identifier: 4-2-205
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Bearing_calibration
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 4-2-205
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-2-205-eng
 termid: 4-2-205
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Bearing calibration
   normative_status: preferred
 definition:
-- content: |-
-    Bearing calibration (in direction finding)
-
-
-    The determination of bearing corrections by observations on a radio beacon station of known visual bearing, observations being taken over 360 degrees swing of the ship.
+- content: Bearing calibration (in direction finding)
+- content: The determination of bearing corrections by observations on a radio beacon
+    station of known visual bearing, observations being taken over 360 degrees swing
+    of the ship.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

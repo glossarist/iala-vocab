@@ -1,65 +1,54 @@
 ---
 id: 2-3-100
-termid: 2-3-100
+data:
+  identifier: 2-3-100
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Bulb
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2018'
 ---
 id: 2-3-100-eng
 termid: 2-3-100
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Bulb
   normative_status: preferred
 definition:
-- content: |-
-    A transparent or translucent gas-tight envelope enclosing the luminous element of a lamp.
-
-
-    Reference: C.I.E. (modified)
+- content: A transparent or translucent gas-tight envelope enclosing the luminous
+    element of a lamp.
+- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
 ---
 id: 2-3-100-spa
 termid: 2-3-100
-language_code: spa
+data:
+  language_code: spa
 terms:
 - type: expression
   designation: Bulb/es
   normative_status: preferred
 definition:
-- content: |-
-    Bulbo
-
-
-
-    Recubrimiento transparente o translúcido, hermético al gas que encierra el elemento luminoso de una lámpara.
-
-
-
-    Referencia: C.I.E. (modificado)
+- content: Bulbo
+- content: Recubrimiento transparente o translúcido, hermético al gas que encierra
+    el elemento luminoso de una lámpara.
+- content: 'Referencia: C.I.E. (modificado)'
+- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

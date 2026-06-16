@@ -1,25 +1,22 @@
 ---
 id: marginally-detectable-error-mde-
-termid: marginally-detectable-error-mde-
+data:
+  identifier: marginally-detectable-error-mde-
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-10
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-10
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Marginally_detectable_error_(MDE)
-dates:
-- type: amended
-  date: '2009'
-- type: amended
-  date: '2023'
 ---
 id: marginally-detectable-error-mde--eng
 termid: marginally-detectable-error-mde-
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Marginally detectable error (MDE)

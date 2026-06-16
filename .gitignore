@@ -3,5 +3,15 @@ dist/
 .datasets/
 reference-docs/
 .omo/
+.bundle/
+.playwright-mcp/
+# Regeneratable build outputs (produced by `npm run build`):
+public/data/
+public/datasets.json
+public/site-config.json
+public/routing.json
+public/pages/
+public/logos/
+public/favicon-links.html
 *.log
 Gemfile.lock

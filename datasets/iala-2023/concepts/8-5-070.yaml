@@ -1,44 +1,38 @@
 ---
 id: 8-5-070
-termid: 8-5-070
+data:
+  identifier: 8-5-070
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Drift_circle
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 8-5-070
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 8-5-070-eng
 termid: 8-5-070
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Drift circle
   normative_status: preferred
+- type: expression
+  designation: Watch circle
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Watch circle
-
-
-    Circle within which a vessel or buoy may ride at its mooring, under the influence of currents and tides.
+- content: Circle within which a vessel or buoy may ride at its mooring, under the
+    influence of currents and tides.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

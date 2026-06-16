@@ -1,58 +1,51 @@
 ---
 id: 8-4-145
-termid: 8-4-145
+data:
+  identifier: 8-4-145
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Fenders
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2018'
 ---
 id: 8-4-145-eng
 termid: 8-4-145
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Fenders
   normative_status: preferred
+- type: expression
+  designation: Fendering
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Fendering
-
-
-    Shock-absorbing devices surrounding a floating body to limit the effects of impact.
+- content: Shock-absorbing devices surrounding a floating body to limit the effects
+    of impact.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
 ---
 id: 8-4-145-spa
 termid: 8-4-145
-language_code: spa
+data:
+  language_code: spa
 terms:
 - type: expression
   designation: Fenders/es
   normative_status: preferred
 definition:
-- content: "Defensas\n\n\nTérmino alternativo: Fendering\n\n\n \nDispositivos  de
-    absorción de impactos  que rodean un cuerpo flotante  para  limitar los efectos
-    del impacto."
+- content: Defensas
+- content: 'Término alternativo: Fendering'
+- content: Dispositivos  de absorción de impactos  que rodean un cuerpo flotante  para  limitar
+    los efectos del impacto.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

@@ -29,13 +29,13 @@ jobs:
 
       - name: Install concept-browser
         run: |
-          # Replace file: dependencies with npm registry versions
-          npm install --ignore-scripts @glossarist/concept-browser@^0.7.37 --save --omit=dev
+          npm install --ignore-scripts
           npm install --prefix node_modules/@glossarist/concept-browser sharp 2>/dev/null || true
 
       - name: Build site
-        run: npx concept-browser build
+        run: npm run build
         env:
+          BASE_PATH: /iala-vocab/
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Upload artifact

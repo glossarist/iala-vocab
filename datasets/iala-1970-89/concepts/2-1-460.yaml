@@ -1,50 +1,43 @@
 ---
 id: 2-1-460
-termid: 2-1-460
+data:
+  identifier: 2-1-460
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Complementary_Wavelength
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-1-460
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-1-460-eng
 termid: 2-1-460
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Complementary Wavelength
   normative_status: preferred
+- type: symbol
+  designation: "?c"
+  normative_status: preferred
 definition:
-- content: |-
-    Complementary Wavelength (of a colour stimulus)
-
-
-    Wavelength of the monochromatic light stimulus that, when combined in suitable proportions with the colour stimulus considered, yields a match with the specified achromatic light stimulus.
-
-
-    Symbol: ?c
-
-
-    Reference: C.I.E.
+- content: Complementary Wavelength (of a colour stimulus)
+- content: Wavelength of the monochromatic light stimulus that, when combined in suitable
+    proportions with the colour stimulus considered, yields a match with the specified
+    achromatic light stimulus.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E

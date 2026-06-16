@@ -1,44 +1,38 @@
 ---
 id: 1-1-010
-termid: 1-1-010
+data:
+  identifier: 1-1-010
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-1
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-1
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Buoyage_and_beaconage
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 1-1-010
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 1-1-010-eng
 termid: 1-1-010
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Buoyage and beaconage
   normative_status: preferred
+- type: expression
+  designation: Sea-marking (G.B.)
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Sea-marking (G.B.)
-
-
-    Ensemble of beacons, buoys, seamarks and small lights to assist the safe and easy movement of ships.
+- content: Ensemble of beacons, buoys, seamarks and small lights to assist the safe
+    and easy movement of ships.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

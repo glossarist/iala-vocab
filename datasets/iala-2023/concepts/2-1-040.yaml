@@ -1,49 +1,50 @@
 ---
 id: 2-1-040
-termid: 2-1-040
+data:
+  identifier: 2-1-040
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Candela
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 2-1-040
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-1-040-eng
 termid: 2-1-040
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Candela
   normative_status: preferred
+- type: symbol
+  designation: cd 1 cd = 1 lumen per steradian (lm/sr)
+  normative_status: preferred
 definition:
-- content: "The SI unit of luminous intensity. \n\n\nIt is the luminous intensity,
-    in the perpendicular direction, of a surface of 1/600.000 square metre of a black
-    body at the temperature of freezing platinum, under a pressure of 101 325 newtons
-    per square metre.\n\n\nDefinition adopted by the 13th General Conference on Weights
-    and Measures (1967).\n\n\nSymbol: cd 1 cd = 1 lumen per steradian (lm/sr)\n\n\nReference:
-    C.I.E.\n\n\n\nNote: Candle, English Candle, Decimal Candle, Hefner Candel, Carcel-other
-    units of luminous intensity now superseded by the candela.\nIt is recommended
-    that these terms should not in future be used. For reference, these units (other
-    than the carcel) are approximately the same as the candela (within +/- 20%).\n\n\nA
-    carcel is approximately 10 candelas."
+- content: The SI unit of luminous intensity.
+- content: It is the luminous intensity, in the perpendicular direction, of a surface
+    of 1/600.000 square metre of a black body at the temperature of freezing platinum,
+    under a pressure of 101 325 newtons per square metre.
+- content: Definition adopted by the 13th General Conference on Weights and Measures
+    (1967).
+- content: A carcel is approximately 10 candelas.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: |-
+    Candle, English Candle, Decimal Candle, Hefner Candel, Carcel-other units of luminous intensity now superseded by the candela.
+    It is recommended that these terms should not in future be used. For reference, these units (other than the carcel) are approximately the same as the candela (within +/- 20%).

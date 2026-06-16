@@ -1,45 +1,34 @@
 ---
 id: 2-4-145
-termid: 2-4-145
+data:
+  identifier: 2-4-145
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Light_controller
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-4-145-eng
 termid: 2-4-145
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Light controller
   normative_status: preferred
 definition:
-- content: |-
-    No English Term
-
-
-    An automatic apparatus which lights and extinguishes a light as required.
-
-
-
-    Note 1: Several types of apparatus for this purpose exist. See for examples 2-4-150, 2-4-155, 2-4-160.
-
-
-
-    Note 2: The French term Economiseur is used for such apparatus when the light is a gas or vapour burner.
+- content: An automatic apparatus which lights and extinguishes a light as required.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: Several types of apparatus for this purpose exist. See for examples 2-4-150,
+    2-4-155, 2-4-160.
+- content: The French term Economiseur is used for such apparatus when the light is
+    a gas or vapour burner.

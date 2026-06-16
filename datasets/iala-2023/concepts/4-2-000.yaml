@@ -1,44 +1,39 @@
 ---
 id: 4-2-000
-termid: 4-2-000
+data:
+  identifier: 4-2-000
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_station
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 4-2-000
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-2-000-eng
 termid: 4-2-000
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Radio beacon station
   normative_status: preferred
 definition:
-- content: |-
-    A station in the radionavigation service, the emissions of which are intended to enable a mobile station to determine its bearing or direction in relation to the radio beacon station.
-
-
-    Reference: I.T.U.
+- content: A station in the radionavigation service, the emissions of which are intended
+    to enable a mobile station to determine its bearing or direction in relation to
+    the radio beacon station.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.T.U

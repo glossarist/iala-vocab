@@ -1,54 +1,43 @@
 ---
 id: directional-gain
-termid: directional-gain
+data:
+  identifier: directional-gain
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-3
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-3
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Directional_gain
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: directional-gain
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: directional-gain-eng
 termid: directional-gain
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Directional gain
   normative_status: preferred
+- type: expression
+  designation: Directivity index (of a sound source, in decibels)
+  normative_status: admitted
 definition:
-- content: |-
-    3-1 -150
-
-
-    Directional gain (of a sound source, in decibels)
-
-
-    Alternative term: Directivity index (of a sound source, in decibels)
-
-
-    Ten times the logarithm to the base 10 of the directivity factor.
-
-
-
-    Reference: I.E.C. (modified)
+- content: 3-1 -150
+- content: Directional gain (of a sound source, in decibels)
+- content: Ten times the logarithm to the base 10 of the directivity factor.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.C
+  modification: modified from source

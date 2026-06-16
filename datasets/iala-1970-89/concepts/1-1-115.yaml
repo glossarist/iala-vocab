@@ -1,47 +1,38 @@
 ---
 id: 1-1-115
-termid: 1-1-115
+data:
+  identifier: 1-1-115
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-1
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-1
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Spectrum
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 1-1-115-eng
 termid: 1-1-115
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Spectrum
   normative_status: preferred
 definition:
-- content: |-
-    Spectrum (of a radiation)
-
-
-    Spatial display of a polychromatic radiation produced by separation of its monochromatic components.
-
-
-    Composition of a polychromatic radiation.
-
-
-    Note: Examples of sense 2 Continuous spectrum, line spectrum.
-
-
-
-    Reference: C.I.E. (modified)
+- content: Spectrum (of a radiation)
+- content: Spatial display of a polychromatic radiation produced by separation of
+    its monochromatic components.
+- content: Composition of a polychromatic radiation.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: Examples of sense 2 Continuous spectrum, line spectrum.

@@ -1,40 +1,35 @@
 ---
 id: 4-3-025
-termid: 4-3-025
+data:
+  identifier: 4-3-025
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Continuous-wave_radar
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-3-025-eng
 termid: 4-3-025
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Continuous-wave radar
   normative_status: preferred
+- type: expression
+  designation: C.W. radar
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: C.W. radar
-
-
-    A type of radar which uses continuous wave transmission.
-
-
-    Reference: B.S.
+- content: A type of radar which uses continuous wave transmission.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: B.S

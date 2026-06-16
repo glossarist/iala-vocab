@@ -1,25 +1,22 @@
 ---
 id: 8-4-055
-termid: 8-4-055
+data:
+  identifier: 8-4-055
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Mooring_buoy
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2018'
 ---
 id: 8-4-055-eng
 termid: 8-4-055
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Mooring buoy
@@ -30,24 +27,19 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
 ---
 id: 8-4-055-spa
 termid: 8-4-055
-language_code: spa
+data:
+  language_code: spa
 terms:
 - type: expression
   designation: Mooring buoy/es
   normative_status: preferred
 definition:
-- content: "Boya de amarre \n\n\nBoya a la cual  pueden amarrarse embarcaciones u
-    otras estructuras flotantes."
+- content: Boya de amarre
+- content: Boya a la cual  pueden amarrarse embarcaciones u otras estructuras flotantes.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

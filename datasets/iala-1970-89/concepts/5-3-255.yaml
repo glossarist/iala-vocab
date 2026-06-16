@@ -1,37 +1,36 @@
 ---
 id: 5-3-255
-termid: 5-3-255
+data:
+  identifier: 5-3-255
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Spurious_radiation
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-3-255-eng
 termid: 5-3-255
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Spurious radiation
   normative_status: preferred
 definition:
-- content: |-
-    Radiation at a frequency or at frequencies outside the necessary band, the level of which may be reduced without affecting the corresponding transmission of information. Spurious radiation includes harmonic radiation, parasitic radiation, and unwanted intermodulation products which are remote from the necessary band.
-
-
-    Reference: C.C.I.R. (modified)
+- content: Radiation at a frequency or at frequencies outside the necessary band,
+    the level of which may be reduced without affecting the corresponding transmission
+    of information. Spurious radiation includes harmonic radiation, parasitic radiation,
+    and unwanted intermodulation products which are remote from the necessary band.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.C.I.R
+  modification: modified from source

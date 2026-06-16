@@ -1,23 +1,22 @@
 ---
 id: seafarer
-termid: seafarer
+data:
+  identifier: seafarer
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-unknown
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-unknown
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Seafarer
-dates:
-- type: amended
-  date: '2023'
 ---
 id: seafarer-eng
 termid: seafarer
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Seafarer

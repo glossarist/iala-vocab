@@ -1,52 +1,41 @@
 ---
 id: 2-1-070
-termid: 2-1-070
+data:
+  identifier: 2-1-070
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Light_Exposure
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-1-070-eng
 termid: 2-1-070
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Light Exposure
   normative_status: preferred
+- type: symbol
+  designation: H H = ?E.dt
+  normative_status: preferred
 definition:
-- content: |-
-    The product of an illuminance (E) and its duration (dt).
-
-
-    Symbol: H H = ?E.dt
-
-
-    Unit: lux-second (lx.s)
-
-
-
-    Note 1: Formerly Quantity of Illumination and, in French, Quantite d'Eclairement.
-
-
-
-    Note 2: Equivalent definition Surface density of the quantity of light received.
-
-
-
-    Reference: C.I.E. (modified)
+- content: The product of an illuminance (E) and its duration (dt).
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: Formerly Quantity of Illumination and, in French, Quantite d'Eclairement.
+- content: Equivalent definition Surface density of the quantity of light received.
+examples:
+- content: lux-second (lx.s)

@@ -1,30 +1,27 @@
 ---
 id: 2-2-070
-termid: 2-2-070
+data:
+  identifier: 2-2-070
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Catadioptric
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-2-070
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-2-070-eng
 termid: 2-2-070
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Catadioptric
@@ -33,10 +30,10 @@ definition:
 - content: The property of those optical elements which alter the direction of a light
     ray from its original direction by both refraction and reflection. (Figs. 10,
     11c and 16a)
+- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: "![Ch2_Fig11.jpg](/iala-vocab/images/iala/Ch2_Fig11.jpg)"
+- content: "![Ch2_Fig16a.jpg](/iala-vocab/images/iala/Ch2_Fig16a.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

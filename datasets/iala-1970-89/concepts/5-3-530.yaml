@@ -1,44 +1,40 @@
 ---
 id: 5-3-530
-termid: 5-3-530
+data:
+  identifier: 5-3-530
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Quantization
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 5-3-530
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 5-3-530-eng
 termid: 5-3-530
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Quantization
   normative_status: preferred
 definition:
-- content: |-
-    A process in which the range of values of a variable is divided into a finite number of smaller subranges, each of which is represented by an assigned or "quantized" value within the subrange.
-
-
-    Reference: I.E.C. (modified)
+- content: A process in which the range of values of a variable is divided into a
+    finite number of smaller subranges, each of which is represented by an assigned
+    or "quantized" value within the subrange.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.C
+  modification: modified from source

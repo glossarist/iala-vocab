@@ -1,40 +1,35 @@
 ---
 id: 6-8-090
-termid: 6-8-090
+data:
+  identifier: 6-8-090
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-6
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-6
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Total_loss
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 6-8-090-eng
 termid: 6-8-090
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Total loss
   normative_status: preferred
+- type: expression
+  designation: "(total) losses"
+  normative_status: admitted
 definition:
-- content: |-
-    (total) loss
-
-
-    Alternative term: (total) losses
-
-
-    The difference between the input power and the output power of a device. Note:  The loss will usually appear as heat.
+- content: "(total) loss"
+- content: The difference between the input power and the output power of a device.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: The loss will usually appear as heat.

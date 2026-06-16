@@ -1,37 +1,36 @@
 ---
 id: 4-1-515
-termid: 4-1-515
+data:
+  identifier: 4-1-515
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Yagi_antenna
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-1-515-eng
 termid: 4-1-515
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Yagi antenna
   normative_status: preferred
 definition:
-- content: |-
-    An antenna comprising one primary or fed element and two or more secondary or parasitic elements lying parallel to it in a single plane so as to constitute an end fire array. The usual arrangement of secondary elements consists of one reflector and one or more directors.
-
-
-    Reference: B.S. (modified)
+- content: An antenna comprising one primary or fed element and two or more secondary
+    or parasitic elements lying parallel to it in a single plane so as to constitute
+    an end fire array. The usual arrangement of secondary elements consists of one
+    reflector and one or more directors.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: B.S
+  modification: modified from source

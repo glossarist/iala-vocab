@@ -1,44 +1,36 @@
 ---
 id: 2-2-100
-termid: 2-2-100
+data:
+  identifier: 2-2-100
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Drum_Lens
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 2-2-100
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-2-100-eng
 termid: 2-2-100
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Drum Lens
   normative_status: preferred
 definition:
-- content: |-
-    (Dioptric) Drum Lens
-
-
-    A fixed lens consisting of dioptric elements only. (Fig. 16b)
+- content: "(Dioptric) Drum Lens"
+- content: A fixed lens consisting of dioptric elements only. (Fig. 16b)
+- content: "![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

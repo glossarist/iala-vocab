@@ -1,41 +1,33 @@
 ---
 id: 8-3-180
-termid: 8-3-180
+data:
+  identifier: 8-3-180
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Lashing
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 8-3-180-eng
 termid: 8-3-180
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Lashing
   normative_status: preferred
 definition:
-- content: |-
-    A device of rope or wire rope for securing a body to prevent motion in seaway. Lashings are usually adjustable.
-
-
-
-    Note :
-
-
-    In Great Britain, devices for securing buoys or boats, consisting of bands or chains, are called gripes.
+- content: A device of rope or wire rope for securing a body to prevent motion in
+    seaway. Lashings are usually adjustable.
+- content: 'Note :'
+- content: In Great Britain, devices for securing buoys or boats, consisting of bands
+    or chains, are called gripes.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

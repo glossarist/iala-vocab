@@ -1,40 +1,33 @@
 ---
 id: 4-4-235
-termid: 4-4-235
+data:
+  identifier: 4-4-235
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Electrical_centre
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-4-235-eng
 termid: 4-4-235
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Electrical centre
   normative_status: preferred
 definition:
-- content: |-
-    Electrical centre (of a ship)
-
-
-    The reference point on the vessel which is determined for each individual navigational system.
-
-
-    It is used to measure distance and is determined by calibration at a known range on a number of different headings.
+- content: Electrical centre (of a ship)
+- content: The reference point on the vessel which is determined for each individual
+    navigational system.
+- content: It is used to measure distance and is determined by calibration at a known
+    range on a number of different headings.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

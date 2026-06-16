@@ -1,44 +1,39 @@
 ---
 id: 3-2-105
-termid: 3-2-105
+data:
+  identifier: 3-2-105
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-3
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-3
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Horn
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 3-2-105
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 3-2-105-eng
 termid: 3-2-105
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Horn
   normative_status: preferred
+- type: expression
+  designation: Trumpet
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Trumpet
-
-
-    A flared tube designed to match the acoustic impedance to the impedance of the atmosphere; it can behave as a resonator and can influence the directivity; the narrow end is called the throat and the large end the mouth.
+- content: A flared tube designed to match the acoustic impedance to the impedance
+    of the atmosphere; it can behave as a resonator and can influence the directivity;
+    the narrow end is called the throat and the large end the mouth.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

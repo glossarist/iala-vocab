@@ -1,37 +1,29 @@
 ---
 id: 2-5-055
-termid: 2-5-055
+data:
+  identifier: 2-5-055
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Lighted_coastal_mark
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-5-055-eng
 termid: 2-5-055
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Lighted coastal mark
   normative_status: preferred
 definition:
-- content: |-
-    No English Term
-
-
-    A lighted coastal mark (2-6-020).
+- content: A lighted coastal mark {{2-6-020, Coastal Mark}}.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

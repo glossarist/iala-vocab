@@ -1,44 +1,39 @@
 ---
 id: 4-1-490
-termid: 4-1-490
+data:
+  identifier: 4-1-490
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Biconical_antenna
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 4-1-490
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-1-490-eng
 termid: 4-1-490
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Biconical antenna
   normative_status: preferred
 definition:
-- content: |-
-    An antenna formed by two conical conductors, having a common axis and vertex, and excited at the vertex.
-
-
-    Reference: B.S. (modified)
+- content: An antenna formed by two conical conductors, having a common axis and vertex,
+    and excited at the vertex.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: B.S
+  modification: modified from source

@@ -1,44 +1,40 @@
 ---
 id: 2-2-185
-termid: 2-2-185
+data:
+  identifier: 2-2-185
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Rotating_Optic
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 2-2-185
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-2-185-eng
 termid: 2-2-185
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Rotating Optic
   normative_status: preferred
+- type: expression
+  designation: Revolving Optic
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Revolving Optic
-
-
-    An assembly of one or more optical panels revolving about a vertical axis, and intended to produce a flashing light by Method a. of Note 1: to 2-2-180.
+- content: An assembly of one or more optical panels revolving about a vertical axis,
+    and intended to produce a flashing light by Method a. of
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: to 2-2-180.

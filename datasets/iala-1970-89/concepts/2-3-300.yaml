@@ -1,56 +1,45 @@
 ---
 id: 2-3-300
-termid: 2-3-300
+data:
+  identifier: 2-3-300
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Fluorescence
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-3-300
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2018'
-- type: amended
-  date: '2023'
 ---
 id: 2-3-300-eng
 termid: 2-3-300
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Fluorescence
   normative_status: preferred
 definition:
-- content: |-
-    Photoluminescence which persists for an extremely short time after excitation.
-
-
-
-    Note: This time is generally less than about 10-8 second.
-
-
-    Reference: C.I.E. (extract)
-
-
-
-
-
-    Note from Guideline G1134: Referring to surface colours, G1134 provides the following further explanation of fluorscence. Fluorescence is the process by which electromagnetic radiation of one wavelength is absorbed and re-radiated at another wavelength.  Sometimes a fluorescent material will absorb non-visible light and emit it as visible light.  Fluorescence and ordinary reflectance of radiation take place simultaneously and at the same wavelengths.
+- content: Photoluminescence which persists for an extremely short time after excitation.
+- content: 'Note from Guideline G1134: Referring to surface colours, G1134 provides
+    the following further explanation of fluorscence. Fluorescence is the process
+    by which electromagnetic radiation of one wavelength is absorbed and re-radiated
+    at another wavelength.  Sometimes a fluorescent material will absorb non-visible
+    light and emit it as visible light.  Fluorescence and ordinary reflectance of
+    radiation take place simultaneously and at the same wavelengths.'
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E. (extract)
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: This time is generally less than about 10-8 second.

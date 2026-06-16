@@ -1,43 +1,39 @@
 ---
 id: 5-2-075
-termid: 5-2-075
+data:
+  identifier: 5-2-075
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Closed_loop_control_system
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-2-075-eng
 termid: 5-2-075
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Closed loop control system
   normative_status: preferred
 definition:
-- content: |-
-    A control system in which the objective is that the controlled quantity attain a desired performance and be then measured and compared with a standard representing that performance.
-
-
-    Note:: Any deviation from the standard is fed back into the control system in such a sense
-
-
-    that it will reduce the deviation of the controlled quantity from the standard.
-
-
-    Reference: I.E.E.E. (modified)
+- content: A control system in which the objective is that the controlled quantity
+    attain a desired performance and be then measured and compared with a standard
+    representing that performance.
+- content: that it will reduce the deviation of the controlled quantity from the standard.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: I.E.E.E
+  modification: modified from source
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: ": Any deviation from the standard is fed back into the control system
+    in such a sense"

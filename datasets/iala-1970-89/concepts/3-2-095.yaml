@@ -1,37 +1,32 @@
 ---
 id: 3-2-095
-termid: 3-2-095
+data:
+  identifier: 3-2-095
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-3
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-3
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Rotor_of_a_siren
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 3-2-095-eng
 termid: 3-2-095
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Rotor of a siren
   normative_status: preferred
 definition:
-- content: |-
-    Rotor (of a siren)
-
-
-    The moving part of the modulator containing apertures or "ports" corresponding to those of the stator. The relative displacement between the two sets of ports interrupts the flow of compressed air thereby producing a modulated output.
+- content: Rotor (of a siren)
+- content: The moving part of the modulator containing apertures or "ports" corresponding
+    to those of the stator. The relative displacement between the two sets of ports
+    interrupts the flow of compressed air thereby producing a modulated output.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

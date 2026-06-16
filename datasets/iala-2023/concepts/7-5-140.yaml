@@ -1,44 +1,37 @@
 ---
 id: 7-5-140
-termid: 7-5-140
+data:
+  identifier: 7-5-140
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-7
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-7
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Modulus_of_elasticity
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 7-5-140
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 7-5-140-eng
 termid: 7-5-140
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Modulus of elasticity
   normative_status: preferred
+- type: expression
+  designation: Young's modulus
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Young's modulus
-
-
-    The ratio of stress to strain for a particular material.
+- content: The ratio of stress to strain for a particular material.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

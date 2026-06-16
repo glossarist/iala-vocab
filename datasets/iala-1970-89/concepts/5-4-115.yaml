@@ -1,37 +1,33 @@
 ---
 id: 5-4-115
-termid: 5-4-115
+data:
+  identifier: 5-4-115
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Signal_convertor
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-4-115-eng
 termid: 5-4-115
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Signal convertor
   normative_status: preferred
 definition:
-- content: |-
-    A device whose input and output signals are two different representations of the same physical quantity (e.g., analogue and digital).
-
-
-    Reference: I.E.C.
+- content: A device whose input and output signals are two different representations
+    of the same physical quantity (e.g., analogue and digital).
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.C

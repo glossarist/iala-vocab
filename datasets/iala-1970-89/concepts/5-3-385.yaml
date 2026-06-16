@@ -1,37 +1,32 @@
 ---
 id: 5-3-385
-termid: 5-3-385
+data:
+  identifier: 5-3-385
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Digitize
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-3-385-eng
 termid: 5-3-385
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Digitize
   normative_status: preferred
 definition:
-- content: |-
-    To express data in digital form.
-
-
-    Reference: ANSI
+- content: To express data in digital form.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: ANSI

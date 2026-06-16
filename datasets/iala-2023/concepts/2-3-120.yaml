@@ -1,48 +1,39 @@
 ---
 id: 2-3-120
-termid: 2-3-120
+data:
+  identifier: 2-3-120
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Bayonet_Cap
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 2-3-120
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-3-120-eng
 termid: 2-3-120
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Bayonet Cap
   normative_status: preferred
 definition:
-- content: |-
-    A cap (type B) with small pins on its shell which engage.in slots in a lampholder.
-
-
-
-
-
-
-    Reference: C.I.E.
+- content: A cap (type B) with small pins on its shell which engage.in slots in a
+    lampholder.
+- content: "![Ch2_Fig24.jpg](/iala-vocab/images/iala/Ch2_Fig24.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E

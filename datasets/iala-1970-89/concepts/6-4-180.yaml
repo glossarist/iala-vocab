@@ -1,37 +1,32 @@
 ---
 id: 6-4-180
-termid: 6-4-180
+data:
+  identifier: 6-4-180
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-6
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-6
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Direct-current_generator
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 6-4-180-eng
 termid: 6-4-180
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Direct-current generator
   normative_status: preferred
+- type: expression
+  designation: d.c. generator, Dynamo
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: d.c. generator, Dynamo
-
-
-    A generator for the production of direct current and voltage.
+- content: A generator for the production of direct current and voltage.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

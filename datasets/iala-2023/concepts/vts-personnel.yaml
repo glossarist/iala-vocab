@@ -1,37 +1,31 @@
 ---
 id: vts-personnel
-termid: vts-personnel
+data:
+  identifier: vts-personnel
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-9
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-9
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/VTS_Personnel
-dates:
-- type: amended
-  date: '2012'
-- type: amended
-  date: '2023'
 ---
 id: vts-personnel-eng
 termid: vts-personnel
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: VTS Personnel
   normative_status: preferred
 definition:
+- content: urn:mrn:iala:dic:0901048e
+- content: VTS personnel are persons performing tasks associated with vessel traffic
+    services, trained in vessel traffic services operations and appropriately qualified.
 - content: |-
-    urn:mrn:iala:dic:0901048e
-
-
-    VTS personnel are persons performing tasks associated with vessel traffic services, trained in vessel traffic services operations and appropriately qualified.
-
-
     Source: IMO Resolution A.1158(32)
     IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
 sources:

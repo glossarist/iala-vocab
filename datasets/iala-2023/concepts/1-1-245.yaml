@@ -1,45 +1,37 @@
 ---
 id: 1-1-245
-termid: 1-1-245
+data:
+  identifier: 1-1-245
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-1
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-1
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Progressive_wave
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 1-1-245
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 1-1-245-eng
 termid: 1-1-245
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Progressive wave
   normative_status: preferred
 definition:
-- content: |-
-    A wave which is propagated freely in a medium.
-
-
-
-    Reference: I.E.C.
+- content: A wave which is propagated freely in a medium.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.C

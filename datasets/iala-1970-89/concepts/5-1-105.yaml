@@ -1,44 +1,39 @@
 ---
 id: 5-1-105
-termid: 5-1-105
+data:
+  identifier: 5-1-105
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Burn-in
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 5-1-105
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 5-1-105-eng
 termid: 5-1-105
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Burn-in
   normative_status: preferred
 definition:
-- content: |-
-    The operation of an item prior to its ultimate application, intended to stabilize its failure rate.
-
-
-    Reference: I.E.E.E. (modified)
+- content: The operation of an item prior to its ultimate application, intended to
+    stabilize its failure rate.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.E.E
+  modification: modified from source

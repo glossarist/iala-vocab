@@ -1,37 +1,33 @@
 ---
 id: 8-5-065
-termid: 8-5-065
+data:
+  identifier: 8-5-065
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Thrash_(chain)
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 8-5-065-eng
 termid: 8-5-065
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Thrash (chain)
   normative_status: preferred
+- type: expression
+  designation: Chafe (chain) (USA)
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Chafe (chain) (USA)
-
-
-    That part of a mooring chain of a buoy that is constantly rubbing on the sea-bed as the buoy rises and falls.
+- content: That part of a mooring chain of a buoy that is constantly rubbing on the
+    sea-bed as the buoy rises and falls.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

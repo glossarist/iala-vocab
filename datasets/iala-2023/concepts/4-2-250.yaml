@@ -1,44 +1,37 @@
 ---
 id: 4-2-250
-termid: 4-2-250
+data:
+  identifier: 4-2-250
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Correction_curve
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 4-2-250
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-2-250-eng
 termid: 4-2-250
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Correction curve
   normative_status: preferred
 definition:
-- content: |-
-    Correction curve (of a direction finder)
-
-
-    A curve applicable to a particular direction finder and which shows the correction required to      the observed bearings, as a function of that bearing and the frequency to eliminate the systematic installation errors.
+- content: Correction curve (of a direction finder)
+- content: A curve applicable to a particular direction finder and which shows the
+    correction required to      the observed bearings, as a function of that bearing
+    and the frequency to eliminate the systematic installation errors.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

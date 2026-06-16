@@ -1,51 +1,42 @@
 ---
 id: 4-1-340
-termid: 4-1-340
+data:
+  identifier: 4-1-340
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Isotropic_radiator
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 4-1-340
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-1-340-eng
 termid: 4-1-340
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Isotropic radiator
   normative_status: preferred
 definition:
-- content: |-
-    Unipole (U.S.A.)
-
-
-    An antenna which radiates or receives uniformly in all directions.
-
-
-
-    Note: This is a hypothetical concept used as a standard in connection with the gain function.
-
-
-    Reference: B.S. (modified)
+- content: Unipole (U.S.A.)
+- content: An antenna which radiates or receives uniformly in all directions.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: B.S
+  modification: modified from source
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: This is a hypothetical concept used as a standard in connection with the
+    gain function.

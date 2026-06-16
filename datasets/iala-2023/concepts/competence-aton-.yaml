@@ -1,38 +1,31 @@
 ---
 id: competence-aton-
-termid: competence-aton-
+data:
+  identifier: competence-aton-
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-1
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-1
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Competence_(AtoN)
-dates:
-- type: amended
-  date: '2018'
-- type: amended
-  date: '2023'
 ---
 id: competence-aton--eng
 termid: competence-aton-
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Competence (AtoN)
   normative_status: preferred
 definition:
-- content: |-
-    Competence (AtoN) is having the knowledge, skills, attitude and personal attributes necessary to safely, effectively and efficiently carry out the functions or sub-functions assigned to a specific AtoN position.
-
-
-
-
-
-    Source: ENG7, Recommendation R0141
+- content: Competence (AtoN) is having the knowledge, skills, attitude and personal
+    attributes necessary to safely, effectively and efficiently carry out the functions
+    or sub-functions assigned to a specific AtoN position.
+- content: 'Source: ENG7, Recommendation R0141'
 sources:
 - type: authoritative
   origin:

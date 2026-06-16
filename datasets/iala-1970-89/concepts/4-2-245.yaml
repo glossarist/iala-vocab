@@ -1,41 +1,34 @@
 ---
 id: 4-2-245
-termid: 4-2-245
+data:
+  identifier: 4-2-245
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Error_curve
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-2-245-eng
 termid: 4-2-245
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Error curve
   normative_status: preferred
 definition:
-- content: |-
-    Error curve (of a direction finder)
-
-
-    A curve applicable to a particular direction finder and which shows the installation errors as a function of some specified variable.
-
-
-
-    Note: Use is commonly made of a family of such error curves as a function of true bearing with frequency as the parameter.
+- content: Error curve (of a direction finder)
+- content: A curve applicable to a particular direction finder and which shows the
+    installation errors as a function of some specified variable.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: Use is commonly made of a family of such error curves as a function of
+    true bearing with frequency as the parameter.

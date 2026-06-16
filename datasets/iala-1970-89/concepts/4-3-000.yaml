@@ -1,37 +1,35 @@
 ---
 id: 4-3-000
-termid: 4-3-000
+data:
+  identifier: 4-3-000
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Radar
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-3-000-eng
 termid: 4-3-000
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Radar
   normative_status: preferred
 definition:
-- content: |-
-    A radio determination system which measures distance and usually direction by a comparison of reference signals with the radio signals reflected or retransmitted from the object whose position is to be determined.
-
-
-    Reference: I.T.U. (modified)
+- content: A radio determination system which measures distance and usually direction
+    by a comparison of reference signals with the radio signals reflected or retransmitted
+    from the object whose position is to be determined.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.T.U
+  modification: modified from source

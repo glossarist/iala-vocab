@@ -1,23 +1,22 @@
 ---
 id: 6-2-235
-termid: 6-2-235
+data:
+  identifier: 6-2-235
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-6
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-6
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Compressed_air
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 6-2-235-eng
 termid: 6-2-235
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Compressed air
@@ -28,6 +27,3 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

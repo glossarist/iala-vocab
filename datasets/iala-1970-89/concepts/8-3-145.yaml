@@ -1,37 +1,34 @@
 ---
 id: 8-3-145
-termid: 8-3-145
+data:
+  identifier: 8-3-145
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Buoy_working_gangway_(GB)
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 8-3-145-eng
 termid: 8-3-145
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Buoy working gangway (GB)
   normative_status: preferred
+- type: expression
+  designation: Buoy port (USA)
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Buoy port (USA)
-
-
-    Opening in the ship's bulwarks through which buoy chain is led and the buoys and sinkers are embarked. The steelwork in the area is reinforced and a ramp or roller is fitted.
+- content: Opening in the ship's bulwarks through which buoy chain is led and the
+    buoys and sinkers are embarked. The steelwork in the area is reinforced and a
+    ramp or roller is fitted.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

@@ -1,43 +1,36 @@
 ---
 id: 2-1-170
-termid: 2-1-170
+data:
+  identifier: 2-1-170
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Regular_Transmission
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-1-170-eng
 termid: 2-1-170
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Regular Transmission
   normative_status: preferred
+- type: expression
+  designation: Direct Transmission
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Direct Transmission
-
-
-    Transmission without diffusion. (Fig. 8a)
-
-
-
-
-
-    Reference: C.I.E.
+- content: Transmission without diffusion. (Fig. 8a)
+- content: "![Ch2_Fig8.jpg](/iala-vocab/images/iala/Ch2_Fig8.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E

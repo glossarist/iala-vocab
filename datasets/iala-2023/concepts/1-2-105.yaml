@@ -1,44 +1,39 @@
 ---
 id: 1-2-105
-termid: 1-2-105
+data:
+  identifier: 1-2-105
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-1
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-1
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Celestial_horizon
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 1-2-105
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 1-2-105-eng
 termid: 1-2-105
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Celestial horizon
   normative_status: preferred
+- type: expression
+  designation: Rational horizon
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Rational horizon
-
-
-    The great circle on the celestial sphere, every point of which is 90 degrees from the observer's zenith. This circle encloses the horizontal plane through the observer and divides the celestial sphere into two hemispheres.
+- content: The great circle on the celestial sphere, every point of which is 90 degrees
+    from the observer's zenith. This circle encloses the horizontal plane through
+    the observer and divides the celestial sphere into two hemispheres.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

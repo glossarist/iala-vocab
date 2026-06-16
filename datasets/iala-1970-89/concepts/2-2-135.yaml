@@ -1,47 +1,41 @@
 ---
 id: 2-2-135
-termid: 2-2-135
+data:
+  identifier: 2-2-135
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Fresnel_Profile
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-2-135
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-2-135-eng
 termid: 2-2-135
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Fresnel Profile
   normative_status: preferred
 definition:
-- content: |-
-    Fresnel Profile (of a lens or fixed lens)
-
-
-    A stepped profile of both dioptric and catadioptric elements, the dioptric part of which presents one straight side towards the focus.
-
-
-    (Figs. 10, 14 and 16)
+- content: Fresnel Profile (of a lens or fixed lens)
+- content: A stepped profile of both dioptric and catadioptric elements, the dioptric
+    part of which presents one straight side towards the focus.
+- content: "(Figs. 10, 14 and 16)"
+- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: "![Ch2_Fig14.jpg](/iala-vocab/images/iala/Ch2_Fig14.jpg)"
+- content: "![Ch2_Fig16a.jpg](/iala-vocab/images/iala/Ch2_Fig16a.jpg)"
+- content: "![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

@@ -1,30 +1,27 @@
 ---
 id: 2-2-140
-termid: 2-2-140
+data:
+  identifier: 2-2-140
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Fresnel_Lens
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-2-140
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-2-140-eng
 termid: 2-2-140
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Fresnel Lens
@@ -33,10 +30,8 @@ definition:
 - content: A prismatic lens obtained by the rotation of a Fresnel profile about the
     optical axis of the lens (Fresnel Panel), or about a vertical axis (Fresnel Drum
     Lens).
+- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

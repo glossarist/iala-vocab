@@ -1,44 +1,39 @@
 ---
 id: 4-1-415
-termid: 4-1-415
+data:
+  identifier: 4-1-415
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Dipole
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 4-1-415
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-1-415-eng
 termid: 4-1-415
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Dipole
   normative_status: preferred
 definition:
-- content: |-
-    An open antenna excited in such a way that the standing wave of current is symmetrical about the mid point of the antenna.
-
-
-    Reference: B.S. (modified)
+- content: An open antenna excited in such a way that the standing wave of current
+    is symmetrical about the mid point of the antenna.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: B.S
+  modification: modified from source

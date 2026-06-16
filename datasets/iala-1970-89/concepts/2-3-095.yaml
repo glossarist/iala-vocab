@@ -1,75 +1,53 @@
 ---
 id: 2-3-095
-termid: 2-3-095
+data:
+  identifier: 2-3-095
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Filament_Support
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2018'
 ---
 id: 2-3-095-eng
 termid: 2-3-095
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Filament Support
   normative_status: preferred
 definition:
-- content: |-
-    (Filament) Support
-
-
-    A metal wire used to support a filament of a lamp.
-
-
-
-
-
-    Reference: C.I.E. (modified)
+- content: "(Filament) Support"
+- content: A metal wire used to support a filament of a lamp.
+- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
 ---
 id: 2-3-095-spa
 termid: 2-3-095
-language_code: spa
+data:
+  language_code: spa
 terms:
 - type: expression
   designation: Filament Support/es
   normative_status: preferred
 definition:
-- content: |-
-    Soporte del filamento
-
-
-
-
-
-    Alambre de metal utilizado como soporte del filamento de una lámpara.
-
-
-
-
-
-    Referencia: C.I.E. (modified)
+- content: Soporte del filamento
+- content: Alambre de metal utilizado como soporte del filamento de una lámpara.
+- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
+- content: 'Referencia: C.I.E.'
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

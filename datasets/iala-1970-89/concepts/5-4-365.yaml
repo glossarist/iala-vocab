@@ -1,23 +1,22 @@
 ---
 id: 5-4-365
-termid: 5-4-365
+data:
+  identifier: 5-4-365
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Transmissometer
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-4-365-eng
 termid: 5-4-365
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Transmissometer
@@ -27,11 +26,8 @@ definition:
     of radiation along a straight path through the atmosphere, resulting from the
     presence of particles which cause scattering and absorption of radiation out of
     the path. In a homogenous atmosphere, the attenuation can be directly related
-    to the atmospheric transmission factor (2-1-270).
+    to the atmospheric transmission factor {{2-1-270, Atmospheric Transmission Factor}}.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

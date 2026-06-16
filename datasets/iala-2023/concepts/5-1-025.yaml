@@ -1,30 +1,27 @@
 ---
 id: 5-1-025
-termid: 5-1-025
+data:
+  identifier: 5-1-025
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Availability_(qualitative)
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 5-1-025
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 5-1-025-eng
 termid: 5-1-025
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Availability (qualitative)
@@ -35,6 +32,3 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

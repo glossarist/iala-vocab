@@ -1,25 +1,22 @@
 ---
 id: marginally-detectable-bias-mdb-
-termid: marginally-detectable-bias-mdb-
+data:
+  identifier: marginally-detectable-bias-mdb-
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-10
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-10
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Marginally_detectable_bias_(MDB)
-dates:
-- type: amended
-  date: '2009'
-- type: amended
-  date: '2023'
 ---
 id: marginally-detectable-bias-mdb--eng
 termid: marginally-detectable-bias-mdb-
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Marginally detectable bias (MDB)

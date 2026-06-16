@@ -1,25 +1,22 @@
 ---
 id: craft-autonomous-integrity-monitoring-caim-
-termid: craft-autonomous-integrity-monitoring-caim-
+data:
+  identifier: craft-autonomous-integrity-monitoring-caim-
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-10
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-10
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Craft_autonomous_integrity_monitoring_(CAIM)
-dates:
-- type: amended
-  date: '2009'
-- type: amended
-  date: '2023'
 ---
 id: craft-autonomous-integrity-monitoring-caim--eng
 termid: craft-autonomous-integrity-monitoring-caim-
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Craft autonomous integrity monitoring (CAIM)

@@ -1,40 +1,34 @@
 ---
 id: 4-1-915
-termid: 4-1-915
+data:
+  identifier: 4-1-915
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Standard_(radio)_atmosphere
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-1-915-eng
 termid: 4-1-915
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Standard (radio) atmosphere
   normative_status: preferred
 definition:
-- content: |-
-    Standard (radio) atmosphere (for tropospheric propagation)
-
-
-    An atmosphere having the standard refractive modulus gradient.
-
-
-    Reference: C.C.I.R. (modified)
+- content: Standard (radio) atmosphere (for tropospheric propagation)
+- content: An atmosphere having the standard refractive modulus gradient.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.C.I.R
+  modification: modified from source

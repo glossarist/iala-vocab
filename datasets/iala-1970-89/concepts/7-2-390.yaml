@@ -1,37 +1,32 @@
 ---
 id: 7-2-390
-termid: 7-2-390
+data:
+  identifier: 7-2-390
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-7
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-7
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Clamp
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 7-2-390-eng
 termid: 7-2-390
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Clamp
   normative_status: preferred
+- type: expression
+  designation: Cramp
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Cramp
-
-
-    A tool or fixing for holding members in place temporarily, by friction.
+- content: A tool or fixing for holding members in place temporarily, by friction.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

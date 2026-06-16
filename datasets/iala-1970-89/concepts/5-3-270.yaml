@@ -1,37 +1,37 @@
 ---
 id: 5-3-270
-termid: 5-3-270
+data:
+  identifier: 5-3-270
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Intermodulation_products
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-3-270-eng
 termid: 5-3-270
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Intermodulation products
   normative_status: preferred
 definition:
-- content: |-
-    Spurious radiation at frequencies resulting from intermodulation between the oscillation and the carrier, characteristic or harmonic frequencies of an emission, or the oscillations which appear when this carrier or characteristic oscillations are produced, and oscillations of the same nature of the same or several other emissions originating from the same or different transmitting systems.
-
-
-    Reference: C.C.I.R. (modified)
+- content: Spurious radiation at frequencies resulting from intermodulation between
+    the oscillation and the carrier, characteristic or harmonic frequencies of an
+    emission, or the oscillations which appear when this carrier or characteristic
+    oscillations are produced, and oscillations of the same nature of the same or
+    several other emissions originating from the same or different transmitting systems.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.C.I.R
+  modification: modified from source

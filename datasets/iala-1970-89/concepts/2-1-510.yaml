@@ -1,40 +1,36 @@
 ---
 id: 2-1-510
-termid: 2-1-510
+data:
+  identifier: 2-1-510
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Thermal_Radiation
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-1-510-eng
 termid: 2-1-510
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Thermal Radiation
   normative_status: preferred
 definition:
-- content: |-
-    Process of emission in which the radiant energy originates in the thermal agitation of the particles of matter (atoms, molecules, ions).
-
-
-    Note: The terms "thermal radiation" and, in German Temperaturstrahlung apply not only to the process of emission, but also to the radiation itself.
-
-
-    Reference: C.I.E.
+- content: Process of emission in which the radiant energy originates in the thermal
+    agitation of the particles of matter (atoms, molecules, ions).
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: The terms "thermal radiation" and, in German Temperaturstrahlung apply
+    not only to the process of emission, but also to the radiation itself.

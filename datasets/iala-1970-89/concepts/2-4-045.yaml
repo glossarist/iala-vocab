@@ -1,44 +1,37 @@
 ---
 id: 2-4-045
-termid: 2-4-045
+data:
+  identifier: 2-4-045
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Mercury_Bath
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-4-045
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-4-045-eng
 termid: 2-4-045
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Mercury Bath
   normative_status: preferred
 definition:
-- content: |-
-    Alternative ter: Mercury Trough
-
-
-    An annular trough containing mercury on which the optic of a revolving light floats, usually under the guidance of rollers.
+- content: 'Alternative ter: Mercury Trough'
+- content: An annular trough containing mercury on which the optic of a revolving
+    light floats, usually under the guidance of rollers.
+- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

@@ -1,44 +1,38 @@
 ---
 id: 2-6-105
-termid: 2-6-105
+data:
+  identifier: 2-6-105
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Wreck_Mark_(or_Buoy)
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 2-6-105
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-6-105-eng
 termid: 2-6-105
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Wreck Mark (or Buoy)
   normative_status: preferred
+- type: expression
+  designation: Wreck-Marking Buoy
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Wreck-Marking Buoy
-
-
-    A mark (or buoy) marking the position of a wreck.
+- content: A mark (or buoy) marking the position of a wreck.
+- content: "![Ch2_Fig54.jpg](/iala-vocab/images/iala/Ch2_Fig54.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

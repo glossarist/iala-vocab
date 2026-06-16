@@ -1,47 +1,38 @@
 ---
 id: 2-6-155
-termid: 2-6-155
+data:
+  identifier: 2-6-155
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Daylight_Signal_Light
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 2-6-155
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-6-155-eng
 termid: 2-6-155
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Daylight Signal Light
   normative_status: preferred
 definition:
-- content: |-
-    A signal light exhibited by day and also, usually with reduced intensity, by night.
-
-
-    This reduction of intensity is made in order to avoid glare.
-
-
-    Daylight signals indicate, for example, whether the entrance to a lock is free or not.
+- content: A signal light exhibited by day and also, usually with reduced intensity,
+    by night.
+- content: This reduction of intensity is made in order to avoid glare.
+- content: Daylight signals indicate, for example, whether the entrance to a lock
+    is free or not.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

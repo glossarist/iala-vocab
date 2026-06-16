@@ -1,50 +1,39 @@
 ---
 id: 4-1-030
-termid: 4-1-030
+data:
+  identifier: 4-1-030
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Assigned_frequency
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 4-1-030
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-1-030-eng
 termid: 4-1-030
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Assigned frequency
   normative_status: preferred
 definition:
-- content: |-
-    Channel frequency (deprecated)
-
-
-    Centre frequency (deprecated)
-
-
-    The centre of the frequency band assigned to a station.
-
-
-    Reference: I.T.U.
+- content: Channel frequency (deprecated)
+- content: Centre frequency (deprecated)
+- content: The centre of the frequency band assigned to a station.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.T.U

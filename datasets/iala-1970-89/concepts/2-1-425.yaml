@@ -1,44 +1,37 @@
 ---
 id: 2-1-425
-termid: 2-1-425
+data:
+  identifier: 2-1-425
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Disability_Glare
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-1-425
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-1-425-eng
 termid: 2-1-425
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Disability Glare
   normative_status: preferred
 definition:
-- content: |-
-    Glare which impairs the vision of objects without necessarily causing discomfort.
-
-
-    Reference: C.I.E.
+- content: Glare which impairs the vision of objects without necessarily causing discomfort.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E

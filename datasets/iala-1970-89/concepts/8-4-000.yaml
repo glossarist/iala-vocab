@@ -1,49 +1,40 @@
 ---
 id: 8-4-000
-termid: 8-4-000
+data:
+  identifier: 8-4-000
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Buoy_yard
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 8-4-000-eng
 termid: 8-4-000
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Buoy yard
   normative_status: preferred
+- type: expression
+  designation: Depot
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Depot
-
-
-    Site at which buoys are serviced and stored when not on station. It usually includes both open yards and covered buildings provided with equipment for lifting, transporting and maintaining buoys.
-
-
-
-    Note 1:
-
-
-    The term "depot" usually means a complex containing offices, workshops and other facilities in addition to those of a buoy yard.
-
-
-
-    Note 2:
-    The French term depot de bouees means a small buoy yard with no buoy tender attached.
+- content: Site at which buoys are serviced and stored when not on station. It usually
+    includes both open yards and covered buildings provided with equipment for lifting,
+    transporting and maintaining buoys.
+- content: 'Note 1:'
+- content: The term "depot" usually means a complex containing offices, workshops
+    and other facilities in addition to those of a buoy yard.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: The French term depot de bouees means a small buoy yard with no buoy tender
+    attached.

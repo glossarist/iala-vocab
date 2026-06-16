@@ -1,37 +1,36 @@
 ---
 id: 5-3-440
-termid: 5-3-440
+data:
+  identifier: 5-3-440
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Error-correcting_code
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-3-440-eng
 termid: 5-3-440
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Error-correcting code
   normative_status: preferred
 definition:
-- content: |-
-    A code in which each data signal conforms to specific rules of construction so that departures from this construction in the received signals can be automatically detected, permitting the automatic correction, at the receiving terminal, of some or all of the errors.
-
-
-    Reference: I.E.C. (modified)
+- content: A code in which each data signal conforms to specific rules of construction
+    so that departures from this construction in the received signals can be automatically
+    detected, permitting the automatic correction, at the receiving terminal, of some
+    or all of the errors.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.C
+  modification: modified from source

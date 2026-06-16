@@ -1,30 +1,27 @@
 ---
 id: ranging-mode-r-mode-
-termid: ranging-mode-r-mode-
+data:
+  identifier: ranging-mode-r-mode-
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Ranging_Mode_(R-Mode)
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: ranging-mode-r-mode-
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: ranging-mode-r-mode--eng
 termid: ranging-mode-r-mode-
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Ranging Mode (R-Mode)
@@ -37,6 +34,3 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

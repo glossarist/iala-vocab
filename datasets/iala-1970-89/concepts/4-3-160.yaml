@@ -1,35 +1,35 @@
 ---
 id: 4-3-160
-termid: 4-3-160
+data:
+  identifier: 4-3-160
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/R.F._head
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-3-160-eng
 termid: 4-3-160
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: R.F. head
   normative_status: preferred
 definition:
-- content: "R.F. head (in a radar set) \n\n\nA term used to refer loosely to the assemblage
-    of radar frequency components, sometimes including the antenna system and usually
-    including the head amplifier.\n\n\nReference: B.S. (modified)"
+- content: R.F. head (in a radar set)
+- content: A term used to refer loosely to the assemblage of radar frequency components,
+    sometimes including the antenna system and usually including the head amplifier.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: B.S
+  modification: modified from source

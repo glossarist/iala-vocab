@@ -1,25 +1,22 @@
 ---
 id: mean-time-between-failures-mtbf-
-termid: mean-time-between-failures-mtbf-
+data:
+  identifier: mean-time-between-failures-mtbf-
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-10
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-10
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Mean_time_between_failures_(MTBF)
-dates:
-- type: amended
-  date: '2009'
-- type: amended
-  date: '2023'
 ---
 id: mean-time-between-failures-mtbf--eng
 termid: mean-time-between-failures-mtbf-
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Mean time between failures (MTBF)

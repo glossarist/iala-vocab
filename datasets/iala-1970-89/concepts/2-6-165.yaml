@@ -1,23 +1,22 @@
 ---
 id: 2-6-165
-termid: 2-6-165
+data:
+  identifier: 2-6-165
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Semaphore
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-6-165-eng
 termid: 2-6-165
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Semaphore
@@ -29,6 +28,3 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

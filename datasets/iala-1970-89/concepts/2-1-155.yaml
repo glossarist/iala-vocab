@@ -1,50 +1,43 @@
 ---
 id: 2-1-155
-termid: 2-1-155
+data:
+  identifier: 2-1-155
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Retro-Reflection
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 2-1-155
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-1-155-eng
 termid: 2-1-155
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Retro-Reflection
   normative_status: preferred
+- type: expression
+  designation: Reflex Reflection
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Reflex Reflection
-
-
-    Reflection in which light is returned in directions close to the direction from which it came, this property being maintained over wide variations of the direction of the incident light.
-
-
-
-
-
-    Reference: C.I.E. (Fig. 7d)
+- content: Reflection in which light is returned in directions close to the direction
+    from which it came, this property being maintained over wide variations of the
+    direction of the incident light.
+- content: "![Ch2_Fig7.jpg](/iala-vocab/images/iala/Ch2_Fig7.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E. (Fig. 7d)

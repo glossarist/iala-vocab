@@ -1,37 +1,36 @@
 ---
 id: 5-2-275
-termid: 5-2-275
+data:
+  identifier: 5-2-275
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Settling_time
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-2-275-eng
 termid: 5-2-275
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Settling time
   normative_status: preferred
 definition:
-- content: "The time interval between the beginning of a sustained disturbance and
+- content: The time interval between the beginning of a sustained disturbance and
     the instant when the resulting change in the output signal (after sufficient damping)
     reaches and remains within a specified fraction of its final steady-state value.
-    \n\n\n\n\n\nFigure 3 - Typical time response of a system to a step increase of
-    input.\n\n\nReference: I.E.C."
+- content: "![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)"
+- content: Figure 3 - Typical time response of a system to a step increase of input.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: I.E.C

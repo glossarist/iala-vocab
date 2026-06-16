@@ -1,40 +1,34 @@
 ---
 id: 4-1-1055
-termid: 4-1-1055
+data:
+  identifier: 4-1-1055
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Head
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-1-1055-eng
 termid: 4-1-1055
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Head
   normative_status: preferred
+- type: expression
+  designation: "(Ship's) Heading (defined in Chapter 1-2-045)"
+  normative_status: admitted
 definition:
-- content: |-
-    (Ship's) Head
-
-
-    Alternative term:(Ship's) Heading (defined in Chapter 1-2-045)
-
-
-    The horizontal direction in which a ship is pointed, expressed as an angular measure from a reference direction, usually true North.
+- content: "(Ship's) Head"
+- content: The horizontal direction in which a ship is pointed, expressed as an angular
+    measure from a reference direction, usually true North.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

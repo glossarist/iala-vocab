@@ -1,33 +1,30 @@
 ---
 id: absolute-position
-termid: absolute-position
+data:
+  identifier: absolute-position
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Absolute_position
-dates:
-- type: amended
-  date: '2023'
 ---
 id: absolute-position-eng
 termid: absolute-position
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Absolute position
   normative_status: preferred
 definition:
-- content: |-
-    urn:mrn:iala:dic:0401502e
-
-
-    A position estimate with respect to the geographic or geodetic co-ordinates of the Earth
+- content: urn:mrn:iala:dic:0401502e
+- content: A position estimate with respect to the geographic or geodetic co-ordinates
+    of the Earth
 sources:
 - type: authoritative
   origin:

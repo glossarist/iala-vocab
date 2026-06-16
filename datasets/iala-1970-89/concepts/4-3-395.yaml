@@ -1,37 +1,33 @@
 ---
 id: 4-3-395
-termid: 4-3-395
+data:
+  identifier: 4-3-395
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Trigatron
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-3-395-eng
 termid: 4-3-395
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Trigatron
   normative_status: preferred
 definition:
-- content: |-
-    A gas filled tube with a spark gap and a trigger electrode by which the discharge is initiated.
-
-
-    Reference: B.S.
+- content: A gas filled tube with a spark gap and a trigger electrode by which the
+    discharge is initiated.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: B.S

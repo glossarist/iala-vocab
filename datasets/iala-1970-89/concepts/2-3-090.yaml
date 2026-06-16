@@ -1,73 +1,53 @@
 ---
 id: 2-3-090
-termid: 2-3-090
+data:
+  identifier: 2-3-090
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Filament
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2018'
 ---
 id: 2-3-090-eng
 termid: 2-3-090
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Filament
   normative_status: preferred
 definition:
-- content: |-
-    A threadlike conductor, usually of tungsten (or of carbon), which is heated to incandescence by the passage of an electric current.
-
-
-
-
-
-
-    Reference: C.I.E.
+- content: A threadlike conductor, usually of tungsten (or of carbon), which is heated
+    to incandescence by the passage of an electric current.
+- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E
 ---
 id: 2-3-090-spa
 termid: 2-3-090
-language_code: spa
+data:
+  language_code: spa
 terms:
 - type: expression
   designation: Filament/es
   normative_status: preferred
 definition:
-- content: |-
-    Filamento
-
-
-
-    Conductor similar a un hilo, generalmente de tungsteno (o de carbono), que se calienta hasta la incandescencia por el paso de una corriente eléctrica.
-
-
-
-
-
-
-
-    Referencia: C.I.E.
+- content: Filamento
+- content: Conductor similar a un hilo, generalmente de tungsteno (o de carbono),
+    que se calienta hasta la incandescencia por el paso de una corriente eléctrica.
+- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
+- content: 'Referencia: C.I.E.'
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

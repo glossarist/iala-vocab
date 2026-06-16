@@ -1,44 +1,32 @@
 ---
 id: testpage-de
-termid: testpage-de
+data:
+  identifier: testpage-de
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/TestPage/de
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: testpage-de-eng
 termid: testpage-de
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: TestPage/de
   normative_status: preferred
 definition:
-- content: |-
-    Language Test Page in GERMAN
-
-
-    1-2-3
-
-
-    1.2.3
-
-
-
-    Probezeite
+- content: Language Test Page in GERMAN
+- content: 1-2-3
+- content: 1.2.3
+- content: Probezeite
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

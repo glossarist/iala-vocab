@@ -1,43 +1,38 @@
 ---
 id: 2-1-190
-termid: 2-1-190
+data:
+  identifier: 2-1-190
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Internal_Transmittance
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-1-190-eng
 termid: 2-1-190
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Internal Transmittance
   normative_status: preferred
+- type: symbol
+  designation: Ti
+  normative_status: preferred
 definition:
-- content: |-
-    Internal Transmittance (of a homogeneous non-diffusing plate)
-
-
-    The ratio of the luminous flux (F2) reaching the exit surface of the plate to the flux (F1) which leaves the entry surface.
-
-
-    Symbol: Ti
-
-
-    Reference: C.I.E. (modified)
+- content: Internal Transmittance (of a homogeneous non-diffusing plate)
+- content: The ratio of the luminous flux (F2) reaching the exit surface of the plate
+    to the flux (F1) which leaves the entry surface.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source

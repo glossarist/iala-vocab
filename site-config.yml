@@ -10,10 +10,18 @@ uiLanguages:
   label: English
 datasets:
 - id: iala-1970-89
+  title: IALA Dictionary 1970–1989 Edition
+  description: Foundational maritime navigation terminology compiled by the International Association of Marine Aids to Navigation and Lighthouse Authorities between 1970 and 1989.
   localPath: datasets/iala-1970-89
+  ref: IALA Dictionary (1970–1989 Edition)
+  owner: IALA
   color: '#003366'
 - id: iala-2023
+  title: IALA Dictionary 2023 Revision
+  description: Modern update to the IALA Dictionary reflecting current practices in electronic navigation, VTS, AIS, and e-Navigation.
   localPath: datasets/iala-2023
+  ref: IALA Dictionary (2023 Revision)
+  owner: IALA
   color: '#00857E'
 routing: []
 branding:
@@ -33,6 +41,10 @@ branding:
       - 400
       - 500
       - 700
+  logo:
+    alt: IALA Dictionary
+    localLight: public/images/iala-logo_full-light.svg
+    localDark: public/images/iala-logo_full-dark.svg
   ownerName: IALA
   ownerUrl: https://www.iala-aism.org
 features:

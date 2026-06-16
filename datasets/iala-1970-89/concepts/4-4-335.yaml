@@ -1,47 +1,39 @@
 ---
 id: 4-4-335
-termid: 4-4-335
+data:
+  identifier: 4-4-335
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Consol
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 4-4-335
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-4-335-eng
 termid: 4-4-335
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Consol
   normative_status: preferred
 definition:
-- content: |-
-    A continuous wave, medium frequency (300 kHz region) long range directional radio beacon producing a number of radial equi-signal zones which shift in azimuth at a fixed rate and are separated by zones of dot and dash signals.
-
-
-    The bearing of a mobile station with respect to the beacon is determined by a count of the dot and dash signals within each respective zone.
-
-
-    The ambiguity can be resolved by the use of a D.F. receiver.
+- content: A continuous wave, medium frequency (300 kHz region) long range directional
+    radio beacon producing a number of radial equi-signal zones which shift in azimuth
+    at a fixed rate and are separated by zones of dot and dash signals.
+- content: The bearing of a mobile station with respect to the beacon is determined
+    by a count of the dot and dash signals within each respective zone.
+- content: The ambiguity can be resolved by the use of a D.F. receiver.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

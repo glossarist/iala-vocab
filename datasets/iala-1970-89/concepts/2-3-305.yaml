@@ -1,41 +1,34 @@
 ---
 id: 2-3-305
-termid: 2-3-305
+data:
+  identifier: 2-3-305
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Phosphorescence
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-3-305-eng
 termid: 2-3-305
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Phosphorescence
   normative_status: preferred
 definition:
-- content: |-
-    Photoluminescence which persists for an appreciable time after excitation.
-
-
-
-    Note: This time is generally more than about 10-8 second.
-
-
-    Reference: C.I.E. (extract)
+- content: Photoluminescence which persists for an appreciable time after excitation.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E. (extract)
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: This time is generally more than about 10-8 second.

@@ -1,37 +1,33 @@
 ---
 id: 4-1-895
-termid: 4-1-895
+data:
+  identifier: 4-1-895
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Refractive_modulus
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 4-1-895-eng
 termid: 4-1-895
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Refractive modulus
   normative_status: preferred
 definition:
-- content: |-
-    One million times the amount by which the modified refractive index exceeds unity.
-
-
-    Reference: C.C.I.R.
+- content: One million times the amount by which the modified refractive index exceeds
+    unity.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.C.I.R

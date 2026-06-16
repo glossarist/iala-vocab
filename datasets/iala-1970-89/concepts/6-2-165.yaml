@@ -1,40 +1,33 @@
 ---
 id: 6-2-165
-termid: 6-2-165
+data:
+  identifier: 6-2-165
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-6
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-6
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Induction_coil
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 6-2-165-eng
 termid: 6-2-165
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Induction coil
   normative_status: preferred
 definition:
-- content: |-
-    (induction) coil
-
-
-    A device for producing high-voltage pulses to the spark plugs of an internal combustion engine.
-
-
-    The pulses are generated in the secondary winding of a transformer as a result of the interruption of direct current in the primary winding.
+- content: "(induction) coil"
+- content: A device for producing high-voltage pulses to the spark plugs of an internal
+    combustion engine.
+- content: The pulses are generated in the secondary winding of a transformer as a
+    result of the interruption of direct current in the primary winding.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

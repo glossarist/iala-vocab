@@ -25,31 +25,33 @@ datasets.each do |ds|
         next
       end
       
-      termid = managed['termid']
+      termid = managed.dig('data', 'identifier') || managed['termid'] || managed['id']
       if termid.nil? || termid.to_s.strip.empty?
         puts "Error: Missing termid in #{file}"
         schema_errors += 1
       else
         termids << termid
       end
-      
-      domains = managed['domains'] || []
+
+      domains = managed.dig('data', 'domains') || managed['domains'] || []
       domains.each do |dom|
         domains_counts[dom['concept_id'] || 'unknown'] += 1
       end
-      
+
       related = managed['related'] || []
       related_count += 1 unless related.empty?
-      
+
       localized_docs = docs[1..-1] || []
       localized_docs.each do |doc|
         unless doc['terms'] && doc['terms'].is_a?(Array) && !doc['terms'].empty?
-          puts "Error: Missing terms in #{file} (#{doc['language_code']})"
+          lang = doc.dig('data', 'language_code') || doc['language_code']
+          puts "Error: Missing terms in #{file} (#{lang})"
           schema_errors += 1
         end
         if doc['definition']
           unless doc['definition'].is_a?(Array) && doc['definition'].all? { |d| d.is_a?(Hash) && d.key?('content') }
-            puts "Error: Invalid definition structure in #{file} (#{doc['language_code']})"
+            lang = doc.dig('data', 'language_code') || doc['language_code']
+            puts "Error: Invalid definition structure in #{file} (#{lang})"
             schema_errors += 1
           end
         end

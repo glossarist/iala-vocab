@@ -1,37 +1,31 @@
 ---
 id: winch
-termid: winch
+data:
+  identifier: winch
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-7
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-7
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Winch
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: winch-eng
 termid: winch
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Winch
   normative_status: preferred
 definition:
-- content: |-
-    (2) 7-6-385
-
-
-    A device used for lifting or pulling in which a cable is wound onto a rotating drum.
+- content: "(2) 7-6-385"
+- content: A device used for lifting or pulling in which a cable is wound onto a rotating
+    drum.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

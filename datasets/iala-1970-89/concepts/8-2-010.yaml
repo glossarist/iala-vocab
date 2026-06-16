@@ -1,37 +1,33 @@
 ---
 id: 8-2-010
-termid: 8-2-010
+data:
+  identifier: 8-2-010
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Spare_light_vessel_(GB)
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 8-2-010-eng
 termid: 8-2-010
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Spare light vessel (GB)
   normative_status: preferred
+- type: expression
+  designation: Relief lightship (USA)
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Relief lightship (USA)
-
-
-    A light vessel held in reserve for the purpose of relieving a station light vessel when that vessel is withdrawn for overhaul or repairs.
+- content: A light vessel held in reserve for the purpose of relieving a station light
+    vessel when that vessel is withdrawn for overhaul or repairs.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

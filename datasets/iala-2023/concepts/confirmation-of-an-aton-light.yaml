@@ -1,41 +1,30 @@
 ---
 id: confirmation-of-an-aton-light
-termid: confirmation-of-an-aton-light
+data:
+  identifier: confirmation-of-an-aton-light
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Confirmation_of_an_AtoN_Light
-dates:
-- type: amended
-  date: '2018'
-- type: amended
-  date: '2023'
 ---
 id: confirmation-of-an-aton-light-eng
 termid: confirmation-of-an-aton-light
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Confirmation of an AtoN Light
   normative_status: preferred
 definition:
-- content: |-
-    The following terms are used when considering the conspicuity of AtoN lights at night.
-
-
-
-
-
-
-
-
-    Source: ENG7, Guideline G1073
+- content: The following terms are used when considering the conspicuity of AtoN lights
+    at night.
+- content: 'Source: ENG7, Guideline G1073'
 sources:
 - type: authoritative
   origin:

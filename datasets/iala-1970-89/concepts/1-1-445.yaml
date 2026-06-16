@@ -1,38 +1,33 @@
 ---
 id: 1-1-445
-termid: 1-1-445
+data:
+  identifier: 1-1-445
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-1
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-1
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Sensation
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 1-1-445-eng
 termid: 1-1-445
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Sensation
   normative_status: preferred
 definition:
-- content: |-
-    Element of the mental content of a sense impression which cannot be analysed further.
-
-
-
-    Reference: C.I.E.
+- content: Element of the mental content of a sense impression which cannot be analysed
+    further.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: C.I.E

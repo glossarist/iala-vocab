@@ -1,37 +1,33 @@
 ---
 id: 5-3-350
-termid: 5-3-350
+data:
+  identifier: 5-3-350
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-5
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-5
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Data_reduction
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 5-3-350-eng
 termid: 5-3-350
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Data reduction
   normative_status: preferred
 definition:
-- content: |-
-    The transformation of raw data into a more useful form.
-
-
-    Reference: ANSI (modified)
+- content: The transformation of raw data into a more useful form.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: ANSI
+  modification: modified from source

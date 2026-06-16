@@ -1,30 +1,27 @@
 ---
 id: 1-2-085
-termid: 1-2-085
+data:
+  identifier: 1-2-085
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-1
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-1
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Circle_of_uncertainty
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 1-2-085
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 1-2-085-eng
 termid: 1-2-085
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Circle of uncertainty
@@ -36,6 +33,3 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

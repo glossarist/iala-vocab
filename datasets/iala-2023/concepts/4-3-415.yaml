@@ -1,44 +1,38 @@
 ---
 id: 4-3-415
-termid: 4-3-415
+data:
+  identifier: 4-3-415
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-4
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-4
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Radar_beacon
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 4-3-415
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 4-3-415-eng
 termid: 4-3-415
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Radar beacon
   normative_status: preferred
 definition:
-- content: |-
-    A device whose radiations enable a craft to determine its own direction or position relative to the beacon by means of its own radar equipment.
-
-
-    Reference: B.S.
+- content: A device whose radiations enable a craft to determine its own direction
+    or position relative to the beacon by means of its own radar equipment.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- type: authoritative
+  origin:
+    ref: B.S

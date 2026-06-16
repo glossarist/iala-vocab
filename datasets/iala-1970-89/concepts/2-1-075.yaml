@@ -1,50 +1,42 @@
 ---
 id: 2-1-075
-termid: 2-1-075
+data:
+  identifier: 2-1-075
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Luminous_Exitance
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 2-1-075-eng
 termid: 2-1-075
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Luminous Exitance
   normative_status: preferred
+- type: symbol
+  designation: M
+  normative_status: preferred
 definition:
-- content: |-
-    Luminous Exitance (at a point of a surface)
-
-
-    The quotient of the luminous flux (dF), leaving an element of the surface containing the point, by the area (dA) of that element.
-
-
-    Symbol: M
-
-
-    Unit: lumen per square metre (lm/m2)
-
-
-
-    Note: Formerly Luminous Emittance and, in French, Emittance Lumineuse.
-
-
-    Reference: C.I.E. (modified)
+- content: Luminous Exitance (at a point of a surface)
+- content: The quotient of the luminous flux (dF), leaving an element of the surface
+    containing the point, by the area (dA) of that element.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+- type: authoritative
+  origin:
+    ref: C.I.E
+  modification: modified from source
 notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
+- content: Formerly Luminous Emittance and, in French, Emittance Lumineuse.
+examples:
+- content: lumen per square metre (lm/m2)

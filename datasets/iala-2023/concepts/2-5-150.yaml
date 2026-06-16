@@ -1,30 +1,27 @@
 ---
 id: 2-5-150
-termid: 2-5-150
+data:
+  identifier: 2-5-150
+  domains:
+  - source: urn:iala:dictionary:iala-2023
+    concept_id: section-2
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-2023
-  concept_id: section-2
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Single-Flashing_Light
 related:
-- type: identical
+- type: equivalent
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 2-5-150
-dates:
-- type: accepted
-  date: 1970-1989
-- type: amended
-  date: '2023'
 ---
 id: 2-5-150-eng
 termid: 2-5-150
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Single-Flashing Light
@@ -32,10 +29,8 @@ terms:
 definition:
 - content: A flashing light exhibiting only single flashes which are repeated at regular
     intervals. (Fig. 40b)
+- content: "![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)"
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)

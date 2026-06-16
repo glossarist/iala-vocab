@@ -1,37 +1,33 @@
 ---
 id: 8-5-060
-termid: 8-5-060
+data:
+  identifier: 8-5-060
+  domains:
+  - source: urn:iala:dictionary:iala-1970-89
+    concept_id: section-8
+    ref_type: section
 status: valid
-domains:
-- source: urn:iala:dictionary:iala-1970-89
-  concept_id: section-8
-  ref_type: section
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Riding_chain
-dates:
-- type: accepted
-  date: 1970-1989
 ---
 id: 8-5-060-eng
 termid: 8-5-060
-language_code: eng
+data:
+  language_code: eng
 terms:
 - type: expression
   designation: Riding chain
   normative_status: preferred
+- type: expression
+  designation: Riser chain
+  normative_status: admitted
 definition:
-- content: |-
-    Alternative term: Riser chain
-
-
-    That part of a mooring chain below the tail chain that is always off the sea-bed. Note : The length of chain off the sea-bed is called the riding length.
+- content: 'That part of a mooring chain below the tail chain that is always off the
+    sea-bed. Note : The length of chain off the sea-bed is called the riding length.'
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
-notes:
-- Please note that this is the term as it stands in the original IALA Dictionary edition
-  (1970-1989)
