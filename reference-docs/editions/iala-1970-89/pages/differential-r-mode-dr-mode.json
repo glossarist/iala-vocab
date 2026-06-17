@@ -1,0 +1,26 @@
+{
+  "title": "Differential R-Mode (DR-Mode)",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p>Differential <span class=\"mw-lingo-term\" data-lingo-term-id=\"e1e1d3d40573127e9ee0480caf1283d6\">R</span>-Mode (<span class=\"mw-lingo-term\" data-lingo-term-id=\"3754385271c4f2a2648b471683d21149\">DR</span>-Mode) is a differential system for <span class=\"mw-lingo-term\" data-lingo-term-id=\"e1e1d3d40573127e9ee0480caf1283d6\">R</span>-Mode. It is an optional extension. \n</p><p><br>\n<br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a href=\"/wiki/dictionary/index.php/A-N_Radio_range\" title=\"A-N Radio range\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"e1e1d3d40573127e9ee0480caf1283d6\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>Reserve buoyancy\n</p>\n</div></div><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>Reflected amplitude\n</p>\n</div></div><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>Range (also ρ)\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"3754385271c4f2a2648b471683d21149\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>Dead Reckoning\n</p>\n</div></div><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>Daymark Range\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260615013335\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.030 seconds\nReal time usage: 0.038 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 776/2097152 bytes\nTemplate argument size: 203/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   12.243      1 -total\n 77.43%    9.480      1 Template:Languages\n 53.70%    6.575      4 Template:Languages/Lang\n 21.73%    2.661      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:3187-0!canonical and timestamp 20260615013335 and revision id 10393. Rendering was triggered because: page-view\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "4.4_Other_Radio_Navigation_Systems"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_2023_Revision"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "Differential R-Mode (DR-Mode) is a differential system for R-Mode. It is an optional extension. \n\n{{IALAFooter}}\n\n{{languages|A-N Radio range}}\n[[Category:4.4 Other Radio Navigation Systems]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]\n[[Category:IALA Dictionary 2023 Revision]]"
+}

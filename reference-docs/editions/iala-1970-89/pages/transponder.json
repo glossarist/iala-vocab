@@ -1,0 +1,22 @@
+{
+  "title": "Transponder",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p><b>4-3-420</b>\n</p><p>Alternative term: Transponder beacon\n</p><p><span class=\"mw-lingo-term\" data-lingo-term-id=\"7fc56270e7a70fa81a5935b72eacbe29\">A</span> component of a secondary radar system which receives pulses from a radar set or interrogator, and, in response to the received pulse, transmits a pulse or sequence of pulses to enable the craft or beacon incorporating the transponder to be identified by the interrogating station.\n</p><p>Step Sweet zacon Bacure eada a Ralaysafe fas a fas\n</p><p><br>\n<br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a class=\"mw-selflink selflink\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"7fc56270e7a70fa81a5935b72eacbe29\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>ampere\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260616023121\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.037 seconds\nReal time usage: 0.053 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 756/2097152 bytes\nTemplate argument size: 151/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   12.421      1 -total\n 76.19%    9.464      1 Template:Languages\n 50.45%    6.266      4 Template:Languages/Lang\n 22.87%    2.841      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:1292-0!canonical and timestamp 20260616023121 and revision id 3519. Rendering was triggered because: api-parse\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "4.3_Radar,_Radar_Beacons_and_Radar_Reflectors"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "\n'''4-3-420\n\nAlternative term: Transponder beacon\n\nA component of a secondary radar system which receives pulses from a radar set or interrogator, and, in response to the received pulse, transmits a pulse or sequence of pulses to enable the craft or beacon incorporating the transponder to be identified by the interrogating station.\n\nStep Sweet zacon Bacure eada a Ralaysafe fas a fas\n\n{{IALAFooter}}\n\n{{languages|Transponder}}\n[[Category:4.3 Radar, Radar Beacons and Radar Reflectors]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]"
+}

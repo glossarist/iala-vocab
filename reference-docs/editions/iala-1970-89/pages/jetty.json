@@ -1,0 +1,22 @@
+{
+  "title": "Jetty",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p><b>7-1-035</b>\n</p><p><span class=\"mw-lingo-term\" data-lingo-term-id=\"7fc56270e7a70fa81a5935b72eacbe29\">A</span> structure, generally in sheltered waters, extending into the water from a shore or bank, to provide landing facilities and possibly also berthing for vessels.\n</p><p><br>\nNote: See 7-1-040 Note:\n</p><p><br>\n<br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a class=\"mw-selflink selflink\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"7fc56270e7a70fa81a5935b72eacbe29\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>ampere\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260615171144\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.031 seconds\nReal time usage: 0.042 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 726/2097152 bytes\nTemplate argument size: 73/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   16.185      1 -total\n 73.53%   11.900      1 Template:Languages\n 46.86%    7.585      4 Template:Languages/Lang\n 25.53%    4.132      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:2117-0!canonical and timestamp 20260615171144 and revision id 5173. Rendering was triggered because: page-view\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "7.1_Types_and_Functions_of_Structures"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "\n'''7-1-035\n\nA structure, generally in sheltered waters, extending into the water from a shore or bank, to provide landing facilities and possibly also berthing for vessels.\n\n\nNote: See 7-1-040 Note:\n\n{{IALAFooter}}\n\n{{languages|Jetty}}\n[[Category:7.1 Types and Functions of Structures]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Resilience",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><p><b><a rel=\"nofollow\" class=\"external free\" href=\"urn:mrn:iala:dic:0401504e\">urn:mrn:iala:dic:0401504e</a></b>\n</p><p>The ability of a system to detect and compensate for external and internal sources of disturbances, malfunction and breakdowns in parts of the system.\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\" /></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a href=\"/wiki/dictionary/index.php/Ambiguity\" title=\"Ambiguity\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div>\n<!-- \nNewPP limit report\nCached time: 20260615185727\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.033 seconds\nReal time usage: 0.047 seconds\nPreprocessor visited node count: 58/1000000\nPost‐expand include size: 628/2097152 bytes\nTemplate argument size: 125/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   18.276      1 Template:Languages\n100.00%   18.276      1 -total\n 66.55%   12.163      4 Template:Languages/Lang\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:3121-0!canonical and timestamp 20260615185727 and revision id 8709. Rendering was triggered because: page-view\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "4.1_General_Terms"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_2023_Revision"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "'''urn:mrn:iala:dic:0401504e\n\nThe ability of a system to detect and compensate for external and internal sources of disturbances, malfunction and breakdowns in parts of the system.\n\n{{languages|Ambiguity}}\n[[Category:4.1 General Terms]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 2023 Revision]]"
+}

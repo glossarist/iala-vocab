@@ -1,0 +1,14 @@
+{
+  "title": "Oscillating Light",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><p>Oscillating Light – is a light having alternating colours at sector limit, with increasing portion of coloured light proportional relating to the white sector.\n</p><p><span class=\"mw-image-border\" typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:Oscillating_light1.jpg\" class=\"mw-file-description\"><img src=\"/wiki/dictionary/images/8/80/Oscillating_light1.jpg\" decoding=\"async\" width=\"400\" height=\"191\" class=\"mw-file-element\" /></a></span>\nExample 1\n</p><p><span class=\"mw-image-border\" typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:Oscillating_light2.jpg\" class=\"mw-file-description\"><img src=\"/wiki/dictionary/images/a/a8/Oscillating_light2.jpg\" decoding=\"async\" width=\"400\" height=\"166\" class=\"mw-file-element\" /></a></span>\nExample 2\n</p>\n<!-- \nNewPP limit report\nCached time: 20260616023952\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.031 seconds\nReal time usage: 0.044 seconds\nPreprocessor visited node count: 1/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:3173-0!canonical and timestamp 20260616023952 and revision id 10379. Rendering was triggered because: api-parse\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_2023_Revision"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "Oscillating Light – is a light having alternating colours at sector limit, with increasing portion of coloured light proportional relating to the white sector.\n\n[[Image:Oscillating_light1.jpg|400px|border]]\nExample 1\n\n[[Image:Oscillating_light2.jpg|400px|border]]\nExample 2\n\n[[Category:IALA Dictionary 2023 Revision]]"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Confidence level",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p><b>5-1-145</b>\n</p><p>The probability that a given statement is correct or the probability that a stated confidence interval (numerical range) includes an unknown.\n</p><p>Note:: When this probability is expressed as a percentage, it is called confidence factor.\n</p><p><br>\n</p><p><br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a href=\"/wiki/dictionary/index.php?title=Confidence_(level)&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"Confidence (level) (page does not exist)\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260615213650\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.048 seconds\nReal time usage: 0.058 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 791/2097152 bytes\nTemplate argument size: 242/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   16.562      1 -total\n 76.05%   12.596      1 Template:Languages\n 49.29%    8.164      4 Template:Languages/Lang\n 22.78%    3.772      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:1432-0!canonical and timestamp 20260615213650 and revision id 9191. Rendering was triggered because: page-view\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "5.1_Reliability"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_2023_Revision"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "\n'''5-1-145\n\nThe probability that a given statement is correct or the probability that a stated confidence interval (numerical range) includes an unknown.\n\nNote:: When this probability is expressed as a percentage, it is called confidence factor.\n\n\n{{IALAFooter}}\n\n{{languages|Confidence (level)}}\n[[Category:5.1 Reliability]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]\n[[Category:IALA Dictionary 2023 Revision]]"
+}

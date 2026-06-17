@@ -1,0 +1,22 @@
+{
+  "title": "Duty factor (of a machine or apparatus)",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p><b>6-4-100 </b>\n</p><p>The ratio or percentage of the duration of working under load to the duration of the complete cycle of operations specified.\n</p><p>Note: The term \" duty cycle \" is sometimes used in Great Britain with this meaning, but this usage is deprecated.\n</p><p><br>\n<br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a class=\"mw-selflink selflink\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260615101736\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.032 seconds\nReal time usage: 0.043 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 896/2097152 bytes\nTemplate argument size: 515/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   15.106      1 -total\n 74.80%   11.300      1 Template:Languages\n 52.13%    7.874      4 Template:Languages/Lang\n 24.53%    3.705      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:1883-0!canonical and timestamp 20260615101736 and revision id 4703. Rendering was triggered because: page-view\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "6.4_Rotary_Electric_Machines:_Generators_and_Motors"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "\n'''6-4-100 \n\nThe ratio or percentage of the duration of working under load to the duration of the complete cycle of operations specified.\n\nNote: The term \" duty cycle \" is sometimes used in Great Britain with this meaning, but this usage is deprecated.\n\n{{IALAFooter}}\n\n{{languages|Duty factor (of a machine or apparatus)}}\n[[Category:6.4 Rotary Electric Machines: Generators and Motors]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]"
+}

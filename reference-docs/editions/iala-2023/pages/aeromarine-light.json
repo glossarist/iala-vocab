@@ -1,0 +1,14 @@
+{
+  "title": "Aeromarine Light",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p>a marine light in which the beam has been deflected at an angle of 10<span class=\"mw-lingo-term\" data-lingo-term-id=\"4723eb5aa8b0cd28c7e09433839b8fae\">&deg;</span> - 15<span class=\"mw-lingo-term\" data-lingo-term-id=\"4723eb5aa8b0cd28c7e09433839b8fae\">&deg;</span> above the horizon, so that the light is usable for aircraft navigation.\n</p></div><div class=\"mw-lingo-tooltip\" id=\"4723eb5aa8b0cd28c7e09433839b8fae\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>degree\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260615115344\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.001 seconds\nReal time usage: 0.001 seconds\nPreprocessor visited node count: 1/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:3135-0!canonical and timestamp 20260615115344 and revision id 10339. Rendering was triggered because: page-view\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_2023_Revision"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "a marine light in which the beam has been deflected at an angle of 10° - 15° above the horizon, so that the light is usable for aircraft navigation.\n\n[[Category:IALA Dictionary 2023 Revision]]"
+}

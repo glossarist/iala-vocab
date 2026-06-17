@@ -1,0 +1,22 @@
+{
+  "title": "Lane",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p><b>4-4-040</b>\n</p><p>In any <span class=\"mw-lingo-term\" data-lingo-term-id=\"9af3107a066f6b0defb1cafc0499f6ed\">CW</span> phase comparison system, the distance between successive equiphase lines, taken as 0 degrees -360 degrees , in a system of hyperbolic or circular co-ordinates.\n</p><p><br>\n<br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a class=\"mw-selflink selflink\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"9af3107a066f6b0defb1cafc0499f6ed\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>Continuous Wave\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260616015251\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.045 seconds\nReal time usage: 0.061 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 721/2097152 bytes\nTemplate argument size: 60/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   12.798      1 -total\n 77.71%    9.945      1 Template:Languages\n 53.20%    6.809      4 Template:Languages/Lang\n 21.23%    2.717      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:1331-0!canonical and timestamp 20260616015251 and revision id 3599. Rendering was triggered because: api-parse\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "4.4_Other_Radio_Navigation_Systems"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "\n'''4-4-040\n\nIn any CW phase comparison system, the distance between successive equiphase lines, taken as 0 degrees -360 degrees , in a system of hyperbolic or circular co-ordinates.\n\n{{IALAFooter}}\n\n{{languages|Lane}}\n[[Category:4.4 Other Radio Navigation Systems]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]"
+}

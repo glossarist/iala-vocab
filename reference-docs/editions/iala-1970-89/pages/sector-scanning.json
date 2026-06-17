@@ -1,0 +1,22 @@
+{
+  "title": "Sector scanning",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p><b>4-3-065</b>\n</p><p>Scanning through a limited plane angle about any desired axis.\n</p><p>Reference: <span class=\"mw-lingo-term\" data-lingo-term-id=\"9d5ed678fe57bcca610140957afab571\">B</span>.<span class=\"mw-lingo-term\" data-lingo-term-id=\"5dbc98dcc983a70728bd082d1a47546e\">S</span>.\n</p><p><br>\n<br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a class=\"mw-selflink selflink\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"9d5ed678fe57bcca610140957afab571\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>Centre of buoyancy\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"5dbc98dcc983a70728bd082d1a47546e\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>South\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260616021727\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.036 seconds\nReal time usage: 0.056 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 776/2097152 bytes\nTemplate argument size: 203/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   14.713      1 -total\n 75.39%   11.093      1 Template:Languages\n 49.93%    7.346      4 Template:Languages/Lang\n 23.80%    3.501      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:1221-0!canonical and timestamp 20260616021727 and revision id 3377. Rendering was triggered because: api-parse\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "4.3_Radar,_Radar_Beacons_and_Radar_Reflectors"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "\n'''4-3-065\n\nScanning through a limited plane angle about any desired axis.\n\nReference: B.S.\n\n{{IALAFooter}}\n\n{{languages|Sector scanning}}\n[[Category:4.3 Radar, Radar Beacons and Radar Reflectors]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]"
+}

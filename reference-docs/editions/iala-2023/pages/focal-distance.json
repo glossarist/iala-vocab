@@ -1,0 +1,26 @@
+{
+  "title": "Focal Distance",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p><b>2-2-160</b>\n</p><p>Alternative term: Focal Length\n</p><p>1. (Of a lens, other than a fixed lens, or of a focusing reflector).\n</p><p>The distance measured along the optical axis of the lens or reflector between the focus and (in practice) the point where the optical axis intersects the nearer surface of the lens or reflector.\n</p><p><span class=\"mw-image-border\" typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:Ch2_Fig10.jpg\" class=\"mw-file-description\"><img src=\"/wiki/dictionary/images/thumb/5/52/Ch2_Fig10.jpg/400px-Ch2_Fig10.jpg\" decoding=\"async\" width=\"400\" height=\"421\" class=\"mw-file-element\" srcset=\"/wiki/dictionary/images/thumb/5/52/Ch2_Fig10.jpg/600px-Ch2_Fig10.jpg 1.5x, /wiki/dictionary/images/thumb/5/52/Ch2_Fig10.jpg/800px-Ch2_Fig10.jpg 2x\"></a></span>\n</p><p><br>\n2. (Of a fixed lens).\n</p><p>The distance, measured along a straight line through the focus and normal to the axis (2-2-115), between the focus and (in practice) the point where the line intersects the inner surface of the lens. (Fig. 16b)\n</p><p><span class=\"mw-image-border\" typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:Ch2_Fig16b.jpg\" class=\"mw-file-description\"><img src=\"/wiki/dictionary/images/thumb/c/c8/Ch2_Fig16b.jpg/400px-Ch2_Fig16b.jpg\" decoding=\"async\" width=\"400\" height=\"243\" class=\"mw-file-element\" srcset=\"/wiki/dictionary/images/thumb/c/c8/Ch2_Fig16b.jpg/600px-Ch2_Fig16b.jpg 1.5x, /wiki/dictionary/images/thumb/c/c8/Ch2_Fig16b.jpg/800px-Ch2_Fig16b.jpg 2x\"></a></span>\n</p><p><br>\n</p><p><br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a class=\"mw-selflink selflink\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260616014338\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.052 seconds\nReal time usage: 0.071 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 771/2097152 bytes\nTemplate argument size: 190/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   14.685      1 -total\n 78.31%   11.500      1 Template:Languages\n 54.82%    8.050      4 Template:Languages/Lang\n 20.68%    3.037      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:533-0!canonical and timestamp 20260616014338 and revision id 9501. Rendering was triggered because: api-parse\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "2.2_Optical_Apparatus"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_2023_Revision"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "'''2-2-160\n\nAlternative term: Focal Length\n\n1. (Of a lens, other than a fixed lens, or of a focusing reflector).\n\nThe distance measured along the optical axis of the lens or reflector between the focus and (in practice) the point where the optical axis intersects the nearer surface of the lens or reflector.\n\n[[Image:Ch2_Fig10.jpg|400px|border]]\n\n\n2. (Of a fixed lens).\n\nThe distance, measured along a straight line through the focus and normal to the axis (2-2-115), between the focus and (in practice) the point where the line intersects the inner surface of the lens. (Fig. 16b)\n\n[[Image:Ch2_Fig16b.jpg|400px|border]]\n\n\n{{IALAFooter}}\n\n{{languages|Focal Distance}}\n[[Category:2.2 Optical Apparatus]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]\n[[Category:IALA Dictionary 2023 Revision]]"
+}

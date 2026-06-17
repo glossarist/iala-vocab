@@ -1,0 +1,22 @@
+{
+  "title": "Tank circuit (G.B.)",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p><b>4-1-630</b>\n</p><p>Tank circuit (<span class=\"mw-lingo-term\" data-lingo-term-id=\"dfcf28d0734569a6a693bc8194de62bf\">G</span>.<span class=\"mw-lingo-term\" data-lingo-term-id=\"9d5ed678fe57bcca610140957afab571\">B</span>.)\n</p><p>The tuned circuit in the anode circuit of the final stage of a transmitter which supplies the radio-frequency energy to the antenna or antenna feeder.\n</p><p>Reference: <span class=\"mw-lingo-term\" data-lingo-term-id=\"9d5ed678fe57bcca610140957afab571\">B</span>.<span class=\"mw-lingo-term\" data-lingo-term-id=\"5dbc98dcc983a70728bd082d1a47546e\">S</span>. (modified)\n</p><p><br>\n<br>\n<br>\n<i>Please note that this is the term as it stands in the original <span class=\"mw-lingo-term\" data-lingo-term-id=\"0a1217bfe27a54fc7e55b72fc62c2371\">IALA</span> Dictionary edition (1970-1989)</i>\n<br>\n</p>\n<div class=\"LanguageLinks\">\n<table width=\"100%\">\n<tbody><tr valign=\"top\" style=\"background: #FFFFFF\">\n<td style=\"width: 25px; padding-left: 0em; border-right: 1px solid #aaaaaa;border-left: 1px solid #EEF3E2;border-top: 1px solid #EEF3E2;border-bottom: 1px solid #EEF3E2;\"><span typeof=\"mw:File\"><a href=\"/wiki/dictionary/index.php/File:25px-Geographylogo.png\" class=\"mw-file-description\" title=\"Languages\"><img alt=\"Languages\" src=\"/wiki/dictionary/images/8/82/25px-Geographylogo.png\" decoding=\"async\" width=\"25\" height=\"25\" class=\"mw-file-element\"></a></span></td>\n<td style=\"padding: 1px 1em 0; background: #EEF3E2;\">\n<p><b><a class=\"mw-selflink selflink\">English</a></b>\n<span></span>\n<span></span>\n<span></span>\n<span></span>\n</p>\n</td></tr></tbody></table></div></div><div class=\"mw-lingo-tooltip\" id=\"dfcf28d0734569a6a693bc8194de62bf\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>centre of gravity\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"9d5ed678fe57bcca610140957afab571\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>Centre of buoyancy\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"5dbc98dcc983a70728bd082d1a47546e\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>South\n</p>\n</div></div>\n</div><div class=\"mw-lingo-tooltip\" id=\"0a1217bfe27a54fc7e55b72fc62c2371\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>International Association of Marine Aids to Navigation and Lighthouse Authorities - AISM\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260616021709\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.030 seconds\nReal time usage: 0.038 seconds\nPreprocessor visited node count: 60/1000000\nPost‐expand include size: 796/2097152 bytes\nTemplate argument size: 255/2097152 bytes\nHighest expansion depth: 7/100\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%   12.542      1 -total\n 76.25%    9.563      1 Template:Languages\n 52.16%    6.542      4 Template:Languages/Lang\n 22.81%    2.861      1 Template:IALAFooter\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:1029-0!canonical and timestamp 20260616021709 and revision id 2993. Rendering was triggered because: page-view\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "4.1_General_Terms"
+      },
+      {
+        "sortkey": "",
+        "*": "Alphabetical_Index"
+      },
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_1970-89_Edition"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "\n'''4-1-630\n\nTank circuit (G.B.)\n\nThe tuned circuit in the anode circuit of the final stage of a transmitter which supplies the radio-frequency energy to the antenna or antenna feeder.\n\nReference: B.S. (modified)\n\n{{IALAFooter}}\n\n{{languages|Tank circuit (G.B.)}}\n[[Category:4.1 General Terms]]\n[[Category:Alphabetical Index]]\n[[Category:IALA Dictionary 1970-89 Edition]]"
+}

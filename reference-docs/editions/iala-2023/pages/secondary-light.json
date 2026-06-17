@@ -1,0 +1,14 @@
+{
+  "title": "Secondary Light",
+  "parse": {
+    "text": "<div class=\"mw-parser-output\"><div class=\"mw-parser-output\"><p>Secondary Light – is a light placed on or near to a main light’<span class=\"mw-lingo-term\" data-lingo-term-id=\"03c7c0ace395d80182db07ae2c30f034\">s</span> support and having a special navigational function, for example a passing light on a leading light structure or a single sector light.\n</p></div><div class=\"mw-lingo-tooltip\" id=\"03c7c0ace395d80182db07ae2c30f034\"><div class=\"mw-lingo-definition navigation-not-searchable\"><div class=\"mw-lingo-definition-text\">\n<p>second\n</p>\n</div></div>\n</div>\n<!-- \nNewPP limit report\nCached time: 20260615133234\nCache expiry: 86400\nReduced expiry: false\nComplications: []\nCPU time usage: 0.001 seconds\nReal time usage: 0.001 seconds\nPreprocessor visited node count: 1/1000000\nPost‐expand include size: 0/2097152 bytes\nTemplate argument size: 0/2097152 bytes\nHighest expansion depth: 1/100\nExpensive parser function count: 0/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 0/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%    0.000      1 -total\n-->\n\n<!-- Saved in parser cache with key wiki_iala_dictionary_1_41:pcache:idhash:3179-0!canonical and timestamp 20260615133234 and revision id 10385. Rendering was triggered because: page-view\n -->\n</div>",
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "IALA_Dictionary_2023_Revision"
+      }
+    ],
+    "langlinks": []
+  },
+  "wikitext": "Secondary Light – is a light placed on or near to a main light’s support and having a special navigational function, for example a passing light on a leading light structure or a single sector light. \n\n[[Category:IALA Dictionary 2023 Revision]]"
+}
