@@ -21,11 +21,13 @@ terms:
 - type: expression
   designation: Luminous Exitance
   normative_status: preferred
+- type: expression
+  designation: Luminous Exitance (at a point of a surface)
+  normative_status: admitted
 - type: symbol
-  designation: M
+  designation: stem:[M]
   normative_status: preferred
 definition:
-- content: Luminous Exitance (at a point of a surface)
 - content: The quotient of the luminous flux (dF), leaving an element of the surface
     containing the point, by the area (dA) of that element.
 sources:
@@ -38,5 +40,6 @@ sources:
   modification: modified from source
 notes:
 - content: Formerly Luminous Emittance and, in French, Emittance Lumineuse.
-examples:
-- content: lumen per square metre (lm/m2)
+annotations:
+- content: Unit lumen per square metre (lm/m2)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_Exitance

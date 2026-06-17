@@ -36,3 +36,5 @@ sources:
 notes:
 - content: The installation error is the algebraic total of the instrument error and
     the site error {{4-2-270, Installation error}}.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing_correction

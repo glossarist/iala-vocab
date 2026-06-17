@@ -27,8 +27,10 @@ terms:
   designation: Eclipse
   normative_status: preferred
 definition:
-- content: An interval of darkness between appearances of a light. (Fig. 40b)
-- content: "![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)"
+- content: |-
+    An interval of darkness between appearances of a light. (Fig. 40b)
+
+    ![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)
 sources:
 - type: authoritative
   origin:
@@ -36,3 +38,5 @@ sources:
 notes:
 - content: In Britain and in France this term is properly applied only to an interval
     of dark-ness between flashes of shorter duration.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Eclipse

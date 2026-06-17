@@ -22,10 +22,13 @@ terms:
   designation: Latency
   normative_status: preferred
 definition:
-- content: The time lag between the navigation observations and the presented navigation
-    solution.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    The time lag between the navigation observations and the presented navigation solution.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Latency

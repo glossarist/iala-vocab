@@ -27,12 +27,16 @@ terms:
   designation: Directional gain
   normative_status: preferred
 - type: expression
+  designation: Directional gain (of a sound source, in decibels)
+  normative_status: admitted
+- type: expression
   designation: Directivity index (of a sound source, in decibels)
   normative_status: admitted
 definition:
-- content: 3-1 -150
-- content: Directional gain (of a sound source, in decibels)
-- content: Ten times the logarithm to the base 10 of the directivity factor.
+- content: |-
+    3-1 -150
+
+    Ten times the logarithm to the base 10 of the directivity factor.
 sources:
 - type: authoritative
   origin:
@@ -41,3 +45,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Directional_gain

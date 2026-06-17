@@ -21,10 +21,14 @@ terms:
 - type: expression
   designation: Spectrum analysis
   normative_status: preferred
+- type: expression
+  designation: Spectrum analysis (of a sound)
+  normative_status: admitted
 definition:
-- content: Spectrum analysis (of a sound)
 - content: The process of determining the spectrum of a sound.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spectrum_analysis

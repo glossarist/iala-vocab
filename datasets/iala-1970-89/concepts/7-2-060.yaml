@@ -22,8 +22,10 @@ terms:
   designation: Storey
   normative_status: preferred
 definition:
-- content: 'Alternative tems: Floor, Story (USA)'
-- content: The space between two successive floors of a building.
+- content: |-
+    Alternative tems: Floor, Story (USA)
+
+    The space between two successive floors of a building.
 sources:
 - type: authoritative
   origin:
@@ -31,3 +33,5 @@ sources:
 notes:
 - content: The French term etage does not apply to the space between the ground floor
     and the first floor.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Storey

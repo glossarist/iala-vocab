@@ -22,14 +22,19 @@ terms:
   designation: Dip
   normative_status: preferred
 - type: expression
+  designation: Dip (of the horizon)
+  normative_status: admitted
+- type: expression
   designation: Depression
   normative_status: admitted
 definition:
-- content: 1 -2-115
-- content: Dip (of the horizon)
-- content: The vertical angle between the horizontal through the eye of an observer
-    and the line of sight to the visible horizon.
+- content: |-
+    1 -2-115
+
+    The vertical angle between the horizontal through the eye of an observer and the line of sight to the visible horizon.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Dip

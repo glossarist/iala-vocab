@@ -33,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Air_termination_(of_a_lightning_protection_system)

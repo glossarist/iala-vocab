@@ -31,3 +31,5 @@ sources:
 notes:
 - content: This error is in general the sum of two terms, an installation error that
     can be corrected and an unknown random error.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Error_in_bearing

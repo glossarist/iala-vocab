@@ -26,13 +26,15 @@ terms:
 - type: expression
   designation: Curve of Luminous Intensity Distribution
   normative_status: preferred
+- type: expression
+  designation: Curve of Luminous Intensity Distribution (of a light source)
+  normative_status: admitted
 definition:
-- content: Curve of Luminous Intensity Distribution (of a light source)
-- content: A curve which represents the luminous intensity in a plane passing through
-    the source, as a function of the angle measured from some given direction.
-- content: "![Ch2_Fig6.jpg](/iala-vocab/images/iala/Ch2_Fig6.jpg)"
-- content: 'Note 1:'
 - content: |-
+    A curve which represents the luminous intensity in a plane passing through the source, as a function of the angle measured from some given direction.
+
+    ![Ch2_Fig6.jpg](/iala-vocab/images/iala/Ch2_Fig6.jpg)
+
     a. When the curve is polar, the pole is at the point representing the position of the light source.
     b. When the plane is a meridian plane and the reference direction of angles is vertical, the angles are measured from the downward vertical.
 sources:
@@ -44,5 +46,8 @@ sources:
     ref: C.I.E
   modification: modified from source
 notes:
+- content: ":"
 - content: The term Candlepower Curve is sometimes used in place of "curve of luminous
     intensity distribution".
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Curve_of_Luminous_Intensity_Distribution

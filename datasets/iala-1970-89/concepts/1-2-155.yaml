@@ -32,3 +32,5 @@ sources:
   origin:
     ref: I.H.B
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Anchorage

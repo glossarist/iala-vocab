@@ -21,11 +21,14 @@ terms:
 - type: expression
   designation: Gain function
   normative_status: preferred
+- type: expression
+  designation: Gain function (G.B.)
+  normative_status: admitted
 definition:
-- content: Gain function (G.B.)
-- content: Directive gain (U.S.A.)
-- content: For a given direction, 4PI times the ratio of the radiation intensity in
-    that direction to the total power radiated by the antenna.
+- content: |-
+    Directive gain (U.S.A.)
+
+    For a given direction, 4PI times the ratio of the radiation intensity in that direction to the total power radiated by the antenna.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +36,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.R.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gain_function

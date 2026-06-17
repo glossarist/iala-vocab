@@ -27,9 +27,13 @@ terms:
   designation: Whistle Buoy (2)
   normative_status: preferred
 definition:
-- content: A buoy fitted with one or more whistles.
-- content: "![Ch2_Fig57.jpg](/iala-vocab/images/iala/Ch2_Fig57.jpg)"
+- content: |-
+    A buoy fitted with one or more whistles.
+
+    ![Ch2_Fig57.jpg](/iala-vocab/images/iala/Ch2_Fig57.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Whistle_Buoy_(2)

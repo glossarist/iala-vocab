@@ -27,13 +27,14 @@ terms:
   designation: Contrast Threshold
   normative_status: preferred
 definition:
-- content: "(Luminance) Contrast Threshold"
-- content: The minimum contrast at the eye of a given observer at which an object
-    can be detected.
-- content: The average value has been taken to be 0.02 in most studies of visibility,
-    and this value is correct for laboratory observation under daylight conditions.
-- content: For practical observation in the field, a value of 0.05 is more appropriate
-    and has been adopted internationally.
+- content: |-
+    (Luminance) Contrast Threshold
+
+    The minimum contrast at the eye of a given observer at which an object can be detected.
+
+    The average value has been taken to be 0.02 in most studies of visibility, and this value is correct for laboratory observation under daylight conditions.
+
+    For practical observation in the field, a value of 0.05 is more appropriate and has been adopted internationally.
 sources:
 - type: authoritative
   origin:
@@ -42,3 +43,5 @@ notes:
 - content: |-
     The contrast threshold is a property of the eye of the individual observer.
     For most normal observers under ordinary daylight conditions there is good agreement between values for different individuals.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Contrast_Threshold

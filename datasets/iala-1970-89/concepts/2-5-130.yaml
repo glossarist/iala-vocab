@@ -22,10 +22,13 @@ terms:
   designation: Flash
   normative_status: preferred
 definition:
-- content: A relatively brief appearance of a light, in comparison with the longest
-    interval of darkness in the same character. (Fig. 40b)
-- content: "![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)"
+- content: |-
+    A relatively brief appearance of a light, in comparison with the longest interval of darkness in the same character. (Fig. 40b)
+
+    ![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Flash

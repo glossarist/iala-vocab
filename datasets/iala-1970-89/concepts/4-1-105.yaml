@@ -36,3 +36,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gain_of_an_antenna

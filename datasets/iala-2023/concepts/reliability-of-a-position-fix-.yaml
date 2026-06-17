@@ -22,12 +22,15 @@ terms:
   designation: Reliability (of a position fix)
   normative_status: preferred
 definition:
-- content: A measure of the propagation of a non-detected gross error in an observation
-    to the position fix.
-- content: This "external" reliability is usually expressed in terms of marginally
-    detectable error (MDE).
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    A measure of the propagation of a non-detected gross error in an observation to the position fix.
+
+    This "external" reliability is usually expressed in terms of marginally detectable error (MDE).
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reliability_(of_a_position_fix)

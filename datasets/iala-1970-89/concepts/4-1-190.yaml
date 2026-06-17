@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Synchronisation error
   normative_status: preferred
+- type: expression
+  designation: Synchronisation error (in radionavigation)
+  normative_status: admitted
 definition:
-- content: Synchronisation error (in radionavigation)
 - content: The error due to imperfect timing of two operations this may or may not
     include signal transmission time.
 sources:
@@ -33,3 +35,5 @@ sources:
   origin:
     ref: I.R.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Synchronisation_error

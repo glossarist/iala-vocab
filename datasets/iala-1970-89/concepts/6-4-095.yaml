@@ -22,13 +22,17 @@ terms:
   designation: Duty (of a machine or apparatus)
   normative_status: preferred
 definition:
-- content: duty cycle load cycle (deprecated)
-- content: 1 - A sequence of operating conditions, to which a machine or apparatus
-    is subjected.
-- content: 2 - A statement or schedule of the loads on a machine or apparatus, including
-    their
-- content: durations and sequence in time.
+- content: |-
+    duty cycle load cycle (deprecated)
+
+    1 - A sequence of operating conditions, to which a machine or apparatus is subjected.
+
+    2 - A statement or schedule of the loads on a machine or apparatus, including their
+
+    durations and sequence in time.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Duty_(of_a_machine_or_apparatus)

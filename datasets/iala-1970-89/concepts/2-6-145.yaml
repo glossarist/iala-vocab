@@ -22,12 +22,15 @@ terms:
   designation: Two buoys mored not abreast in a channel
   normative_status: preferred
 definition:
-- content: 'No English Term (2009: Staggered buoys)'
-- content: Term applied to buoys moored on either hand of the path of shipping in
-    a channel, such that port hand and starboard hand buoys are not abreast but occur
-    alternately at nearly equal intervals of distance. (Fig. 55b)
-- content: "![Ch2_Fig55.jpg](/iala-vocab/images/iala/Ch2_Fig55.jpg)"
+- content: |-
+    No English Term (2009: Staggered buoys)
+
+    Term applied to buoys moored on either hand of the path of shipping in a channel, such that port hand and starboard hand buoys are not abreast but occur alternately at nearly equal intervals of distance. (Fig. 55b)
+
+    ![Ch2_Fig55.jpg](/iala-vocab/images/iala/Ch2_Fig55.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Two_buoys_mored_not_abreast_in_a_channel

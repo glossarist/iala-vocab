@@ -22,12 +22,15 @@ terms:
   designation: Wind-power generator
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Wind-driven generator, Wind-turbine generator, Aerogenerator'
-- content: A rotary electric generator for which the motive power is the wind. The
-    axis of rotation may be horizontal or vertical.
+- content: |-
+    Alternative terms: Wind-driven generator, Wind-turbine generator, Aerogenerator
+
+    A rotary electric generator for which the motive power is the wind. The axis of rotation may be horizontal or vertical.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
 - content: The term "wind generator" is deprecated.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wind-power_generator

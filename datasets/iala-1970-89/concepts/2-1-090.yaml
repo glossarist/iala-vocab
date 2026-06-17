@@ -22,12 +22,15 @@ terms:
   designation: Luminous fan beam
   normative_status: preferred
 definition:
-- content: "(Luminous) Fan Beam"
-- content: A beam in which the light is concentrated in and about a single plane,
-    usually horizontal.
-- content: The angular spread in the plane of concentration may cover either 360 degrees
-    or a smaller angle.
+- content: |-
+    (Luminous) Fan Beam
+
+    A beam in which the light is concentrated in and about a single plane, usually horizontal.
+
+    The angular spread in the plane of concentration may cover either 360 degrees or a smaller angle.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_fan_beam

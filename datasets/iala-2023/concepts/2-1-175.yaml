@@ -27,9 +27,10 @@ terms:
   designation: Diffuse Transmission
   normative_status: preferred
 definition:
-- content: Transmission in which the light is scattered in many directions and, on
-    the macroscopic scale, independently of the laws of refraction. (Fig. 8b)
-- content: "![Ch2_Fig8.jpg](/iala-vocab/images/iala/Ch2_Fig8.jpg)"
+- content: |-
+    Transmission in which the light is scattered in many directions and, on the macroscopic scale, independently of the laws of refraction. (Fig. 8b)
+
+    ![Ch2_Fig8.jpg](/iala-vocab/images/iala/Ch2_Fig8.jpg)
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diffuse_Transmission

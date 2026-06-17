@@ -22,12 +22,15 @@ terms:
   designation: Refurbishment
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Renovation, Restoration'
-- content: To make a building look new and bright again; to rebuild or replenish with
-    all new material; to restore to original (or better) working order and appearance.
-- content: "(This definition was noted at the IALA Seminar on the Practical Aspects
-    of Lighthouse Preservation in Gothenburg 2005)"
+- content: |-
+    Alternative terms: Renovation, Restoration
+
+    To make a building look new and bright again; to rebuild or replenish with all new material; to restore to original (or better) working order and appearance.
+
+    (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Refurbishment

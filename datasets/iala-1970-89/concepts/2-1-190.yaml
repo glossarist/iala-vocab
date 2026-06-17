@@ -21,11 +21,13 @@ terms:
 - type: expression
   designation: Internal Transmittance
   normative_status: preferred
+- type: expression
+  designation: Internal Transmittance (of a homogeneous non-diffusing plate)
+  normative_status: admitted
 - type: symbol
-  designation: Ti
+  designation: stem:[Ti]
   normative_status: preferred
 definition:
-- content: Internal Transmittance (of a homogeneous non-diffusing plate)
 - content: The ratio of the luminous flux (F2) reaching the exit surface of the plate
     to the flux (F1) which leaves the entry surface.
 sources:
@@ -36,3 +38,5 @@ sources:
   origin:
     ref: C.I.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Internal_Transmittance

@@ -34,3 +34,5 @@ sources:
 notes:
 - content: This error is allowed for in calibration, provided the calibration takes
     account of frequency.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Re-radiation_error

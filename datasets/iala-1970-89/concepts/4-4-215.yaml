@@ -22,12 +22,15 @@ terms:
   designation: Decca Vernier pointer
   normative_status: preferred
 definition:
-- content: Vernier pointer (in Decca)
-- content: The pointer, on the lane identification meter, which indicates in turn
-    the correct lane number for comparison with the appropriate Decometer.
-- content: The vernier pointer is in the form of a six-pointed star and the reading
-    is taken from the arm contained in the sector pointer.
+- content: |-
+    Vernier pointer (in Decca)
+
+    The pointer, on the lane identification meter, which indicates in turn the correct lane number for comparison with the appropriate Decometer.
+
+    The vernier pointer is in the form of a six-pointed star and the reading is taken from the arm contained in the sector pointer.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Vernier_pointer

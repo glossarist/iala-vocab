@@ -22,10 +22,13 @@ terms:
   designation: Wash primer
   normative_status: preferred
 definition:
-- content: 'Alternative ter: Etch primer'
-- content: Primer for steel which has the effect of slightly etching the bare metal
-    surface to improve the adhesion of a following paint treatment.
+- content: |-
+    Alternative ter: Etch primer
+
+    Primer for steel which has the effect of slightly etching the bare metal surface to improve the adhesion of a following paint treatment.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wash_primer

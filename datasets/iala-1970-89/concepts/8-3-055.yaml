@@ -22,10 +22,13 @@ terms:
   designation: Derrick hoist
   normative_status: preferred
 definition:
-- content: 'Alternative terms(s) : Cargo purchase, main purchase (USA)'
-- content: The main arrangement of blocks and ropes for hoisting and lowering weights,
-    such as buoys, sinkers, etc.
+- content: |-
+    Alternative terms(s) : Cargo purchase, main purchase (USA)
+
+    The main arrangement of blocks and ropes for hoisting and lowering weights, such as buoys, sinkers, etc.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Derrick_hoist

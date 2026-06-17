@@ -22,13 +22,16 @@ terms:
   designation: VTS Personnel
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901048e
-- content: VTS personnel are persons performing tasks associated with vessel traffic
-    services, trained in vessel traffic services operations and appropriately qualified.
 - content: |-
+    urn:mrn:iala:dic:0901048e
+
+    VTS personnel are persons performing tasks associated with vessel traffic services, trained in vessel traffic services operations and appropriately qualified.
+
     Source: IMO Resolution A.1158(32)
     IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Personnel

@@ -22,9 +22,13 @@ terms:
   designation: Small tree
   normative_status: preferred
 definition:
-- content: A small tree with branches, or branches only, that are fixed in the ground.
-- content: "![Ch2_Fig51.jpg](/iala-vocab/images/iala/Ch2_Fig51.jpg)"
+- content: |-
+    A small tree with branches, or branches only, that are fixed in the ground.
+
+    ![Ch2_Fig51.jpg](/iala-vocab/images/iala/Ch2_Fig51.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Small_tree

@@ -27,10 +27,13 @@ terms:
   designation: Quantity of Light
   normative_status: preferred
 - type: symbol
-  designation: Q Q = ? F.dt
+  designation: stem:[Q]
   normative_status: preferred
 definition:
-- content: The product of luminous flux (F) and its duration (dt).
+- content: |-
+    The product of luminous flux (F) and its duration (dt).
+
+    Q = ? F.dt
 sources:
 - type: authoritative
   origin:
@@ -39,5 +42,6 @@ sources:
   origin:
     ref: C.I.E
   modification: modified from source
-examples:
-- content: lumen-second (lm.s), lumen-hour (lm.h)
+annotations:
+- content: Unit lumen-second (lm.s), lumen-hour (lm.h)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Quantity_of_Light

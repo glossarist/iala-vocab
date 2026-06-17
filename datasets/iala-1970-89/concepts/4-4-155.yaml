@@ -22,11 +22,13 @@ terms:
   designation: Decca Drift
   normative_status: preferred
 definition:
-- content: Drift (in Decca)
-- content: A slow change of reading on the Decometer due to random changes of phase
-    produced in the Decca receiving equipment, which change can be corrected by a
-    method of referencing.
+- content: |-
+    Drift (in Decca)
+
+    A slow change of reading on the Decometer due to random changes of phase produced in the Decca receiving equipment, which change can be corrected by a method of referencing.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Drift

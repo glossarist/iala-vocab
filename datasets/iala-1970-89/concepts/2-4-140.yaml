@@ -22,10 +22,13 @@ terms:
   designation: Radial Screens
   normative_status: preferred
 definition:
-- content: Opaque screens placed along lines radiating from the source or from a panel
-    in an optical apparatus, especially to reduce stray light.
-- content: "![Ch2_Fig39.jpg](/iala-vocab/images/iala/Ch2_Fig39.jpg)"
+- content: |-
+    Opaque screens placed along lines radiating from the source or from a panel in an optical apparatus, especially to reduce stray light.
+
+    ![Ch2_Fig39.jpg](/iala-vocab/images/iala/Ch2_Fig39.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radial_Screens

@@ -22,10 +22,10 @@ terms:
   designation: Closed loop control system
   normative_status: preferred
 definition:
-- content: A control system in which the objective is that the controlled quantity
-    attain a desired performance and be then measured and compared with a standard
-    representing that performance.
-- content: that it will reduce the deviation of the controlled quantity from the standard.
+- content: |-
+    A control system in which the objective is that the controlled quantity attain a desired performance and be then measured and compared with a standard representing that performance.
+
+    that it will reduce the deviation of the controlled quantity from the standard.
 sources:
 - type: authoritative
   origin:
@@ -35,5 +35,7 @@ sources:
     ref: I.E.E.E
   modification: modified from source
 notes:
-- content: ": Any deviation from the standard is fed back into the control system
-    in such a sense"
+- content: 'Note:: Any deviation from the standard is fed back into the control system
+    in such a sense'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Closed_loop_control_system

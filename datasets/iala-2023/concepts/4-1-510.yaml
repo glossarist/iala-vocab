@@ -27,12 +27,13 @@ terms:
   designation: Broadside array
   normative_status: preferred
 definition:
-- content: A linear array of elements whose centres lie on a straight line and whose
-    principal direction of radiation or reception is perpendicular to this line.
-- content: A broadside array is often comprised of a number of parallel identical
-    dipoles or monopoles which are coplanar and equally spaced, the principal direction
-    of radiation being perpendicular to the plane containing the dipoles.
+- content: |-
+    A linear array of elements whose centres lie on a straight line and whose principal direction of radiation or reception is perpendicular to this line.
+
+    A broadside array is often comprised of a number of parallel identical dipoles or monopoles which are coplanar and equally spaced, the principal direction of radiation being perpendicular to the plane containing the dipoles.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Broadside_array

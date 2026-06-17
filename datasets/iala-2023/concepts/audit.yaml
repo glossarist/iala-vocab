@@ -22,13 +22,16 @@ terms:
   designation: Audit
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901103e
-- content: Audit is a systematic and independent verification process to assess whether
-    the required standards are being met.
 - content: |-
+    urn:mrn:iala:dic:0901103e
+
+    Audit is a systematic and independent verification process to assess whether the required standards are being met.
+
     Source:
     IALA Guideline G1014 Accreditation of VTS training organizations and approval to deliver IALA VTS model courses
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Audit

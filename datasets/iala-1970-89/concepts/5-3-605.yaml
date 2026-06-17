@@ -27,10 +27,13 @@ terms:
   designation: Link
   normative_status: preferred
 definition:
-- content: In communications, a channel or circuit designed to be connected in tandem
-    with other channels or circuits.
-- content: l.E.E.E.
+- content: |-
+    In communications, a channel or circuit designed to be connected in tandem with other channels or circuits.
+
+    l.E.E.E.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Link

@@ -22,13 +22,17 @@ terms:
   designation: Internal Procedures
   normative_status: preferred
 definition:
-- content: VTS-2012-19
-- content: Procedures that cover the day-to-day running of a VTS centre or sub-centre,
-    including the operation of systems and sensors, interactions among the staff and
-    the internal management of data.
-- content: 'Source: IALA Recommendation V-127 (2004)'
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-19
+
+    Procedures that cover the day-to-day running of a VTS centre or sub-centre, including the operation of systems and sensors, interactions among the staff and the internal management of data.
+
+    Source: IALA Recommendation V-127 (2004)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Internal_Procedures

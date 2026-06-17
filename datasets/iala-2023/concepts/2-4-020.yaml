@@ -27,9 +27,13 @@ terms:
   designation: Cupola
   normative_status: preferred
 definition:
-- content: The roof of the lantern of a lighthouse.
-- content: "![Ch2_Fig33.jpg](/iala-vocab/images/iala/Ch2_Fig33.jpg)"
+- content: |-
+    The roof of the lantern of a lighthouse.
+
+    ![Ch2_Fig33.jpg](/iala-vocab/images/iala/Ch2_Fig33.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cupola

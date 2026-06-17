@@ -27,12 +27,17 @@ terms:
   designation: Buoy station
   normative_status: preferred
 definition:
-- content: Buoy mooring
-- content: The assigned position at which a buoy is to be secured.
-- content: When in position, a buoy may be said to be on station.
+- content: |-
+    Buoy mooring
+
+    The assigned position at which a buoy is to be secured.
+
+    When in position, a buoy may be said to be on station.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoy_station

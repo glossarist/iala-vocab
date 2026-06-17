@@ -22,12 +22,15 @@ terms:
   designation: VTS Certification Log
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901042e
-- content: VTS certification log is a record of certificates and endorsements awarded
-    to VTS personnel during their VTS career.
-- content: 'Source: IALA Guideline G1156 Recruitment, training and assessment of VTS
-    Personnel'
+- content: |-
+    urn:mrn:iala:dic:0901042e
+
+    VTS certification log is a record of certificates and endorsements awarded to VTS personnel during their VTS career.
+
+    Source: IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Certification_Log

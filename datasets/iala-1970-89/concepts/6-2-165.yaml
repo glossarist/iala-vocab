@@ -22,12 +22,15 @@ terms:
   designation: Induction coil
   normative_status: preferred
 definition:
-- content: "(induction) coil"
-- content: A device for producing high-voltage pulses to the spark plugs of an internal
-    combustion engine.
-- content: The pulses are generated in the secondary winding of a transformer as a
-    result of the interruption of direct current in the primary winding.
+- content: |-
+    (induction) coil
+
+    A device for producing high-voltage pulses to the spark plugs of an internal combustion engine.
+
+    The pulses are generated in the secondary winding of a transformer as a result of the interruption of direct current in the primary winding.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Induction_coil

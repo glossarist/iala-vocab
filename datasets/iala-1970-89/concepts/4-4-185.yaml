@@ -22,10 +22,13 @@ terms:
   designation: Decca Lane slip
   normative_status: preferred
 definition:
-- content: Lane slip (in Decca)
-- content: A fault due to temporary loss of signal, etc., whereby the Decometer, while
-    reading correctly on its fraction pointer, reads incorrectly on its lane pointer.
+- content: |-
+    Lane slip (in Decca)
+
+    A fault due to temporary loss of signal, etc., whereby the Decometer, while reading correctly on its fraction pointer, reads incorrectly on its lane pointer.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Lane_slip

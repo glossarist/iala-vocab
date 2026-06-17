@@ -22,11 +22,13 @@ terms:
   designation: Glass-reinforced plastic
   normative_status: preferred
 definition:
-- content: 'Alternative terms: GRP, Glassfibre, Fiberglass (USA)'
-- content: Material formed by the use of woven or chopped strand mats of glass fibres
-    impregnated with a synthetic resin hardened to form a rigid material, by chemical
-    or heat treatment.
+- content: |-
+    Alternative terms: GRP, Glassfibre, Fiberglass (USA)
+
+    Material formed by the use of woven or chopped strand mats of glass fibres impregnated with a synthetic resin hardened to form a rigid material, by chemical or heat treatment.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Glass-reinforced_plastic

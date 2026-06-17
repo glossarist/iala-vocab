@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Carrier power
   normative_status: preferred
+- type: expression
+  designation: Carrier power (of a radio transmitter)
+  normative_status: admitted
 definition:
-- content: Carrier power (of a radio transmitter)
 - content: The average power supplied to the antenna transmission line by a transmitter
     during one radio frequency cycle under conditions of no modulation. This definition
     does not apply to pulse modulated emissions.
@@ -38,3 +40,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Carrier_power

@@ -30,25 +30,29 @@ terms:
   designation: Atmospheric Transmissivity (U.S.A.)
   normative_status: admitted
 - type: symbol
-  designation: T
+  designation: stem:[T]
   normative_status: preferred
 definition:
-- content: Atmospheric Transmission Factor (for
-- content: A quantity characterising the transparency of the atmosphere. It is the
-    ratio of the luminous flux transmitted without change of direction by the atmosphere
-    over
-- content: In Britain and the U.S.A. the most important factor is the Atmospheric
-    Extinction Coefficient s (not to be confused with s as used in
-- content: T = e XXXX s
-- content: where e is the base of natural logarithms.
-- content: In France, geophysicists use the Optical Density (for a thickness of 1
-    kilometre).
-- content: In Germany, according to the DIN standard, the factor Schwachungskoeffizient
-    z is used. This is similar to the atmospheric extinction coefficient but is identical
-    with it only if the
-- content: q = e-z
-- content: "= e-1.852s"
-- content: where e is the base of natural logarithms.
+- content: |-
+    Atmospheric Transmission Factor (for
+
+    A quantity characterising the transparency of the atmosphere. It is the ratio of the luminous flux transmitted without change of direction by the atmosphere over
+
+    In Britain and the U.S.A. the most important factor is the Atmospheric Extinction Coefficient s (not to be confused with s as used in
+
+    T = e XXXX s
+
+    where e is the base of natural logarithms.
+
+    In France, geophysicists use the Optical Density (for a thickness of 1 kilometre).
+
+    In Germany, according to the DIN standard, the factor Schwachungskoeffizient z is used. This is similar to the atmospheric extinction coefficient but is identical with it only if the
+
+    q = e-z
+
+    = e-1.852s
+
+    where e is the base of natural logarithms.
 sources:
 - type: authoritative
   origin:
@@ -66,10 +70,11 @@ notes:
 - content: It is suggested that the various quantities described above T, q, s, z,
     etc. should not be used so widely in future and that the "meteorological visibility"
     V (2-1-280 and   2-1-290, Note:) should be used instead.
-examples:
-- content: distance) (G.B.)
-- content: distance to the luminous flux which would be transmitted along the same
-    path in a vacuum. The
-- content: of distance chosen is usually the kilometre or the nautical mile (sea-mile).
-- content: of distance chosen is the kilometre. It is related to the 'Transmissionsfaktor"
+annotations:
+- content: Unit distance) (G.B.)
+- content: Unit distance to the luminous flux which would be transmitted along the
+    same path in a vacuum. The
+- content: Unit of distance chosen is usually the kilometre or the nautical mile (sea-mile).
+- content: Unit of distance chosen is the kilometre. It is related to the 'Transmissionsfaktor"
     q and to the "Sichtwert" s by the formulae
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Atmospheric_Transmission_Factor

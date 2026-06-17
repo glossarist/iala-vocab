@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Volume velocity
   normative_status: preferred
+- type: expression
+  designation: Volume velocity (across a surface element)
+  normative_status: admitted
 definition:
-- content: Volume velocity (across a surface element)
 - content: The product of the area of the surface element and the component of the
     sound particle velocity perpendicular to the surface.
 sources:
@@ -32,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Volume_velocity

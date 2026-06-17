@@ -22,11 +22,13 @@ terms:
   designation: Total System Error (TSE)
   normative_status: preferred
 definition:
-- content: 'The overall navigation performance can be described by the TSE. Assuming
-    the contributions to TSE from NSE and VTE are random, the TSE can be described
-    as: TSE2 = NSE2 + VTE2'
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    The overall navigation performance can be described by the TSE. Assuming the contributions to TSE from NSE and VTE are random, the TSE can be described as: TSE2 = NSE2 + VTE2
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Total_System_Error_(TSE)

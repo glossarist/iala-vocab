@@ -26,11 +26,15 @@ terms:
 - type: expression
   designation: Dead time
   normative_status: preferred
+- type: expression
+  designation: Dead time (in radar)
+  normative_status: admitted
 definition:
-- content: Dead time (in radar)
 - content: That period of time between the end of the range scan and the transmission
     of the following pulse.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Dead_time

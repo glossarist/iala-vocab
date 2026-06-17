@@ -22,12 +22,13 @@ terms:
   designation: Prismatic Lens
   normative_status: preferred
 definition:
-- content: An assembly consisting of a bullseye together with concentric dioptric
-    and (sometimes) catadioptric rings, the foci of which are coincident with, or
-    lie within the boundaries of, the source, when correctly focused (in sense 2 of
-    2-2-155).
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    An assembly consisting of a bullseye together with concentric dioptric and (sometimes) catadioptric rings, the foci of which are coincident with, or lie within the boundaries of, the source, when correctly focused (in sense 2 of 2-2-155).
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Prismatic_Lens

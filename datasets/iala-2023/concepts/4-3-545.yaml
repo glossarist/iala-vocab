@@ -27,11 +27,13 @@ terms:
   designation: Luneberg lens
   normative_status: preferred
 definition:
-- content: Luneberg reflector
-- content: A reflector making use of a number of concentric dielectric spheres of
-    varying refractive index, capable of focusing incident energy onto a reflecting
-    surface. The energy is eventually re-radiated along the incident path.
+- content: |-
+    Luneberg reflector
+
+    A reflector making use of a number of concentric dielectric spheres of varying refractive index, capable of focusing incident energy onto a reflecting surface. The energy is eventually re-radiated along the incident path.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luneberg_lens

@@ -35,3 +35,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: A battery used in this way is called in French batterie flottante.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Float_charge

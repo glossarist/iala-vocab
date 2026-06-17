@@ -27,9 +27,10 @@ terms:
   designation: Optic rotation mechanism
   normative_status: preferred
 definition:
-- content: The mechanism which rotates the optic or revolving screen in a flashing
-    or occulting light.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    The mechanism which rotates the optic or revolving screen in a flashing or occulting light.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ sources:
 notes:
 - content: The terms Lens Clock and, in French, Machine de Rotation a Poids refer
     to such a mechanism when driven by a falling weight.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optic_rotation_mechanism

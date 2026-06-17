@@ -22,12 +22,15 @@ terms:
   designation: Kink
   normative_status: preferred
 definition:
-- content: A sharp bend in a chain.
-- content: A twisted chain with kinks that make handling difficult is called a foul
-    chain.
+- content: |-
+    A sharp bend in a chain.
+
+    A twisted chain with kinks that make handling difficult is called a foul chain.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Kink

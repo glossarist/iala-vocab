@@ -22,9 +22,10 @@ terms:
   designation: Filament
   normative_status: preferred
 definition:
-- content: A threadlike conductor, usually of tungsten (or of carbon), which is heated
-    to incandescence by the passage of an electric current.
-- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
+- content: |-
+    A threadlike conductor, usually of tungsten (or of carbon), which is heated to incandescence by the passage of an electric current.
+
+    ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
 sources:
 - type: authoritative
   origin:
@@ -32,6 +33,8 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament
 ---
 id: 2-3-090-spa
 termid: 2-3-090
@@ -42,12 +45,17 @@ terms:
   designation: Filament/es
   normative_status: preferred
 definition:
-- content: Filamento
-- content: Conductor similar a un hilo, generalmente de tungsteno (o de carbono),
-    que se calienta hasta la incandescencia por el paso de una corriente eléctrica.
-- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
-- content: 'Referencia: C.I.E.'
+- content: |-
+    Filamento
+
+    Conductor similar a un hilo, generalmente de tungsteno (o de carbono), que se calienta hasta la incandescencia por el paso de una corriente eléctrica.
+
+    ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
+
+    Referencia: C.I.E.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament/es

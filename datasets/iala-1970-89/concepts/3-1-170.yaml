@@ -27,10 +27,10 @@ terms:
   designation: Pitch
   normative_status: preferred
 definition:
-- content: That attribute of the auditory sensation in terms of which sounds may be
-    ordered on a scale extending from low to high.
-- content: Pitch depends primarily upon the frequency of the sound stimulus, but it
-    also depends upon the sound pressure and waveform of the stimulus.
+- content: |-
+    That attribute of the auditory sensation in terms of which sounds may be ordered on a scale extending from low to high.
+
+    Pitch depends primarily upon the frequency of the sound stimulus, but it also depends upon the sound pressure and waveform of the stimulus.
 sources:
 - type: authoritative
   origin:
@@ -38,3 +38,5 @@ sources:
 - type: authoritative
   origin:
     ref: ANSI
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pitch

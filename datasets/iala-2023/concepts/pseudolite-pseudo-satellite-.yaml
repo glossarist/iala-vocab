@@ -22,10 +22,13 @@ terms:
   designation: Pseudolite (pseudo-satellite)
   normative_status: preferred
 definition:
-- content: A ground-based augmentation station transmitting a GNSS-like signal providing
-    additional navigation information to the user.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    A ground-based augmentation station transmitting a GNSS-like signal providing additional navigation information to the user.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pseudolite_(pseudo-satellite)

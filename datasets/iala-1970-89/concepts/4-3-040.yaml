@@ -22,9 +22,10 @@ terms:
   designation: Radar equation
   normative_status: preferred
 definition:
-- content: A mathematical equation which relates the transmitted and received powers
-    and antenna gains of a primary radar to the echoing area and distance of an object.
-- content: "![Ch4_Fig1.jpg](/iala-vocab/images/iala/Ch4_Fig1.jpg)"
+- content: |-
+    A mathematical equation which relates the transmitted and received powers and antenna gains of a primary radar to the echoing area and distance of an object.
+
+    ![Ch4_Fig1.jpg](/iala-vocab/images/iala/Ch4_Fig1.jpg)
 sources:
 - type: authoritative
   origin:
@@ -33,3 +34,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radar_equation

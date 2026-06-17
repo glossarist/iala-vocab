@@ -22,9 +22,10 @@ terms:
   designation: Moving target indication
   normative_status: preferred
 definition:
-- content: 'Acronym: M.T.I.'
-- content: A form of presentation in radar whereby means are provided for partially
-    or wholly suppressing the appearance of stationary objects on the display.
+- content: |-
+    Acronym: M.T.I.
+
+    A form of presentation in radar whereby means are provided for partially or wholly suppressing the appearance of stationary objects on the display.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +34,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Moving_target_indication

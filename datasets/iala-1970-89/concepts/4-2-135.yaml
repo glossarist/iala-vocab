@@ -22,9 +22,10 @@ terms:
   designation: Spacing (Antenna)
   normative_status: preferred
 definition:
-- content: "(Antenna) Spacing"
-- content: The distance between the centres of a specified pair of antennas in a spaced
-    antenna direction finder; often expressed in terms of the wavelength in use.
+- content: |-
+    (Antenna) Spacing
+
+    The distance between the centres of a specified pair of antennas in a spaced antenna direction finder; often expressed in terms of the wavelength in use.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +34,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spacing_(Antenna)

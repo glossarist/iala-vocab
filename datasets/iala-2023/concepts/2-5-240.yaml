@@ -30,12 +30,15 @@ terms:
   designation: Single Station Range Light (U.S.A.)
   normative_status: admitted
 definition:
-- content: A direction light {{2-5-235, Direction Light}} bounded by other sectors
-    of different character which define its margins with small angles of uncertainty.
-- content: Most commonly the bounding sectors are of different colours (red and green).
-    (Fig.46b)
-- content: "![Ch2_Fig46b.jpg](/iala-vocab/images/iala/Ch2_Fig46b.jpg)"
+- content: |-
+    A direction light {{2-5-235, Direction Light}} bounded by other sectors of different character which define its margins with small angles of uncertainty.
+
+    Most commonly the bounding sectors are of different colours (red and green). (Fig.46b)
+
+    ![Ch2_Fig46b.jpg](/iala-vocab/images/iala/Ch2_Fig46b.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Direction_Light_(2)

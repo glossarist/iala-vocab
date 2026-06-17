@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Phase
   normative_status: preferred
+- type: expression
+  designation: Phase (of a sinusoidal quantity)
+  normative_status: admitted
 definition:
-- content: Phase (of a sinusoidal quantity)
 - content: Angular distance between a defined point and the point corresponding to
     a defined state of oscillation.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Phase

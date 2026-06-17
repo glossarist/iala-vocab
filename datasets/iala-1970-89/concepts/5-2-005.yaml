@@ -22,10 +22,13 @@ terms:
   designation: Manual control
   normative_status: preferred
 definition:
-- content: The exclusive operation of an apparatus by human manipulation.
-- content: It is sometimes required for maintenance purposes to ensure the safety
-    of maintenance persennel.
+- content: |-
+    The exclusive operation of an apparatus by human manipulation.
+
+    It is sometimes required for maintenance purposes to ensure the safety of maintenance persennel.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Manual_control

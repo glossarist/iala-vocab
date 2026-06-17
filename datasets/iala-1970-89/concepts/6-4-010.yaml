@@ -22,10 +22,13 @@ terms:
   designation: Alternating-current machine
   normative_status: preferred
 definition:
-- content: a.c. machine
-- content: An electric machine that converts an a.c. electric supply to mechanical
-    energy, or vice-versa.
+- content: |-
+    a.c. machine
+
+    An electric machine that converts an a.c. electric supply to mechanical energy, or vice-versa.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Alternating-current_machine

@@ -22,10 +22,10 @@ terms:
   designation: Standard Lamp
   normative_status: preferred
 definition:
-- content: "(Photometric) Standard Lamp"
-- content: A lamp which has been calibrated to give a known value of luminous flux,
-    colour temperature, or luminous intensity in a specified direction, under specified
-    conditions of operation. Such lamps are used as standards in photometric measurements.
+- content: |-
+    (Photometric) Standard Lamp
+
+    A lamp which has been calibrated to give a known value of luminous flux, colour temperature, or luminous intensity in a specified direction, under specified conditions of operation. Such lamps are used as standards in photometric measurements.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +33,5 @@ sources:
 notes:
 - content: 'Standard lamps include both Secondary Standards and Working Standards
     as well as the Primary Standard. For definitions of these, see Reference: C.I.E.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Standard_Lamp

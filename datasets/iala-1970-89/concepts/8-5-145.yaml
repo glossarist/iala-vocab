@@ -25,13 +25,15 @@ terms:
   designation: Sinker bail (USA)
   normative_status: admitted
 definition:
-- content: Lug made of iron or steel, embedded in a sinker, to which a mooring chain
-    is shackled.
-- content: The term "anchor ring" is also loosely used in Great Britain with this
-    meaning.
+- content: |-
+    Lug made of iron or steel, embedded in a sinker, to which a mooring chain is shackled.
+
+    The term "anchor ring" is also loosely used in Great Britain with this meaning.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lewis_(GB)

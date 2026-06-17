@@ -27,8 +27,10 @@ terms:
   designation: Metal Vapour Lamp
   normative_status: preferred
 definition:
-- content: A discharge lamp in which the light is mainly produced in a metallic vapour.
-- content: Examples are Mercury (Vapour) Lamp, Sodium (Vapour) Lamp.
+- content: |-
+    A discharge lamp in which the light is mainly produced in a metallic vapour.
+
+    Examples are Mercury (Vapour) Lamp, Sodium (Vapour) Lamp.
 sources:
 - type: authoritative
   origin:
@@ -36,3 +38,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Metal_Vapour_Lamp

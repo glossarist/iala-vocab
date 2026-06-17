@@ -34,3 +34,5 @@ sources:
 notes:
 - content: The terms upper sideband or lower sideband are used to denote the ranges
     higher than or lower than the carrier frequency, respectively.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sideband_(2)

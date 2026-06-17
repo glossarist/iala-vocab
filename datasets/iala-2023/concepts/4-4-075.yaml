@@ -27,13 +27,17 @@ terms:
   designation: Loran Cycle match
   normative_status: preferred
 definition:
-- content: Cycle match (in Loran)
-- content: The comparison in time difference between corresponding radio frequency
-    carrier cycles contained in the rise times of a master and a slave pulse.
-- content: The comparison is refined to a determination of the phase difference between
-    these two cycles.
-- content: At present used in Loran C.
+- content: |-
+    Cycle match (in Loran)
+
+    The comparison in time difference between corresponding radio frequency carrier cycles contained in the rise times of a master and a slave pulse.
+
+    The comparison is refined to a determination of the phase difference between these two cycles.
+
+    At present used in Loran C.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Cycle_match

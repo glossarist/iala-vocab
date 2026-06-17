@@ -22,8 +22,10 @@ terms:
   designation: Pulse repetition rate
   normative_status: preferred
 definition:
-- content: P.R.R.
-- content: The average number of pulses per unit of time.
+- content: |-
+    P.R.R.
+
+    The average number of pulses per unit of time.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +34,5 @@ sources:
   origin:
     ref: I.R.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_repetition_rate

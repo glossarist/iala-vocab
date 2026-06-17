@@ -22,10 +22,15 @@ terms:
   designation: Automatic Identification System (AIS) (2)
   normative_status: preferred
 definition:
-- content: VTS-2012-6
-- content: A broadcast transponder system, operating in the VHF maritime mobile band.
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-6
+
+    A broadcast transponder system, operating in the VHF maritime mobile band.
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Automatic_Identification_System_(AIS)_(2)

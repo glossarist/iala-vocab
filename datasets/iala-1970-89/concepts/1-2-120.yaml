@@ -22,11 +22,13 @@ terms:
   designation: Zenith
   normative_status: preferred
 definition:
-- content: "(Observer's) Zenith"
-- content: The point at which a straight line joining the centre of the earth to the
-    observer's position meets the celestial sphere. To a particular observer it is
-    the highest point of the celestial sphere.
+- content: |-
+    (Observer's) Zenith
+
+    The point at which a straight line joining the centre of the earth to the observer's position meets the celestial sphere. To a particular observer it is the highest point of the celestial sphere.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Zenith

@@ -22,11 +22,13 @@ terms:
   designation: Diaphone - Cylinder
   normative_status: preferred
 definition:
-- content: Cylinder (of a diaphone)
-- content: The fixed part of the modulator in which one part of the double piston
-    slides; the modulation of the air is obtained by action of the slots on the two
-    parts of the modulator moving in and out of concidence.
+- content: |-
+    Cylinder (of a diaphone)
+
+    The fixed part of the modulator in which one part of the double piston slides; the modulation of the air is obtained by action of the slots on the two parts of the modulator moving in and out of concidence.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Cylinder

@@ -22,12 +22,13 @@ terms:
   designation: Tower rock light
   normative_status: preferred
 definition:
-- content: tower rock station pillar rock light pillar rock station
-- content: A station having a light as the principal aid to navigation, founded on
-    an isolated rock pinnacle or group of rocks. In recent years the terms have been
-    extended to offshore structures, founded on the seabed, used to support aids to
-    navigation.
+- content: |-
+    tower rock station pillar rock light pillar rock station
+
+    A station having a light as the principal aid to navigation, founded on an isolated rock pinnacle or group of rocks. In recent years the terms have been extended to offshore structures, founded on the seabed, used to support aids to navigation.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tower_rock_light

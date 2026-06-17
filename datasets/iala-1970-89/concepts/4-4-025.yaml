@@ -22,11 +22,13 @@ terms:
   designation: Pattern
   normative_status: preferred
 definition:
-- content: In radio navigational systems, the system of lines of position.
-- content: In a hyperbolic navigational system, the system of hyperbolic lines of
-    position associated with a single pair of stations, usually the master station
-    and a slave station.
+- content: |-
+    In radio navigational systems, the system of lines of position.
+
+    In a hyperbolic navigational system, the system of hyperbolic lines of position associated with a single pair of stations, usually the master station and a slave station.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pattern

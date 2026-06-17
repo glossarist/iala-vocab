@@ -22,10 +22,10 @@ terms:
   designation: Voltage standing-wave ratio
   normative_status: preferred
 definition:
-- content: 'Acronym: V.S.W.R.'
-- content: In a transmission line or waveguide, the ratio of the amplitude of the
-    transverse electric field at a plane of minimum strength to the amplitude at a
-    corresponding point in an adjacent plane of maximum field strength.
+- content: |-
+    Acronym: V.S.W.R.
+
+    In a transmission line or waveguide, the ratio of the amplitude of the transverse electric field at a plane of minimum strength to the amplitude at a corresponding point in an adjacent plane of maximum field strength.
 sources:
 - type: authoritative
   origin:
@@ -36,3 +36,5 @@ sources:
   modification: modified from source
 notes:
 - content: In some countries other than Britain, the reciprocal of this ratio is preferred.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Voltage_standing-wave_ratio

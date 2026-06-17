@@ -40,3 +40,5 @@ notes:
 - content: The definition applies only to a receiver, or to that part of a receiver,
     in which the processes of amplification or frequency changing, or both, are substantially
     linear.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Noise_figure

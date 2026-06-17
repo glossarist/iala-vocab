@@ -27,10 +27,13 @@ terms:
   designation: Assembled Lens
   normative_status: preferred
 definition:
-- content: A lens (in sense 2 of 2-2-010) in which the optical elements are assembled
-    in a common supporting frame.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    A lens (in sense 2 of 2-2-010) in which the optical elements are assembled in a common supporting frame.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Assembled_Lens

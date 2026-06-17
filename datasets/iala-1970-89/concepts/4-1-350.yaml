@@ -22,11 +22,10 @@ terms:
   designation: Directional antenna
   normative_status: preferred
 definition:
-- content: An antenna designed with a pattern which favours some directions more than
-    others.
-- content: Antennas having one or two major lobes are sometimes referred to as unidirectional
-    or bidirectional antennas respectively. The lobes of bidirectional antennas are
-    usually oppositely directed.
+- content: |-
+    An antenna designed with a pattern which favours some directions more than others.
+
+    Antennas having one or two major lobes are sometimes referred to as unidirectional or bidirectional antennas respectively. The lobes of bidirectional antennas are usually oppositely directed.
 sources:
 - type: authoritative
   origin:
@@ -35,3 +34,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Directional_antenna

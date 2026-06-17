@@ -22,10 +22,10 @@ terms:
   designation: Wavelength
   normative_status: preferred
 definition:
-- content: Distance in the direction of propagation of a periodic wave between two
-    successive points at which the phase is the same (at the same time).
-- content: Symbol ??
-- content: Unit metre (m)
+- content: |-
+    Distance in the direction of propagation of a periodic wave between two successive points at which the phase is the same (at the same time).
+
+    Symbol ??
 sources:
 - type: authoritative
   origin:
@@ -33,3 +33,6 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E. (extract)
+annotations:
+- content: Unit metre (m)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wavelength

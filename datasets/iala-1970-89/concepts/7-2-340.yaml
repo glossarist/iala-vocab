@@ -22,10 +22,10 @@ terms:
   designation: Bolt
   normative_status: preferred
 definition:
-- content: Cylindrical bar with square or hexagonal head, threaded at one end to receive
-    a nut.
-- content: The threaded section does not continue as far as the head. A bolt is a
-    commonly used fixing for joining metal parts.
+- content: |-
+    Cylindrical bar with square or hexagonal head, threaded at one end to receive a nut.
+
+    The threaded section does not continue as far as the head. A bolt is a commonly used fixing for joining metal parts.
 sources:
 - type: authoritative
   origin:
@@ -35,3 +35,5 @@ notes:
 - content: The term set screw and the French term vis calante are used when the threaded
     part continues as far as the head.
 - content: The term stud applies to a set screw without a head.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bolt

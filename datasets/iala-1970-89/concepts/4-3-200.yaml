@@ -36,3 +36,5 @@ sources:
   origin:
     ref: N.T.G
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/TB_cell

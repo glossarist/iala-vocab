@@ -27,12 +27,13 @@ terms:
   designation: Amplitude of an observed heavenly body
   normative_status: preferred
 definition:
-- content: Amplitude (of an observed heavenly body)
-- content: The angle subtended at the observer's zenith between two great circles
-    of the celestial sphere perpendicular to the observer's horizon, one of which
-    passes through the observed body and the other through the east and west points
-    of the observer's horizon.
+- content: |-
+    Amplitude (of an observed heavenly body)
+
+    The angle subtended at the observer's zenith between two great circles of the celestial sphere perpendicular to the observer's horizon, one of which passes through the observed body and the other through the east and west points of the observer's horizon.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Amplitude_of_an_observed_heavenly_body

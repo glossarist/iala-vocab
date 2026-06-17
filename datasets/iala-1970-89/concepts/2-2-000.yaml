@@ -22,12 +22,15 @@ terms:
   designation: Optic
   normative_status: preferred
 definition:
-- content: An assembly of optically refracting or reflecting elements (or both) and
-    their supporting frames.
-- content: Through the agency of these elements, rays emitted by a light source are
-    deflected into new directions as required.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    An assembly of optically refracting or reflecting elements (or both) and their supporting frames.
+
+    Through the agency of these elements, rays emitted by a light source are deflected into new directions as required.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optic

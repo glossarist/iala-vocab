@@ -21,12 +21,16 @@ terms:
 - type: expression
   designation: Ring around
   normative_status: preferred
+- type: expression
+  designation: Ring around (in secondary radar)
+  normative_status: admitted
 definition:
-- content: Ring around (in secondary radar)
-- content: 1. The undesired triggering of a transponder by its own transmitter.
-- content: 2. The triggering of a transponder at all bearings causing a ring presentation
+- content: The undesired triggering of a transponder by its own transmitter.
+- content: The triggering of a transponder at all bearings causing a ring presentation
     on a P.P.I.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ring_around

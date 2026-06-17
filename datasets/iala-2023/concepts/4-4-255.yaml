@@ -27,13 +27,17 @@ terms:
   designation: Omega Lane resolution
   normative_status: preferred
 definition:
-- content: Lane resolution (in Omega)
-- content: A method of resolving the lanes in the Omega system.
-- content: Additional frequencies are transmitted such that the spacing between equiphase
-    lines is a convenient submultiple of the spacing between the equiphase lines of
-    the basic frequency.
-- content: If this ratio is say 34, a coarse lane equal to three fine lanes is provided.
+- content: |-
+    Lane resolution (in Omega)
+
+    A method of resolving the lanes in the Omega system.
+
+    Additional frequencies are transmitted such that the spacing between equiphase lines is a convenient submultiple of the spacing between the equiphase lines of the basic frequency.
+
+    If this ratio is say 34, a coarse lane equal to three fine lanes is provided.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Omega_Lane_resolution

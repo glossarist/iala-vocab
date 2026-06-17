@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Minimum distance
   normative_status: preferred
+- type: expression
+  designation: Minimum distance (of a navigational system)
+  normative_status: admitted
 definition:
-- content: Minimum distance (of a navigational system)
 - content: The shortest distance at which a navigational system will function within
     its prescribed tolerances.
 sources:
@@ -32,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.R.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Minimum_distance

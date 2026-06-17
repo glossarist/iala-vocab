@@ -22,10 +22,10 @@ terms:
   designation: Conservation
   normative_status: preferred
 definition:
-- content: Action to secure the survival or preservation of buildings, cultural artefacts,
-    natural resources, energy or anything of acknowledged value to the future.
-- content: "(This definition was noted at the IALA Seminar on the Practical Aspects
-    of Lighthouse Preservation in Gothenburg 2005)"
+- content: |-
+    Action to secure the survival or preservation of buildings, cultural artefacts, natural resources, energy or anything of acknowledged value to the future.
+
+    (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
 sources:
 - type: authoritative
   origin:
@@ -33,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: Stirlingcharter
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Conservation

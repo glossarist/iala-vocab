@@ -22,9 +22,13 @@ terms:
   designation: Multipath propagation
   normative_status: preferred
 definition:
-- content: Multipath transmission Multipath (U.S.A.)
-- content: Propagation from the transmitter to the receiver by two or more paths simultaneously.
+- content: |-
+    Multipath transmission Multipath (U.S.A.)
+
+    Propagation from the transmitter to the receiver by two or more paths simultaneously.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Multipath_propagation

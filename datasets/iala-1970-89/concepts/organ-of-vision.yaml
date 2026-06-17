@@ -25,10 +25,10 @@ terms:
   designation: Visual Organ
   normative_status: admitted
 definition:
-- content: 2-1 -320
-- content: The group of structures comprising the eye, the optic nerve and certain
-    parts of the brain, which transforms the light stimulus into a complex of nerve
-    excitations, whose subjective correlate is visual perception.
+- content: |-
+    2-1 -320
+
+    The group of structures comprising the eye, the optic nerve and certain parts of the brain, which transforms the light stimulus into a complex of nerve excitations, whose subjective correlate is visual perception.
 sources:
 - type: authoritative
   origin:
@@ -36,3 +36,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Organ_of_Vision

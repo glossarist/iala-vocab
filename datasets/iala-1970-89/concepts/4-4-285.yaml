@@ -22,21 +22,23 @@ terms:
   designation: Type DM Raydist
   normative_status: preferred
 definition:
-- content: A Raydist distance measuring system using circular co-ordinates, capable
-    of producing a position fix to greater precision than that obtained with the hyperbolic
-    system.
-- content: Two transmitters are used, one on the ship and one on the shore.
-- content: One frequency is nearly twice the other, so that the shore station can
-    receive the signal from the vessel without interference.
-- content: This station doubles the lower frequency and compares it with the higher.
-- content: The resultant beat note is transmitted to the ship via a radio link. A
-    second shore station likewise treats the two frequencies and transmits the resultant
-    beat note via a radio link.
-- content: The vessel then compares these two beat notes with that similarly generated
-    locally, enabling the distance to each shore station to be obtained.
-- content: Saturation is alleviated by having other vessels using different offset
-    frequencies.
+- content: |-
+    A Raydist distance measuring system using circular co-ordinates, capable of producing a position fix to greater precision than that obtained with the hyperbolic system.
+
+    Two transmitters are used, one on the ship and one on the shore.
+
+    One frequency is nearly twice the other, so that the shore station can receive the signal from the vessel without interference.
+
+    This station doubles the lower frequency and compares it with the higher.
+
+    The resultant beat note is transmitted to the ship via a radio link. A second shore station likewise treats the two frequencies and transmits the resultant beat note via a radio link.
+
+    The vessel then compares these two beat notes with that similarly generated locally, enabling the distance to each shore station to be obtained.
+
+    Saturation is alleviated by having other vessels using different offset frequencies.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Type_DM_Raydist

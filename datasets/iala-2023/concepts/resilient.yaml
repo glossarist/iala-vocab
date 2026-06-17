@@ -22,10 +22,13 @@ terms:
   designation: Resilient
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0401503e
-- content: Able to detect and compensate for external and internal sources of disturbances,
-    malfunction and breakdowns in parts of the system.
+- content: |-
+    urn:mrn:iala:dic:0401503e
+
+    Able to detect and compensate for external and internal sources of disturbances, malfunction and breakdowns in parts of the system.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Resilient

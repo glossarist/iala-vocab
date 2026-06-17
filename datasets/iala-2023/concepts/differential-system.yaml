@@ -22,13 +22,14 @@ terms:
   designation: Differential system
   normative_status: preferred
 definition:
-- content: An augmentation system whereby radio-navigation signals are monitored at
-    a known position and the corrections so determined are transmitted to users in
-    the coverage area.
 - content: |-
+    An augmentation system whereby radio-navigation signals are monitored at a known position and the corrections so determined are transmitted to users in the coverage area.
+
     DGPS: Differential Global Positioning System
     DR-Mode: Differential Ranging Mode
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Differential_system

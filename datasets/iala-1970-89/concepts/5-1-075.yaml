@@ -22,10 +22,12 @@ terms:
   designation: Wear-out-failure period
   normative_status: preferred
 definition:
-- content: That possible period during which the failure rate is increasing rapidly
-    due to deterioration processes.
-- content: "![Ch5_Fig1.jpg](/iala-vocab/images/iala/Ch5_Fig1.jpg)"
-- content: Figure 1 - Failure rate / time pattern.
+- content: |-
+    That possible period during which the failure rate is increasing rapidly due to deterioration processes.
+
+    ![Ch5_Fig1.jpg](/iala-vocab/images/iala/Ch5_Fig1.jpg)
+
+    Figure 1 - Failure rate / time pattern.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wear-out-failure_period

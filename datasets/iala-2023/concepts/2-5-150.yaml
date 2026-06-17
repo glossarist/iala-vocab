@@ -27,10 +27,13 @@ terms:
   designation: Single-Flashing Light
   normative_status: preferred
 definition:
-- content: A flashing light exhibiting only single flashes which are repeated at regular
-    intervals. (Fig. 40b)
-- content: "![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)"
+- content: |-
+    A flashing light exhibiting only single flashes which are repeated at regular intervals. (Fig. 40b)
+
+    ![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Single-Flashing_Light

@@ -22,11 +22,15 @@ terms:
   designation: Audible Signal
   normative_status: preferred
 definition:
-- content: An audible signal intended to warn or guide ships in low visibility.
-- content: Also called Fog Signal or Sound Signal.
-- content: 'Source: IALA Guideline G1090 on The Use of Audible Signals Edition 1 December
-    2012.'
+- content: |-
+    An audible signal intended to warn or guide ships in low visibility.
+
+    Also called Fog Signal or Sound Signal.
+
+    Source: IALA Guideline G1090 on The Use of Audible Signals Edition 1 December 2012.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Audible_Signal

@@ -27,10 +27,12 @@ terms:
   designation: Incandescent (Electric) Lamp
   normative_status: preferred
 definition:
-- content: A lamp in which light is produced by means of a body heated to incandescence
-    by the passage of an electric current. (Figs. 10 and 22)
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
-- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
+- content: |-
+    A lamp in which light is produced by means of a body heated to incandescence by the passage of an electric current. (Figs. 10 and 22)
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+
+    ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
 sources:
 - type: authoritative
   origin:
@@ -44,3 +46,5 @@ notes:
     lamp is called a Carbon Filament Lamp or a Metal Filament Lamp. The latter may
     be a Straight-Filament Lamp (2-3-175), a Single-Coil Lamp (2-3-180) or a Coiled-Coil
     Lamp (2-3-185).
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Incandescent_(Electric)_Lamp

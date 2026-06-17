@@ -22,10 +22,11 @@ terms:
   designation: Competent Authority
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901008e
-- content: "(VTS) Competent authority means the entity made responsible by the Government
-    for vessel traffic services."
 - content: |-
+    urn:mrn:iala:dic:0901008e
+
+    (VTS) Competent authority means the entity made responsible by the Government for vessel traffic services.
+
     Source:
     IMO Resolution A.1158(32)
     IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
@@ -33,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Competent_Authority

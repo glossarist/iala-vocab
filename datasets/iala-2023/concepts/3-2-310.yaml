@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Gong buoy
   normative_status: preferred
+- type: expression
+  designation: Gong buoy (U.S.A.)
+  normative_status: admitted
 definition:
-- content: Gong buoy (U.S.A.)
 - content: A buoy fitted with a group of saucer-shaped bells of different tones.
 sources:
 - type: authoritative
@@ -35,3 +37,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: This term is also defined in chapter 8 {{8-4-015, Gong buoy (USA)}}
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gong_buoy

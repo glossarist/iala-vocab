@@ -22,9 +22,10 @@ terms:
   designation: Electric field strength
   normative_status: preferred
 definition:
-- content: Electric field intensity (deprecated)
-- content: The magnitude of the electric field vector. The term usually refers to
-    the root-mean-square value of the field.
+- content: |-
+    Electric field intensity (deprecated)
+
+    The magnitude of the electric field vector. The term usually refers to the root-mean-square value of the field.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ notes:
 - content: This term is sometimes called Electric field intensity but such use of
     the word intensity is deprecated in favour of Field strength since intensity connotes
     power in optics and radiation.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electric_field_strength

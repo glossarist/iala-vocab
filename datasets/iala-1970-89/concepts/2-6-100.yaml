@@ -30,10 +30,13 @@ terms:
   designation: Obstruction Mark (or Buoy) (U.S.A.)
   normative_status: admitted
 definition:
-- content: A mark (or buoy) used alone to indicate a dangerous reef or shoal. The
-    mark (or buoy) may be passed on either hand.
-- content: "![Ch2_Fig54.jpg](/iala-vocab/images/iala/Ch2_Fig54.jpg)"
+- content: |-
+    A mark (or buoy) used alone to indicate a dangerous reef or shoal. The mark (or buoy) may be passed on either hand.
+
+    ![Ch2_Fig54.jpg](/iala-vocab/images/iala/Ch2_Fig54.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Isolated_Danger_Mark_(or_Buoy)_(G.B.)

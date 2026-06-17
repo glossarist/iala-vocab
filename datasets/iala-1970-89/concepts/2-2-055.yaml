@@ -22,9 +22,13 @@ terms:
   designation: Rack
   normative_status: preferred
 definition:
-- content: Parts of the frame of an optic, into which the rings are fitted.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    Parts of the frame of an optic, into which the rings are fitted.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rack

@@ -22,9 +22,13 @@ terms:
   designation: Canal
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0102185e
-- content: A narrow stretch of waterway created artificially to serve navigation.
+- content: |-
+    urn:mrn:iala:dic:0102185e
+
+    A narrow stretch of waterway created artificially to serve navigation.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Canal

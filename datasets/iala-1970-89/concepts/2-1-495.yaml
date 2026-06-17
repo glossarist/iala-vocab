@@ -34,5 +34,6 @@ sources:
     ref: C.I.E
 notes:
 - content: Both radiations will necessarily have the same, or nearly the same, chromaticity.
-examples:
-- content: kelvin (K)
+annotations:
+- content: Unit kelvin (K)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Distribution_Temperature

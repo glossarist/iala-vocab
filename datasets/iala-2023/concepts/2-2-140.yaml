@@ -27,11 +27,13 @@ terms:
   designation: Fresnel Lens
   normative_status: preferred
 definition:
-- content: A prismatic lens obtained by the rotation of a Fresnel profile about the
-    optical axis of the lens (Fresnel Panel), or about a vertical axis (Fresnel Drum
-    Lens).
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    A prismatic lens obtained by the rotation of a Fresnel profile about the optical axis of the lens (Fresnel Panel), or about a vertical axis (Fresnel Drum Lens).
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fresnel_Lens

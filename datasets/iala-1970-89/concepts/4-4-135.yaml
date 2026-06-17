@@ -22,9 +22,13 @@ terms:
   designation: Decca Bowl
   normative_status: preferred
 definition:
-- content: "(Decca) Bowl"
-- content: Case carrying the decometers in a complete Decca navigator installation.
+- content: |-
+    (Decca) Bowl
+
+    Case carrying the decometers in a complete Decca navigator installation.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Bowl

@@ -27,8 +27,10 @@ terms:
   designation: Isotropic radiator
   normative_status: preferred
 definition:
-- content: Unipole (U.S.A.)
-- content: An antenna which radiates or receives uniformly in all directions.
+- content: |-
+    Unipole (U.S.A.)
+
+    An antenna which radiates or receives uniformly in all directions.
 sources:
 - type: authoritative
   origin:
@@ -40,3 +42,5 @@ sources:
 notes:
 - content: This is a hypothetical concept used as a standard in connection with the
     gain function.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Isotropic_radiator

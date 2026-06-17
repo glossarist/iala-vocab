@@ -27,10 +27,13 @@ terms:
   designation: Beat reception
   normative_status: preferred
 definition:
-- content: Heterodyne reception
-- content: Reception in which an audio frequency is derived by beating the signal
-    frequency with that produced by a local oscillator, followed by detection.
+- content: |-
+    Heterodyne reception
+
+    Reception in which an audio frequency is derived by beating the signal frequency with that produced by a local oscillator, followed by detection.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Beat_reception

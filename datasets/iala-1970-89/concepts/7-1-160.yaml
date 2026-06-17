@@ -22,9 +22,13 @@ terms:
   designation: Flagpole
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Flagstaff, Flagmast'
-- content: A pole from which a flag may be flown.
+- content: |-
+    Alternative terms: Flagstaff, Flagmast
+
+    A pole from which a flag may be flown.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Flagpole

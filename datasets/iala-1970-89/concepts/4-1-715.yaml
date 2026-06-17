@@ -27,11 +27,13 @@ terms:
   designation: Beat frequency oscillator
   normative_status: preferred
 definition:
-- content: 'Acronym: B.F.O.'
-- content: In superheterodyne reception, the adjustable oscillator which, when heterodyned
-    with the output of the final intermediate frequency stage, serves to translate
-    an A-1 signal to the audio frequency range.
+- content: |-
+    Acronym: B.F.O.
+
+    In superheterodyne reception, the adjustable oscillator which, when heterodyned with the output of the final intermediate frequency stage, serves to translate an A-1 signal to the audio frequency range.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Beat_frequency_oscillator

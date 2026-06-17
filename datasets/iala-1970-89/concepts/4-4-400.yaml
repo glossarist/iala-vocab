@@ -27,12 +27,13 @@ terms:
   designation: A-N Radio range
   normative_status: preferred
 definition:
-- content: A Radio Range providing four radial lines of position identified aurally
-    as a continuous tone resulting from the interlocking of equal amplitude A and
-    N International Morse Code letters.
-- content: The sense of deviation from these lines is indicated by a deterioration
-    of the steady tone into audible A or N code signals.
+- content: |-
+    A Radio Range providing four radial lines of position identified aurally as a continuous tone resulting from the interlocking of equal amplitude A and N International Morse Code letters.
+
+    The sense of deviation from these lines is indicated by a deterioration of the steady tone into audible A or N code signals.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/A-N_Radio_range

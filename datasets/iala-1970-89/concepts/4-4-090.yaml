@@ -22,11 +22,15 @@ terms:
   designation: Loran Slew control
   normative_status: preferred
 definition:
-- content: Slew control (in Loran)
-- content: Left-right control (in Loran)
-- content: The equipment control by means of which the received pulse signals are
-    placed at the proper operating point on the time base.
+- content: |-
+    Slew control (in Loran)
+
+    Left-right control (in Loran)
+
+    The equipment control by means of which the received pulse signals are placed at the proper operating point on the time base.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Slew_control

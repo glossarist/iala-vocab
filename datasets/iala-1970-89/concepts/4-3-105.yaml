@@ -25,11 +25,13 @@ terms:
   designation: P.P.I. display
   normative_status: admitted
 definition:
-- content: An intensity-modulated radar display in which a radial scan rotates on
-    the cathode ray tube in synchronism with the rotating antenna.
-- content: The display indicates, as on a map, the positions of echo-producing objects,
-    and is generally one of two main types, relative display or true motion display.
+- content: |-
+    An intensity-modulated radar display in which a radial scan rotates on the cathode ray tube in synchronism with the rotating antenna.
+
+    The display indicates, as on a map, the positions of echo-producing objects, and is generally one of two main types, relative display or true motion display.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Plan_position_indicator

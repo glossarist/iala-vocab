@@ -27,11 +27,13 @@ terms:
   designation: Bullseye
   normative_status: preferred
 definition:
-- content: A circular lens (in sense 1 of 2-2-010), or part thereof, usually plano-convex
-    or double convex in section, the optical axis {{2-2-110, Optical Axis}} of which
-    coincides with the optical axis of the prismatic lens of which it forms a part.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    A circular lens (in sense 1 of 2-2-010), or part thereof, usually plano-convex or double convex in section, the optical axis {{2-2-110, Optical Axis}} of which coincides with the optical axis of the prismatic lens of which it forms a part.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bullseye

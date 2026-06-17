@@ -27,19 +27,20 @@ terms:
   designation: Superstructure (of a buoy)
   normative_status: preferred
 definition:
-- content: A substantial frame or construction that is carried on top of the body
-    of a buoy. It may serve as a daymark and may carry a signal light, a topmark and
-    other aids to navigation.
-- content: 'Note 1:'
-- content: The term cage refers to a part of a superstructure that is an external
-    frame of closely spaced slats or ribs. The purpose of a cage is to provide a characteristic
-    shape such as a cylinder, cone or sphere.
-- content: 'Note 2:'
-- content: The terms lantern support and lantern post (USA) refer to that part of
-    the buoy superstructure that provides direct support to the buoy light and possibly
-    also the topmark and radar reflector.
-- content: The French term support de lanterne has the same meaning.
+- content: |-
+    A substantial frame or construction that is carried on top of the body of a buoy. It may serve as a daymark and may carry a signal light, a topmark and other aids to navigation.
+
+    The term cage refers to a part of a superstructure that is an external frame of closely spaced slats or ribs. The purpose of a cage is to provide a characteristic shape such as a cylinder, cone or sphere.
+
+    The terms lantern support and lantern post (USA) refer to that part of the buoy superstructure that provides direct support to the buoy light and possibly also the topmark and radar reflector.
+
+    The French term support de lanterne has the same meaning.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+notes:
+- content: ":"
+- content: ":"
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)

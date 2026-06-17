@@ -22,9 +22,10 @@ terms:
   designation: Riprap
   normative_status: preferred
 definition:
-- content: stone pitching
-- content: Stones used to form a protective covering to an earth embankment or river
-    banks to prevent scour and erosion.
+- content: |-
+    stone pitching
+
+    Stones used to form a protective covering to an earth embankment or river banks to prevent scour and erosion.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 notes:
 - content: The French term enrochements and the German term Steinschuttung also apply
     to stones used to provide a protective mound or embankment.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Riprap

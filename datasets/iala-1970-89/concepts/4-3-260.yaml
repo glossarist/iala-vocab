@@ -21,11 +21,14 @@ terms:
 - type: expression
   designation: Paint
   normative_status: preferred
+- type: expression
+  designation: Paint (on a P.P.I.)
+  normative_status: admitted
 definition:
-- content: Paint (on a P.P.I.)
-- content: "(Verb) To leave a picture on a long persistence screen by the effect of
-    signals on the moving time base."
-- content: "(Noun) The picture remaining."
+- content: |-
+    (Verb) To leave a picture on a long persistence screen by the effect of signals on the moving time base.
+
+    (Noun) The picture remaining.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +36,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Paint

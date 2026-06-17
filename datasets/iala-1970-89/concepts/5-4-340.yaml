@@ -22,10 +22,13 @@ terms:
   designation: Pressure stat
   normative_status: preferred
 definition:
-- content: Pressure relay Pressure switch
-- content: A device which activates an electric contact when a defined pressure limit
-    is reached.
+- content: |-
+    Pressure relay Pressure switch
+
+    A device which activates an electric contact when a defined pressure limit is reached.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pressure_stat

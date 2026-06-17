@@ -45,3 +45,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E. (extract)
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Colour_(G.B.)

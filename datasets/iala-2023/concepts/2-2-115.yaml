@@ -27,10 +27,13 @@ terms:
   designation: Axis (of a fixed lens)
   normative_status: preferred
 definition:
-- content: The vertical line comprising the axes of revolution of the belt and rings
-    composing the fixed lens. (Fig. 16b)
-- content: "![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)"
+- content: |-
+    The vertical line comprising the axes of revolution of the belt and rings composing the fixed lens. (Fig. 16b)
+
+    ![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Axis_(of_a_fixed_lens)

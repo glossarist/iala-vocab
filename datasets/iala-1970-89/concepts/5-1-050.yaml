@@ -27,11 +27,13 @@ terms:
   designation: Preventive maintenance
   normative_status: preferred
 definition:
-- content: A procedure of periodically checking or reconditioning a system to prevent
-    or reduce the probability of failure or deterioration while in service.
-- content: Preventive maintenance provides systematic inspection, detection and correction
-    of incipient failures before they occur or develop into major malfunctions.
+- content: |-
+    A procedure of periodically checking or reconditioning a system to prevent or reduce the probability of failure or deterioration while in service.
+
+    Preventive maintenance provides systematic inspection, detection and correction of incipient failures before they occur or develop into major malfunctions.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Preventive_maintenance

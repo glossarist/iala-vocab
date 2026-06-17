@@ -22,10 +22,13 @@ terms:
   designation: Decca Night errors
   normative_status: preferred
 definition:
-- content: Night errors (in Decca)
-- content: Errors in Decometer readings due to reflected waves from the ionosphere
-    arriving with a different phase from that of the groundwaves from the transmitter.
+- content: |-
+    Night errors (in Decca)
+
+    Errors in Decometer readings due to reflected waves from the ionosphere arriving with a different phase from that of the groundwaves from the transmitter.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Night_errors

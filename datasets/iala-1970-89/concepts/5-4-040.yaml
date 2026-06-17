@@ -22,9 +22,10 @@ terms:
   designation: Storage (2)
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Store (G.B.), Memory'
-- content: Any device in which data can be entered, in which it can be held, and from
-    which it can be retrieved at at a later time.
+- content: |-
+    Alternative terms: Store (G.B.), Memory
+
+    Any device in which data can be entered, in which it can be held, and from which it can be retrieved at at a later time.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +34,5 @@ sources:
   origin:
     ref: I.E.E.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Storage_(2)

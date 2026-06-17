@@ -22,8 +22,10 @@ terms:
   designation: Bell Buoy (2)
   normative_status: preferred
 definition:
-- content: A buoy fitted with one or more bells.
-- content: "![Ch2_Fig56.jpg](/iala-vocab/images/iala/Ch2_Fig56.jpg)"
+- content: |-
+    A buoy fitted with one or more bells.
+
+    ![Ch2_Fig56.jpg](/iala-vocab/images/iala/Ch2_Fig56.jpg)
 sources:
 - type: authoritative
   origin:
@@ -31,3 +33,5 @@ sources:
 notes:
 - content: In French, the term Bouee a Carillon is applied to a buoy bearing a group
     of bells.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bell_Buoy_(2)

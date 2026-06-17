@@ -22,10 +22,13 @@ terms:
   designation: Shoran Calibrated variable phase advancer
   normative_status: preferred
 definition:
-- content: Calibrated variable phase advancer (in Shoran)
-- content: A device by means of which the transmitted pulse is shifted in time so
-    that the received pulse will coincide with the marker pulse.
+- content: |-
+    Calibrated variable phase advancer (in Shoran)
+
+    A device by means of which the transmitted pulse is shifted in time so that the received pulse will coincide with the marker pulse.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shoran_Calibrated_variable_phase_advancer

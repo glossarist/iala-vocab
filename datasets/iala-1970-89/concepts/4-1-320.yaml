@@ -22,10 +22,13 @@ terms:
   designation: Re-radiation
   normative_status: preferred
 definition:
-- content: Secondary radiation (G.B.)
-- content: Radiation caused by the currents produced in a conductor or dielectric
-    by an incident radiation.
+- content: |-
+    Secondary radiation (G.B.)
+
+    Radiation caused by the currents produced in a conductor or dielectric by an incident radiation.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Re-radiation

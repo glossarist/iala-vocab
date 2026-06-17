@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Cathode ray direction finder
   normative_status: preferred
+- type: expression
+  designation: Cathode ray direction finder (C.R.D.F.)
+  normative_status: admitted
 definition:
-- content: Cathode ray direction finder (C.R.D.F.)
 - content: A direction finder, often automatic, in which the bearing is displayed
     on the screen of a cathode ray tube.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathode_ray_direction_finder

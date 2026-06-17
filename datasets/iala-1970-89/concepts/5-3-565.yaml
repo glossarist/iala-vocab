@@ -31,3 +31,5 @@ sources:
   origin:
     ref: I.E.E.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Storage

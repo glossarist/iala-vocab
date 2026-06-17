@@ -38,3 +38,5 @@ sources:
 notes:
 - content: This type of lamp (xenon, for example) is generally of extra high pressure.
     The arc fills the discharge tube and is therefore stabilized.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Long-Arc_Lamp

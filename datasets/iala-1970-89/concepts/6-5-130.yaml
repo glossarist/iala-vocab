@@ -27,13 +27,13 @@ terms:
   designation: Charge (2)
   normative_status: preferred
 definition:
-- content: 1 The process by which a secondary cell or battery is supplied with electric
-    energy for conversion into chemical energy.
-- content: 2 The quantity of electricity that is supplied to a secondary cell or battery
-    while currents is being delivered to it, in the direction opposite to that during
-    discharge, for conversion from electric energy into chemical energy. It is usually
-    measured in ampere-hours.
+- content: |-
+    1 The process by which a secondary cell or battery is supplied with electric energy for conversion into chemical energy.
+
+    2 The quantity of electricity that is supplied to a secondary cell or battery while currents is being delivered to it, in the direction opposite to that during discharge, for conversion from electric energy into chemical energy. It is usually measured in ampere-hours.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Charge_(2)

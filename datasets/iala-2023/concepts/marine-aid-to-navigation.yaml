@@ -22,15 +22,16 @@ terms:
   designation: Marine Aid to Navigation
   normative_status: preferred
 definition:
-- content: means a device, system or service, external to a vessel, designed and operated
-    to enhance safe and efficient navigation of individual vessels and vessel traffic.
-    For the purpose of the Organization (IALA) this definition includes Vessel Traffic
-    Services
-- content: 'Other forms: Aids to Navigation (plural), AtoN'
 - content: |-
+    means a device, system or service, external to a vessel, designed and operated to enhance safe and efficient navigation of individual vessels and vessel traffic. For the purpose of the Organization (IALA) this definition includes Vessel Traffic Services
+
+    Other forms: Aids to Navigation (plural), AtoN
+
     This definition of the term Aid to Navigation is in accordance with the IALA Constitution.
     The use of the definition from the original IALA Dictionary has been discontinued.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Marine_Aid_to_Navigation

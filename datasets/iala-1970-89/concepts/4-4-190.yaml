@@ -22,9 +22,10 @@ terms:
   designation: Decca Lane identification
   normative_status: preferred
 definition:
-- content: Lane identification (in Decca)
-- content: The automatic system, incorporated in the Decca navigator system, to identify
-    the particular lane in a pattern in which the craft is situated.
+- content: |-
+    Lane identification (in Decca)
+
+    The automatic system, incorporated in the Decca navigator system, to identify the particular lane in a pattern in which the craft is situated.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Lane_identification

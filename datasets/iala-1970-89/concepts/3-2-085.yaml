@@ -22,10 +22,13 @@ terms:
   designation: Volute of a siren
   normative_status: preferred
 definition:
-- content: Volute (of a siren)
-- content: A component in the form of a spiral which distributes the compressed air
-    evenly to the periphery of the stator.
+- content: |-
+    Volute (of a siren)
+
+    A component in the form of a spiral which distributes the compressed air evenly to the periphery of the stator.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Volute_of_a_siren

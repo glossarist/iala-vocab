@@ -22,10 +22,13 @@ terms:
   designation: Loran Time base
   normative_status: preferred
 definition:
-- content: Time base (in Loran)
-- content: A timing standard situated at each element of the system which is synchronised
-    to the master station.
+- content: |-
+    Time base (in Loran)
+
+    A timing standard situated at each element of the system which is synchronised to the master station.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Time_base

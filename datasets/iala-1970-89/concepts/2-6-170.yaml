@@ -22,10 +22,13 @@ terms:
   designation: Lighted Buoy
   normative_status: preferred
 definition:
-- content: A buoy fitted with a light.
-- content: Omar, I wanted to inform you that I have completed approximately half of
-    the dictionary update.
+- content: |-
+    A buoy fitted with a light.
+
+    Omar, I wanted to inform you that I have completed approximately half of the dictionary update.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lighted_Buoy

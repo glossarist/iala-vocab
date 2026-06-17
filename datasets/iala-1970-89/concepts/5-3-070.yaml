@@ -35,3 +35,5 @@ sources:
 notes:
 - content: This is a general term which includes several forms of modulation such
     as pulse duration, pulse position and pulse interval modulation.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_time_modulation_(PTM)

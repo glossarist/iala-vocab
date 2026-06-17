@@ -22,11 +22,13 @@ terms:
   designation: HSFG bolt
   normative_status: preferred
 definition:
-- content: High strength friction grip bolt
-- content: High tensile bolt tightened to a high torque to join steelwork members
-    together purely by friction, and not in shear or bending. The bolt is a loose
-    clearance fit into its hole.
+- content: |-
+    High strength friction grip bolt
+
+    High tensile bolt tightened to a high torque to join steelwork members together purely by friction, and not in shear or bending. The bolt is a loose clearance fit into its hole.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/HSFG_bolt

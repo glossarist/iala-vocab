@@ -22,12 +22,15 @@ terms:
   designation: Geographical Range (Superseded)
   normative_status: preferred
 definition:
-- content: Superseded by new definition from Guideline G1065
-- content: The maximum distance at which light from a light or other aid to navigation
-    can reach an observer, as limited only by the curvature of the earth and refraction
-    in the atmosphere and by the heights of the observer and of the light or aid.
-- content: "![Ch2_Fig9.jpg](/iala-vocab/images/iala/Ch2_Fig9.jpg)"
+- content: |-
+    Superseded by new definition from Guideline G1065
+
+    The maximum distance at which light from a light or other aid to navigation can reach an observer, as limited only by the curvature of the earth and refraction in the atmosphere and by the heights of the observer and of the light or aid.
+
+    ![Ch2_Fig9.jpg](/iala-vocab/images/iala/Ch2_Fig9.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Geographical_Range_(Superseded)

@@ -22,10 +22,13 @@ terms:
   designation: Stator of a siren
   normative_status: preferred
 definition:
-- content: Stator (of a siren)
-- content: The fixed part of the modulator containing regularly distributed apertures
-    or "ports" for the passage of the compressed air.
+- content: |-
+    Stator (of a siren)
+
+    The fixed part of the modulator containing regularly distributed apertures or "ports" for the passage of the compressed air.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stator_of_a_siren

@@ -22,17 +22,19 @@ terms:
   designation: Shoran Indicator
   normative_status: preferred
 definition:
-- content: Indicator (in Shoran)
-- content: A circular sweep cathode ray display, used on the vessel.
-- content: The 360 degrees  arc of the sweep is, by applying the proper frequency
-    derived from the time base, made to be equivalent to various distances, for example,
-    1 mile, 10 miles, 100 miles.
-- content: A marker pulse related to the transmitted pulse and the received pulse
-    are displayed as deflections of the sweep so that the distance from ship to shore
-    station is directly indicated.
-- content: By shifting the transmitted pulse by a known amount the two displayed pulses
-    can be superimposed for the more accurate measurement of distance.
+- content: |-
+    Indicator (in Shoran)
+
+    A circular sweep cathode ray display, used on the vessel.
+
+    The 360 degrees  arc of the sweep is, by applying the proper frequency derived from the time base, made to be equivalent to various distances, for example, 1 mile, 10 miles, 100 miles.
+
+    A marker pulse related to the transmitted pulse and the received pulse are displayed as deflections of the sweep so that the distance from ship to shore station is directly indicated.
+
+    By shifting the transmitted pulse by a known amount the two displayed pulses can be superimposed for the more accurate measurement of distance.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shoran_Indicator

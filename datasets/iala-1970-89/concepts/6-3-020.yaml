@@ -22,10 +22,13 @@ terms:
   designation: Solar array
   normative_status: preferred
 definition:
-- content: "(solar) array"
-- content: A mechanically integrated assembly of modules or panels together with its
-    support structure, forming a d.c. power producing unit.
+- content: |-
+    (solar) array
+
+    A mechanically integrated assembly of modules or panels together with its support structure, forming a d.c. power producing unit.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Solar_array

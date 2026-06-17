@@ -27,11 +27,13 @@ terms:
   designation: Equi-Angular Profile
   normative_status: preferred
 definition:
-- content: A stepped profile such that a light ray emitted from the focus and passing
-    through a portion of the profile exhibits equal angles of incidence and emergence.
-    This produces minimum dispersion.
-- content: "![Ch2_Fig15.jpg](/iala-vocab/images/iala/Ch2_Fig15.jpg)"
+- content: |-
+    A stepped profile such that a light ray emitted from the focus and passing through a portion of the profile exhibits equal angles of incidence and emergence. This produces minimum dispersion.
+
+    ![Ch2_Fig15.jpg](/iala-vocab/images/iala/Ch2_Fig15.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Equi-Angular_Profile

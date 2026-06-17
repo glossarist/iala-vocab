@@ -22,10 +22,13 @@ terms:
   designation: Thermoelectric generator
   normative_status: preferred
 definition:
-- content: 'Acronym: TEG'
-- content: A device used to convert heat into electric energy. It consists of a battery
-    of thermocouples, i.e. a thermopile.
+- content: |-
+    Acronym: TEG
+
+    A device used to convert heat into electric energy. It consists of a battery of thermocouples, i.e. a thermopile.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Thermoelectric_generator

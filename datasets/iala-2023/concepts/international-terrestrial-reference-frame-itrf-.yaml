@@ -22,14 +22,13 @@ terms:
   designation: International Terrestrial Reference Frame (ITRF)
   normative_status: preferred
 definition:
-- content: A realisation of the International Terrestrial Reference System (ITRS)
-    - a world spatial reference system with its origin at the centre of the Earth.
-    Numbers following the designation ITRF specify the last year from which data was
-    used in the datum definition e.g. ITRF 97. A GNSS or other radio-navigation system
-    may be referenced to a specific ITRF designation so that it can be precisely related
-    to the physical world.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    A realisation of the International Terrestrial Reference System (ITRS) - a world spatial reference system with its origin at the centre of the Earth. Numbers following the designation ITRF specify the last year from which data was used in the datum definition e.g. ITRF 97. A GNSS or other radio-navigation system may be referenced to a specific ITRF designation so that it can be precisely related to the physical world.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/International_Terrestrial_Reference_Frame_(ITRF)

@@ -22,9 +22,10 @@ terms:
   designation: Spread of bearings
   normative_status: preferred
 definition:
-- content: Range of bearings
-- content: The angular range of all the corrected bearings given by a series of bearing
-    observations of a given fixed transmitter.
+- content: |-
+    Range of bearings
+
+    The angular range of all the corrected bearings given by a series of bearing observations of a given fixed transmitter.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spread_of_bearings

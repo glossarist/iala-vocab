@@ -22,11 +22,15 @@ terms:
   designation: VTS traffic image
   normative_status: preferred
 definition:
-- content: VTS-2012-53
-- content: A VTS traffic image is the surface picture of vessels and their movements
-    in a VTS area.
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-53
+
+    A VTS traffic image is the surface picture of vessels and their movements in a VTS area.
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_traffic_image

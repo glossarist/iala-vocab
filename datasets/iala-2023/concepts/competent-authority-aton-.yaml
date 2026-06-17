@@ -22,11 +22,13 @@ terms:
   designation: Competent Authority (AtoN)
   normative_status: preferred
 definition:
-- content: Competent Authority (AtoN) is an authority made responsible, in whole or
-    in part, by the Government for the safety (including environmental safety) and
-    efficiency of aids to navigation service provision and the protection of the environment.
-- content: 'Source: ENG7, Recommendation R0141'
+- content: |-
+    Competent Authority (AtoN) is an authority made responsible, in whole or in part, by the Government for the safety (including environmental safety) and efficiency of aids to navigation service provision and the protection of the environment.
+
+    Source: ENG7, Recommendation R0141
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Competent_Authority_(AtoN)

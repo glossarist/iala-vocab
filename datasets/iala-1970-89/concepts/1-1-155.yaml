@@ -21,9 +21,11 @@ terms:
 - type: expression
   designation: Spectral distribution curve
   normative_status: preferred
+- type: expression
+  designation: Spectral distribution curve (of a radiometric quantity radiant flux,
+    radiant intensity, etc.)
+  normative_status: admitted
 definition:
-- content: Spectral distribution curve (of a radiometric quantity radiant flux, radiant
-    intensity, etc.)
 - content: Curve representing the spectral concentration of the quantity as a function
     of wavelength.
 sources:
@@ -33,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E. (extract)
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spectral_distribution_curve

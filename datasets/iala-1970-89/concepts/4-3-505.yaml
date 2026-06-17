@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Side lobe suppression
   normative_status: preferred
+- type: expression
+  designation: Side lobe suppression (in a transponder)
+  normative_status: admitted
 definition:
-- content: Side lobe suppression (in a transponder)
 - content: A technique for suppressing the reply of a transponder to side-lobe interrogation.
 sources:
 - type: authoritative
@@ -31,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.C.A.O
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Side_lobe_suppression

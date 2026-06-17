@@ -34,5 +34,7 @@ sources:
   origin:
     ref: IALA Dictionary
 notes:
-- content: ": When this probability is expressed as a percentage, it is called confidence
-    factor."
+- content: 'Note:: When this probability is expressed as a percentage, it is called
+    confidence factor.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Confidence_level

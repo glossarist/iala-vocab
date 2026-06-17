@@ -38,3 +38,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: There are terrestrial, astronomical and radio position lines.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Position_line

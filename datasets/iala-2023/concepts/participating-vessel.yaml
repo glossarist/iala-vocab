@@ -22,16 +22,21 @@ terms:
   designation: Participating Vessel
   normative_status: preferred
 definition:
-- content: VTS-2012-24
-- content: Vessels navigating in an area where vessel traffic services are provided
-    should make use of these services.
-- content: Depending upon governing rules and regulations, participation in a VTS
-    may be either voluntary or mandatory.
-- content: Vessels should be allowed to use a VTS where mandatory participation is
-    not required.
-- content: 'Source: IALA Guideline 1068 (2009)'
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-24
+
+    Vessels navigating in an area where vessel traffic services are provided should make use of these services.
+
+    Depending upon governing rules and regulations, participation in a VTS may be either voluntary or mandatory.
+
+    Vessels should be allowed to use a VTS where mandatory participation is not required.
+
+    Source: IALA Guideline 1068 (2009)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Participating_Vessel

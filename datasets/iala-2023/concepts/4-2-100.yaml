@@ -40,3 +40,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fixed_antenna_direction_finder

@@ -22,13 +22,15 @@ terms:
   designation: VTS model course certificate
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901115e
-- content: VTS model course certificate is a document awarded by the accredited training
-    organization, to confirm that a student has successfully completed a VTS training
-    course.
-- content: 'Source: IALA Guideline G1156 Recruitment, training and assessment of VTS
-    Personnel'
+- content: |-
+    urn:mrn:iala:dic:0901115e
+
+    VTS model course certificate is a document awarded by the accredited training organization, to confirm that a student has successfully completed a VTS training course.
+
+    Source: IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_model_course_certificate

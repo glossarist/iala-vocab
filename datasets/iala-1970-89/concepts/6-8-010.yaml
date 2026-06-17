@@ -30,3 +30,5 @@ sources:
 notes:
 - content: The term power consumption refers to the power taken, including losses,
     by a device.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Energy_consumption

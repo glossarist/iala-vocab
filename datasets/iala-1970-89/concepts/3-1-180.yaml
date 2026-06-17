@@ -30,3 +30,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: The unit of loudness is the Sone.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loudness

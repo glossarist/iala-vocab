@@ -22,9 +22,10 @@ terms:
   designation: Automatic control system
   normative_status: preferred
 definition:
-- content: An assembly of automatic controlling equipment together with the system
-    it controls, i.e., the controlled system.
-- content: "![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)"
+- content: |-
+    An assembly of automatic controlling equipment together with the system it controls, i.e., the controlled system.
+
+    ![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Automatic_control_system

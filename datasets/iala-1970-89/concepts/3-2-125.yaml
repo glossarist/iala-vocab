@@ -22,10 +22,13 @@ terms:
   designation: Diaphone - Piston
   normative_status: preferred
 definition:
-- content: Piston (of a diaphone)
-- content: That part of the diaphone in reciprocating motion and comprising both the
-    moving part of the driver and the modulator.
+- content: |-
+    Piston (of a diaphone)
+
+    That part of the diaphone in reciprocating motion and comprising both the moving part of the driver and the modulator.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Piston

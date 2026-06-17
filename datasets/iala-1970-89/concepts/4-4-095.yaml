@@ -22,9 +22,10 @@ terms:
   designation: Loran Specific repetition rate
   normative_status: preferred
 definition:
-- content: Specific repetition rate (in Loran)
-- content: One of a set of closely spaced repetition rates derived from the basic
-    rate and associated with a specific set of synchronised stations.
+- content: |-
+    Specific repetition rate (in Loran)
+
+    One of a set of closely spaced repetition rates derived from the basic rate and associated with a specific set of synchronised stations.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.R.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Specific_repetition_rate

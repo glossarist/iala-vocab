@@ -27,8 +27,9 @@ terms:
   designation: Appearance of Light
   normative_status: preferred
 definition:
-- content: An exhibition of light for a given time between two darknesses.
 - content: |-
+    An exhibition of light for a given time between two darknesses.
+
     (a) Blitz - An appearance of light of duration not more than 1 second, the interval of darkness being relatively long in comparison with the appearance of light.
     (b) Blink - An appearance of light of duration at least 2 seconds, the interval of darkness being relatively long in comparison with the appearance of light.
     (c) Schein - An appearance of light between two darknesses, the duration of darkness being not longer than the duration of light.
@@ -40,3 +41,5 @@ notes:
 - content: In Germany and some other countries, brief appearances of light are classified
     according to duration
 - content: Blitz and Blink are flashes {{2-5-130, Flash}}.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Appearance_of_Light

@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Standard (radio) atmosphere
   normative_status: preferred
+- type: expression
+  designation: Standard (radio) atmosphere (for tropospheric propagation)
+  normative_status: admitted
 definition:
-- content: Standard (radio) atmosphere (for tropospheric propagation)
 - content: An atmosphere having the standard refractive modulus gradient.
 sources:
 - type: authoritative
@@ -32,3 +34,5 @@ sources:
   origin:
     ref: C.C.I.R
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Standard_(radio)_atmosphere

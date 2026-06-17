@@ -22,10 +22,10 @@ terms:
   designation: Peak envelope power
   normative_status: preferred
 definition:
-- content: "(of a radio transmitter)"
-- content: The average power supplied to the antenna transmission line by a transmitter
-    during one radio frequency cycle at the highest crest of the modulation envelope,
-    taken under conditions of normal operation.
+- content: |-
+    (of a radio transmitter)
+
+    The average power supplied to the antenna transmission line by a transmitter during one radio frequency cycle at the highest crest of the modulation envelope, taken under conditions of normal operation.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Peak_envelope_power

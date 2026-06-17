@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Vertex plate
   normative_status: preferred
+- type: expression
+  designation: Vertex plate (of a reflector)
+  normative_status: admitted
 definition:
-- content: Vertex plate (of a reflector)
 - content: A plate placed near the vertex of a reflector to prevent undesired reflection
     back to the primary radiator.
 sources:
@@ -32,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vertex_plate

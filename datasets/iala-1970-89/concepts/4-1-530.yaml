@@ -22,11 +22,16 @@ terms:
   designation: Waveguide
   normative_status: preferred
 definition:
-- content: A system consisting of
-- content: a. a metal tube
-- content: b. a dielectric rod or tube, or
-- content: c. a single wire
-- content: for the transmission of electromagnetic energy by a wave not of TEM type.
+- content: |-
+    A system consisting of
+
+    a. a metal tube
+
+    b. a dielectric rod or tube, or
+
+    c. a single wire
+
+    for the transmission of electromagnetic energy by a wave not of TEM type.
 sources:
 - type: authoritative
   origin:
@@ -35,3 +40,5 @@ sources:
   origin:
     ref: D.I.N
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Waveguide

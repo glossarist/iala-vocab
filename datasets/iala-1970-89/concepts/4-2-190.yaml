@@ -22,9 +22,10 @@ terms:
   designation: Minimum clearing
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Zero clearing, Balancing'
-- content: The process of improving the definition of the observed bearing, e.g. by
-    neutralizing antenna effect.
+- content: |-
+    Alternative terms: Zero clearing, Balancing
+
+    The process of improving the definition of the observed bearing, e.g. by neutralizing antenna effect.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Minimum_clearing

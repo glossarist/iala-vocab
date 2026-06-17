@@ -22,11 +22,13 @@ terms:
   designation: Electromagnetic horn
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Electromagnetic horn (G.B.), (Electromagnetic air)
-    Oscillator (U.S.A.)'
-- content: A fog signal apparatus comprising a resonant diaphragm maintained in vibrating
-    motion by electromagnetic action.
+- content: |-
+    Alternative terms: Electromagnetic horn (G.B.), (Electromagnetic air) Oscillator (U.S.A.)
+
+    A fog signal apparatus comprising a resonant diaphragm maintained in vibrating motion by electromagnetic action.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electromagnetic_horn

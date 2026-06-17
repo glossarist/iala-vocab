@@ -47,3 +47,5 @@ notes:
     of a simple tone in decibels must exceed the spectrum level of the continuous
     noise (at the same frequency) by ten times the logarithm to the base 10 of the
     ratio of the critical bandwidth to unit bandwidth.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Aural_critical_band

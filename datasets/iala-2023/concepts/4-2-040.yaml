@@ -27,9 +27,10 @@ terms:
   designation: Radio beacon - Continuous carrier
   normative_status: preferred
 definition:
-- content: Continuous carrier radio beacon
-- content: A radio beacon, the carrier of which is unbroken but which is modulated
-    with the identification signal.
+- content: |-
+    Continuous carrier radio beacon
+
+    A radio beacon, the carrier of which is unbroken but which is modulated with the identification signal.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ sources:
 notes:
 - content: The continuous carrier improves the performance of automatic direction
     finders.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_-_Continuous_carrier

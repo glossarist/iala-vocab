@@ -21,12 +21,14 @@ terms:
 - type: expression
   designation: Pulse duration coding
   normative_status: preferred
+- type: expression
+  designation: Pulse duration coding (in a transponder)
+  normative_status: admitted
 definition:
-- content: Pulse duration coding (in a transponder)
-- content: 'Alternative terms: Pulse length coding (in a transponder), Width coding
-    (in a transponder)'
-- content: A method of modifying the duration of the pulses emitted from the transponder
-    in accordance with a pre-arranged code for identification purposes.
+- content: |-
+    Alternative terms: Pulse length coding (in a transponder), Width coding (in a transponder)
+
+    A method of modifying the duration of the pulses emitted from the transponder in accordance with a pre-arranged code for identification purposes.
 sources:
 - type: authoritative
   origin:
@@ -35,3 +37,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_duration_coding

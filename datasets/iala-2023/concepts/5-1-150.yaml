@@ -37,3 +37,5 @@ notes:
     of confidence is usually stated. For example a stated 90% reliabiltiy with confidence
     level 60% means there is a 60% probability that the actual reliability is at least
     90%.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Confidence_limits

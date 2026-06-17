@@ -22,11 +22,13 @@ terms:
   designation: Erosion
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0704265e
-- content: Removal of rock, soil, or beach deposits from the coast by the action of
-    wave, water, tidal currents, high winds, ice and/or human activities which may
-    be enhanced by chemical action, typically causing a landward retreat of the coastline.
+- content: |-
+    urn:mrn:iala:dic:0704265e
+
+    Removal of rock, soil, or beach deposits from the coast by the action of wave, water, tidal currents, high winds, ice and/or human activities which may be enhanced by chemical action, typically causing a landward retreat of the coastline.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Erosion

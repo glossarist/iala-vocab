@@ -27,11 +27,12 @@ terms:
   designation: Ground wave - Radar
   normative_status: preferred
 definition:
-- content: Ground wave (in radar) (G.B.)
-- content: 1. The transference of radio frequency energy from a radar transmitter
-    directly to its associated receiver, and by reflection from objects in the immediate
-    vicinity of the transmitter.
-- content: 2. The effect on the display of this transference of energy.
+- content: |-
+    Ground wave (in radar) (G.B.)
+
+    1. The transference of radio frequency energy from a radar transmitter directly to its associated receiver, and by reflection from objects in the immediate vicinity of the transmitter.
+
+    2. The effect on the display of this transference of energy.
 sources:
 - type: authoritative
   origin:
@@ -40,3 +41,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ground_wave_-_Radar

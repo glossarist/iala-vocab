@@ -22,14 +22,18 @@ terms:
   designation: Inspection cover
   normative_status: preferred
 definition:
-- content: A watertight cover to a small opening, for example in a buoy body, through
-    which inspection or adjustment of equipment inside may be made.
-- content: 'Note 1:'
-- content: The German term Handloch is used for such a small opening.
-- content: 'Note 2:'
-- content: In the U.S.A, the term pocket cover is used for the cover over the opening
-    to the battery pocket.
+- content: |-
+    A watertight cover to a small opening, for example in a buoy body, through which inspection or adjustment of equipment inside may be made.
+
+    The German term Handloch is used for such a small opening.
+
+    In the U.S.A, the term pocket cover is used for the cover over the opening to the battery pocket.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+notes:
+- content: ":"
+- content: ":"
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Inspection_cover

@@ -30,14 +30,17 @@ terms:
   designation: Flash Panel (U.S.A.)
   normative_status: admitted
 definition:
-- content: A prismatic lens which may be of dioptric elements only, or may include
-    both dioptric and catadioptric elements, all mounted in one rigid supporting frame.
-    Such a panel may be symmetrical or asymmetrical according to requirements. One
-    or more panels form an optic.
-- content: "(Figs. 10 and 17)"
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
-- content: "![Ch2_Fig17.jpg](/iala-vocab/images/iala/Ch2_Fig17.jpg)"
+- content: |-
+    A prismatic lens which may be of dioptric elements only, or may include both dioptric and catadioptric elements, all mounted in one rigid supporting frame. Such a panel may be symmetrical or asymmetrical according to requirements. One or more panels form an optic.
+
+    (Figs. 10 and 17)
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+
+    ![Ch2_Fig17.jpg](/iala-vocab/images/iala/Ch2_Fig17.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optical_Panel

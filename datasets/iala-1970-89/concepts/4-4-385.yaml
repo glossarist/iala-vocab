@@ -22,12 +22,15 @@ terms:
   designation: Satellite navigation
   normative_status: preferred
 definition:
-- content: A navigational aid which utilises man-made satellites as points of reference.
-- content: Navigation by satellite would be characterised by world-wide coverage,
-    high accuracy and independence of weather conditions.
-- content: Satellite systems require surface-based facilities for monitoring and controlling
-    their performance.
+- content: |-
+    A navigational aid which utilises man-made satellites as points of reference.
+
+    Navigation by satellite would be characterised by world-wide coverage, high accuracy and independence of weather conditions.
+
+    Satellite systems require surface-based facilities for monitoring and controlling their performance.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Satellite_navigation

@@ -22,10 +22,13 @@ terms:
   designation: Absolute position
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0401502e
-- content: A position estimate with respect to the geographic or geodetic co-ordinates
-    of the Earth
+- content: |-
+    urn:mrn:iala:dic:0401502e
+
+    A position estimate with respect to the geographic or geodetic co-ordinates of the Earth
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Absolute_position

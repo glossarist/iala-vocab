@@ -27,11 +27,10 @@ terms:
   designation: Nominal operating cell temperature
   normative_status: preferred
 definition:
-- content: 'Acronym: NOCT'
-- content: The equilibrium mean solar cell temperature within a module in a standard
-    reference environment of 800 Wm-2 irradiance, 20 degrees C ambient air temperature,
-    and 1 ms-1 wind speed, electrically open-circuited and open-rack mounted at normal
-    incidence to the sun at solar noon.
+- content: |-
+    Acronym: NOCT
+
+    The equilibrium mean solar cell temperature within a module in a standard reference environment of 800 Wm-2 irradiance, 20 degrees C ambient air temperature, and 1 ms-1 wind speed, electrically open-circuited and open-rack mounted at normal incidence to the sun at solar noon.
 sources:
 - type: authoritative
   origin:
@@ -39,3 +38,5 @@ sources:
 notes:
 - content: The ratio of the module efficiency at NOCT to the module efficiency at
     the standard cell temperature of 25 degrees C is called NOCT efficiency.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Nominal_operating_cell_temperature

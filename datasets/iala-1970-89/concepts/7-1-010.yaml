@@ -34,3 +34,5 @@ sources:
 notes:
 - content: The station may also be defined in terms of its principal aid to navigation,
     e.g. light station, fog signal station.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shore_station

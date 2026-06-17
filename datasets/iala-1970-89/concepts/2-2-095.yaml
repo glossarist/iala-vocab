@@ -27,11 +27,15 @@ terms:
   designation: Belt (of a fixed lens)
   normative_status: preferred
 definition:
-- content: The optically central portion of a fixed lens, consisting of a refracting
-    element of annular shape and lenticular cross-section.
-- content: "![Ch2_Fig16a.jpg](/iala-vocab/images/iala/Ch2_Fig16a.jpg)"
-- content: "![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)"
+- content: |-
+    The optically central portion of a fixed lens, consisting of a refracting element of annular shape and lenticular cross-section.
+
+    ![Ch2_Fig16a.jpg](/iala-vocab/images/iala/Ch2_Fig16a.jpg)
+
+    ![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Belt_(of_a_fixed_lens)

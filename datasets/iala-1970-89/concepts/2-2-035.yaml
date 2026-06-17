@@ -25,12 +25,13 @@ terms:
   designation: Parabolic Mirror
   normative_status: admitted
 definition:
-- content: A type of mirror, particularly used in projectors, the reflecting surface
-    of which is a paraboloid of revolution. Light rays emitted by a point source placed
-    at the focus of the paraboloid are rendered parallel to the optical axis {{2-2-110,
-    Optical Axis}} after reflection.
-- content: "![Ch2_Fig12.jpg](/iala-vocab/images/iala/Ch2_Fig12.jpg)"
+- content: |-
+    A type of mirror, particularly used in projectors, the reflecting surface of which is a paraboloid of revolution. Light rays emitted by a point source placed at the focus of the paraboloid are rendered parallel to the optical axis {{2-2-110, Optical Axis}} after reflection.
+
+    ![Ch2_Fig12.jpg](/iala-vocab/images/iala/Ch2_Fig12.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Parabolic_Reflector

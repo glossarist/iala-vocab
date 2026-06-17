@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Wave
   normative_status: preferred
+- type: expression
+  designation: Wave (of the sea)
+  normative_status: admitted
 definition:
-- content: Wave (of the sea)
 - content: Oscillation of the surface of the sea, caused by local winds and less extensive
     than the swell.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wave

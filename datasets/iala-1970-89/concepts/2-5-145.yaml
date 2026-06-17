@@ -22,11 +22,12 @@ terms:
   designation: Flashing Light
   normative_status: preferred
 definition:
-- content: 1. A light in which the total duration of light in each period is clearly
-    shorter than the total duration of darkness and in which the flashes of light
-    are all of equal duration.
-- content: "![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)"
-- content: 2. Commonly used for a single-flashing light.
+- content: |-
+    1. A light in which the total duration of light in each period is clearly shorter than the total duration of darkness and in which the flashes of light are all of equal duration.
+
+    ![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)
+
+    2. Commonly used for a single-flashing light.
 sources:
 - type: authoritative
   origin:
@@ -34,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: N.L
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Flashing_Light

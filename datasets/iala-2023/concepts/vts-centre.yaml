@@ -22,11 +22,17 @@ terms:
   designation: VTS Centre
   normative_status: preferred
 definition:
-- content: VTS-2012-41
-- content: The centre from which the VTS is operated.
-- content: Each sub-area of the VTS may have its own sub-centre.
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-41
+
+    The centre from which the VTS is operated.
+
+    Each sub-area of the VTS may have its own sub-centre.
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Centre

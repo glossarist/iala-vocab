@@ -22,9 +22,10 @@ terms:
   designation: Two-motion selector
   normative_status: preferred
 definition:
-- content: 'Alternatove term: Strowger selector'
-- content: An electromechanical selector having two motions the first vertical, and
-    the second rotary.
+- content: |-
+    Alternatove term: Strowger selector
+
+    An electromechanical selector having two motions the first vertical, and the second rotary.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Two-motion_selector

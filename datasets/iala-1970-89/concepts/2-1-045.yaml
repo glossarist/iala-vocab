@@ -21,21 +21,23 @@ terms:
 - type: expression
   designation: Luminance
   normative_status: preferred
+- type: expression
+  designation: Luminance (in a given direction, at a point on the surface of a source
+    or receptor, or at a point on the path of a beam)
+  normative_status: admitted
 - type: symbol
-  designation: L
+  designation: stem:[L]
   normative_status: preferred
 - type: symbol
-  designation: B (deprecated)
+  designation: stem:[B]
   normative_status: preferred
 definition:
-- content: Luminance (in a given direction, at a point on the surface of a source
-    or receptor, or at a point on the path of a beam)
-- content: The quotient of the luminous flux (d2F) leaving, arriving at, or passing
-    through an element of surface at this point and propagated in directions defined
-    by an elementary cone containing the given direction, by the product of the solid
-    angle (dO) of the cone and the area (dA cos?) of the orthogonal projection of
-    the element of surface on a plane perpendicular to the given direction.
-- content: "![Ch2_Fig2.jpg](/iala-vocab/images/iala/Ch2_Fig2.jpg)"
+- content: |-
+    The quotient of the luminous flux (d2F) leaving, arriving at, or passing through an element of surface at this point and propagated in directions defined by an elementary cone containing the given direction, by the product of the solid angle (dO) of the cone and the area (dA cos?) of the orthogonal projection of the element of surface on a plane perpendicular to the given direction.
+
+    ![Ch2_Fig2.jpg](/iala-vocab/images/iala/Ch2_Fig2.jpg)
+
+    (deprecated)
 sources:
 - type: authoritative
   origin:
@@ -58,5 +60,6 @@ notes:
 - content: The luminance of a surface may be that of a primary light source {{2-3-000,
     Primary Light Source}} or that of a secondary light source {{2-3-005, Secondary
     Light Source}}.
-examples:
-- content: candela per square metre (cd/m2)
+annotations:
+- content: Unit candela per square metre (cd/m2)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminance

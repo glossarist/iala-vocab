@@ -27,13 +27,12 @@ terms:
   designation: Topmark (2)
   normative_status: preferred
 definition:
-- content: One or more relatively small objects of characteristic shape or colour
-    (or both), placed on top of a navigation mark (or buoy) to identify it. (Figs.
-    65 and 66)
 - content: |-
+    One or more relatively small objects of characteristic shape or colour (or both), placed on top of a navigation mark (or buoy) to identify it. (Figs. 65 and 66)
+
     a. Simple
     b. Composite, viz. made up of two or three individual topmarks.
-- content: |-
+
     Cone
     Can
     Sphere
@@ -41,16 +40,17 @@ definition:
     St. George's Cross
     "T"
     Broom
-- content: A broom topmark has the appearance of a circular broomhead and has two
-    forms "Broom, point upwards" (in German, "mit Besen abwarts") and "Broom, point
-    downwards" (in German, "mit Besen aufwarts").
-- content: |-
+
+    A broom topmark has the appearance of a circular broomhead and has two forms "Broom, point upwards" (in German, "mit Besen abwarts") and "Broom, point downwards" (in German, "mit Besen aufwarts").
+
     Two cones, point upwards
     Two cones, point downwards
     Two cones, point to point
     Two cones, base to base
-- content: "![Ch2_Fig65.jpg](/iala-vocab/images/iala/Ch2_Fig65.jpg)"
-- content: "![Ch2_Fig66.jpg](/iala-vocab/images/iala/Ch2_Fig66.jpg)"
+
+    ![Ch2_Fig65.jpg](/iala-vocab/images/iala/Ch2_Fig65.jpg)
+
+    ![Ch2_Fig66.jpg](/iala-vocab/images/iala/Ch2_Fig66.jpg)
 sources:
 - type: authoritative
   origin:
@@ -64,3 +64,5 @@ notes:
 - content: Other forms (e.g. St. Andrew's Cross) are used, for example, as landfall
     marks.
 - content: In the U.S.A. the word Daymark is often used for a topmark.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark_(2)

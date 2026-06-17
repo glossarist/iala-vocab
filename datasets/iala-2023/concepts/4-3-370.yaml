@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Ground wave suppression
   normative_status: preferred
+- type: expression
+  designation: Ground wave suppression (G.B.)
+  normative_status: admitted
 definition:
-- content: Ground wave suppression (G.B.)
 - content: Reduction of the gain of a receiver during the period in which the ground
     wave is present.
 sources:
@@ -37,3 +39,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ground_wave_suppression

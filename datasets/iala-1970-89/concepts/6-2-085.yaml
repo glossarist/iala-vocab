@@ -29,3 +29,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: The term wet liner refers to a cylinder liner in a water-cooled cylinder.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cylinder_liner

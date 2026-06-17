@@ -22,9 +22,13 @@ terms:
   designation: Light reflection properties
   normative_status: preferred
 definition:
-- content: 2-1 -165
-- content: The capacity of a body to reflect light.
+- content: |-
+    2-1 -165
+
+    The capacity of a body to reflect light.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light_reflection_properties

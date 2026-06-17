@@ -21,12 +21,15 @@ terms:
 - type: expression
   designation: Radiant exitance
   normative_status: preferred
+- type: expression
+  designation: Radiant exitance (at a point of a surface)
+  normative_status: admitted
+- type: symbol
+  designation: stem:[Me]
+  normative_status: preferred
 definition:
-- content: Radiant exitance (at a point of a surface)
 - content: Quotient of the radiant flux(dFe) leaving an element of the surface containing
     the point, by the area of that element (dA). by ???
-- content: Symbol Me
-- content: Unit  watt per square metre (W/m2)
 sources:
 - type: authoritative
   origin:
@@ -41,3 +44,6 @@ notes:
 - content: Formerly known in English as radiant emittance and in French as emittance
     energetique.
 - content: For further definitions see C.I.E.
+annotations:
+- content: Unit watt per square metre (W/m2)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radiant_exitance

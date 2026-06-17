@@ -22,29 +22,28 @@ terms:
   designation: White
   normative_status: preferred
 definition:
-- content: 'Red:'
-- content: 'Green:'
-- content: 'White: A colour which has no readily discernible hue {{2-1-440, Hue}}.'
-- content: 'Red: In general, the hue of any monochromatic radiation in the visible
-    spectrum at a wavelength greater than about 610 nm under conditions of photopic
-    vision.'
-- content: 'Green: In general, the hue of any monochromatic radiation in the visible
-    spectrum at a wavelength between about 495 and 550 nm under conditions of photopic
-    vision.'
-- content: Recommended values of these limits for application in all forms of transport
-    service have been agreed internationally and are given in
-- content: A "Recommendation for the Standardisation of Colours of Lighted Aids to
-    Navigation" has been published by I.A.L.A. (April 1968).
-- content: Certain countries publish their own mandatory regulations for colour limits
-    which lie within the boundaries of the
-- content: Thus, in Great Britain, regulations for colour light signals and colour
-    filters for all forms of transport, including maritime transport, are published
-    in British Standard BS1376 1953.
-- content: In the U.S.A., similar regulations are given in the "U.S. Standard for
-    the Colors of Signal Lights", National Bureau of Standards Handbook 95, August
-    1964.
-- content: In Germany, similar regulations are given in DIN 6163 Sheets 1 to 8, September
-    1959 and, for colour for traffic signals, DIN 6171 (May 1970)
+- content: |-
+    Red:
+
+    Green:
+
+    White: A colour which has no readily discernible hue {{2-1-440, Hue}}.
+
+    Red: In general, the hue of any monochromatic radiation in the visible spectrum at a wavelength greater than about 610 nm under conditions of photopic vision.
+
+    Green: In general, the hue of any monochromatic radiation in the visible spectrum at a wavelength between about 495 and 550 nm under conditions of photopic vision.
+
+    Recommended values of these limits for application in all forms of transport service have been agreed internationally and are given in
+
+    A "Recommendation for the Standardisation of Colours of Lighted Aids to Navigation" has been published by I.A.L.A. (April 1968).
+
+    Certain countries publish their own mandatory regulations for colour limits which lie within the boundaries of the
+
+    Thus, in Great Britain, regulations for colour light signals and colour filters for all forms of transport, including maritime transport, are published in British Standard BS1376 1953.
+
+    In the U.S.A., similar regulations are given in the "U.S. Standard for the Colors of Signal Lights", National Bureau of Standards Handbook 95, August 1964.
+
+    In Germany, similar regulations are given in DIN 6163 Sheets 1 to 8, September 1959 and, for colour for traffic signals, DIN 6171 (May 1970)
 sources:
 - type: authoritative
   origin:
@@ -63,3 +62,5 @@ notes:
     or surface colours (in the latter two cases for a specified or assumed reference
     illuminant), are defined by specifications of chromaticity limits established
     by various organisations.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/White

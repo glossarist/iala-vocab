@@ -27,12 +27,15 @@ terms:
   designation: Daylight Signal Light
   normative_status: preferred
 definition:
-- content: A signal light exhibited by day and also, usually with reduced intensity,
-    by night.
-- content: This reduction of intensity is made in order to avoid glare.
-- content: Daylight signals indicate, for example, whether the entrance to a lock
-    is free or not.
+- content: |-
+    A signal light exhibited by day and also, usually with reduced intensity, by night.
+
+    This reduction of intensity is made in order to avoid glare.
+
+    Daylight signals indicate, for example, whether the entrance to a lock is free or not.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Daylight_Signal_Light

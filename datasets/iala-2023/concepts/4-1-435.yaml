@@ -27,10 +27,13 @@ terms:
   designation: Folded unipole antenna
   normative_status: preferred
 definition:
-- content: Folded monopole antenna
-- content: A unipole antenna formed by the upper half of a folded dipole, the lower,
-    unfed, limb being connected to a conducting (earth) surface.
+- content: |-
+    Folded monopole antenna
+
+    A unipole antenna formed by the upper half of a folded dipole, the lower, unfed, limb being connected to a conducting (earth) surface.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Folded_unipole_antenna

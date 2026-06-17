@@ -22,9 +22,13 @@ terms:
   designation: Noise
   normative_status: preferred
 definition:
-- content: "(Background) Noise"
-- content: Totality of undesired received signals.
+- content: |-
+    (Background) Noise
+
+    Totality of undesired received signals.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Noise

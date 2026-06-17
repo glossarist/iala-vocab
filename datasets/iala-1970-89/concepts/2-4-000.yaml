@@ -27,11 +27,13 @@ terms:
   designation: Lantern (2)
   normative_status: preferred
 definition:
-- content: The glazed enclosure, usually of cylindrical or polygonal shape, at the
-    top of a lighthouse, light vessel or buoy, which surrounds and protects the optical
-    apparatus.
-- content: "![Ch2_Fig33.jpg](/iala-vocab/images/iala/Ch2_Fig33.jpg)"
+- content: |-
+    The glazed enclosure, usually of cylindrical or polygonal shape, at the top of a lighthouse, light vessel or buoy, which surrounds and protects the optical apparatus.
+
+    ![Ch2_Fig33.jpg](/iala-vocab/images/iala/Ch2_Fig33.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lantern_(2)

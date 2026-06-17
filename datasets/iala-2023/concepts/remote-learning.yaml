@@ -22,14 +22,15 @@ terms:
   designation: Remote learning
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901109e
-- content: Remote learning is where the student and the instructor are not physically
-    together. This may occur either in a synchronous or asynchronous manner, using
-    online or offline training approaches (e.g. distance learning, e-learning, self-study
-    or a blended delivery).
-- content: 'Source: IALA Guideline G1014 Accreditation of VTS training organizations
-    and approval to deliver IALA VTS model courses'
+- content: |-
+    urn:mrn:iala:dic:0901109e
+
+    Remote learning is where the student and the instructor are not physically together. This may occur either in a synchronous or asynchronous manner, using online or offline training approaches (e.g. distance learning, e-learning, self-study or a blended delivery).
+
+    Source: IALA Guideline G1014 Accreditation of VTS training organizations and approval to deliver IALA VTS model courses
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Remote_learning

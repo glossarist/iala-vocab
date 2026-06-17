@@ -22,9 +22,10 @@ terms:
   designation: Direction finding - radio
   normative_status: preferred
 definition:
-- content: "(Radio) Direction finding"
-- content: Radiodetermination using the reception of radio waves for the purpose of
-    determining the direction of a station or object.
+- content: |-
+    (Radio) Direction finding
+
+    Radiodetermination using the reception of radio waves for the purpose of determining the direction of a station or object.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Direction_finding_-_radio

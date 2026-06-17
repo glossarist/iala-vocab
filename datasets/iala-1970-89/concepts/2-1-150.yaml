@@ -30,9 +30,12 @@ terms:
   designation: Reflection Factor
   normative_status: admitted
 definition:
-- content: The ratio of the reflected luminous flux (Fr) to the incident flux (Fo).
-- content: Symbol: ?
-- content: "? = ?r + ?d"
+- content: |-
+    The ratio of the reflected luminous flux (Fr) to the incident flux (Fo).
+
+    Symbol: ?
+
+    ? = ?r + ?d
 sources:
 - type: authoritative
   origin:
@@ -45,3 +48,5 @@ notes:
 - content: Where mixed reflection occurs, the (total) reflectance may be divided into
     two parts, Specular Reflectance (?r) and Diffuse Reflectance (?d), corresponding
     respectively to the two modes of reflection referred to in 2-1-135 and 2-1-140.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reflectance

@@ -77,11 +77,13 @@ end
 
 # Classify a paragraph element as :definition, :note, :reference, :symbol,
 # :unit, or :alt_term based on the IALA wiki's paragraph conventions.
+# IALA wiki is inconsistent: "Symbol Qe" and "Symbol: V(λ)" both appear.
+# Match both forms (colon optional).
 def classify_paragraph(text)
-  return :note if text =~ NOTE_RE || text =~ /\A\s*(?:<br\s*\/?>[\s\n]*)*Note(?:\s*\d+)?\s*:\s/i
+  return :note if text =~ NOTE_RE || text =~ /\A\s*(?:<br\s*\/?>[\s\n]*)*Note(?:\s*\d+)?\s*:?\s/i
   return :reference if text =~ REFERENCE_RE
-  return :symbol if text =~ /\A\s*Symbol\s*:\s/i
-  return :unit if text =~ /\A\s*Unit\s*:\s/i
+  return :symbol if text =~ /\A\s*Symbol\s*:?\s+/i
+  return :unit if text =~ /\A\s*Unit\s*:?\s+/i
   return :alt_term if text =~ ALT_TERM_RE
   :definition
 end
@@ -237,53 +239,78 @@ index.each do |item|
   fragments = split_to_fragments(content_elements)
 
   definition_paragraphs = []
-  extracted_notes = []
+  extracted_notes = [] # only "Note N:" paragraphs from source — count must match
   extracted_refs = [] # Array of [ref_text, modified_bool]
-  extracted_symbols = []
-  extracted_units = []
+  extracted_symbols = [] # terms[] entries with type:symbol
+  annotations = [] # anything we add beyond source: Unit blocks, provenance URL
   alt_terms = []
   modified_any = false
+  last_annotation_kind = nil
   fragments.each do |frag|
     case classify_paragraph(frag)
     when :note
-      note_text = frag.sub(/\A\s*(?:<br\s*\/?>[\s\n]*)*Note(?:\s*\d+)?\s*:\s*/i, '').strip
+      note_text = frag.sub(/\A\s*(?:<br\s*\/?>[\s\n]*)*Note(?:\s*\d+)?\s*:?\s/i, '').strip
       note_text = strip_note_leading_number(note_text)
       note_text = inject_all_refs(note_text, designation_index)
       extracted_notes << { "content" => note_text }
+      last_annotation_kind = nil
     when :reference
       ref_text = frag.sub(/\A\s*(?:<br\s*\/?>[\s\n]*)*Reference:\s*/i, '')
       ref, mod = normalize_ref(ref_text)
       modified_any ||= mod
       extracted_refs << [ref, mod]
+      last_annotation_kind = nil
     when :symbol
-      sym = frag.sub(/\A\s*Symbol\s*:\s*/i, '').strip
-      extracted_symbols << sym
+      # "Symbol Qe" or "Symbol: V(λ)" → math notation stem:[X] for KaTeX rendering.
+      # If extra formula text follows the symbol on the same line (e.g.
+      # "Symbol He He = ?Ee.dt"), the trailing formula stays in definition.
+      rest = frag.sub(/\A\s*Symbol\s*:?\s+/i, '')
+      parts = rest.split(/\s+/, 2)
+      extracted_symbols << "stem:[#{parts[0]}]" if parts[0] && !parts[0].empty?
+      definition_paragraphs << parts[1] if parts[1] && !parts[1].empty?
+      last_annotation_kind = nil
     when :unit
-      unit = frag.sub(/\A\s*Unit\s*:\s*/i, '').strip
-      extracted_units << unit
+      # "Unit X" + any immediately-following conversion lines (e.g. "1 J = ...")
+      # group into a single annotation. Internal newlines preserved.
+      unit_text = frag.sub(/\A\s*Unit\s*:?\s+/i, '')
+      annotations << { "content" => "Unit #{unit_text}" }
+      last_annotation_kind = :unit
     when :alt_term
       alt_terms << frag.sub(ALT_TERM_RE, '').strip
+      last_annotation_kind = nil
     else
-      definition_paragraphs << frag
+      # Conversion lines following a Unit paragraph attach to the previous
+      # Unit annotation rather than becoming standalone definition paragraphs.
+      if last_annotation_kind == :unit && frag =~ /\A\s*\d+\s*[A-Za-z]+\s*=/
+        annotations.last["content"] += "\n#{frag.strip}"
+      elsif frag =~ /\A\s*#{Regexp.escape(designation)}\s*\([^)]+\)\s*\z/i
+        # IALA wiki convention: an early paragraph containing "Title (qualifier)"
+        # is an admitted expanded designation, not a definition sentence.
+        alt_terms << frag.strip
+        last_annotation_kind = nil
+      else
+        definition_paragraphs << frag
+        last_annotation_kind = nil
+      end
     end
   end
 
-  # A "(modified)" marker surviving into definition text applies concept-wide.
   if definition_paragraphs.any? { |p| p =~ MODIFIED_RE }
     modified_any = true
     definition_paragraphs = definition_paragraphs.map { |p| p.sub(/\s*\(modified\)\s*/i, '').strip }
   end
 
-  # If every definition paragraph is part of a numbered list (e.g. 1./2./3.),
-  # treat each as a separate definition entry — these are homonym senses.
-  definition_entries = []
+  # Numbered definitions (1./2./3.) → separate definition[] entries (homonym senses).
+  # Non-numbered multi-paragraph bodies → ONE definition[] entry preserving newlines.
   numbered = definition_paragraphs.all? { |p| p =~ /\A\s*\d+\.\s+/ }
-  definition_paragraphs.each do |p|
-    txt = numbered ? p.sub(/\A\s*\d+\.\s+/, '').strip : p
-    txt = inject_all_refs(txt, designation_index)
-    definition_entries << txt
+  if numbered && definition_paragraphs.size > 1
+    definition_entries = definition_paragraphs.map do |p|
+      inject_all_refs(p.sub(/\A\s*\d+\.\s+/, '').strip, designation_index)
+    end.reject(&:empty?)
+  else
+    joined = definition_paragraphs.map { |p| inject_all_refs(p, designation_index) }.reject(&:empty?).join("\n\n")
+    definition_entries = joined.empty? ? [] : [joined]
   end
-  definition_entries.reject!(&:empty?)
   definition_entries = [title] if definition_entries.empty?
 
   extracted_refs.each do |ref, _|
@@ -366,6 +393,12 @@ index.each do |item|
     lc_sources << src
   end
 
+  # Annotations: Unit blocks + provenance URL pointing at the upstream IALA
+  # wiki page this concept was scraped from. Anything we ADD beyond source
+  # goes here (never to notes — notes count must match source).
+  source_url = "https://www.iala.int/wiki/dictionary/index.php/#{title.gsub(' ', '_')}"
+  all_annotations = annotations + [{ "content" => "Sourced from #{source_url}" }]
+
   lc_en = {
     "id" => "#{termid}-#{eng_lang}",
     "termid" => termid,
@@ -377,7 +410,7 @@ index.each do |item|
     "sources" => lc_sources
   }
   lc_en["notes"] = extracted_notes unless extracted_notes.empty?
-  lc_en["examples"] = extracted_units.map { |u| { "content" => u } } unless extracted_units.empty?
+  lc_en["annotations"] = all_annotations unless all_annotations.empty?
   docs << lc_en
   
   # Process langlinks
@@ -409,31 +442,49 @@ index.each do |item|
     ll_extracted_notes = []
     ll_extracted_refs = []
     ll_extracted_symbols = []
-    ll_extracted_units = []
+    ll_annotations = []
     ll_alt_terms = []
     ll_modified_any = false
+    ll_last_annotation_kind = nil
     ll_fragments.each do |frag|
       next if frag.empty? || frag =~ /\A\s*No\s+English\s+term\s*\z/i ||
               (numeric_code && !numeric_code.empty? && frag == numeric_code)
       case classify_paragraph(frag)
       when :note
-        note_text = frag.sub(/\A\s*(?:<br\s*\/?>[\s\n]*)*Note(?:\s*\d+)?\s*:\s*/i, '').strip
+        note_text = frag.sub(/\A\s*(?:<br\s*\/?>[\s\n]*)*Note(?:\s*\d+)?\s*:?\s/i, '').strip
         note_text = strip_note_leading_number(note_text)
         note_text = inject_all_refs(note_text, designation_index)
         ll_extracted_notes << { "content" => note_text }
+        ll_last_annotation_kind = nil
       when :reference
         ref_text = frag.sub(/\A\s*(?:<br\s*\/?>[\s\n]*)*Reference:\s*/i, '')
         ref, mod = normalize_ref(ref_text)
         ll_modified_any ||= mod
         ll_extracted_refs << [ref, mod]
+        ll_last_annotation_kind = nil
       when :symbol
-        ll_extracted_symbols << frag.sub(/\A\s*Symbol\s*:\s*/i, '').strip
+        rest = frag.sub(/\A\s*Symbol\s*:?\s+/i, '')
+        parts = rest.split(/\s+/, 2)
+        ll_extracted_symbols << "stem:[#{parts[0]}]" if parts[0] && !parts[0].empty?
+        ll_definition_paragraphs << parts[1] if parts[1] && !parts[1].empty?
+        ll_last_annotation_kind = nil
       when :unit
-        ll_extracted_units << frag.sub(/\A\s*Unit\s*:\s*/i, '').strip
+        unit_text = frag.sub(/\A\s*Unit\s*:?\s+/i, '')
+        ll_annotations << { "content" => "Unit #{unit_text}" }
+        ll_last_annotation_kind = :unit
       when :alt_term
         ll_alt_terms << frag.sub(ALT_TERM_RE, '').strip
+        ll_last_annotation_kind = nil
       else
-        ll_definition_paragraphs << frag
+        if ll_last_annotation_kind == :unit && frag =~ /\A\s*\d+\s*[A-Za-z]+\s*=/
+          ll_annotations.last["content"] += "\n#{frag.strip}"
+        elsif frag =~ /\A\s*#{Regexp.escape(ll[:title])}\s*\([^)]+\)\s*\z/i
+          ll_alt_terms << frag.strip
+          ll_last_annotation_kind = nil
+        else
+          ll_definition_paragraphs << frag
+          ll_last_annotation_kind = nil
+        end
       end
     end
 
@@ -442,11 +493,15 @@ index.each do |item|
       ll_definition_paragraphs = ll_definition_paragraphs.map { |p| p.sub(/\s*\(modified\)\s*/i, '').strip }
     end
 
-    ll_numbered = ll_definition_paragraphs.all? { |p| p =~ /\A\s*\d+\.\s+/ }
-    ll_definition_entries = ll_definition_paragraphs.map do |p|
-      txt = ll_numbered ? p.sub(/\A\s*\d+\.\s+/, '').strip : p
-      inject_all_refs(txt, designation_index)
-    end.reject(&:empty?)
+    ll_numbered = ll_definition_paragraphs.size > 1 && ll_definition_paragraphs.all? { |p| p =~ /\A\s*\d+\.\s+/ }
+    if ll_numbered
+      ll_definition_entries = ll_definition_paragraphs.map do |p|
+        inject_all_refs(p.sub(/\A\s*\d+\.\s+/, '').strip, designation_index)
+      end.reject(&:empty?)
+    else
+      joined = ll_definition_paragraphs.map { |p| inject_all_refs(p, designation_index) }.reject(&:empty?).join("\n\n")
+      ll_definition_entries = joined.empty? ? [] : [joined]
+    end
     ll_definition_entries = [ll[:title]] if ll_definition_entries.empty?
 
     ll_extracted_refs.each do |ref, _|
@@ -485,6 +540,9 @@ index.each do |item|
       ll_sources << src
     end
 
+    ll_source_url = "https://www.iala.int/wiki/dictionary/index.php/#{ll[:title].gsub(' ', '_')}"
+    ll_all_annotations = ll_annotations + [{ "content" => "Sourced from #{ll_source_url}" }]
+
     lc_ll = {
       "id" => "#{termid}-#{ll[:lang]}",
       "termid" => termid,
@@ -496,7 +554,7 @@ index.each do |item|
       "sources" => ll_sources
     }
     lc_ll["notes"] = ll_extracted_notes unless ll_extracted_notes.empty?
-    lc_ll["examples"] = ll_extracted_units.map { |u| { "content" => u } } unless ll_extracted_units.empty?
+    lc_ll["annotations"] = ll_all_annotations unless ll_all_annotations.empty?
     docs << lc_ll
     
     # Mark as processed so we don't duplicate it later when iterating index.json

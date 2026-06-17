@@ -22,11 +22,13 @@ terms:
   designation: Toran Reference transmitter
   normative_status: preferred
 definition:
-- content: Reference transmitter (in Toran)
-- content: A fixed transmitter associated with a compensating receiver and modulated
-    by the low frequency beat frequency output of the receiver, which is used to transmit
-    to the mobile station the phase reference.
+- content: |-
+    Reference transmitter (in Toran)
+
+    A fixed transmitter associated with a compensating receiver and modulated by the low frequency beat frequency output of the receiver, which is used to transmit to the mobile station the phase reference.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Toran_Reference_transmitter

@@ -22,13 +22,15 @@ terms:
   designation: Loran system
   normative_status: preferred
 definition:
-- content: A long range pulsed radio aid to navigation whose hyperbolic lines of position
-    are determined by the measurement of the difference in the time of arrival of
-    synchronised pulses which are transmitted from two stations a finite distance
-    apart.
-- content: Primary coverage is provided by ground-wave, secondary coverage by skywave.
-- content: Loran is derived from Long Range Navigation.
+- content: |-
+    A long range pulsed radio aid to navigation whose hyperbolic lines of position are determined by the measurement of the difference in the time of arrival of synchronised pulses which are transmitted from two stations a finite distance apart.
+
+    Primary coverage is provided by ground-wave, secondary coverage by skywave.
+
+    Loran is derived from Long Range Navigation.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_system

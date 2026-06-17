@@ -35,3 +35,5 @@ notes:
 - content: The term power-factor meter refers to a phase meter for which the quantities
     are the voltage and current at a point of a circuit and in which the indication
     is of power factor.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Phase_meter

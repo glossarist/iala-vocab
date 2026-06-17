@@ -29,3 +29,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: A pulse code is a pulse train modulated so as to represent information.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_code_modulation_(PCM)

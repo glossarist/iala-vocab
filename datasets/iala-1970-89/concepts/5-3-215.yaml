@@ -22,9 +22,10 @@ terms:
   designation: Demodulation - AM
   normative_status: preferred
 definition:
-- content: No English term (original dictionary edition)
-- content: The process of reproducing the modulating signal from an amplitude modulated
-    oscillation.
+- content: |-
+    No English term (original dictionary edition)
+
+    The process of reproducing the modulating signal from an amplitude modulated oscillation.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Demodulation_-_AM

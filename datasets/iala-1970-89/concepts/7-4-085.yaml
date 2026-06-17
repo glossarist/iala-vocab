@@ -22,10 +22,13 @@ terms:
   designation: Tidal bore
   normative_status: preferred
 definition:
-- content: "(tidal) bore"
-- content: A fast travelling upriver wave generated in certain tidal conditions in
-    rivers subject to a large tidal range and a rapid narrowing in width.
+- content: |-
+    (tidal) bore
+
+    A fast travelling upriver wave generated in certain tidal conditions in rivers subject to a large tidal range and a rapid narrowing in width.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tidal_bore

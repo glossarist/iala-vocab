@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Total polarization error
   normative_status: preferred
+- type: expression
+  designation: Total polarization error (in bearing)
+  normative_status: admitted
 definition:
-- content: Total polarization error (in bearing)
 - content: For a specified direction of incidence and a specified ratio of the amplitudes
     of the vertically and horizontally polarized components of the incident wave,
     the maximum value of the polarization error with respect to variation of the phase
@@ -37,3 +39,5 @@ sources:
 notes:
 - content: The term is applicable only to direction finders designed for operation
     with either vertically polarized waves or horizontally polarized waves.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Total_polarization_error

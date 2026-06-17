@@ -22,10 +22,12 @@ terms:
   designation: Transient deviation
   normative_status: preferred
 definition:
-- content: The instantaneous value of the ultimately controlled variable minus its
-    steady state value.
-- content: "![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)"
-- content: Figure 3 - Typical time response of a system to a step increase of input.
+- content: |-
+    The instantaneous value of the ultimately controlled variable minus its steady state value.
+
+    ![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)
+
+    Figure 3 - Typical time response of a system to a step increase of input.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: ANSI
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transient_deviation

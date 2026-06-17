@@ -27,9 +27,10 @@ terms:
   designation: B-display
   normative_status: preferred
 definition:
-- content: 'Alternative terms: B-scan, B-scope, Range bearing display'
-- content: A radar display in which an echo appears on the screen as a bright spot
-    whose rectangular coordinates indicate the range and bearing of the object.
+- content: |-
+    Alternative terms: B-scan, B-scope, Range bearing display
+
+    A radar display in which an echo appears on the screen as a bright spot whose rectangular coordinates indicate the range and bearing of the object.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/B-display

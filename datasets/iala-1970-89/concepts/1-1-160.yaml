@@ -21,9 +21,11 @@ terms:
 - type: expression
   designation: Spectral concentration
   normative_status: preferred
-definition:
-- content: Spectral concentration (of a radiometric quantity radiant flux, radiant
+- type: expression
+  designation: Spectral concentration (of a radiometric quantity radiant flux, radiant
     intensity, etc.)
+  normative_status: admitted
+definition:
 - content: Quotient of the quantity, taken over an infinitesimal range on either side
     of a given wavelength, by the range.
 sources:
@@ -33,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E. (extract)
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spectral_concentration

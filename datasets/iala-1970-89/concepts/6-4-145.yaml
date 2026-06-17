@@ -22,9 +22,13 @@ terms:
   designation: Electric generator
   normative_status: preferred
 definition:
-- content: "(electric) generator"
-- content: A machine that converts mechanical energy into electric energy.
+- content: |-
+    (electric) generator
+
+    A machine that converts mechanical energy into electric energy.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electric_generator

@@ -27,11 +27,15 @@ terms:
   designation: Quantizer
   normative_status: preferred
 definition:
-- content: Signal slicer (U.S.A.)
-- content: Sampler
-- content: A circuit whose output is a series of discrete values representative of
-    the values of the input at a series of points in time.
+- content: |-
+    Signal slicer (U.S.A.)
+
+    Sampler
+
+    A circuit whose output is a series of discrete values representative of the values of the input at a series of points in time.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Quantizer

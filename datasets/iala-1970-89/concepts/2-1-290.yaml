@@ -27,7 +27,7 @@ terms:
   designation: Meteorological Optical Range
   normative_status: preferred
 - type: symbol
-  designation: MOR
+  designation: stem:[MOR]
   normative_status: preferred
 definition:
 - content: The length of path in the atmosphere required to reduce the luminous flux
@@ -51,3 +51,5 @@ notes:
     purposes, it is also the same as the "meteorological visibility", and that the
     earlier use of the "meteorological range" (2-1-280, Note 2:) was rather optimistic
     for practical applications.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Meteorological_Optical_Range

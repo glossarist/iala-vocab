@@ -30,12 +30,10 @@ terms:
   designation: Azimuth
   normative_status: admitted
 definition:
-- content: Angle measured between the plane of the meridian through the point of observation
-    and the vertical plane passing through that point and an observed object. It is
-    measured from true North in a clockwise sense from 0 to 360 degrees.
-- content: The term relevement in French is used mainly when the point of observation
-    is on a floating or moored vessel, and the position of this is being determined
-    in relation to a fixed observed object.
+- content: |-
+    Angle measured between the plane of the meridian through the point of observation and the vertical plane passing through that point and an observed object. It is measured from true North in a clockwise sense from 0 to 360 degrees.
+
+    The term relevement in French is used mainly when the point of observation is on a floating or moored vessel, and the position of this is being determined in relation to a fixed observed object.
 sources:
 - type: authoritative
   origin:
@@ -45,3 +43,5 @@ notes:
     body.
 - content: The term azimut in French is used when the point of observation is a fixed
     point and the position of the observed object is to be determined.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing

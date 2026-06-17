@@ -22,11 +22,10 @@ terms:
   designation: Loop antenna
   normative_status: preferred
 definition:
-- content: Frame antenna
-- content: A closed circuit designed to be used as an antenna. It consists of one
-    or more turns of wire lying in the same or parallel planes. The frequency of operation
-    or the method of excitation is normally such as to give a substantially uniform
-    current distribution along the conductor.
+- content: |-
+    Frame antenna
+
+    A closed circuit designed to be used as an antenna. It consists of one or more turns of wire lying in the same or parallel planes. The frequency of operation or the method of excitation is normally such as to give a substantially uniform current distribution along the conductor.
 sources:
 - type: authoritative
   origin:
@@ -35,3 +34,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loop_antenna

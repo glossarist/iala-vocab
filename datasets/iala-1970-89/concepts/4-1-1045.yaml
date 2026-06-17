@@ -22,9 +22,13 @@ terms:
   designation: Triad
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Triad (in radionavigation), Triplet (in radionavigation)'
-- content: Three radio stations operated as a group for the determination of positions.
+- content: |-
+    Alternative terms: Triad (in radionavigation), Triplet (in radionavigation)
+
+    Three radio stations operated as a group for the determination of positions.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Triad

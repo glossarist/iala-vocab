@@ -22,11 +22,13 @@ terms:
   designation: Background Lighting
   normative_status: preferred
 definition:
-- content: Background lighting encompasses ambient lighting either directly behind
-    or adjacent to the AtoN having regard to the range of perspectives or directions
-    of intended viewing.
-- content: 'Source: ENG7, Guideline G1073'
+- content: |-
+    Background lighting encompasses ambient lighting either directly behind or adjacent to the AtoN having regard to the range of perspectives or directions of intended viewing.
+
+    Source: ENG7, Guideline G1073
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Background_Lighting

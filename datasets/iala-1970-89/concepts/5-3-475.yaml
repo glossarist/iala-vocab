@@ -30,3 +30,5 @@ sources:
 - type: authoritative
   origin:
     ref: ANSI
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Display_(2)

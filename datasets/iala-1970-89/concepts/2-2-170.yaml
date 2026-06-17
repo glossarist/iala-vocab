@@ -27,9 +27,10 @@ terms:
   designation: Focal Plane (of a light)
   normative_status: preferred
 definition:
-- content: The horizontal plane through the focus of the optical apparatus of the
-    light.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    The horizontal plane through the focus of the optical apparatus of the light.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
@@ -38,3 +39,5 @@ notes:
 - content: In lighthouse practice in some countries the term "focal plane" is used
     with the above meaning, although this is quite a different meaning from that of
     2-2-165.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Focal_Plane_(of_a_light)

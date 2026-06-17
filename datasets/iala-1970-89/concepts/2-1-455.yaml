@@ -34,3 +34,5 @@ sources:
   modification: modified from source
 notes:
 - content: 'For further details, see Reference: C.I.E.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Standard_Illuminant

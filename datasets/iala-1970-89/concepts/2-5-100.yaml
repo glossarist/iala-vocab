@@ -40,3 +40,5 @@ sources:
   origin:
     ref: C.I.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Character_(of_a_navigation_light)

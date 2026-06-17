@@ -33,5 +33,8 @@ sources:
     ref: I.E.C
   modification: modified from source
 notes:
-- content: ": Usually the addition of some form of damping, which involves the addition
-    of an oscillation damper, to change the apparent characteristics of the load."
+- content: 'Note:: Usually the addition of some form of damping, which involves the
+    addition of an oscillation damper, to change the apparent characteristics of the
+    load.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Compensation_(2)

@@ -27,10 +27,13 @@ terms:
   designation: Bell striker - Dwell time
   normative_status: preferred
 definition:
-- content: Dwell time (of a bell striker) (U.S.A.)
-- content: The time during which the motivating mechanism is delivering power to accelerate
-    the plunger.
+- content: |-
+    Dwell time (of a bell striker) (U.S.A.)
+
+    The time during which the motivating mechanism is delivering power to accelerate the plunger.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bell_striker_-_Dwell_time

@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Cardinal system of marking
   normative_status: preferred
+- type: expression
+  designation: Cardinal system of marking (or buoyage)
+  normative_status: admitted
 definition:
-- content: Cardinal system of marking (or buoyage)
 - content: An agreed system of visual aids to navigation used to indicate the relative
     position of an obstruction (e.g. shoal, wreck) on the compass scale (cardinal
     points).
@@ -38,3 +40,5 @@ sources:
 notes:
 - content: The relative position of the obstruction on the compass scale is indicated
     by aids to navigation of defined shape, colour or light characteristics.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cardinal_system_of_marking

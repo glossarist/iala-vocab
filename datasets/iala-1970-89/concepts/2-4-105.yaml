@@ -22,10 +22,15 @@ terms:
   designation: Screen (2)
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Shield (U.S.A.), Blanking Screen (G.B.)'
-- content: Any opaque body used to obscure a light.
-- content: "![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)"
+- content: |-
+    Alternative terms: Shield (U.S.A.), Blanking Screen (G.B.)
+
+    Any opaque body used to obscure a light.
+
+    ![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Screen_(2)

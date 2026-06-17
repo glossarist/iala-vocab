@@ -22,11 +22,15 @@ terms:
   designation: Depot motor launch
   normative_status: preferred
 definition:
-- content: A launch used for transporting personnel and stores between a depot and
-    vessels at harbour moorings. Also used as a general depot workboat.
-- content: 'Note :'
-- content: Also sometimes called a tender.
+- content: |-
+    A launch used for transporting personnel and stores between a depot and vessels at harbour moorings. Also used as a general depot workboat.
+
+    Note :
+
+    Also sometimes called a tender.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Depot_motor_launch

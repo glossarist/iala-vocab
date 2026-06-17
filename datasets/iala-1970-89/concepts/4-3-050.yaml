@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Scan
   normative_status: preferred
+- type: expression
+  designation: Scan (of a radar antenna)
+  normative_status: admitted
 definition:
-- content: Scan (of a radar antenna)
 - content: The systematic variation of the beam direction for search.
 sources:
 - type: authoritative
@@ -35,3 +37,5 @@ sources:
 notes:
 - content: In marine applications scanning usually takes place continuously through
     360 degrees
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Scan

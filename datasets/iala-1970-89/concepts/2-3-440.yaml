@@ -33,3 +33,5 @@ sources:
     ref: C.I.E
 notes:
 - content: The life of a lamp is generally expressed in hours.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Life_(of_a_lamp)

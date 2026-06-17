@@ -22,15 +22,15 @@ terms:
   designation: Qualification
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901026e
-- content: Qualification is the education, knowledge, understanding, proficiency,
-    skill, experience or any other attribute which the competent authority and/or
-    the VTS provider has determined desirable for performing the duties of the relevant
-    position. VTS qualifications should be based on the principle that satisfactory
-    results are obtained on completion of the IALA VTS model courses.
-- content: 'Source: IALA Guideline G1156 Recruitment, training and assessment of VTS
-    Personnel'
+- content: |-
+    urn:mrn:iala:dic:0901026e
+
+    Qualification is the education, knowledge, understanding, proficiency, skill, experience or any other attribute which the competent authority and/or the VTS provider has determined desirable for performing the duties of the relevant position. VTS qualifications should be based on the principle that satisfactory results are obtained on completion of the IALA VTS model courses.
+
+    Source: IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Qualification

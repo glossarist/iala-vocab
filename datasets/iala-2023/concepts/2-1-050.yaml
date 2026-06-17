@@ -27,13 +27,17 @@ terms:
   designation: Candela per Square Metre
   normative_status: preferred
 - type: symbol
-  designation: cd/m2
+  designation: stem:[cd/m2]
   normative_status: preferred
 definition:
-- content: The SI
-- content: Other metric units stilb (sb), apostilb (asb), lambert (L)
-- content: Non-metric
-- content: 1 cd/m2 = 10-4 stilb = p apostilb = p.10-4 lambert = footlambert
+- content: |-
+    The SI
+
+    Other metric units stilb (sb), apostilb (asb), lambert (L)
+
+    Non-metric
+
+    1 cd/m2 = 10-4 stilb = p apostilb = p.10-4 lambert = footlambert
 sources:
 - type: authoritative
   origin:
@@ -44,6 +48,7 @@ sources:
   modification: modified from source
 notes:
 - content: 'This unit is sometimes called Nit. Symbol: nt'
-examples:
-- content: of luminance.
-- content: foot lambert (fL)
+annotations:
+- content: Unit of luminance.
+- content: Unit foot lambert (fL)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Candela_per_Square_Metre

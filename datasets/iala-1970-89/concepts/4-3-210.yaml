@@ -22,10 +22,12 @@ terms:
   designation: Radar echo
   normative_status: preferred
 definition:
-- content: "(Radar) Echo"
-- content: 1. The portion of energy of the transmitted pulse which is reflected to
-    a receiver.
-- content: 2. The effect of 1 on a radar display.
+- content: |-
+    (Radar) Echo
+
+    1. The portion of energy of the transmitted pulse which is reflected to a receiver.
+
+    2. The effect of 1 on a radar display.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radar_echo

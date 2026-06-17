@@ -34,3 +34,5 @@ sources:
   modification: modified from source
 notes:
 - content: Range markers may be either fixed or continuously variable.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Range_marker

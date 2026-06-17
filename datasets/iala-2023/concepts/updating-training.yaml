@@ -22,12 +22,11 @@ terms:
   designation: Updating training
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901112e
-- content: Updating training is tailor made training following a training needs analysis
-    indicating that member(s) of VTS Personnel need additional training. Updating
-    training may be required after a break in service, unsatisfactory operational
-    performance or other circumstances leading to a reduced level of competence.
 - content: |-
+    urn:mrn:iala:dic:0901112e
+
+    Updating training is tailor made training following a training needs analysis indicating that member(s) of VTS Personnel need additional training. Updating training may be required after a break in service, unsatisfactory operational performance or other circumstances leading to a reduced level of competence.
+
     Source:
     IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
     IALA Model Course V‐103/5 - Revalidation Process for VTS Qualification and Certification
@@ -35,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Updating_training

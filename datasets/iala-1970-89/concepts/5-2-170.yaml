@@ -22,11 +22,12 @@ terms:
   designation: Idealized system
   normative_status: preferred
 definition:
-- content: An imaginary system in which the ultimately controlled variable and the
-    specified command have the relationship which was stipulated.
-- content: "![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)"
-- content: Figure 2 - Block diagram of automatic control system (5-2-045) incorporating
-    a closed loop {{5-2-080, Closed Loop}}
+- content: |-
+    An imaginary system in which the ultimately controlled variable and the specified command have the relationship which was stipulated.
+
+    ![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)
+
+    Figure 2 - Block diagram of automatic control system (5-2-045) incorporating a closed loop {{5-2-080, Closed Loop}}
 sources:
 - type: authoritative
   origin:
@@ -36,4 +37,6 @@ sources:
     ref: ANSI
   modification: modified from source
 notes:
-- content: ": It is a basis for performance standards."
+- content: 'Note:: It is a basis for performance standards.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Idealized_system

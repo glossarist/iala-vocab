@@ -22,11 +22,13 @@ terms:
   designation: Piston ring
   normative_status: preferred
 definition:
-- content: A ring of rectangular section fitted in a circumferential groove in a piston
-    and springing against the cylinder wall to prevent leakage.
-- content: It is cut through at one point of the circumference to create springiness
-    and to allow for fitting,
+- content: |-
+    A ring of rectangular section fitted in a circumferential groove in a piston and springing against the cylinder wall to prevent leakage.
+
+    It is cut through at one point of the circumference to create springiness and to allow for fitting,
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Piston_ring

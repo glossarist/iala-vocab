@@ -22,11 +22,15 @@ terms:
   designation: Allied Services
   normative_status: preferred
 definition:
-- content: VTS-2012-4
-- content: Allied Services are services actively involved in the safe and efficient
-    passage of the vessel through the VTS area.
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-4
+
+    Allied Services are services actively involved in the safe and efficient passage of the vessel through the VTS area.
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Allied_Services

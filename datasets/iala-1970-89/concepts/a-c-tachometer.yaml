@@ -22,11 +22,12 @@ terms:
   designation: A.C. tachometer
   normative_status: preferred
 definition:
-- content: ".5-4-145"
-- content: A.C. tacho-generator
-- content: An a.c. generator which generates an a.c. output voltage whose amplitude
-    and frequency are proportional to the speed. It may have either a permanent magnet
-    or a d.c. field winding.
+- content: |-
+    .5-4-145
+
+    A.C. tacho-generator
+
+    An a.c. generator which generates an a.c. output voltage whose amplitude and frequency are proportional to the speed. It may have either a permanent magnet or a d.c. field winding.
 sources:
 - type: authoritative
   origin:
@@ -35,3 +36,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/A.C._tachometer

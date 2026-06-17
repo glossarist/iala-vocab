@@ -25,11 +25,13 @@ terms:
   designation: Cage (U.S.A.)
   normative_status: admitted
 definition:
-- content: That part of the buoy built on top of the body of the buoy and used as
-    a daymark or part thereof and usually to support the light or a topmark or a radar
-    reflector, or a combination of these.
-- content: "![Ch2_Fig61.jpg](/iala-vocab/images/iala/Ch2_Fig61.jpg)"
+- content: |-
+    That part of the buoy built on top of the body of the buoy and used as a daymark or part thereof and usually to support the light or a topmark or a radar reflector, or a combination of these.
+
+    ![Ch2_Fig61.jpg](/iala-vocab/images/iala/Ch2_Fig61.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy,_usually_lighted)

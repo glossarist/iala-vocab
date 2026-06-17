@@ -22,10 +22,13 @@ terms:
   designation: Fog signal stack
   normative_status: preferred
 definition:
-- content: "(Fog signal) Stack"
-- content: An assembly of emitter units designed to give a desired radiation pattern
-    in both the vertical and the horizontal planes.
+- content: |-
+    (Fog signal) Stack
+
+    An assembly of emitter units designed to give a desired radiation pattern in both the vertical and the horizontal planes.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal_stack

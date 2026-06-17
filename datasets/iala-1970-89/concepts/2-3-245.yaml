@@ -22,9 +22,9 @@ terms:
   designation: Reflector Lamp
   normative_status: preferred
 definition:
-- content: An incandescent lamp or discharge lamp, the bulb of which, usually of appropriate
-    shape, is partly coated with a reflecting layer, in order to direct the light.
 - content: |-
+    An incandescent lamp or discharge lamp, the bulb of which, usually of appropriate shape, is partly coated with a reflecting layer, in order to direct the light.
+
     The Pressed Glass Lamp, the bulb of which consists of two glass parts fused together, namely a metallized reflecting bowl and a patterned cover forming an optical system.
     The Sealed Beam Lamp, a type of pressed glass lamp designed to give a controlled beam of light.
 sources:
@@ -36,3 +36,5 @@ sources:
     ref: C.I.E
 notes:
 - content: 'Among the types of lamps in this class are the following:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reflector_Lamp

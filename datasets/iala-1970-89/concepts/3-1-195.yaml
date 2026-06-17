@@ -35,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.E.F
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loudness_level_contour

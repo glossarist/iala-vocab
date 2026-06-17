@@ -22,11 +22,14 @@ terms:
   designation: Infant-mortality period
   normative_status: preferred
 definition:
-- content: Early-failure period.
-- content: That possible early period, beginning at some stated time, during which
-    the failure rate is decreasing rapidly.
-- content: "![Ch5_Fig1.jpg](/iala-vocab/images/iala/Ch5_Fig1.jpg)"
-- content: Figure 1 - Failure rate / time pattern.
+- content: |-
+    Early-failure period.
+
+    That possible early period, beginning at some stated time, during which the failure rate is decreasing rapidly.
+
+    ![Ch5_Fig1.jpg](/iala-vocab/images/iala/Ch5_Fig1.jpg)
+
+    Figure 1 - Failure rate / time pattern.
 sources:
 - type: authoritative
   origin:
@@ -35,3 +38,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Infant-mortality_period

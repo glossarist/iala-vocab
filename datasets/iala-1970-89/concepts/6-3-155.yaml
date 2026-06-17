@@ -30,3 +30,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: This action is called blade pitch control.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Variable-pitch_blade

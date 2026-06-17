@@ -22,9 +22,10 @@ terms:
   designation: Feedback path
   normative_status: preferred
 definition:
-- content: In a feedback control loop, the transmission path from the loop output
-    signal to the loop feedback signal.
-- content: "![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)"
+- content: |-
+    In a feedback control loop, the transmission path from the loop output signal to the loop feedback signal.
+
+    ![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.R.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Feedback_path

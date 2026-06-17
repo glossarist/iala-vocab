@@ -22,10 +22,13 @@ terms:
   designation: Direct-current machine
   normative_status: preferred
 definition:
-- content: d.c. machine
-- content: An electric machine that converts a d.c. electric supply to mechanical
-    energy, or vice-versa.
+- content: |-
+    d.c. machine
+
+    An electric machine that converts a d.c. electric supply to mechanical energy, or vice-versa.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Direct-current_machine

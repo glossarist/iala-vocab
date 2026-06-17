@@ -22,8 +22,10 @@ terms:
   designation: Direction finding site
   normative_status: preferred
 definition:
-- content: 'Acronym: D.F. site'
-- content: The environment, within some specified boundary, of a direction finder.
+- content: |-
+    Acronym: D.F. site
+
+    The environment, within some specified boundary, of a direction finder.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +35,5 @@ sources:
     ref: B.S
 notes:
 - content: The boundary is often taken as a circle with a radius expressed in wavelengths.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Direction_finding_site

@@ -25,10 +25,13 @@ terms:
   designation: Kerosene (USA)
   normative_status: admitted
 definition:
-- content: "(G.B.) 6-3-345"
-- content: A mixture of hydrocarbon fuels used in the form of a vapour, burning as
-    an open flame or with a mantle to provide a light source.
+- content: |-
+    (G.B.) 6-3-345
+
+    A mixture of hydrocarbon fuels used in the form of a vapour, burning as an open flame or with a mantle to provide a light source.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Paraffin_(soil)

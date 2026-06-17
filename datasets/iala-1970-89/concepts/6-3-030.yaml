@@ -29,3 +29,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: Formerly called " insolation ", but this term is deprecated.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Solar_irradiation

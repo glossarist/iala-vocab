@@ -25,10 +25,13 @@ terms:
   designation: Compressed-air sound emitter
   normative_status: admitted
 definition:
-- content: Pneumatic (sound) emitter
-- content: A sound emitter which depends for its operation on controlled variations
-    of an air stream.
+- content: |-
+    Pneumatic (sound) emitter
+
+    A sound emitter which depends for its operation on controlled variations of an air stream.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Pneumatic

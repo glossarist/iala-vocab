@@ -27,9 +27,10 @@ terms:
   designation: Fixed Light
   normative_status: preferred
 definition:
-- content: A light which appears continuous and steady and of constant colour to an
-    observer whose position remains unchanged in relation to it. (Fig. 40a)
-- content: (Compare "Fixed mark", 2-6-005).
+- content: |-
+    A light which appears continuous and steady and of constant colour to an observer whose position remains unchanged in relation to it. (Fig. 40a)
+
+    (Compare "Fixed mark", 2-6-005).
 sources:
 - type: authoritative
   origin:
@@ -42,3 +43,5 @@ notes:
 - content: In Britain and U.S.A., the term "Fixed light" is also loosely used for
     a light sup-ported on a fixed structure, as distinct from a light on a floating
     support.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fixed_Light

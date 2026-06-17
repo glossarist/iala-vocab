@@ -22,12 +22,11 @@ terms:
   designation: Message Markers
   normative_status: preferred
 definition:
-- content: VTS-2012-20
-- content: In order to especially facilitate shore-to-ship and ship-to-shore communication
-    or when one of the IMO Standard Marine Communication Phrases will not fit the
-    meaning desired, one of the following eight message markers may be used to increase
-    the probability of the purpose of the message being properly understood.
 - content: |-
+    VTS-2012-20
+
+    In order to especially facilitate shore-to-ship and ship-to-shore communication or when one of the IMO Standard Marine Communication Phrases will not fit the meaning desired, one of the following eight message markers may be used to increase the probability of the purpose of the message being properly understood.
+
     Instruction
     Advice
     Warning
@@ -36,9 +35,13 @@ definition:
     Answer
     Request
     Intention
-- content: 'Source: IMO A.918(22)'
-- content: "(VTS33/output/8 refers)"
+
+    Source: IMO A.918(22)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Message_Markers

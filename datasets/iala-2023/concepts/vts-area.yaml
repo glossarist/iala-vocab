@@ -22,11 +22,17 @@ terms:
   designation: VTS area
   normative_status: preferred
 definition:
-- content: VTS-2012-39
-- content: A VTS area is the delineated, formally declared service area of the VTS.
-- content: A VTS area may be subdivided in sub-areas or sectors.
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-39
+
+    A VTS area is the delineated, formally declared service area of the VTS.
+
+    A VTS area may be subdivided in sub-areas or sectors.
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_area

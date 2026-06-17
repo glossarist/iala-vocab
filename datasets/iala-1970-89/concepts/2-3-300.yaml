@@ -28,12 +28,6 @@ terms:
   normative_status: preferred
 definition:
 - content: Photoluminescence which persists for an extremely short time after excitation.
-- content: 'Note from Guideline G1134: Referring to surface colours, G1134 provides
-    the following further explanation of fluorscence. Fluorescence is the process
-    by which electromagnetic radiation of one wavelength is absorbed and re-radiated
-    at another wavelength.  Sometimes a fluorescent material will absorb non-visible
-    light and emit it as visible light.  Fluorescence and ordinary reflectance of
-    radiation take place simultaneously and at the same wavelengths.'
 sources:
 - type: authoritative
   origin:
@@ -43,3 +37,11 @@ sources:
     ref: C.I.E. (extract)
 notes:
 - content: This time is generally less than about 10-8 second.
+- content: 'from Guideline G1134: Referring to surface colours, G1134 provides the
+    following further explanation of fluorscence. Fluorescence is the process by which
+    electromagnetic radiation of one wavelength is absorbed and re-radiated at another
+    wavelength.  Sometimes a fluorescent material will absorb non-visible light and
+    emit it as visible light.  Fluorescence and ordinary reflectance of radiation
+    take place simultaneously and at the same wavelengths.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fluorescence

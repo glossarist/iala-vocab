@@ -27,9 +27,13 @@ terms:
   designation: Spindle Buoy
   normative_status: preferred
 definition:
-- content: A buoy having a spindle-like shape floating nearly vertically.
-- content: "![Ch2_Fig64.jpg](/iala-vocab/images/iala/Ch2_Fig64.jpg)"
+- content: |-
+    A buoy having a spindle-like shape floating nearly vertically.
+
+    ![Ch2_Fig64.jpg](/iala-vocab/images/iala/Ch2_Fig64.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spindle_Buoy

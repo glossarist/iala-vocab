@@ -27,11 +27,12 @@ terms:
   designation: Occulting Light
   normative_status: preferred
 definition:
-- content: 1. A light in which the total duration of light in each period is clearly
-    longer than the total duration of darkness and in which the intervals of darkness
-    (occultations) are all of equal duration.
-- content: "![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)"
-- content: 2. Commonly used for a single-occulting light.
+- content: |-
+    1. A light in which the total duration of light in each period is clearly longer than the total duration of darkness and in which the intervals of darkness (occultations) are all of equal duration.
+
+    ![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)
+
+    2. Commonly used for a single-occulting light.
 sources:
 - type: authoritative
   origin:
@@ -39,3 +40,5 @@ sources:
 - type: authoritative
   origin:
     ref: N.L
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Occulting_Light

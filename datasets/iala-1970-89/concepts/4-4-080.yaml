@@ -27,12 +27,15 @@ terms:
   designation: Loran Drift control
   normative_status: preferred
 definition:
-- content: Drift control (in Loran)
-- content: The equipment control by means of which the local time base oscillator
-    is brought into synchronisation with the transmitted time base.
-- content: In Loran C and in most Loran A receivers the final "lock-in" is accomplished
-    automatically.
+- content: |-
+    Drift control (in Loran)
+
+    The equipment control by means of which the local time base oscillator is brought into synchronisation with the transmitted time base.
+
+    In Loran C and in most Loran A receivers the final "lock-in" is accomplished automatically.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Drift_control

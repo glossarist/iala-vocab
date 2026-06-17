@@ -27,10 +27,13 @@ terms:
   designation: Electrodynamic emitter - Diaphragm assembly
   normative_status: preferred
 definition:
-- content: Diaphragm assembly (in an electrodynamic emitter)
-- content: An integral assembly comprising the diaphragm, moving coil, coil former,
-    diaphragm suspension and attachments for mounting the assembly in the emitter.
+- content: |-
+    Diaphragm assembly (in an electrodynamic emitter)
+
+    An integral assembly comprising the diaphragm, moving coil, coil former, diaphragm suspension and attachments for mounting the assembly in the emitter.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electrodynamic_emitter_-_Diaphragm_assembly

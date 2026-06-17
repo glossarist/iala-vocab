@@ -37,3 +37,5 @@ sources:
   modification: modified from source
 notes:
 - content: IPOT is an acronym for inductive potential divider.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ipot

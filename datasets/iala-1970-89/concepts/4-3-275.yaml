@@ -22,13 +22,17 @@ terms:
   designation: Afterglow
   normative_status: preferred
 - type: expression
+  designation: Afterglow (of a C.R.T.)
+  normative_status: admitted
+- type: expression
   designation: Persistence (of a C.R.T.)
   normative_status: admitted
 definition:
-- content: Afterglow (of a C.R.T.)
 - content: The decaying luminescence of the screen after the stimulus has been reduced
     or removed.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Afterglow

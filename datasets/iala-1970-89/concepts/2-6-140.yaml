@@ -22,12 +22,17 @@ terms:
   designation: Two buoys mored abreast in a channel
   normative_status: preferred
 definition:
-- content: 'No English Term (2009: Gate )'
-- content: Term used of two buoys, one to port, the other to starboard, moored abreast
-    in a channel.
-- content: "(Fig. 55a)"
-- content: "![Ch2_Fig55.jpg](/iala-vocab/images/iala/Ch2_Fig55.jpg)"
+- content: |-
+    No English Term (2009: Gate )
+
+    Term used of two buoys, one to port, the other to starboard, moored abreast in a channel.
+
+    (Fig. 55a)
+
+    ![Ch2_Fig55.jpg](/iala-vocab/images/iala/Ch2_Fig55.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Two_buoys_mored_abreast_in_a_channel

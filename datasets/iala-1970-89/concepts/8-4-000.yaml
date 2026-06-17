@@ -25,16 +25,17 @@ terms:
   designation: Depot
   normative_status: admitted
 definition:
-- content: Site at which buoys are serviced and stored when not on station. It usually
-    includes both open yards and covered buildings provided with equipment for lifting,
-    transporting and maintaining buoys.
-- content: 'Note 1:'
-- content: The term "depot" usually means a complex containing offices, workshops
-    and other facilities in addition to those of a buoy yard.
+- content: |-
+    Site at which buoys are serviced and stored when not on station. It usually includes both open yards and covered buildings provided with equipment for lifting, transporting and maintaining buoys.
+
+    The term "depot" usually means a complex containing offices, workshops and other facilities in addition to those of a buoy yard.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
+- content: ":"
 - content: The French term depot de bouees means a small buoy yard with no buoy tender
     attached.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoy_yard

@@ -34,9 +34,10 @@ sources:
 notes:
 - content: 'For the correction factors which must be taken into account in computing
     the retinal illuminance, see Reference: C.I.E.'
-examples:
-- content: used for expressing the magnitude of the external light stimulus applied
+annotations:
+- content: Unit used for expressing the magnitude of the external light stimulus applied
     to the eye. When the eye is viewing a surface of uniform luminance, the number
     of trolands is equal to the product of the area in square millimetres of the limiting
     pupil, natural or artificial, and the luminance of the surface in candelas per
     square metre.
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Troland

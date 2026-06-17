@@ -22,9 +22,10 @@ terms:
   designation: Automatic frequency control
   normative_status: preferred
 definition:
-- content: 'Acronym: A.F.C.'
-- content: An arrangement whereby the frequency of an oscillator is automatically
-    maintained within specified limits.
+- content: |-
+    Acronym: A.F.C.
+
+    An arrangement whereby the frequency of an oscillator is automatically maintained within specified limits.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.R.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Automatic_frequency_control

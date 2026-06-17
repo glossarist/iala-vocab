@@ -27,10 +27,13 @@ terms:
   designation: Diverted Beam
   normative_status: preferred
 definition:
-- content: A beam the axis of which is changed from its original direction without
-    changing the beam divergence.
-- content: "![Ch2_Fig17.jpg](/iala-vocab/images/iala/Ch2_Fig17.jpg)"
+- content: |-
+    A beam the axis of which is changed from its original direction without changing the beam divergence.
+
+    ![Ch2_Fig17.jpg](/iala-vocab/images/iala/Ch2_Fig17.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diverted_Beam

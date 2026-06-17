@@ -25,9 +25,10 @@ terms:
   designation: Regular Reflection
   normative_status: admitted
 definition:
-- content: Reflection without diffusion in accordance with the laws of optical reflection,
-    as in a mirror.
-- content: "![Ch2_Fig7.jpg](/iala-vocab/images/iala/Ch2_Fig7.jpg)"
+- content: |-
+    Reflection without diffusion in accordance with the laws of optical reflection, as in a mirror.
+
+    ![Ch2_Fig7.jpg](/iala-vocab/images/iala/Ch2_Fig7.jpg)
 sources:
 - type: authoritative
   origin:
@@ -36,3 +37,5 @@ sources:
   origin:
     ref: C.I.E.  (Fig. 7a)
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Specular_Reflection_(2)

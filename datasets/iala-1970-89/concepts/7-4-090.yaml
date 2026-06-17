@@ -34,3 +34,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: A rising tide is called a flood tide and a falling tide an ebb tide.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tidal_cycle

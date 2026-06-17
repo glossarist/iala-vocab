@@ -31,3 +31,5 @@ sources:
 notes:
 - content: For unregulated systems, the open-circuit voltage may be greatly in excess
     of the nominal voltage.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Open-circuit_voltage_(Voc)

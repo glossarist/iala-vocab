@@ -33,6 +33,8 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection
 ---
 id: 8-4-190-spa
 termid: 8-4-190
@@ -43,11 +45,13 @@ terms:
   designation: Cathodic protection/es
   normative_status: preferred
 definition:
-- content: Protección catódica
-- content: Protección de las partes metálicas sumergidas mediante  la corrosión preferente
-    de metales electropositivos especialmente ubicados formando estos el ánodo de
-    sacrificio.
+- content: |-
+    Protección catódica
+
+    Protección de las partes metálicas sumergidas mediante  la corrosión preferente de metales electropositivos especialmente ubicados formando estos el ánodo de sacrificio.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection/es

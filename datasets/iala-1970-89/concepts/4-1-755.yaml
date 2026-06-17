@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Signal-to-noise ratio
   normative_status: preferred
+- type: expression
+  designation: Signal-to-noise ratio (at a specified point in a receiver)
+  normative_status: admitted
 definition:
-- content: Signal-to-noise ratio (at a specified point in a receiver)
 - content: For given conditions of adjustment and signal input, the ratio of the magnitude
     of some specified feature of the wanted response to the magnitude of the appropriate
     feature of the co-existent noise.
@@ -41,3 +43,5 @@ notes:
     is measured but this ratio is usually called the signal-to-noise ratio when the
     signal magnitude is several times greater than that of the noise.
 - content: The ratio is often expressed in decibels.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Signal-to-noise_ratio

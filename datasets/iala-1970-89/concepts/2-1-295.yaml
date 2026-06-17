@@ -22,18 +22,24 @@ terms:
   designation: Contrast
   normative_status: preferred
 - type: symbol
-  designation: C
+  designation: stem:[C]
   normative_status: preferred
 definition:
-- content: "(Luminance) Contrast (of an object against its background)"
-- content: 1. Subjective assessment of the difference in luminance of an object and
-    its background.
-- content: 2. The quotient of the difference between the luminance of an object and
-    the luminance of its background by the luminance of the background.
-- content: "![2-1-295_Contrast_Equation.png](/iala-vocab/images/iala/2-1-295_Contrast_Equation.png)"
-- content: where L1 is the luminance of the background
-- content: L2 is the luminance of the object seen against the background.
+- content: |-
+    (Luminance) Contrast (of an object against its background)
+
+    1. Subjective assessment of the difference in luminance of an object and its background.
+
+    2. The quotient of the difference between the luminance of an object and the luminance of its background by the luminance of the background.
+
+    ![2-1-295_Contrast_Equation.png](/iala-vocab/images/iala/2-1-295_Contrast_Equation.png)
+
+    where L1 is the luminance of the background
+
+    L2 is the luminance of the object seen against the background.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Contrast

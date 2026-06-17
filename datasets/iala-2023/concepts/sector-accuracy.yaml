@@ -22,10 +22,13 @@ terms:
   designation: Sector Accuracy
   normative_status: preferred
 definition:
-- content: Sector accuracy is the maximum angle between the intended sector boundary
-    and the actual sector boundary.
-- content: 'Source: ENG4, Guideline 1041'
+- content: |-
+    Sector accuracy is the maximum angle between the intended sector boundary and the actual sector boundary.
+
+    Source: ENG4, Guideline 1041
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sector_Accuracy

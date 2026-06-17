@@ -27,17 +27,22 @@ terms:
   designation: Types of service
   normative_status: preferred
 definition:
-- content: 1. Beacon service
-- content: A service provided independently of weather conditions, the station transmitting
-    signals at certain fixed times daily or continuously.
-- content: 2. Clear weather transmission
-- content: Signals transmitted during clear weather by a station whose service is
-    extended during periods of fog or low visibility.
-- content: 3. Fog service
-- content: The service provided by a radio beacon as an aid to navigation during periods
-    of fog or low visibility.
-- content: 4. Calibration service
-- content: A service provided for the purpose of calibration of direction finders.
+- content: |-
+    1. Beacon service
+
+    A service provided independently of weather conditions, the station transmitting signals at certain fixed times daily or continuously.
+
+    2. Clear weather transmission
+
+    Signals transmitted during clear weather by a station whose service is extended during periods of fog or low visibility.
+
+    3. Fog service
+
+    The service provided by a radio beacon as an aid to navigation during periods of fog or low visibility.
+
+    4. Calibration service
+
+    A service provided for the purpose of calibration of direction finders.
 sources:
 - type: authoritative
   origin:
@@ -50,3 +55,5 @@ sources:
   origin:
     ref: A.L.R.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Types_of_service

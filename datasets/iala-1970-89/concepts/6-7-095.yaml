@@ -31,3 +31,5 @@ sources:
 notes:
 - content: The French term alimentation regulee refers to a stabilised power supply
     unit in which the stabilisation of voltage is made by feedback.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stabilised_power_supply_(unit)

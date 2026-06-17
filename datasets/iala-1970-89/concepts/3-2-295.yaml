@@ -27,10 +27,13 @@ terms:
   designation: Bell striker - Plunger
   normative_status: preferred
 definition:
-- content: Plunger (of a bell striker)
-- content: A cylindrical device having an alternating movement similar to a piston
-    but sliding in an airtight enclosure.
+- content: |-
+    Plunger (of a bell striker)
+
+    A cylindrical device having an alternating movement similar to a piston but sliding in an airtight enclosure.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bell_striker_-_Plunger

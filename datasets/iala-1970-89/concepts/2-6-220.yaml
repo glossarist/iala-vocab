@@ -22,11 +22,15 @@ terms:
   designation: Bake buoy
   normative_status: preferred
 definition:
-- content: A buoy having a superstructure in the shape described by the German term
-    "Bake" {{2-6-035, Easily recognizable structure}}.
-- content: This term includes lighted buoys, whistle buoys and bell buoys.
-- content: "![Ch2_Fig60.jpg](/iala-vocab/images/iala/Ch2_Fig60.jpg)"
+- content: |-
+    A buoy having a superstructure in the shape described by the German term "Bake" {{2-6-035, Easily recognizable structure}}.
+
+    This term includes lighted buoys, whistle buoys and bell buoys.
+
+    ![Ch2_Fig60.jpg](/iala-vocab/images/iala/Ch2_Fig60.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bake_buoy

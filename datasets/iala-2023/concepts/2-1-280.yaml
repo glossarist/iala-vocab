@@ -27,20 +27,22 @@ terms:
   designation: Meteorological Visibility
   normative_status: preferred
 - type: symbol
-  designation: 'V Unit: kilometre (km); sea-mile (s.m.)'
+  designation: stem:[V]
   normative_status: preferred
 - type: symbol
-  designation: V0.05 and is often called the Praktische Sichtweite.
+  designation: stem:[V0.05]
   normative_status: preferred
 definition:
-- content: The greatest distance at which a black object of suitable dimensions can
-    be seen and recognised by day against the horizon sky, or, in the case of night
-    observations, could be seen and recognised if the general illumination were raised
-    to the normal daylight level. The term may express the visibility in a single
-    direction or the prevailing visibility in all directions.
-- content: In Germany, the visibility so defined has the
-- content: In the case of a uniform atmosphere, the visibility so defined is equal
-    to ,  where s is the atmospheric extinction coefficient (2-1-270, Note 2:).
+- content: |-
+    The greatest distance at which a black object of suitable dimensions can be seen and recognised by day against the horizon sky, or, in the case of night observations, could be seen and recognised if the general illumination were raised to the normal daylight level. The term may express the visibility in a single direction or the prevailing visibility in all directions.
+
+    Unit: kilometre (km); sea-mile (s.m.)
+
+    In Germany, the visibility so defined has the
+
+    and is often called the Praktische Sichtweite.
+
+    In the case of a uniform atmosphere, the visibility so defined is equal to ,  where s is the atmospheric extinction coefficient (2-1-270, Note 2:).
 sources:
 - type: authoritative
   origin:
@@ -59,3 +61,5 @@ notes:
 - content: 'Under ideal conditions (in daylight laboratory observation), however,
     C is equal to 0.02. A visibility defined by this value has been called the Meteorological
     Range (and, in German, Normsichtweite, with Symbol: VN)'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Meteorological_Visibility

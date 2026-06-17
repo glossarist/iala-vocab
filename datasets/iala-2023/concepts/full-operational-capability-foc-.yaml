@@ -22,11 +22,13 @@ terms:
   designation: Full Operational Capability (FOC)
   normative_status: preferred
 definition:
-- content: Operational status of a GNSS or other radio-navigation system declared
-    by the providing authority when commissioning and validation are considered to
-    have been completed satisfactorily.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    Operational status of a GNSS or other radio-navigation system declared by the providing authority when commissioning and validation are considered to have been completed satisfactorily.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Full_Operational_Capability_(FOC)

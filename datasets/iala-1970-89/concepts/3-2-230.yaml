@@ -22,10 +22,13 @@ terms:
   designation: Electromagnetic horn - Armature
   normative_status: preferred
 definition:
-- content: Armature (in an electromagnetic horn)
-- content: That part of the magnetic circuit which is free to move under the action
-    of the magnetic field and whose motion is imparted to the diaphragm.
+- content: |-
+    Armature (in an electromagnetic horn)
+
+    That part of the magnetic circuit which is free to move under the action of the magnetic field and whose motion is imparted to the diaphragm.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electromagnetic_horn_-_Armature

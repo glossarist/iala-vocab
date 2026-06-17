@@ -30,3 +30,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: The sources will carry a common output current.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Series_connection_(of_sources)

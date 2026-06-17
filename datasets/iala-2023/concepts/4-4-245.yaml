@@ -27,16 +27,15 @@ terms:
   designation: Omega
   normative_status: preferred
 definition:
-- content: A long range hyperbolic, continuous wave phase comparison system of navigation
-    employing three or more phase locked stations to generate two or more patterns
-    of lines of position.
-- content: It operates in the very low frequency band, near 10 kHz, where propagation
-    via the lower ionosphere is characteristically of great range and of a predictable
-    degree of stability, both day and night.
-- content: The baseline between the two stations required to generate a single set
-    of hyperbolic co-ordinates is typically 3 to 5 thousand miles long. The fix accuracy
-    is moderate but may be improved in limited areas by certain techniques.
+- content: |-
+    A long range hyperbolic, continuous wave phase comparison system of navigation employing three or more phase locked stations to generate two or more patterns of lines of position.
+
+    It operates in the very low frequency band, near 10 kHz, where propagation via the lower ionosphere is characteristically of great range and of a predictable degree of stability, both day and night.
+
+    The baseline between the two stations required to generate a single set of hyperbolic co-ordinates is typically 3 to 5 thousand miles long. The fix accuracy is moderate but may be improved in limited areas by certain techniques.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Omega

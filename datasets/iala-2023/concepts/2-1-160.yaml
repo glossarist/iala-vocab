@@ -40,3 +40,5 @@ sources:
 notes:
 - content: In the photometry of retro-reflectors, this coefficient is designated by
     the abbreviation C.I.L. It is usually expressed in millicandelas per lux (mcd/lx).
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Coefficient_of_(Reflex)_Luminous_Intensity

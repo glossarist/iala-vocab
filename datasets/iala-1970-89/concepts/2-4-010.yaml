@@ -22,9 +22,13 @@ terms:
   designation: Murette
   normative_status: preferred
 definition:
-- content: The wall of the lantern below the glazing.
-- content: "![Ch2_Fig33.jpg](/iala-vocab/images/iala/Ch2_Fig33.jpg)"
+- content: |-
+    The wall of the lantern below the glazing.
+
+    ![Ch2_Fig33.jpg](/iala-vocab/images/iala/Ch2_Fig33.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Murette

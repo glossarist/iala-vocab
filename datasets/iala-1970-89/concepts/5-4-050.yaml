@@ -44,3 +44,5 @@ notes:
     of the or gate.
 - content: An or gate is a device in which the output channel is in a one state if
     any one or more of the input channels is in a one state.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gate

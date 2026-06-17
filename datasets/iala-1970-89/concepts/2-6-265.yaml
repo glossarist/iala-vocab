@@ -22,10 +22,12 @@ terms:
   designation: Stripes
   normative_status: preferred
 definition:
-- content: A number of areas of contrasting colour separated from one another by straight
-    lines, and used as a distinguishing characteristic for navigation marks. (Fig.67b)
-- content: "(Fig. 67c)"
-- content: "![Ch2_Fig67.jpg](/iala-vocab/images/iala/Ch2_Fig67.jpg)"
+- content: |-
+    A number of areas of contrasting colour separated from one another by straight lines, and used as a distinguishing characteristic for navigation marks. (Fig.67b)
+
+    (Fig. 67c)
+
+    ![Ch2_Fig67.jpg](/iala-vocab/images/iala/Ch2_Fig67.jpg)
 sources:
 - type: authoritative
   origin:
@@ -33,3 +35,5 @@ sources:
 notes:
 - content: The stripes may be vertical, horizontal or oblique.
 - content: Horizontal stripes are usually called Bands in English and Bander in German.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stripes

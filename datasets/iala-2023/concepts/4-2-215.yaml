@@ -27,15 +27,16 @@ terms:
   designation: Classification of bearings
   normative_status: preferred
 definition:
-- content: An arbitrary system for the grouping of bearings according to their accuracy.
-    The bearings are grouped into one or other of the four following classes
-- content: Class A bearings in which there is a probability of less than 1 in 20 that
-    the bearing error would exceed +/-2 degrees
-- content: Class B bearings in which there is a probability of less than 1 in 20 that
-    the bearing error would exceed +/-5 degrees
-- content: Class C bearings in which there is a probability of less than 1 in 20 that
-    the bearing error would exceed +/-10 degrees
-- content: Class D bearings in which the error would exceed +/-10 degrees
+- content: |-
+    An arbitrary system for the grouping of bearings according to their accuracy. The bearings are grouped into one or other of the four following classes
+
+    Class A bearings in which there is a probability of less than 1 in 20 that the bearing error would exceed +/-2 degrees
+
+    Class B bearings in which there is a probability of less than 1 in 20 that the bearing error would exceed +/-5 degrees
+
+    Class C bearings in which there is a probability of less than 1 in 20 that the bearing error would exceed +/-10 degrees
+
+    Class D bearings in which the error would exceed +/-10 degrees
 sources:
 - type: authoritative
   origin:
@@ -43,3 +44,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Classification_of_bearings

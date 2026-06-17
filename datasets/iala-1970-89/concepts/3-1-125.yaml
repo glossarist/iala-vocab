@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Effective acoustic centre
   normative_status: preferred
+- type: expression
+  designation: Effective acoustic centre (of a sound source)
+  normative_status: admitted
 definition:
-- content: Effective acoustic centre (of a sound source)
 - content: The point from which the spherical waves as observed at remote points appear
     to diverge.
 sources:
@@ -38,3 +40,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Effective_acoustic_centre

@@ -27,10 +27,13 @@ terms:
   designation: Compressed-air diaphragm horn
   normative_status: preferred
 definition:
-- content: Compressed-air (diaphragm) horn
-- content: A fog signalling apparatus comprising a resonant horn excited at its throat
-    by impulsive emissions of compressed air regulated by an elastic diaphragm.
+- content: |-
+    Compressed-air (diaphragm) horn
+
+    A fog signalling apparatus comprising a resonant horn excited at its throat by impulsive emissions of compressed air regulated by an elastic diaphragm.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Compressed-air_diaphragm_horn

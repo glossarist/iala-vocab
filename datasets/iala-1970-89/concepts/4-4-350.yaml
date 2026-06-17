@@ -22,11 +22,13 @@ terms:
   designation: Toran Compensating receiver
   normative_status: preferred
 definition:
-- content: Compensating receiver (in Toran)
-- content: A fixed receiver which receives the transmissions of the two confocal transmitters;
-    the low frequency beat note obtained from the output of the receiver constitutes
-    a phase reference.
+- content: |-
+    Compensating receiver (in Toran)
+
+    A fixed receiver which receives the transmissions of the two confocal transmitters; the low frequency beat note obtained from the output of the receiver constitutes a phase reference.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Toran_Compensating_receiver

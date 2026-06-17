@@ -22,13 +22,16 @@ terms:
   designation: Oil Lamp
   normative_status: preferred
 definition:
-- content: An assembly consisting of a reservoir containing liquid fuel (usually paraffin
-    oil) and a wick producing a flame.
-- content: "![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)"
+- content: |-
+    An assembly consisting of a reservoir containing liquid fuel (usually paraffin oil) and a wick producing a flame.
+
+    ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp
 ---
 id: 2-3-055-spa
 termid: 2-3-055
@@ -39,11 +42,15 @@ terms:
   designation: Oil Lamp/es
   normative_status: preferred
 definition:
-- content: Lámpara de aceite
-- content: Conjunto que consiste en un depósito que contiene combustible líquido (generalmente
-    aceite de parafina) y una mecha que produce una llama.
-- content: "![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)"
+- content: |-
+    Lámpara de aceite
+
+    Conjunto que consiste en un depósito que contiene combustible líquido (generalmente aceite de parafina) y una mecha que produce una llama.
+
+    ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp/es

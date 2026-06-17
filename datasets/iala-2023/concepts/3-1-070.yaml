@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Band pressure level
   normative_status: preferred
+- type: expression
+  designation: Band pressure level (for a specified frequency band)
+  normative_status: admitted
 definition:
-- content: Band pressure level (for a specified frequency band)
 - content: The effective sound pressure level corresponding to the sound energy contained
     within the band.
 sources:
@@ -37,3 +39,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Band_pressure_level

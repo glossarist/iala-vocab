@@ -22,10 +22,13 @@ terms:
   designation: Transmitter power gain
   normative_status: preferred
 definition:
-- content: Power gain (of a radio transmitter)
-- content: The ratio of the output power delivered to a specified load by an amplifier
-    to the power absorbed by its input circuit.
+- content: |-
+    Power gain (of a radio transmitter)
+
+    The ratio of the output power delivered to a specified load by an amplifier to the power absorbed by its input circuit.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transmitter_power_gain

@@ -39,3 +39,5 @@ sources:
   modification: modified from source
 notes:
 - content: This definition is valid only for sinusoidal vibrations in the steady state.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acoustic_impedance

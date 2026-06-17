@@ -26,11 +26,13 @@ terms:
 - type: expression
   designation: Diffusion Factor
   normative_status: preferred
+- type: expression
+  designation: Diffusion Factor (of a diffusing surface, by reflection or by transmission)
+  normative_status: admitted
 - type: symbol
-  designation: s
+  designation: stem:[s]
   normative_status: preferred
 definition:
-- content: Diffusion Factor (of a diffusing surface, by reflection or by transmission)
 - content: The ratio of the mean of the values of luminance measured at 20 and 70
     degrees to the luminance measured at 5 degrees from the normal, when the surface
     considered is illuminated normally.
@@ -47,3 +49,5 @@ notes:
     value of the diffuse reflectance.
 - content: 'The full text of the Reference: C.I.E. definition explains the limitations
     within which this form of definition can be applied.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diffusion_Factor

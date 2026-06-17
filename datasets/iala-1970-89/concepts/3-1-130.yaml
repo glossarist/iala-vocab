@@ -26,9 +26,11 @@ terms:
 - type: expression
   designation: Directional pattern
   normative_status: preferred
-definition:
-- content: Directional pattern (for a sound source or receiver and for a specified
+- type: expression
+  designation: Directional pattern (for a sound source or receiver and for a specified
     frequency band)
+  normative_status: admitted
+definition:
 - content: A description, generally presented graphically, of a characteristic value
     of the emission of the source or of the response of the receiver as a function
     of the direction in a specified plane through a specified point (if possible the
@@ -43,3 +45,5 @@ notes:
 - content: In the case of the sound source the term Directional radiation pattern
     is used. In the case of the sound receiver, the term Directional response pattern
     is used.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Directional_pattern

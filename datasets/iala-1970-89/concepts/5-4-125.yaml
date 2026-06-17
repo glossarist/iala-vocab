@@ -27,8 +27,10 @@ terms:
   designation: Analogue-digital convertor
   normative_status: preferred
 definition:
-- content: A-to-D converter
-- content: A device used for converting an analogue signal into a digital signal.
+- content: |-
+    A-to-D converter
+
+    A device used for converting an analogue signal into a digital signal.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +39,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Analogue-digital_convertor

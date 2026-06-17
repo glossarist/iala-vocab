@@ -22,16 +22,15 @@ terms:
   designation: Decca Lambda
   normative_status: preferred
 definition:
-- content: The word "Lambda" is an abbreviation for Low Ambiguity Decca and refers
-    to a phase comparison radio position-fixing system used for hydrographic purposes.
-    A position fix is obtained fix is obtained by measuring the distance from the
-    ship to two shore stations.
-- content: The CW master transmitter and the receiver are carried on the ship and
-    the two slave stations are sited on land.
-- content: The service has a range of about 400 miles and employs carrier frequencies
-    in the region of 150 kHz. It is only possible for the ship equipped with the master
-    station to use the service.
+- content: |-
+    The word "Lambda" is an abbreviation for Low Ambiguity Decca and refers to a phase comparison radio position-fixing system used for hydrographic purposes. A position fix is obtained fix is obtained by measuring the distance from the ship to two shore stations.
+
+    The CW master transmitter and the receiver are carried on the ship and the two slave stations are sited on land.
+
+    The service has a range of about 400 miles and employs carrier frequencies in the region of 150 kHz. It is only possible for the ship equipped with the master station to use the service.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Lambda

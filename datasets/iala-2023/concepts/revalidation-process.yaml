@@ -22,12 +22,11 @@ terms:
   designation: Revalidation process
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901110e
-- content: Revalidation process is used to describe the process to maintain a VTS
-    qualification. The process ensures that holders of a VTS qualification maintain
-    a satisfactory level of operational performance in order to retain, develop and
-    increase their competency.
 - content: |-
+    urn:mrn:iala:dic:0901110e
+
+    Revalidation process is used to describe the process to maintain a VTS qualification. The process ensures that holders of a VTS qualification maintain a satisfactory level of operational performance in order to retain, develop and increase their competency.
+
     Source:
     IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel, section 9.1
     IALA Model Course V‐103/5 - Revalidation Process for VTS Qualification and Certification
@@ -35,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Revalidation_process

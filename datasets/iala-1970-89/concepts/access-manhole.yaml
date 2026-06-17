@@ -22,14 +22,17 @@ terms:
   designation: Access manhole
   normative_status: preferred
 definition:
-- content: 8-4-125(
-- content: An opening, for example in a buoy body, to permit personnel to enter the
-    interior for occasional inspections or repairs.  It is closed by means of a firmly-secured
-    watertight cover.
-- content: On vessels and on Lanbys, a large access manhole is called a deck hatch.
+- content: |-
+    8-4-125(
+
+    An opening, for example in a buoy body, to permit personnel to enter the interior for occasional inspections or repairs.  It is closed by means of a firmly-secured watertight cover.
+
+    On vessels and on Lanbys, a large access manhole is called a deck hatch.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Access_manhole

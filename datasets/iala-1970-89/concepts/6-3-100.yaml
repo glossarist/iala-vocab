@@ -30,3 +30,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: This period can vary from a few seconds to a year.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mean_wind_speed

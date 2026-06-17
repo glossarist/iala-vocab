@@ -22,10 +22,13 @@ terms:
   designation: Mean time to repair
   normative_status: preferred
 definition:
-- content: 'Acronym: MTTR'
-- content: The total corrective maintenance time divided by the total number of corrective
-    actions during a given period of time.
+- content: |-
+    Acronym: MTTR
+
+    The total corrective maintenance time divided by the total number of corrective actions during a given period of time.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mean_time_to_repair

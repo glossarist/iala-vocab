@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Skywave accuracy pattern
   normative_status: preferred
+- type: expression
+  designation: Skywave accuracy pattern (in radionavigation)
+  normative_status: admitted
 definition:
-- content: Skywave accuracy pattern (in radionavigation)
 - content: The plot of the contours of average systematic error due to skywave, on
     a co-ordinate system.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Skywave_accuracy_pattern

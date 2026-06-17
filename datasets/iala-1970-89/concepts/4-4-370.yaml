@@ -22,11 +22,15 @@ terms:
   designation: Toran chart
   normative_status: preferred
 definition:
-- content: A chart representing the hyperbolic pattern of a Toran chain.
-- content: Topographical receiver (in Toran) 4-4-375
-- content: A mobile receiver with indicators, which show the phase of the co-ordinates
-    in order to determine its position.
+- content: |-
+    A chart representing the hyperbolic pattern of a Toran chain.
+
+    Topographical receiver (in Toran) 4-4-375
+
+    A mobile receiver with indicators, which show the phase of the co-ordinates in order to determine its position.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Toran_chart

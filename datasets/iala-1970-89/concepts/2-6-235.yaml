@@ -27,9 +27,13 @@ terms:
   designation: Spar Buoy
   normative_status: preferred
 definition:
-- content: A buoy in the shape of a spar floating nearly vertically.
-- content: "![Ch2_Fig63.jpg](/iala-vocab/images/iala/Ch2_Fig63.jpg)"
+- content: |-
+    A buoy in the shape of a spar floating nearly vertically.
+
+    ![Ch2_Fig63.jpg](/iala-vocab/images/iala/Ch2_Fig63.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spar_Buoy

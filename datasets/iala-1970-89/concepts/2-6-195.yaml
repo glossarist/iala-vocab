@@ -27,10 +27,13 @@ terms:
   designation: High Focal Plane Buoy
   normative_status: preferred
 definition:
-- content: A type of lighted buoy in which the light is mounted exceptionally high
-    above the surface of the sea.
-- content: "![Ch2_Fig58.jpg](/iala-vocab/images/iala/Ch2_Fig58.jpg)"
+- content: |-
+    A type of lighted buoy in which the light is mounted exceptionally high above the surface of the sea.
+
+    ![Ch2_Fig58.jpg](/iala-vocab/images/iala/Ch2_Fig58.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/High_Focal_Plane_Buoy

@@ -22,10 +22,15 @@ terms:
   designation: Optic Pedestal
   normative_status: preferred
 definition:
-- content: "(Optic) Pedestal"
-- content: The supporting assembly for an optic.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    (Optic) Pedestal
+
+    The supporting assembly for an optic.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optic_Pedestal

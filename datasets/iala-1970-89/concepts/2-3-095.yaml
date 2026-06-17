@@ -22,9 +22,12 @@ terms:
   designation: Filament Support
   normative_status: preferred
 definition:
-- content: "(Filament) Support"
-- content: A metal wire used to support a filament of a lamp.
-- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
+- content: |-
+    (Filament) Support
+
+    A metal wire used to support a filament of a lamp.
+
+    ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
 sources:
 - type: authoritative
   origin:
@@ -33,6 +36,8 @@ sources:
   origin:
     ref: C.I.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament_Support
 ---
 id: 2-3-095-spa
 termid: 2-3-095
@@ -43,11 +48,17 @@ terms:
   designation: Filament Support/es
   normative_status: preferred
 definition:
-- content: Soporte del filamento
-- content: Alambre de metal utilizado como soporte del filamento de una lámpara.
-- content: "![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)"
-- content: 'Referencia: C.I.E.'
+- content: |-
+    Soporte del filamento
+
+    Alambre de metal utilizado como soporte del filamento de una lámpara.
+
+    ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
+
+    Referencia: C.I.E.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament_Support/es

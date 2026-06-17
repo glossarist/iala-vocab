@@ -22,11 +22,17 @@ terms:
   designation: Eye
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Lug, Bail (USA)'
-- content: U-shaped piece of metal secured to an object.
-- content: 'Note :'
-- content: Various types of eye are used, eg. lifting eye, mooring eye.
+- content: |-
+    Alternative terms: Lug, Bail (USA)
+
+    U-shaped piece of metal secured to an object.
+
+    Note :
+
+    Various types of eye are used, eg. lifting eye, mooring eye.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Eye

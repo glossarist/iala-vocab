@@ -27,16 +27,19 @@ terms:
   designation: Candela
   normative_status: preferred
 - type: symbol
-  designation: cd 1 cd = 1 lumen per steradian (lm/sr)
+  designation: stem:[cd]
   normative_status: preferred
 definition:
-- content: The SI unit of luminous intensity.
-- content: It is the luminous intensity, in the perpendicular direction, of a surface
-    of 1/600.000 square metre of a black body at the temperature of freezing platinum,
-    under a pressure of 101 325 newtons per square metre.
-- content: Definition adopted by the 13th General Conference on Weights and Measures
-    (1967).
-- content: A carcel is approximately 10 candelas.
+- content: |-
+    The SI unit of luminous intensity.
+
+    It is the luminous intensity, in the perpendicular direction, of a surface of 1/600.000 square metre of a black body at the temperature of freezing platinum, under a pressure of 101 325 newtons per square metre.
+
+    Definition adopted by the 13th General Conference on Weights and Measures (1967).
+
+    1 cd = 1 lumen per steradian (lm/sr)
+
+    A carcel is approximately 10 candelas.
 sources:
 - type: authoritative
   origin:
@@ -48,3 +51,5 @@ notes:
 - content: |-
     Candle, English Candle, Decimal Candle, Hefner Candel, Carcel-other units of luminous intensity now superseded by the candela.
     It is recommended that these terms should not in future be used. For reference, these units (other than the carcel) are approximately the same as the candela (within +/- 20%).
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Candela

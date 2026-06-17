@@ -27,12 +27,15 @@ terms:
   designation: Mooring line
   normative_status: preferred
 definition:
-- content: Chain, cable, hawser, etc..by which a vessel or buoy is secured to an anchor,
-    sinker, or mooring.
-- content: When chain is used, the term mooring chain applies.
+- content: |-
+    Chain, cable, hawser, etc..by which a vessel or buoy is secured to an anchor, sinker, or mooring.
+
+    When chain is used, the term mooring chain applies.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mooring_line

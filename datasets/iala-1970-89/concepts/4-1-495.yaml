@@ -22,13 +22,13 @@ terms:
   designation: Wave antenna
   normative_status: preferred
 definition:
-- content: Beverage antenna
-- content: A horizontal travelling wave directional antenna, usually long in relation
-    to the wavelength, connected to the radio equipment at one end and connected to
-    ground at the other through an impedance equal to the characteristic impedance.
-    Its proper performance depends upon the wave tilt and is therefore most effective
-    when erected over ground of low conductivity.
+- content: |-
+    Beverage antenna
+
+    A horizontal travelling wave directional antenna, usually long in relation to the wavelength, connected to the radio equipment at one end and connected to ground at the other through an impedance equal to the characteristic impedance. Its proper performance depends upon the wave tilt and is therefore most effective when erected over ground of low conductivity.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wave_antenna

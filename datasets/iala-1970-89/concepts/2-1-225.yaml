@@ -22,10 +22,12 @@ terms:
   designation: Uniform Diffuser
   normative_status: preferred
 definition:
-- content: A diffuser for which the luminance is the same in all directions irrespective
-    of the direction of incidence of the light.
-- content: Transmission L = E T/p
-- content: Reflection L = E p/p
+- content: |-
+    A diffuser for which the luminance is the same in all directions irrespective of the direction of incidence of the light.
+
+    Transmission L = E T/p
+
+    Reflection L = E p/p
 sources:
 - type: authoritative
   origin:
@@ -34,3 +36,5 @@ sources:
   origin:
     ref: C.I.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Uniform_Diffuser

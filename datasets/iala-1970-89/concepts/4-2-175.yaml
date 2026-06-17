@@ -22,10 +22,12 @@ terms:
   designation: Stray pick-up
   normative_status: preferred
 definition:
-- content: Direct pick-up (deprecated)
-- content: Direct reception (deprecated)
-- content: In direction finding, the reception of signals by portions of the apparatus
-    other than the antennas.
+- content: |-
+    Direct pick-up (deprecated)
+
+    Direct reception (deprecated)
+
+    In direction finding, the reception of signals by portions of the apparatus other than the antennas.
 sources:
 - type: authoritative
   origin:
@@ -34,3 +36,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stray_pick-up

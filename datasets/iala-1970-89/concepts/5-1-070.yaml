@@ -22,10 +22,12 @@ terms:
   designation: Constant-failure-rate period
   normative_status: preferred
 definition:
-- content: That possible period during which failures occur at an approximately uniform
-    rate.
-- content: "![Ch5_Fig1.jpg](/iala-vocab/images/iala/Ch5_Fig1.jpg)"
-- content: Figure 1 - Failure rate / time pattern.
+- content: |-
+    That possible period during which failures occur at an approximately uniform rate.
+
+    ![Ch5_Fig1.jpg](/iala-vocab/images/iala/Ch5_Fig1.jpg)
+
+    Figure 1 - Failure rate / time pattern.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Constant-failure-rate_period

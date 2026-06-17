@@ -26,11 +26,13 @@ terms:
 - type: expression
   designation: Complementary Wavelength
   normative_status: preferred
+- type: expression
+  designation: Complementary Wavelength (of a colour stimulus)
+  normative_status: admitted
 - type: symbol
-  designation: "?c"
+  designation: stem:[?c]
   normative_status: preferred
 definition:
-- content: Complementary Wavelength (of a colour stimulus)
 - content: Wavelength of the monochromatic light stimulus that, when combined in suitable
     proportions with the colour stimulus considered, yields a match with the specified
     achromatic light stimulus.
@@ -41,3 +43,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Complementary_Wavelength

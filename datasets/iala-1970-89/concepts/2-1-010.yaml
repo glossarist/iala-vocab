@@ -22,15 +22,13 @@ terms:
   designation: Luminous Flux
   normative_status: preferred
 - type: symbol
-  designation: F
+  designation: stem:[F]
   normative_status: preferred
 definition:
-- content: The quantity characteristic of radiant flux which expresses its capacity
-    to produce a luminous sensation, evaluated according to the values of spectral
-    luminous efficiency.
-- content: Unless otherwise indicated, the luminous flux in question relates to photopic
-    vision, and is connected with the radiant flux in accordance with the formula
-    adopted in 1948 by the
+- content: |-
+    The quantity characteristic of radiant flux which expresses its capacity to produce a luminous sensation, evaluated according to the values of spectral luminous efficiency.
+
+    Unless otherwise indicated, the luminous flux in question relates to photopic vision, and is connected with the radiant flux in accordance with the formula adopted in 1948 by the
 sources:
 - type: authoritative
   origin:
@@ -43,5 +41,6 @@ sources:
   origin:
     ref: C.I.E
   modification: modified from source
-examples:
-- content: lumen (lm)
+annotations:
+- content: Unit lumen (lm)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_Flux

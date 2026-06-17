@@ -30,11 +30,13 @@ terms:
   designation: Sun Valve
   normative_status: admitted
 definition:
-- content: 2-4 155
-- content: A device, operated by daylight, that automatically lights and extinguishes
-    a gas light, usually lighting it at or about sunset and extinguishing it at or
-    about sunrise.
+- content: |-
+    2-4 155
+
+    A device, operated by daylight, that automatically lights and extinguishes a gas light, usually lighting it at or about sunset and extinguishing it at or about sunrise.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light_Valve

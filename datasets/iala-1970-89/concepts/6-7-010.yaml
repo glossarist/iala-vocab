@@ -31,3 +31,5 @@ notes:
 - content: The device may convert alternating current into alternating current, direct
     current into direct current, direct current into alternating current, alternating
     current into direct current, or alternating current into unidirectional current.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Converter

@@ -22,10 +22,13 @@ terms:
   designation: Crankcase
   normative_status: preferred
 definition:
-- content: A casing that encloses the crankshaft and connecting rods in some types
-    of reciprocating engines or air-compressors,
-- content: It is usually filled with lubricating oil.
+- content: |-
+    A casing that encloses the crankshaft and connecting rods in some types of reciprocating engines or air-compressors,
+
+    It is usually filled with lubricating oil.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Crankcase

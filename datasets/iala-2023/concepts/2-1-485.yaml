@@ -38,3 +38,5 @@ sources:
     ref: C.I.E
 notes:
 - content: 'For definitions relating to Purity see Reference: C.I.E.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chromaticity

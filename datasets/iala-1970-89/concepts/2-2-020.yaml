@@ -22,16 +22,17 @@ terms:
   designation: Prismatic Section
   normative_status: preferred
 definition:
-- content: 1. Cross-section of a prism by a plane normal to the refracting edge. The
-    section is bounded by straight lines (usually three).
-- content: "![Ch2_Fig11.jpg](/iala-vocab/images/iala/Ch2_Fig11.jpg)"
-- content: 2. In lighthouse practice, the term is also used for a cross-section of
-    a transparent optical element bounded by three straight or slightly curved sides,
-    approximating to a triangle, but of such shape that incident parallel rays of
-    a particular wavelength are focussed after refraction or reflection (or both)
-    by the section.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    1. Cross-section of a prism by a plane normal to the refracting edge. The section is bounded by straight lines (usually three).
+
+    ![Ch2_Fig11.jpg](/iala-vocab/images/iala/Ch2_Fig11.jpg)
+
+    2. In lighthouse practice, the term is also used for a cross-section of a transparent optical element bounded by three straight or slightly curved sides, approximating to a triangle, but of such shape that incident parallel rays of a particular wavelength are focussed after refraction or reflection (or both) by the section.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Prismatic_Section

@@ -34,3 +34,5 @@ sources:
     ref: B.S
 notes:
 - content: This method was originally called "supersonic heterodyne reception".
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superheterodyne_reception

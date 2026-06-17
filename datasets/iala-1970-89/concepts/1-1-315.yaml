@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Total amplitude of oscillation
   normative_status: preferred
+- type: expression
+  designation: Total amplitude of oscillation (of a periodic quantity)
+  normative_status: admitted
 definition:
-- content: Total amplitude of oscillation (of a periodic quantity)
 - content: The difference between the maximum and the minimum value of the quantity
     during one period.
 sources:
@@ -35,3 +37,5 @@ sources:
   modification: modified from source
 notes:
 - content: In the case of sinusoidal oscillation usually called double amplitude.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Total_amplitude_of_oscillation

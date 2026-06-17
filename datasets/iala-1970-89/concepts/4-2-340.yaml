@@ -22,10 +22,12 @@ terms:
   designation: Semicircular component of error
   normative_status: preferred
 definition:
-- content: Quadrantal component of error
-- content: Octantal component of error
-- content: That sinusoidal component of the error versus true bearing curve taken
-    over the full 360 degrees  range of bearings which shows 2, 4 or 8 zeros respectively.
+- content: |-
+    Quadrantal component of error
+
+    Octantal component of error
+
+    That sinusoidal component of the error versus true bearing curve taken over the full 360 degrees  range of bearings which shows 2, 4 or 8 zeros respectively.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +39,5 @@ sources:
 notes:
 - content: These errors are a form of site error and are of particular importance
     on vessels and aircraft.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Semicircular_component_of_error

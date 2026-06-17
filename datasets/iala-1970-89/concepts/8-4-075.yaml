@@ -27,22 +27,23 @@ terms:
   designation: Superstructure (of a buoy)
   normative_status: preferred
 definition:
-- content: A substantial frame or construction that is carried on top of the body
-    of a buoy. It may serve as a daymark and may carry a signal light, a topmark and
-    other aids to navigation.
-- content: 'Note 1:'
-- content: The term cage refers to a part of a superstructure that is an external
-    frame of closely spaced slats or ribs. The purpose of a cage is to provide a characteristic
-    shape such as a cylinder, cone or sphere.
-- content: 'Note 2:'
-- content: The terms lantern support and lantern post (USA) refer to that part of
-    the buoy superstructure that provides direct support to the buoy light and possibly
-    also the topmark and radar reflector.
-- content: The French term support de lanterne has the same meaning.
+- content: |-
+    A substantial frame or construction that is carried on top of the body of a buoy. It may serve as a daymark and may carry a signal light, a topmark and other aids to navigation.
+
+    The term cage refers to a part of a superstructure that is an external frame of closely spaced slats or ribs. The purpose of a cage is to provide a characteristic shape such as a cylinder, cone or sphere.
+
+    The terms lantern support and lantern post (USA) refer to that part of the buoy superstructure that provides direct support to the buoy light and possibly also the topmark and radar reflector.
+
+    The French term support de lanterne has the same meaning.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+notes:
+- content: ":"
+- content: ":"
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)
 ---
 id: 8-4-075-spa
 termid: 8-4-075
@@ -53,20 +54,24 @@ terms:
   designation: Superstructure (of a buoy)/es
   normative_status: preferred
 definition:
-- content: Superestructura (de una boya)
 - content: |-
+    Superestructura (de una boya)
+
     Armazón o construcción considerable que se realiza sobre el cuerpo de una boya. Puede servir como marca diurna y puede llevar una señal luminosa, marca de tope y otras ayudas a la navegación.
     .
-- content: 'Nota 1:'
-- content: El término jaula se refiere a una parte de una superestructura que es un
-    marco externo de listones o costillas muy separadas. El propósito de una jaula
-    es proporcionar una forma característica como un cilindro, cono o esfera.
-- content: 'Nota 2:'
-- content: Los términos soporte de linterna y poste de linterna (EE. UU.) Se refieren
-    a la parte de la superestructura de la boya que proporciona soporte directo a
-    la luz de la boya y, posiblemente, también al topmark y al reflector de radar.
-- content: El término francés support de lanterne tiene el mismo significado.
+
+    Nota 1:
+
+    El término jaula se refiere a una parte de una superestructura que es un marco externo de listones o costillas muy separadas. El propósito de una jaula es proporcionar una forma característica como un cilindro, cono o esfera.
+
+    Nota 2:
+
+    Los términos soporte de linterna y poste de linterna (EE. UU.) Se refieren a la parte de la superestructura de la boya que proporciona soporte directo a la luz de la boya y, posiblemente, también al topmark y al reflector de radar.
+
+    El término francés support de lanterne tiene el mismo significado.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)/es

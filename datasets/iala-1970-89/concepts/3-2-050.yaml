@@ -22,10 +22,13 @@ terms:
   designation: Sound emitter - Stacked array
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Stacked array (U.S.A.), Vertical stack (G.B.)'
-- content: An assembly of sound emitters, mounted vertically one above the other and
-    so spaced and excited as to concentrate their power in the horizontal direction.
+- content: |-
+    Alternative terms: Stacked array (U.S.A.), Vertical stack (G.B.)
+
+    An assembly of sound emitters, mounted vertically one above the other and so spaced and excited as to concentrate their power in the horizontal direction.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Stacked_array

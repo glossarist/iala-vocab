@@ -21,13 +21,17 @@ terms:
 - type: expression
   designation: Electrical centre
   normative_status: preferred
+- type: expression
+  designation: Electrical centre (of a ship)
+  normative_status: admitted
 definition:
-- content: Electrical centre (of a ship)
-- content: The reference point on the vessel which is determined for each individual
-    navigational system.
-- content: It is used to measure distance and is determined by calibration at a known
-    range on a number of different headings.
+- content: |-
+    The reference point on the vessel which is determined for each individual navigational system.
+
+    It is used to measure distance and is determined by calibration at a known range on a number of different headings.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electrical_centre

@@ -22,12 +22,10 @@ terms:
   designation: Restoration
   normative_status: preferred
 definition:
-- content: Alteration of a building or artefact which has decayed, been lost or damaged,
-    or is thought to have been inappropriately repaired or altered in the past, the
-    objective of which is to make it conform again to its design or appearance at
-    a previous date.
-- content: "(This definition was noted at the IALA Seminar on the Practical Aspects
-    of Lighthouse Preservation in Gothenburg 2005)"
+- content: |-
+    Alteration of a building or artefact which has decayed, been lost or damaged, or is thought to have been inappropriately repaired or altered in the past, the objective of which is to make it conform again to its design or appearance at a previous date.
+
+    (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
 sources:
 - type: authoritative
   origin:
@@ -35,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: Stirlingcharter
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Restoration

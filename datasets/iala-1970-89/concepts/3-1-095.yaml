@@ -22,9 +22,10 @@ terms:
   designation: Instantaneous sound power per unit area
   normative_status: preferred
 definition:
-- content: Instantaneous sound energy flux per unit area
-- content: The quotient of the instantaneous sound power transmitted across a surface
-    element and the area of the surface element.
+- content: |-
+    Instantaneous sound energy flux per unit area
+
+    The quotient of the instantaneous sound power transmitted across a surface element and the area of the surface element.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +34,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Instantaneous_sound_power_per_unit_area

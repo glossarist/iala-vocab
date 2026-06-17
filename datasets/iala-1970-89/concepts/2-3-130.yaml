@@ -27,11 +27,12 @@ terms:
   designation: Pre-Focus Cap
   normative_status: preferred
 definition:
-- content: A cap (type P) which enables the luminous element to be brought into a
-    specified position relative to the cap during manufacture of the lamp.
-- content: By this means, reproducible positioning can be assured when the lamp is
-    inserted in a suitable lampholder.
-- content: "![Ch2_Fig26.jpg](/iala-vocab/images/iala/Ch2_Fig26.jpg)"
+- content: |-
+    A cap (type P) which enables the luminous element to be brought into a specified position relative to the cap during manufacture of the lamp.
+
+    By this means, reproducible positioning can be assured when the lamp is inserted in a suitable lampholder.
+
+    ![Ch2_Fig26.jpg](/iala-vocab/images/iala/Ch2_Fig26.jpg)
 sources:
 - type: authoritative
   origin:
@@ -43,3 +44,5 @@ sources:
 notes:
 - content: A Flanged Cap (Culot a Ailettes in French; Flanschsockel in German) is
     a particular type of pre-focus cap.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pre-Focus_Cap

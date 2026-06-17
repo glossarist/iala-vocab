@@ -27,9 +27,12 @@ terms:
   designation: Power gain - antenna
   normative_status: preferred
 definition:
-- content: Power gain (of an antenna)
-- content: Directivity (U.S.A.)
-- content: The value of the gain function in the direction of its maximum value.
+- content: |-
+    Power gain (of an antenna)
+
+    Directivity (U.S.A.)
+
+    The value of the gain function in the direction of its maximum value.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +40,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Power_gain_-_antenna

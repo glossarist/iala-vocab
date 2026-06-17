@@ -22,10 +22,13 @@ terms:
   designation: Absolute accuracy
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0401501e
-- content: The accuracy of a position estimate with respect to the geographic or geodetic
-    co-ordinates of the Earth
+- content: |-
+    urn:mrn:iala:dic:0401501e
+
+    The accuracy of a position estimate with respect to the geographic or geodetic co-ordinates of the Earth
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Absolute_accuracy

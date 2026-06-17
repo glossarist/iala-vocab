@@ -27,9 +27,13 @@ terms:
   designation: Electrodynamic emitter - Moving coil
   normative_status: preferred
 definition:
-- content: Moving coil (in an electrodynamic emitter)
-- content: The electrical conductor in the form of a coil which is caused to vibrate.
+- content: |-
+    Moving coil (in an electrodynamic emitter)
+
+    The electrical conductor in the form of a coil which is caused to vibrate.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electrodynamic_emitter_-_Moving_coil

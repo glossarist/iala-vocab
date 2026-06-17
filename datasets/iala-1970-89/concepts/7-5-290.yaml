@@ -22,11 +22,13 @@ terms:
   designation: Hinged
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Pinned, Articulated'
-- content: The description of a structural member which has been secured in such a
-    way as to permit some rotational movement, sufficient to eliminate all bending
-    moment in the member at the joint.
+- content: |-
+    Alternative terms: Pinned, Articulated
+
+    The description of a structural member which has been secured in such a way as to permit some rotational movement, sufficient to eliminate all bending moment in the member at the joint.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hinged

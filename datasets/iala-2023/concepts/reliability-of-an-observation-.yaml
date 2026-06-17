@@ -22,11 +22,15 @@ terms:
   designation: Reliability (of an observation)
   normative_status: preferred
 definition:
-- content: A measure of the effectiveness with which gross errors may be detected.
-- content: This internal reliability is usually expressed in terms of marginally detectable
-    bias (MDB).
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    A measure of the effectiveness with which gross errors may be detected.
+
+    This internal reliability is usually expressed in terms of marginally detectable bias (MDB).
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reliability_(of_an_observation)

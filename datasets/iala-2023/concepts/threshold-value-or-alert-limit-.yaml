@@ -22,10 +22,13 @@ terms:
   designation: Threshold value (or alert limit)
   normative_status: preferred
 definition:
-- content: The maximum allowable error in the measured position – during integrity
-    monitoring – before an alarm is triggered.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    The maximum allowable error in the measured position – during integrity monitoring – before an alarm is triggered.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Threshold_value_(or_alert_limit)

@@ -22,9 +22,10 @@ terms:
   designation: Sound pressure
   normative_status: preferred
 definition:
-- content: "(Instantaneous) Sound pressure (at a point in a medium)"
-- content: The difference between the pressure existing at the instant considered
-    and the static pressure.
+- content: |-
+    (Instantaneous) Sound pressure (at a point in a medium)
+
+    The difference between the pressure existing at the instant considered and the static pressure.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C. (extract)
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_pressure

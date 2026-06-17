@@ -22,10 +22,13 @@ terms:
   designation: Nipple
   normative_status: preferred
 definition:
-- content: The part of a burner having a small orifice through which the jet of inflammable
-    gas passes.
-- content: "![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)"
+- content: |-
+    The part of a burner having a small orifice through which the jet of inflammable gas passes.
+
+    ![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Nipple

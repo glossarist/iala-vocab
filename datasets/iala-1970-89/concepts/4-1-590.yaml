@@ -22,12 +22,13 @@ terms:
   designation: Radio Lens
   normative_status: preferred
 definition:
-- content: Lens (in radio)
-- content: A structure substantially transparent to radio waves but which inserts
-    a non-uniform phase delay over the cross-section of an aperture so as to effect
-    a convergence (or divergence) of the radio wave. Such structures may employ dielectric
-    or metallic configurations.
+- content: |-
+    Lens (in radio)
+
+    A structure substantially transparent to radio waves but which inserts a non-uniform phase delay over the cross-section of an aperture so as to effect a convergence (or divergence) of the radio wave. Such structures may employ dielectric or metallic configurations.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radio_Lens

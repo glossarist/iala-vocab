@@ -22,13 +22,15 @@ terms:
   designation: Mooring
   normative_status: preferred
 definition:
-- content: System or process for securing a vessel or buoy to a sinker, to the shore
-    or to a mooring buoy.
-- content: The term "mooring" is also commonly used to denote the position at which
-    a vessel is anchored.
+- content: |-
+    System or process for securing a vessel or buoy to a sinker, to the shore or to a mooring buoy.
+
+    The term "mooring" is also commonly used to denote the position at which a vessel is anchored.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mooring

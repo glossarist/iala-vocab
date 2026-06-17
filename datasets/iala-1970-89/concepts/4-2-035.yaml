@@ -27,10 +27,13 @@ terms:
   designation: Radio beacon - Non-Directional
   normative_status: preferred
 definition:
-- content: "(Non-directional) Radio beacon"
-- content: A radio beacon station with a fixed omni-directional antenna the bearing
-    of which can only be determined by a craft equipped for direction finding.
+- content: |-
+    (Non-directional) Radio beacon
+
+    A radio beacon station with a fixed omni-directional antenna the bearing of which can only be determined by a craft equipped for direction finding.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_-_Non-Directional

@@ -27,14 +27,17 @@ terms:
   designation: Landfall Mark (or Buoy)
   normative_status: preferred
 definition:
-- content: The first mark (or buoy) seen by an observer approaching the land from
-    the open sea.
-- content: It usually serves to indicate the seaward approach to a harbour, river
-    or estuary.
-- content: "![Ch2_Fig53.jpg](/iala-vocab/images/iala/Ch2_Fig53.jpg)"
+- content: |-
+    The first mark (or buoy) seen by an observer approaching the land from the open sea.
+
+    It usually serves to indicate the seaward approach to a harbour, river or estuary.
+
+    ![Ch2_Fig53.jpg](/iala-vocab/images/iala/Ch2_Fig53.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
 - content: In the U.S.A. this is also sometimes called a Sea-Buoy.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Landfall_Mark_(or_Buoy)

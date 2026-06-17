@@ -27,10 +27,13 @@ terms:
   designation: Focal Plane (of a lens or focusing reflector)
   normative_status: preferred
 definition:
-- content: The plane normal to the optical axis of the lens or reflector and containing
-    the focus.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    The plane normal to the optical axis of the lens or reflector and containing the focus.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Focal_Plane_(of_a_lens_or_focusing_reflector)

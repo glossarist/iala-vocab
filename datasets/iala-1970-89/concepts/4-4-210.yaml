@@ -22,10 +22,13 @@ terms:
   designation: Decca Sector pointer
   normative_status: preferred
 definition:
-- content: Sector pointer (in Decca)
-- content: The open pointer on the lane identification meter, which indicates which
-    of the vernier pointers is to be read during lane identification.
+- content: |-
+    Sector pointer (in Decca)
+
+    The open pointer on the lane identification meter, which indicates which of the vernier pointers is to be read during lane identification.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Sector_pointer

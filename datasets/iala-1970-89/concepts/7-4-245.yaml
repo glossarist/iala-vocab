@@ -22,9 +22,13 @@ terms:
   designation: Plasticity index
   normative_status: preferred
 definition:
-- content: The range of moisture content in which a particular soil is plastic.
-- content: Plasticity index = liquid limit - plastic limit
+- content: |-
+    The range of moisture content in which a particular soil is plastic.
+
+    Plasticity index = liquid limit - plastic limit
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Plasticity_index

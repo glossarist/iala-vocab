@@ -22,11 +22,13 @@ terms:
   designation: Risk
   normative_status: preferred
 definition:
-- content: The possibility that harm (death, injury or illness) might occur when exposed
-    to a hazard.  The severity of the hazard, duration and frequency of exposure will
-    determine the level of risk.
-- content: 'Source: ENG7, Guideline 1092 (2017)'
+- content: |-
+    The possibility that harm (death, injury or illness) might occur when exposed to a hazard.  The severity of the hazard, duration and frequency of exposure will determine the level of risk.
+
+    Source: ENG7, Guideline 1092 (2017)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Risk

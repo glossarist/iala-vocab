@@ -22,12 +22,13 @@ terms:
   designation: Sound level A B or C
   normative_status: preferred
 definition:
-- content: "(Weighted) Sound level A, B or C (in decibels)"
-- content: Twenty times the logarithm to the base 10 of the ratio of the effective
-    value of the sound pressure, this pressure being weighted to conform to the curves
-    A, B or C of the sound level meter, to the reference pressure level (20 micronewtons
-    per square metre or 2.10-4 microbar or 2.10-4 dyne per square centimetre).
+- content: |-
+    (Weighted) Sound level A, B or C (in decibels)
+
+    Twenty times the logarithm to the base 10 of the ratio of the effective value of the sound pressure, this pressure being weighted to conform to the curves A, B or C of the sound level meter, to the reference pressure level (20 micronewtons per square metre or 2.10-4 microbar or 2.10-4 dyne per square centimetre).
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_level_A_B_or_C

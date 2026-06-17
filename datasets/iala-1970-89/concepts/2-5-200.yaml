@@ -22,9 +22,10 @@ terms:
   designation: Morse Code Light
   normative_status: preferred
 definition:
-- content: A light in which flashes of different duration are grouped in such a manner
-    as to reproduce a Morse character.
-- content: "![Ch2_Fig44.jpg](/iala-vocab/images/iala/Ch2_Fig44.jpg)"
+- content: |-
+    A light in which flashes of different duration are grouped in such a manner as to reproduce a Morse character.
+
+    ![Ch2_Fig44.jpg](/iala-vocab/images/iala/Ch2_Fig44.jpg)
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: N.L
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Morse_Code_Light

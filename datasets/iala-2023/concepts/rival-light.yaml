@@ -22,11 +22,13 @@ terms:
   designation: Rival Light
   normative_status: preferred
 definition:
-- content: Rival lights can be considered as individual point sources of light that
-    mask or obscure an AtoN light and prevent easy detection or recognition of the
-    AtoN.
-- content: 'Source: ENG7, Guideline G1073'
+- content: |-
+    Rival lights can be considered as individual point sources of light that mask or obscure an AtoN light and prevent easy detection or recognition of the AtoN.
+
+    Source: ENG7, Guideline G1073
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rival_Light

@@ -32,3 +32,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: A plank is thicker than a board.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Plank

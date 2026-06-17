@@ -22,10 +22,13 @@ terms:
   designation: Decca Comparison frequency
   normative_status: preferred
 definition:
-- content: Comparison frequency (in Decca)
-- content: The common frequency to which the incoming signals are converted in order
-    that their phase relationships may be compared.
+- content: |-
+    Comparison frequency (in Decca)
+
+    The common frequency to which the incoming signals are converted in order that their phase relationships may be compared.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Comparison_frequency

@@ -22,9 +22,10 @@ terms:
   designation: Capacity (of a cell or battery)
   normative_status: preferred
 definition:
-- content: The quantity of electricity that may be removed from a cell or battery
-    at a given rate of discharge under specified conditions of voltage and temperature.
-- content: It is usually measured in ampere-hours.
+- content: |-
+    The quantity of electricity that may be removed from a cell or battery at a given rate of discharge under specified conditions of voltage and temperature.
+
+    It is usually measured in ampere-hours.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 notes:
 - content: The term rating (of a battery) refers to the ampere-hour capacity as specified
     under given conditions of discharge.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Capacity_(of_a_cell_or_battery)

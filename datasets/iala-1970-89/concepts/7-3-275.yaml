@@ -22,9 +22,13 @@ terms:
   designation: Stirrup
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Link, Tie (of reinforcement)'
-- content: Small diameter transverse reinforcement within a concrete beam or column.
+- content: |-
+    Alternative terms: Link, Tie (of reinforcement)
+
+    Small diameter transverse reinforcement within a concrete beam or column.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stirrup

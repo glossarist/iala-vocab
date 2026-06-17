@@ -22,12 +22,15 @@ terms:
   designation: True position
   normative_status: preferred
 definition:
-- content: "(2D). The error-free latitude and longitude co-ordinates in a specified
-    geodetic datum."
-- content: "(3D). The error-free latitude, longitude and height co-ordinates in a
-    specified geodetic datum."
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    (2D). The error-free latitude and longitude co-ordinates in a specified geodetic datum.
+
+    (3D). The error-free latitude, longitude and height co-ordinates in a specified geodetic datum.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/True_position

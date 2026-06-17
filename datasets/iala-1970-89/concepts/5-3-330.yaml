@@ -22,11 +22,13 @@ terms:
   designation: Algorithm
   normative_status: preferred
 definition:
-- content: A prescribed set of well defined rules or processes for the solution of
-    a problem in a finite number of successive steps.
-- content: For example, a full statement of an arithmetic procedure for evaluating
-    sine(x) to a stated precision.
+- content: |-
+    A prescribed set of well defined rules or processes for the solution of a problem in a finite number of successive steps.
+
+    For example, a full statement of an arithmetic procedure for evaluating sine(x) to a stated precision.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Algorithm

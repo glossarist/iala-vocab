@@ -22,11 +22,13 @@ terms:
   designation: Sound emitter - Diaphragm
   normative_status: preferred
 definition:
-- content: Diaphragm (in an electrodynamic or electromagnetic sound emitter)
-- content: That part of the emitter which forms the principal sound radiating or receiving
-    element; it usually consists of a rigid or semirigid membrane specially adapted
-    to respond to or to generate sound.
+- content: |-
+    Diaphragm (in an electrodynamic or electromagnetic sound emitter)
+
+    That part of the emitter which forms the principal sound radiating or receiving element; it usually consists of a rigid or semirigid membrane specially adapted to respond to or to generate sound.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Diaphragm

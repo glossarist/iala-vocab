@@ -30,3 +30,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: A jetty or quay with cargo handling facilities is called a wharf.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Quay_(2)

@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Diaphragm
   normative_status: preferred
+- type: expression
+  designation: Diaphragm (in a compressed-air diaphragm horn)
+  normative_status: admitted
 definition:
-- content: Diaphragm (in a compressed-air diaphragm horn)
 - content: A flexible disc supported at its periphery which constitutes the moving
     part of the valve which admits compressed air to the throat of the horn.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diaphragm

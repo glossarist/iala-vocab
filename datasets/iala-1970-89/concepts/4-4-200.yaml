@@ -22,10 +22,13 @@ terms:
   designation: Decca Lane pointer
   normative_status: preferred
 definition:
-- content: Lane pointer (in Decca)
-- content: The larger pointer on a Decometer, giving a reading of the lane number
-    on the outer scale of the meter.
+- content: |-
+    Lane pointer (in Decca)
+
+    The larger pointer on a Decometer, giving a reading of the lane number on the outer scale of the meter.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Lane_pointer

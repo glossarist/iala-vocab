@@ -30,10 +30,15 @@ terms:
   designation: "(Lantern) Panes (U.S.A.)"
   normative_status: admitted
 definition:
-- content: "(Lantern) Glazing (G.B.)"
-- content: A general term for the glass parts of a lantern.
-- content: "![Ch2_Fig33.jpg](/iala-vocab/images/iala/Ch2_Fig33.jpg)"
+- content: |-
+    (Lantern) Glazing (G.B.)
+
+    A general term for the glass parts of a lantern.
+
+    ![Ch2_Fig33.jpg](/iala-vocab/images/iala/Ch2_Fig33.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lantern_Glazing_(G.B.)_(2)

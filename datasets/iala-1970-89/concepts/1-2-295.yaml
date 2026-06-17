@@ -22,9 +22,10 @@ terms:
   designation: Wet Dock
   normative_status: preferred
 definition:
-- content: "(Wet) Dock"
-- content: Harbour or basin which is closed against the tidal range and which provides
-    cargo-handling facilities for ships.
+- content: |-
+    (Wet) Dock
+
+    Harbour or basin which is closed against the tidal range and which provides cargo-handling facilities for ships.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 notes:
 - content: In the U.S.A. the space between two piers which is not closed against the
     tidal range is also called a dock.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wet_Dock

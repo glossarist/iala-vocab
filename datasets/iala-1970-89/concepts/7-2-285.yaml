@@ -22,10 +22,13 @@ terms:
   designation: Extruded section
   normative_status: preferred
 definition:
-- content: Rods, tubes or sections of intricate shape formed by forcing metal or plastic
-    through a die shaped to the required section.
-- content: The process may be undertaken hot or cold depending on the material.
+- content: |-
+    Rods, tubes or sections of intricate shape formed by forcing metal or plastic through a die shaped to the required section.
+
+    The process may be undertaken hot or cold depending on the material.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Extruded_section

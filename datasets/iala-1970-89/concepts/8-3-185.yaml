@@ -25,11 +25,15 @@ terms:
   designation: Cradle
   normative_status: admitted
 definition:
-- content: A shaped block used to steady and secure an object.
-- content: 'Note :'
-- content: In Great-Britain, the term buoy chock refers to a chock shaped to fit a
-    buoy body.
+- content: |-
+    A shaped block used to steady and secure an object.
+
+    Note :
+
+    In Great-Britain, the term buoy chock refers to a chock shaped to fit a buoy body.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chock

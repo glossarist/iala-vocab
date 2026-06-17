@@ -22,10 +22,13 @@ terms:
   designation: Sound emitter - Operating valve
   normative_status: preferred
 definition:
-- content: Operating valve (of a compressed-air sound emitter)
-- content: The valve controlling the admission of compressed air to the device which
-    modulates the sounding air.
+- content: |-
+    Operating valve (of a compressed-air sound emitter)
+
+    The valve controlling the admission of compressed air to the device which modulates the sounding air.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Operating_valve

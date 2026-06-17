@@ -35,3 +35,5 @@ notes:
     pulse repetition rate.
 - content: In French the definition of the term "facteur de duree" is more restrictive
     than the definition of pulse duty factor.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_duty_factor

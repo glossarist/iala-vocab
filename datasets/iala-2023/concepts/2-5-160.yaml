@@ -27,9 +27,10 @@ terms:
   designation: Composite Group-Flashing Light
   normative_status: preferred
 definition:
-- content: Group-flashing light in which the flashes are combined in successive groups
-    of different num-bers of flashes. (Fig. 40d)
-- content: "![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)"
+- content: |-
+    Group-flashing light in which the flashes are combined in successive groups of different num-bers of flashes. (Fig. 40d)
+
+    ![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)
 sources:
 - type: authoritative
   origin:
@@ -38,3 +39,5 @@ sources:
   origin:
     ref: N.L
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Composite_Group-Flashing_Light

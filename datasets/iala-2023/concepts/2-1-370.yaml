@@ -27,10 +27,10 @@ terms:
   designation: Point Vision
   normative_status: preferred
 definition:
-- content: Point Vision (of a light source);
-- content: A special mode of vision which takes place when the threshold of illuminance
-    {{2-1-390, Threshold of Illuminance}} at the eye of an observer is independent
-    of the angular subtense of the light source.
+- content: |-
+    Point Vision (of a light source);
+
+    A special mode of vision which takes place when the threshold of illuminance {{2-1-390, Threshold of Illuminance}} at the eye of an observer is independent of the angular subtense of the light source.
 sources:
 - type: authoritative
   origin:
@@ -41,3 +41,5 @@ notes:
     not more than about one minute of arc. For higher values of background luminance,
     point vision can also take place if the angular diameter of the light source is
     accordingly smaller.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Point_Vision

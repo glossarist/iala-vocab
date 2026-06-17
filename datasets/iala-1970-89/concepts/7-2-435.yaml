@@ -22,10 +22,13 @@ terms:
   designation: Damp-proof course
   normative_status: preferred
 definition:
-- content: 'Acronym: dpc'
-- content: The course in a wall into which a horizontal impervious material is inserted
-    to prevent damp rising above ground level.
+- content: |-
+    Acronym: dpc
+
+    The course in a wall into which a horizontal impervious material is inserted to prevent damp rising above ground level.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Damp-proof_course

@@ -25,12 +25,13 @@ terms:
   designation: Transponder beacon
   normative_status: admitted
 definition:
-- content: A component of a secondary radar system which receives pulses from a radar
-    set or interrogator, and, in response to the received pulse, transmits a pulse
-    or sequence of pulses to enable the craft or beacon incorporating the transponder
-    to be identified by the interrogating station.
-- content: Step Sweet zacon Bacure eada a Ralaysafe fas a fas
+- content: |-
+    A component of a secondary radar system which receives pulses from a radar set or interrogator, and, in response to the received pulse, transmits a pulse or sequence of pulses to enable the craft or beacon incorporating the transponder to be identified by the interrogating station.
+
+    Step Sweet zacon Bacure eada a Ralaysafe fas a fas
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transponder

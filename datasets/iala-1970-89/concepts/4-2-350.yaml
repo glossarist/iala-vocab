@@ -22,9 +22,10 @@ terms:
   designation: Source error
   normative_status: preferred
 definition:
-- content: Transmitter site error
-- content: An error, other than polarization error, due solely to the transmitting
-    system and its immediate surroundings.
+- content: |-
+    Transmitter site error
+
+    An error, other than polarization error, due solely to the transmitting system and its immediate surroundings.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Source_error

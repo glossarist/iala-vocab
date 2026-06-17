@@ -22,10 +22,13 @@ terms:
   designation: Electric installation
   normative_status: preferred
 definition:
-- content: 1 - An assemblage of electric apparatus and all the associated electric
-    equipment and connections, at a given location for co-ordinated purposes.
-- content: 2 - The process of making such an assemblage.
+- content: |-
+    1 - An assemblage of electric apparatus and all the associated electric equipment and connections, at a given location for co-ordinated purposes.
+
+    2 - The process of making such an assemblage.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electric_installation

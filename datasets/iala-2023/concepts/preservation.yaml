@@ -22,10 +22,10 @@ terms:
   designation: Preservation
   normative_status: preferred
 definition:
-- content: State of survival of a building or artefact, whether by historical accident
-    or through a combination of protection and active conservation.
-- content: "(This definition was noted at the IALA Seminar on the Practical Aspects
-    of Lighthouse Preservation in Gothenburg 2005)"
+- content: |-
+    State of survival of a building or artefact, whether by historical accident or through a combination of protection and active conservation.
+
+    (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
 sources:
 - type: authoritative
   origin:
@@ -33,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: Stirlingcharter
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Preservation

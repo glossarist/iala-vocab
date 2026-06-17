@@ -22,12 +22,13 @@ terms:
   designation: PZ-90 geodetic system
   normative_status: preferred
 definition:
-- content: A consistent set of parameters used in GLONASS describing the size and
-    shape of the Earth, positions of a network of points with respect to the centre
-    of mass of the Earth, transformations from major geodetic datums and the potential
-    of the Earth, developed in 1990.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    A consistent set of parameters used in GLONASS describing the size and shape of the Earth, positions of a network of points with respect to the centre of mass of the Earth, transformations from major geodetic datums and the potential of the Earth, developed in 1990.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/PZ-90_geodetic_system

@@ -22,14 +22,15 @@ terms:
   designation: Shackle
   normative_status: preferred
 definition:
-- content: A connecting device for lengths of chain, usually of D or bow shape, having
-    a removable pin through eyes at the open end.
-- content: The pin, called a shackle pin, may be screwed, clenched or secured by a
-    forelock or split key. The terms screw shackle and clenched shackle apply to the
-    corresponding cases.
+- content: |-
+    A connecting device for lengths of chain, usually of D or bow shape, having a removable pin through eyes at the open end.
+
+    The pin, called a shackle pin, may be screwed, clenched or secured by a forelock or split key. The terms screw shackle and clenched shackle apply to the corresponding cases.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shackle

@@ -22,13 +22,14 @@ terms:
   designation: Cylindrical Filament
   normative_status: preferred
 definition:
-- content: A filament (usually of multi-vee formation) in the form of a hollow circular
-    cylinder generated around the axis of the lamp.
-- content: "![Ch2_Fig29.jpg](/iala-vocab/images/iala/Ch2_Fig29.jpg)"
-- content: The English term "Cylindrical filament" is usually limited to the case
-    of a closed cylinder.
-- content: Otherwise, the English term used is "Bunch filament" {{2-3-220, Bunch Filament
-    (G.B.)}}.
+- content: |-
+    A filament (usually of multi-vee formation) in the form of a hollow circular cylinder generated around the axis of the lamp.
+
+    ![Ch2_Fig29.jpg](/iala-vocab/images/iala/Ch2_Fig29.jpg)
+
+    The English term "Cylindrical filament" is usually limited to the case of a closed cylinder.
+
+    Otherwise, the English term used is "Bunch filament" {{2-3-220, Bunch Filament (G.B.)}}.
 sources:
 - type: authoritative
   origin:
@@ -36,3 +37,5 @@ sources:
 notes:
 - content: The filament may be fully closed in plan, or may embrace an arc of less
     than 360 degrees.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cylindrical_Filament

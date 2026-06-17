@@ -22,11 +22,15 @@ terms:
   designation: Shock absorber
   normative_status: preferred
 definition:
-- content: Device fitted to the main derrick lifting block to absorb shock loads.
-- content: 'Note :'
-- content: In Germany, the device fitted to the main derrick lifting block incorporates
-    the lifting hook and is called Federhaken.
+- content: |-
+    Device fitted to the main derrick lifting block to absorb shock loads.
+
+    Note :
+
+    In Germany, the device fitted to the main derrick lifting block incorporates the lifting hook and is called Federhaken.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shock_absorber

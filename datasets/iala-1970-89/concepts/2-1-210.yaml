@@ -21,13 +21,17 @@ terms:
 - type: expression
   designation: Internal Absorptance
   normative_status: preferred
+- type: expression
+  designation: Internal Absorptance (of a homogeneous non-diffusing plate)
+  normative_status: admitted
 - type: symbol
-  designation: ai ai + Ti = 1
+  designation: stem:[ai]
   normative_status: preferred
 definition:
-- content: Internal Absorptance (of a homogeneous non-diffusing plate)
-- content: The ratio of the luminous flux absorbed between the entry and exit surfaces
-    of the plate, to the flux which leaves the entry surface.
+- content: |-
+    The ratio of the luminous flux absorbed between the entry and exit surfaces of the plate, to the flux which leaves the entry surface.
+
+    ai + Ti = 1
 sources:
 - type: authoritative
   origin:
@@ -36,3 +40,5 @@ sources:
   origin:
     ref: C.I.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Internal_Absorptance

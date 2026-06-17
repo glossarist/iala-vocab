@@ -22,12 +22,15 @@ terms:
   designation: Toran Confocal emitters
   normative_status: preferred
 definition:
-- content: 4-4.345
-- content: Confocal emitters (in Toran)
-- content: Fixed stations generating a hyperbolic pattern. The stations are in no
-    way related or synchronized and transmit unmodulated carriers, the frequencies
-    of which differ by a small amount.
+- content: |-
+    4-4.345
+
+    Confocal emitters (in Toran)
+
+    Fixed stations generating a hyperbolic pattern. The stations are in no way related or synchronized and transmit unmodulated carriers, the frequencies of which differ by a small amount.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Toran_Confocal_emitters

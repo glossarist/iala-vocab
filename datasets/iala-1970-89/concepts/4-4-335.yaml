@@ -27,13 +27,15 @@ terms:
   designation: Consol
   normative_status: preferred
 definition:
-- content: A continuous wave, medium frequency (300 kHz region) long range directional
-    radio beacon producing a number of radial equi-signal zones which shift in azimuth
-    at a fixed rate and are separated by zones of dot and dash signals.
-- content: The bearing of a mobile station with respect to the beacon is determined
-    by a count of the dot and dash signals within each respective zone.
-- content: The ambiguity can be resolved by the use of a D.F. receiver.
+- content: |-
+    A continuous wave, medium frequency (300 kHz region) long range directional radio beacon producing a number of radial equi-signal zones which shift in azimuth at a fixed rate and are separated by zones of dot and dash signals.
+
+    The bearing of a mobile station with respect to the beacon is determined by a count of the dot and dash signals within each respective zone.
+
+    The ambiguity can be resolved by the use of a D.F. receiver.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Consol

@@ -37,3 +37,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.C.I.R
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reduced_carrier

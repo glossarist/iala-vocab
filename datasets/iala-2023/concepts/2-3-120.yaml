@@ -27,9 +27,10 @@ terms:
   designation: Bayonet Cap
   normative_status: preferred
 definition:
-- content: A cap (type B) with small pins on its shell which engage.in slots in a
-    lampholder.
-- content: "![Ch2_Fig24.jpg](/iala-vocab/images/iala/Ch2_Fig24.jpg)"
+- content: |-
+    A cap (type B) with small pins on its shell which engage.in slots in a lampholder.
+
+    ![Ch2_Fig24.jpg](/iala-vocab/images/iala/Ch2_Fig24.jpg)
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bayonet_Cap

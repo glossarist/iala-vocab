@@ -26,11 +26,13 @@ terms:
 - type: expression
   designation: Dominant Wavelength
   normative_status: preferred
+- type: expression
+  designation: Dominant Wavelength (of a colour stimulus, not purple)
+  normative_status: admitted
 - type: symbol
-  designation: "?d"
+  designation: stem:[?d]
   normative_status: preferred
 definition:
-- content: Dominant Wavelength (of a colour stimulus, not purple)
 - content: The wavelength of the monochromatic light stimulus that, when combined
     in suitable proportions with the specified achromatic light stimulus, yields a
     match with the colour stimulus considered.
@@ -47,3 +49,5 @@ notes:
 - content: 'For the definitions of Achromatic and Specified Achromatic Light Stimulus,
     see Reference: C.I.E. In particular, for surface colours, the light source serving
     as illuminant is taken as achromatic.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Dominant_Wavelength

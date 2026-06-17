@@ -27,12 +27,15 @@ terms:
   designation: Mantle
   normative_status: preferred
 definition:
-- content: "(Incandescent) Mantle"
-- content: A loosely woven fabric, of natural or synthetic fibre, impregnated with
-    a solution of Thorium and Cerium nitrates, which is raised to incandescence by
-    a flame and used as a luminous source.
-- content: "![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)"
+- content: |-
+    (Incandescent) Mantle
+
+    A loosely woven fabric, of natural or synthetic fibre, impregnated with a solution of Thorium and Cerium nitrates, which is raised to incandescence by a flame and used as a luminous source.
+
+    ![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mantle

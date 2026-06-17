@@ -30,9 +30,13 @@ terms:
   designation: Wreck-Marking Buoy
   normative_status: admitted
 definition:
-- content: A mark (or buoy) marking the position of a wreck.
-- content: "![Ch2_Fig54.jpg](/iala-vocab/images/iala/Ch2_Fig54.jpg)"
+- content: |-
+    A mark (or buoy) marking the position of a wreck.
+
+    ![Ch2_Fig54.jpg](/iala-vocab/images/iala/Ch2_Fig54.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wreck_Mark_(or_Buoy)

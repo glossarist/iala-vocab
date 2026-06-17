@@ -34,3 +34,5 @@ notes:
     the year and the time of the day, also on the intensity of solar emission and
     the transmission properties of the atmosphere, the value of air-mass and the inclination
     of the surface of the receptor.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Solar_irradiance

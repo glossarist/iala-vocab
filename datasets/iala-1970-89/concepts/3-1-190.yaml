@@ -37,3 +37,5 @@ sources:
     ref: C.E.F
 notes:
 - content: The unit of loudness level is the Phon.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loudness_level

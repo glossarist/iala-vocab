@@ -22,10 +22,13 @@ terms:
   designation: Loran Base line extension monitor
   normative_status: preferred
 definition:
-- content: Base line extension monitor (in Loran)
-- content: A Loran C monitor station installed on the base line extension usually
-    on a temporary basis, to assist in the setting up of a Loran C system.
+- content: |-
+    Base line extension monitor (in Loran)
+
+    A Loran C monitor station installed on the base line extension usually on a temporary basis, to assist in the setting up of a Loran C system.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Base_line_extension_monitor

@@ -22,9 +22,10 @@ terms:
   designation: Dowel
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Trenail, Treenail'
-- content: A cylindrical metal or wood rod or pin used for connections in stonework
-    or timber.
+- content: |-
+    Alternative terms: Trenail, Treenail
+
+    A cylindrical metal or wood rod or pin used for connections in stonework or timber.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +34,5 @@ notes:
 - content: '" Trenail " and the French term cheville apply specifically to a hardwood
     pin.'
 - content: The French term goujon is used only when the pin is of metal.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Dowel

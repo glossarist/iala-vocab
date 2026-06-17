@@ -27,9 +27,10 @@ terms:
   designation: Diffuse Reflection
   normative_status: preferred
 definition:
-- content: Diffusion by reflection in which, on the macroscopic scale, there is no
-    specular reflection.
-- content: "![Ch2_Fig7.jpg](/iala-vocab/images/iala/Ch2_Fig7.jpg)"
+- content: |-
+    Diffusion by reflection in which, on the macroscopic scale, there is no specular reflection.
+
+    ![Ch2_Fig7.jpg](/iala-vocab/images/iala/Ch2_Fig7.jpg)
 sources:
 - type: authoritative
   origin:
@@ -38,3 +39,5 @@ sources:
   origin:
     ref: C.I.E.  (Fig. 7b)
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diffuse_Reflection

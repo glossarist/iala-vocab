@@ -21,12 +21,17 @@ terms:
 - type: expression
   designation: Optimum load impedance
   normative_status: preferred
+- type: expression
+  designation: Optimum load impedance (of a radio transmitter)
+  normative_status: admitted
 definition:
-- content: 4 -1-675
-- content: Optimum load impedance (of a radio transmitter)
-- content: The impedance presented by the load at which optimum performance is obtained
-    under specified operating conditions.
+- content: |-
+    4 -1-675
+
+    The impedance presented by the load at which optimum performance is obtained under specified operating conditions.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optimum_load_impedance

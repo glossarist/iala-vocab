@@ -22,9 +22,10 @@ terms:
   designation: Radiation pattern
   normative_status: preferred
 definition:
-- content: 'Alternative terms: (Antenna) Power gain, (Antenna) Radiation pattern'
-- content: A curve representing, in polar or cartesian co-ordinates, a quantity proportional
-    to the gain of an antenna in the various directions in a particular plane or cone.
+- content: |-
+    Alternative terms: (Antenna) Power gain, (Antenna) Radiation pattern
+
+    A curve representing, in polar or cartesian co-ordinates, a quantity proportional to the gain of an antenna in the various directions in a particular plane or cone.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radiation_pattern

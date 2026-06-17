@@ -25,12 +25,15 @@ terms:
   designation: "(Cargo) boom"
   normative_status: admitted
 definition:
-- content: A spar projecting from a mast, gantry, tripod or other supporting structure,
-    and fitted with topping lift, slewing guys and lifting tackle.
-- content: 'Note :'
-- content: In Germany, the term Schwergutbaum is used for derricks of more than 10
-    tons load.
+- content: |-
+    A spar projecting from a mast, gantry, tripod or other supporting structure, and fitted with topping lift, slewing guys and lifting tackle.
+
+    Note :
+
+    In Germany, the term Schwergutbaum is used for derricks of more than 10 tons load.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Derrick

@@ -22,10 +22,13 @@ terms:
   designation: Deviation
   normative_status: preferred
 definition:
-- content: 5-2-180 Deviation
-- content: Any departure from a desired or expected value such as the set point or
-    the steady-state value, etc.
+- content: |-
+    5-2-180 Deviation
+
+    Any departure from a desired or expected value such as the set point or the steady-state value, etc.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Deviation

@@ -22,10 +22,10 @@ terms:
   designation: Aggregate
   normative_status: preferred
 definition:
-- content: Inert granular material, either processed from rock, occurring naturally,
-    such as gravel or sand, or manufactured, such as furnace slag.
-- content: Aggregate is mixed with cement and water in suitable proportions to make
-    concrete.
+- content: |-
+    Inert granular material, either processed from rock, occurring naturally, such as gravel or sand, or manufactured, such as furnace slag.
+
+    Aggregate is mixed with cement and water in suitable proportions to make concrete.
 sources:
 - type: authoritative
   origin:
@@ -39,3 +39,5 @@ notes:
     and sable de concassage, and similarly in German between ungebrochenes Korn and
     gebrochenes Korn, between Grobkies and Schotter, between Kies and Splitt (all
     coarse aggregates), and between Sand and Brechsand (fine aggregates).
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Aggregate

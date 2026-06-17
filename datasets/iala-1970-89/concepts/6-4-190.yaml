@@ -22,9 +22,13 @@ terms:
   designation: Alternator
   normative_status: preferred
 definition:
-- content: 'Alternative ter: Alternating-current generator, a.c. generator'
-- content: A generator for the production of alternating current and voltage.
+- content: |-
+    Alternative ter: Alternating-current generator, a.c. generator
+
+    A generator for the production of alternating current and voltage.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Alternator

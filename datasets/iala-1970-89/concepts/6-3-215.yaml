@@ -28,3 +28,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Start-up_wind_speed_(of_a_wind-power_generator)

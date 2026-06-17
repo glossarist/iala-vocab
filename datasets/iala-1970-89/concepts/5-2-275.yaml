@@ -22,11 +22,12 @@ terms:
   designation: Settling time
   normative_status: preferred
 definition:
-- content: The time interval between the beginning of a sustained disturbance and
-    the instant when the resulting change in the output signal (after sufficient damping)
-    reaches and remains within a specified fraction of its final steady-state value.
-- content: "![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)"
-- content: Figure 3 - Typical time response of a system to a step increase of input.
+- content: |-
+    The time interval between the beginning of a sustained disturbance and the instant when the resulting change in the output signal (after sufficient damping) reaches and remains within a specified fraction of its final steady-state value.
+
+    ![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)
+
+    Figure 3 - Typical time response of a system to a step increase of input.
 sources:
 - type: authoritative
   origin:
@@ -34,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Settling_time

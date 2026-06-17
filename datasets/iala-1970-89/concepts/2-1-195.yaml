@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Transmissivity
   normative_status: preferred
+- type: expression
+  designation: Transmissivity (of an absorbing material)
+  normative_status: admitted
 definition:
-- content: Transmissivity (of an absorbing material)
 - content: The internal transmittance of a layer of the material such that the path
     of the radiation is of
 sources:
@@ -32,6 +34,7 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
-examples:
-- content: length, and under conditions in which the boundary of the material has
-    no influence.
+annotations:
+- content: Unit length, and under conditions in which the boundary of the material
+    has no influence.
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transmissivity

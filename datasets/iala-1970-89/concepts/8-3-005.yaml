@@ -22,11 +22,15 @@ terms:
   designation: Rigging
   normative_status: preferred
 definition:
-- content: General term covering masts, yards, booms and gaffs and all ropes, chains
-    and gear used for operating these.
-- content: 'Note :'
-- content: 'There are two types of rigging : standing rigging and running rigging.'
+- content: |-
+    General term covering masts, yards, booms and gaffs and all ropes, chains and gear used for operating these.
+
+    Note :
+
+    There are two types of rigging : standing rigging and running rigging.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rigging

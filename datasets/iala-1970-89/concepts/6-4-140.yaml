@@ -31,3 +31,5 @@ sources:
 notes:
 - content: The different categories for protection of machines are specified in IEC
     34-5. For further details of these, See Section 8.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Protected_machine

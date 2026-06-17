@@ -36,3 +36,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: The coincidence factor is the reciprocal of the diversity factor.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Coincidence_factor

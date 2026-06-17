@@ -41,3 +41,5 @@ sources:
 notes:
 - content: Companding is often used for noise reduction in which case the compression
     is the part applied before the noise.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Companding

@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Ambiguity
   normative_status: preferred
+- type: expression
+  designation: Ambiguity (in radionavigation)
+  normative_status: admitted
 definition:
-- content: Ambiguity (in radionavigation)
 - content: The condition obtained when one set of coordinates derived from a navigation
     system defines more than one point, direction, line of position or surface of
     position.
@@ -39,3 +41,5 @@ sources:
   origin:
     ref: I.R.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ambiguity

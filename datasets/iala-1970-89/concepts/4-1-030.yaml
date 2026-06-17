@@ -27,9 +27,12 @@ terms:
   designation: Assigned frequency
   normative_status: preferred
 definition:
-- content: Channel frequency (deprecated)
-- content: Centre frequency (deprecated)
-- content: The centre of the frequency band assigned to a station.
+- content: |-
+    Channel frequency (deprecated)
+
+    Centre frequency (deprecated)
+
+    The centre of the frequency band assigned to a station.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +40,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Assigned_frequency

@@ -22,10 +22,13 @@ terms:
   designation: Liquid petroleum gas
   normative_status: preferred
 definition:
-- content: 'Acronym: LPG'
-- content: A fuel such as propane or butane, that can be liquefied at relatively low
-    pressure at ordinary temperatures.
+- content: |-
+    Acronym: LPG
+
+    A fuel such as propane or butane, that can be liquefied at relatively low pressure at ordinary temperatures.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Liquid_petroleum_gas

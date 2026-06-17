@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Band sound power level
   normative_status: preferred
+- type: expression
+  designation: Band sound power level (of a source, in decibels)
+  normative_status: admitted
 definition:
-- content: Band sound power level (of a source, in decibels)
 - content: Ten times the logarithm to the base 10 of the ratio of the mean value of
     the sound power produced by the source in the frequency band under consideration
     to the reference power (1 picowatt or 10-12 watt).
@@ -35,3 +37,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Band_sound_power_level

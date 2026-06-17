@@ -27,21 +27,17 @@ terms:
   designation: Blondel-Rey Law
   normative_status: preferred
 definition:
-- content: An empirical law relating the effective intensity (Ie) of a rhythmic light
-    having a quasi-rectangular intensity-time distribution, to the intensity (Io)
-    which the same light would appear to exhibit if fixed, and to the duration (t)
-    of the light flash. The relation was established by subjective observation of
-    lights observed at the threshold of illuminance, in the form
-- content: "(Equation)"
-- content: where 'a' has an empirically determined value.
-- content: The law has also in practice been applied in conditions differing widely
-    from those applicable to the determinations of Blondel and Rey. The value for
-    'a' then depends upon the colour and shape of the light impulse, the angle subtended
-    by the light at the observer and the luminance of the background against which
-    the light must be seen. Thus the values of 'a' may vary within a wide range. For
-    various countries, values of 'a' ranging between 0.1 and 0.3 second have been
-    used.
+- content: |-
+    An empirical law relating the effective intensity (Ie) of a rhythmic light having a quasi-rectangular intensity-time distribution, to the intensity (Io) which the same light would appear to exhibit if fixed, and to the duration (t) of the light flash. The relation was established by subjective observation of lights observed at the threshold of illuminance, in the form
+
+    (Equation)
+
+    where 'a' has an empirically determined value.
+
+    The law has also in practice been applied in conditions differing widely from those applicable to the determinations of Blondel and Rey. The value for 'a' then depends upon the colour and shape of the light impulse, the angle subtended by the light at the observer and the luminance of the background against which the light must be seen. Thus the values of 'a' may vary within a wide range. For various countries, values of 'a' ranging between 0.1 and 0.3 second have been used.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blondel-Rey_Law

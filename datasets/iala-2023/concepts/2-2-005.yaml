@@ -27,12 +27,10 @@ terms:
   designation: Projector
   normative_status: preferred
 definition:
-- content: An optical apparatus consisting of a light source and optically refracting
-    or reflecting elements (or both) designed to concentrate light into one or more
-    pencil beams or fan beams (or both), so that, within a limited solid angle, higher
-    values of luminous intensity are produced than by the light source alone.
-- content: A projector may be intended to be viewed directly, to illuminate an object
-    to be viewed, or to project an image.
+- content: |-
+    An optical apparatus consisting of a light source and optically refracting or reflecting elements (or both) designed to concentrate light into one or more pencil beams or fan beams (or both), so that, within a limited solid angle, higher values of luminous intensity are produced than by the light source alone.
+
+    A projector may be intended to be viewed directly, to illuminate an object to be viewed, or to project an image.
 sources:
 - type: authoritative
   origin:
@@ -42,3 +40,5 @@ notes:
     mentioned. A projector to be viewed directly is called Signal-Scheinwerfer; a
     projector to illuminate an object is called Beleuchtungs-Scheinwerfer; a projector
     to project an image is called Bildwerfer or Projektor.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Projector

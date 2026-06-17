@@ -22,8 +22,10 @@ terms:
   designation: Digital-analogue convertor
   normative_status: preferred
 definition:
-- content: D-to-A convertor
-- content: A device used for converting a digital signal into an analogue signal.
+- content: |-
+    D-to-A convertor
+
+    A device used for converting a digital signal into an analogue signal.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +34,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Digital-analogue_convertor

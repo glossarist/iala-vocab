@@ -22,10 +22,13 @@ terms:
   designation: Sound emitter - Electromagnetic
   normative_status: preferred
 definition:
-- content: Electromagnetic (sound) emitter
-- content: A (sound) emitter which depends for its operation on variations of the
-    reluctance of a magnetic circuit.
+- content: |-
+    Electromagnetic (sound) emitter
+
+    A (sound) emitter which depends for its operation on variations of the reluctance of a magnetic circuit.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Electromagnetic

@@ -22,10 +22,13 @@ terms:
   designation: Vaporiser
   normative_status: preferred
 definition:
-- content: Part of the mechanism of a paraffin-vapour lamp in which the paraffin is
-    vaporised and ejected into the burner.
-- content: "![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)"
+- content: |-
+    Part of the mechanism of a paraffin-vapour lamp in which the paraffin is vaporised and ejected into the burner.
+
+    ![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vaporiser

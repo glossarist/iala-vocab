@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Field coils
   normative_status: preferred
+- type: expression
+  designation: Field coils (in an inductive radiogoniometer)
+  normative_status: admitted
 definition:
-- content: Field coils (in an inductive radiogoniometer)
 - content: The fixed coils (usually at right angles) which are connected to the antenna
     system.
 sources:
@@ -32,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Field_coils

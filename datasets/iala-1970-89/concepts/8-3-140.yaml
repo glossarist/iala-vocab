@@ -22,12 +22,15 @@ terms:
   designation: Bow roller
   normative_status: preferred
 definition:
-- content: A large roller incorporated into the stem head to facilitate the handling
-    of chain or lines over the bow.
-- content: 'Note :'
-- content: A ramp may be used instead of a roller, in which case the term bow ramp
-    is used.
+- content: |-
+    A large roller incorporated into the stem head to facilitate the handling of chain or lines over the bow.
+
+    Note :
+
+    A ramp may be used instead of a roller, in which case the term bow ramp is used.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bow_roller

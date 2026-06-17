@@ -22,11 +22,10 @@ terms:
   designation: Effective radius of the earth
   normative_status: preferred
 definition:
-- content: 4-1 -940
-- content: The radius of a hypothetical earth for which the distance to the radio
-    horizon, assuming rectilinear propagation, is the same as that for the actual
-    earth with an assumed uniform vertical gradient of a refractive index. (For the
-    standard atmosphere, the effective radius is 4/3 that of the actual earth.)
+- content: |-
+    4-1 -940
+
+    The radius of a hypothetical earth for which the distance to the radio horizon, assuming rectilinear propagation, is the same as that for the actual earth with an assumed uniform vertical gradient of a refractive index. (For the standard atmosphere, the effective radius is 4/3 that of the actual earth.)
 sources:
 - type: authoritative
   origin:
@@ -34,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.C.I.R
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Effective_radius_of_the_earth

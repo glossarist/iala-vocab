@@ -22,9 +22,10 @@ terms:
   designation: Rollers
   normative_status: preferred
 definition:
-- content: Small rotating bodies in the form of balls, wheels, cylinders or truncated
-    cones, used to assist movement by reducing friction.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    Small rotating bodies in the form of balls, wheels, cylinders or truncated cones, used to assist movement by reducing friction.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
@@ -35,3 +36,5 @@ notes:
 - content: In Germany, no general term equivalent to "rollers" exists, but particular
     terms are used when the rollers are in the form of balls (Kugellager), wheels
     (Walzenlager), cylinders (Zylinderlager) or truncated cones (Kegellager).
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rollers

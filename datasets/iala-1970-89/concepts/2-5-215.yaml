@@ -27,9 +27,10 @@ terms:
   designation: Sector Light
   normative_status: preferred
 definition:
-- content: A light presenting different characters (usually different colours) over
-    various parts of the horizon of interest to marine navigation. (Fig.45)
-- content: "![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)"
+- content: |-
+    A light presenting different characters (usually different colours) over various parts of the horizon of interest to marine navigation. (Fig.45)
+
+    ![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ sources:
 - type: authoritative
   origin:
     ref: N.L
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sector_Light

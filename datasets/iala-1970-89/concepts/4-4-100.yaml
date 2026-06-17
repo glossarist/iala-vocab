@@ -27,14 +27,15 @@ terms:
   designation: Loran C Phase coding
   normative_status: preferred
 definition:
-- content: Phase coding (in Loran C)
-- content: The shifting in a fixed sequence of the relative phase of the carrier cycles
-    between certain pulses of a group this facilitates automatic synchronisation in
-    identical sequence within the group of eight pulses that are transmitted at each
-    repetition interval.
-- content: It also minimises the effect of unusually long skywave transmissions causing
-    one pulse to interfere with the succeeding pulse in the group received by groundwave.
+- content: |-
+    Phase coding (in Loran C)
+
+    The shifting in a fixed sequence of the relative phase of the carrier cycles between certain pulses of a group this facilitates automatic synchronisation in identical sequence within the group of eight pulses that are transmitted at each repetition interval.
+
+    It also minimises the effect of unusually long skywave transmissions causing one pulse to interfere with the succeeding pulse in the group received by groundwave.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_C_Phase_coding

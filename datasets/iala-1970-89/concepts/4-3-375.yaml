@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Leakage power
   normative_status: preferred
+- type: expression
+  designation: Leakage power (U.S.A.)
+  normative_status: admitted
 definition:
-- content: Leakage power (U.S.A.)
 - content: The radio frequency power transmitted through a fired TR tube.
 sources:
 - type: authoritative
@@ -32,3 +34,5 @@ sources:
   origin:
     ref: I.R.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Leakage_power

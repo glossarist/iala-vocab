@@ -30,3 +30,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: The use of the term with regard to synchronous generators is deprecated.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Parallelling

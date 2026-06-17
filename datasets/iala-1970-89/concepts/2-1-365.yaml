@@ -37,3 +37,5 @@ sources:
 notes:
 - content: This attribute is the psychosensorial correlate (or nearly so) of the photometric
     quantity "luminance".
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminosity

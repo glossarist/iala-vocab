@@ -27,15 +27,18 @@ terms:
   designation: Service buoy
   normative_status: preferred
 definition:
-- content: A buoy located at a designated geographical position to serve as a navigation
-    mark.
-- content: 'Note 1:'
-- content: The term new buoy refers to a buoy placed at a newly designated geographical
-    position.
-- content: 'Note 2:'
-- content: The term clean buoy refers to a buoy in good condition that is used as
-    a replacement.
+- content: |-
+    A buoy located at a designated geographical position to serve as a navigation mark.
+
+    The term new buoy refers to a buoy placed at a newly designated geographical position.
+
+    The term clean buoy refers to a buoy in good condition that is used as a replacement.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+notes:
+- content: ":"
+- content: ":"
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Service_buoy

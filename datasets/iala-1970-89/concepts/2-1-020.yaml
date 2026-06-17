@@ -22,7 +22,7 @@ terms:
   designation: Lumen
   normative_status: preferred
 - type: symbol
-  designation: lm
+  designation: stem:[lm]
   normative_status: preferred
 definition:
 - content: The SI
@@ -33,8 +33,9 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
-examples:
-- content: of luminous flux. It is the luminous flux emitted within
-- content: solid angle (one steradian) by a point source having a uniform luminous
+annotations:
+- content: Unit of luminous flux. It is the luminous flux emitted within
+- content: Unit solid angle (one steradian) by a point source having a uniform luminous
     intensity of one candela. Definition adopted by the 9th General Conference on
     Weights and Measures (1948).
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lumen

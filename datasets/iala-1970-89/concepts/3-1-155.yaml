@@ -27,10 +27,13 @@ terms:
   designation: Efficiency of a sound source
   normative_status: preferred
 definition:
-- content: "(Power) Efficiency of a sound source"
-- content: Ratio of the total sound power radiated by the source to the power input
-    to the source.
+- content: |-
+    (Power) Efficiency of a sound source
+
+    Ratio of the total sound power radiated by the source to the power input to the source.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Efficiency_of_a_sound_source

@@ -22,11 +22,13 @@ terms:
   designation: Rotary electric machine
   normative_status: preferred
 definition:
-- content: "(rotary) electric machine"
-- content: An apparatus having component parts capable of relative rotary motion,
-    that utilizes the phenomenon of electromagnetic induction to provide conversion
-    from electric energy to mechanical energy or vice-versa.
+- content: |-
+    (rotary) electric machine
+
+    An apparatus having component parts capable of relative rotary motion, that utilizes the phenomenon of electromagnetic induction to provide conversion from electric energy to mechanical energy or vice-versa.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rotary_electric_machine

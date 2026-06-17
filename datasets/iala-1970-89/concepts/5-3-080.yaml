@@ -22,8 +22,10 @@ terms:
   designation: Pulse duration modulation (PDM)
   normative_status: preferred
 definition:
-- content: Pulse length modulation (deprecated) Pulse width modulation (deprecated)
-- content: A form of pulse time modulation in which the duration of a pulse is varied.
+- content: |-
+    Pulse length modulation (deprecated) Pulse width modulation (deprecated)
+
+    A form of pulse time modulation in which the duration of a pulse is varied.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +34,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_duration_modulation_(PDM)

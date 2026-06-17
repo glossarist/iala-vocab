@@ -27,27 +27,28 @@ terms:
   designation: Large navigation(al) buoy
   normative_status: preferred
 definition:
-- content: Lanby
-- content: LNB (USA)
-- content: A buoy, commonly a discus buoy, designed to carry a light, usually of high
-    luminous intensity and at a height in excess of 10 metres above the water level,
-    as an aid to navigation. The principal dimension of the buoy in the water plane
-    is more than 8 metres and usually more than 10 metres. Such buoys may also carry
-    radio equipment and power generation equipment such as diesel-alternator sets.
-- content: 'Note 1 :'
-- content: The term "Lanby" is derived from Large Automatic Navigation Buoy.
-- content: 'Note 2 :'
-- content: The term superbuoy is applied to buoys of similarly large dimensions that
-    are not principally used as aids to navigation, such as super mooring buoys and
-    the largest ODAS buoys. Hydrographic authorities may incude Lanbys in the general
-    class of superbuoy for the purpose of symbolic notation on charts.
-- content: 'Note 3 :'
-- content: Another form of large navigational buoy is the semi-submersible buoy, usually
-    in the shape of a platform, partially submerged and anchored to the sea-bed by
-    tensioned chains.
-- content: 'Note 4 :'
-- content: The French term bouee-phare is sometimes used but it is not recommended.
+- content: |-
+    Lanby
+
+    LNB (USA)
+
+    A buoy, commonly a discus buoy, designed to carry a light, usually of high luminous intensity and at a height in excess of 10 metres above the water level, as an aid to navigation. The principal dimension of the buoy in the water plane is more than 8 metres and usually more than 10 metres. Such buoys may also carry radio equipment and power generation equipment such as diesel-alternator sets.
+
+    The term "Lanby" is derived from Large Automatic Navigation Buoy.
+
+    The term superbuoy is applied to buoys of similarly large dimensions that are not principally used as aids to navigation, such as super mooring buoys and the largest ODAS buoys. Hydrographic authorities may incude Lanbys in the general class of superbuoy for the purpose of symbolic notation on charts.
+
+    Another form of large navigational buoy is the semi-submersible buoy, usually in the shape of a platform, partially submerged and anchored to the sea-bed by tensioned chains.
+
+    The French term bouee-phare is sometimes used but it is not recommended.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+notes:
+- content: " :"
+- content: " :"
+- content: " :"
+- content: " :"
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Large_navigation(al)_buoy

@@ -22,10 +22,13 @@ terms:
   designation: Confirmation of an AtoN Light
   normative_status: preferred
 definition:
-- content: The following terms are used when considering the conspicuity of AtoN lights
-    at night.
-- content: 'Source: ENG7, Guideline G1073'
+- content: |-
+    The following terms are used when considering the conspicuity of AtoN lights at night.
+
+    Source: ENG7, Guideline G1073
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Confirmation_of_an_AtoN_Light

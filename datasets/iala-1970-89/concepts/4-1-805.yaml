@@ -22,9 +22,10 @@ terms:
   designation: Linear detector
   normative_status: preferred
 definition:
-- content: Linear rectifier (U.S.A.)
-- content: A detector, the output current or voltage of which contains a wave having
-    a form identical with that of the envelope of an impressed signal wave.
+- content: |-
+    Linear rectifier (U.S.A.)
+
+    A detector, the output current or voltage of which contains a wave having a form identical with that of the envelope of an impressed signal wave.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.R.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Linear_detector

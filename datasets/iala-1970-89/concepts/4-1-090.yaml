@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Mean power
   normative_status: preferred
+- type: expression
+  designation: Mean power (of a radio transmitter)
+  normative_status: admitted
 definition:
-- content: Mean power (of a radio transmitter)
 - content: The power supplied to the antenna transmission line by a transmitter during
     normal operation, averaged over a time sufficiently long compared with the period
     of the lowest frequency encountered in the modulation. A time of 1/10 second during
@@ -39,3 +41,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mean_power

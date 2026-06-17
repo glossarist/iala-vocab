@@ -35,3 +35,5 @@ sources:
 notes:
 - content: An overload relay is usually made to respond to current, but the response
     may be to power, temperature, etc.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Overload_relay

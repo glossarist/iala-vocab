@@ -22,9 +22,10 @@ terms:
   designation: Horn - Antenna
   normative_status: preferred
 definition:
-- content: Flare
-- content: An elementary antenna consisting of a waveguide in which one or more transverse
-    dimensions increase towards the open end.
+- content: |-
+    Flare
+
+    An elementary antenna consisting of a waveguide in which one or more transverse dimensions increase towards the open end.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Horn_-_Antenna

@@ -40,3 +40,5 @@ notes:
 - content: The use of the term for the action of a mixer is deprecated.
 - content: Where there was no original modulating signal the use of the term Demodulation
     as an alternative for "detection" is deprecated.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Detection

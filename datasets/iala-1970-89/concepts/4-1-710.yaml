@@ -21,12 +21,17 @@ terms:
 - type: expression
   designation: Local oscillator
   normative_status: preferred
+- type: expression
+  designation: Local oscillator (L.O.)
+  normative_status: admitted
 definition:
-- content: Local oscillator (L.O.)
-- content: Frequency-change oscillator (deprecated)
-- content: An oscillator used to derive an intermediate frequency by beating with
-    the signal-carrying frequency in superheterodyne reception.
+- content: |-
+    Frequency-change oscillator (deprecated)
+
+    An oscillator used to derive an intermediate frequency by beating with the signal-carrying frequency in superheterodyne reception.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Local_oscillator

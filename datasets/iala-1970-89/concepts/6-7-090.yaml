@@ -30,3 +30,5 @@ sources:
 notes:
 - content: The term automatic voltage regulator (AVR) is used for a device that automatically
     keeps the output voltage of a generator within specified limits.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Voltage_stabiliser

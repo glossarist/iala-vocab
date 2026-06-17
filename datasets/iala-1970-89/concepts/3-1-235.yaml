@@ -22,10 +22,13 @@ terms:
   designation: Spherical divergence loss
   normative_status: preferred
 definition:
-- content: Spherical divergence attenuation Inverse square law attenuation
-- content: Reduction in sound pressure level resulting from propagation of spherical
-    waves in a free field without loss of energy.
+- content: |-
+    Spherical divergence attenuation Inverse square law attenuation
+
+    Reduction in sound pressure level resulting from propagation of spherical waves in a free field without loss of energy.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spherical_divergence_loss

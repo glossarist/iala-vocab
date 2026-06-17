@@ -27,10 +27,12 @@ terms:
   designation: Quick-Flashing Light
   normative_status: preferred
 definition:
-- content: 1. A light exhibiting very rapid regular alternations of light and darkness.
-- content: 2. More specifically, a quick-flashing light (in sense 1) in which the
-    rapid alternations are repeated without interruption. (Fig. 43a)
-- content: "![Ch2_Fig43.jpg](/iala-vocab/images/iala/Ch2_Fig43.jpg)"
+- content: |-
+    1. A light exhibiting very rapid regular alternations of light and darkness.
+
+    2. More specifically, a quick-flashing light (in sense 1) in which the rapid alternations are repeated without interruption. (Fig. 43a)
+
+    ![Ch2_Fig43.jpg](/iala-vocab/images/iala/Ch2_Fig43.jpg)
 sources:
 - type: authoritative
   origin:
@@ -42,3 +44,5 @@ notes:
 - content: In most countries, the maximum period of a quick-flashing light is 1 second
 - content: For quick-flashing lights, there is no restriction on the ratio of durations
     of light and darkness.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Quick-Flashing_Light

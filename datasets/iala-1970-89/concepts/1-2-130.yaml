@@ -22,10 +22,13 @@ terms:
   designation: Mean line of course
   normative_status: preferred
 definition:
-- content: "(No English term)"
-- content: Mean line of the course that ships must keep to in a channel or in the
-    vicinity of an obstacle.
+- content: |-
+    (No English term)
+
+    Mean line of the course that ships must keep to in a channel or in the vicinity of an obstacle.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mean_line_of_course

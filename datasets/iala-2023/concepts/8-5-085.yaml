@@ -30,13 +30,15 @@ terms:
   designation: Multi-leg mooring
   normative_status: admitted
 definition:
-- content: A mooring in which lines are taken to a number of points (anchors or sinkers)
-    at the sea bed.
-- content: Other related self-explanatory terms are single-point or single-leg mooring,
-    three-point or three-leg mooring, etc...
+- content: |-
+    A mooring in which lines are taken to a number of points (anchors or sinkers) at the sea bed.
+
+    Other related self-explanatory terms are single-point or single-leg mooring, three-point or three-leg mooring, etc...
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Multi-point_mooring

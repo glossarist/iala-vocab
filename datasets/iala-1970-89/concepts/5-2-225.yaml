@@ -25,11 +25,12 @@ terms:
   designation: Set point (U.S.A.)
   normative_status: admitted
 definition:
-- content: The value chosen under prescribed conditions for the purpose of adjusting
-    the controller. If the system has no offset, the set value is identical with the
-    desired value.
-- content: "![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)"
-- content: Figure 3 - Typical time response of a system to a step increase of input.
+- content: |-
+    The value chosen under prescribed conditions for the purpose of adjusting the controller. If the system has no offset, the set value is identical with the desired value.
+
+    ![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)
+
+    Figure 3 - Typical time response of a system to a step increase of input.
 sources:
 - type: authoritative
   origin:
@@ -38,3 +39,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Set_value

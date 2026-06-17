@@ -22,9 +22,10 @@ terms:
   designation: Sector display
   normative_status: preferred
 definition:
-- content: A display used with a radar set, the aerial of which is continuously rotating.
-- content: The screen, of the long persistence type, is excited only while the beam
-    of the aerial system is within a narrow sector which can be selected at will.
+- content: |-
+    A display used with a radar set, the aerial of which is continuously rotating.
+
+    The screen, of the long persistence type, is excited only while the beam of the aerial system is within a narrow sector which can be selected at will.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 notes:
 - content: A sector display can be used in conjunction with either an A-scan display
     or a P.P.I.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sector_display

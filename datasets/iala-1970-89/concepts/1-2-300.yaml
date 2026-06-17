@@ -22,9 +22,10 @@ terms:
   designation: Dry Dock
   normative_status: preferred
 definition:
-- content: "(Dry) Dock"
-- content: A structure providing support for a vessel and means for removing the water
-    so that the bottom of the vessel can be exposed.
+- content: |-
+    (Dry) Dock
+
+    A structure providing support for a vessel and means for removing the water so that the bottom of the vessel can be exposed.
 sources:
 - type: authoritative
   origin:
@@ -34,3 +35,5 @@ notes:
     dock and in German a Schwimmdock.
 - content: In French when the structure is fixed it is called a forme de radoub; when
     the structure is floating it is called a dock flottant.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Dry_Dock

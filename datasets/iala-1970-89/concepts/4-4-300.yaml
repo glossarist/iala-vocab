@@ -22,10 +22,13 @@ terms:
   designation: Raydist Relay station
   normative_status: preferred
 definition:
-- content: Relay station (in Raydist)
-- content: A receiving-transmitting station, used in Type N Raydist, which provides
-    the vessel with the audio beat notes.
+- content: |-
+    Relay station (in Raydist)
+
+    A receiving-transmitting station, used in Type N Raydist, which provides the vessel with the audio beat notes.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Raydist_Relay_station

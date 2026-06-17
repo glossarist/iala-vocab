@@ -27,13 +27,13 @@ terms:
   designation: Blade pitch
   normative_status: preferred
 definition:
-- content: 1 - For a horizontal axis wind-power generator, the angular setting of
-    a blade measured at the tip as the angle between the chord line and the plane
-    of rotation.
-- content: 2 - For a vertical-axis wind-power generator, the angular setting of a
-    blade measured in the horizontal plane as the angle between the chord line and
-    the line tangent to the arc swept by the blade.
+- content: |-
+    1 - For a horizontal axis wind-power generator, the angular setting of a blade measured at the tip as the angle between the chord line and the plane of rotation.
+
+    2 - For a vertical-axis wind-power generator, the angular setting of a blade measured in the horizontal plane as the angle between the chord line and the line tangent to the arc swept by the blade.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blade_pitch

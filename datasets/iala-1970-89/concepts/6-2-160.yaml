@@ -22,10 +22,13 @@ terms:
   designation: Spark plug
   normative_status: preferred
 definition:
-- content: "(spark) plug"
-- content: A plug screwed into the cylinder head of a petrol engine and used to ignite
-    the fuel-air mixture by means of an electric discharge.
+- content: |-
+    (spark) plug
+
+    A plug screwed into the cylinder head of a petrol engine and used to ignite the fuel-air mixture by means of an electric discharge.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spark_plug

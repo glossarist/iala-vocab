@@ -34,3 +34,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: This applies to lights, acoustical and radio signals.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rhythmic

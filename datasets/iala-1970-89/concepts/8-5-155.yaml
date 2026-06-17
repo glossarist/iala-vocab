@@ -27,12 +27,17 @@ terms:
   designation: Leg (of chain)
   normative_status: preferred
 definition:
-- content: 'Alternative tem: Shot (of chain)'
-- content: A length of chain between two shackles.
-- content: The term "shot" refers to a standard length of chain.
+- content: |-
+    Alternative tem: Shot (of chain)
+
+    A length of chain between two shackles.
+
+    The term "shot" refers to a standard length of chain.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Leg_(of_chain)

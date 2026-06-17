@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Directivity factor
   normative_status: preferred
+- type: expression
+  designation: Directivity factor (of a sound source)
+  normative_status: admitted
 definition:
-- content: Directivity factor (of a sound source)
 - content: The ratio of the square of the radiated free field sound pressure at a
     fixed point on the principal axis to the mean square pressure averaged over the
     surface of a sphere passing through the fixed point and concentric with the source.
@@ -34,3 +36,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Directivity_factor

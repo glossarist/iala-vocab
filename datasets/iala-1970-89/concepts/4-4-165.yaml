@@ -22,10 +22,13 @@ terms:
   designation: Decca Variable errors
   normative_status: preferred
 definition:
-- content: Variable errors (in Decca)
-- content: Errors which, being random, cannot be corrected, such as errors due to
-    night effect, variations of earth conductivity etc.
+- content: |-
+    Variable errors (in Decca)
+
+    Errors which, being random, cannot be corrected, such as errors due to night effect, variations of earth conductivity etc.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Variable_errors

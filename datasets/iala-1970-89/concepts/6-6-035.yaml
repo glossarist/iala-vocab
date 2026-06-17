@@ -34,3 +34,5 @@ notes:
     and may be connected to earth or omitted altogether.
 - content: The point of connection of the neutral conductor at the source is called
     the neutral point. In a star-connected system it is also called the star point.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Neutral_conductor

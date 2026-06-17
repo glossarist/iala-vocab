@@ -22,17 +22,15 @@ terms:
   designation: Shoran
   normative_status: preferred
 definition:
-- content: A pulse transponder circular co-ordinate (range-range or rho-rho) system
-    of high accuracy which is used principally in survey work. Operation is generally
-    in the lower part of the UHF band and therefore in line-of-sight.
-- content: Two shore stations suitably separated from each other are interrogated
-    by the vessel on two rapidly alternated frequencies in order to avoid interference
-    between the responding pulses of the shore stations. The shore stations respond
-    on a third frequency.
-- content: The instrumental readout is presented directly in miles or parts thereof.
-    By employing slightly different pulse repetition rates as many as 20 vessels can
-    be accommodated simultaneously.
+- content: |-
+    A pulse transponder circular co-ordinate (range-range or rho-rho) system of high accuracy which is used principally in survey work. Operation is generally in the lower part of the UHF band and therefore in line-of-sight.
+
+    Two shore stations suitably separated from each other are interrogated by the vessel on two rapidly alternated frequencies in order to avoid interference between the responding pulses of the shore stations. The shore stations respond on a third frequency.
+
+    The instrumental readout is presented directly in miles or parts thereof. By employing slightly different pulse repetition rates as many as 20 vessels can be accommodated simultaneously.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shoran

@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Bearing calibration
   normative_status: preferred
+- type: expression
+  designation: Bearing calibration (in direction finding)
+  normative_status: admitted
 definition:
-- content: Bearing calibration (in direction finding)
 - content: The determination of bearing corrections by observations on a radio beacon
     station of known visual bearing, observations being taken over 360 degrees swing
     of the ship.
@@ -35,3 +37,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing_calibration

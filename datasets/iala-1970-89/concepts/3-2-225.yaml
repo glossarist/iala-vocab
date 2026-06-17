@@ -22,10 +22,13 @@ terms:
   designation: Electromagnetic horn - Coil
   normative_status: preferred
 definition:
-- content: Coil (in an electromagnetic horn)
-- content: An electrical conductor wound on a former which is generally cylindrical
-    in shape.
+- content: |-
+    Coil (in an electromagnetic horn)
+
+    An electrical conductor wound on a former which is generally cylindrical in shape.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electromagnetic_horn_-_Coil

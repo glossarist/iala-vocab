@@ -22,9 +22,13 @@ terms:
   designation: Group of wood or steel poles
   normative_status: preferred
 definition:
-- content: A group of wood or steel poles fixed in the ground in a close formation.
-- content: "![Ch2_Fig50.jpg](/iala-vocab/images/iala/Ch2_Fig50.jpg)"
+- content: |-
+    A group of wood or steel poles fixed in the ground in a close formation.
+
+    ![Ch2_Fig50.jpg](/iala-vocab/images/iala/Ch2_Fig50.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Group_of_wood_or_steel_poles

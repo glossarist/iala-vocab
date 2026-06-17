@@ -27,9 +27,13 @@ terms:
   designation: Sector Angle
   normative_status: preferred
 definition:
-- content: The horizontal angle subtended by a sector of a sector light. (Fig.45)
-- content: "![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)"
+- content: |-
+    The horizontal angle subtended by a sector of a sector light. (Fig.45)
+
+    ![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sector_Angle

@@ -27,10 +27,13 @@ terms:
   designation: Occultation
   normative_status: preferred
 definition:
-- content: A relatively brief interval of darkness, in comparison with the longest
-    interval of light in the same character. (Fig. 42a)
-- content: "![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)"
+- content: |-
+    A relatively brief interval of darkness, in comparison with the longest interval of light in the same character. (Fig. 42a)
+
+    ![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Occultation

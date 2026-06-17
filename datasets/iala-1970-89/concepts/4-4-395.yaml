@@ -22,11 +22,13 @@ terms:
   designation: Interlocking equisignal system
   normative_status: preferred
 definition:
-- content: A system of radio navigation by a comparison method in which two alternating
-    transmissions are used which produce, in the region of the required track, signals
-    which are operationally complementary.
-- content: On the defined track the resultant composite signal has a constant intensity.
+- content: |-
+    A system of radio navigation by a comparison method in which two alternating transmissions are used which produce, in the region of the required track, signals which are operationally complementary.
+
+    On the defined track the resultant composite signal has a constant intensity.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Interlocking_equisignal_system

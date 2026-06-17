@@ -22,18 +22,21 @@ terms:
   designation: Line
   normative_status: preferred
 definition:
-- content: A general term applied to cordage used on vessels, consisting of strands
-    of fibre or synthetic plastics, twisted together to give longitudinal strength.
-- content: 'Note 1 :'
-- content: In Great Britain, when the circumference of cordage exceeds one inch (25
-    mm), the preferred term is rope.
-- content: 'Note 2 :'
-- content: In Germany, the term Trosse is used when the diameter of the cordage exceeds
-    30 mm.
-- content: 'Note 3 :'
-- content: In the USA, the term rope is used for fibre cordage only when it is still
-    on the reel.
+- content: |-
+    A general term applied to cordage used on vessels, consisting of strands of fibre or synthetic plastics, twisted together to give longitudinal strength.
+
+    In Great Britain, when the circumference of cordage exceeds one inch (25 mm), the preferred term is rope.
+
+    In Germany, the term Trosse is used when the diameter of the cordage exceeds 30 mm.
+
+    In the USA, the term rope is used for fibre cordage only when it is still on the reel.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+notes:
+- content: " :"
+- content: " :"
+- content: " :"
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Line

@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Reply hits
   normative_status: preferred
+- type: expression
+  designation: Reply hits (in a transponder)
+  normative_status: admitted
 definition:
-- content: Reply hits (in a transponder)
 - content: The number of transponder replies received from each interrogation.
 sources:
 - type: authoritative
@@ -32,3 +34,5 @@ sources:
   origin:
     ref: I.C.A.O
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reply_hits

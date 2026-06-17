@@ -31,3 +31,5 @@ sources:
 - type: authoritative
   origin:
     ref: ANSI
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Proportional_plus_integral_plus_derivative_action

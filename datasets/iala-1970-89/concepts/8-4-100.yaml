@@ -27,13 +27,15 @@ terms:
   designation: Buoy pocket
   normative_status: preferred
 definition:
-- content: A compartment of the body of a buoy, used for storage of energy, usually
-    cylindrical and fitted with a water tight cover.
-- content: The most common types of buoy pockets are the gas cylinder pocket and the
-    battery pocket.
+- content: |-
+    A compartment of the body of a buoy, used for storage of energy, usually cylindrical and fitted with a water tight cover.
+
+    The most common types of buoy pockets are the gas cylinder pocket and the battery pocket.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoy_pocket

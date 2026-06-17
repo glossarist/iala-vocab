@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Sounding valve
   normative_status: preferred
+- type: expression
+  designation: Sounding valve (in a compressed-air fog signal apparatus)
+  normative_status: admitted
 definition:
-- content: Sounding valve (in a compressed-air fog signal apparatus)
 - content: The valve controlling the admission of the compressed air which is modulated
     to provide the sound output.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sounding_valve

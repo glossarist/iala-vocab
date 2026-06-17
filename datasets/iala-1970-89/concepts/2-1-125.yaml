@@ -22,18 +22,27 @@ terms:
   designation: Optical Focus
   normative_status: preferred
 definition:
-- content: "(Optical) Focus"
-- content: The point on the axis of an optical system such that rays parallel to the
-    axis and incident on the system converge to this point or appear to emanate from
-    this point after refraction or reflection by the system.
-- content: "(Figs. 12, 13, 14, 15, 17 and 19)"
-- content: "![Ch2_Fig12.jpg](/iala-vocab/images/iala/Ch2_Fig12.jpg)"
-- content: "![Ch2_Fig13.jpg](/iala-vocab/images/iala/Ch2_Fig13.jpg)"
-- content: "![Ch2_Fig14.jpg](/iala-vocab/images/iala/Ch2_Fig14.jpg)"
-- content: "![Ch2_Fig15.jpg](/iala-vocab/images/iala/Ch2_Fig15.jpg)"
-- content: "![Ch2_Fig17.jpg](/iala-vocab/images/iala/Ch2_Fig17.jpg)"
-- content: "![Ch2_Fig19.jpg](/iala-vocab/images/iala/Ch2_Fig19.jpg)"
+- content: |-
+    (Optical) Focus
+
+    The point on the axis of an optical system such that rays parallel to the axis and incident on the system converge to this point or appear to emanate from this point after refraction or reflection by the system.
+
+    (Figs. 12, 13, 14, 15, 17 and 19)
+
+    ![Ch2_Fig12.jpg](/iala-vocab/images/iala/Ch2_Fig12.jpg)
+
+    ![Ch2_Fig13.jpg](/iala-vocab/images/iala/Ch2_Fig13.jpg)
+
+    ![Ch2_Fig14.jpg](/iala-vocab/images/iala/Ch2_Fig14.jpg)
+
+    ![Ch2_Fig15.jpg](/iala-vocab/images/iala/Ch2_Fig15.jpg)
+
+    ![Ch2_Fig17.jpg](/iala-vocab/images/iala/Ch2_Fig17.jpg)
+
+    ![Ch2_Fig19.jpg](/iala-vocab/images/iala/Ch2_Fig19.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optical_Focus

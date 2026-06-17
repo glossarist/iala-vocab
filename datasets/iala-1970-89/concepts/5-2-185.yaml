@@ -22,10 +22,14 @@ terms:
   designation: Offset
   normative_status: preferred
 definition:
-- content: Steady-state deviation
-- content: The system deviation after transients have expired.
-- content: "![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)"
-- content: Figure 3 - Typical time response of a system to a step increase of input.
+- content: |-
+    Steady-state deviation
+
+    The system deviation after transients have expired.
+
+    ![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)
+
+    Figure 3 - Typical time response of a system to a step increase of input.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +37,5 @@ sources:
 - type: authoritative
   origin:
     ref: ANSI
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Offset

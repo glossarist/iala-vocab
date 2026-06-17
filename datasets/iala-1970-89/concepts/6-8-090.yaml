@@ -25,11 +25,15 @@ terms:
   designation: "(total) losses"
   normative_status: admitted
 definition:
-- content: "(total) loss"
-- content: The difference between the input power and the output power of a device.
+- content: |-
+    (total) loss
+
+    The difference between the input power and the output power of a device.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
 - content: The loss will usually appear as heat.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Total_loss

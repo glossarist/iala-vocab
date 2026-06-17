@@ -27,11 +27,15 @@ terms:
   designation: Omega Commutation
   normative_status: preferred
 definition:
-- content: Commutation (in Omega)
-- content: A method by means of which the transmissions from a number of stations
-    are time shared on the same frequency.
-- content: The commutation may be carried out either mechanically or electronically.
+- content: |-
+    Commutation (in Omega)
+
+    A method by means of which the transmissions from a number of stations are time shared on the same frequency.
+
+    The commutation may be carried out either mechanically or electronically.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Omega_Commutation

@@ -22,12 +22,13 @@ terms:
   designation: Unipole antenna
   normative_status: preferred
 definition:
-- content: Monopole antenna
-- content: An open antenna acting as one part of a dipole whose other part is represented
-    by its electrical image in the earth or an effective ground plane. In current
-    usage the term is generally restricted to a straight antenna about a quarter-wave
-    long and fed at the end nearer the
+- content: |-
+    Monopole antenna
+
+    An open antenna acting as one part of a dipole whose other part is represented by its electrical image in the earth or an effective ground plane. In current usage the term is generally restricted to a straight antenna about a quarter-wave long and fed at the end nearer the
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Unipole_antenna

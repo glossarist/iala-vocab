@@ -27,14 +27,21 @@ terms:
   designation: Period (of a rhythmic light)
   normative_status: preferred
 definition:
-- content: The interval of time between the commencement of two identical successive
-    cycles of the character of a rhythmic light. (Figs. 40-44)
-- content: "![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)"
-- content: "![Ch2_Fig41.jpg](/iala-vocab/images/iala/Ch2_Fig41.jpg)"
-- content: "![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)"
-- content: "![Ch2_Fig43.jpg](/iala-vocab/images/iala/Ch2_Fig43.jpg)"
-- content: "![Ch2_Fig44.jpg](/iala-vocab/images/iala/Ch2_Fig44.jpg)"
+- content: |-
+    The interval of time between the commencement of two identical successive cycles of the character of a rhythmic light. (Figs. 40-44)
+
+    ![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)
+
+    ![Ch2_Fig41.jpg](/iala-vocab/images/iala/Ch2_Fig41.jpg)
+
+    ![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)
+
+    ![Ch2_Fig43.jpg](/iala-vocab/images/iala/Ch2_Fig43.jpg)
+
+    ![Ch2_Fig44.jpg](/iala-vocab/images/iala/Ch2_Fig44.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Period_(of_a_rhythmic_light)

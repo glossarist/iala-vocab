@@ -27,12 +27,15 @@ terms:
   designation: Pole Beacon
   normative_status: preferred
 definition:
-- content: A vertical spar fixed in the ground or in the sea-bed or a river bed to
-    show as a navigation mark.
-- content: "![Ch2_Fig49.jpg](/iala-vocab/images/iala/Ch2_Fig49.jpg)"
+- content: |-
+    A vertical spar fixed in the ground or in the sea-bed or a river bed to show as a navigation mark.
+
+    ![Ch2_Fig49.jpg](/iala-vocab/images/iala/Ch2_Fig49.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
 - content: Sometimes called a Spindle or a Single-Pile Beacon in the U.S.A.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pole_Beacon

@@ -27,10 +27,13 @@ terms:
   designation: Loran Fixed slave time delay
   normative_status: preferred
 definition:
-- content: Fixed slave time delay (in Loran)
-- content: A time delay in the transmission of pulse signals from the slave station
-    to permit the resolution of ambiguity and to provide identification.
+- content: |-
+    Fixed slave time delay (in Loran)
+
+    A time delay in the transmission of pulse signals from the slave station to permit the resolution of ambiguity and to provide identification.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Fixed_slave_time_delay

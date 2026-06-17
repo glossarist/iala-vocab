@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Luminous Range
   normative_status: preferred
+- type: expression
+  designation: Luminous Range (of a light)
+  normative_status: admitted
 definition:
-- content: Luminous Range (of a light)
 - content: The maximum distance at which a light can be seen, as determined by the
     luminous intensity of the light, the atmospheric transmission factor and the threshold
     of illuminance on the eye of the observer {{2-1-390, Threshold of Illuminance}}.
@@ -35,3 +37,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_Range

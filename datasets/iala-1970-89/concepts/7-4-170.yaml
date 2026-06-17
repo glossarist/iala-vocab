@@ -30,3 +30,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: The resulting layers are called strata.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stratification

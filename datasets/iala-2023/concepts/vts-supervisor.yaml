@@ -22,11 +22,15 @@ terms:
   designation: VTS Supervisor
   normative_status: preferred
 definition:
-- content: VTS-2012-51
-- content: An appropriately qualified VTSO carrying out supervisory duties in a VTS
-    Centre on behalf of a VTS authority.
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-51
+
+    An appropriately qualified VTSO carrying out supervisory duties in a VTS Centre on behalf of a VTS authority.
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Supervisor

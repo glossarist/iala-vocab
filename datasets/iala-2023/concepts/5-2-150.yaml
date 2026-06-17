@@ -13,7 +13,7 @@ sources:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Directly_controlled_variable
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     concept_id: 5-2-150
@@ -27,11 +27,12 @@ terms:
   designation: Directly controlled variable
   normative_status: preferred
 definition:
-- content: In a control loop, that variable the value of which is sensed to originate
-    a feedback signal.
-- content: "![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)"
-- content: Figure 2 - Block diagram of automatic control system (5-2-045) incorporating
-    a closed loop (5-2-080)
+- content: |-
+    In a control loop, that variable the value of which is sensed to originate a feedback signal.
+
+    ![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)
+
+    Figure 2 - Block diagram of automatic control system (5-2-045) incorporating a closed loop (5-2-080)
 sources:
 - type: authoritative
   origin:
@@ -40,3 +41,5 @@ sources:
   origin:
     ref: ANSI
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Directly_controlled_variable

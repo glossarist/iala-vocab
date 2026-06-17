@@ -27,11 +27,15 @@ terms:
   designation: Single-Occulting Light
   normative_status: preferred
 definition:
-- content: An occulting light exhibiting only single occultations which are repeated
-    at regular intervals.
-- content: "(Fig. 42a)"
-- content: "![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)"
+- content: |-
+    An occulting light exhibiting only single occultations which are repeated at regular intervals.
+
+    (Fig. 42a)
+
+    ![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Single-Occulting_Light

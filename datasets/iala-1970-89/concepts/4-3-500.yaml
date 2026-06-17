@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Random triggering
   normative_status: preferred
+- type: expression
+  designation: Random triggering (in a transponder)
+  normative_status: admitted
 definition:
-- content: Random triggering (in a transponder)
 - content: Emission of spurious pulses from a transponder not resulting from valid
     interrogations.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Random_triggering

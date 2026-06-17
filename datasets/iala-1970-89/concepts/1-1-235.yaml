@@ -21,10 +21,11 @@ terms:
 - type: expression
   designation: Frequency
   normative_status: preferred
+- type: symbol
+  designation: stem:[f, ?]
+  normative_status: preferred
 definition:
 - content: Reciprocal of the period.
-- content: Symbol f, ?
-- content: Unit hertz (Hz) lHz = l/s
 sources:
 - type: authoritative
   origin:
@@ -36,3 +37,6 @@ notes:
 - content: When the independent variable is time, the unit of frequency is the hertz.
 - content: In Britain, France and U.S.A. cycles per second (cps or c/s) have been
     used for "hertz".
+annotations:
+- content: Unit hertz (Hz) lHz = l/s
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Frequency

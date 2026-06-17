@@ -22,12 +22,12 @@ terms:
   designation: Hollow truncated cone filament
   normative_status: preferred
 definition:
-- content: A filament (usually of multi-vee formation) in the form of a hollow truncated
-    cone, generated around the axis of the lamp.
-- content: "![Ch2_Fig30.jpg](/iala-vocab/images/iala/Ch2_Fig30.jpg)"
-- content: In the latter case, the French term is Grille Tronconique Incomplete or
-    Filament Tronconique Incomplet and the English term is"Bunch filament" {{2-3-220,
-    Bunch Filament (G.B.)}}.
+- content: |-
+    A filament (usually of multi-vee formation) in the form of a hollow truncated cone, generated around the axis of the lamp.
+
+    ![Ch2_Fig30.jpg](/iala-vocab/images/iala/Ch2_Fig30.jpg)
+
+    In the latter case, the French term is Grille Tronconique Incomplete or Filament Tronconique Incomplet and the English term is"Bunch filament" {{2-3-220, Bunch Filament (G.B.)}}.
 sources:
 - type: authoritative
   origin:
@@ -35,3 +35,5 @@ sources:
 notes:
 - content: The filament may be fully closed in plan, or may embrace an arc of less
     than 360 degrees.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hollow_truncated_cone_filament

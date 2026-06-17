@@ -25,11 +25,13 @@ terms:
   designation: Transmission Factor
   normative_status: admitted
 - type: symbol
-  designation: T
+  designation: stem:[T]
   normative_status: preferred
 definition:
-- content: The ratio of the transmitted luminous flux (Ft) to the incident flux (Fo).
-- content: T = T r+ Td
+- content: |-
+    The ratio of the transmitted luminous flux (Ft) to the incident flux (Fo).
+
+    T = T r+ Td
 sources:
 - type: authoritative
   origin:
@@ -42,3 +44,5 @@ notes:
 - content: Where mixed transmission occurs, the (total) transmittance may be divided
     into two parts, Regular Transmittance (T r) and Diffuse Transmittance (Td),corresponding
     respectively to the  two  modes of  transmission  referred to in  2-1-170  and  2-1-175.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transmittance

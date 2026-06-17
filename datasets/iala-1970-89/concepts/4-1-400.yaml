@@ -27,13 +27,13 @@ terms:
   designation: Beam width
   normative_status: preferred
 definition:
-- content: The angular measure of the transverse section of a beam usually in the
-    main lobe lying within directions corresponding to specified values of field strength
-    relative to the maximum (e.g. half field strength beam width, half power beam
-    width).
-- content: The beam width is usually measured in one or more specified planes containing
-    the axis of the beam.
+- content: |-
+    The angular measure of the transverse section of a beam usually in the main lobe lying within directions corresponding to specified values of field strength relative to the maximum (e.g. half field strength beam width, half power beam width).
+
+    The beam width is usually measured in one or more specified planes containing the axis of the beam.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Beam_width

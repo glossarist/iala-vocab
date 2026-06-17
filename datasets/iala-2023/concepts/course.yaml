@@ -22,11 +22,17 @@ terms:
   designation: Course
   normative_status: preferred
 definition:
-- content: VTS-2012-9
-- content: The intended direction of movement of a vessel through the water.
-- content: 'Source: IMO A.918(20)'
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-9
+
+    The intended direction of movement of a vessel through the water.
+
+    Source: IMO A.918(20)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Course

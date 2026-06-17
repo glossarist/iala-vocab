@@ -27,11 +27,13 @@ terms:
   designation: Direction Light
   normative_status: preferred
 definition:
-- content: a light illuminating a very narrow sector, used to mark a direction to
-    be followed. This sector may be flanked by sectors of greatly reduced intensity
-    or by sectors of different colour or character.
-- content: "![Direction_light_2.png](/iala-vocab/images/iala/Direction_light_2.png)"
+- content: |-
+    a light illuminating a very narrow sector, used to mark a direction to be followed. This sector may be flanked by sectors of greatly reduced intensity or by sectors of different colour or character.
+
+    ![Direction_light_2.png](/iala-vocab/images/iala/Direction_light_2.png)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Direction_Light

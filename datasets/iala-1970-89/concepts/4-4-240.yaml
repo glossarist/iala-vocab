@@ -22,15 +22,15 @@ terms:
   designation: Decca Locking constant
   normative_status: preferred
 definition:
-- content: Locking constant (in Decca)
-- content: The overall phase shift resulting from two causes, the close proximity
-    of the receiver to the master transmitter and, at the slave station, a possible
-    fixed displacement from the nominal zero phase difference condition that is assumed
-    to exist between the received master signal and the out-going slave transmission.
-- content: The value of the locking constant for each pattern is found at the start
-    of a survey by observations at exact known distances from the slaves and is thereafter
-    subtracted from all observed Decometer readings.
+- content: |-
+    Locking constant (in Decca)
+
+    The overall phase shift resulting from two causes, the close proximity of the receiver to the master transmitter and, at the slave station, a possible fixed displacement from the nominal zero phase difference condition that is assumed to exist between the received master signal and the out-going slave transmission.
+
+    The value of the locking constant for each pattern is found at the start of a survey by observations at exact known distances from the slaves and is thereafter subtracted from all observed Decometer readings.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Locking_constant

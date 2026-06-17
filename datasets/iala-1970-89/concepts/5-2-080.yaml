@@ -25,11 +25,12 @@ terms:
   designation: Feedback loop
   normative_status: admitted
 definition:
-- content: A group of circuits including at least one forward path and one feedback
-    path which make up a closed loop in a block diagram.
-- content: "![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)"
-- content: Figure 2 - Block diagram of automatic control system (5-2-045) incorporating
-    a closed loop {{5-2-080, Closed Loop}}
+- content: |-
+    A group of circuits including at least one forward path and one feedback path which make up a closed loop in a block diagram.
+
+    ![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)
+
+    Figure 2 - Block diagram of automatic control system (5-2-045) incorporating a closed loop {{5-2-080, Closed Loop}}
 sources:
 - type: authoritative
   origin:
@@ -38,3 +39,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Closed_Loop

@@ -27,10 +27,13 @@ terms:
   designation: Load
   normative_status: preferred
 definition:
-- content: 1 - All the devices that consume power from a source.
-- content: 2 - The power delivered by a source, or consumed by the devices connected
-    to a source.
+- content: |-
+    1 - All the devices that consume power from a source.
+
+    2 - The power delivered by a source, or consumed by the devices connected to a source.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Load

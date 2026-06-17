@@ -30,10 +30,13 @@ terms:
   designation: "(Colour) Shade (G.B.)"
   normative_status: admitted
 definition:
-- content: A selective filter, usually of glass or plastic, producing a change of
-    colour in the transmitted light.
-- content: "![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)"
+- content: |-
+    A selective filter, usually of glass or plastic, producing a change of colour in the transmitted light.
+
+    ![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Colour_Filter

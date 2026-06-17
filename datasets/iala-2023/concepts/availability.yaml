@@ -22,12 +22,11 @@ terms:
   designation: Availability
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0101302e
-- content: The probability that an AtoN or system of AtoN, as defined by the competent
-    authority, is performing its specified function at any randomly chosen time. This
-    is expressed as a percentage of the total time that an AtoN or system of AtoN
-    should be performing their specified function.
 - content: |-
+    urn:mrn:iala:dic:0101302e
+
+    The probability that an AtoN or system of AtoN, as defined by the competent authority, is performing its specified function at any randomly chosen time. This is expressed as a percentage of the total time that an AtoN or system of AtoN should be performing their specified function.
+
     The percentage of time that an aid, or system of aids, is performing a required function under stated conditions. Non-availability can be caused by scheduled and/or unscheduled interruptions.
     – Signal availability. The availability of a radio signal in a specified coverage area.
     – System availability. The availability of a system to a user, including signal availability and the performance of the user’s receiver.
@@ -35,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Availability

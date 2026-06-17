@@ -40,3 +40,5 @@ sources:
 notes:
 - content: The ground wave is refracted because of variations in the dielectric constant
     of the troposphere including the condition known as the surface duct.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ground_wave

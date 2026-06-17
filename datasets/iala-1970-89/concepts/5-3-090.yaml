@@ -34,3 +34,5 @@ sources:
   modification: modified from source
 notes:
 - content: In practice the carrier is often partially or wholly suppressed.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Single_sideband_transmission_(SSB)

@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Wave number
   normative_status: preferred
+- type: symbol
+  designation: stem:[s]
+  normative_status: preferred
 definition:
 - content: Reciprocal of wave length.
-- content: Symbol s
-- content: Unit l/m
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Unit l/m
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wave_number

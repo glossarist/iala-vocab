@@ -22,9 +22,10 @@ terms:
   designation: Computer Programme (G.B.)
   normative_status: preferred
 definition:
-- content: "(Computer) Programme (G.B.)"
-- content: A set of instructions in the proper form to cause a computer to perform
-    any desired computation
+- content: |-
+    (Computer) Programme (G.B.)
+
+    A set of instructions in the proper form to cause a computer to perform any desired computation
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 notes:
 - content: When the computation is a repetitive task, e.g., sine(x), it is called
     a routine.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Computer_Programme_(G.B.)

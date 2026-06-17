@@ -30,9 +30,10 @@ terms:
   designation: Sector Screen (U.S.A.)
   normative_status: admitted
 definition:
-- content: An opaque screen so placed as to provide a sharp cut-off to a beam in a
-    sector light, and to reduce the angle of uncertainty {{2-5-230, Angle of Uncertainty}}.
-- content: "![Ch2_Fig38.jpg](/iala-vocab/images/iala/Ch2_Fig38.jpg)"
+- content: |-
+    An opaque screen so placed as to provide a sharp cut-off to a beam in a sector light, and to reduce the angle of uncertainty {{2-5-230, Angle of Uncertainty}}.
+
+    ![Ch2_Fig38.jpg](/iala-vocab/images/iala/Ch2_Fig38.jpg)
 sources:
 - type: authoritative
   origin:
@@ -41,3 +42,5 @@ notes:
 - content: In French the term Cache is used when the device is located at the optic;
     and the term Ecran is used when the device is located at any other position, e.g.
     at the lantern or outside it.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cut_Screen_(G.B.)

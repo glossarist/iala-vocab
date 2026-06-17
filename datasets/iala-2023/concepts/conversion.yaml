@@ -22,10 +22,10 @@ terms:
   designation: Conversion
   normative_status: preferred
 definition:
-- content: Alteration, the object of which is a change of use of a building or artefact,
-    from one use or type to another.
-- content: "(This definition was noted at the IALA Seminar on the Practical Aspects
-    of Lighthouse Preservation in Gothenburg 2005)"
+- content: |-
+    Alteration, the object of which is a change of use of a building or artefact, from one use or type to another.
+
+    (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
 sources:
 - type: authoritative
   origin:
@@ -33,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: Stirlingcharter
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Conversion

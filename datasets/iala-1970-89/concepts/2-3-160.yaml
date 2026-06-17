@@ -22,14 +22,15 @@ terms:
   designation: Tungsten-Halogen Lamp
   normative_status: preferred
 definition:
-- content: An incandescent lamp with a gas filling to which a certain proportion of
-    a halogen has been added in order to minimise blackening of the envelope by returning
-    evaporated tungsten to the filament.
-- content: It is usually characterised by exceptionally small size in relation to
-    the high luminous intensities which can be obtained.
+- content: |-
+    An incandescent lamp with a gas filling to which a certain proportion of a halogen has been added in order to minimise blackening of the envelope by returning evaporated tungsten to the filament.
+
+    It is usually characterised by exceptionally small size in relation to the high luminous intensities which can be obtained.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
 - content: The Tungsten-Iodine Lamp or Quartz-Iodine Lamp belongs to this category.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tungsten-Halogen_Lamp

@@ -37,3 +37,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Extra_High_Pressure_Mercury_(Vapour)_Lamp

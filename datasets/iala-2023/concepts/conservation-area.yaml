@@ -22,10 +22,10 @@ terms:
   designation: Conservation Area
   normative_status: preferred
 definition:
-- content: Area of special architectural or historic interest, the character or appearance
-    of which it is desirable to preserve or enhance.
-- content: "(This definition was noted at the IALA Seminar on the Practical Aspects
-    of Lighthouse Preservation in Gothenburg 2005)"
+- content: |-
+    Area of special architectural or historic interest, the character or appearance of which it is desirable to preserve or enhance.
+
+    (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
 sources:
 - type: authoritative
   origin:
@@ -33,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: Stirlingcharter
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Conservation_Area

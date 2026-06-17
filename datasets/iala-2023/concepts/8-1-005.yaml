@@ -30,14 +30,15 @@ terms:
   designation: Buoy tender
   normative_status: admitted
 definition:
-- content: A vessel specially designed to meet the needs of a lighthouse authority
-    for replenishment of fuel and water supplies, relief of personnel of lighthouses
-    and light vessels, towing of light vessels and large navigation buoys, and the
-    repair and replacement of buoys and fixed aids to navigation.
-- content: 'Note :'
-- content: The term "buoy tender" is used when the vessel is principally engaged in
-    the laying or servicing of buoys.
+- content: |-
+    A vessel specially designed to meet the needs of a lighthouse authority for replenishment of fuel and water supplies, relief of personnel of lighthouses and light vessels, towing of light vessels and large navigation buoys, and the repair and replacement of buoys and fixed aids to navigation.
+
+    Note :
+
+    The term "buoy tender" is used when the vessel is principally engaged in the laying or servicing of buoys.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lighthouse_tender

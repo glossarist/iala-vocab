@@ -25,11 +25,13 @@ definition:
 - content: |-
     4-4-175
     (Decca) Line
-- content: The line of position on a Decca chart which joins all the points corresponding
-    to those positions on the earth where the phase relationship between the comparison
-    frequencies derived from the master and one slave station is constant.
-- content: These correspond with a single reading on the appropriate Decometer.
+
+    The line of position on a Decca chart which joins all the points corresponding to those positions on the earth where the phase relationship between the comparison frequencies derived from the master and one slave station is constant.
+
+    These correspond with a single reading on the appropriate Decometer.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Line

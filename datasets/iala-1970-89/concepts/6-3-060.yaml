@@ -22,10 +22,13 @@ terms:
   designation: Fill factor (FF)
   normative_status: preferred
 definition:
-- content: The ratio of maximum power to the product of open-circuit voltage and short-circuit
-    current.
-- content: FF = Pmax / (Voc*Isc)
+- content: |-
+    The ratio of maximum power to the product of open-circuit voltage and short-circuit current.
+
+    FF = Pmax / (Voc*Isc)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fill_factor_(FF)

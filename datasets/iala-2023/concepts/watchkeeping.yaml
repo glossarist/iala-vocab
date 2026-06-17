@@ -22,15 +22,19 @@ terms:
   designation: Watchkeeping
   normative_status: preferred
 definition:
-- content: VTS-2012-56
-- content: Watchkeeping standards, including punctuality, handover, general responsibilities
-    on watch and log-keeping.
-- content: Technical watchkeeping requirements at a VTS workstation, include standard
-    target tracking routines, VHF/DF monitoring and checks, navigation and operational
-    checks, and equipment performance checks.
-- content: 'Source: IALA Guideline 1045 (2005)'
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-56
+
+    Watchkeeping standards, including punctuality, handover, general responsibilities on watch and log-keeping.
+
+    Technical watchkeeping requirements at a VTS workstation, include standard target tracking routines, VHF/DF monitoring and checks, navigation and operational checks, and equipment performance checks.
+
+    Source: IALA Guideline 1045 (2005)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Watchkeeping

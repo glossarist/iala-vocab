@@ -30,13 +30,15 @@ terms:
   designation: Watch circle radius
   normative_status: admitted
 definition:
-- content: Radius of the drift circle (watch circle) of a vessel or buoy.
-- content: The term scope is applied to the length of mooring line of a vessel or
-    buoy paid out (from tail chain to anchor or sinker). In shallow waters it may
-    approximate to the drift circle radius.
+- content: |-
+    Radius of the drift circle (watch circle) of a vessel or buoy.
+
+    The term scope is applied to the length of mooring line of a vessel or buoy paid out (from tail chain to anchor or sinker). In shallow waters it may approximate to the drift circle radius.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Drift_circle_radius

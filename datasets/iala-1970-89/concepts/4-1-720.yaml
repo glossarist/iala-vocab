@@ -22,12 +22,10 @@ terms:
   designation: Image frequency
   normative_status: preferred
 definition:
-- content: Second-channel frequency
-- content: In heterodyne reception, a frequency, other than that to which the receiver
-    is tuned, which    is such that the difference between this frequency and that
-    of a local oscillator in the receiver is a frequency lying within the pass band
-    of an intermediate-frequency amplifier in the receiver, in which it produces an
-    unwanted response.
+- content: |-
+    Second-channel frequency
+
+    In heterodyne reception, a frequency, other than that to which the receiver is tuned, which    is such that the difference between this frequency and that of a local oscillator in the receiver is a frequency lying within the pass band of an intermediate-frequency amplifier in the receiver, in which it produces an unwanted response.
 sources:
 - type: authoritative
   origin:
@@ -36,3 +34,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Image_frequency

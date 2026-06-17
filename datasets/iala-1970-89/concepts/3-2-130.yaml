@@ -22,10 +22,13 @@ terms:
   designation: Diaphone - Driver
   normative_status: preferred
 definition:
-- content: Driver (of a diaphone) (G.B.)
-- content: The device which imparts to the moving part of the modulator its reciprocating
-    motion by the action of compressed air.
+- content: |-
+    Driver (of a diaphone) (G.B.)
+
+    The device which imparts to the moving part of the modulator its reciprocating motion by the action of compressed air.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Driver

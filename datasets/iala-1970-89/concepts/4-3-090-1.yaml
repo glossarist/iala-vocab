@@ -27,15 +27,18 @@ terms:
   designation: Sandbox
   normative_status: preferred
 definition:
-- content: 'Alternative terms: A-scan, A-scope, Range amplitude display (G.B.)'
-- content: A display in which the targets appear as vertical deflections from a line
-    representing a time base.
-- content: The target range is indicated by the horizontal distance of the deflection
-    from one end of the time base.
-- content: The amplitude of the vertical deflection is a function of the signal intensity.
-- content: urn:mrn:iala:dic:0401502e
-- content: A position estimate with respect to the geographic or geodetic co-ordinates
-    of the Earth
+- content: |-
+    Alternative terms: A-scan, A-scope, Range amplitude display (G.B.)
+
+    A display in which the targets appear as vertical deflections from a line representing a time base.
+
+    The target range is indicated by the horizontal distance of the deflection from one end of the time base.
+
+    The amplitude of the vertical deflection is a function of the signal intensity.
+
+    urn:mrn:iala:dic:0401502e
+
+    A position estimate with respect to the geographic or geodetic co-ordinates of the Earth
 sources:
 - type: authoritative
   origin:
@@ -44,3 +47,5 @@ sources:
   origin:
     ref: I.R.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sandbox

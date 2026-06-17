@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Polarization error
   normative_status: preferred
+- type: expression
+  designation: Polarization error (in bearing)
+  normative_status: admitted
 definition:
-- content: Polarization error (in bearing)
 - content: An error, in an observed bearing, which varies with the state of polarization
     of the received waves relative to the designed plane of polarization.
 sources:
@@ -36,3 +38,5 @@ sources:
 notes:
 - content: Some types of polarization error may be attributable to specific features
     of the site (e.g. inclined conductors) and, as such, are also site errors.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Polarization_error

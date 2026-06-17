@@ -27,10 +27,13 @@ terms:
   designation: Sun switch
   normative_status: preferred
 definition:
-- content: Sun relay Daylight control
-- content: A device operated by daylight that automatically controls a light, often
-    electric, lighting it at or about sunset and extinguishing it at or about sunrise.
+- content: |-
+    Sun relay Daylight control
+
+    A device operated by daylight that automatically controls a light, often electric, lighting it at or about sunset and extinguishing it at or about sunrise.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sun_switch

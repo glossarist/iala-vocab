@@ -22,11 +22,15 @@ terms:
   designation: Accident
   normative_status: preferred
 definition:
-- content: VTS-2012-1
-- content: An unintended event resulting either in fatality, injury, ship loss or
-    damage, property loss or damage, or environmental damage.
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-1
+
+    An unintended event resulting either in fatality, injury, ship loss or damage, property loss or damage, or environmental damage.
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Accident

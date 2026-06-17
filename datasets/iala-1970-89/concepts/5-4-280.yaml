@@ -36,3 +36,5 @@ notes:
 - content: The bridge may have other functions such as the control of the holding,
     supervision and release of a connection. It may also feed microphone current to
     the telephone instrument.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transmission_bridge

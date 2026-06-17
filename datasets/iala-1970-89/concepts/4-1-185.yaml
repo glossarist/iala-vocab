@@ -22,10 +22,10 @@ terms:
   designation: Skywave correction
   normative_status: preferred
 definition:
-- content: A correction for skywave propagation errors applied to measured position
-    data.
-- content: The amount of the correction is established on the basis of an assumed
-    position and an average ionosphere height.
+- content: |-
+    A correction for skywave propagation errors applied to measured position data.
+
+    The amount of the correction is established on the basis of an assumed position and an average ionosphere height.
 sources:
 - type: authoritative
   origin:
@@ -33,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.R.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Skywave_correction

@@ -27,10 +27,13 @@ terms:
   designation: Optical Density
   normative_status: preferred
 - type: symbol
-  designation: D D = -log10T
+  designation: stem:[D]
   normative_status: preferred
 definition:
-- content: The logarithm to base ten of the reciprocal of the transmittance.
+- content: |-
+    The logarithm to base ten of the reciprocal of the transmittance.
+
+    D = -log10T
 sources:
 - type: authoritative
   origin:
@@ -38,3 +41,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optical_Density

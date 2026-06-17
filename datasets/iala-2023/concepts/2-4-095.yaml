@@ -30,11 +30,15 @@ terms:
   designation: Lamp Exchanger (G.B.)
   normative_status: admitted
 definition:
-- content: A mechanism, usually operated automatically, which replaces one lamp by
-    another in service in a light.
-- content: Most usually this is done when the first lamp has failed in service.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    A mechanism, usually operated automatically, which replaces one lamp by another in service in a light.
+
+    Most usually this is done when the first lamp has failed in service.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer

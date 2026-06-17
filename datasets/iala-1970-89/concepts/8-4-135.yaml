@@ -22,14 +22,21 @@ terms:
   designation: Roll damping device
   normative_status: preferred
 definition:
-- content: Device fitted to a buoy or Lanby to reduce the amplitude of rolling motion.
-- content: 'Various devices used include :'
-- content: the tail tube
-- content: the skirt
-- content: the stabilising ring
+- content: |-
+    Device fitted to a buoy or Lanby to reduce the amplitude of rolling motion.
+
+    Various devices used include :
+
+    the tail tube
+
+    the skirt
+
+    the stabilising ring
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Roll_damping_device

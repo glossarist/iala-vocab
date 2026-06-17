@@ -22,13 +22,12 @@ terms:
   designation: Synchro resolver
   normative_status: preferred
 definition:
-- content: Magslip resolver
-- content: Resolver
-- content: A synchro used as a calculating element in the special case of two output
-    signals corresponding to the sine and cosine of the synchro angle and to the value
-    of the input signal. Conversely, a synchro resolver may be used to transmit an
-    output signal obtained by compounding two input signals respectively proportional
-    to the sine and cosine of the synchro angle.
+- content: |-
+    Magslip resolver
+
+    Resolver
+
+    A synchro used as a calculating element in the special case of two output signals corresponding to the sine and cosine of the synchro angle and to the value of the input signal. Conversely, a synchro resolver may be used to transmit an output signal obtained by compounding two input signals respectively proportional to the sine and cosine of the synchro angle.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +36,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Synchro_resolver

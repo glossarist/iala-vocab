@@ -25,8 +25,10 @@ definition:
 - content: |-
     2-1-005
     Alternative terms: Visible Radiation (G.B.), Visible Radiant Energy (U.S.A.)
-- content: Any radiation capable of causing a visual sensation directly.
-- content: 1 nanometre (nm) = 10-9m = 1 millimicron.
+
+    Any radiation capable of causing a visual sensation directly.
+
+    1 nanometre (nm) = 10-9m = 1 millimicron.
 sources:
 - type: authoritative
   origin:
@@ -39,3 +41,5 @@ notes:
 - content: |-
     The limits of the spectral range of visible radiation are not well-defined and may vary according to the user.
     The lower limit is generally taken between 380 and 400 nm and the upper limit between 760 and 780 nm.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light_(2)

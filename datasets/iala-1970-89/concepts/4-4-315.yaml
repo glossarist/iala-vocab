@@ -22,10 +22,13 @@ terms:
   designation: Shoran Monitor
   normative_status: preferred
 definition:
-- content: Monitor (in Shoran)
-- content: A device for transmitting timing pulses for the purpose of synchronising
-    all time bases or oscillations in the system.
+- content: |-
+    Monitor (in Shoran)
+
+    A device for transmitting timing pulses for the purpose of synchronising all time bases or oscillations in the system.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shoran_Monitor

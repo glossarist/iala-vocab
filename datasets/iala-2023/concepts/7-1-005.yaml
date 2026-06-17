@@ -27,9 +27,10 @@ terms:
   designation: Beacon
   normative_status: preferred
 definition:
-- content: A fixed artificial navigation mark that can be recognised by its shape,
-    colour, pattern, topmark or light character, or a combination of these.
-- content: It may carry various additional aids to navigation.
+- content: |-
+    A fixed artificial navigation mark that can be recognised by its shape, colour, pattern, topmark or light character, or a combination of these.
+
+    It may carry various additional aids to navigation.
 sources:
 - type: authoritative
   origin:
@@ -41,3 +42,5 @@ notes:
     carries a signal light.
 - content: The terms unlighted beacon and unlit beacon refer to a beacon that does
     not carry a signal light.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Beacon

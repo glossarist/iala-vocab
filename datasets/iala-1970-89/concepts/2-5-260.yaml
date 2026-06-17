@@ -27,10 +27,13 @@ terms:
   designation: Intermediate Light(s)
   normative_status: preferred
 definition:
-- content: A light or lights which, of three or more lights forming a leading line,
-    is situated between the front and rear lights. (Fig.47)
-- content: "![Ch2_Fig47.jpg](/iala-vocab/images/iala/Ch2_Fig47.jpg)"
+- content: |-
+    A light or lights which, of three or more lights forming a leading line, is situated between the front and rear lights. (Fig.47)
+
+    ![Ch2_Fig47.jpg](/iala-vocab/images/iala/Ch2_Fig47.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Intermediate_Light(s)

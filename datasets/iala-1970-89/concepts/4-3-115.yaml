@@ -22,11 +22,13 @@ terms:
   designation: Inter-trace display
   normative_status: preferred
 definition:
-- content: InterScan
-- content: A technique for presenting additional information, in the form of alpha-numerics,
-    markers, cursors, etc., on a radar display, by using the intervals between the
-    normal radar presentation scans.
+- content: |-
+    InterScan
+
+    A technique for presenting additional information, in the form of alpha-numerics, markers, cursors, etc., on a radar display, by using the intervals between the normal radar presentation scans.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Inter-trace_display

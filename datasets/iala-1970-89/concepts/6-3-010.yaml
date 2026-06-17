@@ -22,10 +22,13 @@ terms:
   designation: Solar module
   normative_status: preferred
 definition:
-- content: "(solar) module"
-- content: The smallest complete environmentally-protected assembly of interconnected
-    solar cells.
+- content: |-
+    (solar) module
+
+    The smallest complete environmentally-protected assembly of interconnected solar cells.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Solar_module

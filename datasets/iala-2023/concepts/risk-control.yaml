@@ -22,13 +22,15 @@ terms:
   designation: Risk Control
   normative_status: preferred
 definition:
-- content: Risk control means taking action to eliminate health and safety risks so
-    far as is reasonably practicable, and if that is not possible, minimising the
-    risks so far as is reasonably practicable.
-- content: Effective risk control involves establishing and maintaining systems that
-    give opportunity for regular evaluation and review procedures.
-- content: 'Source: ENG7, Guideline 1092 (2017)'
+- content: |-
+    Risk control means taking action to eliminate health and safety risks so far as is reasonably practicable, and if that is not possible, minimising the risks so far as is reasonably practicable.
+
+    Effective risk control involves establishing and maintaining systems that give opportunity for regular evaluation and review procedures.
+
+    Source: ENG7, Guideline 1092 (2017)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Risk_Control

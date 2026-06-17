@@ -22,8 +22,10 @@ terms:
   designation: Decca Lane identification meter
   normative_status: preferred
 definition:
-- content: Lane identification meter (in Decca)
-- content: The phase-meter used to display automatically lane-identification information.
+- content: |-
+    Lane identification meter (in Decca)
+
+    The phase-meter used to display automatically lane-identification information.
 sources:
 - type: authoritative
   origin:
@@ -31,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Lane_identification_meter

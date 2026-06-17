@@ -22,10 +22,13 @@ terms:
   designation: Precision
   normative_status: preferred
 definition:
-- content: The degree of accuracy of a measurement or a position with respect to random
-    errors.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    The degree of accuracy of a measurement or a position with respect to random errors.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Precision

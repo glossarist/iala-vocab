@@ -25,13 +25,15 @@ terms:
   designation: Pelican hook (USA)
   normative_status: admitted
 definition:
-- content: A hinged hook, fitted with a securing ring which can conveniently be released
-    when under strain. It is used for holding chain for quick release.
-- content: 'Note :'
-- content: In Great Britain, a senhouse slip fitted with a length of chain and a shackle
-    is called a Blake stopper while a senhouse slip fitted with a bottle screw adjustement
-    is called a screw stopper.
+- content: |-
+    A hinged hook, fitted with a securing ring which can conveniently be released when under strain. It is used for holding chain for quick release.
+
+    Note :
+
+    In Great Britain, a senhouse slip fitted with a length of chain and a shackle is called a Blake stopper while a senhouse slip fitted with a bottle screw adjustement is called a screw stopper.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Senhouse_slip_(GB)

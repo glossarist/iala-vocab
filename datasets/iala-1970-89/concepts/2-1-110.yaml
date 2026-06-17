@@ -27,10 +27,10 @@ terms:
   designation: Isocandela Curve (G.B.)
   normative_status: preferred
 definition:
-- content: Isocandela Line (U.S.A.)
-- content: A curve traced on an imaginary sphere with the source at its centre and
-    joining all the points corresponding to those directions in which the luminous
-    intensity is the same, or a plane projection of this curve.
+- content: |-
+    Isocandela Line (U.S.A.)
+
+    A curve traced on an imaginary sphere with the source at its centre and joining all the points corresponding to those directions in which the luminous intensity is the same, or a plane projection of this curve.
 sources:
 - type: authoritative
   origin:
@@ -41,3 +41,5 @@ sources:
 notes:
 - content: This type of diagram is sometimes used instead of the curve of luminous
     intensity distribution.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Isocandela_Curve_(G.B.)

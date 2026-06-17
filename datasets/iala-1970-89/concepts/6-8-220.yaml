@@ -30,3 +30,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: A time switch that operates at sunrise and sunset is called a solar switch.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Time_switch_(2)

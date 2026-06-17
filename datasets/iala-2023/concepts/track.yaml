@@ -22,11 +22,17 @@ terms:
   designation: Track
   normative_status: preferred
 definition:
-- content: VTS-2012-34
-- content: The path followed, or to be followed, between one position and another.
-- content: 'Source: IMO A.918(22)'
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-34
+
+    The path followed, or to be followed, between one position and another.
+
+    Source: IMO A.918(22)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Track

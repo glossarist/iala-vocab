@@ -27,9 +27,10 @@ terms:
   designation: Omega Antipodal effects
   normative_status: preferred
 definition:
-- content: Antipodal effects (in Omega)
-- content: Errors introduced due to the reception of a signal from both directions
-    round the earth.
+- content: |-
+    Antipodal effects (in Omega)
+
+    Errors introduced due to the reception of a signal from both directions round the earth.
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ sources:
 notes:
 - content: Due to the long range characteristic of the system, however, signals from
     other stations, suitably paired, should be available.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Omega_Antipodal_effects

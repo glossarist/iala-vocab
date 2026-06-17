@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: R.F. head
   normative_status: preferred
+- type: expression
+  designation: R.F. head (in a radar set)
+  normative_status: admitted
 definition:
-- content: R.F. head (in a radar set)
 - content: A term used to refer loosely to the assemblage of radar frequency components,
     sometimes including the antenna system and usually including the head amplifier.
 sources:
@@ -33,3 +35,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/R.F._head

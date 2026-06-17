@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Instantaneous" automatic gain control
   normative_status: preferred
+- type: expression
+  designation: Instantaneous" automatic gain control (I.A.G.C.)
+  normative_status: admitted
 definition:
-- content: Instantaneous" automatic gain control (I.A.G.C.)
 - content: In radar, a quick acting automatic gain control which does not respond
     to single echoes, but which responds to variations of mean clutter level, so that
     clutter is reduced. Return to high sensitivity is also accomplished quickly for
@@ -35,3 +37,5 @@ sources:
   origin:
     ref: B.S
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Instantaneous"_automatic_gain_control

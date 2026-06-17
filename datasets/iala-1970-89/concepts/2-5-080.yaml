@@ -22,11 +22,13 @@ terms:
   designation: Standby Light
   normative_status: preferred
 definition:
-- content: A light installed permanently, close to the light in regular service, but
-    operating independently from the latter and intended to be brought easily into
-    service in the event of failure of the latter.
-- content: It may often be brought into service automatically.
+- content: |-
+    A light installed permanently, close to the light in regular service, but operating independently from the latter and intended to be brought easily into service in the event of failure of the latter.
+
+    It may often be brought into service automatically.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Standby_Light

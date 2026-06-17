@@ -27,13 +27,16 @@ terms:
   designation: Fixed Lens
   normative_status: preferred
 definition:
-- content: A lens (in sense 2 of 2-2-010) made up of a belt of lenticular section
-    and a series of rings of prismatic section above and below it.
-- content: The axes of revolution of the belt and rings form the same vertical straight
-    line.
-- content: The rings are contiguous or nearly so.
-- content: "![Ch2_Fig16a.jpg](/iala-vocab/images/iala/Ch2_Fig16a.jpg)"
-- content: "![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)"
+- content: |-
+    A lens (in sense 2 of 2-2-010) made up of a belt of lenticular section and a series of rings of prismatic section above and below it.
+
+    The axes of revolution of the belt and rings form the same vertical straight line.
+
+    The rings are contiguous or nearly so.
+
+    ![Ch2_Fig16a.jpg](/iala-vocab/images/iala/Ch2_Fig16a.jpg)
+
+    ![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)
 sources:
 - type: authoritative
   origin:
@@ -42,3 +45,5 @@ notes:
 - content: A fixed lens need not extend through 360 degrees, but may be limited to
     a sector.
 - content: The light issuing from a fixed lens is in the form of a fan beam (2-1-090).
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fixed_Lens

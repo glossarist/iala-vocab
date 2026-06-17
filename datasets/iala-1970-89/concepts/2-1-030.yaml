@@ -21,10 +21,14 @@ terms:
 - type: expression
   designation: Luminous Efficacy
   normative_status: preferred
+- type: expression
+  designation: Luminous Efficacy (of a source)
+  normative_status: admitted
 definition:
-- content: Luminous Efficacy (of a source)
-- content: The quotient of the luminous flux emitted by the power consumed.
-- content: Symbol: ?
+- content: |-
+    The quotient of the luminous flux emitted by the power consumed.
+
+    Symbol: ?
 sources:
 - type: authoritative
   origin:
@@ -35,5 +39,6 @@ sources:
   modification: modified from source
 notes:
 - content: Formerly Luminous Efficiency
-examples:
-- content: lumen per watt (Im/W)
+annotations:
+- content: Unit lumen per watt (Im/W)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_Efficacy

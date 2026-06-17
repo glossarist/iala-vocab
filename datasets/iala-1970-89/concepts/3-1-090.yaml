@@ -21,11 +21,14 @@ terms:
 - type: expression
   designation: Sound energy flux
   normative_status: preferred
+- type: expression
+  designation: Sound energy flux (across a surface element)
+  normative_status: admitted
 definition:
-- content: Sound energy flux (across a surface element)
-- content: Instantaneous sound power (across a surface element)
-- content: The product of the instantaneous sound pressure and the volume velocity
-    across the surface element considered.
+- content: |-
+    Instantaneous sound power (across a surface element)
+
+    The product of the instantaneous sound pressure and the volume velocity across the surface element considered.
 sources:
 - type: authoritative
   origin:
@@ -34,3 +37,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_energy_flux

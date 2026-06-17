@@ -22,10 +22,13 @@ terms:
   designation: Sound emitter - Mechanical
   normative_status: preferred
 definition:
-- content: Mechanical (sound) emitter
-- content: A sound emitter comprising a diaphragm or a piston which is caused to vibrate
-    mechanically.
+- content: |-
+    Mechanical (sound) emitter
+
+    A sound emitter comprising a diaphragm or a piston which is caused to vibrate mechanically.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Mechanical

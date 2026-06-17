@@ -27,9 +27,10 @@ terms:
   designation: Composite Group-Occulting Light
   normative_status: preferred
 definition:
-- content: Group-occulting light in which the occultations are combined in successive
-    groups of different numbers of occultations. (Fig. 42c)
-- content: "![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)"
+- content: |-
+    Group-occulting light in which the occultations are combined in successive groups of different numbers of occultations. (Fig. 42c)
+
+    ![Ch2_Fig42.jpg](/iala-vocab/images/iala/Ch2_Fig42.jpg)
 sources:
 - type: authoritative
   origin:
@@ -38,3 +39,5 @@ sources:
   origin:
     ref: N.L
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Composite_Group-Occulting_Light

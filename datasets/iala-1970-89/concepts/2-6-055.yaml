@@ -22,9 +22,13 @@ terms:
   designation: Cairn
   normative_status: preferred
 definition:
-- content: Stones piled into a characteristic shape and used as a daymark.
-- content: "![Ch2_Fig52.jpg](/iala-vocab/images/iala/Ch2_Fig52.jpg)"
+- content: |-
+    Stones piled into a characteristic shape and used as a daymark.
+
+    ![Ch2_Fig52.jpg](/iala-vocab/images/iala/Ch2_Fig52.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cairn

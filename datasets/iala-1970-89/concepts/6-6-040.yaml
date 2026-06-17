@@ -29,3 +29,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: The set of conductors may commonly be in the form of a cable.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Earth_conductor

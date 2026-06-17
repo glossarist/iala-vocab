@@ -22,11 +22,13 @@ terms:
   designation: Rotor of a siren
   normative_status: preferred
 definition:
-- content: Rotor (of a siren)
-- content: The moving part of the modulator containing apertures or "ports" corresponding
-    to those of the stator. The relative displacement between the two sets of ports
-    interrupts the flow of compressed air thereby producing a modulated output.
+- content: |-
+    Rotor (of a siren)
+
+    The moving part of the modulator containing apertures or "ports" corresponding to those of the stator. The relative displacement between the two sets of ports interrupts the flow of compressed air thereby producing a modulated output.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rotor_of_a_siren

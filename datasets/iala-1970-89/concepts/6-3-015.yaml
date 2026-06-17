@@ -22,10 +22,13 @@ terms:
   designation: Solar panel
   normative_status: preferred
 definition:
-- content: "(solar) panel"
-- content: A group of modules fastened together, pre-assembled and wired, to serve
-    as an installable unit.
+- content: |-
+    (solar) panel
+
+    A group of modules fastened together, pre-assembled and wired, to serve as an installable unit.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Solar_panel

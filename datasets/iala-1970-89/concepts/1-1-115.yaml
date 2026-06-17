@@ -21,11 +21,14 @@ terms:
 - type: expression
   designation: Spectrum
   normative_status: preferred
+- type: expression
+  designation: Spectrum (of a radiation)
+  normative_status: admitted
 definition:
-- content: Spectrum (of a radiation)
-- content: Spatial display of a polychromatic radiation produced by separation of
-    its monochromatic components.
-- content: Composition of a polychromatic radiation.
+- content: |-
+    Spatial display of a polychromatic radiation produced by separation of its monochromatic components.
+
+    Composition of a polychromatic radiation.
 sources:
 - type: authoritative
   origin:
@@ -36,3 +39,5 @@ sources:
   modification: modified from source
 notes:
 - content: Examples of sense 2 Continuous spectrum, line spectrum.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spectrum

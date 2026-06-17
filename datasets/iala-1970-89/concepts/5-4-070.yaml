@@ -34,3 +34,5 @@ sources:
 notes:
 - content: One specific type is a circuit that produces one output pulse each time
     it receives some predetermined number of input pulses.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Counter

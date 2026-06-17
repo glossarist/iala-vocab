@@ -21,10 +21,14 @@ terms:
 - type: expression
   designation: Sound power
   normative_status: preferred
+- type: expression
+  designation: Sound power (of a source)
+  normative_status: admitted
 definition:
-- content: Sound power (of a source)
 - content: The average total power radiated by the source in all directions.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_power

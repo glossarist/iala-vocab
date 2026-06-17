@@ -22,13 +22,15 @@ terms:
   designation: Raydist Lane resolution
   normative_status: preferred
 definition:
-- content: Lane resolution (in Raydist)
-- content: A system used in Type M and Type N Raydist. Additional stations are set
-    up near the shore stations.
-- content: The resultant hyperbolic co-ordinates are much further apart, at a distance
-    from the baseline, and therefore provide a coarse scale for resolution of the
-    fine system scale.
+- content: |-
+    Lane resolution (in Raydist)
+
+    A system used in Type M and Type N Raydist. Additional stations are set up near the shore stations.
+
+    The resultant hyperbolic co-ordinates are much further apart, at a distance from the baseline, and therefore provide a coarse scale for resolution of the fine system scale.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Raydist_Lane_resolution

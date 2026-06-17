@@ -27,10 +27,13 @@ terms:
   designation: Electrodynamic emitter - Diaphragm suspension
   normative_status: preferred
 definition:
-- content: Diaphragm suspension (in an electrodynamic emitter)
-- content: A support for the diaphragm which by virtue of its compliance permits a
-    limited vibratory motion.
+- content: |-
+    Diaphragm suspension (in an electrodynamic emitter)
+
+    A support for the diaphragm which by virtue of its compliance permits a limited vibratory motion.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electrodynamic_emitter_-_Diaphragm_suspension

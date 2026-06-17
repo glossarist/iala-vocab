@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Search coil
   normative_status: preferred
+- type: expression
+  designation: Search coil (in an inductive radiogoniometer)
+  normative_status: admitted
 definition:
-- content: Search coil (in an inductive radiogoniometer)
 - content: A rotatable coil forming the essential moving part of the radiogoniometer
     and coupled to the field coils which induce voltages in it. The search coil is
     normally connected to a receiver.
@@ -33,3 +35,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Search_coil

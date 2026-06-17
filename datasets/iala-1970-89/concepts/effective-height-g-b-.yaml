@@ -27,13 +27,10 @@ terms:
   designation: Effective height (G.B.)
   normative_status: preferred
 definition:
-- content: 4-1 -255
-- content: Of a linear vertical antenna less than a quarter-wave-length long, the
-    length of a hypothetical vertical radiator, with its lower end at ground level
-    which gives rise to the same radiation field at the same distance in the horizontal
-    plane as the antenna, and which carries a current which is uniform in phase at
-    all points along its length and of uniform amplitude equal to that of the maximum
-    current in the antenna.
+- content: |-
+    4-1 -255
+
+    Of a linear vertical antenna less than a quarter-wave-length long, the length of a hypothetical vertical radiator, with its lower end at ground level which gives rise to the same radiation field at the same distance in the horizontal plane as the antenna, and which carries a current which is uniform in phase at all points along its length and of uniform amplitude equal to that of the maximum current in the antenna.
 sources:
 - type: authoritative
   origin:
@@ -42,3 +39,5 @@ sources:
   origin:
     ref: N.T.G
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Effective_height_(G.B.)

@@ -22,9 +22,13 @@ terms:
   designation: Service capacity
   normative_status: preferred
 definition:
-- content: The number of users a service can accommodate simultaneously.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    The number of users a service can accommodate simultaneously.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Service_capacity

@@ -27,13 +27,15 @@ terms:
   designation: Topmark
   normative_status: preferred
 definition:
-- content: An object, or pair of objects, of characteristic shape and colour, that
-    is carried on top of a buoy as a means of identification.
-- content: For details of topmarks used in the IALA Maritime Buoyage System, see Chapter
-    2 (Rev).
+- content: |-
+    An object, or pair of objects, of characteristic shape and colour, that is carried on top of a buoy as a means of identification.
+
+    For details of topmarks used in the IALA Maritime Buoyage System, see Chapter 2 (Rev).
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
-- content: ''
+- content: 'Note:'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark

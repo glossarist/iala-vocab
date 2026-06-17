@@ -25,10 +25,13 @@ terms:
   designation: Paraffin Vapour Burner
   normative_status: admitted
 definition:
-- content: Mantle burner in which the combustible fuel is the vapour of paraffin in
-    air.
-- content: "![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)"
+- content: |-
+    Mantle burner in which the combustible fuel is the vapour of paraffin in air.
+
+    ![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Paraffin_Vapour_Lamp

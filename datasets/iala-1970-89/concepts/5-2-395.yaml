@@ -32,6 +32,8 @@ sources:
   origin:
     ref: I.R.E
 notes:
-- content: ": It should be noted that servomechanism and feedback regulator are not
-    mutually exclusive terms. Their application to a particular system will depend
-    upon the method of operation of that system."
+- content: 'Note:: It should be noted that servomechanism and feedback regulator are
+    not mutually exclusive terms. Their application to a particular system will depend
+    upon the method of operation of that system.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Servo_mechanism

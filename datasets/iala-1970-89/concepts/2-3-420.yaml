@@ -22,11 +22,10 @@ terms:
   designation: Short-Arc Lamp
   normative_status: preferred
 definition:
-- content: A discharge lamp in which the distance between the electrodes is small
-    (of the order 1 to 10mm).
-- content: Short-arc lamps are also called Compact-Source Arc Discharge Lamps and
-    are particularly suitable as a light source in optical apparatus for the production
-    of narrow beams.
+- content: |-
+    A discharge lamp in which the distance between the electrodes is small (of the order 1 to 10mm).
+
+    Short-arc lamps are also called Compact-Source Arc Discharge Lamps and are particularly suitable as a light source in optical apparatus for the production of narrow beams.
 sources:
 - type: authoritative
   origin:
@@ -38,3 +37,5 @@ sources:
 notes:
 - content: This type of lamp (mercury or xenon for example) is generally of a high
     or extra high pressure.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Short-Arc_Lamp

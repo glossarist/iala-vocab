@@ -13,7 +13,7 @@ sources:
     ref: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Buoyant_beacon
 related:
-- type: equivalent
+- type: superseded_by
   ref:
     source: urn:iala:dictionary:2023
     concept_id: 8-4-065
@@ -27,19 +27,21 @@ terms:
   designation: Buoyant beacon
   normative_status: preferred
 definition:
-- content: A floating mark secured to a sinker, either directly through a joint or
-    by a cable that is held in tension by the buoyancy of the mark. The buoyancy chamber
-    is normally below the surface of the sea.
-- content: 'Note 1:'
-- content: The terms resilient beacon and elastic beacon have been used with this
-    meaning, but their continued use is not recommended.
-- content: 'Note 2:'
-- content: When the connection to the sinker is by a universal joint and the aid carries
-    a light, the term articulated light is sometimes used. This usage is deprecated.
-- content: 'Note 3:'
-- content: This term was changed to Articulated beacon in October 2012. EEP Report
-    (section AOB) refers.
+- content: |-
+    A floating mark secured to a sinker, either directly through a joint or by a cable that is held in tension by the buoyancy of the mark. The buoyancy chamber is normally below the surface of the sea.
+
+    The terms resilient beacon and elastic beacon have been used with this meaning, but their continued use is not recommended.
+
+    When the connection to the sinker is by a universal joint and the aid carries a light, the term articulated light is sometimes used. This usage is deprecated.
+
+    This term was changed to Articulated beacon in October 2012. EEP Report (section AOB) refers.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+notes:
+- content: ":"
+- content: ":"
+- content: ":"
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoyant_beacon

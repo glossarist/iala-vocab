@@ -22,10 +22,13 @@ terms:
   designation: Sound emitter - Electrodynamic
   normative_status: preferred
 definition:
-- content: Electrodynamic (sound) emitter
-- content: A (sound) emitter which depends for its operation on the motion of a conductor,
-    joined to a diaphragm and carrying a varying current, n a steady magnetic field.
+- content: |-
+    Electrodynamic (sound) emitter
+
+    A (sound) emitter which depends for its operation on the motion of a conductor, joined to a diaphragm and carrying a varying current, n a steady magnetic field.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Electrodynamic

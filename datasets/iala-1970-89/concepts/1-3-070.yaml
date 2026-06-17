@@ -22,13 +22,13 @@ terms:
   designation: Fog
   normative_status: preferred
 definition:
-- content: 'Alternative terms: Mist, Haze'
-- content: States of the atmosphere in which the meteorological visibility is influenced
-    owing to scattering (and in some cases to absorption or both) of light by a large
-    number of minute water droplets or other particles suspended in the atmosphere.
-    In the case of fog the meteorological visibility is usually more reduced than
-    in the case of mist or haze.
+- content: |-
+    Alternative terms: Mist, Haze
+
+    States of the atmosphere in which the meteorological visibility is influenced owing to scattering (and in some cases to absorption or both) of light by a large number of minute water droplets or other particles suspended in the atmosphere. In the case of fog the meteorological visibility is usually more reduced than in the case of mist or haze.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog

@@ -22,13 +22,17 @@ terms:
   designation: VTS Manager
   normative_status: preferred
 definition:
-- content: VTS-2012-44
-- content: Some VTS organisations may require the appointment of a manager to administer
-    and interface with regional or port management authorities.
-- content: In such circumstances the manager should possess managerial qualifications
-    to the satisfaction of the Competent Authority.
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-44
+
+    Some VTS organisations may require the appointment of a manager to administer and interface with regional or port management authorities.
+
+    In such circumstances the manager should possess managerial qualifications to the satisfaction of the Competent Authority.
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Manager

@@ -30,9 +30,10 @@ terms:
   designation: Equal-Interval Light
   normative_status: admitted
 definition:
-- content: A rhythmic light for which the alternations of light and darkness are of
-    equal duration.
-- content: "![Ch2_Fig41.jpg](/iala-vocab/images/iala/Ch2_Fig41.jpg)"
+- content: |-
+    A rhythmic light for which the alternations of light and darkness are of equal duration.
+
+    ![Ch2_Fig41.jpg](/iala-vocab/images/iala/Ch2_Fig41.jpg)
 sources:
 - type: authoritative
   origin:
@@ -40,3 +41,5 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Isophase_Light

@@ -22,12 +22,10 @@ terms:
   designation: Scattered-light meter
   normative_status: preferred
 definition:
-- content: A device which assesses the visibility by measurement of the luminous or
-    radiant flux scattered out of a direct transmission path from the source of radiation,
-    as a result of the presence of particles in the path.
-- content: This angle is chosen so that the measured flux is approximately proportional
-    to the total scattered flux; the angle selected depends on the range of visibilities
-    which are of interest. The device is then called a forward-scatter light meter.
+- content: |-
+    A device which assesses the visibility by measurement of the luminous or radiant flux scattered out of a direct transmission path from the source of radiation, as a result of the presence of particles in the path.
+
+    This angle is chosen so that the measured flux is approximately proportional to the total scattered flux; the angle selected depends on the range of visibilities which are of interest. The device is then called a forward-scatter light meter.
 sources:
 - type: authoritative
   origin:
@@ -42,3 +40,5 @@ notes:
 - content: The scattered flux may be measured over a wide range of scattering angles.
     In this case the atmospheric sample is within the measuring device. The device
     is then called a nephelometer.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Scattered-light_meter

@@ -22,9 +22,13 @@ terms:
   designation: Sound emitter - Electric
   normative_status: preferred
 definition:
-- content: Electric (sound) emitter
-- content: An electroacoustic transducer designed to emit sound.
+- content: |-
+    Electric (sound) emitter
+
+    An electroacoustic transducer designed to emit sound.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Electric

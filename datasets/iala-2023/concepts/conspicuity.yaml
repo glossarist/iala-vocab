@@ -22,9 +22,13 @@ terms:
   designation: Conspicuity
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0101303e
-- content: The ability of an object to stand out from its surroundings
+- content: |-
+    urn:mrn:iala:dic:0101303e
+
+    The ability of an object to stand out from its surroundings
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Conspicuity

@@ -33,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Profile_(of_a_lens,_other_than_a_fixed_lens)

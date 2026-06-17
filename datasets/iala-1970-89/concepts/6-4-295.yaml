@@ -31,3 +31,5 @@ sources:
 notes:
 - content: The term capacitor-start motor refers to a capacitor motor in which the
     auxiliary primary winding is energised only during the starting operation.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Capacitor_motor

@@ -22,12 +22,17 @@ terms:
   designation: VTS workstation
   normative_status: preferred
 definition:
-- content: VTS-2012-54
-- content: A VTS workstation is the place in a VTS Centre from which a VTS Operator
-    carries out his/her duties.
-- content: 'Source: IALA Guideline 1045 (2005)'
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-54
+
+    A VTS workstation is the place in a VTS Centre from which a VTS Operator carries out his/her duties.
+
+    Source: IALA Guideline 1045 (2005)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_workstation

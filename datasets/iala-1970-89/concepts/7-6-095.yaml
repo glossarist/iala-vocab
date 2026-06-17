@@ -22,11 +22,13 @@ terms:
   designation: Formwork
   normative_status: preferred
 definition:
-- content: 'Alternantive term: Shuttering'
-- content: Temporary boarding or sheeting used to contain concrete during pouring
-    and setting, shaped internally to the same profile as required for the external
-    face of the structure.
+- content: |-
+    Alternantive term: Shuttering
+
+    Temporary boarding or sheeting used to contain concrete during pouring and setting, shaped internally to the same profile as required for the external face of the structure.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Formwork

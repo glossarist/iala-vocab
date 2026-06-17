@@ -26,13 +26,17 @@ terms:
 - type: expression
   designation: Electronic position indicator
   normative_status: preferred
+- type: expression
+  designation: Electronic position indicator (E.P.I.)
+  normative_status: admitted
 definition:
-- content: Electronic position indicator (E.P.I.)
-- content: A version of Loran in which the length of the base line is measured thus
-    providing range information.
-- content: In practice the master station is placed on the survey vessel and two or
-    more slave stations are temporarily set up ashore.
+- content: |-
+    A version of Loran in which the length of the base line is measured thus providing range information.
+
+    In practice the master station is placed on the survey vessel and two or more slave stations are temporarily set up ashore.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electronic_position_indicator

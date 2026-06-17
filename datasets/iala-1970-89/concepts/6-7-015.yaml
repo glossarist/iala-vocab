@@ -30,3 +30,5 @@ sources:
 notes:
 - content: The terms step-up transformer and step-down transformer refer respectively
     to a transformer that is used to increase or decrease the voltage.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transformer

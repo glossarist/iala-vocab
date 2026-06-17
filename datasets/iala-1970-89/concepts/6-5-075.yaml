@@ -22,8 +22,9 @@ terms:
   designation: Secondary battery
   normative_status: preferred
 definition:
-- content: A battery of secondary cells.
 - content: |-
+    A battery of secondary cells.
+
     SLI (starting, lighting, ignition)
     Traction
     Vehicular propulsion
@@ -37,3 +38,5 @@ sources:
 notes:
 - content: There are many types of secondary battery of which the following are the
     most common
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Secondary_battery

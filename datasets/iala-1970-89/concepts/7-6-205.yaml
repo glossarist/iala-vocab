@@ -25,10 +25,13 @@ terms:
   designation: Leads
   normative_status: admitted
 definition:
-- content: The guides provided in a pile frame for locating the drop hammer of a pile
-    driver.
-- content: Template:IALAFooterLeaders
+- content: |-
+    The guides provided in a pile frame for locating the drop hammer of a pile driver.
+
+    Template:IALAFooterLeaders
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Leaders

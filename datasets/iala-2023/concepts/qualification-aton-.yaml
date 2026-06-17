@@ -22,10 +22,13 @@ terms:
   designation: Qualification (AtoN)
   normative_status: preferred
 definition:
-- content: Qualification (AtoN) is the formal recognition of competence which should
-    be recorded in a course certificate.
-- content: 'Source: ENG7, Recommendation R0141'
+- content: |-
+    Qualification (AtoN) is the formal recognition of competence which should be recorded in a course certificate.
+
+    Source: ENG7, Recommendation R0141
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Qualification_(AtoN)

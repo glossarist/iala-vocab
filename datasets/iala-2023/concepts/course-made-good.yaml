@@ -22,12 +22,17 @@ terms:
   designation: Course Made Good
   normative_status: preferred
 definition:
-- content: VTS-2012-10
-- content: That course which a vessel makes good over ground, as a result of the effect
-    of currents, tidal streams, and leeway caused by wind and sea.
-- content: 'Source: IALA Guideline 1068 (2009)'
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-10
+
+    That course which a vessel makes good over ground, as a result of the effect of currents, tidal streams, and leeway caused by wind and sea.
+
+    Source: IALA Guideline 1068 (2009)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Course_Made_Good

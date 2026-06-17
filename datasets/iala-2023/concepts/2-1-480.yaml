@@ -27,10 +27,13 @@ terms:
   designation: Chromaticity Co-ordinates
   normative_status: preferred
 - type: symbol
-  designation: "(Reference: C.I.E. 1931) x, y, z."
+  designation: stem:[(Reference:]
   normative_status: preferred
 definition:
-- content: The ratio of each of the three tristimulus values to their sum.
+- content: |-
+    The ratio of each of the three tristimulus values to their sum.
+
+    C.I.E. 1931) x, y, z.
 sources:
 - type: authoritative
   origin:
@@ -41,3 +44,5 @@ sources:
 notes:
 - content: 'See the Note: to 2-1-475. For a field of vision of about 10 degrees the
     symbols are x10, y10, z10'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chromaticity_Co-ordinates

@@ -21,10 +21,14 @@ terms:
 - type: expression
   designation: Radiant power
   normative_status: preferred
+- type: symbol
+  designation: stem:[Fe,]
+  normative_status: preferred
 definition:
-- content: Power emitted, transferred, or received in the form of radiation.
-- content: Symbol Fe, P
-- content: Unit watt(W)
+- content: |-
+    Power emitted, transferred, or received in the form of radiation.
+
+    P
 sources:
 - type: authoritative
   origin:
@@ -32,3 +36,6 @@ sources:
 - type: authoritative
   origin:
     ref: C.I.E
+annotations:
+- content: Unit watt(W)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radiant_power

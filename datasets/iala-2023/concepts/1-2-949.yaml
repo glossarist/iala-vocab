@@ -27,10 +27,13 @@ terms:
   designation: Bearing - Relative
   normative_status: preferred
 definition:
-- content: "(Relative) Bearing (of an object from a ship)"
-- content: The angle, measured clockwise, between the ship's head and the line joining
-    observer and object.
+- content: |-
+    (Relative) Bearing (of an object from a ship)
+
+    The angle, measured clockwise, between the ship's head and the line joining observer and object.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing_-_Relative

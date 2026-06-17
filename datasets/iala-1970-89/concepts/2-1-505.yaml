@@ -42,5 +42,6 @@ sources:
 notes:
 - content: 'For further information on the agreed uniform-chromaticity-scale diagram,
     see Reference: C.I.E.'
-examples:
-- content: kelvin (K)
+annotations:
+- content: Unit kelvin (K)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Correlated_Colour_Temperature

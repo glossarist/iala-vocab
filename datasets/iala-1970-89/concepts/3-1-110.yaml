@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Sound power level
   normative_status: preferred
+- type: expression
+  designation: Sound power level (of a sound source, in decibels)
+  normative_status: admitted
 definition:
-- content: Sound power level (of a sound source, in decibels)
 - content: Ten times the logarithm to the base 10 of the ratio of the sound power
     radiated by the source to the reference sound power (1 picowatt or 10-12 watt).
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_power_level

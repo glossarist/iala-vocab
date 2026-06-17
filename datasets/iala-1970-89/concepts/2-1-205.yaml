@@ -25,7 +25,7 @@ terms:
   designation: Absorption Factor
   normative_status: admitted
 - type: symbol
-  designation: a
+  designation: stem:[a]
   normative_status: preferred
 definition:
 - content: The ratio of the absorbed luminous flux (Fa) to the incident flux (Fo).
@@ -37,3 +37,5 @@ sources:
   origin:
     ref: C.I.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Absorptance

@@ -22,12 +22,17 @@ terms:
   designation: Service Vessels
   normative_status: preferred
 definition:
-- content: A general term for all types of vessel used by lighthouse services.
-- content: 'Note :'
-- content: The German term Seezeichenfahrzeug is a general term for all vessels that
-    mainly attend aids to navigation in order to service them.
-- content: The English term servicing vessel is often used with this meaning.
+- content: |-
+    A general term for all types of vessel used by lighthouse services.
+
+    Note :
+
+    The German term Seezeichenfahrzeug is a general term for all vessels that mainly attend aids to navigation in order to service them.
+
+    The English term servicing vessel is often used with this meaning.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Service_Vessels

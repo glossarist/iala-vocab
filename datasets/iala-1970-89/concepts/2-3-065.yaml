@@ -22,11 +22,13 @@ terms:
   designation: Chimney
   normative_status: preferred
 definition:
-- content: A glass envelope surrounding the flame of an oil lamp, and having special
-    shape, in order to improve the luminous efficacy and to avoid flickering of the
-    flame.
-- content: "![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)"
+- content: |-
+    A glass envelope surrounding the flame of an oil lamp, and having special shape, in order to improve the luminous efficacy and to avoid flickering of the flame.
+
+    ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chimney

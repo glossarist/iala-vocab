@@ -22,11 +22,13 @@ terms:
   designation: Ramark
   normative_status: preferred
 definition:
-- content: 4 3-450
-- content: A non-directional continuously transmitting radar beacon designed to give
-    an indication of bearing only, the signal extending from own ship's position to
-    the edge of the radar screen and passing through the ramark target.
+- content: |-
+    4 3-450
+
+    A non-directional continuously transmitting radar beacon designed to give an indication of bearing only, the signal extending from own ship's position to the edge of the radar screen and passing through the ramark target.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ramark

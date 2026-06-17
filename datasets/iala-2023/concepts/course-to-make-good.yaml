@@ -25,9 +25,13 @@ definition:
 - content: |-
     VTS-2012-11
     That course which a vessel intends to make good over ground, after allowing for the effect of currents, tidal streams, and leeway caused by wind and sea. (Be aware that this term does not equate to Course to Steer).
-- content: 'Source: IALA Guideline 1068 (2009)'
-- content: "(VTS33/output/8 refers)"
+
+    Source: IALA Guideline 1068 (2009)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Course_to_Make_Good

@@ -27,10 +27,13 @@ terms:
   designation: Overload
   normative_status: preferred
 definition:
-- content: 1 - The power delivered in excess of the rated power output of a source.
-- content: 2 - A condition in which power is delivered in excess of the rated power
-    output of a source.
+- content: |-
+    1 - The power delivered in excess of the rated power output of a source.
+
+    2 - A condition in which power is delivered in excess of the rated power output of a source.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Overload

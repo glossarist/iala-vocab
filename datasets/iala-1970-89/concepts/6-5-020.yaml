@@ -22,9 +22,9 @@ terms:
   designation: Secondary cell
   normative_status: preferred
 definition:
-- content: An electrochemical cell in which the chemical reaction is intended to be
-    reversed by the application of an external potential difference to the electrodes.
 - content: |-
+    An electrochemical cell in which the chemical reaction is intended to be reversed by the application of an external potential difference to the electrodes.
+
     Lead-acid
     Nickel-cadmium
     Nickel-iron
@@ -37,3 +37,5 @@ notes:
 - content: The charge on the cell may be renewed, after exhaustion, many times.
 - content: There are various different types of secondary cell, of which the following
     are the most common
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Secondary_cell

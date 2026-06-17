@@ -25,11 +25,13 @@ terms:
   designation: Spherical Mirror
   normative_status: admitted
 definition:
-- content: A type of mirror the reflecting surface of which is a portion of a sphere.
-    Light rays emitted by a point source placed at the centre of the sphere are returned
-    through the centre. Such mirrors are usually used as reinforcing mirrors.
-- content: "![Ch2_Fig13.jpg](/iala-vocab/images/iala/Ch2_Fig13.jpg)"
+- content: |-
+    A type of mirror the reflecting surface of which is a portion of a sphere. Light rays emitted by a point source placed at the centre of the sphere are returned through the centre. Such mirrors are usually used as reinforcing mirrors.
+
+    ![Ch2_Fig13.jpg](/iala-vocab/images/iala/Ch2_Fig13.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spherical_Reflector

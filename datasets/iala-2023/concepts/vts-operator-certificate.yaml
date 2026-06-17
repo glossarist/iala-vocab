@@ -22,16 +22,19 @@ terms:
   designation: VTS Operator Certificate
   normative_status: preferred
 definition:
-- content: VTS-2012-46
-- content: VTS Operator Certificate is a certificate of competence awarded by a Competent
-    Authority after the candidate VTSO has successfully completed both the V-103/1
-    training and V-103/3 OJT at the specific VTS centre where the VTSO is employed,
-    as well as meeting any specific requirements of the Competent Authority.
-- content: The VTS Operator certificate entitles the authorised holder to serve as
-    a VTS Operator and perform the functions which endorsements have been made.
-- content: 'Source: IALA Recommendation V-103 (2009)'
-- content: "(VTS33/output/8 refers)"
+- content: |-
+    VTS-2012-46
+
+    VTS Operator Certificate is a certificate of competence awarded by a Competent Authority after the candidate VTSO has successfully completed both the V-103/1 training and V-103/3 OJT at the specific VTS centre where the VTSO is employed, as well as meeting any specific requirements of the Competent Authority.
+
+    The VTS Operator certificate entitles the authorised holder to serve as a VTS Operator and perform the functions which endorsements have been made.
+
+    Source: IALA Recommendation V-103 (2009)
+
+    (VTS33/output/8 refers)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Operator_Certificate

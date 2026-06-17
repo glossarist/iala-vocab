@@ -21,12 +21,18 @@ terms:
 - type: expression
   designation: Light-Centre-Length
   normative_status: preferred
+- type: expression
+  designation: Light-Centre-Length (of an incandescent electric lamp or discharge
+    lamp)
+  normative_status: admitted
 definition:
-- content: Light-Centre-Length (of an incandescent electric lamp or discharge lamp)
-- content: The distance between the geometric centre of the luminous element and a
-    specified plane of location on a cap.
-- content: "![Ch2_Fig27.jpg](/iala-vocab/images/iala/Ch2_Fig27.jpg)"
+- content: |-
+    The distance between the geometric centre of the luminous element and a specified plane of location on a cap.
+
+    ![Ch2_Fig27.jpg](/iala-vocab/images/iala/Ch2_Fig27.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light-Centre-Length

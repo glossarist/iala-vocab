@@ -22,12 +22,17 @@ terms:
   designation: Method of bins
   normative_status: preferred
 definition:
-- content: A data reduction procedure by which test data are grouped into wind speed
-    intervals (bins).
-- content: For each bin, the number of samples and sum of parameter samples are recorded.
-- content: The average parameter value within each wind speed bin can then be evaluated.
-- content: "(This is a general technique applicable to a variety of parameters)."
+- content: |-
+    A data reduction procedure by which test data are grouped into wind speed intervals (bins).
+
+    For each bin, the number of samples and sum of parameter samples are recorded.
+
+    The average parameter value within each wind speed bin can then be evaluated.
+
+    (This is a general technique applicable to a variety of parameters).
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Method_of_bins

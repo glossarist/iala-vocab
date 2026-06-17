@@ -22,11 +22,17 @@ terms:
   designation: TestPage/de
   normative_status: preferred
 definition:
-- content: Language Test Page in GERMAN
-- content: 1-2-3
-- content: 1.2.3
-- content: Probezeite
+- content: |-
+    Language Test Page in GERMAN
+
+    1-2-3
+
+    1.2.3
+
+    Probezeite
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/TestPage/de

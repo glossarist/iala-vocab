@@ -22,10 +22,13 @@ terms:
   designation: Time to alarm
   normative_status: preferred
 definition:
-- content: The time elapsed between the occurrence of a failure in the system and
-    its presentation on the bridge.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    The time elapsed between the occurrence of a failure in the system and its presentation on the bridge.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Time_to_alarm

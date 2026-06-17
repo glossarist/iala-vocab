@@ -36,3 +36,5 @@ sources:
 - type: authoritative
   origin:
     ref: A.L.R.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Distance_finding_station

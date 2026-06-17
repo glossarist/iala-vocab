@@ -22,10 +22,13 @@ terms:
   designation: Running ground
   normative_status: preferred
 definition:
-- content: Soil or sand masses with a very high water content leading to fluidisation
-    of the ground.
-- content: The term may also be applied to very fine, dry, cohesionless soils.
+- content: |-
+    Soil or sand masses with a very high water content leading to fluidisation of the ground.
+
+    The term may also be applied to very fine, dry, cohesionless soils.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Running_ground

@@ -21,11 +21,15 @@ terms:
 - type: expression
   designation: Handling capacity
   normative_status: preferred
+- type: expression
+  designation: Handling capacity (of a transponder)
+  normative_status: admitted
 definition:
-- content: Handling capacity (of a transponder)
 - content: The maximum number of interrogating stations to which the transponder can
     respond simultaneously without material interference.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Handling_capacity

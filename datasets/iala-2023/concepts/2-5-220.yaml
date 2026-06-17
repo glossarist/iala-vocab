@@ -27,11 +27,13 @@ terms:
   designation: Sector (of a sector light)
   normative_status: preferred
 definition:
-- content: The space bounded by two vertical planes passing through the luminous source
-    of the sector light and within which a light of a given character is visible.
-    (Fig.45)
-- content: "![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)"
+- content: |-
+    The space bounded by two vertical planes passing through the luminous source of the sector light and within which a light of a given character is visible. (Fig.45)
+
+    ![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sector_(of_a_sector_light)

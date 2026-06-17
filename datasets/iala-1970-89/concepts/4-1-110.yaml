@@ -27,7 +27,7 @@ terms:
   designation: Isotropic or absolute gain of an antenna
   normative_status: preferred
 - type: symbol
-  designation: Gis
+  designation: stem:[Gis]
   normative_status: preferred
 definition:
 - content: The gain of an antenna in a given direction when the reference antenna
@@ -39,3 +39,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Isotropic_or_absolute_gain_of_an_antenna

@@ -22,10 +22,13 @@ terms:
   designation: Wick
   normative_status: preferred
 definition:
-- content: A strip of plaited material, usually cotton, which by capillary action
-    draws liquid fuel from a reservoir to a burner.
-- content: "![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)"
+- content: |-
+    A strip of plaited material, usually cotton, which by capillary action draws liquid fuel from a reservoir to a burner.
+
+    ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wick

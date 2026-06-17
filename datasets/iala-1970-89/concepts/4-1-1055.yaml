@@ -25,10 +25,13 @@ terms:
   designation: "(Ship's) Heading (defined in Chapter 1-2-045)"
   normative_status: admitted
 definition:
-- content: "(Ship's) Head"
-- content: The horizontal direction in which a ship is pointed, expressed as an angular
-    measure from a reference direction, usually true North.
+- content: |-
+    (Ship's) Head
+
+    The horizontal direction in which a ship is pointed, expressed as an angular measure from a reference direction, usually true North.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Head

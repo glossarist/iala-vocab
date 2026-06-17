@@ -33,3 +33,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: The term Average Life is sometimes loosely used for "rated life".
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rated_Life_(of_a_lamp)

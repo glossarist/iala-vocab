@@ -22,12 +22,13 @@ terms:
   designation: Gear box
   normative_status: preferred
 definition:
-- content: A casing containing gears that can be engaged in various ratios to change
-    the speed of a driven shaft relative to that of a driving shaft, usually in order
-    to maintain the engine speed within limits of efficient operation.
-- content: The gearbox may also be used to reverse the sense of rotation of the driven
-    shaft.
+- content: |-
+    A casing containing gears that can be engaged in various ratios to change the speed of a driven shaft relative to that of a driving shaft, usually in order to maintain the engine speed within limits of efficient operation.
+
+    The gearbox may also be used to reverse the sense of rotation of the driven shaft.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gear_box

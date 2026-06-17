@@ -22,11 +22,13 @@ terms:
   designation: Competence (AtoN)
   normative_status: preferred
 definition:
-- content: Competence (AtoN) is having the knowledge, skills, attitude and personal
-    attributes necessary to safely, effectively and efficiently carry out the functions
-    or sub-functions assigned to a specific AtoN position.
-- content: 'Source: ENG7, Recommendation R0141'
+- content: |-
+    Competence (AtoN) is having the knowledge, skills, attitude and personal attributes necessary to safely, effectively and efficiently carry out the functions or sub-functions assigned to a specific AtoN position.
+
+    Source: ENG7, Recommendation R0141
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Competence_(AtoN)

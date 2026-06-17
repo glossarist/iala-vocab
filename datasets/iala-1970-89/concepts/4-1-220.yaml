@@ -22,8 +22,10 @@ terms:
   designation: Pulse repetition frequency
   normative_status: preferred
 definition:
-- content: 'Acronym: P.R.F.'
-- content: The pulse repetition rate of a periodic pulse train.
+- content: |-
+    Acronym: P.R.F.
+
+    The pulse repetition rate of a periodic pulse train.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +34,5 @@ sources:
   origin:
     ref: I.R.E
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_repetition_frequency

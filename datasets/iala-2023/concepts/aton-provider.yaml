@@ -22,10 +22,13 @@ terms:
   designation: AtoN provider
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0101301e
-- content: Any organization, public or private, which is required to deploy AtoN as
-    part of its duties
+- content: |-
+    urn:mrn:iala:dic:0101301e
+
+    Any organization, public or private, which is required to deploy AtoN as part of its duties
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/AtoN_provider

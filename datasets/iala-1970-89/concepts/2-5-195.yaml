@@ -27,9 +27,10 @@ terms:
   designation: Interrupted Quick-Flashing Light
   normative_status: preferred
 definition:
-- content: Quick-flashing light (in sense 1 of 2-5-190) in which the rapid alternations
-    are interrupted at regular intervals by eclipses of long duration. (Fig.43b)
-- content: "![Ch2_Fig43.jpg](/iala-vocab/images/iala/Ch2_Fig43.jpg)"
+- content: |-
+    Quick-flashing light (in sense 1 of 2-5-190) in which the rapid alternations are interrupted at regular intervals by eclipses of long duration. (Fig.43b)
+
+    ![Ch2_Fig43.jpg](/iala-vocab/images/iala/Ch2_Fig43.jpg)
 sources:
 - type: authoritative
   origin:
@@ -37,3 +38,5 @@ sources:
 - type: authoritative
   origin:
     ref: N.L
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Interrupted_Quick-Flashing_Light

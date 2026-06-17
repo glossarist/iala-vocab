@@ -39,3 +39,5 @@ sources:
 notes:
 - content: The tangent of the angle of internal friction is the coefficient of friction
     for the soil.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Angle_of_internal_friction

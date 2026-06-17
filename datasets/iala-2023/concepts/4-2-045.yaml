@@ -27,13 +27,15 @@ terms:
   designation: Radio beacon - Dual carrier
   normative_status: preferred
 definition:
-- content: Dual carrier radio beacon
-- content: A continuous carrier radio beacon in which identification is accomplished
-    by means of a keyed second carrier. The frequency difference between the two carriers
-    is made equal to the desired audio frequency.
+- content: |-
+    Dual carrier radio beacon
+
+    A continuous carrier radio beacon in which identification is accomplished by means of a keyed second carrier. The frequency difference between the two carriers is made equal to the desired audio frequency.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
 notes:
 - content: The object of the system is to reduce the bandwidth of the transmission.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_-_Dual_carrier

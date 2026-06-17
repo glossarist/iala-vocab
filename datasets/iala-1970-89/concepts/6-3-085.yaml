@@ -22,9 +22,13 @@ terms:
   designation: Wind energy conversion system
   normative_status: preferred
 definition:
-- content: 'Acronym: WECS'
-- content: A system designed to convert wind energy into a usable form of energy.
+- content: |-
+    Acronym: WECS
+
+    A system designed to convert wind energy into a usable form of energy.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wind_energy_conversion_system

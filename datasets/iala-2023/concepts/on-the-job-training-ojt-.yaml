@@ -22,15 +22,16 @@ terms:
   designation: On-the-Job Training (OJT)
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901023e
-- content: On-the-job training (OJT) is training and familiarization at the VTS centre
-    at which the person will be employed. It includes training on the purpose of the
-    VTS, the VTS procedures, facilities and equipment used as well as the local geography
-    and appropriate regulations and other procedures.
 - content: |-
+    urn:mrn:iala:dic:0901023e
+
+    On-the-job training (OJT) is training and familiarization at the VTS centre at which the person will be employed. It includes training on the purpose of the VTS, the VTS procedures, facilities and equipment used as well as the local geography and appropriate regulations and other procedures.
+
     Source:
     IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/On-the-Job_Training_(OJT)

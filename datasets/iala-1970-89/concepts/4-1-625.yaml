@@ -22,10 +22,13 @@ terms:
   designation: Crystal-oscillator drive
   normative_status: preferred
 definition:
-- content: Crystal drive
-- content: An oscillator, the frequency of which is determined by the vibrations of
-    a crystal having piezo-electric properties.
+- content: |-
+    Crystal drive
+
+    An oscillator, the frequency of which is determined by the vibrations of a crystal having piezo-electric properties.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Crystal-oscillator_drive

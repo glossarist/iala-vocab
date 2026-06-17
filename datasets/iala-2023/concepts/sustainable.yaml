@@ -22,11 +22,10 @@ terms:
   designation: Sustainable
   normative_status: preferred
 definition:
-- content: Using the heritage in a way which meets the needs of today without compromising
-    the ability of future generations to understand, appreciate and benefit from the
-    historic environment.
-- content: "(This definition was noted at the IALA Seminar on the Practical Aspects
-    of Lighthouse Preservation in Gothenburg 2005)"
+- content: |-
+    Using the heritage in a way which meets the needs of today without compromising the ability of future generations to understand, appreciate and benefit from the historic environment.
+
+    (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
 sources:
 - type: authoritative
   origin:
@@ -34,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: Stirlingcharter
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sustainable

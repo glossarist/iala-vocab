@@ -22,10 +22,13 @@ terms:
   designation: Light Exposure
   normative_status: preferred
 - type: symbol
-  designation: H H = ?E.dt
+  designation: stem:[H]
   normative_status: preferred
 definition:
-- content: The product of an illuminance (E) and its duration (dt).
+- content: |-
+    The product of an illuminance (E) and its duration (dt).
+
+    H = ?E.dt
 sources:
 - type: authoritative
   origin:
@@ -37,5 +40,6 @@ sources:
 notes:
 - content: Formerly Quantity of Illumination and, in French, Quantite d'Eclairement.
 - content: Equivalent definition Surface density of the quantity of light received.
-examples:
-- content: lux-second (lx.s)
+annotations:
+- content: Unit lux-second (lx.s)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light_Exposure

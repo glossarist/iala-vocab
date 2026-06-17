@@ -40,5 +40,6 @@ sources:
 notes:
 - content: The corresponding relative spectral distribution curves need not be similar
     provided that the radiations give rise to identical colour sensations.
-examples:
-- content: kelvin (K)
+annotations:
+- content: Unit kelvin (K)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Colour_Temperature

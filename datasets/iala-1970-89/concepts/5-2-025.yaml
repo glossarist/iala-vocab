@@ -22,10 +22,13 @@ terms:
   designation: Remote control
   normative_status: preferred
 definition:
-- content: Control of an operation from a distance.
-- content: This invokes a link between the control device and the apparatus to be
-    operated.
+- content: |-
+    Control of an operation from a distance.
+
+    This invokes a link between the control device and the apparatus to be operated.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Remote_control

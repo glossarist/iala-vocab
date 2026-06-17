@@ -22,12 +22,15 @@ terms:
   designation: Refresher Training
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:0901028e
-- content: Refresher training is referred to by some authorities as recurrent training.
-    Refer to recurrent training definition.
-- content: 'Source: IALA Guideline G1156 Recruitment, training and assessment of VTS
-    Personnel'
+- content: |-
+    urn:mrn:iala:dic:0901028e
+
+    Refresher training is referred to by some authorities as recurrent training. Refer to recurrent training definition.
+
+    Source: IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Refresher_Training

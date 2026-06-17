@@ -22,11 +22,13 @@ terms:
   designation: Revolving Screen
   normative_status: preferred
 definition:
-- content: An opaque screen, usually of cylindrical form with apertures revolving
-    about a vertical axis in such a way as to interrupt the light from a luminous
-    source in an optic, and so to produce a desired rhythmic light.
-- content: "![Ch2_Fig37.jpg](/iala-vocab/images/iala/Ch2_Fig37.jpg)"
+- content: |-
+    An opaque screen, usually of cylindrical form with apertures revolving about a vertical axis in such a way as to interrupt the light from a luminous source in an optic, and so to produce a desired rhythmic light.
+
+    ![Ch2_Fig37.jpg](/iala-vocab/images/iala/Ch2_Fig37.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Revolving_Screen

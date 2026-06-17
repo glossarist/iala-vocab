@@ -30,11 +30,15 @@ terms:
   designation: Framework (of an optic)
   normative_status: admitted
 definition:
-- content: A rigid structure, usually of metal, in which the refracting and reflecting
-    elements of an optic are mounted. (Figs. 10 and 16b)
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
-- content: "![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)"
+- content: |-
+    A rigid structure, usually of metal, in which the refracting and reflecting elements of an optic are mounted. (Figs. 10 and 16b)
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+
+    ![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Frame_(of_an_optic)

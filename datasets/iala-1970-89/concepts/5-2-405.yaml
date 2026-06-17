@@ -22,9 +22,13 @@ terms:
   designation: Load Regulation
   normative_status: preferred
 definition:
-- content: "(Load) Regulation"
-- content: The change of controlled variable with change of load.
+- content: |-
+    (Load) Regulation
+
+    The change of controlled variable with change of load.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Load_Regulation

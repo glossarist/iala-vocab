@@ -25,10 +25,13 @@ terms:
   designation: "(Light) Beam"
   normative_status: admitted
 definition:
-- content: "(Luminous) Beam"
-- content: A group of rays emanating from a light source, and in general from an optical
-    device.
+- content: |-
+    (Luminous) Beam
+
+    A group of rays emanating from a light source, and in general from an optical device.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_beam

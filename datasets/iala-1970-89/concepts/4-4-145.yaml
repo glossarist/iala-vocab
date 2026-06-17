@@ -22,10 +22,13 @@ terms:
   designation: Decca Fundamental frequency
   normative_status: preferred
 definition:
-- content: Fundamental frequency (in Decca)
-- content: The frequency from which the other frequencies in a chain are derived by
-    harmonic multiplication.
+- content: |-
+    Fundamental frequency (in Decca)
+
+    The frequency from which the other frequencies in a chain are derived by harmonic multiplication.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Fundamental_frequency

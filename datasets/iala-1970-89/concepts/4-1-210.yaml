@@ -22,9 +22,10 @@ terms:
   designation: Pulse duration
   normative_status: preferred
 definition:
-- content: Pulse width (deprecated) Pulse length (deprecated)
-- content: The interval between the first and last instant at which the instantaneous
-    value of a pulse or of its envelope reaches a specified fraction of the peak amplitude.
+- content: |-
+    Pulse width (deprecated) Pulse length (deprecated)
+
+    The interval between the first and last instant at which the instantaneous value of a pulse or of its envelope reaches a specified fraction of the peak amplitude.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_duration

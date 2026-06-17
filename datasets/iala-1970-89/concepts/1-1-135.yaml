@@ -21,16 +21,19 @@ terms:
 - type: expression
   designation: Radiance
   normative_status: preferred
+- type: expression
+  designation: Radiance (in a given direction, at a point on the surface of a source
+    or a receptor, or at a point on the path of a beam)
+  normative_status: admitted
+- type: symbol
+  designation: stem:[Le]
+  normative_status: preferred
 definition:
-- content: Radiance (in a given direction, at a point on the surface of a source or
-    a receptor, or at a point on the path of a beam)
 - content: Quotient of the radiant flux (d2Fe) leaving, arriving at, or passing through
     an element of surface at this point and propagated in directions defined by an
     elementary cone containing the given direction, by the product of the solid angle
     (dO) of the cone and the area of the orthogonal projection of the element of surface
     on a plane perpendicular to the given direction (dA/cos ?).
-- content: Symbol Le
-- content: Unit watt per steradian per square metre (W/sr/m2)
 sources:
 - type: authoritative
   origin:
@@ -47,3 +50,6 @@ notes:
     may be considered uniform over all points of the surface and of value Ie?, then
     the radiance Le? of the surface in the particular direction is given by
 - content: For further definitions see C.I.E.
+annotations:
+- content: Unit watt per steradian per square metre (W/sr/m2)
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radiance

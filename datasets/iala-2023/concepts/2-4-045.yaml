@@ -27,11 +27,15 @@ terms:
   designation: Mercury Bath
   normative_status: preferred
 definition:
-- content: 'Alternative ter: Mercury Trough'
-- content: An annular trough containing mercury on which the optic of a revolving
-    light floats, usually under the guidance of rollers.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    Alternative ter: Mercury Trough
+
+    An annular trough containing mercury on which the optic of a revolving light floats, usually under the guidance of rollers.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mercury_Bath

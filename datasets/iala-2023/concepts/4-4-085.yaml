@@ -27,11 +27,15 @@ terms:
   designation: Loran Envelope match
   normative_status: preferred
 definition:
-- content: Envelope match (in Loran)
-- content: The comparison, in time difference, between the leading edges of the demodulated
-    and filtered pulses from a master and a slave station.
-- content: The pulses are superimposed and matched manually or automatically.
+- content: |-
+    Envelope match (in Loran)
+
+    The comparison, in time difference, between the leading edges of the demodulated and filtered pulses from a master and a slave station.
+
+    The pulses are superimposed and matched manually or automatically.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Envelope_match

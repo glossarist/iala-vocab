@@ -22,11 +22,13 @@ terms:
   designation: Easily recognizable structure
   normative_status: preferred
 definition:
-- content: A solid structure, or a structure in the form of scaffolding, fixed in
-    the ground and standing out sharply against the background, in order to be easily
-    recognisable.
-- content: "![Ch2_Fig48.jpg](/iala-vocab/images/iala/Ch2_Fig48.jpg)"
+- content: |-
+    A solid structure, or a structure in the form of scaffolding, fixed in the ground and standing out sharply against the background, in order to be easily recognisable.
+
+    ![Ch2_Fig48.jpg](/iala-vocab/images/iala/Ch2_Fig48.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Easily_recognizable_structure

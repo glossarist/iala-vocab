@@ -22,10 +22,12 @@ terms:
   designation: Sound pressure level
   normative_status: preferred
 - type: expression
+  designation: Sound pressure level (in decibels)
+  normative_status: admitted
+- type: expression
   designation: S.P.L. (in decibels)
   normative_status: admitted
 definition:
-- content: Sound pressure level (in decibels)
 - content: Twenty times the logarithm to the base 10 of the ratio of the sound pressure
     to the reference pressure (20 micronewtons per square metre or 2*10-4 microbar
     or 2*10-4 dyne per square centimetre).
@@ -37,3 +39,5 @@ sources:
   origin:
     ref: I.E.C
   modification: modified from source
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_pressure_level

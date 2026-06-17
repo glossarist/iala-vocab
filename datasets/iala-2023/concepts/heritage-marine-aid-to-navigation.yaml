@@ -22,13 +22,15 @@ terms:
   designation: Heritage marine aid to navigation
   normative_status: preferred
 definition:
-- content: urn:mrn:iala:dic:1201003e
-- content: Any Marine Aid to Navigation (including a Historic Lighthouse) that is
-    of cultural significance which goes beyond its current function and time. A Heritage
-    Marine Aid to Navigation may or may not have national statutory protection and
-    the term includes ancillary structures of the marine aid to navigation.
-- content: 'Source: ENG14'
+- content: |-
+    urn:mrn:iala:dic:1201003e
+
+    Any Marine Aid to Navigation (including a Historic Lighthouse) that is of cultural significance which goes beyond its current function and time. A Heritage Marine Aid to Navigation may or may not have national statutory protection and the term includes ancillary structures of the marine aid to navigation.
+
+    Source: ENG14
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Heritage_marine_aid_to_navigation

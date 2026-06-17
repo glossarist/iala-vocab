@@ -27,9 +27,13 @@ terms:
   designation: Lens Carriage
   normative_status: preferred
 definition:
-- content: A metal plate or ring arranged horizontally as a support for the optic.
-- content: "![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)"
+- content: |-
+    A metal plate or ring arranged horizontally as a support for the optic.
+
+    ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lens_Carriage

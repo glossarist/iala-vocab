@@ -30,10 +30,13 @@ terms:
   designation: Low Light
   normative_status: admitted
 definition:
-- content: A light which, of a number of leading lights in line, is the nearest to
-    the navigator using the leading line.
-- content: "![Ch2_Fig47.jpg](/iala-vocab/images/iala/Ch2_Fig47.jpg)"
+- content: |-
+    A light which, of a number of leading lights in line, is the nearest to the navigator using the leading line.
+
+    ![Ch2_Fig47.jpg](/iala-vocab/images/iala/Ch2_Fig47.jpg)
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Front_Light

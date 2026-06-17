@@ -22,9 +22,10 @@ terms:
   designation: Comparing element
   normative_status: preferred
 definition:
-- content: Comparator (U.S.A.)
-- content: An element which compares two input signals and transmits an output signal
-    resulting from the difference between them.
+- content: |-
+    Comparator (U.S.A.)
+
+    An element which compares two input signals and transmits an output signal resulting from the difference between them.
 sources:
 - type: authoritative
   origin:
@@ -32,3 +33,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.E.C
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Comparing_element

@@ -27,10 +27,10 @@ terms:
   designation: Converged Beam
   normative_status: preferred
 definition:
-- content: A form of fan beam {{2-1-090, Luminous fan beam}} in which the angle of
-    divergence is decreased by diverting a part of the light laterally to increase
-    the intensity in a desired direction.
-- content: "![Ch2_Fig18.jpg](/iala-vocab/images/iala/Ch2_Fig18.jpg)"
+- content: |-
+    A form of fan beam {{2-1-090, Luminous fan beam}} in which the angle of divergence is decreased by diverting a part of the light laterally to increase the intensity in a desired direction.
+
+    ![Ch2_Fig18.jpg](/iala-vocab/images/iala/Ch2_Fig18.jpg)
 sources:
 - type: authoritative
   origin:
@@ -38,3 +38,5 @@ sources:
 notes:
 - content: The Directional Drum Lens is used in the United States and is an example
     of an optic which produces a converged beam.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Converged_Beam

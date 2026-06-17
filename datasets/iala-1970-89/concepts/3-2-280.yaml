@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Tapper
   normative_status: preferred
+- type: expression
+  designation: Tapper (U.S.A.)
+  normative_status: admitted
 definition:
-- content: Tapper (U.S.A.)
 - content: A heavy pendulum suspended outside a bell which sets the bell in vibration
     by striking it.
 sources:
@@ -31,3 +33,5 @@ sources:
     ref: IALA Dictionary
 notes:
 - content: A tapper is a form of hammer {{3-2-285, Hammer}}.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tapper

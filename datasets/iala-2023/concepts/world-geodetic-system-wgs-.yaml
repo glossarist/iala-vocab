@@ -22,12 +22,15 @@ terms:
   designation: World geodetic system (WGS)
   normative_status: preferred
 definition:
-- content: A consistent set of parameters describing the size and shape of the Earth,
-    positions of a network of points with respect to the centre of mass of the Earth,
-    transformations from major geodetic datums and the potential of the Earth.
-- content: WGS 84. The coordinate system used by GPS.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    A consistent set of parameters describing the size and shape of the Earth, positions of a network of points with respect to the centre of mass of the Earth, transformations from major geodetic datums and the potential of the Earth.
+
+    WGS 84. The coordinate system used by GPS.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/World_geodetic_system_(WGS)

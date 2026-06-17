@@ -22,11 +22,13 @@ terms:
   designation: Wave surface
   normative_status: preferred
 definition:
-- content: Surface produced by a progressive wave in space, containing points of equal
-    phase of the oscillation.
-- content: For maritime use this term is also applied to the surface of the sea with
-    waves.
+- content: |-
+    Surface produced by a progressive wave in space, containing points of equal phase of the oscillation.
+
+    For maritime use this term is also applied to the surface of the sea with waves.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wave_surface

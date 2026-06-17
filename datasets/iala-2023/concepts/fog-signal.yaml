@@ -22,12 +22,17 @@ terms:
   designation: Fog signal
   normative_status: preferred
 definition:
-- content: 3-1 -030
-- content: Sound signal to warn ships in conditions of poor visibility.
-- content: Also called Audible Signal or Sound Signal.
-- content: 'Source: IALA Guideline G1090 on The Use of Audible Signals Edition 1 December
-    2012.'
+- content: |-
+    3-1 -030
+
+    Sound signal to warn ships in conditions of poor visibility.
+
+    Also called Audible Signal or Sound Signal.
+
+    Source: IALA Guideline G1090 on The Use of Audible Signals Edition 1 December 2012.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal

@@ -22,10 +22,13 @@ terms:
   designation: Redundancy (2)
   normative_status: preferred
 definition:
-- content: The existence of multiple equipment or means for accomplishing a given
-    function in order to increase the reliability of the total system.
-- content: 'Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009'
+- content: |-
+    The existence of multiple equipment or means for accomplishing a given function in order to increase the reliability of the total system.
+
+    Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Redundancy_(2)

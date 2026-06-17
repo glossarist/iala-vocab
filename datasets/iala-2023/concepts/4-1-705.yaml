@@ -27,12 +27,13 @@ terms:
   designation: Intermediate frequency
   normative_status: preferred
 definition:
-- content: 'Acronym: I.F.'
-- content: In superheterodyne reception, the frequency which is derived by mixing
-    the signal-carrying frequency with the local oscillator frequency. If there be
-    more than one such mixing process the successive intermediate frequencies are
-    known as the first, second, etc. intermediate frequency.
+- content: |-
+    Acronym: I.F.
+
+    In superheterodyne reception, the frequency which is derived by mixing the signal-carrying frequency with the local oscillator frequency. If there be more than one such mixing process the successive intermediate frequencies are known as the first, second, etc. intermediate frequency.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Intermediate_frequency

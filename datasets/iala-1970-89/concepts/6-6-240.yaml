@@ -33,3 +33,5 @@ notes:
 - content: If the open-circuit state is produced sufficiently quickly to prevent the
     short-circuit current from attaining its full value, the term high-speed circuit
     breaker is applied.
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Circuit_breaker

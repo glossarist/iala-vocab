@@ -27,41 +27,72 @@ terms:
   designation: Classification of emissions
   normative_status: preferred
 definition:
-- content: Emissions are classified and symbolised according to the following characteristics
-- content: 1. Type of modulation of main carrier
-- content: 2. Type of transmission
-- content: 3. Supplementary characteristics
-- content: Symbol
-- content: 1. Types of modulation of main carrier
-- content: a. Amplitude A
-- content: b. Frequency (or Phase) F
-- content: c. Pulse P
-- content: 2. Types of transmission
-- content: a. Absence of any modulation intended to carry information 0
-- content: b. Telegraphy without the use of a modulating audio frequency 1
-- content: c. Telegraphy by the on-off keying of a modulating audio frequency or audio
-    frequencies, or by the on-off keying of the modulated
-- content: emission (special case an unkeyed modulated emission) 2
-- content: d. Telephony (including sound broadcasting) 3
-- content: e. Facsimile (with modulation of main carrier either directly or by a frequency
-    modulated sub-carrier) 4
-- content: f. - line missing -
-- content: g. Four-frequency diplex telegraphy 6
-- content: h. .Multichannel voice-frequency telegraphy 7
-- content: i. Cases not covered by the above 9
-- content: 3. Supplementary characteristics
-- content: a. Double sideband (None)
-- content: b. Single sideband
-- content: "-reduced carrier A"
-- content: "-full carrier H"
-- content: "-suppressed carrier J"
-- content: c. Two independent sidebands B
-- content: d. Vestigial sideband C
-- content: e. Pulse
-- content: "-amplitude modulated D"
-- content: "-width (or duration) modulated E"
-- content: "-phase (or position) modulated F"
-- content: "-code modulated G"
+- content: |-
+    Emissions are classified and symbolised according to the following characteristics
+
+    1. Type of modulation of main carrier
+
+    2. Type of transmission
+
+    3. Supplementary characteristics
+
+    Symbol
+
+    1. Types of modulation of main carrier
+
+    a. Amplitude A
+
+    b. Frequency (or Phase) F
+
+    c. Pulse P
+
+    2. Types of transmission
+
+    a. Absence of any modulation intended to carry information 0
+
+    b. Telegraphy without the use of a modulating audio frequency 1
+
+    c. Telegraphy by the on-off keying of a modulating audio frequency or audio frequencies, or by the on-off keying of the modulated
+
+    emission (special case an unkeyed modulated emission) 2
+
+    d. Telephony (including sound broadcasting) 3
+
+    e. Facsimile (with modulation of main carrier either directly or by a frequency modulated sub-carrier) 4
+
+    f. - line missing -
+
+    g. Four-frequency diplex telegraphy 6
+
+    h. .Multichannel voice-frequency telegraphy 7
+
+    i. Cases not covered by the above 9
+
+    3. Supplementary characteristics
+
+    a. Double sideband (None)
+
+    b. Single sideband
+
+    -reduced carrier A
+
+    -full carrier H
+
+    -suppressed carrier J
+
+    c. Two independent sidebands B
+
+    d. Vestigial sideband C
+
+    e. Pulse
+
+    -amplitude modulated D
+
+    -width (or duration) modulated E
+
+    -phase (or position) modulated F
+
+    -code modulated G
 sources:
 - type: authoritative
   origin:
@@ -69,3 +100,5 @@ sources:
 - type: authoritative
   origin:
     ref: I.T.U
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Classification_of_emissions

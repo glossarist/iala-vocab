@@ -21,12 +21,16 @@ terms:
 - type: expression
   designation: R.F. stage
   normative_status: preferred
+- type: expression
+  designation: R.F. stage (of a radio transmitter)
+  normative_status: admitted
 definition:
-- content: R.F. stage (of a radio transmitter)
-- content: 1. That part of a radio transmitter in which the radio frequency signals
-    are amplified.
-- content: 2. This term is usually used to refer to the output stage of a transmitter.
+- content: That part of a radio transmitter in which the radio frequency signals are
+    amplified.
+- content: This term is usually used to refer to the output stage of a transmitter.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/R.F._stage

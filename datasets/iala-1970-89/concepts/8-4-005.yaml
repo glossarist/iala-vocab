@@ -27,19 +27,21 @@ terms:
   designation: Buoy
   normative_status: preferred
 definition:
-- content: A floating, and moored, artificial navigation mark. It can be recognized
-    by means of its shape, colour, pattern, topmark or light character, or a combination
-    of these. It may carry various additional aids to navigation.
-- content: 'Note 1 :'
-- content: The terms light buoy and lighted buoy refer to a buoy that is fitted with
-    a signal light.
-- content: 'Note 2 :'
-- content: The term high focal plane (HFP) buoy may be used for a light buoy on which
-    the signal light is fitted particularly high above the waterline.
-- content: 'Note 3 :'
-- content: The terms unlighted buoy and blind buoy refer to a buoy that is not fitted
-    with a signal light.
+- content: |-
+    A floating, and moored, artificial navigation mark. It can be recognized by means of its shape, colour, pattern, topmark or light character, or a combination of these. It may carry various additional aids to navigation.
+
+    The terms light buoy and lighted buoy refer to a buoy that is fitted with a signal light.
+
+    The term high focal plane (HFP) buoy may be used for a light buoy on which the signal light is fitted particularly high above the waterline.
+
+    The terms unlighted buoy and blind buoy refer to a buoy that is not fitted with a signal light.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+notes:
+- content: " :"
+- content: " :"
+- content: " :"
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoy

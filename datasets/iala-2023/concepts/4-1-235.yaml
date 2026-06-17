@@ -27,11 +27,13 @@ terms:
   designation: Aperiodic antenna
   normative_status: preferred
 definition:
-- content: Non-resonant antenna
-- content: An antenna designed to operate over an extensive frequency range and having
-    characteristics, in particular impedance and directivity, which vary only slightly
-    over the range.
+- content: |-
+    Non-resonant antenna
+
+    An antenna designed to operate over an extensive frequency range and having characteristics, in particular impedance and directivity, which vary only slightly over the range.
 sources:
 - type: authoritative
   origin:
     ref: IALA Dictionary
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Aperiodic_antenna

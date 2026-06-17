@@ -21,8 +21,10 @@ terms:
 - type: expression
   designation: Random access memory
   normative_status: preferred
+- type: expression
+  designation: Random Access Memory (RAM)
+  normative_status: admitted
 definition:
-- content: Random Access Memory (RAM)
 - content: A storage device in which the access time is effectively independent of
     the location of the data.
 sources:
@@ -32,3 +34,5 @@ sources:
 - type: authoritative
   origin:
     ref: ANSI (extract)
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Random_access_memory

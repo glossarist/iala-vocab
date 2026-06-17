@@ -26,8 +26,10 @@ terms:
 - type: expression
   designation: Bandwidth characteristic
   normative_status: preferred
+- type: expression
+  designation: Bandwidth characteristic (of the whole or part of a radio transmitter)
+  normative_status: admitted
 definition:
-- content: Bandwidth characteristic (of the whole or part of a radio transmitter)
 - content: The variation of the output power with respect to frequency, the transmitter
     having been adjusted for operation on a specified frequency, and the frequency
     variation normally being only a small percentage of the specified frequency.
@@ -38,3 +40,5 @@ sources:
 - type: authoritative
   origin:
     ref: B.S
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bandwidth_characteristic

@@ -29,7 +29,9 @@ sources:
   origin:
     ref: IALA Dictionary
 notes:
-- content: ": The output may be a signal or the value of a manipulated variable. The
-    input may be the control-loop feedback signal when the command is constant, an
-    actuating signal, or the output of another control element. One use of control
-    action is to effect compensation."
+- content: 'Note:: The output may be a signal or the value of a manipulated variable.
+    The input may be the control-loop feedback signal when the command is constant,
+    an actuating signal, or the output of another control element. One use of control
+    action is to effect compensation.'
+annotations:
+- content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Control_action
