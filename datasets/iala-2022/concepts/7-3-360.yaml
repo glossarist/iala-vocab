@@ -1,66 +1,40 @@
 ---
-id: 7-3-360
 data:
   identifier: 7-3-360
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Baulk
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-360
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-360
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Baulk
+  type: authoritative
+status: valid
+id: 7-3-360
 ---
-id: 7-3-360-eng
-termid: 7-3-360
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Baulk
-    normative_status: preferred
   definition:
   - content: A heavy square sawn or hewn timber approximately square in section.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Baulk
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Baulk
+termid: 7-3-360
+id: 71d13c88-499e-56be-aa76-8b4cec1786c8

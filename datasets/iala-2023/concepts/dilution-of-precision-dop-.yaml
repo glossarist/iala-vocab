@@ -1,56 +1,25 @@
 ---
-id: dilution-of-precision-dop-
 data:
   identifier: dilution-of-precision-dop-
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Dilution_of_precision_(DOP)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: dilution-of-precision-dop-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: dilution-of-precision-dop-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: dilution-of-precision-dop-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: dilution-of-precision-dop-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: dilution-of-precision-dop-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: dilution-of-precision-dop-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: dilution-of-precision-dop-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Dilution_of_precision_(DOP)
+  type: authoritative
+status: valid
+id: dilution-of-precision-dop-
 ---
-id: dilution-of-precision-dop--eng
-termid: dilution-of-precision-dop-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Dilution of precision (DOP)
-    normative_status: preferred
   definition:
   - content: |-
       The factor by which the accuracy of a GNSS, or other radio-navigation system position and time co-ordinates are degraded by geometrical considerations of the constellation of GNSS satellites used by the receiver.
@@ -66,10 +35,19 @@ data:
       – Time dilution of precision (TDOP). The factor for the time accuracy.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dilution of precision (DOP)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Dilution_of_precision_(DOP)
+termid: dilution-of-precision-dop-
+id: 1bb70947-c90c-52c3-80ed-fdd551713382

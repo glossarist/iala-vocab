@@ -1,77 +1,51 @@
 ---
-id: 4-3-510
 data:
   identifier: 4-3-510
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Chopping
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-510
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-510
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Chopping
+  type: authoritative
+status: valid
+id: 4-3-510
 ---
-id: 4-3-510-eng
-termid: 4-3-510
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Chopping
-    normative_status: preferred
-  - type: expression
-    designation: Chopping (in a transponder)
-    normative_status: admitted
-  - type: expression
-    designation: Chopped response (in a transponder)
-    normative_status: admitted
   definition:
   - content: In a transponder, the rapid and regular on-off switching of the transponder
       for recognition purposes.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Chopping
+  - type: expression
+    normative_status: admitted
+    designation: Chopping (in a transponder)
+  - type: expression
+    normative_status: admitted
+    designation: Chopped response (in a transponder)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chopping
+termid: 4-3-510
+id: 0f149dcf-02ba-5af6-b225-30bacd006fab

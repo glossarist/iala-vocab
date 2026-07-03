@@ -1,69 +1,43 @@
 ---
-id: 6-2-255
 data:
   identifier: 6-2-255
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Compressor_unloading_system
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-255
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-2-255
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Compressor_unloading_system
+  type: authoritative
+status: valid
+id: 6-2-255
 ---
-id: 6-2-255-eng
-termid: 6-2-255
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Compressor unloading system
-    normative_status: preferred
   definition:
   - content: An automatic system, associated with a compressor, that takes the compressor
       off load when the discharge pressure has reached a given level ; and that similarly
       restarts the compressing action when the pressure in the system has dropped
       to a certain level. The compressor runs continuously.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Compressor unloading system
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Compressor_unloading_system
+termid: 6-2-255
+id: 21464284-db95-5c12-be74-73775fe9889a

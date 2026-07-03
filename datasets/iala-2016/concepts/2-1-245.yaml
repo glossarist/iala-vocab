@@ -1,67 +1,28 @@
 ---
-id: 2-1-245
 data:
   identifier: 2-1-245
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-unknown
+  - concept_id: section-unknown
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: superseded
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Geographical_Range_(Superseded)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-245
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-1-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-245
-- type: superseded_by
-  ref:
-    source: urn:iala:dictionary:2023
-    id: geographical-range
 dates:
-- type: retired
-  date: '2023'
+- date: '2023'
+  type: retired
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Geographical_Range_(Superseded)
+  type: authoritative
+status: superseded
+id: 2-1-245
 ---
-id: 2-1-245-eng
-termid: 2-1-245
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Geographical Range (Superseded)
-    normative_status: preferred
   definition:
   - content: |-
       Superseded by new definition from Guideline G1065
@@ -69,10 +30,19 @@ data:
       The maximum distance at which light from a light or other aid to navigation can reach an observer, as limited only by the curvature of the earth and refraction in the atmosphere and by the heights of the observer and of the light or aid.
 
       ![Ch2_Fig9.jpg](/iala-vocab/images/iala/Ch2_Fig9.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Geographical Range (Superseded)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Geographical_Range_(Superseded)
+termid: 2-1-245
+id: 372c4822-457f-5cec-997f-715e04c621cd

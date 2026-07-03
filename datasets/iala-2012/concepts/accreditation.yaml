@@ -13,31 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Accreditation
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: accreditation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: accreditation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: accreditation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: accreditation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: accreditation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: accreditation
+related: []
 ---
 id: accreditation-eng
 termid: accreditation

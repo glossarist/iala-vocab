@@ -1,67 +1,41 @@
 ---
-id: 7-2-550
 data:
   identifier: 7-2-550
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Furniture_(architectural)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-550
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-2-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-550
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Furniture_(architectural)
+  type: authoritative
+status: valid
+id: 7-2-550
 ---
-id: 7-2-550-eng
-termid: 7-2-550
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Furniture (architectural)
-    normative_status: preferred
   definition:
   - content: Attachments necessary for the operation of a door or window, ie. hinges,
       locks, handles, etc.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Furniture (architectural)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Furniture_(architectural)
+termid: 7-2-550
+id: 01d12e99-741c-5725-b043-c5c944810130

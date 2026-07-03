@@ -1,67 +1,41 @@
 ---
-id: 6-3-110
 data:
   identifier: 6-3-110
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Wind_speed_duration_curve
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-110
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-110
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Wind_speed_duration_curve
+  type: authoritative
+status: valid
+id: 6-3-110
 ---
-id: 6-3-110-eng
-termid: 6-3-110
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Wind speed duration curve
-    normative_status: preferred
   definition:
   - content: A characteristic depicting the cumulative hours the wind speed exceeds
       a specified wind speed in a year as a function of these specified speeds.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wind speed duration curve
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wind_speed_duration_curve
+termid: 6-3-110
+id: 1eed2526-0eca-563a-b9f4-5efb1dc716b4

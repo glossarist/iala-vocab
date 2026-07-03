@@ -1,78 +1,51 @@
 ---
-id: 2-1-505
 data:
   identifier: 2-1-505
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Correlated_Colour_Temperature
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-505
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-1-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-505
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Correlated_Colour_Temperature
+  type: authoritative
+status: valid
+id: 2-1-505
 ---
-id: 2-1-505-eng
-termid: 2-1-505
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Correlated Colour Temperature
-    normative_status: preferred
   definition:
   - content: The colour temperature corresponding to that point on the line representing
       full radiators of different colour temperature which is nearest to the point
       representing the chromaticity of the illuminant, considered on an agreed uniform-chromaticity-scale
       diagram.
+  examples: []
   notes:
   - content: 'For further information on the agreed uniform-chromaticity-scale diagram,
       see Reference: C.I.E.'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Correlated Colour Temperature
+  language_code: eng
   annotations:
   - content: Unit kelvin (K)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Correlated_Colour_Temperature
+termid: 2-1-505
+id: ca9f3bb5-b7a9-575b-842e-e7da6b37df16

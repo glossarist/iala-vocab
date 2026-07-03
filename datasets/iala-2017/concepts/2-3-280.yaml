@@ -1,68 +1,42 @@
 ---
-id: 2-3-280
 data:
   identifier: 2-3-280
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Nigrescence_Time_(of_a_lamp)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-280
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 2-3-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-280
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Nigrescence_Time_(of_a_lamp)
+  type: authoritative
+status: valid
+id: 2-3-280
 ---
-id: 2-3-280-eng
-termid: 2-3-280
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Nigrescence Time (of a lamp)
-    normative_status: preferred
   definition:
   - content: The time elapsing between the cessation of the supply of power to the
       lamp and the decrease of luminous intensity or luminous flux of the lamp to
       a specified percentage of the nominal value at the given power level.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nigrescence Time (of a lamp)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Nigrescence_Time_(of_a_lamp)
+termid: 2-3-280
+id: a21879a7-5da8-5bee-a8e6-8e9392680bcb

@@ -1,67 +1,41 @@
 ---
-id: 7-2-330
 data:
   identifier: 7-2-330
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Gusset_plate
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-330
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-2-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-330
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Gusset_plate
+  type: authoritative
+status: valid
+id: 7-2-330
 ---
-id: 7-2-330-eng
-termid: 7-2-330
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Gusset plate
-    normative_status: preferred
   definition:
   - content: A steel plate, normally rectangular or triangular, used for making or
       reinforcing the connections between the members of a truss.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Gusset plate
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gusset_plate
+termid: 7-2-330
+id: 0b26c70e-335f-567a-99e2-49579a20e82e

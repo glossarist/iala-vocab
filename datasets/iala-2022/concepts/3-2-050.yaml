@@ -1,69 +1,43 @@
 ---
-id: 3-2-050
 data:
   identifier: 3-2-050
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Stacked_array
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 3-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Stacked_array
+  type: authoritative
+status: valid
+id: 3-2-050
 ---
-id: 3-2-050-eng
-termid: 3-2-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sound emitter - Stacked array
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: Stacked array (U.S.A.), Vertical stack (G.B.)
 
       An assembly of sound emitters, mounted vertically one above the other and so spaced and excited as to concentrate their power in the horizontal direction.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sound emitter - Stacked array
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Stacked_array
+termid: 3-2-050
+id: 1d91a205-e737-5ae4-9839-880f96f80d17

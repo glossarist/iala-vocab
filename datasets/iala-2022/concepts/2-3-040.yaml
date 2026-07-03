@@ -1,69 +1,43 @@
 ---
-id: 2-3-040
 data:
   identifier: 2-3-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Nipple
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-040
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Nipple
+  type: authoritative
+status: valid
+id: 2-3-040
 ---
-id: 2-3-040-eng
-termid: 2-3-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Nipple
-    normative_status: preferred
   definition:
   - content: |-
       The part of a burner having a small orifice through which the jet of inflammable gas passes.
 
       ![Ch2_Fig20.jpg](/iala-vocab/images/iala/Ch2_Fig20.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nipple
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Nipple
+termid: 2-3-040
+id: aa0b29fd-f6cc-50a3-b100-158f512746bc

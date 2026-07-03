@@ -1,74 +1,48 @@
 ---
-id: 3-1-005
 data:
   identifier: 3-1-005
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pure_sound
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-1-005
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 3-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-005
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pure_sound
+  type: authoritative
+status: valid
+id: 3-1-005
 ---
-id: 3-1-005-eng
-termid: 3-1-005
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pure sound
-    normative_status: preferred
-  - type: expression
-    designation: Pure tone
-    normative_status: admitted
   definition:
   - content: A sound produced by a sinusoidal acoustic oscillation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pure sound
+  - type: expression
+    normative_status: admitted
+    designation: Pure tone
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pure_sound
+termid: 3-1-005
+id: e396569e-9d7b-5e23-89b5-756ef1c8634a

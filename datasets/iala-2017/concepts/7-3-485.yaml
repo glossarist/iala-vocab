@@ -1,69 +1,43 @@
 ---
-id: 7-3-485
 data:
   identifier: 7-3-485
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Shot_blasting
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-485
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-3-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-485
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Shot_blasting
+  type: authoritative
+status: valid
+id: 7-3-485
 ---
-id: 7-3-485-eng
-termid: 7-3-485
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Shot blasting
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: Grit blasting, Sand blasting
 
       Method of cleaning a steel surface by projecting steel shot, grit, or sand on to it using a compressed air blast.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Shot blasting
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shot_blasting
+termid: 7-3-485
+id: 0a7b90ee-abb8-5fde-857f-514e45cccea1

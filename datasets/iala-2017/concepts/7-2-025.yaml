@@ -1,67 +1,41 @@
 ---
-id: 7-2-025
 data:
   identifier: 7-2-025
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Wind_bracing
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-025
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-025
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Wind_bracing
+  type: authoritative
+status: valid
+id: 7-2-025
 ---
-id: 7-2-025-eng
-termid: 7-2-025
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Wind bracing
-    normative_status: preferred
   definition:
   - content: Structural members, usually diagonal, designed to stiffen a structure
       to resist wind forces.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wind bracing
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wind_bracing
+termid: 7-2-025
+id: '09d0fd91-c5d3-5eeb-a19b-fd4eac0d9487'

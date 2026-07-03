@@ -1,79 +1,52 @@
 ---
-id: 2-1-480
 data:
   identifier: 2-1-480
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Chromaticity_Co-ordinates
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 2-1-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-480
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Chromaticity_Co-ordinates
+  type: authoritative
+status: valid
+id: 2-1-480
 ---
-id: 2-1-480-eng
-termid: 2-1-480
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Chromaticity Co-ordinates
-    normative_status: preferred
-  - type: symbol
-    designation: stem:[(Reference:]
-    normative_status: preferred
   definition:
   - content: |-
       The ratio of each of the three tristimulus values to their sum.
 
       C.I.E. 1931) x, y, z.
+  examples: []
   notes:
   - content: 'See the Note: to 2-1-475. For a field of vision of about 10 degrees
       the symbols are x10, y10, z10'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E. (extract)
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Chromaticity Co-ordinates
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[(Reference:]
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chromaticity_Co-ordinates
+termid: 2-1-480
+id: ff466b57-6296-5616-8caf-4e490e140707

@@ -1,67 +1,41 @@
 ---
-id: 7-5-030
 data:
   identifier: 7-5-030
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Tension
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-030
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-5-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-030
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Tension
+  type: authoritative
+status: valid
+id: 7-5-030
 ---
-id: 7-5-030-eng
-termid: 7-5-030
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Tension
-    normative_status: preferred
   definition:
   - content: A force applied to a member along its longitudinal axis which tends to
       elongate that member.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tension
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tension
+termid: 7-5-030
+id: cef68330-0f97-5940-974e-594310694637

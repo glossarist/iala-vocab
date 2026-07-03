@@ -1,65 +1,43 @@
 ---
-id: e-navigation
 data:
   identifier: e-navigation
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/E-Navigation
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: e-navigation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: e-navigation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: e-navigation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: e-navigation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: e-navigation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: e-navigation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: e-navigation
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/E-Navigation
+  type: authoritative
+status: valid
+id: e-navigation
 ---
-id: e-navigation-eng
-termid: e-navigation
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: E-Navigation
-    normative_status: preferred
   definition:
   - content: |-
       e-Navigation is the harmonised collection, integration, exchange, presentation and analysis of maritime information onboard and ashore by electronic means to enhance berth to berth navigation and related services, for safety and security at sea and protection of the marine environment
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: E-Navigation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/E-Navigation
+termid: e-navigation
+id: 013e0ea7-05fa-5519-ae27-d27a4e318899

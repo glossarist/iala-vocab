@@ -1,69 +1,43 @@
 ---
-id: 7-4-290
 data:
   identifier: 7-4-290
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Running_ground
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-4-290
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-290
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Running_ground
+  type: authoritative
+status: valid
+id: 7-4-290
 ---
-id: 7-4-290-eng
-termid: 7-4-290
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Running ground
-    normative_status: preferred
   definition:
   - content: |-
       Soil or sand masses with a very high water content leading to fluidisation of the ground.
 
       The term may also be applied to very fine, dry, cohesionless soils.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Running ground
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Running_ground
+termid: 7-4-290
+id: bf556757-45fb-508b-b2fb-0bd2181f9dbd

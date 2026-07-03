@@ -1,69 +1,43 @@
 ---
-id: 6-3-070
 data:
   identifier: 6-3-070
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Shadowing_(of_a_solar_cell)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 6-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-070
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Shadowing_(of_a_solar_cell)
+  type: authoritative
+status: valid
+id: 6-3-070
 ---
-id: 6-3-070-eng
-termid: 6-3-070
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Shadowing (of a solar cell)
-    normative_status: preferred
   definition:
   - content: The partial interception of light, that would otherwise be incidental
       on a solar cell, due to neighbouring objects or structural elements. This can
       cause the cell to operate in the reverse bias mode, in which it acts as a heat-dissipating
       resistive element.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Shadowing (of a solar cell)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shadowing_(of_a_solar_cell)
+termid: 6-3-070
+id: 5af4c15f-3939-5612-af8c-ace78a6c0d7c

@@ -1,73 +1,47 @@
 ---
-id: 4-2-210
 data:
   identifier: 4-2-210
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Observed_bearing
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-210
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-2-210
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Observed_bearing
+  type: authoritative
+status: valid
+id: 4-2-210
 ---
-id: 4-2-210-eng
-termid: 4-2-210
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Observed bearing
-    normative_status: preferred
-  - type: expression
-    designation: Observed bearing (in direction finding)
-    normative_status: admitted
   definition:
   - content: The reading of the bearing scale of the direction finder.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Observed bearing
+  - type: expression
+    normative_status: admitted
+    designation: Observed bearing (in direction finding)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Observed_bearing
+termid: 4-2-210
+id: 940d45bc-18f0-5c4b-87e1-15f139d97220

@@ -1,68 +1,42 @@
 ---
-id: 4-1-810
 data:
   identifier: 4-1-810
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Square_law_detector
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-810
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-810
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-1-810
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-810
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-810
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-810
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-810
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-810
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Square_law_detector
+  type: authoritative
+status: valid
+id: 4-1-810
 ---
-id: 4-1-810-eng
-termid: 4-1-810
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Square law detector
-    normative_status: preferred
   definition:
   - content: A detector which demodulates small signals and whose output voltage is
       substantially proportional to the square of the voltage of the modulated input
       wave.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Square law detector
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Square_law_detector
+termid: 4-1-810
+id: 6965d0f8-dd9b-52fb-a65b-7a283b16bad8

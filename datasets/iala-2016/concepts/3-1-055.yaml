@@ -1,70 +1,44 @@
 ---
-id: 3-1-055
 data:
   identifier: 3-1-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Static_pressure
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-1-055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 3-1-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-1-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-1-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Static_pressure
+  type: authoritative
+status: valid
+id: 3-1-055
 ---
-id: 3-1-055-eng
-termid: 3-1-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Static pressure
-    normative_status: preferred
   definition:
   - content: The pressure that would exist at that point in the absence of sound waves.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Static pressure
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Static_pressure
+termid: 3-1-055
+id: 303593c1-5ccc-5feb-a20c-84a09825e614

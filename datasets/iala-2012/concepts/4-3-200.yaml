@@ -1,76 +1,50 @@
 ---
-id: 4-3-200
 data:
   identifier: 4-3-200
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/TB_cell
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-200
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-3-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-200
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/TB_cell
+  type: authoritative
+status: valid
+id: 4-3-200
 ---
-id: 4-3-200-eng
-termid: 4-3-200
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: TB cell
-    normative_status: preferred
-  - type: expression
-    designation: ATR tube
-    normative_status: admitted
   definition:
   - content: A gas filled switching tube employed when a common transmitter and receiver
       antenna is used which automatically decouples the transmitter during the intervals
       for pulse reception.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: N.T.G
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: TB cell
+  - type: expression
+    normative_status: admitted
+    designation: ATR tube
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/TB_cell
+termid: 4-3-200
+id: 11ebd128-ed3c-5f43-801c-81857b74c92f

@@ -1,67 +1,41 @@
 ---
-id: 7-2-050
 data:
   identifier: 7-2-050
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Slab
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Slab
+  type: authoritative
+status: valid
+id: 7-2-050
 ---
-id: 7-2-050-eng
-termid: 7-2-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Slab
-    normative_status: preferred
   definition:
   - content: Any area of concrete in which the depth of material is small in relation
       to its span in any direction.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Slab
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Slab
+termid: 7-2-050
+id: 02f9c9c9-019b-5827-820f-2f504283f252

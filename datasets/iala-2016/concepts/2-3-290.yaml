@@ -1,86 +1,79 @@
 ---
-id: 2-3-290
 data:
   identifier: 2-3-290
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Electroluminescence
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-290
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-3-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-290
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-290
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-290
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Electroluminescence
+  type: authoritative
+status: valid
+id: 2-3-290
 ---
-id: 2-3-290-eng
-termid: 2-3-290
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Electroluminescence
-    normative_status: preferred
   definition:
   - content: Luminescence of certain substances, generally solid, under the action
       of an electric field.
+  examples: []
   notes:
   - content: Formerly this term has been used chiefly for the luminescence of a gas
       under the action of an electric discharge.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Electroluminescence
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electroluminescence
----
-id: 2-3-290-spa
 termid: 2-3-290
+id: bffb6b7d-05d4-5c2e-8f29-75cac748b183
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Electroluminiscencia
+
+      Luminiscencia  de ciertas sustancias, generalmente sólidas, bajo la acción de un campo eléctrico.
+
+      Nota: Anteriormente, este término se ha utilizado principalmente para la luminiscencia de un gas bajo la acción de una descarga eléctrica.
+
+      Referencia: C.I.E.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Electroluminescence/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electroluminescence/es
+termid: 2-3-290
+id: 83ebe60f-9ea2-5af2-b017-352e3818866d
+---
+data:
   definition:
   - content: |-
       Electroluminiscencia
@@ -90,35 +83,19 @@ data:
       Nota: Anteriormente, este término se ha utilizado principalmente para la luminiscencia de un gas bajo la acción de una descarga eléctrica.
 
       Referencia: C.I.E.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electroluminescence/es
----
-id: 2-3-290-spa
-termid: 2-3-290
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 2-3-290
     normative_status: preferred
-  definition:
-  - content: |-
-      Electroluminiscencia
-
-      Luminiscencia  de ciertas sustancias, generalmente sólidas, bajo la acción de un campo eléctrico.
-
-      Nota: Anteriormente, este término se ha utilizado principalmente para la luminiscencia de un gas bajo la acción de una descarga eléctrica.
-
-      Referencia: C.I.E.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 2-3-290
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electroluminescence/es
+termid: 2-3-290
+id: e1d2b552-0ecd-57a6-80db-1011e7b9f067

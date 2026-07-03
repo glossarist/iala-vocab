@@ -1,66 +1,40 @@
 ---
-id: 3-2-000
 data:
   identifier: 3-2-000
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sound_source
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-000
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 3-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-000
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sound_source
+  type: authoritative
+status: valid
+id: 3-2-000
 ---
-id: 3-2-000-eng
-termid: 3-2-000
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sound source
-    normative_status: preferred
   definition:
   - content: Anything which produces sound.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sound source
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_source
+termid: 3-2-000
+id: 19385c8d-a86e-51ad-8ab0-9803a03f245d

@@ -1,70 +1,43 @@
 ---
-id: 7-5-195
 data:
   identifier: 7-5-195
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Buckling_(of_a_strut_or_column)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 7-5-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-195
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Buckling_(of_a_strut_or_column)
+  type: authoritative
+status: valid
+id: 7-5-195
 ---
-id: 7-5-195-eng
-termid: 7-5-195
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Buckling (of a strut or column)
-    normative_status: preferred
   definition:
   - content: Horizontal deflection of a column or strut caused by an eccentric or
       excessive compressive vertical load.
+  examples: []
   notes:
   - content: In French the phenomenon is called flambage and the resultant is called
       flambement.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Buckling (of a strut or column)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buckling_(of_a_strut_or_column)
+termid: 7-5-195
+id: fdff06a9-a022-50bd-9041-c5c392f91441

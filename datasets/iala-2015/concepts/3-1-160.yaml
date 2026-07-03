@@ -1,73 +1,47 @@
 ---
-id: 3-1-160
 data:
   identifier: 3-1-160
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sound_level_meter
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-160
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 3-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-160
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sound_level_meter
+  type: authoritative
+status: valid
+id: 3-1-160
 ---
-id: 3-1-160-eng
-termid: 3-1-160
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sound level meter
-    normative_status: preferred
   definition:
   - content: Instrument including a microphone, an amplifier, an output meter and
       frequency weighting networks for the measurement of sound levels in a specified
       manner.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sound level meter
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_level_meter
+termid: 3-1-160
+id: b8ef671e-41a4-51dc-b466-b0b2601cdf37

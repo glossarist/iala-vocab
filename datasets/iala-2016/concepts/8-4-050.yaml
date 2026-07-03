@@ -1,60 +1,25 @@
 ---
-id: 8-4-050
 data:
   identifier: 8-4-050
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Winter_buoy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 8-4-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-050
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-050
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Winter_buoy
+  type: authoritative
+status: valid
+id: 8-4-050
 ---
-id: 8-4-050-eng
-termid: 8-4-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Winter buoy
-    normative_status: preferred
   definition:
   - content: |-
       A buoy, often unlighted, used as a replacement for a light buoy or a large unlighted buoy in certain areas during the winter months when other aids to navigation are temporarily withdrawn.
@@ -64,26 +29,62 @@ data:
       In German, the term Winterbetonnung means the state of the buoyage system as modified during the winter months.
 
       The French term "bouee d'hiver" is not much used in France.
+  examples: []
   notes:
   - content: ":"
   - content: ":"
   - content: ":"
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Winter buoy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Winter_buoy
----
-id: 8-4-050-spa
 termid: 8-4-050
+id: 31e69a45-6fd6-5b6d-901d-6a881bc1d994
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Boya de invierno
+
+      Boya en general ciega utilizada como sustitución de una boya luminosa o una boya ciega grande  en ciertas áreas durante los meses de invierno cuando se retiran temporalmente otras ayudas  a  la navegación.
+
+      Nota 1:
+
+      El término boya de hielo se usa cuando la boya está diseñada para resistir los efectos del hielo.
+
+      Nota 2:
+
+      En alemán, el término Winterbetonnung significa el estado del sistema de flotación modificado durante los meses de invierno.
+
+      Nota 3:
+
+      El término francés "bouee d'hiver" no se usa mucho en Francia.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Winter buoy/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Winter_buoy/es
+termid: 8-4-050
+id: 3a528a55-4914-55ff-95b0-06b1d8487108
+---
+data:
   definition:
   - content: |-
       Boya de invierno
@@ -101,43 +102,19 @@ data:
       Nota 3:
 
       El término francés "bouee d'hiver" no se usa mucho en Francia.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Winter_buoy/es
----
-id: 8-4-050-spa
-termid: 8-4-050
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 8-4-050
     normative_status: preferred
-  definition:
-  - content: |-
-      Boya de invierno
-
-      Boya en general ciega utilizada como sustitución de una boya luminosa o una boya ciega grande  en ciertas áreas durante los meses de invierno cuando se retiran temporalmente otras ayudas  a  la navegación.
-
-      Nota 1:
-
-      El término boya de hielo se usa cuando la boya está diseñada para resistir los efectos del hielo.
-
-      Nota 2:
-
-      En alemán, el término Winterbetonnung significa el estado del sistema de flotación modificado durante los meses de invierno.
-
-      Nota 3:
-
-      El término francés "bouee d'hiver" no se usa mucho en Francia.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 8-4-050
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Winter_buoy/es
+termid: 8-4-050
+id: bc4187b2-acbf-539a-8e7e-2785acb8aa2f

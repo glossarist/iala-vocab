@@ -1,70 +1,43 @@
 ---
-id: 2-4-130
 data:
   identifier: 2-4-130
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cut-off_screen
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-4-130
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-4-130
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cut-off_screen
+  type: authoritative
+status: valid
+id: 2-4-130
 ---
-id: 2-4-130-eng
-termid: 2-4-130
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cut-off screen
-    normative_status: preferred
   definition:
   - content: An opaque screen covering part of a lantern, or placed outside the lantern,
       so as to provide a sharp cut-off to a beam in a sector light and to reduce the
       angle of uncertainty.
+  examples: []
   notes:
   - content: This is a particular form of "cut screen".
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cut-off screen
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cut-off_screen
+termid: 2-4-130
+id: 15bc56c6-109c-590a-8999-59a8dc5cac26

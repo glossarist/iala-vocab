@@ -13,35 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Accuracy
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: accuracy
+related: []
 ---
 id: accuracy-eng
 termid: accuracy

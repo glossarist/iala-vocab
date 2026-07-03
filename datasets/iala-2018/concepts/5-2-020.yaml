@@ -1,71 +1,45 @@
 ---
-id: 5-2-020
 data:
   identifier: 5-2-020
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Automatic_control
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-020
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-020
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Automatic_control
+  type: authoritative
+status: valid
+id: 5-2-020
 ---
-id: 5-2-020-eng
-termid: 5-2-020
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Automatic control
-    normative_status: preferred
   definition:
   - content: A method of control in which operations are carried out by a self-acting
       system under predetermined conditions.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Automatic control
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Automatic_control
+termid: 5-2-020
+id: 1ef9c579-3d22-5205-801a-e4c03bbb6889

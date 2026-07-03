@@ -1,67 +1,41 @@
 ---
-id: 7-6-235
 data:
   identifier: 7-6-235
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Jetting
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-235
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-6-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-235
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Jetting
+  type: authoritative
+status: valid
+id: 7-6-235
 ---
-id: 7-6-235-eng
-termid: 7-6-235
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Jetting
-    normative_status: preferred
   definition:
   - content: A method of sinking piles or caissons into a soil (usually granular)
       by means of a high pressure jet of water or air.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Jetting
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Jetting
+termid: 7-6-235
+id: b5dd1a92-f155-54f3-b805-b52aabe72659

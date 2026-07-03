@@ -1,74 +1,48 @@
 ---
-id: 3-1-210
 data:
   identifier: 3-1-210
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Aural_masking
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-210
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 3-1-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-1-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-1-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-1-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-1-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-210
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Aural_masking
+  type: authoritative
+status: valid
+id: 3-1-210
 ---
-id: 3-1-210-eng
-termid: 3-1-210
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Aural masking
-    normative_status: preferred
   definition:
   - content: The process by which the threshold of audibility for one sound is raised
       by the presence of another (masking) sound.
   - content: The amount by which the threshold of audibility of a sound is raised
       by the presence of another (masking) sound. The unit customarily used is the
       decibel.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Aural masking
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Aural_masking
+termid: 3-1-210
+id: f12af874-fed2-5795-a12a-b84a8890905f

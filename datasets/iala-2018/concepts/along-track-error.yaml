@@ -1,63 +1,41 @@
 ---
-id: along-track-error
 data:
   identifier: along-track-error
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Along-track_error
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: along-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: along-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: along-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: along-track-error
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: along-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: along-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: along-track-error
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Along-track_error
+  type: authoritative
+status: valid
+id: along-track-error
 ---
-id: along-track-error-eng
-termid: along-track-error
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Along-track error
-    normative_status: preferred
   definition:
   - content: The component of the Vessel Technical Error in the direction of the intended
       track.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Along-track error
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Along-track_error
+termid: along-track-error
+id: 604317d8-e890-51cc-be1b-3370cea79321

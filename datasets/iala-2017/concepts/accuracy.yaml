@@ -1,56 +1,25 @@
 ---
-id: accuracy
 data:
   identifier: accuracy
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Accuracy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: accuracy
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: accuracy
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Accuracy
+  type: authoritative
+status: valid
+id: accuracy
 ---
-id: accuracy-eng
-termid: accuracy
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Accuracy
-    normative_status: preferred
   definition:
   - content: |-
       The degree of conformance between the estimated or measured parameter of a craft at a given time and its true parameter at that time. (Parameters in this context may be position coordinates, velocity, time, angle, etc.)
@@ -66,10 +35,19 @@ data:
       – Repeatable accuracy. The accuracy with which a user can return to a position whose coordinates have been measured at a previous time using uncorrelated measurements from the same navigation system.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Accuracy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Accuracy
+termid: accuracy
+id: 7e283985-a521-5297-8476-7881b82c8141

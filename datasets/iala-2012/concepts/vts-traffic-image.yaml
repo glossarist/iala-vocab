@@ -13,31 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/VTS_traffic_image
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: vts-traffic-image
+related: []
 ---
 id: vts-traffic-image-eng
 termid: vts-traffic-image

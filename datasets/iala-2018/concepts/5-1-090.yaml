@@ -1,71 +1,45 @@
 ---
-id: 5-1-090
 data:
   identifier: 5-1-090
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Parallel_redundancy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-1-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-1-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-1-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-1-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-1-090
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-1-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-1-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-1-090
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Parallel_redundancy
+  type: authoritative
+status: valid
+id: 5-1-090
 ---
-id: 5-1-090-eng
-termid: 5-1-090
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Parallel redundancy
-    normative_status: preferred
-  - type: expression
-    designation: Active redundancy
-    normative_status: admitted
   definition:
   - content: Redundancy in which the different means work together to perform the
       task, one of the means being capable of producing the results alone if the other
       fails.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Parallel redundancy
+  - type: expression
+    normative_status: admitted
+    designation: Active redundancy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Parallel_redundancy
+termid: 5-1-090
+id: 970a04c3-a599-5a06-b6f8-50b9180ca0f8

@@ -1,68 +1,42 @@
 ---
-id: 8-3-170
 data:
   identifier: 8-3-170
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Block
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-3-170
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 8-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-3-170
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Block
+  type: authoritative
+status: valid
+id: 8-3-170
 ---
-id: 8-3-170-eng
-termid: 8-3-170
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Block
-    normative_status: preferred
   definition:
   - content: Mounting for one or more pulleys between parallel faces, intended to
       change the direction of one or more lines. The mounting is fitted with an eye
       for attachment.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Block
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Block
+termid: 8-3-170
+id: '09f32fd9-a6c8-5437-8ae2-5e3e3cfdafa7'

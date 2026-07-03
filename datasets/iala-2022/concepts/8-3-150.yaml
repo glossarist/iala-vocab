@@ -1,60 +1,25 @@
 ---
-id: 8-3-150
 data:
   identifier: 8-3-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Chain_stopper
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-3-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 8-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-3-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Chain_stopper
+  type: authoritative
+status: valid
+id: 8-3-150
 ---
-id: 8-3-150-eng
-termid: 8-3-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Chain stopper
-    normative_status: preferred
   definition:
   - content: |-
       Controller (USA)
@@ -72,10 +37,19 @@ data:
       slip stopper: a fibre rope used to secure an object, arranged for quick release.
 
       rope stopper or rotten stop: a light lashing intended to part under strain.  To check speed and violence of chain running off deck, it is usual to lash the chain at many points with a corresponding number of rope stoppers.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Chain stopper
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chain_stopper
+termid: 8-3-150
+id: f2527063-da33-5318-a597-1ff2a9ffaf1b

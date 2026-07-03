@@ -1,66 +1,40 @@
 ---
-id: 6-6-155
 data:
   identifier: 6-6-155
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Distribution_box
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-6-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-6-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-6-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-6-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-6-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-6-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-6-155
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-6-155
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Distribution_box
+  type: authoritative
+status: valid
+id: 6-6-155
 ---
-id: 6-6-155-eng
-termid: 6-6-155
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Distribution box
-    normative_status: preferred
   definition:
   - content: A device, protected or enclosed, used for making one or more branch connections.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Distribution box
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Distribution_box
+termid: 6-6-155
+id: 1ddac991-d7ee-5ee4-9c5b-6ae0015cfcd8

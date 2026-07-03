@@ -1,67 +1,41 @@
 ---
-id: 7-3-110
 data:
   identifier: 7-3-110
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sandstone
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-110
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-110
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sandstone
+  type: authoritative
+status: valid
+id: 7-3-110
 ---
-id: 7-3-110-eng
-termid: 7-3-110
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sandstone
-    normative_status: preferred
   definition:
   - content: Sedimentary rock formed from fine grains of other rocks which have been
       fragmented and transported, usually having a high quartz content.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sandstone
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sandstone
+termid: 7-3-110
+id: df2f0e04-cf33-54dc-a5f4-acaf31911090

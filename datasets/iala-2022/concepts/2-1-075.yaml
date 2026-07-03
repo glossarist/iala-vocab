@@ -1,81 +1,54 @@
 ---
-id: 2-1-075
 data:
   identifier: 2-1-075
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Luminous_Exitance
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-075
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-1-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-075
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Luminous_Exitance
+  type: authoritative
+status: valid
+id: 2-1-075
 ---
-id: 2-1-075-eng
-termid: 2-1-075
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Luminous Exitance
-    normative_status: preferred
-  - type: expression
-    designation: Luminous Exitance (at a point of a surface)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[M]
-    normative_status: preferred
   definition:
   - content: The quotient of the luminous flux (dF), leaving an element of the surface
       containing the point, by the area (dA) of that element.
+  examples: []
   notes:
   - content: Formerly Luminous Emittance and, in French, Emittance Lumineuse.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Luminous Exitance
+  - type: expression
+    normative_status: admitted
+    designation: Luminous Exitance (at a point of a surface)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[M]
+  language_code: eng
   annotations:
   - content: Unit lumen per square metre (lm/m2)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_Exitance
+termid: 2-1-075
+id: ce66c997-b36a-54c0-b996-8b1a3f1f42e0

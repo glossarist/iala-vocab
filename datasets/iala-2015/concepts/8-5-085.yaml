@@ -1,74 +1,47 @@
 ---
-id: 8-5-085
 data:
   identifier: 8-5-085
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Multi-point_mooring
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-5-085
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 8-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-5-085
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Multi-point_mooring
+  type: authoritative
+status: valid
+id: 8-5-085
 ---
-id: 8-5-085-eng
-termid: 8-5-085
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Multi-point mooring
-    normative_status: preferred
-  - type: expression
-    designation: Multi-leg mooring
-    normative_status: admitted
   definition:
   - content: |-
       A mooring in which lines are taken to a number of points (anchors or sinkers) at the sea bed.
 
       Other related self-explanatory terms are single-point or single-leg mooring, three-point or three-leg mooring, etc...
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Multi-point mooring
+  - type: expression
+    normative_status: admitted
+    designation: Multi-leg mooring
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Multi-point_mooring
+termid: 8-5-085
+id: 3d231660-033d-54f2-a12b-766a95f8c11b

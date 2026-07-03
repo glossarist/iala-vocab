@@ -1,71 +1,44 @@
 ---
-id: 5-1-150
 data:
   identifier: 5-1-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Confidence_limits
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-1-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 5-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-1-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Confidence_limits
+  type: authoritative
+status: valid
+id: 5-1-150
 ---
-id: 5-1-150-eng
-termid: 5-1-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Confidence limits
-    normative_status: preferred
   definition:
   - content: The extremes of a confidence interval.
+  examples: []
   notes:
   - content: In reliability the upper limit is 100% and therefore only the lower limit
       of confidence is usually stated. For example a stated 90% reliabiltiy with confidence
       level 60% means there is a 60% probability that the actual reliability is at
       least 90%.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Confidence limits
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Confidence_limits
+termid: 5-1-150
+id: ddaa6874-d805-5ca0-9e5f-cba1d739a27f

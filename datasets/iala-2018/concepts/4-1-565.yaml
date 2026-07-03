@@ -1,68 +1,42 @@
 ---
-id: 4-1-565
 data:
   identifier: 4-1-565
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cheese_antenna
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-565
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-1-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-565
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cheese_antenna
+  type: authoritative
+status: valid
+id: 4-1-565
 ---
-id: 4-1-565-eng
-termid: 4-1-565
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cheese antenna
-    normative_status: preferred
   definition:
   - content: An antenna consisting of a mirror in the shape of part of a parabolic
       cylinder bounded by two parallel plates normal to the cylinder axis, and of
       an antenna feed placed on or near the focal line.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cheese antenna
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cheese_antenna
+termid: 4-1-565
+id: d9036048-0807-53e7-ad3c-e94c95f54f30

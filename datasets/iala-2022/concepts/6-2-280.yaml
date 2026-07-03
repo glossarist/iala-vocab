@@ -1,67 +1,41 @@
 ---
-id: 6-2-280
 data:
   identifier: 6-2-280
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Fusible_plug
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-280
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-2-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-280
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Fusible_plug
+  type: authoritative
+status: valid
+id: 6-2-280
 ---
-id: 6-2-280-eng
-termid: 6-2-280
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Fusible plug
-    normative_status: preferred
   definition:
   - content: A plug, containing a core of metal of low melting-point, that is fitted
       to a receiver to relieve the pressure in the event of a fire.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fusible plug
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fusible_plug
+termid: 6-2-280
+id: fcedabf4-f524-5cb9-9fc6-dd3daec327f2

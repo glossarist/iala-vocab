@@ -1,70 +1,44 @@
 ---
-id: 7-4-095
 data:
   identifier: 7-4-095
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Tsunami
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-095
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Tsunami
+  type: authoritative
+status: valid
+id: 7-4-095
 ---
-id: 7-4-095-eng
-termid: 7-4-095
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Tsunami
-    normative_status: preferred
-  - type: expression
-    designation: Tidal wave (GB)
-    normative_status: admitted
   definition:
   - content: A single large wave or series of waves caused by earthquakes, landslides,
       or volcanic effects, usually submarine in nature.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tsunami
+  - type: expression
+    normative_status: admitted
+    designation: Tidal wave (GB)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tsunami
+termid: 7-4-095
+id: dda8279b-26ce-555b-ae1f-0bbbd3440b6d

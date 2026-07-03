@@ -1,70 +1,25 @@
 ---
-id: 2-1-045
 data:
   identifier: 2-1-045
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Luminance
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-045
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-045
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Luminance
+  type: authoritative
+status: valid
+id: 2-1-045
 ---
-id: 2-1-045-eng
-termid: 2-1-045
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Luminance
-    normative_status: preferred
-  - type: expression
-    designation: Luminance (in a given direction, at a point on the surface of a source
-      or receptor, or at a point on the path of a beam)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[L]
-    normative_status: preferred
-  - type: symbol
-    designation: stem:[B]
-    normative_status: preferred
   definition:
   - content: |-
       The quotient of the luminous flux (d2F) leaving, arriving at, or passing through an element of surface at this point and propagated in directions defined by an elementary cone containing the given direction, by the product of the solid angle (dO) of the cone and the area (dA cos?) of the orthogonal projection of the element of surface on a plane perpendicular to the given direction.
@@ -72,6 +27,7 @@ data:
       ![Ch2_Fig2.jpg](/iala-vocab/images/iala/Ch2_Fig2.jpg)
 
       (deprecated)
+  examples: []
   notes:
   - content: Brightness (G.B.) and, in French, Brillance are obsolescent terms meaning
       luminance. It is strongly recommended that they should not in future be used
@@ -88,15 +44,32 @@ data:
       Primary Light Source}} or that of a secondary light source {{2-3-005, Secondary
       Light Source}}.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Luminance
+  - type: expression
+    normative_status: admitted
+    designation: Luminance (in a given direction, at a point on the surface of a source
+      or receptor, or at a point on the path of a beam)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[L]
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[B]
+  language_code: eng
   annotations:
   - content: Unit candela per square metre (cd/m2)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminance
+termid: 2-1-045
+id: c77f7f16-afbb-554a-ae78-f28947487cdf

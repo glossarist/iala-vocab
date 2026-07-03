@@ -1,60 +1,25 @@
 ---
-id: 2-1-285
 data:
   identifier: 2-1-285
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Visual_Range
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-285
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-1-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-285
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Visual_Range
+  type: authoritative
+status: valid
+id: 2-1-285
 ---
-id: 2-1-285-eng
-termid: 2-1-285
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Visual Range
-    normative_status: preferred
   definition:
   - content: The maximum distance (usually horizontal) at which a given object can
       be seen by day in any particular circumstances, as limited by the atmospheric
@@ -63,10 +28,19 @@ data:
       the observer {{2-1-300, Contrast Threshold}}.
   - content: Loosely used as a synonym for "visibility" (in sense 2 of 2-1 -275).
       This use of the term is deprecated.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Visual Range
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Visual_Range
+termid: 2-1-285
+id: '079b735b-cf2e-527c-abc5-72ac550c95b4'

@@ -1,66 +1,40 @@
 ---
-id: 7-5-315
 data:
   identifier: 7-5-315
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Friction_pile
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-315
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 7-5-315
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Friction_pile
+  type: authoritative
+status: valid
+id: 7-5-315
 ---
-id: 7-5-315-eng
-termid: 7-5-315
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Friction pile
-    normative_status: preferred
   definition:
   - content: A pile which transmits its applied load to the ground by skin friction.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Friction pile
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Friction_pile
+termid: 7-5-315
+id: 32318c4b-a8a5-53e8-9aef-73504289c383

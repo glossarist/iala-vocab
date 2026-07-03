@@ -1,67 +1,41 @@
 ---
-id: 7-3-060
 data:
   identifier: 7-3-060
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Alloy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-060
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-3-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-060
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Alloy
+  type: authoritative
+status: valid
+id: 7-3-060
 ---
-id: 7-3-060-eng
-termid: 7-3-060
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Alloy
-    normative_status: preferred
   definition:
   - content: A mixture of two or more metals made to produce a material improving
       their respective qualities.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Alloy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Alloy
+termid: 7-3-060
+id: 7ef094a4-5684-54a3-9b32-25e566ee07b9

@@ -1,45 +1,43 @@
 ---
-id: qualification-aton-
 data:
   identifier: qualification-aton-
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Qualification_(AtoN)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: qualification-aton-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: qualification-aton-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Qualification_(AtoN)
+  type: authoritative
+status: valid
+id: qualification-aton-
 ---
-id: qualification-aton--eng
-termid: qualification-aton-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Qualification (AtoN)
-    normative_status: preferred
   definition:
   - content: |-
       Qualification (AtoN) is the formal recognition of competence which should be recorded in a course certificate.
 
       Source: ENG7, Recommendation R0141
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Qualification (AtoN)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Qualification_(AtoN)
+termid: qualification-aton-
+id: 83d9ed7e-a2d2-5d04-a5b0-036156be6ab5

@@ -1,71 +1,45 @@
 ---
-id: 2-3-355
 data:
   identifier: 2-3-355
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Low_Pressure_Sodium_(Vapour)_Lamp
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-355
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-355
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Low_Pressure_Sodium_(Vapour)_Lamp
+  type: authoritative
+status: valid
+id: 2-3-355
 ---
-id: 2-3-355-eng
-termid: 2-3-355
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Low Pressure Sodium (Vapour) Lamp
-    normative_status: preferred
   definition:
   - content: A sodium vapour lamp in which the partial pressure of the vapour during
       operation is not above a few newtons per square metre.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Low Pressure Sodium (Vapour) Lamp
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Low_Pressure_Sodium_(Vapour)_Lamp
+termid: 2-3-355
+id: 4efcd63e-a2e6-573c-a908-e6ee8fc6cc20

@@ -1,60 +1,25 @@
 ---
-id: 6-2-040
 data:
   identifier: 6-2-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Four-stroke_engine
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 6-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Four-stroke_engine
+  type: authoritative
+status: valid
+id: 6-2-040
 ---
-id: 6-2-040-eng
-termid: 6-2-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Four-stroke engine
-    normative_status: preferred
   definition:
   - content: |-
       An internal combustion engine in which the working cycle is completed in four strokes of the piston (i.e. in two revolutions of the crankshaft).
@@ -71,12 +36,20 @@ data:
       fuel ignition and expansion of the ignited fluid in petrol engines, this stroke is the power stroke
 
       4. Exhaustion of the waste gases
+  examples: []
   notes:
   - content: The four strokes correspond to
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Four-stroke engine
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Four-stroke_engine
+termid: 6-2-040
+id: bc48f02c-38eb-53a3-a869-96bb91ba26f3

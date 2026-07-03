@@ -1,67 +1,41 @@
 ---
-id: 2-5-070
 data:
   identifier: 2-5-070
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Temporary_Light
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-5-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-5-070
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-5-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-5-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-5-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-5-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-5-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-5-070
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Temporary_Light
+  type: authoritative
+status: valid
+id: 2-5-070
 ---
-id: 2-5-070-eng
-termid: 2-5-070
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Temporary Light
-    normative_status: preferred
   definition:
   - content: A light put into service for a limited period (for example, during repair
       work).
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Temporary Light
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Temporary_Light
+termid: 2-5-070
+id: feda9342-2e2b-501c-ad02-dc1b0670de2c

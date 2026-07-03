@@ -1,60 +1,25 @@
 ---
-id: 2-6-145
 data:
   identifier: 2-6-145
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Two_buoys_mored_not_abreast_in_a_channel
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-6-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-6-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-145
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-6-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-6-145
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Two_buoys_mored_not_abreast_in_a_channel
+  type: authoritative
+status: valid
+id: 2-6-145
 ---
-id: 2-6-145-eng
-termid: 2-6-145
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Two buoys mored not abreast in a channel
-    normative_status: preferred
   definition:
   - content: |-
       No English Term (2009: Staggered buoys)
@@ -62,10 +27,19 @@ data:
       Term applied to buoys moored on either hand of the path of shipping in a channel, such that port hand and starboard hand buoys are not abreast but occur alternately at nearly equal intervals of distance. (Fig. 55b)
 
       ![Ch2_Fig55.jpg](/iala-vocab/images/iala/Ch2_Fig55.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Two buoys mored not abreast in a channel
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Two_buoys_mored_not_abreast_in_a_channel
+termid: 2-6-145
+id: 305ba96a-63a7-5569-b94f-2592094d0cdf

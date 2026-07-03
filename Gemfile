@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 source "https://rubygems.org"
 
-gem "httparty", "~> 0.21"
-gem "nokogiri", "~> 1.15"
-gem "glossarist"
+gem "iala_vocab", path: "."
+gem "rake", "~> 13.0", :group => :development
+gem "rspec", "~> 3.13", :group => :development

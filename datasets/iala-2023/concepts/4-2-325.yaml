@@ -1,78 +1,51 @@
 ---
-id: 4-2-325
 data:
   identifier: 4-2-325
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Polarization_error
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-325
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-2-325
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Polarization_error
+  type: authoritative
+status: valid
+id: 4-2-325
 ---
-id: 4-2-325-eng
-termid: 4-2-325
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Polarization error
-    normative_status: preferred
-  - type: expression
-    designation: Polarization error (in bearing)
-    normative_status: admitted
   definition:
   - content: An error, in an observed bearing, which varies with the state of polarization
       of the received waves relative to the designed plane of polarization.
+  examples: []
   notes:
   - content: Some types of polarization error may be attributable to specific features
       of the site (e.g. inclined conductors) and, as such, are also site errors.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Polarization error
+  - type: expression
+    normative_status: admitted
+    designation: Polarization error (in bearing)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Polarization_error
+termid: 4-2-325
+id: 4b5ab1f8-29a9-570f-95cc-0ab4152d22db

@@ -1,67 +1,41 @@
 ---
-id: 6-4-245
 data:
   identifier: 6-4-245
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Asynchronous_motor
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-245
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-4-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-4-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-245
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Asynchronous_motor
+  type: authoritative
+status: valid
+id: 6-4-245
 ---
-id: 6-4-245-eng
-termid: 6-4-245
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Asynchronous motor
-    normative_status: preferred
   definition:
   - content: An alternating-current motor in which the speed of rotation is not necessarily
       constant but may vary with the supply voltage and load.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Asynchronous motor
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Asynchronous_motor
+termid: 6-4-245
+id: 8ac1449d-c9b2-5963-8b47-c468f4b73756

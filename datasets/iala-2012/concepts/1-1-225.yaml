@@ -1,74 +1,48 @@
 ---
-id: 1-1-225
 data:
   identifier: 1-1-225
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Wavelength
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-225
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 1-1-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-1-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-225
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Wavelength
+  type: authoritative
+status: valid
+id: 1-1-225
 ---
-id: 1-1-225-eng
-termid: 1-1-225
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Wavelength
-    normative_status: preferred
   definition:
   - content: |-
       Distance in the direction of propagation of a periodic wave between two successive points at which the phase is the same (at the same time).
 
       Symbol ??
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E. (extract)
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wavelength
+  language_code: eng
   annotations:
   - content: Unit metre (m)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wavelength
+termid: 1-1-225
+id: 523aafd0-9e2d-5bfc-aa8f-76adeb6b018f

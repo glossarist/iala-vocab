@@ -1,70 +1,44 @@
 ---
-id: 1-1-400
 data:
   identifier: 1-1-400
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Electrode
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-400
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 1-1-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-1-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-400
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Electrode
+  type: authoritative
+status: valid
+id: 1-1-400
 ---
-id: 1-1-400-eng
-termid: 1-1-400
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Electrode
-    normative_status: preferred
   definition:
   - content: A conducting element used for conveying current to a medium.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Electrode
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electrode
+termid: 1-1-400
+id: d744b014-da39-54cf-b76d-7b9cb4f5d3a2

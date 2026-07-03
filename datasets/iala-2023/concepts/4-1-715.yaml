@@ -1,69 +1,43 @@
 ---
-id: 4-1-715
 data:
   identifier: 4-1-715
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Beat_frequency_oscillator
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-715
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-715
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-715
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-715
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-715
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-715
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-715
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-715
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Beat_frequency_oscillator
+  type: authoritative
+status: valid
+id: 4-1-715
 ---
-id: 4-1-715-eng
-termid: 4-1-715
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Beat frequency oscillator
-    normative_status: preferred
   definition:
   - content: |-
       Acronym: B.F.O.
 
       In superheterodyne reception, the adjustable oscillator which, when heterodyned with the output of the final intermediate frequency stage, serves to translate an A-1 signal to the audio frequency range.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Beat frequency oscillator
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Beat_frequency_oscillator
+termid: 4-1-715
+id: 89aee936-3a05-5a01-b310-c85573b07cd2

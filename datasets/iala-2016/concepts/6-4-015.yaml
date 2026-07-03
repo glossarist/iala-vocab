@@ -1,67 +1,41 @@
 ---
-id: 6-4-015
 data:
   identifier: 6-4-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Stator_(of_an_electric_machine)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Stator_(of_an_electric_machine)
+  type: authoritative
+status: valid
+id: 6-4-015
 ---
-id: 6-4-015-eng
-termid: 6-4-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Stator (of an electric machine)
-    normative_status: preferred
   definition:
   - content: The portion of a machine that comprises the stationary magnetic parts
       with their associated windings.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Stator (of an electric machine)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stator_(of_an_electric_machine)
+termid: 6-4-015
+id: f208fcd2-34f2-5a86-8f61-369b1de18669

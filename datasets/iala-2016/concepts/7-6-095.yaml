@@ -1,69 +1,43 @@
 ---
-id: 7-6-095
 data:
   identifier: 7-6-095
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Formwork
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-095
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-6-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Formwork
+  type: authoritative
+status: valid
+id: 7-6-095
 ---
-id: 7-6-095-eng
-termid: 7-6-095
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Formwork
-    normative_status: preferred
   definition:
   - content: |-
       Alternantive term: Shuttering
 
       Temporary boarding or sheeting used to contain concrete during pouring and setting, shaped internally to the same profile as required for the external face of the structure.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Formwork
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Formwork
+termid: 7-6-095
+id: ebd872b5-22a0-5614-a725-290d0efff175

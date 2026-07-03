@@ -1,73 +1,47 @@
 ---
-id: 5-4-225
 data:
   identifier: 5-4-225
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Messmotor_(G.B.)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-225
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 5-4-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-4-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-225
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Messmotor_(G.B.)
+  type: authoritative
+status: valid
+id: 5-4-225
 ---
-id: 5-4-225-eng
-termid: 5-4-225
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Messmotor (G.B.)
-    normative_status: preferred
   definition:
   - content: A d.c. motor with a permanent magnet field in which the formerless armature
       winding rotates about a stationary soft iron core. The rotor inertia is then
       that of the windings and commutator only and the speed is sufficiently proportional
       to the applied voltage to permit the motor being used as an integrator.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Messmotor (G.B.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Messmotor_(G.B.)
+termid: 5-4-225
+id: bafa813f-208b-5956-b7c4-13337d63baf5

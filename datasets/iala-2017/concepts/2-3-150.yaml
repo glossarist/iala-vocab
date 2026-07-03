@@ -1,83 +1,75 @@
 ---
-id: 2-3-150
 data:
   identifier: 2-3-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Vacuum_Lamp
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 2-3-150
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-150
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Vacuum_Lamp
+  type: authoritative
+status: valid
+id: 2-3-150
 ---
-id: 2-3-150-eng
-termid: 2-3-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Vacuum Lamp
-    normative_status: preferred
   definition:
   - content: An incandescent lamp in which the luminous element operates in an evacuated
       bulb.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vacuum Lamp
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vacuum_Lamp
----
-id: 2-3-150-spa
 termid: 2-3-150
+id: 4ea37586-ba58-5123-8d0f-9a25fe73a7d6
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Lámpara de vacío
+
+      Lámpara incandescente en la que el elemento luminoso (filamento) funciona en un bulbo al vacío.
+
+      Referencia: C.I.E.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Vacuum Lamp/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vacuum_Lamp/es
+termid: 2-3-150
+id: 29d5ef3f-1536-5fcf-8bdb-868958ecc6ab
+---
+data:
   definition:
   - content: |-
       Lámpara de vacío
@@ -85,33 +77,19 @@ data:
       Lámpara incandescente en la que el elemento luminoso (filamento) funciona en un bulbo al vacío.
 
       Referencia: C.I.E.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vacuum_Lamp/es
----
-id: 2-3-150-spa
-termid: 2-3-150
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 2-3-150
     normative_status: preferred
-  definition:
-  - content: |-
-      Lámpara de vacío
-
-      Lámpara incandescente en la que el elemento luminoso (filamento) funciona en un bulbo al vacío.
-
-      Referencia: C.I.E.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 2-3-150
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vacuum_Lamp/es
+termid: 2-3-150
+id: 325772b0-0361-5dde-8b19-69cef462c2c1

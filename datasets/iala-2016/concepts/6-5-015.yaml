@@ -1,70 +1,43 @@
 ---
-id: 6-5-015
 data:
   identifier: 6-5-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Primary_cell
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-5-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-5-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-5-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-5-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Primary_cell
+  type: authoritative
+status: valid
+id: 6-5-015
 ---
-id: 6-5-015-eng
-termid: 6-5-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Primary cell
-    normative_status: preferred
   definition:
   - content: An electrochemical cell in which the chemical reaction is irreversible.
+  examples: []
   notes:
   - content: The cell is not re-usable after the charge is exhausted.
   - content: There are many types of primary cells, of which the most common are zinccarbon
       (Leclanche), alkaline-manganese and lithium.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Primary cell
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Primary_cell
+termid: 6-5-015
+id: 7a015404-7aae-5826-be60-7a112bd65eb2

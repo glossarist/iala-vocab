@@ -1,73 +1,47 @@
 ---
-id: 5-4-250
 data:
   identifier: 5-4-250
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Four-wire_repeater
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-250
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 5-4-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-4-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-250
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Four-wire_repeater
+  type: authoritative
+status: valid
+id: 5-4-250
 ---
-id: 5-4-250-eng
-termid: 5-4-250
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Four-wire repeater
-    normative_status: preferred
   definition:
   - content: A repeater for use in a four-wire or four-wire type circuit in which
       there are two amplifiers, one amplifying the signals in one channel and the
       other amplifying the signals in the other channel of the circuit.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Four-wire repeater
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Four-wire_repeater
+termid: 5-4-250
+id: d62e2dcc-8258-57df-a3c1-b5819c155054

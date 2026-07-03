@@ -13,39 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Ranging_Mode_(R-Mode)
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: ranging-mode-r-mode-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: ranging-mode-r-mode-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: ranging-mode-r-mode-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: ranging-mode-r-mode-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: ranging-mode-r-mode-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: ranging-mode-r-mode-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: ranging-mode-r-mode-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: ranging-mode-r-mode-
+related: []
 ---
 id: ranging-mode-r-mode--eng
 termid: ranging-mode-r-mode-

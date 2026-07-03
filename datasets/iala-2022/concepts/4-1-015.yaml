@@ -1,71 +1,45 @@
 ---
-id: 4-1-015
 data:
   identifier: 4-1-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radio_transmitter
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radio_transmitter
+  type: authoritative
+status: valid
+id: 4-1-015
 ---
-id: 4-1-015-eng
-termid: 4-1-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radio transmitter
-    normative_status: preferred
   definition:
   - content: Apparatus for the production and modulation of radio frequency energy
       for the purpose of radiocommunication.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radio transmitter
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radio_transmitter
+termid: 4-1-015
+id: af5aa275-647e-5a76-ac41-6dd9398fe5d4

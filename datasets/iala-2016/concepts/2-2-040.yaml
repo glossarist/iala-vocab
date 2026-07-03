@@ -1,69 +1,43 @@
 ---
-id: 2-2-040
 data:
   identifier: 2-2-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reinforcing_Mirror
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-2-040
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reinforcing_Mirror
+  type: authoritative
+status: valid
+id: 2-2-040
 ---
-id: 2-2-040-eng
-termid: 2-2-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reinforcing Mirror
-    normative_status: preferred
   definition:
   - content: |-
       A mirror which directs on to an optical system light emitted by the light source in directions other than that of the optical system, so as to increase the luminous intensity or the angle of divergence (or both) of the beam.
 
       ![Ch2_Fig13.jpg](/iala-vocab/images/iala/Ch2_Fig13.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reinforcing Mirror
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reinforcing_Mirror
+termid: 2-2-040
+id: 7550c3f4-3636-5a4f-b0fc-11105a6921d7

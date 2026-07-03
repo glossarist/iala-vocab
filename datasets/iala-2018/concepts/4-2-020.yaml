@@ -1,68 +1,42 @@
 ---
-id: 4-2-020
 data:
   identifier: 4-2-020
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Identification_signal
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-020
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-020
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Identification_signal
+  type: authoritative
+status: valid
+id: 4-2-020
 ---
-id: 4-2-020-eng
-termid: 4-2-020
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Identification signal
-    normative_status: preferred
   definition:
   - content: A letter or group of letters in morse code or some other combination
       of dots or dashes or both introduced into the transmission to identify the beacon.
       In some cases two tones are employed.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Identification signal
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Identification_signal
+termid: 4-2-020
+id: 3f42f5fc-4e55-57d7-ba67-b3bc6538851a

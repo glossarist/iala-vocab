@@ -1,67 +1,41 @@
 ---
-id: 7-3-055
 data:
   identifier: 7-3-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lead
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lead
+  type: authoritative
+status: valid
+id: 7-3-055
 ---
-id: 7-3-055-eng
-termid: 7-3-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lead
-    normative_status: preferred
   definition:
   - content: A dense soft metal, with a very low melting point, commonly used in the
       past for plumbing and roofing.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lead
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lead
+termid: 7-3-055
+id: c0ae03ce-941d-53ac-b262-3ea5e6be20e1

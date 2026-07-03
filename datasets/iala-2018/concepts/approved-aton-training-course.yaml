@@ -13,15 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Approved_AtoN_Training_Course
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: approved-aton-training-course
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: approved-aton-training-course
+related: []
 ---
 id: approved-aton-training-course-eng
 termid: approved-aton-training-course

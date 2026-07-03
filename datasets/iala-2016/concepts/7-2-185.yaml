@@ -1,66 +1,40 @@
 ---
-id: 7-2-185
 data:
   identifier: 7-2-185
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Crossbeam
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-185
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-2-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-185
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Crossbeam
+  type: authoritative
+status: valid
+id: 7-2-185
 ---
-id: 7-2-185-eng
-termid: 7-2-185
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Crossbeam
-    normative_status: preferred
   definition:
   - content: A horizontal beam intended for the construction or bracing of a structure.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Crossbeam
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Crossbeam
+termid: 7-2-185
+id: 309915b7-0256-5b01-aee4-bdd14cd84863

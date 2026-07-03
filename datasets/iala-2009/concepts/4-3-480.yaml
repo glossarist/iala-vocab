@@ -1,67 +1,41 @@
 ---
-id: 4-3-480
 data:
   identifier: 4-3-480
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Over-interrogation
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-3-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-480
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-480
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Over-interrogation
+  type: authoritative
+status: valid
+id: 4-3-480
 ---
-id: 4-3-480-eng
-termid: 4-3-480
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Over-interrogation
-    normative_status: preferred
   definition:
   - content: Interrogation of a transponder more times per second (not necessarily
       by only one interrogator) than it is able to reply.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Over-interrogation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Over-interrogation
+termid: 4-3-480
+id: 28cf4561-a2c4-547b-ad82-71f1c6687853

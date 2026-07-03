@@ -1,67 +1,41 @@
 ---
-id: 7-3-215
 data:
   identifier: 7-3-215
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cement
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-215
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-215
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cement
+  type: authoritative
+status: valid
+id: 7-3-215
 ---
-id: 7-3-215-eng
-termid: 7-3-215
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cement
-    normative_status: preferred
   definition:
   - content: Compounds of calcium, principally limestone, prepared for use as a binder,
       when mixed with aggregates and water to form concrete.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cement
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cement
+termid: 7-3-215
+id: 94d9891b-ef25-5b2d-aa45-17c6a57b6934

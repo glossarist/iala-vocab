@@ -1,71 +1,45 @@
 ---
-id: 4-2-200
 data:
   identifier: 4-2-200
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pick-up_ratio
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-200
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-2-200
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pick-up_ratio
+  type: authoritative
+status: valid
+id: 4-2-200
 ---
-id: 4-2-200-eng
-termid: 4-2-200
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pick-up ratio
-    normative_status: preferred
   definition:
   - content: The ratio of the pick-up factors corresponding to two specified plane
       polarized waves of specified direction of arrival.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pick-up ratio
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pick-up_ratio
+termid: 4-2-200
+id: 56d5ec23-d8d0-5f8c-8bab-b5b47932fce3

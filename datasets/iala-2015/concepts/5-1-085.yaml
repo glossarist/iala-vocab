@@ -1,69 +1,43 @@
 ---
-id: 5-1-085
 data:
   identifier: 5-1-085
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Redundancy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-1-085
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 5-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-1-085
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Redundancy
+  type: authoritative
+status: valid
+id: 5-1-085
 ---
-id: 5-1-085-eng
-termid: 5-1-085
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Redundancy
-    normative_status: preferred
   definition:
   - content: The existence of more than one means for accomplishing a given function.
       The various means of accomplishing the function need not necessarily be identical.
       The concept is such that a complete failure can occur only when all means have
       failed.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Redundancy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Redundancy
+termid: 5-1-085
+id: 3ab7d59e-aac5-5e58-9e7b-971bff24a16a

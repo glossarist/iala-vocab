@@ -1,71 +1,45 @@
 ---
-id: 2-1-355
 data:
   identifier: 2-1-355
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Stiles-Crawford_Effect
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-355
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-355
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Stiles-Crawford_Effect
+  type: authoritative
+status: valid
+id: 2-1-355
 ---
-id: 2-1-355-eng
-termid: 2-1-355
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Stiles-Crawford Effect
-    normative_status: preferred
   definition:
   - content: Variation of the luminosity of a light stimulus with position of entry
       of the light pencil through the pupil.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Stiles-Crawford Effect
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stiles-Crawford_Effect
+termid: 2-1-355
+id: e224cc44-1010-5f4d-bfc2-6761f820104b

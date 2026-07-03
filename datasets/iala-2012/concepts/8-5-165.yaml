@@ -1,67 +1,41 @@
 ---
-id: 8-5-165
 data:
   identifier: 8-5-165
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Swivel
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-5-165
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 8-5-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-5-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-5-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-5-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-5-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-5-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-5-165
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Swivel
+  type: authoritative
+status: valid
+id: 8-5-165
 ---
-id: 8-5-165-eng
-termid: 8-5-165
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Swivel
-    normative_status: preferred
   definition:
   - content: A chain link that provides for rotary motion between the lengths of chain
       that it connects.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Swivel
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Swivel
+termid: 8-5-165
+id: 4019806b-9e0b-5908-a14f-16843be9174a

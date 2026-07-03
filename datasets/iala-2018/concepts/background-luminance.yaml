@@ -13,15 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Background_Luminance
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: background-luminance
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: background-luminance
+related: []
 ---
 id: background-luminance-eng
 termid: background-luminance

@@ -1,64 +1,42 @@
 ---
-id: craft-autonomous-integrity-monitoring-caim-
 data:
   identifier: craft-autonomous-integrity-monitoring-caim-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Craft_autonomous_integrity_monitoring_(CAIM)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: craft-autonomous-integrity-monitoring-caim-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: craft-autonomous-integrity-monitoring-caim-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: craft-autonomous-integrity-monitoring-caim-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: craft-autonomous-integrity-monitoring-caim-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: craft-autonomous-integrity-monitoring-caim-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: craft-autonomous-integrity-monitoring-caim-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: craft-autonomous-integrity-monitoring-caim-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Craft_autonomous_integrity_monitoring_(CAIM)
+  type: authoritative
+status: valid
+id: craft-autonomous-integrity-monitoring-caim-
 ---
-id: craft-autonomous-integrity-monitoring-caim--eng
-termid: craft-autonomous-integrity-monitoring-caim-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Craft autonomous integrity monitoring (CAIM)
-    normative_status: preferred
   definition:
   - content: A technique whereby a variety of navigation sensor information available
       on the craft is autonomously processed to monitor the integrity of the navigation
       signals. (See also receiver autonomous integrity monitoring.)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Craft autonomous integrity monitoring (CAIM)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Craft_autonomous_integrity_monitoring_(CAIM)
+termid: craft-autonomous-integrity-monitoring-caim-
+id: 5f52552f-46a0-5289-8970-e2e464ed10d9

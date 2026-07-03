@@ -1,70 +1,44 @@
 ---
-id: 7-3-515
 data:
   identifier: 7-3-515
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Material
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-515
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-515
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-515
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-3-515
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-515
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-515
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-515
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-515
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Material
+  type: authoritative
+status: valid
+id: 7-3-515
 ---
-id: 7-3-515-eng
-termid: 7-3-515
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Material
-    normative_status: preferred
-  - type: expression
-    designation: Fabric tissue
-    normative_status: admitted
   definition:
   - content: Fibres of any suitable material woven closely together into flexible
       sheets.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Material
+  - type: expression
+    normative_status: admitted
+    designation: Fabric tissue
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Material
+termid: 7-3-515
+id: 7afbe25a-dd86-5be5-8992-6468b6daff24

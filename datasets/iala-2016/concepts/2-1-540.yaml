@@ -1,74 +1,48 @@
 ---
-id: 2-1-540
 data:
   identifier: 2-1-540
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Visual_Photometer
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-540
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-540
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-540
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-1-540
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-540
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-540
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-540
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-540
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Visual_Photometer
+  type: authoritative
+status: valid
+id: 2-1-540
 ---
-id: 2-1-540-eng
-termid: 2-1-540
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Visual Photometer
-    normative_status: preferred
   definition:
   - content: |-
       A photometer in which equality between a radiation under test and a comparison radiation is established visually.
 
       The methods chiefly employed are luminosity match of two adjacent surfaces, adjustment to equality of contrast, or adjustment to minimum flicker.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Visual Photometer
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Visual_Photometer
+termid: 2-1-540
+id: 811c383b-c9bf-5a20-8204-b99d7e450b4c

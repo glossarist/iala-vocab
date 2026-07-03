@@ -1,73 +1,47 @@
 ---
-id: 5-3-155
 data:
   identifier: 5-3-155
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Baseband
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-155
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-155
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Baseband
+  type: authoritative
+status: valid
+id: 5-3-155
 ---
-id: 5-3-155-eng
-termid: 5-3-155
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Baseband
-    normative_status: preferred
   definition:
   - content: The band of frequencies which is modulated onto or from the carrier in
       a wideband radio relay system and which is occupied by television, multichannel
       telephony, telegraphy, or similar signals and any pilot or other associated
       signals.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Baseband
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Baseband
+termid: 5-3-155
+id: 1964f492-ace3-5013-9e5c-24c75ace4b09

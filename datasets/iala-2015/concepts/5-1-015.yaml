@@ -1,67 +1,41 @@
 ---
-id: 5-1-015
 data:
   identifier: 5-1-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Fault
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-1-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 5-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-1-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Fault
+  type: authoritative
+status: valid
+id: 5-1-015
 ---
-id: 5-1-015-eng
-termid: 5-1-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Fault
-    normative_status: preferred
   definition:
   - content: That condition of an element of a system which may result in a failure
       of either the system or part of it.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fault
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fault
+termid: 5-1-015
+id: 448adbe5-9b6a-5c21-a504-9f4805de3db7

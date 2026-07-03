@@ -1,72 +1,46 @@
 ---
-id: 5-3-040
 data:
   identifier: 5-3-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Phase_deviation
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Phase_deviation
+  type: authoritative
+status: valid
+id: 5-3-040
 ---
-id: 5-3-040-eng
-termid: 5-3-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Phase deviation
-    normative_status: preferred
   definition:
   - content: The peak difference between the instantaneous phase angle of the modulated
       wave and that of the sine-wave carrier.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Phase deviation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Phase_deviation
+termid: 5-3-040
+id: c3a46290-de17-5cdf-8bb5-6709b615d020

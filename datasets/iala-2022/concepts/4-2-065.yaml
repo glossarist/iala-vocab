@@ -1,72 +1,46 @@
 ---
-id: 4-2-065
 data:
   identifier: 4-2-065
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Direction_finder
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-065
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-065
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Direction_finder
+  type: authoritative
+status: valid
+id: 4-2-065
 ---
-id: 4-2-065-eng
-termid: 4-2-065
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Direction finder
-    normative_status: preferred
   definition:
   - content: A complete receiving equipment, with antenna and associated circuits,
       used for direction finding.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Direction finder
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Direction_finder
+termid: 4-2-065
+id: 42aa3614-498b-5cca-a555-9e3cc4175764

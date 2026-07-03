@@ -1,70 +1,44 @@
 ---
-id: 1-3-025
 data:
   identifier: 1-3-025
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Tide_-_High_tide
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-3-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-3-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-3-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-3-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-3-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-3-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-3-025
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 1-3-025
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Tide_-_High_tide
+  type: authoritative
+status: valid
+id: 1-3-025
 ---
-id: 1-3-025-eng
-termid: 1-3-025
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Tide - High tide
-    normative_status: preferred
-  - type: expression
-    designation: High water
-    normative_status: admitted
   definition:
   - content: Highest water between two successive tides at the point of transition
       from rising tide to falling tide.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tide - High tide
+  - type: expression
+    normative_status: admitted
+    designation: High water
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tide_-_High_tide
+termid: 1-3-025
+id: 58270ebf-64a0-59ab-a5c7-1d97da5fe1e2

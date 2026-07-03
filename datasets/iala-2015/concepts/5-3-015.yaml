@@ -1,72 +1,46 @@
 ---
-id: 5-3-015
 data:
   identifier: 5-3-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Carrier_(wave)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 5-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Carrier_(wave)
+  type: authoritative
+status: valid
+id: 5-3-015
 ---
-id: 5-3-015-eng
-termid: 5-3-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Carrier (wave)
-    normative_status: preferred
   definition:
   - content: The wave which is intended to be modulated.
   - content: In a modulated wave, the carrier frequency spectral component.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Carrier (wave)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Carrier_(wave)
+termid: 5-3-015
+id: d62048e2-ce31-5863-8b74-26a83ca23548

@@ -1,60 +1,25 @@
 ---
-id: 8-4-065
 data:
   identifier: 8-4-065
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Articulated_beacon
 related:
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-065
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-065
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 8-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-065
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Articulated_beacon
+  type: authoritative
+status: valid
+id: 8-4-065
 ---
-id: 8-4-065-eng
-termid: 8-4-065
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Articulated beacon
-    normative_status: preferred
   definition:
   - content: |-
       A floating mark secured to a sinker, either directly through a joint or by a cable that is held in tension by the buoyancy of the mark. The buoyancy chamber is normally below the surface of the sea.
@@ -62,13 +27,21 @@ data:
       The terms resilient beacon, buoyant beacon and elastic beacon have been used with this meaning, but their continued use is not recommended.
 
       When the connection to the sinker is by a universal joint and the aid carries a light, the term articulated light is sometimes used. This usage is deprecated.
+  examples: []
   notes:
   - content: ":"
   - content: ":"
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Articulated beacon
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Articulated_beacon
+termid: 8-4-065
+id: ea8c76fd-0d6b-5d96-8cd7-6a8c191957c4

@@ -1,66 +1,40 @@
 ---
-id: 1-2-195
 data:
   identifier: 1-2-195
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Danger
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-195
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 1-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-195
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Danger
+  type: authoritative
+status: valid
+id: 1-2-195
 ---
-id: 1-2-195-eng
-termid: 1-2-195
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Danger
-    normative_status: preferred
   definition:
   - content: Any obstacle, construction or condition jeopardizing safety of shipping.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Danger
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Danger
+termid: 1-2-195
+id: b154d43f-a16b-531f-b608-5902df697730

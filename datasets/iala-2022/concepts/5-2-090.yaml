@@ -1,76 +1,49 @@
 ---
-id: 5-2-090
 data:
   identifier: 5-2-090
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Step_control_system
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-090
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 5-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-090
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Step_control_system
+  type: authoritative
+status: valid
+id: 5-2-090
 ---
-id: 5-2-090-eng
-termid: 5-2-090
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Step control system
-    normative_status: preferred
   definition:
   - content: A system in which the manipulated variable assumes discrete predetermined
       values.
+  examples: []
   notes:
   - content: 'Note:: The condition for change from one predetermined value to another
       is often a function of the value of the actuating signal. When the number of
       values of the manipulated variable is two it is called a two-step control system,
       when more than two, a multi-step control system.'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Step control system
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Step_control_system
+termid: 5-2-090
+id: d2b22235-3bde-55a6-894a-2cccaa811dba

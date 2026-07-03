@@ -1,67 +1,41 @@
 ---
-id: 7-6-175
 data:
   identifier: 7-6-175
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cast_in-situ_piling
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-175
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-6-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-175
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cast_in-situ_piling
+  type: authoritative
+status: valid
+id: 7-6-175
 ---
-id: 7-6-175-eng
-termid: 7-6-175
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cast in-situ piling
-    normative_status: preferred
   definition:
   - content: The casting of a concrete pile within a borehole, usually cased, in the
       ground.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cast in-situ piling
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cast_in-situ_piling
+termid: 7-6-175
+id: dea4c6f4-b6ca-508d-8ebe-76c07491f20a

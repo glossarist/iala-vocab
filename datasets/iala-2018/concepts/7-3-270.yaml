@@ -1,66 +1,40 @@
 ---
-id: 7-3-270
 data:
   identifier: 7-3-270
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reinforcing_bar
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-270
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-270
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reinforcing_bar
+  type: authoritative
+status: valid
+id: 7-3-270
 ---
-id: 7-3-270-eng
-termid: 7-3-270
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reinforcing bar
-    normative_status: preferred
   definition:
   - content: Steel rod used in the reinforcement of concrete.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reinforcing bar
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reinforcing_bar
+termid: 7-3-270
+id: d02ace49-5565-5948-9ace-a2c354b9bbfd

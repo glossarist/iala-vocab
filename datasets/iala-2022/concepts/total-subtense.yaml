@@ -1,48 +1,25 @@
 ---
-id: total-subtense
 data:
   identifier: total-subtense
   domains:
-  - source: urn:iala:dictionary:iala-2015
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2015
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Total_Subtense
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: total-subtense
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: total-subtense
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: total-subtense
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: total-subtense
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: total-subtense
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Total_Subtense
+  type: authoritative
+status: valid
+id: total-subtense
 ---
-id: total-subtense-eng
-termid: total-subtense
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Total Subtense
-    normative_status: preferred
   definition:
   - content: |-
       2015-1
@@ -54,10 +31,19 @@ data:
       Source: ENG3, Guideline 1041
 
       See also: Subtense Angle
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Total Subtense
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Total_Subtense
+termid: total-subtense
+id: 88bbf96d-4486-5173-914b-9b987f3a04bd

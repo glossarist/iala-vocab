@@ -1,60 +1,25 @@
 ---
-id: 2-3-130
 data:
   identifier: 2-3-130
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pre-Focus_Cap
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 2-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-130
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pre-Focus_Cap
+  type: authoritative
+status: valid
+id: 2-3-130
 ---
-id: 2-3-130-eng
-termid: 2-3-130
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pre-Focus Cap
-    normative_status: preferred
   definition:
   - content: |-
       A cap (type P) which enables the luminous element to be brought into a specified position relative to the cap during manufacture of the lamp.
@@ -62,18 +27,26 @@ data:
       By this means, reproducible positioning can be assured when the lamp is inserted in a suitable lampholder.
 
       ![Ch2_Fig26.jpg](/iala-vocab/images/iala/Ch2_Fig26.jpg)
+  examples: []
   notes:
   - content: A Flanged Cap (Culot a Ailettes in French; Flanschsockel in German) is
       a particular type of pre-focus cap.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pre-Focus Cap
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pre-Focus_Cap
+termid: 2-3-130
+id: e0c3b90d-5abd-58b8-b0fa-cd28d9932d8b

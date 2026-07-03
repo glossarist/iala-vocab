@@ -1,63 +1,25 @@
 ---
-id: 2-4-095
 data:
   identifier: 2-4-095
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-4-095
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-4-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer
+  type: authoritative
+status: valid
+id: 2-4-095
 ---
-id: 2-4-095-eng
-termid: 2-4-095
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lamp Changer
-    normative_status: preferred
-  - type: expression
-    designation: Lamp Exchanger (G.B.)
-    normative_status: admitted
   definition:
   - content: |-
       A mechanism, usually operated automatically, which replaces one lamp by another in service in a light.
@@ -65,22 +27,56 @@ data:
       Most usually this is done when the first lamp has failed in service.
 
       ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lamp Changer
+  - type: expression
+    normative_status: admitted
+    designation: Lamp Exchanger (G.B.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer
----
-id: 2-4-095-spa
 termid: 2-4-095
+id: 14d53450-d852-5b6f-a438-7626e246ccea
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Cambiador de lámpara
+
+      Término alternativo: Cambia-lámpara (G.B.)
+
+      Mecanismo generalmente automático que reemplaza una lámpara por otra en servicio en una luz.
+
+      Normalmente esto ocurre cuando falla la primera lámpara en servicio.
+
+      ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Lamp Changer/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer/es
+termid: 2-4-095
+id: c3d9a02a-cca3-5d62-876d-533536dace93
+---
+data:
   definition:
   - content: |-
       Cambiador de lámpara
@@ -92,37 +88,19 @@ data:
       Normalmente esto ocurre cuando falla la primera lámpara en servicio.
 
       ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer/es
----
-id: 2-4-095-spa
-termid: 2-4-095
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 2-4-095
     normative_status: preferred
-  definition:
-  - content: |-
-      Cambiador de lámpara
-
-      Término alternativo: Cambia-lámpara (G.B.)
-
-      Mecanismo generalmente automático que reemplaza una lámpara por otra en servicio en una luz.
-
-      Normalmente esto ocurre cuando falla la primera lámpara en servicio.
-
-      ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 2-4-095
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer/es
+termid: 2-4-095
+id: 40a586ce-358a-5978-b9da-8555809e7f78

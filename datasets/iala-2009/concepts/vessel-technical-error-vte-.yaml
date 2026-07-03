@@ -13,35 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Vessel_Technical_Error_(VTE)
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: vessel-technical-error-vte-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: vessel-technical-error-vte-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: vessel-technical-error-vte-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vessel-technical-error-vte-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vessel-technical-error-vte-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: vessel-technical-error-vte-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: vessel-technical-error-vte-
+related: []
 ---
 id: vessel-technical-error-vte--eng
 termid: vessel-technical-error-vte-

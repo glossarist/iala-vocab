@@ -1,72 +1,46 @@
 ---
-id: 4-1-440
 data:
   identifier: 4-1-440
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ground-plane_antenna
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-440
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-440
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-440
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-440
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-440
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-440
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-440
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-440
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ground-plane_antenna
+  type: authoritative
+status: valid
+id: 4-1-440
 ---
-id: 4-1-440-eng
-termid: 4-1-440
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ground-plane antenna
-    normative_status: preferred
   definition:
   - content: A unipole antenna in which the ground plane consists of a system of radially
       disporsed rods, or a disc.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ground-plane antenna
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ground-plane_antenna
+termid: 4-1-440
+id: df569450-7875-53c5-95ed-5a5add1303f4

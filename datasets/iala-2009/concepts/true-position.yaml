@@ -13,35 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/True_position
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: true-position
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: true-position
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: true-position
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: true-position
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: true-position
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: true-position
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: true-position
+related: []
 ---
 id: true-position-eng
 termid: true-position

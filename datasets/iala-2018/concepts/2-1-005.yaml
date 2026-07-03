@@ -1,60 +1,25 @@
 ---
-id: 2-1-005
 data:
   identifier: 2-1-005
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Light_(2)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-005
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-005
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Light_(2)
+  type: authoritative
+status: valid
+id: 2-1-005
 ---
-id: 2-1-005-eng
-termid: 2-1-005
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Light (2)
-    normative_status: preferred
   definition:
   - content: |-
       2-1-005
@@ -63,19 +28,27 @@ data:
       Any radiation capable of causing a visual sensation directly.
 
       1 nanometre (nm) = 10-9m = 1 millimicron.
+  examples: []
   notes:
   - content: |-
       The limits of the spectral range of visible radiation are not well-defined and may vary according to the user.
       The lower limit is generally taken between 380 and 400 nm and the upper limit between 760 and 780 nm.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Light (2)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light_(2)
+termid: 2-1-005
+id: c7ef06fe-ce81-52d6-a056-bd3c67d4889c

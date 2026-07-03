@@ -1,72 +1,46 @@
 ---
-id: 5-3-300
 data:
   identifier: 5-3-300
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Compression
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-300
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 5-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-300
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Compression
+  type: authoritative
+status: valid
+id: 5-3-300
 ---
-id: 5-3-300-eng
-termid: 5-3-300
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Compression
-    normative_status: preferred
   definition:
   - content: The automatic reduction, according to a specified law, of the variation
       of the mean level of a signal, the mean being over a period of time which is
       specified in each case.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Compression
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Compression
+termid: 5-3-300
+id: 809148e7-8385-5e7e-b50b-f9bbaea8e324

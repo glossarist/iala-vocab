@@ -1,68 +1,42 @@
 ---
-id: 8-3-220
 data:
   identifier: 8-3-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Chain_sling
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 8-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-3-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Chain_sling
+  type: authoritative
+status: valid
+id: 8-3-220
 ---
-id: 8-3-220-eng
-termid: 8-3-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Chain sling
-    normative_status: preferred
   definition:
   - content: Any sling made of chain, but more specifically a short length of chain
       having an elongated pear-shaped link or hook at each end, intended for the lifting
       of heavy loads.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Chain sling
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chain_sling
+termid: 8-3-220
+id: '0885de4f-5589-561b-8fd0-2f275da39d2c'

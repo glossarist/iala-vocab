@@ -1,67 +1,41 @@
 ---
-id: 7-4-310
 data:
   identifier: 7-4-310
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Undisturbed_soil_sample
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-310
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-4-310
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-310
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-4-310
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-4-310
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-310
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-310
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-310
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Undisturbed_soil_sample
+  type: authoritative
+status: valid
+id: 7-4-310
 ---
-id: 7-4-310-eng
-termid: 7-4-310
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Undisturbed soil sample
-    normative_status: preferred
   definition:
   - content: Sample of soil taken from the mass carefully removed and immediately
       sealed to prevent moisture changes.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Undisturbed soil sample
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Undisturbed_soil_sample
+termid: 7-4-310
+id: de7b10b2-7020-5efe-a655-26d58c2fa2f8

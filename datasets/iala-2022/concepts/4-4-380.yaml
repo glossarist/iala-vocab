@@ -1,60 +1,25 @@
 ---
-id: 4-4-380
 data:
   identifier: 4-4-380
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lorac
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-380
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-4-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-380
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lorac
+  type: authoritative
+status: valid
+id: 4-4-380
 ---
-id: 4-4-380-eng
-termid: 4-4-380
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lorac
-    normative_status: preferred
   definition:
   - content: |-
       A navigation system in which a position fix is obtained by phase comparison of continuous wave transmissions.
@@ -64,12 +29,20 @@ data:
       This is phase compared with a similar beat note, produced at a fixed shore location, and transmitted to the vessel on a different radio frequency, to produce a line of position.
 
       A second line is produced by a similar system.
+  examples: []
   notes:
   - content: This is similar to the Raydist system {{4-4-270, Raydist}}.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lorac
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lorac
+termid: 4-4-380
+id: '009bf7b3-6a20-5989-999f-e1c6de066e83'

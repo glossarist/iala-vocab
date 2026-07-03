@@ -1,67 +1,41 @@
 ---
-id: 5-2-055
 data:
   identifier: 5-2-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Feedback
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 5-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Feedback
+  type: authoritative
+status: valid
+id: 5-2-055
 ---
-id: 5-2-055-eng
-termid: 5-2-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Feedback
-    normative_status: preferred
   definition:
   - content: In an electrical, mechanical, or acoustic transmission system the addition
       of some fraction of the output signal to the input signal.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Feedback
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Feedback
+termid: 5-2-055
+id: ebdb2a33-1cd6-586e-86b0-7da2497746cf

@@ -1,71 +1,44 @@
 ---
-id: 6-4-260
 data:
   identifier: 6-4-260
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Squirrel-cage_motor
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 6-4-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-4-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-4-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-4-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-260
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Squirrel-cage_motor
+  type: authoritative
+status: valid
+id: 6-4-260
 ---
-id: 6-4-260-eng
-termid: 6-4-260
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Squirrel-cage motor
-    normative_status: preferred
   definition:
   - content: An induction motor in which a primary winding on one member, usually
       the stator, is connected to the power source, and a secondary squirrel-cage
       winding on the other member, usually the rotor, carries induced current.
+  examples: []
   notes:
   - content: A squirrel-cage winding consists of a number of conducting bars having
       their extremities connected by metal rings or plates at each end.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Squirrel-cage motor
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Squirrel-cage_motor
+termid: 6-4-260
+id: d141d931-8d13-5eda-a9e1-299d88902a18

@@ -1,71 +1,45 @@
 ---
-id: 1-1-445
 data:
   identifier: 1-1-445
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sensation
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-445
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 1-1-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-1-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-445
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sensation
+  type: authoritative
+status: valid
+id: 1-1-445
 ---
-id: 1-1-445-eng
-termid: 1-1-445
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sensation
-    normative_status: preferred
   definition:
   - content: Element of the mental content of a sense impression which cannot be analysed
       further.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sensation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sensation
+termid: 1-1-445
+id: df7caeba-448e-5d4c-ad65-8e1fe7d68768

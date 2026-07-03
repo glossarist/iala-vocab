@@ -1,71 +1,45 @@
 ---
-id: 4-2-450
 data:
   identifier: 4-2-450
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Clock_coder_(G.B.)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-450
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 4-2-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-450
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Clock_coder_(G.B.)
+  type: authoritative
+status: valid
+id: 4-2-450
 ---
-id: 4-2-450-eng
-termid: 4-2-450
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Clock coder (G.B.)
-    normative_status: preferred
-  - type: expression
-    designation: Timer Coder (U.S.A.)
-    normative_status: admitted
   definition:
   - content: The central control mechanism, either electrical, electronic or mechanical,
       by means of which the transmission schedule of the radio beacon is determined,
       and the characteristic code of the station is generated.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Clock coder (G.B.)
+  - type: expression
+    normative_status: admitted
+    designation: Timer Coder (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Clock_coder_(G.B.)
+termid: 4-2-450
+id: 33e57fa5-5b05-5f85-b178-d7885e0681be

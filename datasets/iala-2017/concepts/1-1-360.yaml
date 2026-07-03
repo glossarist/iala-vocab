@@ -1,67 +1,41 @@
 ---
-id: 1-1-360
 data:
   identifier: 1-1-360
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Modulation
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-360
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 1-1-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-360
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Modulation
+  type: authoritative
+status: valid
+id: 1-1-360
 ---
-id: 1-1-360-eng
-termid: 1-1-360
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Modulation
-    normative_status: preferred
   definition:
   - content: Deliberate variation of a characteristic (amplitude, phase, frequency)
       of a relatively higher frequency oscillation in order to transmit information.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Modulation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Modulation
+termid: 1-1-360
+id: 56c303d1-f3dd-5175-be57-743d5f9ad7ca

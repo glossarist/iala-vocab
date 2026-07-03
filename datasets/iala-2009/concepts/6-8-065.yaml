@@ -1,67 +1,41 @@
 ---
-id: 6-8-065
 data:
   identifier: 6-8-065
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/No-load_operation
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 6-8-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-8-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-065
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/No-load_operation
+  type: authoritative
+status: valid
+id: 6-8-065
 ---
-id: 6-8-065-eng
-termid: 6-8-065
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: No-load operation
-    normative_status: preferred
   definition:
   - content: The operation of a source of energy when no power is being delivered
       by the source to any load.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: No-load operation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/No-load_operation
+termid: 6-8-065
+id: 105ffa32-4fb4-5b42-8c57-62ff66c48463

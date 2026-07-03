@@ -1,52 +1,25 @@
 ---
-id: quality-management-system-qms-
 data:
   identifier: quality-management-system-qms-
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Quality_Management_System_(QMS)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: quality-management-system-qms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: quality-management-system-qms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: quality-management-system-qms-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: quality-management-system-qms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: quality-management-system-qms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: quality-management-system-qms-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Quality_Management_System_(QMS)
+  type: authoritative
+status: valid
+id: quality-management-system-qms-
 ---
-id: quality-management-system-qms--eng
-termid: quality-management-system-qms-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Quality Management System (QMS)
-    normative_status: preferred
   definition:
   - content: "VTS-2012-27\n\nQuality Management System (QMS)\tis a documented process
       of the organisation that comprises a set of policies, processes and procedures
@@ -54,10 +27,19 @@ data:
       organisations to identify measure, control and improve the various training
       processes that will ultimately lead to improved performance.\n\nSource: IALA
       Guideline 1014 (2009)\n\n(VTS33/output/8 refers)"
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Quality Management System (QMS)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Quality_Management_System_(QMS)
+termid: quality-management-system-qms-
+id: 19ec7f1f-73a7-55e2-80a5-31d723d65e6e

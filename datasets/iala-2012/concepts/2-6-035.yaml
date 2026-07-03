@@ -1,69 +1,43 @@
 ---
-id: 2-6-035
 data:
   identifier: 2-6-035
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Easily_recognizable_structure
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-035
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-6-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-6-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-6-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-6-035
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Easily_recognizable_structure
+  type: authoritative
+status: valid
+id: 2-6-035
 ---
-id: 2-6-035-eng
-termid: 2-6-035
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Easily recognizable structure
-    normative_status: preferred
   definition:
   - content: |-
       A solid structure, or a structure in the form of scaffolding, fixed in the ground and standing out sharply against the background, in order to be easily recognisable.
 
       ![Ch2_Fig48.jpg](/iala-vocab/images/iala/Ch2_Fig48.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Easily recognizable structure
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Easily_recognizable_structure
+termid: 2-6-035
+id: 4c382c39-0dc3-55b8-9f86-bd676254ec05

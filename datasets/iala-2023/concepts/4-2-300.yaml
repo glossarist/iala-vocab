@@ -1,74 +1,48 @@
 ---
-id: 4-2-300
 data:
   identifier: 4-2-300
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ionospheric_path_error
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-300
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-2-300
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ionospheric_path_error
+  type: authoritative
+status: valid
+id: 4-2-300
 ---
-id: 4-2-300-eng
-termid: 4-2-300
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ionospheric path error
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: Ionospheric error, Skywave error
 
       The total systematic and random error resulting from the reception of a navigational signal after ionospheric refraction. It may be due to (1) Variations in the transmission path (2) Non-uniform height of the ionosphere (3) Non-uniform propagation within the ionosphere        (4) Horizontal components of refraction (5) Back scatter (6) Forward scatter.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.R.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ionospheric path error
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ionospheric_path_error
+termid: 4-2-300
+id: 5118bb18-46df-5a03-92df-2c16ca9edb71

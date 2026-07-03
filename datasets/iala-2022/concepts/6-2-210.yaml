@@ -1,71 +1,44 @@
 ---
-id: 6-2-210
 data:
   identifier: 6-2-210
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Compression_ratio
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-210
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-210
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Compression_ratio
+  type: authoritative
+status: valid
+id: 6-2-210
 ---
-id: 6-2-210-eng
-termid: 6-2-210
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Compression ratio
-    normative_status: preferred
   definition:
   - content: The ratio (greater than unity) of the volumes of the spaces within a
       cylinder enclosed by the extreme positions of the piston.
+  examples: []
   notes:
   - content: The closed extreme position of the piston is called top dead centre.
   - content: A higher compression ratio produces a larger power output for a given
       fuel consumption.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Compression ratio
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Compression_ratio
+termid: 6-2-210
+id: a85f5d5c-e058-56c0-84f7-d444a59fbf66

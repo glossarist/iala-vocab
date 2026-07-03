@@ -1,68 +1,42 @@
 ---
-id: 6-7-060
 data:
   identifier: 6-7-060
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Phase_converter
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-7-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-7-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-7-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-7-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-7-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-7-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-7-060
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-7-060
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Phase_converter
+  type: authoritative
+status: valid
+id: 6-7-060
 ---
-id: 6-7-060-eng
-termid: 6-7-060
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Phase converter
-    normative_status: preferred
   definition:
   - content: A device that converts electric energy in an alternating-current circuit
       with a certain number of phases into electric energy in another alternating-current
       circuit with a different number of phases.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Phase converter
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Phase_converter
+termid: 6-7-060
+id: e58408de-5065-5363-b007-75a309f7f112

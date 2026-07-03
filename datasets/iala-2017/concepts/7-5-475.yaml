@@ -1,71 +1,45 @@
 ---
-id: 7-5-475
 data:
   identifier: 7-5-475
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Hyperstatic
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-475
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-475
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-475
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-475
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-5-475
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-475
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-475
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-475
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Hyperstatic
+  type: authoritative
+status: valid
+id: 7-5-475
 ---
-id: 7-5-475-eng
-termid: 7-5-475
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Hyperstatic
-    normative_status: preferred
-  - type: expression
-    designation: Indeterminate redundant
-    normative_status: admitted
   definition:
   - content: A term applied to a structure which is provided with a redundant number
       of nodes so that bending moments and reactions need to be determined not only
       from the laws of equilibrium but taking calculated deflection into account.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hyperstatic
+  - type: expression
+    normative_status: admitted
+    designation: Indeterminate redundant
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hyperstatic
+termid: 7-5-475
+id: eb7f70db-491d-5cae-8f63-7e2e3b6b0c6a

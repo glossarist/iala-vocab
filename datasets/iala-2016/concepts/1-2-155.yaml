@@ -1,72 +1,46 @@
 ---
-id: 1-2-155
 data:
   identifier: 1-2-155
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Anchorage
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-155
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 1-2-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-155
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Anchorage
+  type: authoritative
+status: valid
+id: 1-2-155
 ---
-id: 1-2-155-eng
-termid: 1-2-155
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Anchorage
-    normative_status: preferred
   definition:
   - content: An area where ships can ride at anchor, sometimes designated by competent
       authorities.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.H.B
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Anchorage
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Anchorage
+termid: 1-2-155
+id: 110fa77b-474f-5979-bdde-c5fa8a1ab2a5

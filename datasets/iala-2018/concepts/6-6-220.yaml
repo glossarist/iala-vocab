@@ -1,67 +1,41 @@
 ---
-id: 6-6-220
 data:
   identifier: 6-6-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Auxiliary_contact
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-6-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 6-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-6-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Auxiliary_contact
+  type: authoritative
+status: valid
+id: 6-6-220
 ---
-id: 6-6-220-eng
-termid: 6-6-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Auxiliary contact
-    normative_status: preferred
   definition:
   - content: A contact included in an auxiliary circuit and mechanically operated
       by a switching device.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Auxiliary contact
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Auxiliary_contact
+termid: 6-6-220
+id: 2ff73d90-734c-50be-9a64-0375b0a36bd9

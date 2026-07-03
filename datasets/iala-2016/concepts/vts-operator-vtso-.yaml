@@ -1,52 +1,25 @@
 ---
-id: vts-operator-vtso-
 data:
   identifier: vts-operator-vtso-
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/VTS_Operator_(VTSO)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: vts-operator-vtso-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: vts-operator-vtso-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/VTS_Operator_(VTSO)
+  type: authoritative
+status: valid
+id: vts-operator-vtso-
 ---
-id: vts-operator-vtso--eng
-termid: vts-operator-vtso-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: VTS Operator (VTSO)
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-45
@@ -56,10 +29,19 @@ data:
       Source: IMO A.857(20)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: VTS Operator (VTSO)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Operator_(VTSO)
+termid: vts-operator-vtso-
+id: e5ba291e-58f8-52e6-a208-e004d94e6129

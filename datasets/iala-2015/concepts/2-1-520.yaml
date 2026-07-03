@@ -1,76 +1,50 @@
 ---
-id: 2-1-520
 data:
   identifier: 2-1-520
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Full_Radiator
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-520
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-520
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-1-520
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-520
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-520
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-520
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-520
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-520
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Full_Radiator
+  type: authoritative
+status: valid
+id: 2-1-520
 ---
-id: 2-1-520-eng
-termid: 2-1-520
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Full Radiator
-    normative_status: preferred
-  - type: expression
-    designation: Black Body, Planckian Radiator
-    normative_status: admitted
   definition:
   - content: The thermal radiator which absorbs completely all incident radiation,
       whatever the wavelength, the direction of incidence or the polarisation. This
       radiator has, for any wavelength, the maximum spectral concentration of radiant
       exitance at a given temperature.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Full Radiator
+  - type: expression
+    normative_status: admitted
+    designation: Black Body, Planckian Radiator
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Full_Radiator
+termid: 2-1-520
+id: f55b1861-f7e3-5899-8d1a-2ef5f000b5be

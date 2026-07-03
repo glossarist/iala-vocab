@@ -1,68 +1,42 @@
 ---
-id: 8-3-105
 data:
   identifier: 8-3-105
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Towing_winch
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-3-105
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 8-3-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-3-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-3-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-3-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-3-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-3-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-3-105
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Towing_winch
+  type: authoritative
+status: valid
+id: 8-3-105
 ---
-id: 8-3-105-eng
-termid: 8-3-105
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Towing winch
-    normative_status: preferred
   definition:
   - content: A winch with a large single barrel on which the towing line is reeled.
       It is usually fitted with an automatic control system that allows the line to
       run out or heave in according to weather and load conditions while towing.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Towing winch
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Towing_winch
+termid: 8-3-105
+id: 9e798462-ccb6-5454-b118-5ed89b3633d2

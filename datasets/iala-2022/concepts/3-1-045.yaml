@@ -1,70 +1,44 @@
 ---
-id: 3-1-045
 data:
   identifier: 3-1-045
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sound_field
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-045
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 3-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-045
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sound_field
+  type: authoritative
+status: valid
+id: 3-1-045
 ---
-id: 3-1-045-eng
-termid: 3-1-045
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sound field
-    normative_status: preferred
   definition:
   - content: A region of space containing sound waves.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sound field
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_field
+termid: 3-1-045
+id: ba94c938-85ba-57ca-8095-90293bd139a6

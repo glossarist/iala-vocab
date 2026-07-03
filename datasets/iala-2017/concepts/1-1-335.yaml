@@ -1,70 +1,44 @@
 ---
-id: 1-1-335
 data:
   identifier: 1-1-335
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Forced_oscillation
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-335
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 1-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-335
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Forced_oscillation
+  type: authoritative
+status: valid
+id: 1-1-335
 ---
-id: 1-1-335-eng
-termid: 1-1-335
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Forced oscillation
-    normative_status: preferred
   definition:
   - content: An oscillation of which the frequency is determined by a generating system.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Forced oscillation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Forced_oscillation
+termid: 1-1-335
+id: 94291c96-9716-5fed-839f-570f54ef7bbb

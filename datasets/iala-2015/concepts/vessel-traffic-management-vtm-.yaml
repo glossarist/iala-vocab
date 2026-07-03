@@ -1,52 +1,25 @@
 ---
-id: vessel-traffic-management-vtm-
 data:
   identifier: vessel-traffic-management-vtm-
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Vessel_Traffic_Management_(VTM)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: vessel-traffic-management-vtm-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: vessel-traffic-management-vtm-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vessel-traffic-management-vtm-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vessel-traffic-management-vtm-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: vessel-traffic-management-vtm-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: vessel-traffic-management-vtm-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Vessel_Traffic_Management_(VTM)
+  type: authoritative
+status: valid
+id: vessel-traffic-management-vtm-
 ---
-id: vessel-traffic-management-vtm--eng
-termid: vessel-traffic-management-vtm-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Vessel Traffic Management (VTM)
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-37
@@ -54,10 +27,19 @@ data:
       Vessel Traffic Management (VTM) is the functional framework of harmonized measures and services to enhance the safety, security and efficiency of shipping and the protection of the marine environment in all navigable waters.
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vessel Traffic Management (VTM)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vessel_Traffic_Management_(VTM)
+termid: vessel-traffic-management-vtm-
+id: b07fe0a6-97e0-5416-9fa5-162b5e188345

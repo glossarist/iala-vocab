@@ -1,67 +1,41 @@
 ---
-id: 7-6-170
 data:
   identifier: 7-6-170
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bored_piling
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-170
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-6-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-170
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bored_piling
+  type: authoritative
+status: valid
+id: 7-6-170
 ---
-id: 7-6-170-eng
-termid: 7-6-170
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bored piling
-    normative_status: preferred
   definition:
   - content: The sinking of piles into the ground by boring, and lining the borehole
       with a steel or concrete casing as boring proceeds.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bored piling
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bored_piling
+termid: 7-6-170
+id: 99a89696-2ebd-53d8-816e-8e2dd35d7bb5

@@ -1,60 +1,25 @@
 ---
-id: 2-1-405
 data:
   identifier: 2-1-405
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Blondel-Rey_Law
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-405
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-1-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-405
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Blondel-Rey_Law
+  type: authoritative
+status: valid
+id: 2-1-405
 ---
-id: 2-1-405-eng
-termid: 2-1-405
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Blondel-Rey Law
-    normative_status: preferred
   definition:
   - content: |-
       An empirical law relating the effective intensity (Ie) of a rhythmic light having a quasi-rectangular intensity-time distribution, to the intensity (Io) which the same light would appear to exhibit if fixed, and to the duration (t) of the light flash. The relation was established by subjective observation of lights observed at the threshold of illuminance, in the form
@@ -64,10 +29,19 @@ data:
       where 'a' has an empirically determined value.
 
       The law has also in practice been applied in conditions differing widely from those applicable to the determinations of Blondel and Rey. The value for 'a' then depends upon the colour and shape of the light impulse, the angle subtended by the light at the observer and the luminance of the background against which the light must be seen. Thus the values of 'a' may vary within a wide range. For various countries, values of 'a' ranging between 0.1 and 0.3 second have been used.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Blondel-Rey Law
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blondel-Rey_Law
+termid: 2-1-405
+id: e12360e9-fa93-5495-8a20-f24193acd3f2

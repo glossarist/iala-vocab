@@ -1,72 +1,45 @@
 ---
-id: 4-3-130
 data:
   identifier: 4-3-130
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sector_display
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-130
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-130
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sector_display
+  type: authoritative
+status: valid
+id: 4-3-130
 ---
-id: 4-3-130-eng
-termid: 4-3-130
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sector display
-    normative_status: preferred
   definition:
   - content: |-
       A display used with a radar set, the aerial of which is continuously rotating.
 
       The screen, of the long persistence type, is excited only while the beam of the aerial system is within a narrow sector which can be selected at will.
+  examples: []
   notes:
   - content: A sector display can be used in conjunction with either an A-scan display
       or a P.P.I.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sector display
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sector_display
+termid: 4-3-130
+id: 4e5d451b-46f8-553b-b1fd-9266a39e49c9

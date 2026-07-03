@@ -1,63 +1,41 @@
 ---
-id: coverage
 data:
   identifier: coverage
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Coverage
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: coverage
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: coverage
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: coverage
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: coverage
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: coverage
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: coverage
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: coverage
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Coverage
+  type: authoritative
+status: valid
+id: coverage
 ---
-id: coverage-eng
-termid: coverage
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Coverage
-    normative_status: preferred
   definition:
   - content: The surface area or space volume in which radio-navigation signals are
       adequate to permit the user to determine position to a specified level of performance.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Coverage
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Coverage
+termid: coverage
+id: b9fcabe1-0a34-5bb7-9dd7-e29bb9e9d1d8

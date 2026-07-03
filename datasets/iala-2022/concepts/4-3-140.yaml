@@ -1,74 +1,47 @@
 ---
-id: 4-3-140
 data:
   identifier: 4-3-140
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Azimuth-stabilised_P.P.I.
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-140
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-3-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-140
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Azimuth-stabilised_P.P.I.
+  type: authoritative
+status: valid
+id: 4-3-140
 ---
-id: 4-3-140-eng
-termid: 4-3-140
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Azimuth-stabilised P.P.I.
-    normative_status: preferred
   definition:
   - content: A plan-position indicator in which the true north on the display remains
       fixed in spite of the movement of the ship.
+  examples: []
   notes:
   - content: The term is extended to stabilisation with respect to magnetic north.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Azimuth-stabilised P.P.I.
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Azimuth-stabilised_P.P.I.
+termid: 4-3-140
+id: ad8f4eba-faa3-50b3-a59b-3894e3fb6eea

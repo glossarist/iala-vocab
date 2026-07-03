@@ -1,82 +1,73 @@
 ---
-id: 6-3-350
 data:
   identifier: 6-3-350
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Butane
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-3-350
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-3-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-350
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-350
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-350
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-350
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Butane
+  type: authoritative
+status: valid
+id: 6-3-350
 ---
-id: 6-3-350-eng
-termid: 6-3-350
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Butane
-    normative_status: preferred
   definition:
   - content: A hydrocarbon fuel, C4H10, which is a gas at ordinary temperatures and
       atmospheric pressure. It has a boiling point of 1 degree C at atmospheric pressure
       and may therefore not be used in colder climates as a gaseous fuel.
+  examples: []
   notes:
   - content: Butane is commercially available under various names.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Butane
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Butane
----
-id: 6-3-350-spa
 termid: 6-3-350
+id: dde92cd3-54a9-54c4-a3e3-f749d0f863d9
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Butano
+
+      Combustible de hidrocarburo, C4H10, gas a temperaturas  y presión atmosférica normales. Dado que posee un punto de ebullición de 1° grado Celsius a presión atmosférica no puede ser utilizado en climas fríos como combustible gaseoso.
+
+      Nota: El butano está disponible comercialmente bajo varios nombres.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Butane/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Butane/es
+termid: 6-3-350
+id: f9a2d65f-088c-5917-adf7-d0c91d4b354c
+---
+data:
   definition:
   - content: |-
       Butano
@@ -84,33 +75,19 @@ data:
       Combustible de hidrocarburo, C4H10, gas a temperaturas  y presión atmosférica normales. Dado que posee un punto de ebullición de 1° grado Celsius a presión atmosférica no puede ser utilizado en climas fríos como combustible gaseoso.
 
       Nota: El butano está disponible comercialmente bajo varios nombres.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Butane/es
----
-id: 6-3-350-spa
-termid: 6-3-350
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 6-3-350
     normative_status: preferred
-  definition:
-  - content: |-
-      Butano
-
-      Combustible de hidrocarburo, C4H10, gas a temperaturas  y presión atmosférica normales. Dado que posee un punto de ebullición de 1° grado Celsius a presión atmosférica no puede ser utilizado en climas fríos como combustible gaseoso.
-
-      Nota: El butano está disponible comercialmente bajo varios nombres.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 6-3-350
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Butane/es
+termid: 6-3-350
+id: 75ac814b-129d-549a-a330-97c8d6ef8864

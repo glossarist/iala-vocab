@@ -1,73 +1,47 @@
 ---
-id: 2-3-240
 data:
   identifier: 2-3-240
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Metallised_Lamp
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-240
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-3-240
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Metallised_Lamp
+  type: authoritative
+status: valid
+id: 2-3-240
 ---
-id: 2-3-240-eng
-termid: 2-3-240
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Metallised Lamp
-    normative_status: preferred
   definition:
   - content: A lamp in which part of the bulb is coated internally or externally with
       a metallic film to form a reflecting surface so that the light is sent in particular
       directions.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Metallised Lamp
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Metallised_Lamp
+termid: 2-3-240
+id: f7c29d13-e1d2-5c91-854a-fb9368c08683

@@ -1,63 +1,25 @@
 ---
-id: 2-1-050
 data:
   identifier: 2-1-050
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Candela_per_Square_Metre
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-1-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Candela_per_Square_Metre
+  type: authoritative
+status: valid
+id: 2-1-050
 ---
-id: 2-1-050-eng
-termid: 2-1-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Candela per Square Metre
-    normative_status: preferred
-  - type: symbol
-    designation: stem:[cd/m2]
-    normative_status: preferred
   definition:
   - content: |-
       The SI
@@ -67,19 +29,30 @@ data:
       Non-metric
 
       1 cd/m2 = 10-4 stilb = p apostilb = p.10-4 lambert = footlambert
+  examples: []
   notes:
   - content: 'This unit is sometimes called Nit. Symbol: nt'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Candela per Square Metre
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[cd/m2]
+  language_code: eng
   annotations:
   - content: Unit of luminance.
   - content: Unit foot lambert (fL)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Candela_per_Square_Metre
+termid: 2-1-050
+id: 28d3d9df-dcde-5f01-b09c-69517d0c6834

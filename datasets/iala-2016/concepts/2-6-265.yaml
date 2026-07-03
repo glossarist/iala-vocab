@@ -1,60 +1,25 @@
 ---
-id: 2-6-265
 data:
   identifier: 2-6-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Stripes
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-6-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-6-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-6-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-6-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-6-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-6-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Stripes
+  type: authoritative
+status: valid
+id: 2-6-265
 ---
-id: 2-6-265-eng
-termid: 2-6-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Stripes
-    normative_status: preferred
   definition:
   - content: |-
       A number of areas of contrasting colour separated from one another by straight lines, and used as a distinguishing characteristic for navigation marks. (Fig.67b)
@@ -62,14 +27,22 @@ data:
       (Fig. 67c)
 
       ![Ch2_Fig67.jpg](/iala-vocab/images/iala/Ch2_Fig67.jpg)
+  examples: []
   notes:
   - content: The stripes may be vertical, horizontal or oblique.
   - content: Horizontal stripes are usually called Bands in English and Bander in
       German.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Stripes
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stripes
+termid: 2-6-265
+id: c1329449-4526-5cb6-a1df-794509d15087

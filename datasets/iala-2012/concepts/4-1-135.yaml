@@ -1,67 +1,41 @@
 ---
-id: 4-1-135
 data:
   identifier: 4-1-135
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Threshold_signal
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-135
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-1-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-135
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Threshold_signal
+  type: authoritative
+status: valid
+id: 4-1-135
 ---
-id: 4-1-135-eng
-termid: 4-1-135
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Threshold signal
-    normative_status: preferred
   definition:
   - content: The smallest signal capable of being detected above the background noise
       level.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Threshold signal
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Threshold_signal
+termid: 4-1-135
+id: e8c2dd98-5478-5d19-b09e-590810b62881

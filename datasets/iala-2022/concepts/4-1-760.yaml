@@ -1,63 +1,25 @@
 ---
-id: 4-1-760
 data:
   identifier: 4-1-760
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Muting
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-760
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-760
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-760
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-760
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-760
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-760
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-1-760
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-760
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Muting
+  type: authoritative
+status: valid
+id: 4-1-760
 ---
-id: 4-1-760-eng
-termid: 4-1-760
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Muting
-    normative_status: preferred
-  - type: expression
-    designation: Squelch (U.S.A.)
-    normative_status: admitted
   definition:
   - content: The process of inhibiting, by an automatic device incorporated in a receiver,
       any response (usually acoustic) to an excitation of less than some predetermined
@@ -65,17 +27,28 @@ data:
       value.
   - content: Automatically making a receiver insensitive when a neighbouring transmitter
       is working.
+  examples: []
   notes:
   - content: The term Noise suppression for this process is deprecated.
   - content: This process is often termed Desensitising.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Muting
+  - type: expression
+    normative_status: admitted
+    designation: Squelch (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Muting
+termid: 4-1-760
+id: 472cd01e-a824-56ac-a600-a75458cc75c9

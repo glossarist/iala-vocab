@@ -1,60 +1,25 @@
 ---
-id: 2-4-095
 data:
   identifier: 2-4-095
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-unknown
+  - concept_id: section-unknown
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer/es
 related:
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-4-095
-- type: related_concept
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-4-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer/es
+  type: authoritative
+status: valid
+id: 2-4-095
 ---
-id: 2-4-095-spa
-termid: 2-4-095
 data:
-  language_code: spa
-  terms:
-  - type: expression
-    designation: Lamp Changer/es
-    normative_status: preferred
   definition:
   - content: |-
       Cambiador de lámpara
@@ -66,10 +31,19 @@ data:
       Normalmente esto ocurre cuando falla la primera lámpara en servicio.
 
       ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lamp Changer/es
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer/es
+termid: 2-4-095
+id: c3d9a02a-cca3-5d62-876d-533536dace93

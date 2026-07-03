@@ -1,70 +1,44 @@
 ---
-id: 8-4-070
 data:
   identifier: 8-4-070
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Body
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-070
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 8-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-070
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Body
+  type: authoritative
+status: valid
+id: 8-4-070
 ---
-id: 8-4-070-eng
-termid: 8-4-070
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Body
-    normative_status: preferred
-  - type: expression
-    designation: Float flotation chamber
-    normative_status: admitted
   definition:
   - content: The principal part of a buoy, forming a watertight chamber that provides
       buoyancy.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Body
+  - type: expression
+    normative_status: admitted
+    designation: Float flotation chamber
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Body
+termid: 8-4-070
+id: e594c229-3436-543c-ae8c-7fc5caedb38b

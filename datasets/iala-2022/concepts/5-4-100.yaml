@@ -1,67 +1,41 @@
 ---
-id: 5-4-100
 data:
   identifier: 5-4-100
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Schmitt_trigger
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-100
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 5-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-100
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Schmitt_trigger
+  type: authoritative
+status: valid
+id: 5-4-100
 ---
-id: 5-4-100-eng
-termid: 5-4-100
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Schmitt trigger
-    normative_status: preferred
   definition:
   - content: A bi-stable pulse generator in which an output pulse of constant amplitude
       exists only so long as the input voltage exceeds a certain value.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Schmitt trigger
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Schmitt_trigger
+termid: 5-4-100
+id: 3a72518c-7e45-5928-8345-1811812fd23b

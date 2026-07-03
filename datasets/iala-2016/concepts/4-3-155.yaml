@@ -1,75 +1,49 @@
 ---
-id: 4-3-155
 data:
   identifier: 4-3-155
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Shadow_region
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-155
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 4-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-155
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Shadow_region
+  type: authoritative
+status: valid
+id: 4-3-155
 ---
-id: 4-3-155-eng
-termid: 4-3-155
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Shadow region
-    normative_status: preferred
-  - type: expression
-    designation: Blind sector
-    normative_status: admitted
   definition:
   - content: The region from which, under normal propagation conditions, the received
       field strength is so reduced by some obstruction that effective radar detection
       of objects in this region is improbable.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Shadow region
+  - type: expression
+    normative_status: admitted
+    designation: Blind sector
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shadow_region
+termid: 4-3-155
+id: 9d625081-849c-539b-8560-ab4c0e3fdcbc

@@ -1,71 +1,44 @@
 ---
-id: 6-3-295
 data:
   identifier: 6-3-295
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Tide-actuated_generator
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-295
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-3-295
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Tide-actuated_generator
+  type: authoritative
+status: valid
+id: 6-3-295
 ---
-id: 6-3-295-eng
-termid: 6-3-295
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Tide-actuated generator
-    normative_status: preferred
   definition:
   - content: A generator that produces electric energy from the motion of the tidal
       current.
+  examples: []
   notes:
   - content: Such generators may be actuated by the pressure of a head of water built
       up behind a barrage, or by direct conversion of the energy of tidal flow. In
       the latter case, the term tidal stream rotor is also used.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tide-actuated generator
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tide-actuated_generator
+termid: 6-3-295
+id: c11e3803-45a1-5893-9f0e-c936bb54fca7

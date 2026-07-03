@@ -1,72 +1,46 @@
 ---
-id: 2-1-085
 data:
   identifier: 2-1-085
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Luminous_beam
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-085
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 2-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-085
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Luminous_beam
+  type: authoritative
+status: valid
+id: 2-1-085
 ---
-id: 2-1-085-eng
-termid: 2-1-085
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Luminous beam
-    normative_status: preferred
-  - type: expression
-    designation: "(Light) Beam"
-    normative_status: admitted
   definition:
   - content: |-
       (Luminous) Beam
 
       A group of rays emanating from a light source, and in general from an optical device.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Luminous beam
+  - type: expression
+    normative_status: admitted
+    designation: "(Light) Beam"
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_beam
+termid: 2-1-085
+id: 90163919-23e2-5409-b7ef-6616cab4c282

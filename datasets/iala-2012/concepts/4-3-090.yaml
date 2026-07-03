@@ -1,60 +1,25 @@
 ---
-id: 4-3-090
 data:
   identifier: 4-3-090
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/A-display
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-090
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-090
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/A-display
+  type: authoritative
+status: valid
+id: 4-3-090
 ---
-id: 4-3-090-eng
-termid: 4-3-090
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: A-display
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: A-scan, A-scope, Range amplitude display (G.B.)
@@ -64,15 +29,24 @@ data:
       The target range is indicated by the horizontal distance of the deflection from one end of the time base.
 
       The amplitude of the vertical deflection is a function of the signal intensity.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.R.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: A-display
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/A-display
+termid: 4-3-090
+id: 37c7052d-3d40-5d79-b87f-0beb0d645d51

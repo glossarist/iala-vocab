@@ -1,69 +1,43 @@
 ---
-id: 3-2-180
 data:
   identifier: 3-2-180
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Diaphragm
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-180
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-180
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-180
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-180
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-180
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-180
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-180
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 3-2-180
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Diaphragm
+  type: authoritative
+status: valid
+id: 3-2-180
 ---
-id: 3-2-180-eng
-termid: 3-2-180
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sound emitter - Diaphragm
-    normative_status: preferred
   definition:
   - content: |-
       Diaphragm (in an electrodynamic or electromagnetic sound emitter)
 
       That part of the emitter which forms the principal sound radiating or receiving element; it usually consists of a rigid or semirigid membrane specially adapted to respond to or to generate sound.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sound emitter - Diaphragm
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Diaphragm
+termid: 3-2-180
+id: cf69bdaf-57a0-5974-8d0a-795e0253e33e

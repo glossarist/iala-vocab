@@ -1,66 +1,40 @@
 ---
-id: 2-6-010
 data:
   identifier: 2-6-010
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Floating_Mark
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-6-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-6-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-6-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-6-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Floating_Mark
+  type: authoritative
+status: valid
+id: 2-6-010
 ---
-id: 2-6-010-eng
-termid: 2-6-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Floating Mark
-    normative_status: preferred
   definition:
   - content: A navigation mark carried on a floating body such as a lightship or buoy.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Floating Mark
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Floating_Mark
+termid: 2-6-010
+id: d12af33e-e073-571d-839c-80f7e395d714

@@ -1,77 +1,51 @@
 ---
-id: 4-3-170
 data:
   identifier: 4-3-170
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Echo_box
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-170
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-170
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-3-170
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Echo_box
+  type: authoritative
+status: valid
+id: 4-3-170
 ---
-id: 4-3-170-eng
-termid: 4-3-170
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Echo box
-    normative_status: preferred
-  - type: expression
-    designation: Phantom target (U.S.A.)
-    normative_status: admitted
   definition:
   - content: A resonant cavity, with small damping, energised by part of the transmitted
       pulse power. The train of damped oscillations, immediately following the transmitted
       pulse, is fed into the radar receiver to provide an overall test of the radar
       set.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Echo box
+  - type: expression
+    normative_status: admitted
+    designation: Phantom target (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Echo_box
+termid: 4-3-170
+id: 7f1c22b9-0901-591e-a4e0-502b0ce8515c

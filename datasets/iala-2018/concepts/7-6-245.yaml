@@ -1,67 +1,41 @@
 ---
-id: 7-6-245
 data:
   identifier: 7-6-245
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Caisson
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-245
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-6-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-245
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Caisson
+  type: authoritative
+status: valid
+id: 7-6-245
 ---
-id: 7-6-245-eng
-termid: 7-6-245
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Caisson
-    normative_status: preferred
   definition:
   - content: A box shaped or cylindrical structure used to keep water or soft ground
       from entering an excavation while excavating down to a bearing stratum for foundations.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Caisson
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Caisson
+termid: 7-6-245
+id: 4b5a8e2a-5e3a-5e34-9728-df4d8b9963cf

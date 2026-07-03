@@ -1,73 +1,47 @@
 ---
-id: 5-4-135
 data:
   identifier: 5-4-135
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Velodyne_integrator
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-135
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 5-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-135
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Velodyne_integrator
+  type: authoritative
+status: valid
+id: 5-4-135
 ---
-id: 5-4-135-eng
-termid: 5-4-135
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Velodyne integrator
-    normative_status: preferred
   definition:
   - content: A servo mechanism usually employing a d.c. split field motor and tacho-generator
       on the same shaft, in which it is intended that the speed of rotation be maintained
       proportional to an input voltage. The total number of revolutions of the output
       shaft is an approximate measure of the time-integral of the input voltage.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Velodyne integrator
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Velodyne_integrator
+termid: 5-4-135
+id: 47ee2829-d904-5b1c-b524-d6b5b081e929

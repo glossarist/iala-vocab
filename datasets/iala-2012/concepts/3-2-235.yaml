@@ -1,67 +1,41 @@
 ---
-id: 3-2-235
 data:
   identifier: 3-2-235
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Whistle
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-235
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 3-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-235
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Whistle
+  type: authoritative
+status: valid
+id: 3-2-235
 ---
-id: 3-2-235-eng
-termid: 3-2-235
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Whistle
-    normative_status: preferred
   definition:
   - content: fog signal equipment producing a sharp sound by releasing compressed
       air or steam across an opening.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Whistle
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Whistle
+termid: 3-2-235
+id: 8b708b04-fddc-5543-a4d5-714dae22e38c

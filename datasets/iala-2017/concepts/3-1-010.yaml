@@ -1,70 +1,44 @@
 ---
-id: 3-1-010
 data:
   identifier: 3-1-010
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Complex_sound
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-1-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 3-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Complex_sound
+  type: authoritative
+status: valid
+id: 3-1-010
 ---
-id: 3-1-010-eng
-termid: 3-1-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Complex sound
-    normative_status: preferred
   definition:
   - content: Any sound which is not pure.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Complex sound
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Complex_sound
+termid: 3-1-010
+id: 64c76598-d410-5835-8ad1-8cd8c8c3e1a9

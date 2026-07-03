@@ -1,73 +1,47 @@
 ---
-id: 4-3-095
 data:
   identifier: 4-3-095
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/B-display
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-095
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-3-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/B-display
+  type: authoritative
+status: valid
+id: 4-3-095
 ---
-id: 4-3-095-eng
-termid: 4-3-095
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: B-display
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: B-scan, B-scope, Range bearing display
 
       A radar display in which an echo appears on the screen as a bright spot whose rectangular coordinates indicate the range and bearing of the object.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: B-display
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/B-display
+termid: 4-3-095
+id: 53baa501-a2f1-5ecb-92b0-5f39de2ca977

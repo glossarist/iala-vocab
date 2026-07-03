@@ -1,67 +1,41 @@
 ---
-id: 7-2-400
 data:
   identifier: 7-2-400
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Coping
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-400
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-2-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-400
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Coping
+  type: authoritative
+status: valid
+id: 7-2-400
 ---
-id: 7-2-400-eng
-termid: 7-2-400
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Coping
-    normative_status: preferred
   definition:
   - content: A weather protection to the top of a wall, usually of brick, stone or
       concrete, etc..
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Coping
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Coping
+termid: 7-2-400
+id: 31b1f2be-8e33-5c8c-a36f-8ed6205caba9

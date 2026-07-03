@@ -1,66 +1,40 @@
 ---
-id: 2-6-250
 data:
   identifier: 2-6-250
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Measured-Mile_Buoy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-6-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-6-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-6-250
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-6-250
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Measured-Mile_Buoy
+  type: authoritative
+status: valid
+id: 2-6-250
 ---
-id: 2-6-250-eng
-termid: 2-6-250
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Measured-Mile Buoy
-    normative_status: preferred
   definition:
   - content: A buoy marking the end of a measured mile.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Measured-Mile Buoy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Measured-Mile_Buoy
+termid: 2-6-250
+id: 6c9d2d93-4c8a-55fa-867c-f32ad108934b

@@ -1,67 +1,41 @@
 ---
-id: 7-2-300
 data:
   identifier: 7-2-300
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Section
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-300
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-300
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Section
+  type: authoritative
+status: valid
+id: 7-2-300
 ---
-id: 7-2-300-eng
-termid: 7-2-300
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Section
-    normative_status: preferred
   definition:
   - content: The appearance or shape presented by a structural member cut in a transverse
       plane.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Section
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Section
+termid: 7-2-300
+id: 12d7dc90-c517-5f87-ae0d-59054bba689e

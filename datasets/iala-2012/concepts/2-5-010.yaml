@@ -1,60 +1,25 @@
 ---
-id: 2-5-010
 data:
   identifier: 2-5-010
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lighting
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-5-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-5-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-5-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-5-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-5-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-5-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-5-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-5-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lighting
+  type: authoritative
+status: valid
+id: 2-5-010
 ---
-id: 2-5-010-eng
-termid: 2-5-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lighting
-    normative_status: preferred
   definition:
   - content: |-
       1. The process of providing light {{2-1-005, Light (2)}}, either to be.viewed directly or to illuminate objects and their surroundings so that they may be seen.
@@ -62,15 +27,23 @@ data:
       2. An ensemble of lights.
 
       Similarly a distinction is made between an ensemble of lights to be viewed directly (Befeuerung) and an ensemble of lights illuminating objects and their surroundings to be viewed (Beleuchtung).
+  examples: []
   notes:
   - content: In the latter case the term Illumination may also be applied.
   - content: A distinction is made in German between the process of providing light
       to be viewed directly (Befeuern) and the process of illuminating objects and
       their surroundings to be viewed (Beleuchten, equivalent to English "illumination").
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lighting
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lighting
+termid: 2-5-010
+id: 50e0d3bb-7bfe-5d5a-88bd-57863ddd9698

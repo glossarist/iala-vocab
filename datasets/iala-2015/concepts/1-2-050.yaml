@@ -1,70 +1,44 @@
 ---
-id: 1-2-050
 data:
   identifier: 1-2-050
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_circle
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 1-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_circle
+  type: authoritative
+status: valid
+id: 1-2-050
 ---
-id: 1-2-050-eng
-termid: 1-2-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bearing circle
-    normative_status: preferred
-  - type: expression
-    designation: Bearing finder
-    normative_status: admitted
   definition:
   - content: An instrument that permits the determination of the angle of separation
       of two observed points at the observer.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bearing circle
+  - type: expression
+    normative_status: admitted
+    designation: Bearing finder
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing_circle
+termid: 1-2-050
+id: 1343d473-0a34-53a6-bb1f-35a737ea5121

@@ -1,67 +1,41 @@
 ---
-id: 6-2-120
 data:
   identifier: 6-2-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bearings
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 6-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bearings
+  type: authoritative
+status: valid
+id: 6-2-120
 ---
-id: 6-2-120-eng
-termid: 6-2-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bearings
-    normative_status: preferred
   definition:
   - content: Supports provided to hold a rotating shaft on its designated axis of
       rotation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bearings
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearings
+termid: 6-2-120
+id: 5acbaea2-ec95-501a-8c45-b95f4aa32544

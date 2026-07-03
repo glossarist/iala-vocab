@@ -1,71 +1,45 @@
 ---
-id: 4-2-250
 data:
   identifier: 4-2-250
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Correction_curve
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-250
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 4-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-250
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Correction_curve
+  type: authoritative
+status: valid
+id: 4-2-250
 ---
-id: 4-2-250-eng
-termid: 4-2-250
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Correction curve
-    normative_status: preferred
-  - type: expression
-    designation: Correction curve (of a direction finder)
-    normative_status: admitted
   definition:
   - content: A curve applicable to a particular direction finder and which shows the
       correction required to      the observed bearings, as a function of that bearing
       and the frequency to eliminate the systematic installation errors.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Correction curve
+  - type: expression
+    normative_status: admitted
+    designation: Correction curve (of a direction finder)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Correction_curve
+termid: 4-2-250
+id: 6b0c55a4-49a1-53f8-9b7c-16918bbbc323

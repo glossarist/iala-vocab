@@ -1,67 +1,41 @@
 ---
-id: 8-1-015
 data:
   identifier: 8-1-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Inland_tender_(USA)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-1-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 8-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-1-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Inland_tender_(USA)
+  type: authoritative
+status: valid
+id: 8-1-015
 ---
-id: 8-1-015-eng
-termid: 8-1-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Inland tender (USA)
-    normative_status: preferred
   definition:
   - content: A vessel designed for servicing aids to navigation in enclosed waters.
       Some inland tenders have limited ice-breaking capabilities.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Inland tender (USA)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Inland_tender_(USA)
+termid: 8-1-015
+id: 2d6910f7-34c5-5b56-a430-97750ec407ae

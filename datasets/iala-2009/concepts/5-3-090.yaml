@@ -1,74 +1,47 @@
 ---
-id: 5-3-090
 data:
   identifier: 5-3-090
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Single_sideband_transmission_(SSB)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-090
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Single_sideband_transmission_(SSB)
+  type: authoritative
+status: valid
+id: 5-3-090
 ---
-id: 5-3-090-eng
-termid: 5-3-090
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Single sideband transmission (SSB)
-    normative_status: preferred
   definition:
   - content: The method of operation in which either the upper or lower sideband (as
       produced by the process of modulation) is transmitted.
+  examples: []
   notes:
   - content: In practice the carrier is often partially or wholly suppressed.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Single sideband transmission (SSB)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Single_sideband_transmission_(SSB)
+termid: 5-3-090
+id: 4117297a-2d5a-57f0-a172-4184fa795c86

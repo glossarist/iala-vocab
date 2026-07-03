@@ -1,66 +1,29 @@
 ---
-id: 2-1-390
 data:
   identifier: 2-1-390
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Threshold_of_Illuminance
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-390
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-390
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Threshold_of_Illuminance
+  type: authoritative
+status: valid
+id: 2-1-390
 ---
-id: 2-1-390-eng
-termid: 2-1-390
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Threshold of Illuminance
-    normative_status: preferred
-  - type: expression
-    designation: Visual Threshold
-    normative_status: admitted
   definition:
   - content: The weakest illuminance produced at the eye which makes it possible to
       see a given source against a given background luminance.
+  examples: []
   notes:
   - content: The internationally accepted value of the threshold of illuminance for
       observation of a light at night under typical maritime conditions is 2.10-7
@@ -68,9 +31,19 @@ data:
       Technical Conference of Lighthouse Authorities, Paris 1933. In Britain and U.S.A.
       this value is sometimes approximated by 0.67 sea-mile candela.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Threshold of Illuminance
+  - type: expression
+    normative_status: admitted
+    designation: Visual Threshold
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Threshold_of_Illuminance
+termid: 2-1-390
+id: 9baa3cc5-4c83-508b-b126-b7a03dc46aa0

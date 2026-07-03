@@ -1,67 +1,41 @@
 ---
-id: 2-3-015
 data:
   identifier: 2-3-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Incandescence
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-3-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Incandescence
+  type: authoritative
+status: valid
+id: 2-3-015
 ---
-id: 2-3-015-eng
-termid: 2-3-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Incandescence
-    normative_status: preferred
   definition:
   - content: The emission of light by matter at a high temperature, resulting from
       the thermal excitation of atoms or molecules.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Incandescence
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Incandescence
+termid: 2-3-015
+id: 9db70207-2d76-5408-b18a-7045be3f5e09

@@ -1,67 +1,41 @@
 ---
-id: 7-5-020
 data:
   identifier: 7-5-020
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Strain
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-020
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-5-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-020
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Strain
+  type: authoritative
+status: valid
+id: 7-5-020
 ---
-id: 7-5-020-eng
-termid: 7-5-020
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Strain
-    normative_status: preferred
   definition:
   - content: A measure of the effect of a force on a structural member, described
       by the ratio of the resulting change in length to the original length.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Strain
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Strain
+termid: 7-5-020
+id: 3cc660f0-507c-5973-bd1b-3d1af971c18e

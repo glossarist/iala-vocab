@@ -1,67 +1,41 @@
 ---
-id: 3-1-215
 data:
   identifier: 3-1-215
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ambient_noise
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-1-215
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 3-1-215
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ambient_noise
+  type: authoritative
+status: valid
+id: 3-1-215
 ---
-id: 3-1-215-eng
-termid: 3-1-215
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ambient noise
-    normative_status: preferred
   definition:
   - content: The noise exists at the point of interest from all sources other than
       the specified sound signal.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ambient noise
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ambient_noise
+termid: 3-1-215
+id: ef5cfac9-c1ef-58ff-ab4e-044cb830e273

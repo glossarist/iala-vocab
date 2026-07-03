@@ -1,67 +1,41 @@
 ---
-id: 4-1-045
 data:
   identifier: 4-1-045
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Frequency_channel
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-045
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-045
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Frequency_channel
+  type: authoritative
+status: valid
+id: 4-1-045
 ---
-id: 4-1-045-eng
-termid: 4-1-045
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Frequency channel
-    normative_status: preferred
   definition:
   - content: The assigned frequency band commonly referred to by number, letter, symbol
       or by some salient frequency within the band.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Frequency channel
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Frequency_channel
+termid: 4-1-045
+id: eff27815-e8fe-5bec-ad04-3d6ec8f9fbbb

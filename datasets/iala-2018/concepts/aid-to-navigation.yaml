@@ -1,44 +1,25 @@
 ---
-id: aid-to-navigation
 data:
   identifier: aid-to-navigation
   domains:
-  - source: urn:iala:dictionary:iala-2016
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-2016
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Aid_to_Navigation
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: aid-to-navigation
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: aid-to-navigation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: aid-to-navigation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: aid-to-navigation
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Aid_to_Navigation
+  type: authoritative
+status: valid
+id: aid-to-navigation
 ---
-id: aid-to-navigation-eng
-termid: aid-to-navigation
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Aid to Navigation
-    normative_status: preferred
   definition:
   - content: |-
       A device, system or service, external to vessels, designed and operated to enhance safe and efficient navigation of individual vessels and/or vessel traffic.
@@ -47,10 +28,19 @@ data:
 
       This definition of the term Aid to Navigation is in accordance with the IALA Constitution.
       The use of the definition from the original IALA Dictionary has been discontinued.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Aid to Navigation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Aid_to_Navigation
+termid: aid-to-navigation
+id: cc46cc1e-57ff-5a87-85fb-1727f821867e

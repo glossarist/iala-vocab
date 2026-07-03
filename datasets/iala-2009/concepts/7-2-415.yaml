@@ -1,69 +1,43 @@
 ---
-id: 7-2-415
 data:
   identifier: 7-2-415
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Kerb
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 7-2-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-415
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Kerb
+  type: authoritative
+status: valid
+id: 7-2-415
 ---
-id: 7-2-415-eng
-termid: 7-2-415
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Kerb
-    normative_status: preferred
-  - type: expression
-    designation: Curb
-    normative_status: admitted
   definition:
   - content: An upstand of stone or concrete at the edge of a road or footpath.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Kerb
+  - type: expression
+    normative_status: admitted
+    designation: Curb
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Kerb
+termid: 7-2-415
+id: 7929bf1f-b328-5357-b3b8-994585888fff

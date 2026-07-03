@@ -1,74 +1,48 @@
 ---
-id: 4-1-555
 data:
   identifier: 4-1-555
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Corner_antenna
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-555
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-555
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-555
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-555
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-555
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-555
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-555
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-555
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Corner_antenna
+  type: authoritative
+status: valid
+id: 4-1-555
 ---
-id: 4-1-555-eng
-termid: 4-1-555
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Corner antenna
-    normative_status: preferred
   definition:
   - content: |-
       Corner reflector antenna (deprecated)
 
       A directional antenna consisting of an element or an array of elements situated within the angle formed by two plane reflecting surfaces.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Corner antenna
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Corner_antenna
+termid: 4-1-555
+id: e2198563-2a63-5dbe-abd8-d4fe55173c90

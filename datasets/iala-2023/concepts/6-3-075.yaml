@@ -1,69 +1,43 @@
 ---
-id: 6-3-075
 data:
   identifier: 6-3-075
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-unknown
+  - concept_id: section-unknown
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Blocking_diode/es
 related:
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-075
-- type: related_concept
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-3-075
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Blocking_diode/es
+  type: authoritative
+status: valid
+id: 6-3-075
 ---
-id: 6-3-075-spa
-termid: 6-3-075
 data:
-  language_code: spa
-  terms:
-  - type: expression
-    designation: Blocking diode/es
-    normative_status: preferred
   definition:
   - content: |-
       Diodo de bloqueo
 
       Diodo conectado en serie al módulo o panel solar para evitar daños por inversión de corriente.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Blocking diode/es
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blocking_diode/es
+termid: 6-3-075
+id: 5343bfb3-aca5-5a02-8202-6d11dc4c60ac

@@ -1,71 +1,45 @@
 ---
-id: 5-2-030
 data:
   identifier: 5-2-030
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Monitor
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-030
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 5-2-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-030
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Monitor
+  type: authoritative
+status: valid
+id: 5-2-030
 ---
-id: 5-2-030-eng
-termid: 5-2-030
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Monitor
-    normative_status: preferred
   definition:
   - content: To observe, supervise, or verify the operation of a system.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.E.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Monitor
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Monitor
+termid: 5-2-030
+id: f0edb045-3df6-5c6b-ba46-5b2041c08507

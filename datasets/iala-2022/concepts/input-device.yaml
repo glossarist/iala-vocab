@@ -1,69 +1,43 @@
 ---
-id: input-device
 data:
   identifier: input-device
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Input_device
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: input-device
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: input-device
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: input-device
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: input-device
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: input-device
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: input-device
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: input-device
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: input-device
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Input_device
+  type: authoritative
+status: valid
+id: input-device
 ---
-id: input-device-eng
-termid: input-device
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Input device
-    normative_status: preferred
   definition:
   - content: |-
       5-3490
 
       The device or collective set of devices used for bringing data into another device.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Input device
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Input_device
+termid: input-device
+id: 56549d2e-4ccb-5cb2-8c71-39e5656a6ab0

@@ -1,73 +1,46 @@
 ---
-id: 4-2-245
 data:
   identifier: 4-2-245
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Error_curve
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-245
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 4-2-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-245
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-245
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Error_curve
+  type: authoritative
+status: valid
+id: 4-2-245
 ---
-id: 4-2-245-eng
-termid: 4-2-245
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Error curve
-    normative_status: preferred
-  - type: expression
-    designation: Error curve (of a direction finder)
-    normative_status: admitted
   definition:
   - content: A curve applicable to a particular direction finder and which shows the
       installation errors as a function of some specified variable.
+  examples: []
   notes:
   - content: Use is commonly made of a family of such error curves as a function of
       true bearing with frequency as the parameter.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Error curve
+  - type: expression
+    normative_status: admitted
+    designation: Error curve (of a direction finder)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Error_curve
+termid: 4-2-245
+id: ed3b5d41-634e-5715-8f24-4cf64a149c80

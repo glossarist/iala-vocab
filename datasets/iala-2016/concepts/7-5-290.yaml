@@ -1,69 +1,43 @@
 ---
-id: 7-5-290
 data:
   identifier: 7-5-290
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Hinged
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-290
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-5-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-290
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Hinged
+  type: authoritative
+status: valid
+id: 7-5-290
 ---
-id: 7-5-290-eng
-termid: 7-5-290
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Hinged
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: Pinned, Articulated
 
       The description of a structural member which has been secured in such a way as to permit some rotational movement, sufficient to eliminate all bending moment in the member at the joint.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hinged
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hinged
+termid: 7-5-290
+id: 345749a5-35fe-527b-ad22-0ebf4f433be0

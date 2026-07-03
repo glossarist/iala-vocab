@@ -1,69 +1,47 @@
 ---
-id: conservation
 data:
   identifier: conservation
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-12
+  - concept_id: section-12
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Conservation
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: conservation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: conservation
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: conservation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: conservation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: conservation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: conservation
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: conservation
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Conservation
+  type: authoritative
+status: valid
+id: conservation
 ---
-id: conservation-eng
-termid: conservation
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Conservation
-    normative_status: preferred
   definition:
   - content: |-
       Action to secure the survival or preservation of buildings, cultural artefacts, natural resources, energy or anything of acknowledged value to the future.
 
       (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: Stirlingcharter
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Conservation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Conservation
+termid: conservation
+id: 4989a4c4-4ca1-5a2c-bbba-9badeaeb9573

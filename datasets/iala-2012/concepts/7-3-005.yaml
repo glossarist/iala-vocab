@@ -1,67 +1,41 @@
 ---
-id: 7-3-005
 data:
   identifier: 7-3-005
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cast_iron
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-005
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-3-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-005
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cast_iron
+  type: authoritative
+status: valid
+id: 7-3-005
 ---
-id: 7-3-005-eng
-termid: 7-3-005
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cast iron
-    normative_status: preferred
   definition:
   - content: A mixture of iron and carbon with a relatively high carbon content and
       a low melting point, produced directly from a blast furnace.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cast iron
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cast_iron
+termid: 7-3-005
+id: ded5790c-07f7-5b38-98ea-bd847d86b4b8

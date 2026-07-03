@@ -1,70 +1,43 @@
 ---
-id: 1-2-285
 data:
   identifier: 1-2-285
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Landing_stage
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-285
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 1-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-285
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Landing_stage
+  type: authoritative
+status: valid
+id: 1-2-285
 ---
-id: 1-2-285-eng
-termid: 1-2-285
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Landing stage
-    normative_status: preferred
   definition:
   - content: Platform attached to the land to permit passage of passengers and freight
       traffic to and from a ship. In some cases the outer end of the landing stage
       is floating on a pontoon.
+  examples: []
   notes:
   - content: In German the term Anleger is also used for a landing stage.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Landing stage
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Landing_stage
+termid: 1-2-285
+id: 07ab3d5c-eba9-55cf-9002-92316e9a0a26

@@ -1,67 +1,41 @@
 ---
-id: 7-4-295
 data:
   identifier: 7-4-295
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Shifting_sand
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-295
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-4-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-4-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-4-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-295
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Shifting_sand
+  type: authoritative
+status: valid
+id: 7-4-295
 ---
-id: 7-4-295-eng
-termid: 7-4-295
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Shifting sand
-    normative_status: preferred
   definition:
   - content: Sandbanks which move along the coastline in response to the action of
       prevailing currents.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Shifting sand
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shifting_sand
+termid: 7-4-295
+id: 3e41b3fc-d247-5487-993c-f1404242ac3f

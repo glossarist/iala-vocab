@@ -1,52 +1,25 @@
 ---
-id: accident
 data:
   identifier: accident
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Accident
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: accident
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: accident
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: accident
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: accident
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: accident
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: accident
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Accident
+  type: authoritative
+status: valid
+id: accident
 ---
-id: accident-eng
-termid: accident
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Accident
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-1
@@ -54,10 +27,19 @@ data:
       An unintended event resulting either in fatality, injury, ship loss or damage, property loss or damage, or environmental damage.
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Accident
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Accident
+termid: accident
+id: c8076b40-20af-59f4-abca-7ef333a8c3d5

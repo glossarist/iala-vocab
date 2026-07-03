@@ -1,67 +1,41 @@
 ---
-id: 6-4-045
 data:
   identifier: 6-4-045
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Series-wound_machine
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-4-045
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-4-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-045
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Series-wound_machine
+  type: authoritative
+status: valid
+id: 6-4-045
 ---
-id: 6-4-045-eng
-termid: 6-4-045
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Series-wound machine
-    normative_status: preferred
   definition:
   - content: A direct-current machine in which the field winding is connected in series
       with the circuit that carries the main current.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Series-wound machine
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Series-wound_machine
+termid: 6-4-045
+id: 4fec455a-77ed-5981-aa8a-43f10bdc6c38

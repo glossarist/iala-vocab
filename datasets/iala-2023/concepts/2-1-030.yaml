@@ -1,80 +1,53 @@
 ---
-id: 2-1-030
 data:
   identifier: 2-1-030
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Luminous_Efficacy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-030
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-1-030
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Luminous_Efficacy
+  type: authoritative
+status: valid
+id: 2-1-030
 ---
-id: 2-1-030-eng
-termid: 2-1-030
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Luminous Efficacy
-    normative_status: preferred
-  - type: expression
-    designation: Luminous Efficacy (of a source)
-    normative_status: admitted
   definition:
   - content: |-
       The quotient of the luminous flux emitted by the power consumed.
 
       Symbol: ?
+  examples: []
   notes:
   - content: Formerly Luminous Efficiency
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Luminous Efficacy
+  - type: expression
+    normative_status: admitted
+    designation: Luminous Efficacy (of a source)
+  language_code: eng
   annotations:
   - content: Unit lumen per watt (Im/W)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Luminous_Efficacy
+termid: 2-1-030
+id: 62bba3f8-268c-5108-96f8-3fc445f58e49

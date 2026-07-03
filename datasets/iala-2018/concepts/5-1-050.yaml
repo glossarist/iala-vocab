@@ -1,69 +1,43 @@
 ---
-id: 5-1-050
 data:
   identifier: 5-1-050
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Preventive_maintenance
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-1-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-1-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Preventive_maintenance
+  type: authoritative
+status: valid
+id: 5-1-050
 ---
-id: 5-1-050-eng
-termid: 5-1-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Preventive maintenance
-    normative_status: preferred
   definition:
   - content: |-
       A procedure of periodically checking or reconditioning a system to prevent or reduce the probability of failure or deterioration while in service.
 
       Preventive maintenance provides systematic inspection, detection and correction of incipient failures before they occur or develop into major malfunctions.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Preventive maintenance
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Preventive_maintenance
+termid: 5-1-050
+id: 13899b7f-1490-5607-b619-a6b2201fff66

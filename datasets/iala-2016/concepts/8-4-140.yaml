@@ -1,108 +1,86 @@
 ---
-id: 8-4-140
 data:
   identifier: 8-4-140
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-140
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 8-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-140
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-140
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-140
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)
+  type: authoritative
+status: valid
+id: 8-4-140
 ---
-id: 8-4-140-eng
-termid: 8-4-140
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Tail tube (of a buoy)
-    normative_status: preferred
   definition:
   - content: A central tube below the body of the buoy.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tail tube (of a buoy)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)
----
-id: 8-4-140-spa
 termid: 8-4-140
+id: 282912c5-19ce-5a3b-b367-696e33e0a079
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Cola de la boya
+
+      Tubo central bajo del cuerpo de la boya.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Tail tube (of a buoy)/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)/es
+termid: 8-4-140
+id: b27afa10-da44-5a20-8f1f-b73385927f4c
+---
+data:
   definition:
   - content: |-
       Cola de la boya
 
       Tubo central bajo del cuerpo de la boya.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)/es
----
-id: 8-4-140-spa
-termid: 8-4-140
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 8-4-140
     normative_status: preferred
-  definition:
-  - content: |-
-      Cola de la boya
-
-      Tubo central bajo del cuerpo de la boya.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 8-4-140
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)/es
+termid: 8-4-140
+id: dd30c499-5c16-5c1d-bdd0-c82a318039df

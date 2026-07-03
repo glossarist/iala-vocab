@@ -1,71 +1,45 @@
 ---
-id: 2-3-405
 data:
   identifier: 2-3-405
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/High_Intensity_Carbon_Arc_Lamp
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-405
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-3-405
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/High_Intensity_Carbon_Arc_Lamp
+  type: authoritative
+status: valid
+id: 2-3-405
 ---
-id: 2-3-405-eng
-termid: 2-3-405
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: High Intensity Carbon Arc Lamp
-    normative_status: preferred
   definition:
   - content: A carbon arc lamp, operating at very high current density, in which the
       flame makes an appreciable contribution to the light emitted.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: High Intensity Carbon Arc Lamp
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/High_Intensity_Carbon_Arc_Lamp
+termid: 2-3-405
+id: 7a02c7e0-30a7-5863-95ff-043bfd22f004

@@ -1,66 +1,40 @@
 ---
-id: 7-6-505
 data:
   identifier: 7-6-505
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/X-ray_test
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-505
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-6-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-505
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-505
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/X-ray_test
+  type: authoritative
+status: valid
+id: 7-6-505
 ---
-id: 7-6-505-eng
-termid: 7-6-505
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: X-ray test
-    normative_status: preferred
   definition:
   - content: X-ray examination of materials and welds, used to detect defects.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: X-ray test
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/X-ray_test
+termid: 7-6-505
+id: 7cff7dce-9b1b-5ad4-96ed-f78b41b512d7

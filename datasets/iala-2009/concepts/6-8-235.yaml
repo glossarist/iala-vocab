@@ -1,72 +1,45 @@
 ---
-id: 6-8-235
 data:
   identifier: 6-8-235
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Protected_enclosure_(or_machine)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 6-8-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-8-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-235
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Protected_enclosure_(or_machine)
+  type: authoritative
+status: valid
+id: 6-8-235
 ---
-id: 6-8-235-eng
-termid: 6-8-235
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Protected enclosure (or machine)
-    normative_status: preferred
   definition:
   - content: An enclosure (or machine) designed to restrict or prevent the ingress
       of liquids or solid particles in harmful quantities, or solid extraneous objects
       of specified size.
+  examples: []
   notes:
   - content: See also 6-4-140.
   - content: The different categories of protection are specified for enclosures in
       IEC 529, and for machines in IEC 34-5.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Protected enclosure (or machine)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Protected_enclosure_(or_machine)
+termid: 6-8-235
+id: c312a875-1d07-573b-a1f8-ff91882f9bf3

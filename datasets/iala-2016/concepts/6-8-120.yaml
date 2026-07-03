@@ -1,67 +1,41 @@
 ---
-id: 6-8-120
 data:
   identifier: 6-8-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Surge_absorber
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-8-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Surge_absorber
+  type: authoritative
+status: valid
+id: 6-8-120
 ---
-id: 6-8-120-eng
-termid: 6-8-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Surge absorber
-    normative_status: preferred
   definition:
   - content: A device designed to provide protection against surges occurring in power
       supplies.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Surge absorber
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Surge_absorber
+termid: 6-8-120
+id: 5d7acf43-290a-5292-8f59-2b5daf87f18f

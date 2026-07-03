@@ -1,72 +1,45 @@
 ---
-id: 7-2-265
 data:
   identifier: 7-2-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Plate
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Plate
+  type: authoritative
+status: valid
+id: 7-2-265
 ---
-id: 7-2-265-eng
-termid: 7-2-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Plate
-    normative_status: preferred
-  - type: expression
-    designation: Steel plate
-    normative_status: admitted
   definition:
   - content: Rolled metal (steel) with a surface area large in comparison with its
       thickness.
+  examples: []
   notes:
   - content: The term sheet indicates a lesser thickness than plate.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Plate
+  - type: expression
+    normative_status: admitted
+    designation: Steel plate
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Plate
+termid: 7-2-265
+id: b3965ce0-06ca-5e8b-bb01-1f3b2af20bdc

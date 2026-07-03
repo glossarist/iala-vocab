@@ -1,71 +1,45 @@
 ---
-id: 1-2-105
 data:
   identifier: 1-2-105
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Celestial_horizon
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-105
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 1-2-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-105
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Celestial_horizon
+  type: authoritative
+status: valid
+id: 1-2-105
 ---
-id: 1-2-105-eng
-termid: 1-2-105
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Celestial horizon
-    normative_status: preferred
-  - type: expression
-    designation: Rational horizon
-    normative_status: admitted
   definition:
   - content: The great circle on the celestial sphere, every point of which is 90
       degrees from the observer's zenith. This circle encloses the horizontal plane
       through the observer and divides the celestial sphere into two hemispheres.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Celestial horizon
+  - type: expression
+    normative_status: admitted
+    designation: Rational horizon
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Celestial_horizon
+termid: 1-2-105
+id: 7b7d67e6-9d1b-55b9-b02c-9a09c3528e2c

@@ -1,79 +1,53 @@
 ---
-id: 2-1-215
 data:
   identifier: 2-1-215
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Linear_Absorption_Coefficient
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-215
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-215
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Linear_Absorption_Coefficient
+  type: authoritative
+status: valid
+id: 2-1-215
 ---
-id: 2-1-215-eng
-termid: 2-1-215
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Linear Absorption Coefficient
-    normative_status: preferred
-  - type: expression
-    designation: Linear Absorption Coefficient (of an absorbing medium)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[a]
-    normative_status: preferred
   definition:
   - content: The quotient of the internal absorptance of a path element traversed
       by the radiation, by the length (dl) of this element.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Linear Absorption Coefficient
+  - type: expression
+    normative_status: admitted
+    designation: Linear Absorption Coefficient (of an absorbing medium)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[a]
+  language_code: eng
   annotations:
   - content: Unit m-1
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Linear_Absorption_Coefficient
+termid: 2-1-215
+id: 3011736a-38f9-5ba3-aa4a-2bc176656bdc

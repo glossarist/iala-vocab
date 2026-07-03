@@ -4,13 +4,68 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo does
 
-Ports the IALA Dictionary (MediaWiki at `https://www.iala.int/wiki/dictionary/`) to a Glossarist Concept Browser site deployed on GitHub Pages at `https://metanorma.github.io/iala-vocab/`. The pattern is lifted from `metanorma/oiml-vocab`.
+Ports the IALA Dictionary (MediaWiki at `https://www.iala.int/wiki/dictionary/`) to a Glossarist Concept Browser site deployed on GitHub Pages at `https://metanorma.github.io/iala-vocab/`. The deployment pattern follows `oimlsmart/vocab`.
 
-Two datasets live side-by-side under `datasets/`:
-- `iala-1970-89` — the 1970–1989 edition (~2,585 concepts, `status: retired`)
-- `iala-2023` — the 2023 Revision (~828 concepts, `status: current`)
+Nine cumulative-edition datasets live under `datasets/`, forming a lineage from `iala-1970-89` through `iala-2023` (current). Each dataset is complete upon itself — the cumulative state of the dictionary at that year.
 
-Cross-edition relationships (`identical` vs `superseded_by`/`supersedes`) link concepts that share the same IALA numeric code across editions.
+Cross-edition relationships are encoded as a directed `supersedes` chain (newer → immediate predecessor). The concept-browser derives `superseded_by` at render time from incoming edges. This matches the OIML/vocab convention; see "Edition series model" below.
+
+## Architecture
+
+`lib/iala_vocab/` is a typed library that owns the data pipeline. Parent namespace `module IalaVocab` is declared in `lib/iala_vocab.rb`; every public class is autoloaded from there (never use `require_relative` for code under `lib/`). `scripts/` are thin entry points that load the library via `bundle exec`.
+
+The library uses `Glossarist::V3::*` model classes throughout for concept serialization.
+
+### Public classes
+
+| Class | Responsibility |
+|---|---|
+| `IalaVocab::Edition` | Immutable value object: id, year, urn, status, ref, description |
+| `IalaVocab::EditionSeries` | Single source of truth for the lineage: `LINEAGE`, `current`, `predecessor`, `successor`, `pairs` |
+| `IalaVocab::ConceptFile` | Multi-doc YAML stream read/write with dirty tracking via `Glossarist::V3::*` |
+| `IalaVocab::CrossEditionLinker` | Builds the `supersedes` chain (newer → immediate predecessor only) |
+| `IalaVocab::LifecycleMarker` | Within-edition (Superseded)/(Discontinued) lifecycle detection |
+| `IalaVocab::CitationExtractor` | Parses `Quelle:`/`Referenz:`/`Reference:`/bare attribution into `sources[]` |
+| `IalaVocab::GermanTranslator` | Appends `language_code: deu` localized docs across all editions |
+| `IalaVocab::RegisterBuilder` | Emits `register.yaml` from `Edition` metadata + section tree |
+| `IalaVocab::Auditor` | Per-concept, per-edition, and cross-edition invariant validation |
+| `IalaVocab::ApiClient` | MediaWiki API client with on-disk caching |
+
+### Forbidden patterns
+
+- `Object#send` to call private methods
+- `instance_variable_set` / `instance_variable_get`
+- `respond_to?` for type checking
+- `require_relative` for code under `lib/` (use autoload declared in the parent file)
+- `double()` / `instance_double` in specs — real model instances only
+
+## Edition series model
+
+```
+iala-1970-89 → iala-2009 → iala-2012 → iala-2015 → iala-2016
+            → iala-2017 → iala-2018 → iala-2022 → iala-2023 (current)
+```
+
+Each edition is a separate dataset, complete upon itself. Cross-edition relationships use a **one-way `supersedes` chain** (newer → immediate predecessor only). The concept-browser derives `superseded_by` at render time from incoming edges — we do not store the inverse.
+
+Within-edition lifecycle (`(Superseded)` and `(Discontinued)` MediaWiki page cases) is handled by `LifecycleMarker` and is orthogonal to the cross-edition chain.
+
+### Adding a new edition
+
+1. Append an `IalaVocab::Edition` to `IalaVocab::EditionSeries::LINEAGE` in `lib/iala_vocab/edition_series.rb` with `status: "current"`. Demote the prior current edition to `status: "superseded"`.
+2. Place the dataset under `datasets/<id>/`.
+3. Re-run the pipeline:
+   ```bash
+   bundle exec ruby scripts/transform_iala.rb <id>
+   bundle exec ruby scripts/build_cumulative_editions.rb
+   bundle exec ruby -e 'require "iala_vocab"; IalaVocab::CrossEditionLinker.new.run!'
+   bundle exec ruby scripts/generate_register.rb
+   bundle exec ruby scripts/audit_iala.rb
+   ```
+4. Update `site-config.yml`: prepend the new edition to `datasets:` and `datasetGroups[0].datasets`; set `datasetGroups[0].current` to the new id.
+5. Run `bundle exec rspec`.
+
+Adding an edition requires NO code changes to the linker, auditor, or register builder — they all read from `EditionSeries::LINEAGE` (OCP).
 
 ## Common commands
 

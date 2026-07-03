@@ -1,60 +1,25 @@
 ---
-id: 4-4-270
 data:
   identifier: 4-4-270
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Raydist
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-270
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Raydist
+  type: authoritative
+status: valid
+id: 4-4-270
 ---
-id: 4-4-270-eng
-termid: 4-4-270
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Raydist
-    normative_status: preferred
   definition:
   - content: |-
       A continuous wave phase comparison system which is used principally for precision locating of a vessel in survey operations. Radio frequency operation is generally between 1.7 and 5 MHz.
@@ -66,12 +31,20 @@ data:
       The audio frequencies, produced by heterodyning the two radio frequencies at each station, are brought to a common location where they are phase compared automatically and continuously in special meters.
 
       Because the heterodyne changes in the same way at each receiver in the event of changes of frequency or phase in either of the radio frequencies, synchronisation between the transmitters is not required. (See also Lorac 4-4-380).
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Raydist
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Raydist
+termid: 4-4-270
+id: 6b0d1d1c-f853-51bb-8975-61b1ebb199fc

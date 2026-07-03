@@ -1,71 +1,45 @@
 ---
-id: 4-1-935
 data:
   identifier: 4-1-935
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Super_refraction
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-935
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-935
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-935
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 4-1-935
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-935
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-935
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-935
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-935
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Super_refraction
+  type: authoritative
+status: valid
+id: 4-1-935
 ---
-id: 4-1-935-eng
-termid: 4-1-935
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Super refraction
-    normative_status: preferred
   definition:
   - content: Refraction for which the refractive modulus gradient is less than standard,
       may become zero and may increase negatively.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.C.I.R
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Super refraction
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Super_refraction
+termid: 4-1-935
+id: e287f11d-3a73-5982-87df-87120649a2b0

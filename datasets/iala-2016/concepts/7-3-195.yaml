@@ -1,67 +1,41 @@
 ---
-id: 7-3-195
 data:
   identifier: 7-3-195
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Rubble_(stone)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-195
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-195
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Rubble_(stone)
+  type: authoritative
+status: valid
+id: 7-3-195
 ---
-id: 7-3-195-eng
-termid: 7-3-195
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Rubble (stone)
-    normative_status: preferred
   definition:
   - content: Squared stone used in walling, usually uncoursed, not finely dressed
       as ashlar.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rubble (stone)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rubble_(stone)
+termid: 7-3-195
+id: 3f760c1b-9ed4-5596-9ad8-e70cff1228d1

@@ -1,45 +1,43 @@
 ---
-id: recognition-of-an-aton-light
 data:
   identifier: recognition-of-an-aton-light
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Recognition_of_an_AtoN_Light
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: recognition-of-an-aton-light
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: recognition-of-an-aton-light
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Recognition_of_an_AtoN_Light
+  type: authoritative
+status: valid
+id: recognition-of-an-aton-light
 ---
-id: recognition-of-an-aton-light-eng
-termid: recognition-of-an-aton-light
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Recognition of an AtoN Light
-    normative_status: preferred
   definition:
   - content: |-
       The following terms are used when considering the conspicuity of AtoN lights at night.
 
       Source: ENG7, Guideline G1073
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Recognition of an AtoN Light
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Recognition_of_an_AtoN_Light
+termid: recognition-of-an-aton-light
+id: 2ab5aa76-5bc6-5298-ba3f-123614840b73

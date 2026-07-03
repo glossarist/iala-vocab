@@ -1,67 +1,41 @@
 ---
-id: 7-2-665
 data:
   identifier: 7-2-665
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Diamond_pane
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-665
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-665
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-665
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-665
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-665
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-2-665
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-665
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-665
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Diamond_pane
+  type: authoritative
+status: valid
+id: 7-2-665
 ---
-id: 7-2-665-eng
-termid: 7-2-665
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Diamond pane
-    normative_status: preferred
   definition:
   - content: Glazing pane for a lantern, diamond shaped in elevation usually with
       a curve in plan to fit a cylindrical lantern.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Diamond pane
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diamond_pane
+termid: 7-2-665
+id: a245dcab-9bb2-55bf-8580-97b3240571f6

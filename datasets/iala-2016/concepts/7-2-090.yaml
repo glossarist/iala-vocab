@@ -1,67 +1,41 @@
 ---
-id: 7-2-090
 data:
   identifier: 7-2-090
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Curtain_wall
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-090
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-090
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Curtain_wall
+  type: authoritative
+status: valid
+id: 7-2-090
 ---
-id: 7-2-090-eng
-termid: 7-2-090
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Curtain wall
-    normative_status: preferred
   definition:
   - content: A non-load-bearing wall constructed continuously around the structural
       frame of a building to enclose the building.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Curtain wall
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Curtain_wall
+termid: 7-2-090
+id: 9b9499bb-7dc8-5b60-aa3b-8d206206e5ff

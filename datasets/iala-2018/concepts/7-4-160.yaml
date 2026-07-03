@@ -1,67 +1,41 @@
 ---
-id: 7-4-160
 data:
   identifier: 7-4-160
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Water_level
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-4-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-4-160
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-4-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-160
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Water_level
+  type: authoritative
+status: valid
+id: 7-4-160
 ---
-id: 7-4-160-eng
-termid: 7-4-160
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Water level
-    normative_status: preferred
   definition:
   - content: The height of the water surface in relation to the specific point with
       which the level is being compared.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Water level
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Water_level
+termid: 7-4-160
+id: 7b17d201-9a1c-5718-950b-a989f314044f

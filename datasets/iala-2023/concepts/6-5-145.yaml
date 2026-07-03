@@ -1,68 +1,42 @@
 ---
-id: 6-5-145
 data:
   identifier: 6-5-145
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ampere-hour_efficiency
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-5-145
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-5-145
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ampere-hour_efficiency
+  type: authoritative
+status: valid
+id: 6-5-145
 ---
-id: 6-5-145-eng
-termid: 6-5-145
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ampere-hour efficiency
-    normative_status: preferred
   definition:
   - content: The ratio of the ampere-hour output supplied during discharge of a secondary
       cell or battery to the ampere-hour input required during charge, under specified
       conditions.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ampere-hour efficiency
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ampere-hour_efficiency
+termid: 6-5-145
+id: c0acb143-7cb0-5829-93aa-d1699fa8ad21

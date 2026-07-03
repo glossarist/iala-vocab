@@ -1,71 +1,44 @@
 ---
-id: 8-5-050
 data:
   identifier: 8-5-050
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Mooring_line
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-5-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-5-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-5-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 8-5-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-5-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-5-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-5-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-5-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Mooring_line
+  type: authoritative
+status: valid
+id: 8-5-050
 ---
-id: 8-5-050-eng
-termid: 8-5-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Mooring line
-    normative_status: preferred
   definition:
   - content: |-
       Chain, cable, hawser, etc..by which a vessel or buoy is secured to an anchor, sinker, or mooring.
 
       When chain is used, the term mooring chain applies.
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mooring line
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mooring_line
+termid: 8-5-050
+id: 56a7776e-ba29-5c33-bbec-2bdbd46a0b24

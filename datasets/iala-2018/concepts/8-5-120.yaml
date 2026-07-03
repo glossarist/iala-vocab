@@ -1,71 +1,44 @@
 ---
-id: 8-5-120
 data:
   identifier: 8-5-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Shackle
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-5-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 8-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-5-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Shackle
+  type: authoritative
+status: valid
+id: 8-5-120
 ---
-id: 8-5-120-eng
-termid: 8-5-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Shackle
-    normative_status: preferred
   definition:
   - content: |-
       A connecting device for lengths of chain, usually of D or bow shape, having a removable pin through eyes at the open end.
 
       The pin, called a shackle pin, may be screwed, clenched or secured by a forelock or split key. The terms screw shackle and clenched shackle apply to the corresponding cases.
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Shackle
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shackle
+termid: 8-5-120
+id: b71f0867-64c9-562b-9139-5eb16598764b

@@ -1,67 +1,41 @@
 ---
-id: 7-2-430
 data:
   identifier: 7-2-430
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Drip
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-430
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-2-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-430
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Drip
+  type: authoritative
+status: valid
+id: 7-2-430
 ---
-id: 7-2-430-eng
-termid: 7-2-430
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Drip
-    normative_status: preferred
   definition:
   - content: A groove provided beneath a cornice, coping, roof or sill, designed to
       prevent water flowing back to the building by encouraging the formation of drips.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Drip
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Drip
+termid: 7-2-430
+id: 4770fa17-f31c-50a2-8ee8-39e382d49aac

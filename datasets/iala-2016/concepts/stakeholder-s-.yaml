@@ -1,52 +1,25 @@
 ---
-id: stakeholder-s-
 data:
   identifier: stakeholder-s-
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Stakeholder(s)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: stakeholder-s-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: stakeholder-s-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Stakeholder(s)
+  type: authoritative
+status: valid
+id: stakeholder-s-
 ---
-id: stakeholder-s--eng
-termid: stakeholder-s-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Stakeholder(s)
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-33
@@ -56,10 +29,19 @@ data:
       The decision maker(s) is a stakeholder.
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Stakeholder(s)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stakeholder(s)
+termid: stakeholder-s-
+id: 7d082ebe-9c42-5353-a5a2-b6d4f85954b8

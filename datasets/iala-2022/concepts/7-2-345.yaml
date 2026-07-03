@@ -1,69 +1,43 @@
 ---
-id: 7-2-345
 data:
   identifier: 7-2-345
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/HSFG_bolt
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-345
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-2-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-345
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/HSFG_bolt
+  type: authoritative
+status: valid
+id: 7-2-345
 ---
-id: 7-2-345-eng
-termid: 7-2-345
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: HSFG bolt
-    normative_status: preferred
   definition:
   - content: |-
       High strength friction grip bolt
 
       High tensile bolt tightened to a high torque to join steelwork members together purely by friction, and not in shear or bending. The bolt is a loose clearance fit into its hole.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: HSFG bolt
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/HSFG_bolt
+termid: 7-2-345
+id: e8095ff6-d9a2-5a79-8538-28885add268f

@@ -1,67 +1,41 @@
 ---
-id: 7-2-040
 data:
   identifier: 7-2-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Footing
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-040
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-2-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Footing
+  type: authoritative
+status: valid
+id: 7-2-040
 ---
-id: 7-2-040-eng
-termid: 7-2-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Footing
-    normative_status: preferred
   definition:
   - content: A load-bearing construction at the base of a wall or column, wider than
       the wall or column, designed to spread the load to the ground.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Footing
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Footing
+termid: 7-2-040
+id: 316dcb8b-f237-5e30-9bf5-af1f11643da1

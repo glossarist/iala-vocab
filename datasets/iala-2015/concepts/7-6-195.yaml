@@ -1,66 +1,40 @@
 ---
-id: 7-6-195
 data:
   identifier: 7-6-195
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Raking_pile
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-195
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-6-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-195
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Raking_pile
+  type: authoritative
+status: valid
+id: 7-6-195
 ---
-id: 7-6-195-eng
-termid: 7-6-195
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Raking pile
-    normative_status: preferred
   definition:
   - content: Any pile driven into the ground at an angle.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Raking pile
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Raking_pile
+termid: 7-6-195
+id: 763f06ca-b010-57ad-8045-1747f3a8d58c

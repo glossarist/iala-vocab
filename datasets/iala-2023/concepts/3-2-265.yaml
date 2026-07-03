@@ -1,67 +1,41 @@
 ---
-id: 3-2-265
 data:
   identifier: 3-2-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bell
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 3-2-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bell
+  type: authoritative
+status: valid
+id: 3-2-265
 ---
-id: 3-2-265-eng
-termid: 3-2-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bell
-    normative_status: preferred
   definition:
   - content: a sound signal producing bell tones by means of a hammer actuated by
       electricity on fixed AtoN and by sea motion on buoys
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bell
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bell
+termid: 3-2-265
+id: 2864f4be-7261-53aa-bef1-c53086ddd8f8

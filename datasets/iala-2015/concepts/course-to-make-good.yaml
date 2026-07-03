@@ -1,52 +1,25 @@
 ---
-id: course-to-make-good
 data:
   identifier: course-to-make-good
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Course_to_Make_Good
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: course-to-make-good
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: course-to-make-good
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: course-to-make-good
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: course-to-make-good
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: course-to-make-good
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: course-to-make-good
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Course_to_Make_Good
+  type: authoritative
+status: valid
+id: course-to-make-good
 ---
-id: course-to-make-good-eng
-termid: course-to-make-good
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Course to Make Good
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-11
@@ -55,10 +28,19 @@ data:
       Source: IALA Guideline 1068 (2009)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Course to Make Good
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Course_to_Make_Good
+termid: course-to-make-good
+id: 7b956c60-72e8-55f9-ba8c-bfd44ecdd585

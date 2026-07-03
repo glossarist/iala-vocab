@@ -1,73 +1,47 @@
 ---
-id: 2-5-155
 data:
   identifier: 2-5-155
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Group-Flashing_Light
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-5-155
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-5-155
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Group-Flashing_Light
+  type: authoritative
+status: valid
+id: 2-5-155
 ---
-id: 2-5-155-eng
-termid: 2-5-155
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Group-Flashing Light
-    normative_status: preferred
   definition:
   - content: |-
       Flashing light in which the flashes are combined in groups, each group including the same number of flashes, and in which the groups are repeated at regular intervals. The eclipses separating the flashes within each group are of equal duration and this duration is clearly shorter than the duration of the eclipse between two successive groups. (Fig. 40c)
 
       ![Ch2_Fig40.jpg](/iala-vocab/images/iala/Ch2_Fig40.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: N.L
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Group-Flashing Light
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Group-Flashing_Light
+termid: 2-5-155
+id: a4a518b6-9b71-504b-ae70-0dea09e3d832

@@ -1,69 +1,42 @@
 ---
-id: 6-8-015
 data:
   identifier: 6-8-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Output_power
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-8-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Output_power
+  type: authoritative
+status: valid
+id: 6-8-015
 ---
-id: 6-8-015-eng
-termid: 6-8-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Output power
-    normative_status: preferred
   definition:
   - content: The power delivered by a source for a specific purpose.
+  examples: []
   notes:
   - content: For a source of alternating current and voltage the term refers only
       to the active power.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Output power
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Output_power
+termid: 6-8-015
+id: f46510aa-f83a-569a-b0e1-e65ecb6d05ab

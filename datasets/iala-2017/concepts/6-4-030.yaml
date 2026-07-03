@@ -1,69 +1,43 @@
 ---
-id: 6-4-030
 data:
   identifier: 6-4-030
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Commutator
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-4-030
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-030
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Commutator
+  type: authoritative
+status: valid
+id: 6-4-030
 ---
-id: 6-4-030-eng
-termid: 6-4-030
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Commutator
-    normative_status: preferred
   definition:
   - content: An assembly of conducting elements that are fixed around a shaft as a
       ring, and are insulated from one another, such that a brush can make electrical
       contact with each element in turn as the shaft rotates. It provides a means
       of regularly reversing the polarity of a current.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Commutator
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Commutator
+termid: 6-4-030
+id: 56ed6a8d-09fb-56f2-bcd9-04ea51c65e2b

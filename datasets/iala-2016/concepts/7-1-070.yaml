@@ -1,67 +1,41 @@
 ---
-id: 7-1-070
 data:
   identifier: 7-1-070
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Coastal_protection
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-1-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-1-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-1-070
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-1-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-1-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-1-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-1-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-1-070
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Coastal_protection
+  type: authoritative
+status: valid
+id: 7-1-070
 ---
-id: 7-1-070-eng
-termid: 7-1-070
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Coastal protection
-    normative_status: preferred
   definition:
   - content: Any manmade works designed to prevent or reduce erosion or flooding of
       a coastal area.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Coastal protection
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Coastal_protection
+termid: 7-1-070
+id: 5c1581a8-e3c9-5507-aa8f-1b3ae23251c5

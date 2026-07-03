@@ -1,67 +1,41 @@
 ---
-id: 4-3-400
 data:
   identifier: 4-3-400
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/TR_switch_and_beam_switching_combined
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-400
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-3-400
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/TR_switch_and_beam_switching_combined
+  type: authoritative
+status: valid
+id: 4-3-400
 ---
-id: 4-3-400-eng
-termid: 4-3-400
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: TR switch and beam switching combined
-    normative_status: preferred
   definition:
   - content: In radar, a system which combines the functions of a TR switch and beam
       switching.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: TR switch and beam switching combined
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/TR_switch_and_beam_switching_combined
+termid: 4-3-400
+id: 92527f3e-0174-5f9e-9c65-41acd8d3356b

@@ -1,72 +1,46 @@
 ---
-id: 5-3-575
 data:
   identifier: 5-3-575
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reset
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-3-575
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-575
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-575
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-575
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-575
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-575
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-575
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-575
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reset
+  type: authoritative
+status: valid
+id: 5-3-575
 ---
-id: 5-3-575-eng
-termid: 5-3-575
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reset
-    normative_status: preferred
   definition:
   - content: To restore a storage device to a prescribed initial state, not necessarily
       that denoting zero.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reset
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reset
+termid: 5-3-575
+id: 500916f4-563e-54c5-958a-a42545579d79

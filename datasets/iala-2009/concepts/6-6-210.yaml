@@ -1,66 +1,40 @@
 ---
-id: 6-6-210
 data:
   identifier: 6-6-210
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Open_position_(of_a_switch)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 6-6-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-6-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-6-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-6-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-6-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-6-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-6-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-6-210
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Open_position_(of_a_switch)
+  type: authoritative
+status: valid
+id: 6-6-210
 ---
-id: 6-6-210-eng
-termid: 6-6-210
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Open position (of a switch)
-    normative_status: preferred
   definition:
   - content: That position in which there is a given clearance between the contacts.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Open position (of a switch)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Open_position_(of_a_switch)
+termid: 6-6-210
+id: 3999db4d-b529-5339-824f-6af375ae4349

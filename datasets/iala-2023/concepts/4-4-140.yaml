@@ -1,69 +1,43 @@
 ---
-id: 4-4-140
 data:
   identifier: 4-4-140
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Decca_Comparison_frequency
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-140
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-4-140
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Decca_Comparison_frequency
+  type: authoritative
+status: valid
+id: 4-4-140
 ---
-id: 4-4-140-eng
-termid: 4-4-140
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Decca Comparison frequency
-    normative_status: preferred
   definition:
   - content: |-
       Comparison frequency (in Decca)
 
       The common frequency to which the incoming signals are converted in order that their phase relationships may be compared.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Decca Comparison frequency
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Comparison_frequency
+termid: 4-4-140
+id: 9396e708-eb61-5bcf-ac54-5c2aaa61f6ba

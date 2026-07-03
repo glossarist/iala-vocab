@@ -1,71 +1,44 @@
 ---
-id: 7-3-355
 data:
   identifier: 7-3-355
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Plank
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-355
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-355
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Plank
+  type: authoritative
+status: valid
+id: 7-3-355
 ---
-id: 7-3-355-eng
-termid: 7-3-355
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Plank
-    normative_status: preferred
-  - type: expression
-    designation: Board
-    normative_status: admitted
   definition:
   - content: A piece of square sawn timber which is broad in relation to its thickness.
+  examples: []
   notes:
   - content: A plank is thicker than a board.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Plank
+  - type: expression
+    normative_status: admitted
+    designation: Board
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Plank
+termid: 7-3-355
+id: b576e5e9-c2e2-5554-9c79-3a5be7cf6007

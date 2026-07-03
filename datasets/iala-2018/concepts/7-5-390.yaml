@@ -1,68 +1,42 @@
 ---
-id: 7-5-390
 data:
   identifier: 7-5-390
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Contract_documents
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-390
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-5-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-390
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Contract_documents
+  type: authoritative
+status: valid
+id: 7-5-390
 ---
-id: 7-5-390-eng
-termid: 7-5-390
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Contract documents
-    normative_status: preferred
   definition:
   - content: Those documents consisting of the specification, bills of quantities,
       drawings, conditions of contract and agreement which form a legal contract between
       a contractor and the client for undertaking building or civil engineering works.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Contract documents
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Contract_documents
+termid: 7-5-390
+id: 69870925-d235-57ef-b826-025faa9b2ef4

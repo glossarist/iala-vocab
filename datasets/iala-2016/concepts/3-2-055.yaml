@@ -1,67 +1,41 @@
 ---
-id: 3-2-055
 data:
   identifier: 3-2-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Horizontal_array
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 3-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Horizontal_array
+  type: authoritative
+status: valid
+id: 3-2-055
 ---
-id: 3-2-055-eng
-termid: 3-2-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sound emitter - Horizontal array
-    normative_status: preferred
   definition:
   - content: An array of emitter units in which the emitter units are placed adjacent
       to each other in the horizontal plane.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sound emitter - Horizontal array
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sound_emitter_-_Horizontal_array
+termid: 3-2-055
+id: c874590e-4368-51e4-aa4c-60c9b89bb92b

@@ -1,69 +1,47 @@
 ---
-id: reversibility
 data:
   identifier: reversibility
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-12
+  - concept_id: section-12
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reversibility
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: reversibility
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: reversibility
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: reversibility
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: reversibility
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: reversibility
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: reversibility
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: reversibility
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reversibility
+  type: authoritative
+status: valid
+id: reversibility
 ---
-id: reversibility-eng
-termid: reversibility
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reversibility
-    normative_status: preferred
   definition:
   - content: |-
       Concept of work to a building, part of a building or artefact being carried out in such a way that it can be reversed at some future time, without any significant damage having been done.
 
       (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: Stirlingcharter
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reversibility
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reversibility
+termid: reversibility
+id: e97be73c-4506-5b29-8fb2-5e8f5ab35da9

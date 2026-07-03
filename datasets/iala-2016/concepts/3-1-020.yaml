@@ -1,72 +1,46 @@
 ---
-id: 3-1-020
 data:
   identifier: 3-1-020
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Acoustic_noise
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-1-020
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 3-1-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-1-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-1-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-020
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Acoustic_noise
+  type: authoritative
+status: valid
+id: 3-1-020
 ---
-id: 3-1-020-eng
-termid: 3-1-020
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Acoustic noise
-    normative_status: preferred
   definition:
   - content: Any disagreeable or undesired sound.
   - content: A class of sounds, generally of a random nature, which do not exhibit
       clearly defined frequency components.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Acoustic noise
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acoustic_noise
+termid: 3-1-020
+id: 03f7b069-076b-5a47-8dd0-1096b44206c5

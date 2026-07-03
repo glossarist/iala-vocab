@@ -1,67 +1,41 @@
 ---
-id: 7-6-285
 data:
   identifier: 7-6-285
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Gabion
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-285
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-6-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-285
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Gabion
+  type: authoritative
+status: valid
+id: 7-6-285
 ---
-id: 7-6-285-eng
-termid: 7-6-285
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Gabion
-    normative_status: preferred
   definition:
   - content: A wire basket constructed to hold soil or stones and used to provide
       protection from erosion of a river bank or coastal areas.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Gabion
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gabion
+termid: 7-6-285
+id: fe25f245-6779-5dd0-bff0-ece6a270ac0c

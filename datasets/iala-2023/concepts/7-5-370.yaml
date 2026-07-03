@@ -1,70 +1,44 @@
 ---
-id: 7-5-370
 data:
   identifier: 7-5-370
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Fixing
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-370
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 7-5-370
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Fixing
+  type: authoritative
+status: valid
+id: 7-5-370
 ---
-id: 7-5-370-eng
-termid: 7-5-370
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Fixing
-    normative_status: preferred
-  - type: expression
-    designation: Anchorage
-    normative_status: admitted
   definition:
   - content: A device for transmitting tensile force to the ground, foundations, or
       a structure.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fixing
+  - type: expression
+    normative_status: admitted
+    designation: Anchorage
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fixing
+termid: 7-5-370
+id: 81217e9b-b05e-5be3-846b-9f154c965979

@@ -1,69 +1,43 @@
 ---
-id: 3-2-125
 data:
   identifier: 3-2-125
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Piston
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-125
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 3-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-125
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Piston
+  type: authoritative
+status: valid
+id: 3-2-125
 ---
-id: 3-2-125-eng
-termid: 3-2-125
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Diaphone - Piston
-    normative_status: preferred
   definition:
   - content: |-
       Piston (of a diaphone)
 
       That part of the diaphone in reciprocating motion and comprising both the moving part of the driver and the modulator.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Diaphone - Piston
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Piston
+termid: 3-2-125
+id: ae564195-2d04-5165-8771-e759c799aab8

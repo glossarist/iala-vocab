@@ -1,70 +1,43 @@
 ---
-id: 7-6-395
 data:
   identifier: 7-6-395
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Jack
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-395
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-6-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-395
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Jack
+  type: authoritative
+status: valid
+id: 7-6-395
 ---
-id: 7-6-395-eng
-termid: 7-6-395
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Jack
-    normative_status: preferred
   definition:
   - content: A device used for exerting a force, operating either by a screw action
       or using a hydraulic ram.
+  examples: []
   notes:
   - content: In French a distinction is made between cric, a screw jack, and verin,
       a hydraulic jack.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Jack
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Jack
+termid: 7-6-395
+id: 56a0f71b-0a6b-59d4-b464-1887a3a17c29

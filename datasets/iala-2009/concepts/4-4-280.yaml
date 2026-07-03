@@ -1,60 +1,25 @@
 ---
-id: 4-4-280
 data:
   identifier: 4-4-280
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Type_N_Raydist
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-4-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-280
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Type_N_Raydist
+  type: authoritative
+status: valid
+id: 4-4-280
 ---
-id: 4-4-280-eng
-termid: 4-4-280
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Type N Raydist
-    normative_status: preferred
   definition:
   - content: |-
       A hyperbolic co-ordinate Raydist system.
@@ -68,10 +33,19 @@ data:
       This produces two similar beat notes from the three main transmitters as the relay station, and these are phase compared with the beat notes from the relay station, to produce hyperbolic lines.
 
       The system is non-saturable as it requires no transmission from the vessel.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Type N Raydist
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Type_N_Raydist
+termid: 4-4-280
+id: dca17552-1812-525d-a9a6-edf9712cb68c

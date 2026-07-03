@@ -1,72 +1,46 @@
 ---
-id: 5-3-445
 data:
   identifier: 5-3-445
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Character
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-445
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 5-3-445
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-445
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Character
+  type: authoritative
+status: valid
+id: 5-3-445
 ---
-id: 5-3-445-eng
-termid: 5-3-445
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Character
-    normative_status: preferred
   definition:
   - content: An elementary mark or event that is used to represent data. A character
       is often in the form of a graphic spatial arrangement of connected or adjacent
       strokes.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Character
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Character
+termid: 5-3-445
+id: 323a6011-14aa-5bd2-9ae9-ba152fce68b1

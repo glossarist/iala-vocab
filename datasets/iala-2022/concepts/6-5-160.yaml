@@ -1,67 +1,41 @@
 ---
-id: 6-5-160
 data:
   identifier: 6-5-160
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Depth_of_discharge
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-5-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-5-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-160
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-5-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-5-160
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Depth_of_discharge
+  type: authoritative
+status: valid
+id: 6-5-160
 ---
-id: 6-5-160-eng
-termid: 6-5-160
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Depth of discharge
-    normative_status: preferred
   definition:
   - content: The capacity removed from a battery during a discharge in relation to
       the initially available capacity. It may be expressed as a percentage.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Depth of discharge
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Depth_of_discharge
+termid: 6-5-160
+id: b8ca1e04-6bbb-5f80-bfeb-e605b3084402

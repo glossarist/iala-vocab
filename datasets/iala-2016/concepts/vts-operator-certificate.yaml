@@ -1,52 +1,25 @@
 ---
-id: vts-operator-certificate
 data:
   identifier: vts-operator-certificate
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/VTS_Operator_Certificate
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: vts-operator-certificate
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: vts-operator-certificate
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vts-operator-certificate
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vts-operator-certificate
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: vts-operator-certificate
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: vts-operator-certificate
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/VTS_Operator_Certificate
+  type: authoritative
+status: valid
+id: vts-operator-certificate
 ---
-id: vts-operator-certificate-eng
-termid: vts-operator-certificate
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: VTS Operator Certificate
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-46
@@ -58,10 +31,19 @@ data:
       Source: IALA Recommendation V-103 (2009)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: VTS Operator Certificate
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Operator_Certificate
+termid: vts-operator-certificate
+id: 59834a43-630d-58c2-bc75-79609c2eafb0

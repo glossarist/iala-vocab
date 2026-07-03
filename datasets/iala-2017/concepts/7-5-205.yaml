@@ -1,66 +1,40 @@
 ---
-id: 7-5-205
 data:
   identifier: 7-5-205
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Span
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-205
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-5-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-205
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Span
+  type: authoritative
+status: valid
+id: 7-5-205
 ---
-id: 7-5-205-eng
-termid: 7-5-205
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Span
-    normative_status: preferred
   definition:
   - content: The distance between two supports of a beam or slab.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Span
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Span
+termid: 7-5-205
+id: 6d818b86-68aa-5578-8d51-65d9e83958c9

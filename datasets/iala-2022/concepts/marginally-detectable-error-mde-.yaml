@@ -1,62 +1,40 @@
 ---
-id: marginally-detectable-error-mde-
 data:
   identifier: marginally-detectable-error-mde-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Marginally_detectable_error_(MDE)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: marginally-detectable-error-mde-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: marginally-detectable-error-mde-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: marginally-detectable-error-mde-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: marginally-detectable-error-mde-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: marginally-detectable-error-mde-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: marginally-detectable-error-mde-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: marginally-detectable-error-mde-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Marginally_detectable_error_(MDE)
+  type: authoritative
+status: valid
+id: marginally-detectable-error-mde-
 ---
-id: marginally-detectable-error-mde--eng
-termid: marginally-detectable-error-mde-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Marginally detectable error (MDE)
-    normative_status: preferred
   definition:
   - content: The maximum position offset caused by a MDB in one of the observations.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Marginally detectable error (MDE)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Marginally_detectable_error_(MDE)
+termid: marginally-detectable-error-mde-
+id: afc0c869-9b71-579d-ac47-c80aa661f40b

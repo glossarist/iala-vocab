@@ -1,67 +1,41 @@
 ---
-id: 7-5-085
 data:
   identifier: 7-5-085
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Design_load
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-085
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-085
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Design_load
+  type: authoritative
+status: valid
+id: 7-5-085
 ---
-id: 7-5-085-eng
-termid: 7-5-085
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Design load
-    normative_status: preferred
   definition:
   - content: The loading or other force for which a structure has been designed, taking
       into account the worst possible combination of loads.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Design load
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Design_load
+termid: 7-5-085
+id: aafbbfde-c25d-51f3-81e3-b1a3bd387a3b

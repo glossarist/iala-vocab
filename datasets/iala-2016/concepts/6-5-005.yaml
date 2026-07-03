@@ -1,67 +1,41 @@
 ---
-id: 6-5-005
 data:
   identifier: 6-5-005
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Electrolyte
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-005
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-5-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-5-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-5-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-5-005
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Electrolyte
+  type: authoritative
+status: valid
+id: 6-5-005
 ---
-id: 6-5-005-eng
-termid: 6-5-005
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Electrolyte
-    normative_status: preferred
   definition:
   - content: The liquid or solid medium that is contained in an electrochemical cell
       in order to provide the migratory ions needed for the flow of current.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Electrolyte
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electrolyte
+termid: 6-5-005
+id: 67f36a34-addb-512d-a5a4-64128044a1a6

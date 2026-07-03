@@ -1,69 +1,42 @@
 ---
-id: 3-2-270
 data:
   identifier: 3-2-270
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bell_buoy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-270
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 3-2-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-2-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-270
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bell_buoy
+  type: authoritative
+status: valid
+id: 3-2-270
 ---
-id: 3-2-270-eng
-termid: 3-2-270
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bell buoy
-    normative_status: preferred
   definition:
   - content: A buoy fitted with one or more bells.
+  examples: []
   notes:
   - content: In French, the term bouee a carillon is applied to a buoy bearing a group
       of bells.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bell buoy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bell_buoy
+termid: 3-2-270
+id: 6e8ee9c9-b8bd-5254-849f-f1c9f416ec1b

@@ -1,73 +1,46 @@
 ---
-id: 1-1-330
 data:
   identifier: 1-1-330
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Free_oscillation
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-330
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 1-1-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-330
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-330
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Free_oscillation
+  type: authoritative
+status: valid
+id: 1-1-330
 ---
-id: 1-1-330-eng
-termid: 1-1-330
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Free oscillation
-    normative_status: preferred
   definition:
   - content: The oscillation of a system in the absence of any exterior force.
+  examples: []
   notes:
   - content: Free oscillations of a mechanical system are usually called natural vibrations
       of the system.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Free oscillation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Free_oscillation
+termid: 1-1-330
+id: b3a0a207-6344-5d30-9da5-a07cceeb570a

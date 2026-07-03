@@ -1,66 +1,40 @@
 ---
-id: 4-3-085
 data:
   identifier: 4-3-085
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cathode_ray_tube_display
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-085
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-3-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-085
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cathode_ray_tube_display
+  type: authoritative
+status: valid
+id: 4-3-085
 ---
-id: 4-3-085-eng
-termid: 4-3-085
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cathode ray tube display
-    normative_status: preferred
   definition:
   - content: The presentation of received signals on the screen of a cathode ray tube.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cathode ray tube display
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathode_ray_tube_display
+termid: 4-3-085
+id: 66e69d22-d6c7-5567-92b5-bb041c3a1db4

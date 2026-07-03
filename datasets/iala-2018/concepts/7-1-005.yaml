@@ -1,65 +1,31 @@
 ---
-id: 7-1-005
 data:
   identifier: 7-1-005
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Beacon
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-1-005
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-1-005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-1-005
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Beacon
+  type: authoritative
+status: valid
+id: 7-1-005
 ---
-id: 7-1-005-eng
-termid: 7-1-005
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Beacon
-    normative_status: preferred
   definition:
   - content: |-
       A fixed artificial navigation mark that can be recognised by its shape, colour, pattern, topmark or light character, or a combination of these.
 
       It may carry various additional aids to navigation.
+  examples: []
   notes:
   - content: This term is not commonly used when the navigation mark can be classified
       as a lighthouse.
@@ -68,9 +34,16 @@ data:
   - content: The terms unlighted beacon and unlit beacon refer to a beacon that does
       not carry a signal light.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Beacon
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Beacon
+termid: 7-1-005
+id: e1153f69-4ff1-511f-8b66-bbd3d70a6fff

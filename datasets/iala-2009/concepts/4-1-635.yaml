@@ -1,73 +1,47 @@
 ---
-id: 4-1-635
 data:
   identifier: 4-1-635
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Tank_circuit_(U.S.A.)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-1-635
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-635
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-635
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-635
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-635
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-635
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-635
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-635
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Tank_circuit_(U.S.A.)
+  type: authoritative
+status: valid
+id: 4-1-635
 ---
-id: 4-1-635-eng
-termid: 4-1-635
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Tank circuit (U.S.A.)
-    normative_status: preferred
   definition:
   - content: A circuit capable of storing electrical energy over a band of frequencies
       continuously distributed about a single frequency at which the circuit is said
       to be resonant or tuned.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.R.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tank circuit (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tank_circuit_(U.S.A.)
+termid: 4-1-635
+id: d431d42f-1a51-56f7-8e4c-a30dbfa374d1

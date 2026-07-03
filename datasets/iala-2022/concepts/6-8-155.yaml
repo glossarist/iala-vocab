@@ -1,69 +1,43 @@
 ---
-id: 6-8-155
 data:
   identifier: 6-8-155
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Control_panel
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-8-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-155
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-8-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-155
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Control_panel
+  type: authoritative
+status: valid
+id: 6-8-155
 ---
-id: 6-8-155-eng
-termid: 6-8-155
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Control panel
-    normative_status: preferred
-  - type: expression
-    designation: Control board
-    normative_status: admitted
   definition:
   - content: A board on which is mounted an assembly of control gear.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Control panel
+  - type: expression
+    normative_status: admitted
+    designation: Control board
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Control_panel
+termid: 6-8-155
+id: a9f24f0a-775f-5058-8d6f-ee01678dc80f

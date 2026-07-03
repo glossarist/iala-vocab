@@ -1,67 +1,41 @@
 ---
-id: 7-3-315
 data:
   identifier: 7-3-315
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Thermoplastic
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-315
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-315
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Thermoplastic
+  type: authoritative
+status: valid
+id: 7-3-315
 ---
-id: 7-3-315-eng
-termid: 7-3-315
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Thermoplastic
-    normative_status: preferred
   definition:
   - content: Term applied to plastic materials which soften on heating and harden
       on cooling with no adverse effects on the properties of the material.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Thermoplastic
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Thermoplastic
+termid: 7-3-315
+id: 99f56eca-7ae5-5360-b87c-7c5581a168b3

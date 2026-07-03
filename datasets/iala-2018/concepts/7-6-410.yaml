@@ -1,67 +1,41 @@
 ---
-id: 7-6-410
 data:
   identifier: 7-6-410
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Predrilled
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-410
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-6-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-410
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Predrilled
+  type: authoritative
+status: valid
+id: 7-6-410
 ---
-id: 7-6-410-eng
-termid: 7-6-410
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Predrilled
-    normative_status: preferred
   definition:
   - content: Description of any item which is supplied with holes already drilled
       in it for various purposes.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Predrilled
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Predrilled
+termid: 7-6-410
+id: c2d9a0df-c349-59e2-af2d-8db32ceedb79

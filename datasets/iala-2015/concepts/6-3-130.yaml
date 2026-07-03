@@ -1,69 +1,43 @@
 ---
-id: 6-3-130
 data:
   identifier: 6-3-130
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Blade_pitch
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-130
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-130
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Blade_pitch
+  type: authoritative
+status: valid
+id: 6-3-130
 ---
-id: 6-3-130-eng
-termid: 6-3-130
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Blade pitch
-    normative_status: preferred
   definition:
   - content: |-
       1 - For a horizontal axis wind-power generator, the angular setting of a blade measured at the tip as the angle between the chord line and the plane of rotation.
 
       2 - For a vertical-axis wind-power generator, the angular setting of a blade measured in the horizontal plane as the angle between the chord line and the line tangent to the arc swept by the blade.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Blade pitch
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blade_pitch
+termid: 6-3-130
+id: b38b956e-40d9-5c8e-8ea8-f8e8e89804d9

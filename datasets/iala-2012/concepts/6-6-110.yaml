@@ -1,69 +1,42 @@
 ---
-id: 6-6-110
 data:
   identifier: 6-6-110
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Armour_(of_a_cable)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-6-110
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 6-6-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-6-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-6-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-6-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-6-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-6-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-6-110
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Armour_(of_a_cable)
+  type: authoritative
+status: valid
+id: 6-6-110
 ---
-id: 6-6-110-eng
-termid: 6-6-110
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Armour (of a cable)
-    normative_status: preferred
   definition:
   - content: A covering, consisting of metal tapes or wires, used to provide mechanical
       protection to the cable.
+  examples: []
   notes:
   - content: A cable with armour is called an armoured cable.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Armour (of a cable)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Armour_(of_a_cable)
+termid: 6-6-110
+id: 04a0894d-9c99-5952-8e1f-28aca5d54db3

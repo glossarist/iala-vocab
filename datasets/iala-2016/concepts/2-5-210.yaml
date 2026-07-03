@@ -1,70 +1,44 @@
 ---
-id: 2-5-210
 data:
   identifier: 2-5-210
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/All-Round_Light
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-5-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-5-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-5-210
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-5-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-5-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-5-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-5-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-5-210
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/All-Round_Light
+  type: authoritative
+status: valid
+id: 2-5-210
 ---
-id: 2-5-210-eng
-termid: 2-5-210
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: All-Round Light
-    normative_status: preferred
-  - type: expression
-    designation: Omnidirectional Light
-    normative_status: admitted
   definition:
   - content: A light which presents the same character over the whole horizon of interest
       to marine navigation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: All-Round Light
+  - type: expression
+    normative_status: admitted
+    designation: Omnidirectional Light
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/All-Round_Light
+termid: 2-5-210
+id: 615445e9-a84f-5030-97f9-25896f76edec

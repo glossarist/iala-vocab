@@ -1,71 +1,45 @@
 ---
-id: 4-1-845
 data:
   identifier: 4-1-845
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Linearly_polarized_wave
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-845
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-845
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-1-845
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-845
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-845
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-845
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-845
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-845
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Linearly_polarized_wave
+  type: authoritative
+status: valid
+id: 4-1-845
 ---
-id: 4-1-845-eng
-termid: 4-1-845
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Linearly polarized wave
-    normative_status: preferred
   definition:
   - content: A transverse electromagnetic wave whose electric field vector at all
       times lies along a fixed line.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.R.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Linearly polarized wave
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Linearly_polarized_wave
+termid: 4-1-845
+id: cda2b717-ebe9-5535-9c85-59af1f7de3f5

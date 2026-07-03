@@ -1,75 +1,49 @@
 ---
-id: 1-1-155
 data:
   identifier: 1-1-155
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Spectral_distribution_curve
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-1-155
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 1-1-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-155
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Spectral_distribution_curve
+  type: authoritative
+status: valid
+id: 1-1-155
 ---
-id: 1-1-155-eng
-termid: 1-1-155
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Spectral distribution curve
-    normative_status: preferred
-  - type: expression
-    designation: Spectral distribution curve (of a radiometric quantity radiant flux,
-      radiant intensity, etc.)
-    normative_status: admitted
   definition:
   - content: Curve representing the spectral concentration of the quantity as a function
       of wavelength.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E. (extract)
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Spectral distribution curve
+  - type: expression
+    normative_status: admitted
+    designation: Spectral distribution curve (of a radiometric quantity radiant flux,
+      radiant intensity, etc.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spectral_distribution_curve
+termid: 1-1-155
+id: 2f45b5e1-0d8c-5e2f-be5d-bd9af4148408

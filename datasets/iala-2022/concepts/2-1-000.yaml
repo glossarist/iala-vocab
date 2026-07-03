@@ -1,86 +1,55 @@
 ---
-id: 2-1-000
 data:
   identifier: 2-1-000
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Light
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-000
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-1-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-000
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Light
+  type: authoritative
+status: valid
+id: 2-1-000
 ---
-id: 2-1-000-eng
-termid: 2-1-000
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Light
-    normative_status: preferred
   definition:
   - content: Attribute of all the perceptions or sensations which are peculiar to
       the organ of vision and which are produced through the agency of that organ.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E. (extract)
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light
----
-id: 2-1-000-deu
-termid: 2-1-000
-data:
-  language_code: deu
+    type: authoritative
   terms:
   - type: expression
-    designation: Licht
     normative_status: preferred
+    designation: Light
+  language_code: eng
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light
+termid: 2-1-000
+id: 1c84ea25-f15b-5a9f-9d6d-a4f66bfe6d31
+---
+data:
   definition:
   - content: Merkmal aller Wahrnehmungen und Empfindungen, die dem Sehorgan eigentümlich
       sind und durch das Sehorgan vermittelt werden.
+  examples: []
+  notes: []
   sources:
   - origin:
       ref:
@@ -90,5 +59,12 @@ data:
       ref:
         source: C.I.E. (Auszug)
     type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Licht
+  language_code: deu
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Light/de
+termid: 2-1-000
+id: 9b744c3b-45f4-5692-8205-7b30833fbe45

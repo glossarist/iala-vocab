@@ -13,31 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Place_of_Refuge
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: place-of-refuge
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: place-of-refuge
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: place-of-refuge
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: place-of-refuge
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: place-of-refuge
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: place-of-refuge
+related: []
 ---
 id: place-of-refuge-eng
 termid: place-of-refuge

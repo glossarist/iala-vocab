@@ -1,60 +1,25 @@
 ---
-id: 2-1-265
 data:
   identifier: 2-1-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Allard's_Law
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-1-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Allard's_Law
+  type: authoritative
+status: valid
+id: 2-1-265
 ---
-id: 2-1-265-eng
-termid: 2-1-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Allard's Law
-    normative_status: preferred
   definition:
   - content: |-
       A formula relating the illuminance produced on a normal surface at a given distance from a point source of light, the intensity of the light and the degree of transparency of the atmosphere (assumed uniform).
@@ -74,25 +39,26 @@ data:
       ![Allard2.gif](/iala-vocab/images/iala/Allard2.gif)
 
       where V = meteorological visibility (2-1-280 and 2-1-290, Note:).
+  examples: []
   notes:
   - content: Another form of Allard's Law is
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Allard's Law
+  language_code: eng
   annotations:
   - content: Unit distance.
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Allard's_Law
----
-id: 2-1-265-deu
 termid: 2-1-265
+id: 02c72242-f972-5328-9e95-173528531222
+---
 data:
-  language_code: deu
-  terms:
-  - type: expression
-    designation: Tragweitenformel
-    normative_status: preferred
   definition:
   - content: |-
       Allardsche Formel
@@ -116,10 +82,19 @@ data:
       Die Tragweitenformel kann auch wie folgt geschrieben werden:
 
       Hierin ist V die meteorologische Sichtweite (2-1-280 und 2-1-290 Anmerkung).
+  examples: []
+  notes: []
   sources:
   - origin:
       ref:
         source: IALA Dictionary
     type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tragweitenformel
+  language_code: deu
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Allard's_Law/de
+termid: 2-1-265
+id: a8cc37ff-02f7-59a5-b25d-582f36bfbcbb

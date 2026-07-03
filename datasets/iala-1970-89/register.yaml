@@ -2,9 +2,18 @@
 schema_type: glossarist
 schema_version: '3'
 id: iala-1970-89
+ref: IALA Dictionary 1970–1989 Edition
 year: 1989
 urn: urn:iala:dictionary:1970-89
-status: retired
+status: superseded
+owner: IALA
+sourceRepo: https://github.com/metanorma/iala-vocab
+tags:
+- maritime
+- aids-to-navigation
+- lighthouse
+- iala
+- dictionary
 languages:
 - eng
 - fra
@@ -16,6 +25,13 @@ languageOrder:
 - spa
 - deu
 ordering: systematic
+description:
+  eng: Foundational IALA Dictionary edition compiled between 1970 and 1989. Superseded
+    by the 2009 Edition. ~2,587 concepts across 12 chapters covering general terms,
+    visual aids, audible aids, radio aids, reliability, power supplies, civil engineering,
+    floating equipment, VTS, e-Navigation, AIS, and heritage.
+  fra: Édition fondatrice du Dictionnaire IALA compilée entre 1970 et 1989. Remplacée
+    par l'édition 2009.
 sections:
 - id: '0'
   names:

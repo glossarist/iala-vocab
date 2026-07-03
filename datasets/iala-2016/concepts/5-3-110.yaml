@@ -1,75 +1,48 @@
 ---
-id: 5-3-110
 data:
   identifier: 5-3-110
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pulse_duty_factor
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-110
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 5-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-110
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pulse_duty_factor
+  type: authoritative
+status: valid
+id: 5-3-110
 ---
-id: 5-3-110-eng
-termid: 5-3-110
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pulse duty factor
-    normative_status: preferred
   definition:
   - content: The ratio of the average pulse duration to the average pulse spacing.
+  examples: []
   notes:
   - content: This is equivalent to the product of the average pulse duration and the
       pulse repetition rate.
   - content: In French the definition of the term "facteur de duree" is more restrictive
       than the definition of pulse duty factor.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pulse duty factor
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_duty_factor
+termid: 5-3-110
+id: 9edec398-e903-5bd6-80b5-27437ac6c3f0

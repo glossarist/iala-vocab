@@ -1,74 +1,48 @@
 ---
-id: 5-3-345
 data:
   identifier: 5-3-345
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Data_processing
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-345
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 5-3-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-345
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Data_processing
+  type: authoritative
+status: valid
+id: 5-3-345
 ---
-id: 5-3-345-eng
-termid: 5-3-345
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Data processing
-    normative_status: preferred
-  - type: expression
-    designation: Information processing
-    normative_status: admitted
   definition:
   - content: An operation or combination of operations on data.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Data processing
+  - type: expression
+    normative_status: admitted
+    designation: Information processing
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Data_processing
+termid: 5-3-345
+id: 02b5d458-5489-5b6b-ab83-41e745aca915

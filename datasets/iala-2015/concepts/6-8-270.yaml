@@ -1,71 +1,45 @@
 ---
-id: 6-8-270
 data:
   identifier: 6-8-270
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Flame-protected_enclosure_(or_machine)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-270
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-8-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-270
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Flame-protected_enclosure_(or_machine)
+  type: authoritative
+status: valid
+id: 6-8-270
 ---
-id: 6-8-270-eng
-termid: 6-8-270
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Flame-protected enclosure (or machine)
-    normative_status: preferred
-  - type: expression
-    designation: Flameproof enclosure (or machine)
-    normative_status: admitted
   definition:
   - content: An enclosure (or machine) designed to withstand an internal explosion
       of a given flammable gas and to prevent an internal flame from passing outside
       to ignite a given flammable gas in the surrounding atmosphere.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Flame-protected enclosure (or machine)
+  - type: expression
+    normative_status: admitted
+    designation: Flameproof enclosure (or machine)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Flame-protected_enclosure_(or_machine)
+termid: 6-8-270
+id: a79ebf8b-6f7b-52f6-adbf-f39607977510

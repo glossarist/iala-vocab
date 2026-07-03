@@ -1,74 +1,48 @@
 ---
-id: 4-1-1005
 data:
   identifier: 4-1-1005
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Surface_duct
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-1005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-1005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-1005
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 4-1-1005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-1005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-1005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-1005
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-1005
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Surface_duct
+  type: authoritative
+status: valid
+id: 4-1-1005
 ---
-id: 4-1-1005-eng
-termid: 4-1-1005
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Surface duct
-    normative_status: preferred
-  - type: expression
-    designation: Ground-based duct
-    normative_status: admitted
   definition:
   - content: A tropospheric radio duct in which the lower boundary is the surface
       of the earth.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.C.I.R
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Surface duct
+  - type: expression
+    normative_status: admitted
+    designation: Ground-based duct
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Surface_duct
+termid: 4-1-1005
+id: f56af069-d972-5a09-a9e3-cbdaf929ec0b

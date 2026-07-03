@@ -1,69 +1,43 @@
 ---
-id: 2-5-220
 data:
   identifier: 2-5-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sector_(of_a_sector_light)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-5-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 2-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-5-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sector_(of_a_sector_light)
+  type: authoritative
+status: valid
+id: 2-5-220
 ---
-id: 2-5-220-eng
-termid: 2-5-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sector (of a sector light)
-    normative_status: preferred
   definition:
   - content: |-
       The space bounded by two vertical planes passing through the luminous source of the sector light and within which a light of a given character is visible. (Fig.45)
 
       ![Angle_Of_Uncertainty_2023.png](/iala-vocab/images/iala/Angle_Of_Uncertainty_2023.png)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sector (of a sector light)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sector_(of_a_sector_light)
+termid: 2-5-220
+id: c3cd27c8-d67d-5209-ad57-31110faed86b

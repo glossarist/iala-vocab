@@ -1,69 +1,43 @@
 ---
-id: 6-4-010
 data:
   identifier: 6-4-010
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Alternating-current_machine
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 6-4-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-4-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-4-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-4-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Alternating-current_machine
+  type: authoritative
+status: valid
+id: 6-4-010
 ---
-id: 6-4-010-eng
-termid: 6-4-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Alternating-current machine
-    normative_status: preferred
   definition:
   - content: |-
       a.c. machine
 
       An electric machine that converts an a.c. electric supply to mechanical energy, or vice-versa.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Alternating-current machine
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Alternating-current_machine
+termid: 6-4-010
+id: 18c02cd1-ea40-52dd-997f-1487e967cec3

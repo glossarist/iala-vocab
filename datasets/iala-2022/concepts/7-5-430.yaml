@@ -1,66 +1,40 @@
 ---
-id: 7-5-430
 data:
   identifier: 7-5-430
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Damping
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-430
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-5-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-430
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Damping
+  type: authoritative
+status: valid
+id: 7-5-430
 ---
-id: 7-5-430-eng
-termid: 7-5-430
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Damping
-    normative_status: preferred
   definition:
   - content: Frictional reduction of amplitude of an oscillating or vibrating system.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Damping
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Damping
+termid: 7-5-430
+id: 323c6251-a1ec-526e-9bb2-66a04e9b2db1

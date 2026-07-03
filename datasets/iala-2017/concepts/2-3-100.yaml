@@ -1,86 +1,80 @@
 ---
-id: 2-3-100
 data:
   identifier: 2-3-100
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bulb
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-100
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 2-3-100
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-100
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-100
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-100
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bulb
+  type: authoritative
+status: valid
+id: 2-3-100
 ---
-id: 2-3-100-eng
-termid: 2-3-100
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bulb
-    normative_status: preferred
   definition:
   - content: |-
       A transparent or translucent gas-tight envelope enclosing the luminous element of a lamp.
 
       ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bulb
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bulb
----
-id: 2-3-100-spa
 termid: 2-3-100
+id: 51034b61-24a0-539f-8766-73caaad6c9a8
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Bulbo
+
+      Recubrimiento transparente o translúcido, hermético al gas que encierra el elemento luminoso de una lámpara.
+
+      Referencia: C.I.E. (modificado)
+
+      ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Bulb/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bulb/es
+termid: 2-3-100
+id: 24ba2426-1068-565f-a667-6567acb77340
+---
+data:
   definition:
   - content: |-
       Bulbo
@@ -90,35 +84,19 @@ data:
       Referencia: C.I.E. (modificado)
 
       ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bulb/es
----
-id: 2-3-100-spa
-termid: 2-3-100
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 2-3-100
     normative_status: preferred
-  definition:
-  - content: |-
-      Bulbo
-
-      Recubrimiento transparente o translúcido, hermético al gas que encierra el elemento luminoso de una lámpara.
-
-      Referencia: C.I.E. (modificado)
-
-      ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 2-3-100
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bulb/es
+termid: 2-3-100
+id: 75508da5-336c-53f5-a28e-c2b37717681c

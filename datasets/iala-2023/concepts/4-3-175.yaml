@@ -1,72 +1,46 @@
 ---
-id: 4-3-175
 data:
   identifier: 4-3-175
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ring_time
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-175
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-3-175
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ring_time
+  type: authoritative
+status: valid
+id: 4-3-175
 ---
-id: 4-3-175-eng
-termid: 4-3-175
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ring time
-    normative_status: preferred
   definition:
   - content: The time, reckoned from the end of a pulse transmitted by a radar set,
       during which the energy being returned by an echo box remains above that value
       required to produce a visible signal on the display.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.R.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ring time
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ring_time
+termid: 4-3-175
+id: 42e8488e-a5ed-5b30-ae74-01e4599ef37a

@@ -1,63 +1,29 @@
 ---
-id: 6-4-165
 data:
   identifier: 6-4-165
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Emergency_generator_set
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-4-165
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-165
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Emergency_generator_set
+  type: authoritative
+status: valid
+id: 6-4-165
 ---
-id: 6-4-165-eng
-termid: 6-4-165
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Emergency generator set
-    normative_status: preferred
   definition:
   - content: A generator set that is permanently available and intended to be brought
       easily into service when another supply has failed.
+  examples: []
   notes:
   - content: An emergency generator set that is brought into service when the regular
       supply has failed and that provides comparable service is called a standby generator
@@ -65,9 +31,16 @@ data:
   - content: An emergency generator set that is brought into service when both regular
       supply and emergency supply have failed may provide a greatly reduced service.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Emergency generator set
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Emergency_generator_set
+termid: 6-4-165
+id: 9a6aae8c-397f-59ec-8bc9-a9885655cb49

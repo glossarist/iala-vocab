@@ -1,67 +1,41 @@
 ---
-id: 7-6-420
 data:
   identifier: 7-6-420
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Machining
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-420
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-6-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-420
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Machining
+  type: authoritative
+status: valid
+id: 7-6-420
 ---
-id: 7-6-420-eng
-termid: 7-6-420
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Machining
-    normative_status: preferred
   definition:
   - content: The process of obtaining the desired shape of a metal object by the use
       of power driven tools, e.g. a lathe, milling machine, etc.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Machining
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Machining
+termid: 7-6-420
+id: 2c746574-7f7d-5c26-8895-26df4e8ed2b9

@@ -1,67 +1,41 @@
 ---
-id: 5-1-130
 data:
   identifier: 5-1-130
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Breadboard_model
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-1-130
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-1-130
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Breadboard_model
+  type: authoritative
+status: valid
+id: 5-1-130
 ---
-id: 5-1-130-eng
-termid: 5-1-130
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Breadboard model
-    normative_status: preferred
   definition:
   - content: An assembly in rough form to prove the feasibility of a circuit, device,
       system or principle.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Breadboard model
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Breadboard_model
+termid: 5-1-130
+id: 8425034b-a17d-5ecb-b7e3-6dbda46c5fff

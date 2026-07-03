@@ -1,74 +1,47 @@
 ---
-id: 1-2-300
 data:
   identifier: 1-2-300
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Dry_Dock
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-300
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 1-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-300
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Dry_Dock
+  type: authoritative
+status: valid
+id: 1-2-300
 ---
-id: 1-2-300-eng
-termid: 1-2-300
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Dry Dock
-    normative_status: preferred
   definition:
   - content: |-
       (Dry) Dock
 
       A structure providing support for a vessel and means for removing the water so that the bottom of the vessel can be exposed.
+  examples: []
   notes:
   - content: When the structure is floating it is usually called in English a floating
       dock and in German a Schwimmdock.
   - content: In French when the structure is fixed it is called a forme de radoub;
       when the structure is floating it is called a dock flottant.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Dry Dock
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Dry_Dock
+termid: 1-2-300
+id: 0db48e71-6091-5d0b-96ce-627967ae23dc

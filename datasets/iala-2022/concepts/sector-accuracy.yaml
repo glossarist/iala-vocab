@@ -1,53 +1,43 @@
 ---
-id: sector-accuracy
 data:
   identifier: sector-accuracy
   domains:
-  - source: urn:iala:dictionary:iala-2016
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2016
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sector_Accuracy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: sector-accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: sector-accuracy
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: sector-accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: sector-accuracy
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sector_Accuracy
+  type: authoritative
+status: valid
+id: sector-accuracy
 ---
-id: sector-accuracy-eng
-termid: sector-accuracy
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sector Accuracy
-    normative_status: preferred
   definition:
   - content: |-
       Sector accuracy is the maximum angle between the intended sector boundary and the actual sector boundary.
 
       Source: ENG4, Guideline 1041
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sector Accuracy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sector_Accuracy
+termid: sector-accuracy
+id: 00462e12-ca8d-59a9-8d63-bbbf1fb0ac29

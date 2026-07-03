@@ -1,71 +1,45 @@
 ---
-id: 5-2-095
 data:
   identifier: 5-2-095
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/On-off_control_system
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-095
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 5-2-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/On-off_control_system
+  type: authoritative
+status: valid
+id: 5-2-095
 ---
-id: 5-2-095-eng
-termid: 5-2-095
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: On-off control system
-    normative_status: preferred
   definition:
   - content: A two-step control system in which a supply of energy to the controlled
       system is either on or off.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.E.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: On-off control system
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/On-off_control_system
+termid: 5-2-095
+id: e0a6941d-e034-5cb7-9d6d-41ca7604274f

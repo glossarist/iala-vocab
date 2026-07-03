@@ -1,63 +1,25 @@
 ---
-id: 2-1-105
 data:
   identifier: 2-1-105
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Curve_of_Luminous_Intensity_Distribution
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-105
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-1-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-105
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-105
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Curve_of_Luminous_Intensity_Distribution
+  type: authoritative
+status: valid
+id: 2-1-105
 ---
-id: 2-1-105-eng
-termid: 2-1-105
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Curve of Luminous Intensity Distribution
-    normative_status: preferred
-  - type: expression
-    designation: Curve of Luminous Intensity Distribution (of a light source)
-    normative_status: admitted
   definition:
   - content: |-
       A curve which represents the luminous intensity in a plane passing through the source, as a function of the angle measured from some given direction.
@@ -66,19 +28,30 @@ data:
 
       a. When the curve is polar, the pole is at the point representing the position of the light source.
       b. When the plane is a meridian plane and the reference direction of angles is vertical, the angles are measured from the downward vertical.
+  examples: []
   notes:
   - content: ":"
   - content: The term Candlepower Curve is sometimes used in place of "curve of luminous
       intensity distribution".
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Curve of Luminous Intensity Distribution
+  - type: expression
+    normative_status: admitted
+    designation: Curve of Luminous Intensity Distribution (of a light source)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Curve_of_Luminous_Intensity_Distribution
+termid: 2-1-105
+id: 809b80af-136e-57ec-a156-1ada25ba8a40

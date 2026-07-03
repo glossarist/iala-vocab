@@ -1,52 +1,25 @@
 ---
-id: track
 data:
   identifier: track
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Track
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: track
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: track
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: track
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: track
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: track
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: track
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Track
+  type: authoritative
+status: valid
+id: track
 ---
-id: track-eng
-termid: track
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Track
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-34
@@ -56,10 +29,19 @@ data:
       Source: IMO A.918(22)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Track
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Track
+termid: track
+id: 5bc3dda4-81e1-5a8e-b61d-d13073a497f1

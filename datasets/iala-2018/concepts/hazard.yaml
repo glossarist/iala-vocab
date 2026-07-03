@@ -13,15 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Hazard
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: hazard
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: hazard
+related: []
 ---
 id: hazard-eng
 termid: hazard

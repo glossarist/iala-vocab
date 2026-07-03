@@ -1,69 +1,43 @@
 ---
-id: 3-2-095
 data:
   identifier: 3-2-095
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Rotor_of_a_siren
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-095
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 3-2-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Rotor_of_a_siren
+  type: authoritative
+status: valid
+id: 3-2-095
 ---
-id: 3-2-095-eng
-termid: 3-2-095
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Rotor of a siren
-    normative_status: preferred
   definition:
   - content: |-
       Rotor (of a siren)
 
       The moving part of the modulator containing apertures or "ports" corresponding to those of the stator. The relative displacement between the two sets of ports interrupts the flow of compressed air thereby producing a modulated output.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rotor of a siren
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rotor_of_a_siren
+termid: 3-2-095
+id: c027cb82-9932-5c59-bfe0-82a643b8f7af

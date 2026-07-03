@@ -1,60 +1,25 @@
 ---
-id: 5-2-160
 data:
   identifier: 5-2-160
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Indirectly_controlled_variable
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-160
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-2-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-160
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Indirectly_controlled_variable
+  type: authoritative
+status: valid
+id: 5-2-160
 ---
-id: 5-2-160-eng
-termid: 5-2-160
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Indirectly controlled variable
-    normative_status: preferred
   definition:
   - content: |-
       A variable which does not originate a feedback signal, but which is related to, and influenced by, the directly controlled variable.
@@ -62,14 +27,23 @@ data:
       ![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)
 
       Figure 2 - Block diagram of automatic control system (5-2-045) incorporating a closed loop {{5-2-080, Closed Loop}}
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Indirectly controlled variable
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Indirectly_controlled_variable
+termid: 5-2-160
+id: 10dea2c5-84ba-57db-b31c-8e9932942b09

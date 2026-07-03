@@ -1,73 +1,46 @@
 ---
-id: 6-8-190
 data:
   identifier: 6-8-190
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Socket_and_plug_connection
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-190
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-8-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-190
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Socket_and_plug_connection
+  type: authoritative
+status: valid
+id: 6-8-190
 ---
-id: 6-8-190-eng
-termid: 6-8-190
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Socket and plug connection
-    normative_status: preferred
-  - type: expression
-    designation: Power point
-    normative_status: admitted
   definition:
   - content: An arrangement of electrical connections that can be made between moveable
       conductors and permanent wiring.
+  examples: []
   notes:
   - content: The French term prise (de courant) is often used for either of the component
       parts (6-8-195 and 6-8-200).
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Socket and plug connection
+  - type: expression
+    normative_status: admitted
+    designation: Power point
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Socket_and_plug_connection
+termid: 6-8-190
+id: 168861c4-f9ea-5b5f-be5d-18d64bcf3d70

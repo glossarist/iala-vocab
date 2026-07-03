@@ -1,69 +1,42 @@
 ---
-id: 2-2-265
 data:
   identifier: 2-2-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Stray_Light
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-2-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 2-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Stray_Light
+  type: authoritative
+status: valid
+id: 2-2-265
 ---
-id: 2-2-265-eng
-termid: 2-2-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Stray Light
-    normative_status: preferred
   definition:
   - content: Light issuing from a source or optical apparatus in undesired directions.
+  examples: []
   notes:
   - content: In the particular case when light is reflected by the lantern glazing
       (panes), the light is said to produce False Flashes.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Stray Light
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stray_Light
+termid: 2-2-265
+id: bd2b4f5d-8daa-5de6-8e11-6628df10f9a6

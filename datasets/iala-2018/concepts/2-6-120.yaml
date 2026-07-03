@@ -1,66 +1,40 @@
 ---
-id: 2-6-120
 data:
   identifier: 2-6-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Anchorage_Mark_(or_Buoy)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-6-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-6-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-6-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-6-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-6-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Anchorage_Mark_(or_Buoy)
+  type: authoritative
+status: valid
+id: 2-6-120
 ---
-id: 2-6-120-eng
-termid: 2-6-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Anchorage Mark (or Buoy)
-    normative_status: preferred
   definition:
   - content: A mark (or buoy) which indicates an anchorage area or defines its limits.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Anchorage Mark (or Buoy)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Anchorage_Mark_(or_Buoy)
+termid: 2-6-120
+id: f6f2ff55-6a3b-5396-a642-5918f97b764f

@@ -1,67 +1,41 @@
 ---
-id: 7-5-220
 data:
   identifier: 7-5-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bending
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bending
+  type: authoritative
+status: valid
+id: 7-5-220
 ---
-id: 7-5-220-eng
-termid: 7-5-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bending
-    normative_status: preferred
   definition:
   - content: A deflection of a structural member subjected to applied forces perpendicular
       to the member.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bending
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bending
+termid: 7-5-220
+id: c6fb138d-6858-5acf-9ddb-5f3bf715e513

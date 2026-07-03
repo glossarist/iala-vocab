@@ -1,52 +1,25 @@
 ---
-id: duty
 data:
   identifier: duty
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Duty
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: duty
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: duty
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: duty
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: duty
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: duty
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: duty
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Duty
+  type: authoritative
+status: valid
+id: duty
 ---
-id: duty-eng
-termid: duty
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Duty
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-12
@@ -56,10 +29,19 @@ data:
       Source: IALA Guideline 1045 (2005)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Duty
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Duty
+termid: duty
+id: 9e1b4cf2-a846-5a20-9209-c32a05da0af3

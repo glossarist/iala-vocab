@@ -1,69 +1,43 @@
 ---
-id: 6-3-300
 data:
   identifier: 6-3-300
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Thermoelectric_generator
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-300
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-300
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-300
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Thermoelectric_generator
+  type: authoritative
+status: valid
+id: 6-3-300
 ---
-id: 6-3-300-eng
-termid: 6-3-300
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Thermoelectric generator
-    normative_status: preferred
   definition:
   - content: |-
       Acronym: TEG
 
       A device used to convert heat into electric energy. It consists of a battery of thermocouples, i.e. a thermopile.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Thermoelectric generator
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Thermoelectric_generator
+termid: 6-3-300
+id: eace9f68-0ab0-5d22-b827-7f8b08ceee92

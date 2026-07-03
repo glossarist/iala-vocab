@@ -1,69 +1,43 @@
 ---
-id: 6-3-360
 data:
   identifier: 6-3-360
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-unknown
+  - concept_id: section-unknown
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Acetylene/es
 related:
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-360
-- type: related_concept
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-360
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Acetylene/es
+  type: authoritative
+status: valid
+id: 6-3-360
 ---
-id: 6-3-360-spa
-termid: 6-3-360
 data:
-  language_code: spa
-  terms:
-  - type: expression
-    designation: Acetylene/es
-    normative_status: preferred
   definition:
   - content: |-
       Acetileno
 
       Combustible de hidrocarburo, C2H2, gas incoloro y altamente inflamable a temperaturas  y presión atmosférica normales. Se utilizaba  como iluminante en señales luminosas con o sin capillo.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Acetylene/es
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acetylene/es
+termid: 6-3-360
+id: 4f7b4763-47c6-587b-8a00-4e3b64063f07

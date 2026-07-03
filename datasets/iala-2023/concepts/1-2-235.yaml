@@ -1,72 +1,46 @@
 ---
-id: 1-2-235
 data:
   identifier: 1-2-235
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bar
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-235
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 1-2-235
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bar
+  type: authoritative
+status: valid
+id: 1-2-235
 ---
-id: 1-2-235-eng
-termid: 1-2-235
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bar
-    normative_status: preferred
   definition:
   - content: A shoal across the mouth of a river, harbour or shipping channel that
       may at times obstruct navigation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.H.B
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bar
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bar
+termid: 1-2-235
+id: 3d01a866-9caa-59b9-805e-cae5b6f0fe68

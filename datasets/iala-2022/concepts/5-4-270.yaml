@@ -1,72 +1,46 @@
 ---
-id: 5-4-270
 data:
   identifier: 5-4-270
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Crossbar_switch
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-270
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 5-4-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-270
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Crossbar_switch
+  type: authoritative
+status: valid
+id: 5-4-270
 ---
-id: 5-4-270-eng
-termid: 5-4-270
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Crossbar switch
-    normative_status: preferred
   definition:
   - content: A switch having a plurality of vertical paths, a plurality of horizontal
       paths, and an electromagnetically operated means of interconnecting any one
       of the vertical paths with any one of the horizontal paths.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Crossbar switch
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Crossbar_switch
+termid: 5-4-270
+id: b8db0d1b-80a1-529a-b4e3-9f7f97869f58

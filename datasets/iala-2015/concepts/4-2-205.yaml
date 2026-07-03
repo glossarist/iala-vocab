@@ -1,71 +1,45 @@
 ---
-id: 4-2-205
 data:
   identifier: 4-2-205
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_calibration
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-205
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-2-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-205
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_calibration
+  type: authoritative
+status: valid
+id: 4-2-205
 ---
-id: 4-2-205-eng
-termid: 4-2-205
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bearing calibration
-    normative_status: preferred
-  - type: expression
-    designation: Bearing calibration (in direction finding)
-    normative_status: admitted
   definition:
   - content: The determination of bearing corrections by observations on a radio beacon
       station of known visual bearing, observations being taken over 360 degrees swing
       of the ship.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bearing calibration
+  - type: expression
+    normative_status: admitted
+    designation: Bearing calibration (in direction finding)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing_calibration
+termid: 4-2-205
+id: 78e8181e-18a2-5156-a3b3-e003c1dfb2e7

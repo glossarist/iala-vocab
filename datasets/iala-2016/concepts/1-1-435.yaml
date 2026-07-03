@@ -1,67 +1,41 @@
 ---
-id: 1-1-435
 data:
   identifier: 1-1-435
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pressure_reducing_valve
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-435
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 1-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-435
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pressure_reducing_valve
+  type: authoritative
+status: valid
+id: 1-1-435
 ---
-id: 1-1-435-eng
-termid: 1-1-435
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pressure reducing valve
-    normative_status: preferred
   definition:
   - content: A device used to reduce the pressure (or rate of flow) of a gas or vapour
       drawn from a storage system.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pressure reducing valve
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pressure_reducing_valve
+termid: 1-1-435
+id: 90e59453-6e64-5e99-a8b4-afbece566acc
