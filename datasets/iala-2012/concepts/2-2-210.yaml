@@ -1,60 +1,25 @@
 ---
-id: 2-2-210
 data:
   identifier: 2-2-210
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Diverting_Prism
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-2-210
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-210
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Diverting_Prism
+  type: authoritative
+status: valid
+id: 2-2-210
 ---
-id: 2-2-210-eng
-termid: 2-2-210
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Diverting Prism
-    normative_status: preferred
   definition:
   - content: |-
       A transparent optical element of prismatic section, having plane or curved faces, placed in the path of light from an optic, to produce a converged, diverged or diverted beam.
@@ -64,10 +29,19 @@ data:
       ![Ch2_Fig17.jpg](/iala-vocab/images/iala/Ch2_Fig17.jpg)
 
       ![Ch2_Fig18.jpg](/iala-vocab/images/iala/Ch2_Fig18.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Diverting Prism
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diverting_Prism
+termid: 2-2-210
+id: 44999026-d4ec-50ea-902e-699135ea1bfe

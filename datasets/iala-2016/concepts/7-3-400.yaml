@@ -1,69 +1,42 @@
 ---
-id: 7-3-400
 data:
   identifier: 7-3-400
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Corrosion
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-400
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-400
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-400
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Corrosion
+  type: authoritative
+status: valid
+id: 7-3-400
 ---
-id: 7-3-400-eng
-termid: 7-3-400
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Corrosion
-    normative_status: preferred
   definition:
   - content: The degradation of metal by electro-chemical action, usually oxidation.
+  examples: []
   notes:
   - content: For some metals initial surface oxidation may be beneficial in preventing
       further oxidation.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Corrosion
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Corrosion
+termid: 7-3-400
+id: 48d66b59-b97b-5432-a56b-fa75c80609da

@@ -1,66 +1,40 @@
 ---
-id: 7-2-235
 data:
   identifier: 7-2-235
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pipe
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-235
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 7-2-235
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pipe
+  type: authoritative
+status: valid
+id: 7-2-235
 ---
-id: 7-2-235-eng
-termid: 7-2-235
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pipe
-    normative_status: preferred
   definition:
   - content: A long hollow thin walled cylinder designed for the conveyance of fluids.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pipe
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pipe
+termid: 7-2-235
+id: 9ab5b45c-ddca-501a-9da9-1eed616bc6db

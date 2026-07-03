@@ -13,39 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Rotary_(air)_compressor
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-2-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-250
+related: []
 ---
 id: 6-2-250-eng
 termid: 6-2-250

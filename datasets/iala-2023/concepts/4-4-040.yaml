@@ -1,68 +1,42 @@
 ---
-id: 4-4-040
 data:
   identifier: 4-4-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lane
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-040
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-4-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lane
+  type: authoritative
+status: valid
+id: 4-4-040
 ---
-id: 4-4-040-eng
-termid: 4-4-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lane
-    normative_status: preferred
   definition:
   - content: In any CW phase comparison system, the distance between successive equiphase
       lines, taken as 0 degrees -360 degrees , in a system of hyperbolic or circular
       co-ordinates.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lane
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lane
+termid: 4-4-040
+id: b181766f-f6aa-5be6-afdb-97b8de0e6959

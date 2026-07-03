@@ -1,69 +1,43 @@
 ---
-id: 7-4-145
 data:
   identifier: 7-4-145
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Backwash_(GB)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-4-145
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-145
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Backwash_(GB)
+  type: authoritative
+status: valid
+id: 7-4-145
 ---
-id: 7-4-145-eng
-termid: 7-4-145
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Backwash (GB)
-    normative_status: preferred
-  - type: expression
-    designation: Backrush (USA)
-    normative_status: admitted
   definition:
   - content: The seaward return of water following an uprush of waves onto a beach.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Backwash (GB)
+  - type: expression
+    normative_status: admitted
+    designation: Backrush (USA)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Backwash_(GB)
+termid: 7-4-145
+id: 4adc3d37-b6e4-5f04-aaed-163acd82b4c5

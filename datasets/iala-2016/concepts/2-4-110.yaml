@@ -1,60 +1,25 @@
 ---
-id: 2-4-110
 data:
   identifier: 2-4-110
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Occulting_Hood
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-4-110
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-4-110
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Occulting_Hood
+  type: authoritative
+status: valid
+id: 2-4-110
 ---
-id: 2-4-110-eng
-termid: 2-4-110
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Occulting Hood
-    normative_status: preferred
   definition:
   - content: |-
       (Occulting) Hood
@@ -64,10 +29,19 @@ data:
       Most commonly used in occulting lights and in signalling projectors.
 
       ![Ch2_Fig35.jpg](/iala-vocab/images/iala/Ch2_Fig35.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Occulting Hood
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Occulting_Hood
+termid: 2-4-110
+id: 852a4d88-f5c6-5f07-839f-cee415dd44de

@@ -1,60 +1,25 @@
 ---
-id: 2-2-010
 data:
   identifier: 2-2-010
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lens
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-2-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-010
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lens
+  type: authoritative
+status: valid
+id: 2-2-010
 ---
-id: 2-2-010-eng
-termid: 2-2-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lens
-    normative_status: preferred
   definition:
   - content: A transparent optically refracting element, usually of glass or plastic,
       bounded by two rotationally-symmetrical surfaces having a common axis. These
@@ -62,10 +27,19 @@ data:
       forms. A lens is designed to have a focus {{2-1-125, Optical Focus}}.
   - content: Frequently used in a more general sense for an assembly of optical elements
       which have a common focus. For examples, see 2-2-085, 2-2-090, 2-2-100, 2-2-140,    2-2-150.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lens
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lens
+termid: 2-2-010
+id: 122a8fe5-0b17-58dd-8282-182974868f0b

@@ -1,69 +1,43 @@
 ---
-id: 7-5-380
 data:
   identifier: 7-5-380
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Building_contractor
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-380
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-5-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-380
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Building_contractor
+  type: authoritative
+status: valid
+id: 7-5-380
 ---
-id: 7-5-380-eng
-termid: 7-5-380
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Building contractor
-    normative_status: preferred
-  - type: expression
-    designation: Civil engineering contractor
-    normative_status: admitted
   definition:
   - content: A person or company that undertakes building or civil engineering works.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Building contractor
+  - type: expression
+    normative_status: admitted
+    designation: Civil engineering contractor
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Building_contractor
+termid: 7-5-380
+id: '096c7870-704c-5a0e-b842-3508a0ed006f'

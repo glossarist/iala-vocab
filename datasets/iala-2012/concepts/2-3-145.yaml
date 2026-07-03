@@ -1,79 +1,52 @@
 ---
-id: 2-3-145
 data:
   identifier: 2-3-145
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lampholder
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-145
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-145
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lampholder
+  type: authoritative
+status: valid
+id: 2-3-145
 ---
-id: 2-3-145-eng
-termid: 2-3-145
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lampholder
-    normative_status: preferred
-  - type: expression
-    designation: Socket
-    normative_status: admitted
   definition:
   - content: A device into which the cap of a lamp is inserted, for holding it in
       position and usually connecting it with the electric supply.
+  examples: []
   notes:
   - content: In English, when the context is clear, the abbreviation Holder is commonly
       used.
   - content: 'See Note: to 2-3-110.'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lampholder
+  - type: expression
+    normative_status: admitted
+    designation: Socket
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lampholder
+termid: 2-3-145
+id: e90f0dfe-cb43-5fb2-96b7-1fcf3ecbe3ba

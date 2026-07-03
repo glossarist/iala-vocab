@@ -1,52 +1,25 @@
 ---
-id: vts-personnel
 data:
   identifier: vts-personnel
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/VTS_Personnel
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: vts-personnel
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: vts-personnel
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vts-personnel
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vts-personnel
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: vts-personnel
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: vts-personnel
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/VTS_Personnel
+  type: authoritative
+status: valid
+id: vts-personnel
 ---
-id: vts-personnel-eng
-termid: vts-personnel
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: VTS Personnel
-    normative_status: preferred
   definition:
   - content: |-
       urn:mrn:iala:dic:0901048e
@@ -55,10 +28,19 @@ data:
 
       Source: IMO Resolution A.1158(32)
       IALA Guideline G1156 Recruitment, training and assessment of VTS Personnel
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: VTS Personnel
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_Personnel
+termid: vts-personnel
+id: a4fd8694-8350-5fdf-a08f-dee202bd8708

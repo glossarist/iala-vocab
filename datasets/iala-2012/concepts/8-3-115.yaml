@@ -1,69 +1,43 @@
 ---
-id: 8-3-115
 data:
   identifier: 8-3-115
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Windlass
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-3-115
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 8-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-3-115
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Windlass
+  type: authoritative
+status: valid
+id: 8-3-115
 ---
-id: 8-3-115-eng
-termid: 8-3-115
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Windlass
-    normative_status: preferred
   definition:
   - content: A special form of winch, fitted with clutched cable lifters for lifting
       and lowering the anchor. Drums or barrels may be fitted on the ends of the shafts,
       to permit handling of lines, for example for warping of the vessel alongside
       a quay.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Windlass
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Windlass
+termid: 8-3-115
+id: 768b0c49-b286-5d65-bc5a-b9a884e751d5

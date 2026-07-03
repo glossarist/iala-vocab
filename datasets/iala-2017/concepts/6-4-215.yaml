@@ -1,69 +1,42 @@
 ---
-id: 6-4-215
 data:
   identifier: 6-4-215
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Parallelling
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-4-215
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-215
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Parallelling
+  type: authoritative
+status: valid
+id: 6-4-215
 ---
-id: 6-4-215-eng
-termid: 6-4-215
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Parallelling
-    normative_status: preferred
   definition:
   - content: The process of making a suitable electrical connection between the outputs
       of two generators, or between a generator and another power source.
+  examples: []
   notes:
   - content: The use of the term with regard to synchronous generators is deprecated.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Parallelling
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Parallelling
+termid: 6-4-215
+id: fa572ea3-b81e-50be-8b8d-377088eee337

@@ -1,67 +1,41 @@
 ---
-id: 7-4-165
 data:
   identifier: 7-4-165
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Mean_sea_level
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-165
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-165
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Mean_sea_level
+  type: authoritative
+status: valid
+id: 7-4-165
 ---
-id: 7-4-165-eng
-termid: 7-4-165
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Mean sea level
-    normative_status: preferred
   definition:
   - content: A level of the sea surface calculated as a mean of high and low water
       levels of all tides over a long period.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mean sea level
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mean_sea_level
+termid: 7-4-165
+id: 23419369-cc7c-57a5-8c56-b3f7148ff157

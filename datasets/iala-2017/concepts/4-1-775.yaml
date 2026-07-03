@@ -1,60 +1,25 @@
 ---
-id: 4-1-775
 data:
   identifier: 4-1-775
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Automatic_gain_control
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-775
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-775
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-775
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-775
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 4-1-775
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-775
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-775
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-775
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Automatic_gain_control
+  type: authoritative
+status: valid
+id: 4-1-775
 ---
-id: 4-1-775-eng
-termid: 4-1-775
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Automatic gain control
-    normative_status: preferred
   definition:
   - content: |-
       Acronym: A.G.C.
@@ -62,10 +27,19 @@ data:
       Automatic volume control (deprecated)
 
       Circuits incorporated in the receiver and actuated by the received signal, which cause the gain of the receiver to vary substantially inversely as the magnitude of the radio-frequency input so as to maintain the output level substantially constant for a given modulation factor.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Automatic gain control
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Automatic_gain_control
+termid: 4-1-775
+id: 6731d30f-ee05-5a2d-9e89-c6c417784cdd

@@ -1,71 +1,31 @@
 ---
-id: 2-1-015
 data:
   identifier: 2-1-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Spectral_Luminous_Efficiency
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Spectral_Luminous_Efficiency
+  type: authoritative
+status: valid
+id: 2-1-015
 ---
-id: 2-1-015-eng
-termid: 2-1-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Spectral Luminous Efficiency
-    normative_status: preferred
-  - type: expression
-    designation: Spectral Luminous Efficiency (of a monochromatic radiation of wavelength ?)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[V(?)]
-    normative_status: preferred
   definition:
   - content: |-
       The ratio of the radiant flux at wavelength ?m to that at wavelength ?, such that both radiations produce equally intense luminous sensations under specified photometric conditions, and ?m is chosen so that the maximum value of this ratio is equal to 1.
 
       Unless otherwise indicated, the values used for the spectral luminous efficiency relate to photopic vision by the normal eye having the characteristics laid down by the
+  examples: []
   notes:
   - content: 'The complete definition given by the Reference: C.I.E. includes a table
       of spectral luminous efficiency, V(?), against wavelength for the photometric
@@ -73,19 +33,32 @@ data:
       luminous efficiency for scotopic vision, V''(?), is also given by the Reference:
       C.I.E.'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Spectral Luminous Efficiency
+  - type: expression
+    normative_status: admitted
+    designation: Spectral Luminous Efficiency (of a monochromatic radiation of wavelength ?)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[V(?)]
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spectral_Luminous_Efficiency
+termid: 2-1-015
+id: 33bf8946-5004-55cb-92a3-d87d0522a04d

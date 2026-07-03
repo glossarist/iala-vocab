@@ -1,67 +1,41 @@
 ---
-id: 7-4-020
 data:
   identifier: 7-4-020
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Beach
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-4-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-020
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-4-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-020
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-020
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Beach
+  type: authoritative
+status: valid
+id: 7-4-020
 ---
-id: 7-4-020-eng
-termid: 7-4-020
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Beach
-    normative_status: preferred
   definition:
   - content: A sloping area along the shore line above low water covered with loose
       deposits - e.g. sand or pebbles.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Beach
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Beach
+termid: 7-4-020
+id: 82b5ea3f-7dcd-5c36-9adb-eba38e4b8f2f

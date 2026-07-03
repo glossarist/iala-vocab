@@ -1,70 +1,43 @@
 ---
-id: 6-5-090
 data:
   identifier: 6-5-090
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Stationary_battery
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-5-090
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-5-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-5-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-5-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-5-090
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Stationary_battery
+  type: authoritative
+status: valid
+id: 6-5-090
 ---
-id: 6-5-090-eng
-termid: 6-5-090
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Stationary battery
-    normative_status: preferred
   definition:
   - content: A battery that is designed to be put at a fixed site and is not intended
       to be moved habitually from place to place during its life.
+  examples: []
   notes:
   - content: It is usually of large size and capacity and so designed as to be economical
       in construction and maintenance, and to have a long life.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Stationary battery
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Stationary_battery
+termid: 6-5-090
+id: 50213cea-c15a-5560-86b9-ce8ad03017b4

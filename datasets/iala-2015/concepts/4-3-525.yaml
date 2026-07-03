@@ -1,68 +1,42 @@
 ---
-id: 4-3-525
 data:
   identifier: 4-3-525
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radar_reflector
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-525
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-3-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-525
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radar_reflector
+  type: authoritative
+status: valid
+id: 4-3-525
 ---
-id: 4-3-525-eng
-termid: 4-3-525
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radar reflector
-    normative_status: preferred
   definition:
   - content: A device specially arranged to have the property of reflecting incident
       electromagnetic energy parallel to the direction of incidence to enhance the
       radar response.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radar reflector
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radar_reflector
+termid: 4-3-525
+id: 1ea6148e-a226-5750-b483-bf063af92a6f

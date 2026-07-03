@@ -1,71 +1,45 @@
 ---
-id: 4-3-145
 data:
   identifier: 4-3-145
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Chart_comparison_unit
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-145
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-145
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Chart_comparison_unit
+  type: authoritative
+status: valid
+id: 4-3-145
 ---
-id: 4-3-145-eng
-termid: 4-3-145
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Chart comparison unit
-    normative_status: preferred
   definition:
   - content: An optical device to enable a radar P.P.I. picture to appear superimposed
       on a navigational chart.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Chart comparison unit
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chart_comparison_unit
+termid: 4-3-145
+id: 846d75cd-2d3f-5d10-8d48-a8b749691480

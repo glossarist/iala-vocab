@@ -1,69 +1,43 @@
 ---
-id: ramark
 data:
   identifier: ramark
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ramark
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: ramark
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: ramark
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: ramark
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: ramark
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: ramark
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: ramark
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: ramark
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: ramark
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ramark
+  type: authoritative
+status: valid
+id: ramark
 ---
-id: ramark-eng
-termid: ramark
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ramark
-    normative_status: preferred
   definition:
   - content: |-
       4 3-450
 
       A non-directional continuously transmitting radar beacon designed to give an indication of bearing only, the signal extending from own ship's position to the edge of the radar screen and passing through the ramark target.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ramark
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ramark
+termid: ramark
+id: 7eec450e-d7db-5f68-b54d-1e82b312acc2

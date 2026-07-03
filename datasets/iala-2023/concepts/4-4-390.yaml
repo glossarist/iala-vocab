@@ -1,60 +1,25 @@
 ---
-id: 4-4-390
 data:
   identifier: 4-4-390
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Rana_system
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-390
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-4-390
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Rana_system
+  type: authoritative
+status: valid
+id: 4-4-390
 ---
-id: 4-4-390-eng
-termid: 4-4-390
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Rana system
-    normative_status: preferred
   definition:
   - content: |-
       A continuous wave phase comparison system which is used to determine the distances between a mobile receiving station and several fixed transmitting stations.
@@ -64,10 +29,19 @@ data:
       The slave station synchronises the waves resulting from the beating of the two waves transmitted simultaneously by the two transmitters.
 
       The frequency of the waves transmitted are chosen so that comparison of the phases of each pair of frequencies provides three hyperbolic networks which enable the receiving station to establish its position without ambiguity and with great precision.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rana system
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rana_system
+termid: 4-4-390
+id: 83ffda84-2c3d-5860-86e0-77194aaa3799

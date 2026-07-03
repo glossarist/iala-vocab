@@ -1,72 +1,46 @@
 ---
-id: 5-4-220
 data:
   identifier: 5-4-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Magnetic_amplifier
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 5-4-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Magnetic_amplifier
+  type: authoritative
+status: valid
+id: 5-4-220
 ---
-id: 5-4-220-eng
-termid: 5-4-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Magnetic amplifier
-    normative_status: preferred
   definition:
   - content: An electrical amplifier in which the amplification is produced by saturable
       reactors.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Magnetic amplifier
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Magnetic_amplifier
+termid: 5-4-220
+id: be0a644b-0474-5d11-8138-432a1e782321

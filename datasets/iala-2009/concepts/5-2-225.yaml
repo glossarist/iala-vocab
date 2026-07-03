@@ -1,63 +1,25 @@
 ---
-id: 5-2-225
 data:
   identifier: 5-2-225
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Set_value
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-2-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-225
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Set_value
+  type: authoritative
+status: valid
+id: 5-2-225
 ---
-id: 5-2-225-eng
-termid: 5-2-225
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Set value
-    normative_status: preferred
-  - type: expression
-    designation: Set point (U.S.A.)
-    normative_status: admitted
   definition:
   - content: |-
       The value chosen under prescribed conditions for the purpose of adjusting the controller. If the system has no offset, the set value is identical with the desired value.
@@ -65,15 +27,27 @@ data:
       ![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)
 
       Figure 3 - Typical time response of a system to a step increase of input.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Set value
+  - type: expression
+    normative_status: admitted
+    designation: Set point (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Set_value
+termid: 5-2-225
+id: 8e55cacd-f3f8-5746-a2a9-e7b1a08d5deb

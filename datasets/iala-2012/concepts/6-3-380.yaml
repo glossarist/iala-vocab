@@ -1,67 +1,41 @@
 ---
-id: 6-3-380
 data:
   identifier: 6-3-380
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Oxidation
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-380
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 6-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-380
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Oxidation
+  type: authoritative
+status: valid
+id: 6-3-380
 ---
-id: 6-3-380-eng
-termid: 6-3-380
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Oxidation
-    normative_status: preferred
   definition:
   - content: The combination of oxygen with a fuel to enable burning or a chemical
       reaction to take place, for the production of energy.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Oxidation
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oxidation
+termid: 6-3-380
+id: 2c35827c-5cd0-58b1-b8de-1181ee28cdfd

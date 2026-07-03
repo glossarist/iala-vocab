@@ -1,65 +1,43 @@
 ---
-id: international-terrestrial-reference-frame-itrf-
 data:
   identifier: international-terrestrial-reference-frame-itrf-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/International_Terrestrial_Reference_Frame_(ITRF)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: international-terrestrial-reference-frame-itrf-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: international-terrestrial-reference-frame-itrf-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: international-terrestrial-reference-frame-itrf-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: international-terrestrial-reference-frame-itrf-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: international-terrestrial-reference-frame-itrf-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: international-terrestrial-reference-frame-itrf-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: international-terrestrial-reference-frame-itrf-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/International_Terrestrial_Reference_Frame_(ITRF)
+  type: authoritative
+status: valid
+id: international-terrestrial-reference-frame-itrf-
 ---
-id: international-terrestrial-reference-frame-itrf--eng
-termid: international-terrestrial-reference-frame-itrf-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: International Terrestrial Reference Frame (ITRF)
-    normative_status: preferred
   definition:
   - content: |-
       A realisation of the International Terrestrial Reference System (ITRS) - a world spatial reference system with its origin at the centre of the Earth. Numbers following the designation ITRF specify the last year from which data was used in the datum definition e.g. ITRF 97. A GNSS or other radio-navigation system may be referenced to a specific ITRF designation so that it can be precisely related to the physical world.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: International Terrestrial Reference Frame (ITRF)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/International_Terrestrial_Reference_Frame_(ITRF)
+termid: international-terrestrial-reference-frame-itrf-
+id: 7614622b-03b7-58a3-bb09-3d51e8289d6f

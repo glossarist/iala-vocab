@@ -1,71 +1,45 @@
 ---
-id: 2-1-350
 data:
   identifier: 2-1-350
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bezold-Briicke_Phenomenon
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-350
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-350
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-1-350
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bezold-Briicke_Phenomenon
+  type: authoritative
+status: valid
+id: 2-1-350
 ---
-id: 2-1-350-eng
-termid: 2-1-350
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bezold-Briicke Phenomenon
-    normative_status: preferred
   definition:
   - content: Change in the hue of the (perceived) colour with change in luminance
       level within the range of photopic vision.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bezold-Briicke Phenomenon
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bezold-Briicke_Phenomenon
+termid: 2-1-350
+id: 5a0cf8a0-661e-56e6-951f-b99f188d6c6a

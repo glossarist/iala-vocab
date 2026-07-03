@@ -13,31 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Stakeholder(s)
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: stakeholder-s-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: stakeholder-s-
+related: []
 ---
 id: stakeholder-s--eng
 termid: stakeholder-s-

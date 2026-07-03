@@ -1,52 +1,25 @@
 ---
-id: watchkeeping
 data:
   identifier: watchkeeping
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Watchkeeping
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: watchkeeping
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: watchkeeping
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: watchkeeping
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: watchkeeping
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: watchkeeping
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: watchkeeping
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Watchkeeping
+  type: authoritative
+status: valid
+id: watchkeeping
 ---
-id: watchkeeping-eng
-termid: watchkeeping
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Watchkeeping
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-56
@@ -58,10 +31,19 @@ data:
       Source: IALA Guideline 1045 (2005)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Watchkeeping
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Watchkeeping
+termid: watchkeeping
+id: 0fc4f819-07c2-5f88-94ab-fa4aaaa4cb18

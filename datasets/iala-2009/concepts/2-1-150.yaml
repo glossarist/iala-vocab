@@ -1,63 +1,25 @@
 ---
-id: 2-1-150
 data:
   identifier: 2-1-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reflectance
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 2-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reflectance
+  type: authoritative
+status: valid
+id: 2-1-150
 ---
-id: 2-1-150-eng
-termid: 2-1-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reflectance
-    normative_status: preferred
-  - type: expression
-    designation: Reflection Factor
-    normative_status: admitted
   definition:
   - content: |-
       The ratio of the reflected luminous flux (Fr) to the incident flux (Fo).
@@ -65,19 +27,30 @@ data:
       Symbol: ?
 
       ? = ?r + ?d
+  examples: []
   notes:
   - content: Where mixed reflection occurs, the (total) reflectance may be divided
       into two parts, Specular Reflectance (?r) and Diffuse Reflectance (?d), corresponding
       respectively to the two modes of reflection referred to in 2-1-135 and 2-1-140.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reflectance
+  - type: expression
+    normative_status: admitted
+    designation: Reflection Factor
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reflectance
+termid: 2-1-150
+id: 4bbba808-85a9-513d-b38d-bf2ac45fcdb6

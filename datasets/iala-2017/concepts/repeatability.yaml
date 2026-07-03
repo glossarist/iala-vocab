@@ -1,65 +1,43 @@
 ---
-id: repeatability
 data:
   identifier: repeatability
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Repeatability
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: repeatability
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: repeatability
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: repeatability
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: repeatability
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: repeatability
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: repeatability
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: repeatability
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Repeatability
+  type: authoritative
+status: valid
+id: repeatability
 ---
-id: repeatability-eng
-termid: repeatability
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Repeatability
-    normative_status: preferred
   definition:
   - content: |-
       The accuracy of a positioning system, taking into account only the random errors. Repeatability is normally expressed in a 95% probability circle.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Repeatability
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Repeatability
+termid: repeatability
+id: 70de7a58-2a44-5e03-9d21-42c790c88c1d

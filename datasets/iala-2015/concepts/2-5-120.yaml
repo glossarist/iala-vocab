@@ -1,66 +1,40 @@
 ---
-id: 2-5-120
 data:
   identifier: 2-5-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Synchronous_Lights
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-5-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-5-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Synchronous_Lights
+  type: authoritative
+status: valid
+id: 2-5-120
 ---
-id: 2-5-120-eng
-termid: 2-5-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Synchronous Lights
-    normative_status: preferred
   definition:
   - content: Two or more lights the characters of which are in synchronism.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Synchronous Lights
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Synchronous_Lights
+termid: 2-5-120
+id: dc2a5ad8-d993-5ab8-983c-ca42a2c5a336

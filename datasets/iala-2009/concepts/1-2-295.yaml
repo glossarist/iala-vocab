@@ -1,72 +1,45 @@
 ---
-id: 1-2-295
 data:
   identifier: 1-2-295
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Wet_Dock
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 1-2-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-2-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-295
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Wet_Dock
+  type: authoritative
+status: valid
+id: 1-2-295
 ---
-id: 1-2-295-eng
-termid: 1-2-295
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Wet Dock
-    normative_status: preferred
   definition:
   - content: |-
       (Wet) Dock
 
       Harbour or basin which is closed against the tidal range and which provides cargo-handling facilities for ships.
+  examples: []
   notes:
   - content: In the U.S.A. the space between two piers which is not closed against
       the tidal range is also called a dock.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wet Dock
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wet_Dock
+termid: 1-2-295
+id: 740faa9d-b6ab-5a58-8528-27544e0929b2

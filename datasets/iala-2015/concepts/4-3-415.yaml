@@ -1,71 +1,45 @@
 ---
-id: 4-3-415
 data:
   identifier: 4-3-415
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radar_beacon
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-415
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-415
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radar_beacon
+  type: authoritative
+status: valid
+id: 4-3-415
 ---
-id: 4-3-415-eng
-termid: 4-3-415
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radar beacon
-    normative_status: preferred
   definition:
   - content: A device whose radiations enable a craft to determine its own direction
       or position relative to the beacon by means of its own radar equipment.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radar beacon
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radar_beacon
+termid: 4-3-415
+id: 2ee101e0-950e-5f4f-ac27-b207d514a10f

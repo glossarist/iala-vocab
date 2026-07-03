@@ -13,31 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Ship_Domain
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: ship-domain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: ship-domain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: ship-domain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: ship-domain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: ship-domain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: ship-domain
+related: []
 ---
 id: ship-domain-eng
 termid: ship-domain

@@ -1,81 +1,73 @@
 ---
-id: 2-3-055
 data:
   identifier: 2-3-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-055
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-055
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-055
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp
+  type: authoritative
+status: valid
+id: 2-3-055
 ---
-id: 2-3-055-eng
-termid: 2-3-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Oil Lamp
-    normative_status: preferred
   definition:
   - content: |-
       An assembly consisting of a reservoir containing liquid fuel (usually paraffin oil) and a wick producing a flame.
 
       ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Oil Lamp
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp
----
-id: 2-3-055-spa
 termid: 2-3-055
+id: 0312ffd7-279b-5c45-88d5-0df8231ac312
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Lámpara de aceite
+
+      Conjunto que consiste en un depósito que contiene combustible líquido (generalmente aceite de parafina) y una mecha que produce una llama.
+
+      ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Oil Lamp/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp/es
+termid: 2-3-055
+id: 967cbe78-e262-57e2-a288-e4ebb452bc99
+---
+data:
   definition:
   - content: |-
       Lámpara de aceite
@@ -83,33 +75,19 @@ data:
       Conjunto que consiste en un depósito que contiene combustible líquido (generalmente aceite de parafina) y una mecha que produce una llama.
 
       ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp/es
----
-id: 2-3-055-spa
-termid: 2-3-055
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 2-3-055
     normative_status: preferred
-  definition:
-  - content: |-
-      Lámpara de aceite
-
-      Conjunto que consiste en un depósito que contiene combustible líquido (generalmente aceite de parafina) y una mecha que produce una llama.
-
-      ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 2-3-055
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp/es
+termid: 2-3-055
+id: 5edbdef6-0606-5c3d-999e-7b826c5f19e6

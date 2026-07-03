@@ -1,73 +1,47 @@
 ---
-id: 1-2-090
 data:
   identifier: 1-2-090
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Nautical_mile
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 1-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-090
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Nautical_mile
+  type: authoritative
+status: valid
+id: 1-2-090
 ---
-id: 1-2-090-eng
-termid: 1-2-090
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Nautical mile
-    normative_status: preferred
   definition:
   - content: The international nautical mile is 1852 m (or 6076 feet) (International
       agreement at the I.H.B. Conference of 1929).
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.H.B
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nautical mile
+  language_code: eng
   annotations:
   - content: Unit of linear measure chiefly used at sea. It is approximately one minute
       of latitude.
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Nautical_mile
+termid: 1-2-090
+id: d5f86f0f-0db7-5d45-98ab-70c9d2bddf85

@@ -1,71 +1,45 @@
 ---
-id: 5-2-325
 data:
   identifier: 5-2-325
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Control_range
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-325
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 5-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-325
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Control_range
+  type: authoritative
+status: valid
+id: 5-2-325
 ---
-id: 5-2-325-eng
-termid: 5-2-325
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Control range
-    normative_status: preferred
   definition:
   - content: The interval between the specified limits of the controlled variable
       under normal operating conditions.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Control range
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Control_range
+termid: 5-2-325
+id: b63432ff-5bbf-519b-b214-0fb4649d8fe9

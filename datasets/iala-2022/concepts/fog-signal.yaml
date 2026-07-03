@@ -1,40 +1,25 @@
 ---
-id: fog-signal
 data:
   identifier: fog-signal
   domains:
-  - source: urn:iala:dictionary:iala-2017
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-2017
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Fog_signal
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: fog-signal
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: fog-signal
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: fog-signal
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Fog_signal
+  type: authoritative
+status: valid
+id: fog-signal
 ---
-id: fog-signal-eng
-termid: fog-signal
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Fog signal
-    normative_status: preferred
   definition:
   - content: |-
       3-1 -030
@@ -44,22 +29,24 @@ data:
       Also called Audible Signal or Sound Signal.
 
       Source: IALA Guideline G1090 on The Use of Audible Signals Edition 1 December 2012.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal
----
-id: fog-signal-fra
-termid: fog-signal
-data:
-  language_code: fra
+    type: authoritative
   terms:
   - type: expression
-    designation: 3-1 -030
     normative_status: preferred
+    designation: Fog signal
+  language_code: eng
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal
+termid: fog-signal
+id: 16487f62-7f3c-50cf-9a5b-e181cefdfec8
+---
+data:
   definition:
   - content: |-
       Signal de brume
@@ -71,22 +58,24 @@ data:
       Egalement appelé signal sonore.
 
       Source: IALA Guideline G1090 on The Use of Audible Signals Edition 1 December 2012.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal/fr
----
-id: fog-signal-spa
-termid: fog-signal
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 3-1 -030
     normative_status: preferred
+    designation: 3-1 -030
+  language_code: fra
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal/fr
+termid: fog-signal
+id: b076bda5-9bb6-595b-b94b-27071cb0de7c
+---
+data:
   definition:
   - content: |-
       Señal de niebla
@@ -98,10 +87,19 @@ data:
       También llamada Señal Audible o Señal Sonora.
 
       Source: IALA Guideline G1090 on The Use of Audible Signals Edition 1 December 2012.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: 3-1 -030
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal/es
+termid: fog-signal
+id: 41ce602d-7ed5-595b-b11b-b863e423dbaf

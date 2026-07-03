@@ -1,67 +1,41 @@
 ---
-id: 7-6-165
 data:
   identifier: 7-6-165
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Vibratory_pile_driving
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-165
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-6-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-165
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Vibratory_pile_driving
+  type: authoritative
+status: valid
+id: 7-6-165
 ---
-id: 7-6-165-eng
-termid: 7-6-165
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Vibratory pile driving
-    normative_status: preferred
   definition:
   - content: The forcing of piles into the ground by means of mechanical vibration
       applied under steady load.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vibratory pile driving
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vibratory_pile_driving
+termid: 7-6-165
+id: 888d45cb-ba46-508e-b521-4cffa8459e49

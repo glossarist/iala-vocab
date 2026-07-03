@@ -1,72 +1,45 @@
 ---
-id: 4-4-265
 data:
   identifier: 4-4-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Omega_Antipodal_effects
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-4-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Omega_Antipodal_effects
+  type: authoritative
+status: valid
+id: 4-4-265
 ---
-id: 4-4-265-eng
-termid: 4-4-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Omega Antipodal effects
-    normative_status: preferred
   definition:
   - content: |-
       Antipodal effects (in Omega)
 
       Errors introduced due to the reception of a signal from both directions round the earth.
+  examples: []
   notes:
   - content: Due to the long range characteristic of the system, however, signals
       from other stations, suitably paired, should be available.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Omega Antipodal effects
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Omega_Antipodal_effects
+termid: 4-4-265
+id: e96c51f0-a751-5bfa-bcec-d25a4d7aaf9b

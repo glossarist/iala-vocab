@@ -1,71 +1,45 @@
 ---
-id: 5-3-335
 data:
   identifier: 5-3-335
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Data
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-335
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 5-3-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-335
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Data
+  type: authoritative
+status: valid
+id: 5-3-335
 ---
-id: 5-3-335-eng
-termid: 5-3-335
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Data
-    normative_status: preferred
   definition:
   - content: Any representations such as characters or analogue quantities to which
       meaning might be assigned.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Data
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Data
+termid: 5-3-335
+id: 4d6466c8-cb4b-559d-b228-5f83f38f3ad1

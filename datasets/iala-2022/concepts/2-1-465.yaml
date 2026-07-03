@@ -1,71 +1,45 @@
 ---
-id: 2-1-465
 data:
   identifier: 2-1-465
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Colorimetry
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-465
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-465
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-465
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-465
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-465
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-465
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-1-465
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-465
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Colorimetry
+  type: authoritative
+status: valid
+id: 2-1-465
 ---
-id: 2-1-465-eng
-termid: 2-1-465
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Colorimetry
-    normative_status: preferred
   definition:
   - content: The measurement of colours, made possible by the properties of the eye
       and based on a set of conventions.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E. (extract)
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Colorimetry
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Colorimetry
+termid: 2-1-465
+id: fa7137d6-3a9c-5a1f-a739-b66d7047bf23

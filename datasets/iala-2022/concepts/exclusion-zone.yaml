@@ -1,52 +1,25 @@
 ---
-id: exclusion-zone
 data:
   identifier: exclusion-zone
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Exclusion_Zone
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: exclusion-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: exclusion-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: exclusion-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: exclusion-zone
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: exclusion-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: exclusion-zone
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Exclusion_Zone
+  type: authoritative
+status: valid
+id: exclusion-zone
 ---
-id: exclusion-zone-eng
-termid: exclusion-zone
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Exclusion Zone
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-13
@@ -56,10 +29,19 @@ data:
       The size and shape of the area may vary depending on the risks involved.
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Exclusion Zone
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Exclusion_Zone
+termid: exclusion-zone
+id: 946debf6-0f47-56da-88ea-7f8eaf066ce8

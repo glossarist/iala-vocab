@@ -1,73 +1,47 @@
 ---
-id: 4-1-370
 data:
   identifier: 4-1-370
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radiation_pattern
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-370
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-370
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radiation_pattern
+  type: authoritative
+status: valid
+id: 4-1-370
 ---
-id: 4-1-370-eng
-termid: 4-1-370
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radiation pattern
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: (Antenna) Power gain, (Antenna) Radiation pattern
 
       A curve representing, in polar or cartesian co-ordinates, a quantity proportional to the gain of an antenna in the various directions in a particular plane or cone.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.T.U
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radiation pattern
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radiation_pattern
+termid: 4-1-370
+id: 30617a50-07d4-5555-9f47-baf9d758cac8

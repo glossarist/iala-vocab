@@ -1,78 +1,52 @@
 ---
-id: 2-1-460
 data:
   identifier: 2-1-460
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Complementary_Wavelength
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-460
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-460
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-460
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-460
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-460
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-1-460
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-460
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-460
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Complementary_Wavelength
+  type: authoritative
+status: valid
+id: 2-1-460
 ---
-id: 2-1-460-eng
-termid: 2-1-460
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Complementary Wavelength
-    normative_status: preferred
-  - type: expression
-    designation: Complementary Wavelength (of a colour stimulus)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[?c]
-    normative_status: preferred
   definition:
   - content: Wavelength of the monochromatic light stimulus that, when combined in
       suitable proportions with the colour stimulus considered, yields a match with
       the specified achromatic light stimulus.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Complementary Wavelength
+  - type: expression
+    normative_status: admitted
+    designation: Complementary Wavelength (of a colour stimulus)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[?c]
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Complementary_Wavelength
+termid: 2-1-460
+id: 42465f22-f5cf-5190-b706-f5bee6f96fc7

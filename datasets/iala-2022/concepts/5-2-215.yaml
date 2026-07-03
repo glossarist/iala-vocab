@@ -1,71 +1,45 @@
 ---
-id: 5-2-215
 data:
   identifier: 5-2-215
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Instantaneous_value_(2)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-215
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 5-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-215
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Instantaneous_value_(2)
+  type: authoritative
+status: valid
+id: 5-2-215
 ---
-id: 5-2-215-eng
-termid: 5-2-215
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Instantaneous value (2)
-    normative_status: preferred
   definition:
   - content: The value of a variable quantity at the instant under consideration.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Instantaneous value (2)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Instantaneous_value_(2)
+termid: 5-2-215
+id: 6aa7008c-d857-5cc9-bae9-0027ac5ce122

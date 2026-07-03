@@ -1,71 +1,45 @@
 ---
-id: 2-1-430
 data:
   identifier: 2-1-430
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Discomfort_Glare
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-430
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-430
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-1-430
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Discomfort_Glare
+  type: authoritative
+status: valid
+id: 2-1-430
 ---
-id: 2-1-430-eng
-termid: 2-1-430
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Discomfort Glare
-    normative_status: preferred
   definition:
   - content: Glare which causes discomfort without necessarily impairing the vision
       of objects.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Discomfort Glare
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Discomfort_Glare
+termid: 2-1-430
+id: e97cd029-c99a-506d-bd38-006141abf473

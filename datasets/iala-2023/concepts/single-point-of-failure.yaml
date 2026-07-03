@@ -1,65 +1,43 @@
 ---
-id: single-point-of-failure
 data:
   identifier: single-point-of-failure
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Single_point_of_failure
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: single-point-of-failure
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: single-point-of-failure
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: single-point-of-failure
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: single-point-of-failure
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: single-point-of-failure
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: single-point-of-failure
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: single-point-of-failure
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Single_point_of_failure
+  type: authoritative
+status: valid
+id: single-point-of-failure
 ---
-id: single-point-of-failure-eng
-termid: single-point-of-failure
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Single point of failure
-    normative_status: preferred
   definition:
   - content: |-
       That part of a navigation system that lacks redundancy, so that a failure in that part would result in a failure of the whole system.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Single point of failure
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Single_point_of_failure
+termid: single-point-of-failure
+id: bbec7b69-1398-5031-9a1d-85f0e3e881e9

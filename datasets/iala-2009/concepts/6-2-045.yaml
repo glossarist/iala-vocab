@@ -1,60 +1,25 @@
 ---
-id: 6-2-045
 data:
   identifier: 6-2-045
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Two-stroke_engine
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 6-2-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-2-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-045
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Two-stroke_engine
+  type: authoritative
+status: valid
+id: 6-2-045
 ---
-id: 6-2-045-eng
-termid: 6-2-045
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Two-stroke engine
-    normative_status: preferred
   definition:
   - content: |-
       An internal combustion engine in which the working cycle is completed in two strokes of the piston (i.e. in one revolution of the crankshaft).
@@ -66,13 +31,21 @@ data:
       - intake of air and compression in diesel engines
 
       - admission of mixture and compression in petrol engines
+  examples: []
   notes:
   - content: The downstroke of the piston corresponds to
   - content: The upstroke of the piston corresponds to
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Two-stroke engine
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Two-stroke_engine
+termid: 6-2-045
+id: 71f29fb9-afc0-58bd-93a9-fd3fc56efe26

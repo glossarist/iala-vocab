@@ -1,68 +1,42 @@
 ---
-id: 6-5-065
 data:
   identifier: 6-5-065
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Nickel-iron_cell
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 6-5-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-5-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-5-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-5-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-5-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-5-065
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Nickel-iron_cell
+  type: authoritative
+status: valid
+id: 6-5-065
 ---
-id: 6-5-065-eng
-termid: 6-5-065
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Nickel-iron cell
-    normative_status: preferred
   definition:
   - content: A secondary cell in which the electrolyte is potassium hydroxide, the
       positive electrode is nickel oxide and the negative electrode contains iron
       oxide.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Nickel-iron cell
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Nickel-iron_cell
+termid: 6-5-065
+id: e89118fa-ea55-5715-be1a-e339f23c2b22

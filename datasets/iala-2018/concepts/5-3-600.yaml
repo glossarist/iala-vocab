@@ -1,66 +1,29 @@
 ---
-id: 5-3-600
 data:
   identifier: 5-3-600
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Telemetry
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-600
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-3-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-600
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Telemetry
+  type: authoritative
+status: valid
+id: 5-3-600
 ---
-id: 5-3-600-eng
-termid: 5-3-600
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Telemetry
-    normative_status: preferred
-  - type: expression
-    designation: Telemetering
-    normative_status: admitted
   definition:
   - content: Measurement with the aid of intermediate means which permit the measurement
       to be interpreted at a distance from the primary detector.
+  examples: []
   notes:
   - content: The distinctive feature of telemetering is the nature of the translating
       means, which includes the provisions for converting the quantity to be measured
@@ -68,14 +31,24 @@ data:
       for measurement at a distance.
   - content: In normal French usage "telemetrie" means remote measurement of length.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.E.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Telemetry
+  - type: expression
+    normative_status: admitted
+    designation: Telemetering
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Telemetry
+termid: 5-3-600
+id: f90cc074-5161-5c1d-92af-57c676b1afe3

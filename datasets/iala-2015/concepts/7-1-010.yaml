@@ -1,73 +1,46 @@
 ---
-id: 7-1-010
 data:
   identifier: 7-1-010
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Shore_station
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-1-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-1-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-1-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Shore_station
+  type: authoritative
+status: valid
+id: 7-1-010
 ---
-id: 7-1-010-eng
-termid: 7-1-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Shore station
-    normative_status: preferred
-  - type: expression
-    designation: Land station
-    normative_status: admitted
   definition:
   - content: An aid to navigation station founded on or close to the coast, emitting
       signals that can provide navigational information to vessels in the vicinity.
+  examples: []
   notes:
   - content: The station may also be defined in terms of its principal aid to navigation,
       e.g. light station, fog signal station.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Shore station
+  - type: expression
+    normative_status: admitted
+    designation: Land station
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shore_station
+termid: 7-1-010
+id: a7f8c39f-9f5f-533d-beb9-307bd7e46b9c

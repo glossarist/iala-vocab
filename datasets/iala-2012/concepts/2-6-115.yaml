@@ -1,73 +1,46 @@
 ---
-id: 2-6-115
 data:
   identifier: 2-6-115
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Leading_Marks_(G.B.)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-115
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-6-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-6-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-6-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-6-115
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Leading_Marks_(G.B.)
+  type: authoritative
+status: valid
+id: 2-6-115
 ---
-id: 2-6-115-eng
-termid: 2-6-115
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Leading Marks (G.B.)
-    normative_status: preferred
-  - type: expression
-    designation: Range Marks (U.S.A.)
-    normative_status: admitted
   definition:
   - content: Navigation marks used as components of a leading-line or range.
+  examples: []
   notes:
   - content: The German term Richtbaken applies only to unlighted  leading marks.
       Where lights are used, the term Richtfeuer {{2-5-245, Leading Lights (G.B.)}}
       applies.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Leading Marks (G.B.)
+  - type: expression
+    normative_status: admitted
+    designation: Range Marks (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Leading_Marks_(G.B.)
+termid: 2-6-115
+id: 9bd4e9bd-8f7b-58d4-a7d3-b2e53f62bb1e

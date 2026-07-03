@@ -1,71 +1,44 @@
 ---
-id: 2-3-220
 data:
   identifier: 2-3-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bunch_Filament_(G.B.)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bunch_Filament_(G.B.)
+  type: authoritative
+status: valid
+id: 2-3-220
 ---
-id: 2-3-220-eng
-termid: 2-3-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bunch Filament (G.B.)
-    normative_status: preferred
   definition:
   - content: |-
       A filament (usually of multi-vee formation) in the form of a segment of a hollow truncated cone or hollow cylinder, generated around the axis of the lamp and embracing an arc of a circle greater than 180 degrees but not fully closed.
 
       ![Ch2_Fig31.jpg](/iala-vocab/images/iala/Ch2_Fig31.jpg)
+  examples: []
   notes:
   - content: For the French and German terms applicable, see 2-3-210 and 2-3-215.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bunch Filament (G.B.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bunch_Filament_(G.B.)
+termid: 2-3-220
+id: bc9ddae3-20c9-5232-96b1-68ea50d89e96

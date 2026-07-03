@@ -1,67 +1,41 @@
 ---
-id: 7-2-410
 data:
   identifier: 7-2-410
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cornice
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-410
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-2-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-410
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cornice
+  type: authoritative
+status: valid
+id: 7-2-410
 ---
-id: 7-2-410-eng
-termid: 7-2-410
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cornice
-    normative_status: preferred
   definition:
   - content: A moulding at the junction of an inside wall and a ceiling, or at the
       top of an outside wall.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cornice
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cornice
+termid: 7-2-410
+id: 672b8b44-88fa-53b7-bea3-871de03c23f1

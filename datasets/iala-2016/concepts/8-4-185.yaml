@@ -1,112 +1,90 @@
 ---
-id: 8-4-185
 data:
   identifier: 8-4-185
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reserve_buoyancy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-185
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 8-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-185
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-185
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-185
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reserve_buoyancy
+  type: authoritative
+status: valid
+id: 8-4-185
 ---
-id: 8-4-185-eng
-termid: 8-4-185
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reserve buoyancy
-    normative_status: preferred
   definition:
   - content: The watertight volume of a vessel above the designed waterline, expressed
       as a percentage of the total buoyancy (volume). It is an indication of the seaworthiness
       of the vessel.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reserve buoyancy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reserve_buoyancy
----
-id: 8-4-185-spa
 termid: 8-4-185
+id: 997810a1-5d06-5b76-9bf6-fdea1d634abb
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Reserva de flotabilidad
+
+      Volumen hermético de un barco por encima de la línea de flotación diseñada , expresado como un porcentaje de la flotabilidad total (volumen). Es una indicación de la navegabilidad de la embarcación
+      .
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Reserve buoyancy/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reserve_buoyancy/es
+termid: 8-4-185
+id: 90e5a2ba-3e2b-5d88-914c-0eae463a43bc
+---
+data:
   definition:
   - content: |-
       Reserva de flotabilidad
 
       Volumen hermético de un barco por encima de la línea de flotación diseñada , expresado como un porcentaje de la flotabilidad total (volumen). Es una indicación de la navegabilidad de la embarcación
       .
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reserve_buoyancy/es
----
-id: 8-4-185-spa
-termid: 8-4-185
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 8-4-185
     normative_status: preferred
-  definition:
-  - content: |-
-      Reserva de flotabilidad
-
-      Volumen hermético de un barco por encima de la línea de flotación diseñada , expresado como un porcentaje de la flotabilidad total (volumen). Es una indicación de la navegabilidad de la embarcación
-      .
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 8-4-185
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reserve_buoyancy/es
+termid: 8-4-185
+id: 0e9e98fa-317c-56c6-a810-5aa190907181

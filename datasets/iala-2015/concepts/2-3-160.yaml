@@ -1,71 +1,44 @@
 ---
-id: 2-3-160
 data:
   identifier: 2-3-160
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Tungsten-Halogen_Lamp
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-160
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-3-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-160
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Tungsten-Halogen_Lamp
+  type: authoritative
+status: valid
+id: 2-3-160
 ---
-id: 2-3-160-eng
-termid: 2-3-160
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Tungsten-Halogen Lamp
-    normative_status: preferred
   definition:
   - content: |-
       An incandescent lamp with a gas filling to which a certain proportion of a halogen has been added in order to minimise blackening of the envelope by returning evaporated tungsten to the filament.
 
       It is usually characterised by exceptionally small size in relation to the high luminous intensities which can be obtained.
+  examples: []
   notes:
   - content: The Tungsten-Iodine Lamp or Quartz-Iodine Lamp belongs to this category.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tungsten-Halogen Lamp
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tungsten-Halogen_Lamp
+termid: 2-3-160
+id: 8db3fad5-3f45-51f9-b8ee-f9af89640a56

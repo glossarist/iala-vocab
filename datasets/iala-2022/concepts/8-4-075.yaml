@@ -1,60 +1,25 @@
 ---
-id: 8-4-075
 data:
   identifier: 8-4-075
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-unknown
+  - concept_id: section-unknown
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)/es
 related:
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-075
-- type: related_concept
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 8-4-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-075
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)/es
+  type: authoritative
+status: valid
+id: 8-4-075
 ---
-id: 8-4-075-spa
-termid: 8-4-075
 data:
-  language_code: spa
-  terms:
-  - type: expression
-    designation: Superstructure (of a buoy)/es
-    normative_status: preferred
   definition:
   - content: |-
       Superestructura (de una boya)
@@ -71,10 +36,19 @@ data:
       Los términos soporte de linterna y poste de linterna (EE. UU.) Se refieren a la parte de la superestructura de la boya que proporciona soporte directo a la luz de la boya y, posiblemente, también al topmark y al reflector de radar.
 
       El término francés support de lanterne tiene el mismo significado.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Superstructure (of a buoy)/es
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)/es
+termid: 8-4-075
+id: c20d6956-8d1f-5636-a0fc-105d8691c948

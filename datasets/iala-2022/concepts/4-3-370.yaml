@@ -1,74 +1,48 @@
 ---
-id: 4-3-370
 data:
   identifier: 4-3-370
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ground_wave_suppression
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-370
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-3-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-370
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ground_wave_suppression
+  type: authoritative
+status: valid
+id: 4-3-370
 ---
-id: 4-3-370-eng
-termid: 4-3-370
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ground wave suppression
-    normative_status: preferred
-  - type: expression
-    designation: Ground wave suppression (G.B.)
-    normative_status: admitted
   definition:
   - content: Reduction of the gain of a receiver during the period in which the ground
       wave is present.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ground wave suppression
+  - type: expression
+    normative_status: admitted
+    designation: Ground wave suppression (G.B.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ground_wave_suppression
+termid: 4-3-370
+id: 6d3617b4-6ed3-56f5-9ef8-d53e34cfc4c1

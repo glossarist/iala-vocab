@@ -1,72 +1,46 @@
 ---
-id: 4-1-1035
 data:
   identifier: 4-1-1035
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Electrical_distance
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-1035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-1035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-1035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-1035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-1035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-1035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-1035
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-1035
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Electrical_distance
+  type: authoritative
+status: valid
+id: 4-1-1035
 ---
-id: 4-1-1035-eng
-termid: 4-1-1035
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Electrical distance
-    normative_status: preferred
   definition:
   - content: A distance, expressed in terms of the duration of travel of an electro-magnetic
       wave in a given medium, between two points.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.R.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Electrical distance
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electrical_distance
+termid: 4-1-1035
+id: e9125877-454e-53e4-8f53-1f099d354bd1

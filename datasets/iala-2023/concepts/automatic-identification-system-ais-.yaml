@@ -1,65 +1,43 @@
 ---
-id: automatic-identification-system-ais-
 data:
   identifier: automatic-identification-system-ais-
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-11
+  - concept_id: section-11
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Automatic_Identification_System_(AIS)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: automatic-identification-system-ais-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: automatic-identification-system-ais-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: automatic-identification-system-ais-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: automatic-identification-system-ais-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: automatic-identification-system-ais-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: automatic-identification-system-ais-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: automatic-identification-system-ais-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Automatic_Identification_System_(AIS)
+  type: authoritative
+status: valid
+id: automatic-identification-system-ais-
 ---
-id: automatic-identification-system-ais--eng
-termid: automatic-identification-system-ais-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Automatic Identification System (AIS)
-    normative_status: preferred
   definition:
   - content: |-
       A ship and shore-based data broadcast system, operating in the VHF maritime band.
 
       Source: Nick Ward, IALA e-Nav committee vicechair, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Automatic Identification System (AIS)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Automatic_Identification_System_(AIS)
+termid: automatic-identification-system-ais-
+id: e6689d43-8f71-5f82-bd4d-32de35d2c4fb

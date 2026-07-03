@@ -1,68 +1,42 @@
 ---
-id: 5-4-345
 data:
   identifier: 5-4-345
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Optical_coupler
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-4-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-4-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-345
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Optical_coupler
+  type: authoritative
+status: valid
+id: 5-4-345
 ---
-id: 5-4-345-eng
-termid: 5-4-345
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Optical coupler
-    normative_status: preferred
   definition:
   - content: The encapsulated combination of light-emitting and photoelectric devices
       electrically isolated from each other but capable of transmitting a signal from
       input to output.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Optical coupler
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optical_coupler
+termid: 5-4-345
+id: d5cb73bd-a3af-5161-ba3c-beb63cc5b9f8

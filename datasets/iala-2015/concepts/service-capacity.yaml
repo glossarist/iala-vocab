@@ -1,65 +1,43 @@
 ---
-id: service-capacity
 data:
   identifier: service-capacity
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Service_capacity
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: service-capacity
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: service-capacity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: service-capacity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: service-capacity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: service-capacity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: service-capacity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: service-capacity
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Service_capacity
+  type: authoritative
+status: valid
+id: service-capacity
 ---
-id: service-capacity-eng
-termid: service-capacity
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Service capacity
-    normative_status: preferred
   definition:
   - content: |-
       The number of users a service can accommodate simultaneously.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Service capacity
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Service_capacity
+termid: service-capacity
+id: 8f13872e-8cb6-5e85-868b-846c1a26b5f5

@@ -1,69 +1,43 @@
 ---
-id: 2-6-240
 data:
   identifier: 2-6-240
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Spindle_Buoy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-6-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-6-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-6-240
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-6-240
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Spindle_Buoy
+  type: authoritative
+status: valid
+id: 2-6-240
 ---
-id: 2-6-240-eng
-termid: 2-6-240
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Spindle Buoy
-    normative_status: preferred
   definition:
   - content: |-
       A buoy having a spindle-like shape floating nearly vertically.
 
       ![Ch2_Fig64.jpg](/iala-vocab/images/iala/Ch2_Fig64.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Spindle Buoy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spindle_Buoy
+termid: 2-6-240
+id: 0dbe47d1-0037-5666-ae65-edc1ca07e60d

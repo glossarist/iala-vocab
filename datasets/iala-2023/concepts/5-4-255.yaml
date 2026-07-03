@@ -1,77 +1,51 @@
 ---
-id: 5-4-255
 data:
   identifier: 5-4-255
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Register_(2)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-255
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-255
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 5-4-255
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Register_(2)
+  type: authoritative
+status: valid
+id: 5-4-255
 ---
-id: 5-4-255-eng
-termid: 5-4-255
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Register (2)
-    normative_status: preferred
-  - type: expression
-    designation: Sender (U.S.A.)
-    normative_status: admitted
   definition:
   - content: In automatic telephony, a device accessible to a number of input circuits
       which accepts and stores information relating to a called number or service.
       It is therefore capable of controlling the setting up of a part of or all of
       the wanted connections.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Register (2)
+  - type: expression
+    normative_status: admitted
+    designation: Sender (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Register_(2)
+termid: 5-4-255
+id: e94fcb03-9d1e-5260-898d-2fe7c92f70c9

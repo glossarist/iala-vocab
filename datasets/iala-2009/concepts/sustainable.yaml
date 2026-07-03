@@ -13,35 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Sustainable
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: sustainable
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: sustainable
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: sustainable
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: sustainable
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: sustainable
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: sustainable
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: sustainable
+related: []
 ---
 id: sustainable-eng
 termid: sustainable

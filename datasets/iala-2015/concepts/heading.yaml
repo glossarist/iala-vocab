@@ -1,52 +1,25 @@
 ---
-id: heading
 data:
   identifier: heading
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Heading
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: heading
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: heading
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: heading
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: heading
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: heading
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: heading
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Heading
+  type: authoritative
+status: valid
+id: heading
 ---
-id: heading-eng
-termid: heading
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Heading
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-16
@@ -56,10 +29,19 @@ data:
       Source: IMO A.918(22)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Heading
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Heading
+termid: heading
+id: a34926d5-a733-5a93-b710-01eadcc849cb

@@ -1,36 +1,25 @@
 ---
-id: hazard-2-
 data:
   identifier: hazard-2-
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: hazard-2-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: hazard-2-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)
+  type: authoritative
+status: valid
+id: hazard-2-
 ---
-id: hazard-2--eng
-termid: hazard-2-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Hazard (2)
-    normative_status: preferred
   definition:
   - content: |-
       Hazard means any condition or threat that
@@ -39,22 +28,24 @@ data:
       or may reasonably be expected to result in major harmful consequences to the marine environment, or damage to the coastline or related interests of one or more States.
 
       Source: Nairobi Convention 2017, provided by the IALA ARM Committee in paper ARM7-12.1.14 in 2017.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)
----
-id: hazard-2--fra
-termid: hazard-2-
-data:
-  language_code: fra
+    type: authoritative
   terms:
   - type: expression
-    designation: Hazard (2)/fr
     normative_status: preferred
+    designation: Hazard (2)
+  language_code: eng
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)
+termid: hazard-2-
+id: f0246731-fcfe-5d9d-b607-aec34c713974
+---
+data:
   definition:
   - content: |-
       Danger
@@ -65,22 +56,24 @@ data:
       b) peut raisonnablemet être susceptible d’entraîner des conséquence majeurs dommageables au milieu marin, ou des dommages au littoral ou relevant d’intérêts connexes à un ou plusieurs États.
 
       La source: Convention de Nairobi 2017, fourni par le comité IALA ARM dans le document ARM7-12.1.14 en 2017.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/fr
----
-id: hazard-2--spa
-termid: hazard-2-
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: Hazard (2)/es
     normative_status: preferred
+    designation: Hazard (2)/fr
+  language_code: fra
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/fr
+termid: hazard-2-
+id: b3e9dca9-40f1-50d8-a075-5b73c3b45935
+---
+data:
   definition:
   - content: |-
       Peligro
@@ -91,22 +84,24 @@ data:
       o puede esperarse razonablemente que produzca importantes consecuencias perjudiciales para el medio ambiente marino, o daños a la línea costera   o a intereses relacionados con uno o más Estados.
 
       Fuente: Convenio de Nairobi 2017, proporcionado por el Comité ARM de IALA en el documento ARM7-12.1.14 en 2017.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/es
----
-id: hazard-2--fra
-termid: hazard-2-
-data:
-  language_code: fra
+    type: authoritative
   terms:
   - type: expression
-    designation: Danger
     normative_status: preferred
+    designation: Hazard (2)/es
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/es
+termid: hazard-2-
+id: e084a8e4-327a-5aaf-9fa4-8ade1066fa68
+---
+data:
   definition:
   - content: |-
       Danger signifie toute situation ou menace qui:
@@ -115,22 +110,24 @@ data:
       b) peut raisonnablemet être susceptible d’entraîner des conséquence majeurs dommageables au milieu marin, ou des dommages au littoral ou relevant d’intérêts connexes à un ou plusieurs États.
 
       La source: Convention de Nairobi 2017, fourni par le comité IALA ARM dans le document ARM7-12.1.14 en 2017.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/fr
----
-id: hazard-2--spa
-termid: hazard-2-
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: Peligro
     normative_status: preferred
+    designation: Danger
+  language_code: fra
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/fr
+termid: hazard-2-
+id: c9747a03-0db2-53f7-ad4e-d09fbf22fc29
+---
+data:
   definition:
   - content: |-
       Peligro significa cualquier condición o amenaza que:
@@ -139,10 +136,19 @@ data:
       o puede esperarse razonablemente que produzca importantes consecuencias perjudiciales para el medio ambiente marino, o daños a la línea costera   o a intereses relacionados con uno o más Estados.
 
       Fuente: Convenio de Nairobi 2017, proporcionado por el Comité ARM de IALA en el documento ARM7-12.1.14 en 2017.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Peligro
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/es
+termid: hazard-2-
+id: bed562f9-d74c-5cf8-bfc4-82c07b4c3587

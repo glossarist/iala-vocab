@@ -1,70 +1,44 @@
 ---
-id: 7-2-140
 data:
   identifier: 7-2-140
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Beam
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-140
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-2-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-140
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Beam
+  type: authoritative
+status: valid
+id: 7-2-140
 ---
-id: 7-2-140-eng
-termid: 7-2-140
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Beam
-    normative_status: preferred
-  - type: expression
-    designation: Girder
-    normative_status: admitted
   definition:
   - content: A slender structural member, usually horizontal, spanning between supports
       and designed to resist bending.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Beam
+  - type: expression
+    normative_status: admitted
+    designation: Girder
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Beam
+termid: 7-2-140
+id: cd8a0989-6f3b-5064-9f01-c5c5e553c0c2

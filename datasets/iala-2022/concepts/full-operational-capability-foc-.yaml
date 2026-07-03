@@ -1,65 +1,43 @@
 ---
-id: full-operational-capability-foc-
 data:
   identifier: full-operational-capability-foc-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Full_Operational_Capability_(FOC)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: full-operational-capability-foc-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: full-operational-capability-foc-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: full-operational-capability-foc-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: full-operational-capability-foc-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: full-operational-capability-foc-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: full-operational-capability-foc-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: full-operational-capability-foc-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Full_Operational_Capability_(FOC)
+  type: authoritative
+status: valid
+id: full-operational-capability-foc-
 ---
-id: full-operational-capability-foc--eng
-termid: full-operational-capability-foc-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Full Operational Capability (FOC)
-    normative_status: preferred
   definition:
   - content: |-
       Operational status of a GNSS or other radio-navigation system declared by the providing authority when commissioning and validation are considered to have been completed satisfactorily.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Full Operational Capability (FOC)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Full_Operational_Capability_(FOC)
+termid: full-operational-capability-foc-
+id: d11cbaad-a49a-583f-a602-090a9cadd838

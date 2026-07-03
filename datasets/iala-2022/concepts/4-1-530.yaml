@@ -1,60 +1,25 @@
 ---
-id: 4-1-530
 data:
   identifier: 4-1-530
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Waveguide
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-530
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-530
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-530
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-530
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-530
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-530
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-1-530
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-530
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Waveguide
+  type: authoritative
+status: valid
+id: 4-1-530
 ---
-id: 4-1-530-eng
-termid: 4-1-530
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Waveguide
-    normative_status: preferred
   definition:
   - content: |-
       A system consisting of
@@ -66,15 +31,24 @@ data:
       c. a single wire
 
       for the transmission of electromagnetic energy by a wave not of TEM type.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: D.I.N
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Waveguide
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Waveguide
+termid: 4-1-530
+id: 1b1df1e6-d867-5c25-a9dc-f4ae5f00c3f5

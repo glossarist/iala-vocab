@@ -1,77 +1,50 @@
 ---
-id: 2-2-195
 data:
   identifier: 2-2-195
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Filter
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 2-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-195
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Filter
+  type: authoritative
+status: valid
+id: 2-2-195
 ---
-id: 2-2-195-eng
-termid: 2-2-195
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Filter
-    normative_status: preferred
   definition:
   - content: A device which is used to modify, by transmission, the radiant or luminous
       flux, or the spectral distribution, or both, of the radiation passing through
       it.
+  examples: []
   notes:
   - content: A distinction is made between Selective Filters and Non-Selective Filters
       according as they do or do not alter the relative spectral distribution of the
       radiation.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Filter
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filter
+termid: 2-2-195
+id: bc2d4f31-7529-5599-9598-2d4906e6ed04

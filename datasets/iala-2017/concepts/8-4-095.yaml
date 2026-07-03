@@ -1,83 +1,76 @@
 ---
-id: 8-4-095
 data:
   identifier: 8-4-095
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Topmark
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-095
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 8-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Topmark
+  type: authoritative
+status: valid
+id: 8-4-095
 ---
-id: 8-4-095-eng
-termid: 8-4-095
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Topmark
-    normative_status: preferred
   definition:
   - content: |-
       An object, or pair of objects, of characteristic shape and colour, that is carried on top of a buoy as a means of identification.
 
       For details of topmarks used in the IALA Maritime Buoyage System, see Chapter 2 (Rev).
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Topmark
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark
----
-id: 8-4-095-spa
 termid: 8-4-095
+id: 4f5e06a5-e120-53d2-98cd-62470ad1bd36
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Marca de tope
+
+      Objeto o par de objetos de forma y color característico que se instalan en la parte superior de una boya como medio de identificación.
+
+      Nota:
+
+      Para obtener información sobre los topmarks utilizados en el Sistema de flotación marítima de IALA, consulte el Capítulo 2 (Rev).
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Topmark/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark/es
+termid: 8-4-095
+id: e1e8de9e-ff6e-5a9c-95f0-b0fc8b57ed7f
+---
+data:
   definition:
   - content: |-
       Marca de tope
@@ -87,35 +80,19 @@ data:
       Nota:
 
       Para obtener información sobre los topmarks utilizados en el Sistema de flotación marítima de IALA, consulte el Capítulo 2 (Rev).
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark/es
----
-id: 8-4-095-spa
-termid: 8-4-095
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 8-4-095
     normative_status: preferred
-  definition:
-  - content: |-
-      Marca de tope
-
-      Objeto o par de objetos de forma y color característico que se instalan en la parte superior de una boya como medio de identificación.
-
-      Nota:
-
-      Para obtener información sobre los topmarks utilizados en el Sistema de flotación marítima de IALA, consulte el Capítulo 2 (Rev).
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 8-4-095
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark/es
+termid: 8-4-095
+id: 7e89218f-d70c-5e6e-bcf2-540ebe630fb0

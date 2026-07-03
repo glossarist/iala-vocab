@@ -1,74 +1,47 @@
 ---
-id: 2-1-220
 data:
   identifier: 2-1-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Diffuser
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-1-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Diffuser
+  type: authoritative
+status: valid
+id: 2-1-220
 ---
-id: 2-1-220-eng
-termid: 2-1-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Diffuser
-    normative_status: preferred
   definition:
   - content: A device used to alter the spatial distribution of a luminous flux and
       depending essentially on the phenomenon of diffusion.
+  examples: []
   notes:
   - content: If all the radiation reflected or transmitted by the diffuser is diffused,
       it is said to be Completely Diffusing.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E. (extract)
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Diffuser
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diffuser
+termid: 2-1-220
+id: 44a42a71-049f-51c8-a231-d5a043a1dccd

@@ -1,67 +1,41 @@
 ---
-id: 7-6-360
 data:
   identifier: 7-6-360
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Hook
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-360
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-6-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-360
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Hook
+  type: authoritative
+status: valid
+id: 7-6-360
 ---
-id: 7-6-360-eng
-termid: 7-6-360
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Hook
-    normative_status: preferred
   definition:
   - content: A curved piece of forged steel commonly used as the lower termination
       of lifting devices to which lifting strops or eyes can be attached.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hook
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hook
+termid: 7-6-360
+id: 99a65d12-cfb1-5e00-bc65-f49f12e2c6b3

@@ -1,69 +1,43 @@
 ---
-id: 7-3-320
 data:
   identifier: 7-3-320
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Glass-reinforced_plastic
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-320
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-320
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-320
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-320
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-320
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-320
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-320
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 7-3-320
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Glass-reinforced_plastic
+  type: authoritative
+status: valid
+id: 7-3-320
 ---
-id: 7-3-320-eng
-termid: 7-3-320
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Glass-reinforced plastic
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: GRP, Glassfibre, Fiberglass (USA)
 
       Material formed by the use of woven or chopped strand mats of glass fibres impregnated with a synthetic resin hardened to form a rigid material, by chemical or heat treatment.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Glass-reinforced plastic
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Glass-reinforced_plastic
+termid: 7-3-320
+id: 9507fc11-0b42-5a3f-84c9-f8df90c8180e

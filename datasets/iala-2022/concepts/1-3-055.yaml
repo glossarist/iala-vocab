@@ -1,70 +1,44 @@
 ---
-id: 1-3-055
 data:
   identifier: 1-3-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Wave
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-3-055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 1-3-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-3-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Wave
+  type: authoritative
+status: valid
+id: 1-3-055
 ---
-id: 1-3-055-eng
-termid: 1-3-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Wave
-    normative_status: preferred
-  - type: expression
-    designation: Wave (of the sea)
-    normative_status: admitted
   definition:
   - content: Oscillation of the surface of the sea, caused by local winds and less
       extensive than the swell.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wave
+  - type: expression
+    normative_status: admitted
+    designation: Wave (of the sea)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wave
+termid: 1-3-055
+id: e7fe8c47-0b8e-5c9a-8a83-a891d5fad97b

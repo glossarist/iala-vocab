@@ -1,70 +1,44 @@
 ---
-id: 4-1-345
 data:
   identifier: 4-1-345
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Omnidirectional_antenna
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-345
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-345
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Omnidirectional_antenna
+  type: authoritative
+status: valid
+id: 4-1-345
 ---
-id: 4-1-345-eng
-termid: 4-1-345
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Omnidirectional antenna
-    normative_status: preferred
-  - type: expression
-    designation: Omniazimuthal antenna
-    normative_status: admitted
   definition:
   - content: An antenna whose radiating or receiving properties at any instant are
       the same on all bearings.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Omnidirectional antenna
+  - type: expression
+    normative_status: admitted
+    designation: Omniazimuthal antenna
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Omnidirectional_antenna
+termid: 4-1-345
+id: 79950455-4162-5d0d-80d9-175b8fe0c6fa

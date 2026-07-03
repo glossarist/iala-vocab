@@ -1,67 +1,41 @@
 ---
-id: 3-2-175
 data:
   identifier: 3-2-175
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reed_box
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-175
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 3-2-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-2-175
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-175
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reed_box
+  type: authoritative
+status: valid
+id: 3-2-175
 ---
-id: 3-2-175-eng
-termid: 3-2-175
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reed box
-    normative_status: preferred
   definition:
   - content: A device provided to position the reed holder in the correct position
       relative to the air flow.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reed box
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reed_box
+termid: 3-2-175
+id: 101b9e38-5ee6-513b-bcc7-d9cca1f73db2

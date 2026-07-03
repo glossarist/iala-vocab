@@ -1,66 +1,40 @@
 ---
-id: 6-3-315
 data:
   identifier: 6-3-315
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Fuel_(2)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-3-315
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-315
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-315
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Fuel_(2)
+  type: authoritative
+status: valid
+id: 6-3-315
 ---
-id: 6-3-315-eng
-termid: 6-3-315
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Fuel (2)
-    normative_status: preferred
   definition:
   - content: A substance used to produce heat by combustion or other chemical means.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fuel (2)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fuel_(2)
+termid: 6-3-315
+id: 00e278c8-b0bb-5b93-be7d-d18844f51c0f

@@ -1,45 +1,43 @@
 ---
-id: level-1-training
 data:
   identifier: level-1-training
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Level_1_training
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: level-1-training
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: level-1-training
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Level_1_training
+  type: authoritative
+status: valid
+id: level-1-training
 ---
-id: level-1-training-eng
-termid: level-1-training
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Level 1 training
-    normative_status: preferred
   definition:
   - content: |-
       Level 1 training is training given at an Accredited Training Organisation or by the IALA World-Wide Academy to the standards described in Model Course L1.1 for personnel having managerial functions.
 
       Source: ENG7, Recommendation R0141
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Level 1 training
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Level_1_training
+termid: level-1-training
+id: a263aca9-0ab7-5e6a-b8c6-d9f59f0f1265

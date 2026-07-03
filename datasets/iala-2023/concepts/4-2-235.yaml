@@ -1,70 +1,43 @@
 ---
-id: 4-2-235
 data:
   identifier: 4-2-235
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_correction
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-235
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-235
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-2-235
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_correction
+  type: authoritative
+status: valid
+id: 4-2-235
 ---
-id: 4-2-235-eng
-termid: 4-2-235
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bearing correction
-    normative_status: preferred
   definition:
   - content: The angle which one adds algebraically to the observed bearing to reduce
       or eliminate the error of the installation.
+  examples: []
   notes:
   - content: The installation error is the algebraic total of the instrument error
       and the site error (4-2-270).
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bearing correction
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing_correction
+termid: 4-2-235
+id: 2ff14b35-b372-5bd1-b41f-9642f5045e4b

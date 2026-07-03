@@ -1,76 +1,49 @@
 ---
-id: 2-1-345
 data:
   identifier: 2-1-345
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Purkinje_Phenomenon
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-345
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 2-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-345
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Purkinje_Phenomenon
+  type: authoritative
+status: valid
+id: 2-1-345
 ---
-id: 2-1-345-eng
-termid: 2-1-345
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Purkinje Phenomenon
-    normative_status: preferred
   definition:
   - content: The reduction in the luminosity of a red light relative to that of a
       blue light when the luminances are reduced in the same proportion without changing
       the respective spectral distributions.
+  examples: []
   notes:
   - content: In passing from photopic to scotopic vision, the spectral luminous efficiencies
       change, the wavelength of maximum efficiency being displaced towards the shorter
       wavelengths.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Purkinje Phenomenon
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Purkinje_Phenomenon
+termid: 2-1-345
+id: b6812e2e-a04c-5f0b-b6b4-52f3f0a2950e

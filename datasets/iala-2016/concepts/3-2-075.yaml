@@ -1,70 +1,44 @@
 ---
-id: 3-2-075
 data:
   identifier: 3-2-075
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sounding_valve
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-075
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 3-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-075
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sounding_valve
+  type: authoritative
+status: valid
+id: 3-2-075
 ---
-id: 3-2-075-eng
-termid: 3-2-075
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sounding valve
-    normative_status: preferred
-  - type: expression
-    designation: Sounding valve (in a compressed-air fog signal apparatus)
-    normative_status: admitted
   definition:
   - content: The valve controlling the admission of the compressed air which is modulated
       to provide the sound output.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sounding valve
+  - type: expression
+    normative_status: admitted
+    designation: Sounding valve (in a compressed-air fog signal apparatus)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sounding_valve
+termid: 3-2-075
+id: 4e7e456a-6ec2-5802-a2fe-aa42b9427e68

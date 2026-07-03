@@ -1,67 +1,41 @@
 ---
-id: 7-1-065
 data:
   identifier: 7-1-065
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Footbridge
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-1-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-1-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-1-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-1-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-1-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-1-065
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 7-1-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-1-065
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Footbridge
+  type: authoritative
+status: valid
+id: 7-1-065
 ---
-id: 7-1-065-eng
-termid: 7-1-065
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Footbridge
-    normative_status: preferred
   definition:
   - content: A bridge (usually narrow) over an obstacle, designed for pedestrian traffic
       only.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Footbridge
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Footbridge
+termid: 7-1-065
+id: 5a3e3ed0-0b7c-5857-95dc-a365265b7907

@@ -1,67 +1,41 @@
 ---
-id: 5-3-395
 data:
   identifier: 5-3-395
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Baud
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-395
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-395
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 5-3-395
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Baud
+  type: authoritative
+status: valid
+id: 5-3-395
 ---
-id: 5-3-395-eng
-termid: 5-3-395
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Baud
-    normative_status: preferred
   definition:
   - content: The modulation rate expressed in bauds is the number of characters per
       second times the number of units per character interval.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Baud
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Baud
+termid: 5-3-395
+id: dc5d389d-3a59-58d6-963a-7de84279edd3

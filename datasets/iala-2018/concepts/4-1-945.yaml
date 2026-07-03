@@ -1,71 +1,45 @@
 ---
-id: 4-1-945
 data:
   identifier: 4-1-945
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radio_horizon
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-945
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-945
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-945
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-945
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-945
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-1-945
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-945
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-945
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radio_horizon
+  type: authoritative
+status: valid
+id: 4-1-945
 ---
-id: 4-1-945-eng
-termid: 4-1-945
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radio horizon
-    normative_status: preferred
   definition:
   - content: The locus of points at which direct rays from the antenna become tangential
       to the earth's surface, taking into account the curvature due to refraction.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.C.I.R
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radio horizon
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radio_horizon
+termid: 4-1-945
+id: a4b3a402-8872-5c2a-b910-7a6cb41cc531

@@ -1,75 +1,48 @@
 ---
-id: 4-2-360
 data:
   identifier: 4-2-360
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Standard_wave_error
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-360
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-2-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-360
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Standard_wave_error
+  type: authoritative
+status: valid
+id: 4-2-360
 ---
-id: 4-2-360-eng
-termid: 4-2-360
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Standard wave error
-    normative_status: preferred
   definition:
   - content: The total polarization error produced by a plane wave incident at an
       angle of elevation of 45 degrees  and having equal vertically and horizontally
       polarized components.
+  examples: []
   notes:
   - content: As a criterion of performance the term is not appropriate to direction
       finders employing elevated antenna systems.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Standard wave error
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Standard_wave_error
+termid: 4-2-360
+id: a148f250-3650-5049-bfe7-846074302473

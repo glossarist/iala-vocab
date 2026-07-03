@@ -13,31 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/VTS_Operator_(VTSO)
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: vts-operator-vtso-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: vts-operator-vtso-
+related: []
 ---
 id: vts-operator-vtso--eng
 termid: vts-operator-vtso-

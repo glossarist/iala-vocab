@@ -1,67 +1,41 @@
 ---
-id: 6-5-250
 data:
   identifier: 6-5-250
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Taper_charge
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-5-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-5-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-250
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-5-250
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-5-250
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Taper_charge
+  type: authoritative
+status: valid
+id: 6-5-250
 ---
-id: 6-5-250-eng
-termid: 6-5-250
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Taper charge
-    normative_status: preferred
   definition:
   - content: A process whereby the rate of charging is reduced as the battery approaches
       its fully charged state.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Taper charge
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Taper_charge
+termid: 6-5-250
+id: 5d1c1e83-3efd-500a-aca1-6f8091e6f8fe

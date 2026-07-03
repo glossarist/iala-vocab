@@ -1,60 +1,25 @@
 ---
-id: 2-3-215
 data:
   identifier: 2-3-215
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Hollow_truncated_cone_filament
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-215
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-3-215
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Hollow_truncated_cone_filament
+  type: authoritative
+status: valid
+id: 2-3-215
 ---
-id: 2-3-215-eng
-termid: 2-3-215
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Hollow truncated cone filament
-    normative_status: preferred
   definition:
   - content: |-
       A filament (usually of multi-vee formation) in the form of a hollow truncated cone, generated around the axis of the lamp.
@@ -62,13 +27,21 @@ data:
       ![Ch2_Fig30.jpg](/iala-vocab/images/iala/Ch2_Fig30.jpg)
 
       In the latter case, the French term is Grille Tronconique Incomplete or Filament Tronconique Incomplet and the English term is"Bunch filament" {{2-3-220, Bunch Filament (G.B.)}}.
+  examples: []
   notes:
   - content: The filament may be fully closed in plan, or may embrace an arc of less
       than 360 degrees.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hollow truncated cone filament
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hollow_truncated_cone_filament
+termid: 2-3-215
+id: 9299e03c-e630-5698-891d-00f32813501d

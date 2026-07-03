@@ -1,74 +1,31 @@
 ---
-id: effective-intensity
 data:
   identifier: effective-intensity
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Effective_Intensity
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: effective-intensity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: effective-intensity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: effective-intensity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: effective-intensity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: effective-intensity
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: effective-intensity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: effective-intensity
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: effective-intensity
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Effective_Intensity
+  type: authoritative
+status: valid
+id: effective-intensity
 ---
-id: effective-intensity-eng
-termid: effective-intensity
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Effective Intensity
-    normative_status: preferred
-  - type: expression
-    designation: Effective Intensity (of a rhythmic light)
-    normative_status: admitted
-  - type: expression
-    designation: Equivalent Fixed Intensity (of a rhythmic light)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[Ie]
-    normative_status: preferred
   definition:
   - content: |-
       2-1 -400
 
       The luminous intensity of a fictitious juxtaposed steady-burning point light source that would appear to exhibit a luminosity equal to that of the rhythmic point light source it describes. The apparent reduction in intensity of the rhythmic light is subjective and is due to the nature of the response of the eye of the observer.
+  examples: []
   notes:
   - content: The quantity Ie so defined is a function not only of the intensity versus
       time variation of the rhythmic light, but also of the conditions of observation
@@ -79,10 +36,26 @@ data:
       the threshold for foveal vision).
   - content: The use of the term Apparent Intensity with this meaning is deprecated.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Effective Intensity
+  - type: expression
+    normative_status: admitted
+    designation: Effective Intensity (of a rhythmic light)
+  - type: expression
+    normative_status: admitted
+    designation: Equivalent Fixed Intensity (of a rhythmic light)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[Ie]
+  language_code: eng
   annotations:
   - content: Unit candela (cd)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Effective_Intensity
+termid: effective-intensity
+id: 2c92429b-ee3d-5dab-9c10-a8c3e7c59766

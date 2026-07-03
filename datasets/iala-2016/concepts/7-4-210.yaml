@@ -1,67 +1,41 @@
 ---
-id: 7-4-210
 data:
   identifier: 7-4-210
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Compaction
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-4-210
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-4-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-4-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-210
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Compaction
+  type: authoritative
+status: valid
+id: 7-4-210
 ---
-id: 7-4-210-eng
-termid: 7-4-210
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Compaction
-    normative_status: preferred
   definition:
   - content: Artificial increase in the dry density of a granular soil by mechanical
       means, expelling air from the voids.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Compaction
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Compaction
+termid: 7-4-210
+id: 2b8517b1-07ff-5763-becb-10ee433a9a2a

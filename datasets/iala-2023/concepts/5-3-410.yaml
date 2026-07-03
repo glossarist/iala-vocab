@@ -1,67 +1,41 @@
 ---
-id: 5-3-410
 data:
   identifier: 5-3-410
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Parity_code
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-410
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 5-3-410
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Parity_code
+  type: authoritative
+status: valid
+id: 5-3-410
 ---
-id: 5-3-410-eng
-termid: 5-3-410
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Parity code
-    normative_status: preferred
   definition:
   - content: An error-detecting or error-correcting code in which each array of bits
       comprises a number, either always even or always odd, of bits of the same type.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Parity code
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Parity_code
+termid: 5-3-410
+id: d9eb1ffc-9968-5a42-9f7c-b2ac5b2fc5fb

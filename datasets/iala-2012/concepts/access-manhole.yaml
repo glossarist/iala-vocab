@@ -1,60 +1,25 @@
 ---
-id: access-manhole
 data:
   identifier: access-manhole
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Access_manhole
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: access-manhole
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: access-manhole
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: access-manhole
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: access-manhole
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: access-manhole
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: access-manhole
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: access-manhole
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: access-manhole
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Access_manhole
+  type: authoritative
+status: valid
+id: access-manhole
 ---
-id: access-manhole-eng
-termid: access-manhole
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Access manhole
-    normative_status: preferred
   definition:
   - content: |-
       8-4-125(
@@ -62,12 +27,20 @@ data:
       An opening, for example in a buoy body, to permit personnel to enter the interior for occasional inspections or repairs.  It is closed by means of a firmly-secured watertight cover.
 
       On vessels and on Lanbys, a large access manhole is called a deck hatch.
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Access manhole
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Access_manhole
+termid: access-manhole
+id: dda3f156-5808-5733-b7a3-83800a618c01

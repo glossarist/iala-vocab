@@ -1,69 +1,43 @@
 ---
-id: 8-4-110
 data:
   identifier: 8-4-110
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Battery_rack
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 8-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-110
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Battery_rack
+  type: authoritative
+status: valid
+id: 8-4-110
 ---
-id: 8-4-110-eng
-termid: 8-4-110
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Battery rack
-    normative_status: preferred
-  - type: expression
-    designation: Battery pack (USA)
-    normative_status: admitted
   definition:
   - content: A frame for holding batteries inside a buoy pocket, etc.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Battery rack
+  - type: expression
+    normative_status: admitted
+    designation: Battery pack (USA)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Battery_rack
+termid: 8-4-110
+id: 92d0d7fe-0a70-5111-a68a-6121d27f36e9

@@ -1,70 +1,44 @@
 ---
-id: 3-2-275
 data:
   identifier: 3-2-275
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Clapper
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-275
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-275
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-275
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-275
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-275
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-275
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-275
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 3-2-275
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Clapper
+  type: authoritative
+status: valid
+id: 3-2-275
 ---
-id: 3-2-275-eng
-termid: 3-2-275
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Clapper
-    normative_status: preferred
-  - type: expression
-    designation: Tongue
-    normative_status: admitted
   definition:
   - content: A heavy pendulum suspended inside a bell which sets the bell in vibration
       by striking it.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Clapper
+  - type: expression
+    normative_status: admitted
+    designation: Tongue
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Clapper
+termid: 3-2-275
+id: 71074525-3e45-55cf-af8b-ebf560b82f3a

@@ -1,108 +1,86 @@
 ---
-id: 8-4-055
 data:
   identifier: 8-4-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Mooring_buoy
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 8-4-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-055
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-055
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-055
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Mooring_buoy
+  type: authoritative
+status: valid
+id: 8-4-055
 ---
-id: 8-4-055-eng
-termid: 8-4-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Mooring buoy
-    normative_status: preferred
   definition:
   - content: A buoy to which vessels or other floating bodies may be moored.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mooring buoy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mooring_buoy
----
-id: 8-4-055-spa
 termid: 8-4-055
+id: 833e4b2c-17b3-5664-b968-5a5dd15defbf
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Boya de amarre
+
+      Boya a la cual  pueden amarrarse embarcaciones u otras estructuras flotantes.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Mooring buoy/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mooring_buoy/es
+termid: 8-4-055
+id: 77e85bd0-cc9d-579b-ad33-15b101233fc9
+---
+data:
   definition:
   - content: |-
       Boya de amarre
 
       Boya a la cual  pueden amarrarse embarcaciones u otras estructuras flotantes.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mooring_buoy/es
----
-id: 8-4-055-spa
-termid: 8-4-055
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 8-4-055
     normative_status: preferred
-  definition:
-  - content: |-
-      Boya de amarre
-
-      Boya a la cual  pueden amarrarse embarcaciones u otras estructuras flotantes.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 8-4-055
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mooring_buoy/es
+termid: 8-4-055
+id: 0c9ef746-f6f2-5759-8514-c43f18128593

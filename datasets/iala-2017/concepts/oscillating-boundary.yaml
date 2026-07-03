@@ -1,44 +1,25 @@
 ---
-id: oscillating-boundary
 data:
   identifier: oscillating-boundary
   domains:
-  - source: urn:iala:dictionary:iala-2016
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2016
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Oscillating_Boundary
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: oscillating-boundary
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: oscillating-boundary
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: oscillating-boundary
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: oscillating-boundary
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Oscillating_Boundary
+  type: authoritative
+status: valid
+id: oscillating-boundary
 ---
-id: oscillating-boundary-eng
-termid: oscillating-boundary
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Oscillating Boundary
-    normative_status: preferred
   definition:
   - content: |-
       An Oscillating Boundary in a sector light is a method of giving more information of position near the sector boundary to the mariner by creating a light character with alternately flashing colours.
@@ -46,10 +27,19 @@ data:
       On a position on line 1 (figure 1) the vessel is far outside of the safe channel and the mariner sees alternating flashes with a long green duration and a short white. Approaching the axis the flash duration of the green flashes will decrease whereas the white flashes increase, so the flash duration of the white flashes becomes longer than the green ones (line 2, figure 1). Finally when the safe sector, line A, is reached, only a fixed white light is seen.
 
       Source: ENG3, Guideline 1041
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Oscillating Boundary
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oscillating_Boundary
+termid: oscillating-boundary
+id: dde860c3-a3b0-5c59-86f2-78b55e16922a

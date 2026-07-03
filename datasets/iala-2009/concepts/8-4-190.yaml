@@ -1,110 +1,88 @@
 ---
-id: 8-4-190
 data:
   identifier: 8-4-190
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 8-4-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-190
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-190
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-190
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection
+  type: authoritative
+status: valid
+id: 8-4-190
 ---
-id: 8-4-190-eng
-termid: 8-4-190
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cathodic protection
-    normative_status: preferred
   definition:
   - content: Protection of submerged metal parts by the preferential corrosion of
       specially located pieces of relatively electropositive metal forming a sacrificial
       anode.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cathodic protection
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection
----
-id: 8-4-190-spa
 termid: 8-4-190
+id: 5ed2358f-fb78-5726-94ec-e400af06ef25
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Protección catódica
+
+      Protección de las partes metálicas sumergidas mediante  la corrosión preferente de metales electropositivos especialmente ubicados formando estos el ánodo de sacrificio.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Cathodic protection/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection/es
+termid: 8-4-190
+id: 28eac225-69fe-5714-be4a-1d594b5ce6cc
+---
+data:
   definition:
   - content: |-
       Protección catódica
 
       Protección de las partes metálicas sumergidas mediante  la corrosión preferente de metales electropositivos especialmente ubicados formando estos el ánodo de sacrificio.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection/es
----
-id: 8-4-190-spa
-termid: 8-4-190
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 8-4-190
     normative_status: preferred
-  definition:
-  - content: |-
-      Protección catódica
-
-      Protección de las partes metálicas sumergidas mediante  la corrosión preferente de metales electropositivos especialmente ubicados formando estos el ánodo de sacrificio.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 8-4-190
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection/es
+termid: 8-4-190
+id: e2d19661-e307-5773-aedb-93d4aaa36dad

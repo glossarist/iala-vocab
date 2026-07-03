@@ -1,60 +1,25 @@
 ---
-id: 4-4-240
 data:
   identifier: 4-4-240
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Decca_Locking_constant
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-240
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-240
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-4-240
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Decca_Locking_constant
+  type: authoritative
+status: valid
+id: 4-4-240
 ---
-id: 4-4-240-eng
-termid: 4-4-240
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Decca Locking constant
-    normative_status: preferred
   definition:
   - content: |-
       Locking constant (in Decca)
@@ -62,10 +27,19 @@ data:
       The overall phase shift resulting from two causes, the close proximity of the receiver to the master transmitter and, at the slave station, a possible fixed displacement from the nominal zero phase difference condition that is assumed to exist between the received master signal and the out-going slave transmission.
 
       The value of the locking constant for each pattern is found at the start of a survey by observations at exact known distances from the slaves and is thereafter subtracted from all observed Decometer readings.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Decca Locking constant
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Locking_constant
+termid: 4-4-240
+id: b58da5f2-3388-578b-9e60-50265f3a077d

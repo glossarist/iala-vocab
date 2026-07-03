@@ -1,74 +1,47 @@
 ---
-id: 2-6-225
 data:
   identifier: 2-6-225
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Can_Buoy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-225
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-6-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-6-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-6-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-6-225
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Can_Buoy
+  type: authoritative
+status: valid
+id: 2-6-225
 ---
-id: 2-6-225-eng
-termid: 2-6-225
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Can Buoy
-    normative_status: preferred
-  - type: expression
-    designation: Cylindrical Buoy
-    normative_status: admitted
   definition:
   - content: |-
       A buoy of which the upper part of the body (above the waterline), or the larger part of the superstructure, has the shape of a cylinder or nearly so.
 
       ![Ch2_Fig61.jpg](/iala-vocab/images/iala/Ch2_Fig61.jpg)
+  examples: []
   notes:
   - content: The German term Stumpftonne also includes buoys of truncated cone shape.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Can Buoy
+  - type: expression
+    normative_status: admitted
+    designation: Cylindrical Buoy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Can_Buoy
+termid: 2-6-225
+id: f47d22e3-e70c-580e-841a-369c0e5e6e61

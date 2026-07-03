@@ -1,63 +1,25 @@
 ---
-id: 2-2-135
 data:
   identifier: 2-2-135
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Fresnel_Profile
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-2-135
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-135
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Fresnel_Profile
+  type: authoritative
+status: valid
+id: 2-2-135
 ---
-id: 2-2-135-eng
-termid: 2-2-135
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Fresnel Profile
-    normative_status: preferred
-  - type: expression
-    designation: Fresnel Profile (of a lens or fixed lens)
-    normative_status: admitted
   definition:
   - content: |-
       A stepped profile of both dioptric and catadioptric elements, the dioptric part of which presents one straight side towards the focus.
@@ -71,10 +33,22 @@ data:
       ![Ch2_Fig16a.jpg](/iala-vocab/images/iala/Ch2_Fig16a.jpg)
 
       ![Ch2_Fig16b.jpg](/iala-vocab/images/iala/Ch2_Fig16b.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fresnel Profile
+  - type: expression
+    normative_status: admitted
+    designation: Fresnel Profile (of a lens or fixed lens)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fresnel_Profile
+termid: 2-2-135
+id: 8f5f4a3d-8261-5f3f-a8a8-7bc06c54c928

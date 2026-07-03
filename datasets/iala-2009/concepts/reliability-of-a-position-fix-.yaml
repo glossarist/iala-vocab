@@ -13,35 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Reliability_(of_a_position_fix)
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: reliability-of-a-position-fix-
+related: []
 ---
 id: reliability-of-a-position-fix--eng
 termid: reliability-of-a-position-fix-

@@ -1,60 +1,25 @@
 ---
-id: 4-4-090
 data:
   identifier: 4-4-090
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Loran_Slew_control
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-090
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-4-090
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-090
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Loran_Slew_control
+  type: authoritative
+status: valid
+id: 4-4-090
 ---
-id: 4-4-090-eng
-termid: 4-4-090
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Loran Slew control
-    normative_status: preferred
   definition:
   - content: |-
       Slew control (in Loran)
@@ -62,10 +27,19 @@ data:
       Left-right control (in Loran)
 
       The equipment control by means of which the received pulse signals are placed at the proper operating point on the time base.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Loran Slew control
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Slew_control
+termid: 4-4-090
+id: a91fb7ef-a8db-5e08-af8b-79600f161fd2

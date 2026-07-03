@@ -1,71 +1,45 @@
 ---
-id: 1-1-410
 data:
   identifier: 1-1-410
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cathode
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-410
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 1-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-410
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cathode
+  type: authoritative
+status: valid
+id: 1-1-410
 ---
-id: 1-1-410-eng
-termid: 1-1-410
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cathode
-    normative_status: preferred
   definition:
   - content: The electrode by which the current in a system leaves, i.e. by which
       the electrons enter the medium.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cathode
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathode
+termid: 1-1-410
+id: eab2a4bb-5ab7-5d3d-add4-274456bdca7e

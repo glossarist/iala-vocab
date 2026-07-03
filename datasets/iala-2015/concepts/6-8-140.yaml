@@ -1,69 +1,42 @@
 ---
-id: 6-8-140
 data:
   identifier: 6-8-140
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Overload_relay
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-140
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-8-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-140
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-140
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Overload_relay
+  type: authoritative
+status: valid
+id: 6-8-140
 ---
-id: 6-8-140-eng
-termid: 6-8-140
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Overload relay
-    normative_status: preferred
   definition:
   - content: A relay that operates at a preset value of overload.
+  examples: []
   notes:
   - content: An overload relay is usually made to respond to current, but the response
       may be to power, temperature, etc.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Overload relay
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Overload_relay
+termid: 6-8-140
+id: 04a56e08-8c76-5041-a21f-15ba624e43b0

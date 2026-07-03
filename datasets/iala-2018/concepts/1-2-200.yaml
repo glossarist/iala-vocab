@@ -1,67 +1,41 @@
 ---
-id: 1-2-200
 data:
   identifier: 1-2-200
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Isolated_danger
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-200
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 1-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-200
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Isolated_danger
+  type: authoritative
+status: valid
+id: 1-2-200
 ---
-id: 1-2-200-eng
-termid: 1-2-200
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Isolated danger
-    normative_status: preferred
   definition:
   - content: A danger to shipping on the open sea or in an area otherwise free of
       dangers.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Isolated danger
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Isolated_danger
+termid: 1-2-200
+id: ebed86a4-a29c-5a0f-aff5-6728c08129d3

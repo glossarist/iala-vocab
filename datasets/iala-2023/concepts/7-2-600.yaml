@@ -1,67 +1,41 @@
 ---
-id: 7-2-600
 data:
   identifier: 7-2-600
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Gutter
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-600
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-600
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 7-2-600
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Gutter
+  type: authoritative
+status: valid
+id: 7-2-600
 ---
-id: 7-2-600-eng
-termid: 7-2-600
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Gutter
-    normative_status: preferred
   definition:
   - content: A channel along the edge of a road for the purpose of collecting and
       carrying away rainwater.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Gutter
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gutter
+termid: 7-2-600
+id: 7437b125-73fb-55dd-a307-c34f4082a3f2

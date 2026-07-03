@@ -1,69 +1,47 @@
 ---
-id: replication
 data:
   identifier: replication
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-12
+  - concept_id: section-12
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Replication
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: replication
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: replication
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: replication
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: replication
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: replication
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: replication
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: replication
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Replication
+  type: authoritative
+status: valid
+id: replication
 ---
-id: replication-eng
-termid: replication
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Replication
-    normative_status: preferred
   definition:
   - content: |-
       Making an exact copy or copies of a building or artefact.
 
       (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: Stirlingcharter
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Replication
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Replication
+termid: replication
+id: 7233d472-456a-55ce-8b30-8ecbf0fcc629

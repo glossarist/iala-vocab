@@ -1,67 +1,41 @@
 ---
-id: 4-3-100
 data:
   identifier: 4-3-100
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bright_display
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-100
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 4-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-100
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bright_display
+  type: authoritative
+status: valid
+id: 4-3-100
 ---
-id: 4-3-100-eng
-termid: 4-3-100
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bright display
-    normative_status: preferred
   definition:
   - content: A radar display capable of being used under relatively high ambient light
       levels.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bright display
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bright_display
+termid: 4-3-100
+id: 6f39c08d-5524-57ac-8025-e6182a0b74db

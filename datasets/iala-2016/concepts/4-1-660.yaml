@@ -1,69 +1,43 @@
 ---
-id: 4-1-660
 data:
   identifier: 4-1-660
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Transmitter_power_gain
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-660
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 4-1-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-660
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Transmitter_power_gain
+  type: authoritative
+status: valid
+id: 4-1-660
 ---
-id: 4-1-660-eng
-termid: 4-1-660
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Transmitter power gain
-    normative_status: preferred
   definition:
   - content: |-
       Power gain (of a radio transmitter)
 
       The ratio of the output power delivered to a specified load by an amplifier to the power absorbed by its input circuit.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transmitter power gain
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transmitter_power_gain
+termid: 4-1-660
+id: 2c46aede-c166-524e-bfa7-3ef4d6f028d7

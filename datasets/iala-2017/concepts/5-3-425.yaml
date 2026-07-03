@@ -1,74 +1,48 @@
 ---
-id: 5-3-425
 data:
   identifier: 5-3-425
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Binary_coded_decimal_(notation)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-425
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 5-3-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-425
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Binary_coded_decimal_(notation)
+  type: authoritative
+status: valid
+id: 5-3-425
 ---
-id: 5-3-425-eng
-termid: 5-3-425
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Binary coded decimal (notation)
-    normative_status: preferred
   definition:
   - content: |-
       Acronym: BCD
 
       A decimal notation in which the individual decimal digits are each represented by a code of binary digits.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Binary coded decimal (notation)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Binary_coded_decimal_(notation)
+termid: 5-3-425
+id: 93b6e839-b022-5038-a427-e1f5daa3a8b6

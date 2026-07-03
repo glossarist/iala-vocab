@@ -1,73 +1,47 @@
 ---
-id: 5-3-220
 data:
   identifier: 5-3-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Demodulation_-_FM
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Demodulation_-_FM
+  type: authoritative
+status: valid
+id: 5-3-220
 ---
-id: 5-3-220-eng
-termid: 5-3-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Demodulation - FM
-    normative_status: preferred
   definition:
   - content: |-
       No English term(original dictionary edition)
 
       The process of obtaining the modulating signal from a frequency or phase modulated wave.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Demodulation - FM
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Demodulation_-_FM
+termid: 5-3-220
+id: 182fc54b-ffae-5bf3-9631-5e448808fc9f

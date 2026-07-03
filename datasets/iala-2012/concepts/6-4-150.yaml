@@ -1,70 +1,44 @@
 ---
-id: 6-4-150
 data:
   identifier: 6-4-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Generator_set
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 6-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Generator_set
+  type: authoritative
+status: valid
+id: 6-4-150
 ---
-id: 6-4-150-eng
-termid: 6-4-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Generator set
-    normative_status: preferred
-  - type: expression
-    designation: Generating set
-    normative_status: admitted
   definition:
   - content: One or more generators of electric energy together with the prime mover
       that drives sthem.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Generator set
+  - type: expression
+    normative_status: admitted
+    designation: Generating set
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Generator_set
+termid: 6-4-150
+id: b0cacdae-1c4d-5a73-8bf0-f58831fdda56

@@ -1,69 +1,43 @@
 ---
-id: 3-2-135
 data:
   identifier: 3-2-135
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Cylinder
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-135
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 3-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-2-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-135
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Cylinder
+  type: authoritative
+status: valid
+id: 3-2-135
 ---
-id: 3-2-135-eng
-termid: 3-2-135
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Diaphone - Cylinder
-    normative_status: preferred
   definition:
   - content: |-
       Cylinder (of a diaphone)
 
       The fixed part of the modulator in which one part of the double piston slides; the modulation of the air is obtained by action of the slots on the two parts of the modulator moving in and out of concidence.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Diaphone - Cylinder
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diaphone_-_Cylinder
+termid: 3-2-135
+id: 8333faa8-24da-506c-b7c3-44761e75260f

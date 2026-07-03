@@ -1,67 +1,41 @@
 ---
-id: 6-3-115
 data:
   identifier: 6-3-115
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Wind_shear
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-115
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-115
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Wind_shear
+  type: authoritative
+status: valid
+id: 6-3-115
 ---
-id: 6-3-115-eng
-termid: 6-3-115
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Wind shear
-    normative_status: preferred
   definition:
   - content: A variation of wind velocity in a plane normal to the wind direction,
       usually in the vertical direction.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Wind shear
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wind_shear
+termid: 6-3-115
+id: 2ba6c637-177c-5ffb-b951-50249549f4eb

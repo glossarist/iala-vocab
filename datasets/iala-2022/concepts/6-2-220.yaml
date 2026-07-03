@@ -1,69 +1,43 @@
 ---
-id: 6-2-220
 data:
   identifier: 6-2-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pre-ignition
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pre-ignition
+  type: authoritative
+status: valid
+id: 6-2-220
 ---
-id: 6-2-220-eng
-termid: 6-2-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pre-ignition
-    normative_status: preferred
   definition:
   - content: Undesirable self-ignition of the mixture inside the cylinder of an engine
       before the occurrence of the spark. This may be due to excessive temperatures
       of parts of the surface of the combustion chamber or the exhaust valve head,
       or of carbon deposits within the chamber.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pre-ignition
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pre-ignition
+termid: 6-2-220
+id: b8977a14-bcae-5d7d-ab88-ccea11d2ea60

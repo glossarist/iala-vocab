@@ -1,69 +1,43 @@
 ---
-id: 4-1-510
 data:
   identifier: 4-1-510
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Broadside_array
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-510
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-510
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Broadside_array
+  type: authoritative
+status: valid
+id: 4-1-510
 ---
-id: 4-1-510-eng
-termid: 4-1-510
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Broadside array
-    normative_status: preferred
   definition:
   - content: |-
       A linear array of elements whose centres lie on a straight line and whose principal direction of radiation or reception is perpendicular to this line.
 
       A broadside array is often comprised of a number of parallel identical dipoles or monopoles which are coplanar and equally spaced, the principal direction of radiation being perpendicular to the plane containing the dipoles.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Broadside array
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Broadside_array
+termid: 4-1-510
+id: 42bbe710-e55e-5906-81e1-0913652ca18b

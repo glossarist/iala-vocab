@@ -1,75 +1,48 @@
 ---
-id: 3-1-120
 data:
   identifier: 3-1-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Acoustic_impedance
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-1-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-1-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-1-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 3-1-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Acoustic_impedance
+  type: authoritative
+status: valid
+id: 3-1-120
 ---
-id: 3-1-120-eng
-termid: 3-1-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Acoustic impedance
-    normative_status: preferred
   definition:
   - content: The complex quotient of the sound pressure and the volume velocity through
       the surface.
+  examples: []
   notes:
   - content: This definition is valid only for sinusoidal vibrations in the steady
       state.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Acoustic impedance
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acoustic_impedance
+termid: 3-1-120
+id: 442ccb79-b4c8-5889-9296-702e31e66804

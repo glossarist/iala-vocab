@@ -1,75 +1,49 @@
 ---
-id: 5-4-015
 data:
   identifier: 5-4-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Buffer_stage
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Buffer_stage
+  type: authoritative
+status: valid
+id: 5-4-015
 ---
-id: 5-4-015-eng
-termid: 5-4-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Buffer stage
-    normative_status: preferred
-  - type: expression
-    designation: Buffer amplifier
-    normative_status: admitted
   definition:
   - content: An active device interposed between two circuits to prevent the output
       circuit from influencing the input.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Buffer stage
+  - type: expression
+    normative_status: admitted
+    designation: Buffer amplifier
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buffer_stage
+termid: 5-4-015
+id: fb1f1c02-c8fd-55ab-aca5-3789d1fcdf04

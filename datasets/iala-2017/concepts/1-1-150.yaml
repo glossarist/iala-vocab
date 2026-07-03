@@ -1,69 +1,29 @@
 ---
-id: 1-1-150
 data:
   identifier: 1-1-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radiant_exitance
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 1-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radiant_exitance
+  type: authoritative
+status: valid
+id: 1-1-150
 ---
-id: 1-1-150-eng
-termid: 1-1-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radiant exitance
-    normative_status: preferred
-  - type: expression
-    designation: Radiant exitance (at a point of a surface)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[Me]
-    normative_status: preferred
   definition:
   - content: Quotient of the radiant flux(dFe) leaving an element of the surface containing
       the point, by the area of that element (dA). by ???
+  examples: []
   notes:
   - content: If the radiant flux Fe may be considered uniformly emitted by a finite
       plane surface of area A, the radiant exitance of this surface is given by ??
@@ -71,15 +31,28 @@ data:
       energetique.
   - content: For further definitions see C.I.E.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radiant exitance
+  - type: expression
+    normative_status: admitted
+    designation: Radiant exitance (at a point of a surface)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[Me]
+  language_code: eng
   annotations:
   - content: Unit watt per square metre (W/m2)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radiant_exitance
+termid: 1-1-150
+id: 6d1b377b-c645-5b3b-baf2-0f33cf5a36cd

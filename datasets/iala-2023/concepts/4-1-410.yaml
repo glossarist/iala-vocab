@@ -1,66 +1,40 @@
 ---
-id: 4-1-410
 data:
   identifier: 4-1-410
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Vertical_beam_width
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-410
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-410
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-410
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Vertical_beam_width
+  type: authoritative
+status: valid
+id: 4-1-410
 ---
-id: 4-1-410-eng
-termid: 4-1-410
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Vertical beam width
-    normative_status: preferred
   definition:
   - content: The beam width measured in a vertical plane.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vertical beam width
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vertical_beam_width
+termid: 4-1-410
+id: c0d16fe4-ec2b-5e5c-9350-fb594d7e8949

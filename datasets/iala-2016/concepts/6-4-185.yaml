@@ -1,69 +1,43 @@
 ---
-id: 6-4-185
 data:
   identifier: 6-4-185
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Permanent-magnet
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-185
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-185
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Permanent-magnet
+  type: authoritative
+status: valid
+id: 6-4-185
 ---
-id: 6-4-185-eng
-termid: 6-4-185
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Permanent-magnet
-    normative_status: preferred
-  - type: expression
-    designation: Magneto
-    normative_status: admitted
   definition:
   - content: A generator in which the excitation is provided by permanent magnets.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Permanent-magnet
+  - type: expression
+    normative_status: admitted
+    designation: Magneto
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Permanent-magnet
+termid: 6-4-185
+id: 45a91f16-3d7d-546b-92eb-0979babe120c

@@ -1,66 +1,40 @@
 ---
-id: 7-3-510
 data:
   identifier: 7-3-510
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Rendering
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 7-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-510
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-510
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Rendering
+  type: authoritative
+status: valid
+id: 7-3-510
 ---
-id: 7-3-510-eng
-termid: 7-3-510
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Rendering
-    normative_status: preferred
   definition:
   - content: Mortar based treatment applied to give a finish to walls.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rendering
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rendering
+termid: 7-3-510
+id: 7762a80f-4e6a-51fc-85b4-165ea44e0a2f

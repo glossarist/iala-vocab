@@ -1,69 +1,43 @@
 ---
-id: 6-2-115
 data:
   identifier: 6-2-115
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Crankcase
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-115
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-2-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-2-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-115
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Crankcase
+  type: authoritative
+status: valid
+id: 6-2-115
 ---
-id: 6-2-115-eng
-termid: 6-2-115
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Crankcase
-    normative_status: preferred
   definition:
   - content: |-
       A casing that encloses the crankshaft and connecting rods in some types of reciprocating engines or air-compressors,
 
       It is usually filled with lubricating oil.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Crankcase
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Crankcase
+termid: 6-2-115
+id: 6afe7e86-7651-5ea0-adf5-e370a784ed73

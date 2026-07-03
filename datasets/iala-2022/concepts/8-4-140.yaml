@@ -1,69 +1,43 @@
 ---
-id: 8-4-140
 data:
   identifier: 8-4-140
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-unknown
+  - concept_id: section-unknown
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)/es
 related:
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-140
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-140
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-4-140
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-140
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-140
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-140
-- type: related_concept
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 8-4-140
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-140
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)/es
+  type: authoritative
+status: valid
+id: 8-4-140
 ---
-id: 8-4-140-spa
-termid: 8-4-140
 data:
-  language_code: spa
-  terms:
-  - type: expression
-    designation: Tail tube (of a buoy)/es
-    normative_status: preferred
   definition:
   - content: |-
       Cola de la boya
 
       Tubo central bajo del cuerpo de la boya.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Tail tube (of a buoy)/es
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)/es
+termid: 8-4-140
+id: b27afa10-da44-5a20-8f1f-b73385927f4c

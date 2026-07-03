@@ -1,69 +1,43 @@
 ---
-id: 7-2-325
 data:
   identifier: 7-2-325
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Fishplate
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-325
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-325
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Fishplate
+  type: authoritative
+status: valid
+id: 7-2-325
 ---
-id: 7-2-325-eng
-termid: 7-2-325
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Fishplate
-    normative_status: preferred
-  - type: expression
-    designation: Splice plate
-    normative_status: admitted
   definition:
   - content: Rectangular plates for joining stanchions or timbers end to end.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fishplate
+  - type: expression
+    normative_status: admitted
+    designation: Splice plate
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fishplate
+termid: 7-2-325
+id: be4e5739-9b42-55c7-9621-929b1ea2c26d

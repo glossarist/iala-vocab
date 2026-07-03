@@ -1,67 +1,41 @@
 ---
-id: 7-4-120
 data:
   identifier: 7-4-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Breaking_(of_waves)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-4-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Breaking_(of_waves)
+  type: authoritative
+status: valid
+id: 7-4-120
 ---
-id: 7-4-120-eng
-termid: 7-4-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Breaking (of waves)
-    normative_status: preferred
   definition:
   - content: The destruction of the normal form of a wave. This can occur for example
       when it meets a solid object in its path, or arrives in shallow water.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Breaking (of waves)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Breaking_(of_waves)
+termid: 7-4-120
+id: 9f46ce05-d5d3-52f2-922d-9de3b35c8dac

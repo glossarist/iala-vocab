@@ -1,72 +1,46 @@
 ---
-id: 4-3-420
 data:
   identifier: 4-3-420
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Transponder
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-420
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-3-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-420
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-420
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Transponder
+  type: authoritative
+status: valid
+id: 4-3-420
 ---
-id: 4-3-420-eng
-termid: 4-3-420
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Transponder
-    normative_status: preferred
-  - type: expression
-    designation: Transponder beacon
-    normative_status: admitted
   definition:
   - content: |-
       A component of a secondary radar system which receives pulses from a radar set or interrogator, and, in response to the received pulse, transmits a pulse or sequence of pulses to enable the craft or beacon incorporating the transponder to be identified by the interrogating station.
 
       Step Sweet zacon Bacure eada a Ralaysafe fas a fas
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transponder
+  - type: expression
+    normative_status: admitted
+    designation: Transponder beacon
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transponder
+termid: 4-3-420
+id: 9006b93e-300c-5e58-aa2b-954baee31bdf

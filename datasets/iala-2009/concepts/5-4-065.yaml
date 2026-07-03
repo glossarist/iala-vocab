@@ -1,72 +1,46 @@
 ---
-id: 5-4-065
 data:
   identifier: 5-4-065
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Adder
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-4-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-065
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Adder
+  type: authoritative
+status: valid
+id: 5-4-065
 ---
-id: 5-4-065-eng
-termid: 5-4-065
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Adder
-    normative_status: preferred
   definition:
   - content: A device in which the output is a representation of the sum of the two
       or more quantities represented by the inputs.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.E.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Adder
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Adder
+termid: 5-4-065
+id: 6529410c-500b-5e05-97e3-493e47995e3a

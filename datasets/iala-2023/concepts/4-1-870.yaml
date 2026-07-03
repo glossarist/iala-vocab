@@ -1,72 +1,46 @@
 ---
-id: 4-1-870
 data:
   identifier: 4-1-870
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Diffraction_(2)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-870
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-870
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-870
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-870
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-870
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-870
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-870
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-870
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Diffraction_(2)
+  type: authoritative
+status: valid
+id: 4-1-870
 ---
-id: 4-1-870-eng
-termid: 4-1-870
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Diffraction (2)
-    normative_status: preferred
   definition:
   - content: Deviation of the direction of propagation of a radiation, determined
       by the wave nature of radiation and occurring when the radiation passes the
       edge of an obstruction.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Diffraction (2)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diffraction_(2)
+termid: 4-1-870
+id: 6a75ee2e-71c6-583e-ad60-b1c4e28a6f14

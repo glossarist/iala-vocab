@@ -1,67 +1,41 @@
 ---
-id: 2-2-120
 data:
   identifier: 2-2-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Profile_(of_a_lens,_other_than_a_fixed_lens)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-2-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Profile_(of_a_lens,_other_than_a_fixed_lens)
+  type: authoritative
+status: valid
+id: 2-2-120
 ---
-id: 2-2-120-eng
-termid: 2-2-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Profile (of a lens, other than a fixed lens)
-    normative_status: preferred
   definition:
   - content: The cross-section of the lens by a given plane containing the optical
       axis {{2-2-110, Optical Axis}}.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Profile (of a lens, other than a fixed lens)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Profile_(of_a_lens,_other_than_a_fixed_lens)
+termid: 2-2-120
+id: 3d61034d-0835-5e56-a9d7-20f46428f439

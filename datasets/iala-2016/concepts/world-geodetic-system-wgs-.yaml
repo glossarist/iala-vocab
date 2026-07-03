@@ -1,56 +1,25 @@
 ---
-id: world-geodetic-system-wgs-
 data:
   identifier: world-geodetic-system-wgs-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/World_geodetic_system_(WGS)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: world-geodetic-system-wgs-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: world-geodetic-system-wgs-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: world-geodetic-system-wgs-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: world-geodetic-system-wgs-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: world-geodetic-system-wgs-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: world-geodetic-system-wgs-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: world-geodetic-system-wgs-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/World_geodetic_system_(WGS)
+  type: authoritative
+status: valid
+id: world-geodetic-system-wgs-
 ---
-id: world-geodetic-system-wgs--eng
-termid: world-geodetic-system-wgs-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: World geodetic system (WGS)
-    normative_status: preferred
   definition:
   - content: |-
       A consistent set of parameters describing the size and shape of the Earth, positions of a network of points with respect to the centre of mass of the Earth, transformations from major geodetic datums and the potential of the Earth.
@@ -58,10 +27,19 @@ data:
       WGS 84. The coordinate system used by GPS.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: World geodetic system (WGS)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/World_geodetic_system_(WGS)
+termid: world-geodetic-system-wgs-
+id: caeb53f6-d2ce-5916-a0e5-028f3ed55ef1

@@ -1,71 +1,45 @@
 ---
-id: 1-2-265
 data:
   identifier: 1-2-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Quay
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 1-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Quay
+  type: authoritative
+status: valid
+id: 1-2-265
 ---
-id: 1-2-265-eng
-termid: 1-2-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Quay
-    normative_status: preferred
-  - type: expression
-    designation: Wharf
-    normative_status: admitted
   definition:
   - content: A construction along a coast or a bank intended to strengthen it, which
       also permits berthing for ships and which is generally provided with cargo-handling
       facilities.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Quay
+  - type: expression
+    normative_status: admitted
+    designation: Wharf
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Quay
+termid: 1-2-265
+id: 935d9dba-3d09-57a7-9549-6e84ec18fd8b

@@ -1,71 +1,45 @@
 ---
-id: 5-2-305
 data:
   identifier: 5-2-305
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Proportional_plus_derivative_action
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-305
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-305
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-305
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-305
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-305
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-2-305
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-305
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-305
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Proportional_plus_derivative_action
+  type: authoritative
+status: valid
+id: 5-2-305
 ---
-id: 5-2-305-eng
-termid: 5-2-305
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Proportional plus derivative action
-    normative_status: preferred
   definition:
   - content: Control action in which the output is proportional to a linear combination
       of the input and the time rate of change of input.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Proportional plus derivative action
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Proportional_plus_derivative_action
+termid: 5-2-305
+id: 16a44d11-5917-53ec-a53f-73e728a57b66

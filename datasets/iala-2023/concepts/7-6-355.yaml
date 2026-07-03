@@ -1,66 +1,40 @@
 ---
-id: 7-6-355
 data:
   identifier: 7-6-355
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Jib_(2)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-355
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 7-6-355
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Jib_(2)
+  type: authoritative
+status: valid
+id: 7-6-355
 ---
-id: 7-6-355-eng
-termid: 7-6-355
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Jib (2)
-    normative_status: preferred
   definition:
   - content: The lifting arm of a crane or derrick.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Jib (2)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Jib_(2)
+termid: 7-6-355
+id: 14306baa-b0fc-5265-a0c9-b541787cd12f

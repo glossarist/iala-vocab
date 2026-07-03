@@ -1,67 +1,41 @@
 ---
-id: 6-2-060
 data:
   identifier: 6-2-060
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Air-cooled_engine
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-060
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-2-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-2-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-060
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Air-cooled_engine
+  type: authoritative
+status: valid
+id: 6-2-060
 ---
-id: 6-2-060-eng
-termid: 6-2-060
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Air-cooled engine
-    normative_status: preferred
   definition:
   - content: An engine cooled by air blowing across cooling fins formed externally
       to each cylinder block. The air flow may be enhanced by a fan.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Air-cooled engine
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Air-cooled_engine
+termid: 6-2-060
+id: ae214193-8a10-5286-93e0-f851c307e984

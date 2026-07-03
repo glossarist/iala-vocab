@@ -1,60 +1,25 @@
 ---
-id: 4-2-025
 data:
   identifier: 4-2-025
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Types_of_service
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-025
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-025
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Types_of_service
+  type: authoritative
+status: valid
+id: 4-2-025
 ---
-id: 4-2-025-eng
-termid: 4-2-025
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Types of service
-    normative_status: preferred
   definition:
   - content: |-
       1. Beacon service
@@ -72,20 +37,29 @@ data:
       4. Calibration service
 
       A service provided for the purpose of calibration of direction finders.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: A.L.R.S
+    type: authoritative
     modification: modified from source
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: A.L.R.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Types of service
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Types_of_service
+termid: 4-2-025
+id: 1187806c-8fea-57b5-9040-79fce8a01079

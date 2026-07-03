@@ -1,67 +1,41 @@
 ---
-id: 6-2-125
 data:
   identifier: 6-2-125
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bedplate
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-2-125
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-125
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bedplate
+  type: authoritative
+status: valid
+id: 6-2-125
 ---
-id: 6-2-125-eng
-termid: 6-2-125
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bedplate
-    normative_status: preferred
   definition:
   - content: A plate or frame, usually of steel or cast iron, upon which an engine
       or other machine rests and to which it is attached.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bedplate
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bedplate
+termid: 6-2-125
+id: a8903e0f-e73c-5a3c-b5f2-cf4bf77b7371

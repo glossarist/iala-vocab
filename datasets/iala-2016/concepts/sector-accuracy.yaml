@@ -13,23 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Sector_Accuracy
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: sector-accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: sector-accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: sector-accuracy
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: sector-accuracy
+related: []
 ---
 id: sector-accuracy-eng
 termid: sector-accuracy

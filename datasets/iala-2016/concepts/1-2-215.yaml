@@ -1,71 +1,45 @@
 ---
-id: 1-2-215
 data:
   identifier: 1-2-215
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reef
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-215
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 1-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-215
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reef
+  type: authoritative
+status: valid
+id: 1-2-215
 ---
-id: 1-2-215-eng
-termid: 1-2-215
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reef
-    normative_status: preferred
   definition:
   - content: A long rocky or coral formation mainly close enough to the surface of
       the sea to be a danger to vessels.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.H.B
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reef
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reef
+termid: 1-2-215
+id: c4fcb15e-8020-5cb6-b99c-eebd5d675632

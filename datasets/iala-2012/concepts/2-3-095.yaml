@@ -1,60 +1,25 @@
 ---
-id: 2-3-095
 data:
   identifier: 2-3-095
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Filament_Support
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-095
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-095
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-095
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-095
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Filament_Support
+  type: authoritative
+status: valid
+id: 2-3-095
 ---
-id: 2-3-095-eng
-termid: 2-3-095
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Filament Support
-    normative_status: preferred
   definition:
   - content: |-
       (Filament) Support
@@ -62,27 +27,56 @@ data:
       A metal wire used to support a filament of a lamp.
 
       ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Filament Support
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament_Support
----
-id: 2-3-095-spa
 termid: 2-3-095
+id: a6ecf3b0-9d49-5345-97f3-d31432ce6164
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Soporte del filamento
+
+      Alambre de metal utilizado como soporte del filamento de una lámpara.
+
+      ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
+
+      Referencia: C.I.E.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Filament Support/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament_Support/es
+termid: 2-3-095
+id: 764337bd-9660-52d2-9c47-691e021936b7
+---
+data:
   definition:
   - content: |-
       Soporte del filamento
@@ -92,35 +86,19 @@ data:
       ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
 
       Referencia: C.I.E.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament_Support/es
----
-id: 2-3-095-spa
-termid: 2-3-095
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 2-3-095
     normative_status: preferred
-  definition:
-  - content: |-
-      Soporte del filamento
-
-      Alambre de metal utilizado como soporte del filamento de una lámpara.
-
-      ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
-
-      Referencia: C.I.E.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 2-3-095
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament_Support/es
+termid: 2-3-095
+id: ef6f5446-0a38-5f9e-9e15-fdeb13c238be

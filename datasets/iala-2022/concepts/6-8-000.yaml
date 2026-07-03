@@ -1,67 +1,41 @@
 ---
-id: 6-8-000
 data:
   identifier: 6-8-000
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Utilisation_of_energy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-8-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-000
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-8-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-000
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Utilisation_of_energy
+  type: authoritative
+status: valid
+id: 6-8-000
 ---
-id: 6-8-000-eng
-termid: 6-8-000
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Utilisation of energy
-    normative_status: preferred
   definition:
   - content: The intentional use of one kind of energy to produce another kind of
       energy.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Utilisation of energy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Utilisation_of_energy
+termid: 6-8-000
+id: 23bb09e0-a6cb-5194-97f5-9375bee6ec76

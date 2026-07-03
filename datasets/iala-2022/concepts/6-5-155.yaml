@@ -1,67 +1,41 @@
 ---
-id: 6-5-155
 data:
   identifier: 6-5-155
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Storage_life
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-155
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-5-155
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-5-155
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Storage_life
+  type: authoritative
+status: valid
+id: 6-5-155
 ---
-id: 6-5-155-eng
-termid: 6-5-155
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Storage life
-    normative_status: preferred
   definition:
   - content: The duration of storage under specified conditions at the end of which
       a battery retains its ability to give a specified performance.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Storage life
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Storage_life
+termid: 6-5-155
+id: 3151fd9a-681e-5e1f-9796-d7f578d94653

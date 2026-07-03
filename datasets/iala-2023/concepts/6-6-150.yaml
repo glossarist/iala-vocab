@@ -1,66 +1,40 @@
 ---
-id: 6-6-150
 data:
   identifier: 6-6-150
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Junction_box
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-6-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-6-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-6-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-6-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-6-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-6-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-6-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-6-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Junction_box
+  type: authoritative
+status: valid
+id: 6-6-150
 ---
-id: 6-6-150-eng
-termid: 6-6-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Junction box
-    normative_status: preferred
   definition:
   - content: A protected or enclosed device which is used for making one or more junctions.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Junction box
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Junction_box
+termid: 6-6-150
+id: a3ee2d16-5e5d-52e5-8004-874dc1b9f70c

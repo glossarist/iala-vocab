@@ -1,67 +1,41 @@
 ---
-id: 7-5-260
 data:
   identifier: 7-5-260
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Hogging_moment
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-260
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-5-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-260
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-260
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Hogging_moment
+  type: authoritative
+status: valid
+id: 7-5-260
 ---
-id: 7-5-260-eng
-termid: 7-5-260
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Hogging moment
-    normative_status: preferred
   definition:
   - content: Negative bending moment in a beam causing an upward deflection between
       the supports.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Hogging moment
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hogging_moment
+termid: 7-5-260
+id: 49fc365b-8d72-5f24-8a32-61272fa69dd3

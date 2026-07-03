@@ -1,67 +1,41 @@
 ---
-id: 6-8-135
 data:
   identifier: 6-8-135
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Overload_protection
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-135
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-8-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-135
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Overload_protection
+  type: authoritative
+status: valid
+id: 6-8-135
 ---
-id: 6-8-135-eng
-termid: 6-8-135
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Overload protection
-    normative_status: preferred
   definition:
   - content: Protection designed to operate when a given value of overload is exceeded,
       typically when the current in a circuit exceeds a given value.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Overload protection
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Overload_protection
+termid: 6-8-135
+id: f25995b9-f8f7-5db6-85b3-871a23f73083

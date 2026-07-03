@@ -1,73 +1,47 @@
 ---
-id: 5-3-560
 data:
   identifier: 5-3-560
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Real_time_processing
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-560
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 5-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-560
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Real_time_processing
+  type: authoritative
+status: valid
+id: 5-3-560
 ---
-id: 5-3-560-eng
-termid: 5-3-560
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Real time processing
-    normative_status: preferred
   definition:
   - content: The performance of a computation during the time that the related physical
       process actually transpires in order that the results of the computation can
       be used in guiding the physical process.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Real time processing
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Real_time_processing
+termid: 5-3-560
+id: 16430f80-9a3d-5cdb-ac67-6447e038d536

@@ -1,36 +1,25 @@
 ---
-id: surface-colour
 data:
   identifier: surface-colour
   domains:
-  - source: urn:iala:dictionary:iala-2018
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2018
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Surface_Colour
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: surface-colour
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: surface-colour
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Surface_Colour
+  type: authoritative
+status: valid
+id: surface-colour
 ---
-id: surface-colour-eng
-termid: surface-colour
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Surface Colour
-    normative_status: preferred
   definition:
   - content: |-
       A surface colour is a colour perceived to belong to a surface.
@@ -40,10 +29,19 @@ data:
       Other kinds of colours include fluorescent (or luminescent) colours, transilluminated colours (for example, the colours of internally illuminated panels) and the colours of retro-reflecting materials.
 
       Source: ENG7, Guideline G1134 (2017)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Surface Colour
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Surface_Colour
+termid: surface-colour
+id: d1591059-22f2-502b-8792-1bb93a75452e

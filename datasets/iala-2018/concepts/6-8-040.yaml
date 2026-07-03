@@ -1,67 +1,41 @@
 ---
-id: 6-8-040
 data:
   identifier: 6-8-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Off-peak_power
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-8-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-040
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 6-8-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Off-peak_power
+  type: authoritative
+status: valid
+id: 6-8-040
 ---
-id: 6-8-040-eng
-termid: 6-8-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Off-peak power
-    normative_status: preferred
   definition:
   - content: The power delivered in a designated interval of time during which the
       load is low.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Off-peak power
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Off-peak_power
+termid: 6-8-040
+id: '0976d518-5214-5ad9-8e21-7b0bb3dfdb27'

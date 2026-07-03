@@ -1,67 +1,41 @@
 ---
-id: 7-6-525
 data:
   identifier: 7-6-525
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sacrificial_anode
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-6-525
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-6-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-525
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-525
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sacrificial_anode
+  type: authoritative
+status: valid
+id: 7-6-525
 ---
-id: 7-6-525-eng
-termid: 7-6-525
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sacrificial anode
-    normative_status: preferred
   definition:
   - content: Replaceable electrode used in cathodic protection which decays in preference
       to the protected structure.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sacrificial anode
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sacrificial_anode
+termid: 7-6-525
+id: c2732f47-8869-5580-b473-5c94bc84b0ea

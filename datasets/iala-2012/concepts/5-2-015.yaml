@@ -1,66 +1,40 @@
 ---
-id: 5-2-015
 data:
   identifier: 5-2-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Station_control
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 5-2-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Station_control
+  type: authoritative
+status: valid
+id: 5-2-015
 ---
-id: 5-2-015-eng
-termid: 5-2-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Station control
-    normative_status: preferred
   definition:
   - content: The controlling of more than one apparatus from a centralized point.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Station control
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Station_control
+termid: 5-2-015
+id: 213a92b6-3e6d-508e-9cfc-36c4626ebc11

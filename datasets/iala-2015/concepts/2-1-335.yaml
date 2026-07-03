@@ -1,75 +1,48 @@
 ---
-id: 2-1-335
 data:
   identifier: 2-1-335
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Scotopic_Vision
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-335
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-335
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Scotopic_Vision
+  type: authoritative
+status: valid
+id: 2-1-335
 ---
-id: 2-1-335-eng
-termid: 2-1-335
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Scotopic Vision
-    normative_status: preferred
   definition:
   - content: Vision by the normal eye when adapted to levels of luminance below some
       hundredths of a candela per square metre.
+  examples: []
   notes:
   - content: The rod receptors in the retina are considered to be the principal active
       elements under these conditions. The spectrum appears uncoloured and the maximum
       luminous efficiency is shifted to a shorter wavelength than in photopic vision.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Scotopic Vision
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Scotopic_Vision
+termid: 2-1-335
+id: 95185bf1-5197-5d11-991d-3cfe98300108

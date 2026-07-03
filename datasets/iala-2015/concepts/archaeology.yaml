@@ -1,69 +1,47 @@
 ---
-id: archaeology
 data:
   identifier: archaeology
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-12
+  - concept_id: section-12
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Archaeology
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: archaeology
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: archaeology
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: archaeology
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: archaeology
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: archaeology
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: archaeology
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: archaeology
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Archaeology
+  type: authoritative
+status: valid
+id: archaeology
 ---
-id: archaeology-eng
-termid: archaeology
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Archaeology
-    normative_status: preferred
   definition:
   - content: |-
       Scientific study and interpretation of the past, based on the uncovering, retrieval, recording and interpretation of information from physical evidence.
 
       (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: Stirlingcharter
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Archaeology
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Archaeology
+termid: archaeology
+id: 49bf474b-d9a4-5d5e-a4f3-ccfd7f7f8c67

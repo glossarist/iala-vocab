@@ -1,70 +1,44 @@
 ---
-id: 3-1-015
 data:
   identifier: 3-1-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Warble_tone
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-015
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 3-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-1-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Warble_tone
+  type: authoritative
+status: valid
+id: 3-1-015
 ---
-id: 3-1-015-eng
-termid: 3-1-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Warble tone
-    normative_status: preferred
   definition:
   - content: A tone whose frequency varies periodically about a mean value.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Warble tone
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Warble_tone
+termid: 3-1-015
+id: a397da76-df9b-510e-bc0d-da906f522fd7

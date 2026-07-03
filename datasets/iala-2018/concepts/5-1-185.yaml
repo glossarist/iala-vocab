@@ -1,67 +1,41 @@
 ---
-id: 5-1-185
 data:
   identifier: 5-1-185
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Module
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-1-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-1-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-1-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-1-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-1-185
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-1-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-1-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-1-185
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Module
+  type: authoritative
+status: valid
+id: 5-1-185
 ---
-id: 5-1-185-eng
-termid: 5-1-185
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Module
-    normative_status: preferred
   definition:
   - content: Of an equipment, a subassembly which can usually be replaced in situ
       for the purpose of repairing the equipment.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Module
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Module
+termid: 5-1-185
+id: 1cda52d9-f22e-5200-8e42-eb193ec219c2

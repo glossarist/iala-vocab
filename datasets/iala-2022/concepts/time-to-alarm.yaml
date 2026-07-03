@@ -1,65 +1,43 @@
 ---
-id: time-to-alarm
 data:
   identifier: time-to-alarm
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Time_to_alarm
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: time-to-alarm
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: time-to-alarm
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: time-to-alarm
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: time-to-alarm
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: time-to-alarm
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: time-to-alarm
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: time-to-alarm
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Time_to_alarm
+  type: authoritative
+status: valid
+id: time-to-alarm
 ---
-id: time-to-alarm-eng
-termid: time-to-alarm
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Time to alarm
-    normative_status: preferred
   definition:
   - content: |-
       The time elapsed between the occurrence of a failure in the system and its presentation on the bridge.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Time to alarm
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Time_to_alarm
+termid: time-to-alarm
+id: 560b85bc-7639-5492-be79-214c66e0be89

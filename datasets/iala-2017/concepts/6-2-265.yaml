@@ -1,71 +1,45 @@
 ---
-id: 6-2-265
 data:
   identifier: 6-2-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pressure-relief_valve
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-2-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pressure-relief_valve
+  type: authoritative
+status: valid
+id: 6-2-265
 ---
-id: 6-2-265-eng
-termid: 6-2-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pressure-relief valve
-    normative_status: preferred
-  - type: expression
-    designation: Safety valve
-    normative_status: admitted
   definition:
   - content: A device that allows air (or other gas) under pressure to escape to the
       atmosphere, when the pressure exceeds a given value. The device is controlled
       by either a spring or a weight.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pressure-relief valve
+  - type: expression
+    normative_status: admitted
+    designation: Safety valve
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pressure-relief_valve
+termid: 6-2-265
+id: 4aa897af-4755-5f3f-933d-9870f2fce764

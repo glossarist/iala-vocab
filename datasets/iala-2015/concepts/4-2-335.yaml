@@ -1,74 +1,47 @@
 ---
-id: 4-2-335
 data:
   identifier: 4-2-335
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Re-radiation_error
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-335
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-2-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-335
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-335
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Re-radiation_error
+  type: authoritative
+status: valid
+id: 4-2-335
 ---
-id: 4-2-335-eng
-termid: 4-2-335
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Re-radiation error
-    normative_status: preferred
   definition:
   - content: A form of site error caused by re-radiation from adjacent conducting
       objects and from loops formed by those objects.
+  examples: []
   notes:
   - content: This error is allowed for in calibration, provided the calibration takes
       account of frequency.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Re-radiation error
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Re-radiation_error
+termid: 4-2-335
+id: 7d921d8c-a226-5953-b184-59c3eecdb33c

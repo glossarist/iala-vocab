@@ -1,69 +1,43 @@
 ---
-id: 7-2-565
 data:
   identifier: 7-2-565
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Rebate
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-565
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-2-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-565
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-565
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Rebate
+  type: authoritative
+status: valid
+id: 7-2-565
 ---
-id: 7-2-565-eng
-termid: 7-2-565
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Rebate
-    normative_status: preferred
-  - type: expression
-    designation: Rabbet
-    normative_status: admitted
   definition:
   - content: Recess cut into a frame to receive a door leaf or window casement.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rebate
+  - type: expression
+    normative_status: admitted
+    designation: Rabbet
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rebate
+termid: 7-2-565
+id: 4e545af0-b208-5f77-ad60-d8e2a4c198dc

@@ -1,69 +1,43 @@
 ---
-id: 2-4-120
 data:
   identifier: 2-4-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Revolving_Screen
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-4-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-4-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-4-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Revolving_Screen
+  type: authoritative
+status: valid
+id: 2-4-120
 ---
-id: 2-4-120-eng
-termid: 2-4-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Revolving Screen
-    normative_status: preferred
   definition:
   - content: |-
       An opaque screen, usually of cylindrical form with apertures revolving about a vertical axis in such a way as to interrupt the light from a luminous source in an optic, and so to produce a desired rhythmic light.
 
       ![Ch2_Fig37.jpg](/iala-vocab/images/iala/Ch2_Fig37.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Revolving Screen
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Revolving_Screen
+termid: 2-4-120
+id: 71367740-bdfe-5769-8a22-886b9ece4f41

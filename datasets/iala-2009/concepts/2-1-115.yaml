@@ -1,68 +1,42 @@
 ---
-id: 2-1-115
 data:
   identifier: 2-1-115
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Image
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 2-1-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-115
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Image
+  type: authoritative
+status: valid
+id: 2-1-115
 ---
-id: 2-1-115-eng
-termid: 2-1-115
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Image
-    normative_status: preferred
   definition:
   - content: The representation of any illuminated object, resulting from the convergence
       or divergence of light rays emanating from that object, when they have been
       refracted or reflected by optical apparatus.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Image
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Image
+termid: 2-1-115
+id: 01427a36-50da-507a-af7c-fea8ff2f669a

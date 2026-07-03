@@ -1,67 +1,41 @@
 ---
-id: 6-8-110
 data:
   identifier: 6-8-110
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Total_earthing_resistance
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-8-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-8-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-8-110
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-8-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-110
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Total_earthing_resistance
+  type: authoritative
+status: valid
+id: 6-8-110
 ---
-id: 6-8-110-eng
-termid: 6-8-110
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Total earthing resistance
-    normative_status: preferred
   definition:
   - content: The electrical resistance between an apparatus or installation and the
       earth.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Total earthing resistance
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Total_earthing_resistance
+termid: 6-8-110
+id: 5a05b7fd-c110-564a-9c33-cd6636b385b0

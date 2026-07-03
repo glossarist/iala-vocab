@@ -1,60 +1,25 @@
 ---
-id: 5-4-130
 data:
   identifier: 5-4-130
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Synchro_resolver
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-130
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 5-4-130
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Synchro_resolver
+  type: authoritative
+status: valid
+id: 5-4-130
 ---
-id: 5-4-130-eng
-termid: 5-4-130
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Synchro resolver
-    normative_status: preferred
   definition:
   - content: |-
       Magslip resolver
@@ -62,15 +27,24 @@ data:
       Resolver
 
       A synchro used as a calculating element in the special case of two output signals corresponding to the sine and cosine of the synchro angle and to the value of the input signal. Conversely, a synchro resolver may be used to transmit an output signal obtained by compounding two input signals respectively proportional to the sine and cosine of the synchro angle.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Synchro resolver
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Synchro_resolver
+termid: 5-4-130
+id: 8efde1ed-b39f-5362-827a-61b42c3396f7

@@ -1,65 +1,43 @@
 ---
-id: root-mean-square-error-rms-
 data:
   identifier: root-mean-square-error-rms-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Root_mean_square_error_(RMS)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: root-mean-square-error-rms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: root-mean-square-error-rms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: root-mean-square-error-rms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: root-mean-square-error-rms-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: root-mean-square-error-rms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: root-mean-square-error-rms-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: root-mean-square-error-rms-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Root_mean_square_error_(RMS)
+  type: authoritative
+status: valid
+id: root-mean-square-error-rms-
 ---
-id: root-mean-square-error-rms--eng
-termid: root-mean-square-error-rms-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Root mean square error (RMS)
-    normative_status: preferred
   definition:
   - content: |-
       A means of expressing the variability of a measurement in one dimension – by summing the squares of the errors, dividing by the number of observations and taking the square root. In this one-dimensional case, the RMS error is also an estimate of the standard deviation of the errors.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Root mean square error (RMS)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Root_mean_square_error_(RMS)
+termid: root-mean-square-error-rms-
+id: 55ca2a31-3516-53de-9440-d2c0585c0833

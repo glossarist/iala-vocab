@@ -1,62 +1,40 @@
 ---
-id: mean-time-to-repair-restore-mttr-
 data:
   identifier: mean-time-to-repair-restore-mttr-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Mean_Time_To_Repair/Restore_(MTTR)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: mean-time-to-repair-restore-mttr-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: mean-time-to-repair-restore-mttr-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: mean-time-to-repair-restore-mttr-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: mean-time-to-repair-restore-mttr-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: mean-time-to-repair-restore-mttr-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: mean-time-to-repair-restore-mttr-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: mean-time-to-repair-restore-mttr-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Mean_Time_To_Repair/Restore_(MTTR)
+  type: authoritative
+status: valid
+id: mean-time-to-repair-restore-mttr-
 ---
-id: mean-time-to-repair-restore-mttr--eng
-termid: mean-time-to-repair-restore-mttr-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Mean Time To Repair/Restore (MTTR)
-    normative_status: preferred
   definition:
   - content: The average time taken to repair or restore a system to correct operation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Mean Time To Repair/Restore (MTTR)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mean_Time_To_Repair/Restore_(MTTR)
+termid: mean-time-to-repair-restore-mttr-
+id: 622ce177-8b26-590e-be20-2cce22491d7f

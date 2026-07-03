@@ -1,71 +1,45 @@
 ---
-id: 8-5-135
 data:
   identifier: 8-5-135
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Kenter_shackle
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-5-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-5-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-5-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-5-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-5-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-5-135
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 8-5-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-5-135
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Kenter_shackle
+  type: authoritative
+status: valid
+id: 8-5-135
 ---
-id: 8-5-135-eng
-termid: 8-5-135
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Kenter shackle
-    normative_status: preferred
-  - type: expression
-    designation: Detachable link
-    normative_status: admitted
   definition:
   - content: A stud link in three parts that can be opened by removing a diagonal
       pin that runs through the stud and the other two parts of the shackle. Used
       for connecting chains or replacing faulty links.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Kenter shackle
+  - type: expression
+    normative_status: admitted
+    designation: Detachable link
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Kenter_shackle
+termid: 8-5-135
+id: fee5da28-9c36-50f4-b991-2a36a13f3226

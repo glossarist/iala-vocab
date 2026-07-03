@@ -1,63 +1,25 @@
 ---
-id: 4-2-010
 data:
   identifier: 4-2-010
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_range
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 4-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_range
+  type: authoritative
+status: valid
+id: 4-2-010
 ---
-id: 4-2-010-eng
-termid: 4-2-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radio beacon range
-    normative_status: preferred
-  - type: expression
-    designation: Nominal range (of a radio beacon)
-    normative_status: admitted
   definition:
   - content: |-
       The nominal daytime range for maritime applications at which the field strength expressed in microvoltter metre reaches the value laid down for the particular region in which the radio beacon is operating.
@@ -85,12 +47,23 @@ data:
       75 microvolts per metre for radio beacons North of 40 degrees N.
       100 microvolts per metre for radio beacons between 40 degrees N and 50 degrees S.
       75 microvolts per metre for radio beacons South of 50 degrees S.
+  examples: []
   notes:
   - content: 'The values as laid down by the Reference: I.T.U. Regulations are'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radio beacon range
+  - type: expression
+    normative_status: admitted
+    designation: Nominal range (of a radio beacon)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_range
+termid: 4-2-010
+id: ccfa557d-8fa1-5904-8c8e-d6e53b2b1299

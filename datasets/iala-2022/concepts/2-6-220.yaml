@@ -1,60 +1,25 @@
 ---
-id: 2-6-220
 data:
   identifier: 2-6-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bake_buoy
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-6-220
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-6-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-6-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bake_buoy
+  type: authoritative
+status: valid
+id: 2-6-220
 ---
-id: 2-6-220-eng
-termid: 2-6-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bake buoy
-    normative_status: preferred
   definition:
   - content: |-
       A buoy having a superstructure in the shape described by the German term "Bake" {{2-6-035, Easily recognizable structure}}.
@@ -62,10 +27,19 @@ data:
       This term includes lighted buoys, whistle buoys and bell buoys.
 
       ![Ch2_Fig60.jpg](/iala-vocab/images/iala/Ch2_Fig60.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bake buoy
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bake_buoy
+termid: 2-6-220
+id: 1a399f52-c498-5ca4-b6db-59cb86811d55

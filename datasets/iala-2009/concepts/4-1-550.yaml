@@ -1,73 +1,47 @@
 ---
-id: 4-1-550
 data:
   identifier: 4-1-550
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reflector
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-1-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-550
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-550
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reflector
+  type: authoritative
+status: valid
+id: 4-1-550
 ---
-id: 4-1-550-eng
-termid: 4-1-550
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reflector
-    normative_status: preferred
   definition:
   - content: A secondary radiator, or an array of secondary radiators, or a reflecting
       surface placed behind a primary radiator, an array of primary radiators, or
       a feed, in order to increase forward and reduce backward radiation from the
       antenna.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reflector
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reflector
+termid: 4-1-550
+id: b3427d19-f06f-5a07-9bbc-efc07ff28163

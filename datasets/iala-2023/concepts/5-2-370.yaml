@@ -1,60 +1,25 @@
 ---
-id: 5-2-370
 data:
   identifier: 5-2-370
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Rise_time
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-370
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 5-2-370
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Rise_time
+  type: authoritative
+status: valid
+id: 5-2-370
 ---
-id: 5-2-370-eng
-termid: 5-2-370
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Rise time
-    normative_status: preferred
   definition:
   - content: |-
       The time required for the output of a system to make the change from a small specified percentage (often 5 to 10%) to a large specified percentage (often 90 to 95%) of the steady-state value either before overshoot or in the absence of overshoot.
@@ -62,18 +27,26 @@ data:
       ![Ch5_Fig3.jpg](/iala-vocab/images/iala/Ch5_Fig3.jpg)
 
       Figure 3 - Typical time response of a system to a step increase of input.
+  examples: []
   notes:
   - content: 'Note:: If the term is unqualified, response to a step change is understood;
       otherwise the pattern and magnitude of the stimulus should be specified.'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rise time
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rise_time
+termid: 5-2-370
+id: 67db1c09-4aa7-5847-a3fd-e5dda8baaf7d

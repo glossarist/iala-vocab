@@ -1,68 +1,42 @@
 ---
-id: 6-4-080
 data:
   identifier: 6-4-080
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Slip_(of_an_asynchronous_machine)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-080
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-4-080
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Slip_(of_an_asynchronous_machine)
+  type: authoritative
+status: valid
+id: 6-4-080
 ---
-id: 6-4-080-eng
-termid: 6-4-080
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Slip (of an asynchronous machine)
-    normative_status: preferred
   definition:
   - content: A measure of the amount by which the actual speed of rotation of the
       field is less than the synchronous speed. It may be expressed as the difference
       of the speeds, or as the ratio of this difference to the synchronous speed.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Slip (of an asynchronous machine)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Slip_(of_an_asynchronous_machine)
+termid: 6-4-080
+id: 2635333c-186a-51e5-a404-22276cee7949

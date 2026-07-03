@@ -1,110 +1,88 @@
 ---
-id: 6-3-360
 data:
   identifier: 6-3-360
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Acetylene
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-360
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-360
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-360
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Acetylene
+  type: authoritative
+status: valid
+id: 6-3-360
 ---
-id: 6-3-360-eng
-termid: 6-3-360
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Acetylene
-    normative_status: preferred
   definition:
   - content: A hydrocarbon fuel, C2H2, which is a colourless, highly flammable gas
       at ordinary temperatures and atmospheric pressure. It is principally used as
       an illuminant for signal lights, either with or without a mantle.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Acetylene
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acetylene
----
-id: 6-3-360-spa
 termid: 6-3-360
+id: '06866f85-42fe-53b9-bb58-1fdbc20d8a2c'
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Acetileno
+
+      Combustible de hidrocarburo, C2H2, gas incoloro y altamente inflamable a temperaturas  y presión atmosférica normales. Se utilizaba  como iluminante en señales luminosas con o sin capillo.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Acetylene/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acetylene/es
+termid: 6-3-360
+id: 4f7b4763-47c6-587b-8a00-4e3b64063f07
+---
+data:
   definition:
   - content: |-
       Acetileno
 
       Combustible de hidrocarburo, C2H2, gas incoloro y altamente inflamable a temperaturas  y presión atmosférica normales. Se utilizaba  como iluminante en señales luminosas con o sin capillo.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acetylene/es
----
-id: 6-3-360-spa
-termid: 6-3-360
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 6-3-360
     normative_status: preferred
-  definition:
-  - content: |-
-      Acetileno
-
-      Combustible de hidrocarburo, C2H2, gas incoloro y altamente inflamable a temperaturas  y presión atmosférica normales. Se utilizaba  como iluminante en señales luminosas con o sin capillo.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 6-3-360
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acetylene/es
+termid: 6-3-360
+id: a355fc1f-52a2-5261-a605-b66d8252a8c7

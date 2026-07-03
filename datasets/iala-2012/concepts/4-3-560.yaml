@@ -1,67 +1,41 @@
 ---
-id: 4-3-560
 data:
   identifier: 4-3-560
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radar_reflector_response_pattern
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-560
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-560
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-560
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radar_reflector_response_pattern
+  type: authoritative
+status: valid
+id: 4-3-560
 ---
-id: 4-3-560-eng
-termid: 4-3-560
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radar reflector response pattern
-    normative_status: preferred
   definition:
   - content: A diagram relating the strength of the reflected energy to the direction
       relative to the reflector.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radar reflector response pattern
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radar_reflector_response_pattern
+termid: 4-3-560
+id: 6ba4c8a4-e317-5e7e-928b-79b83e56e654

@@ -1,75 +1,49 @@
 ---
-id: 5-2-165
 data:
   identifier: 5-2-165
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Final_controlled_variable
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-2-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-2-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-2-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-165
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Final_controlled_variable
+  type: authoritative
+status: valid
+id: 5-2-165
 ---
-id: 5-2-165-eng
-termid: 5-2-165
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Final controlled variable
-    normative_status: preferred
-  - type: expression
-    designation: Ultimately controlled variable (U.S.A.)
-    normative_status: admitted
   definition:
   - content: For a controlled system, a variable, the control of which is the ultimate
       purpose of the system.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Final controlled variable
+  - type: expression
+    normative_status: admitted
+    designation: Ultimately controlled variable (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Final_controlled_variable
+termid: 5-2-165
+id: 1f211c4e-df4b-503e-bd7f-e3d9313dd296

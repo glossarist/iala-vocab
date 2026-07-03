@@ -1,71 +1,45 @@
 ---
-id: 4-1-910
 data:
   identifier: 4-1-910
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/M_profile
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-1-910
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-910
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-910
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-910
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-910
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-910
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-910
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-910
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/M_profile
+  type: authoritative
+status: valid
+id: 4-1-910
 ---
-id: 4-1-910-eng
-termid: 4-1-910
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: M profile
-    normative_status: preferred
   definition:
   - content: A plot of the modified refractive index versus height above the surface
       of the earth.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.C.I.R
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: M profile
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/M_profile
+termid: 4-1-910
+id: 924d939c-5100-5a80-a655-d70563f153e1

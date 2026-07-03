@@ -1,69 +1,42 @@
 ---
-id: 7-6-000
 data:
   identifier: 7-6-000
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ready-mixed_concrete
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-000
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-6-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-000
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ready-mixed_concrete
+  type: authoritative
+status: valid
+id: 7-6-000
 ---
-id: 7-6-000-eng
-termid: 7-6-000
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ready-mixed concrete
-    normative_status: preferred
   definition:
   - content: Concrete which is delivered to site ready for use.
+  examples: []
   notes:
   - content: The materials are loaded into a concrete mixer on the delivery vehicle
       at the suppliers, and mixed during the delivery journey.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ready-mixed concrete
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ready-mixed_concrete
+termid: 7-6-000
+id: df92cd3b-95c1-5628-87b0-7470cf998084

@@ -1,66 +1,40 @@
 ---
-id: 7-5-280
 data:
   identifier: 7-5-280
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Neutral_axis
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-280
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-5-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-280
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-280
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Neutral_axis
+  type: authoritative
+status: valid
+id: 7-5-280
 ---
-id: 7-5-280-eng
-termid: 7-5-280
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Neutral axis
-    normative_status: preferred
   definition:
   - content: The line of zero stress in a beam subject to bending.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Neutral axis
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Neutral_axis
+termid: 7-5-280
+id: f99d5fc0-b08d-596e-8151-218dd2c909f8

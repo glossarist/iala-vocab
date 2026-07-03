@@ -13,35 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Cross-track_error
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: cross-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: cross-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: cross-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: cross-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: cross-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: cross-track-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: cross-track-error
+related: []
 ---
 id: cross-track-error-eng
 termid: cross-track-error

@@ -1,72 +1,46 @@
 ---
-id: 5-3-365
 data:
   identifier: 5-3-365
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Binary
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-365
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 5-3-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-365
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Binary
+  type: authoritative
+status: valid
+id: 5-3-365
 ---
-id: 5-3-365-eng
-termid: 5-3-365
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Binary
-    normative_status: preferred
   definition:
   - content: A characteristic or property involving a selection, choice, or condition
       in which there are two possibilities.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Binary
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Binary
+termid: 5-3-365
+id: 7c6ab5d9-4784-5550-af65-1b0be05eff6e

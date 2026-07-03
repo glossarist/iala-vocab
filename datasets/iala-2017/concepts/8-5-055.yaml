@@ -1,69 +1,43 @@
 ---
-id: 8-5-055
 data:
   identifier: 8-5-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ground_chain
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-5-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-5-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-5-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-5-055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 8-5-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-5-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-5-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-5-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ground_chain
+  type: authoritative
+status: valid
+id: 8-5-055
 ---
-id: 8-5-055-eng
-termid: 8-5-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ground chain
-    normative_status: preferred
-  - type: expression
-    designation: Bottom chain
-    normative_status: admitted
   definition:
   - content: That part of a mooring chain that lies on the sea-bed.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ground chain
+  - type: expression
+    normative_status: admitted
+    designation: Bottom chain
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ground_chain
+termid: 8-5-055
+id: b0c13eaa-e228-51ea-96b1-b6dd1293d017

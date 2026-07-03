@@ -1,71 +1,45 @@
 ---
-id: 4-1-645
 data:
   identifier: 4-1-645
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/R.F._stage
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-645
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-645
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-645
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 4-1-645
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-645
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-645
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-645
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-645
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/R.F._stage
+  type: authoritative
+status: valid
+id: 4-1-645
 ---
-id: 4-1-645-eng
-termid: 4-1-645
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: R.F. stage
-    normative_status: preferred
-  - type: expression
-    designation: R.F. stage (of a radio transmitter)
-    normative_status: admitted
   definition:
   - content: That part of a radio transmitter in which the radio frequency signals
       are amplified.
   - content: This term is usually used to refer to the output stage of a transmitter.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: R.F. stage
+  - type: expression
+    normative_status: admitted
+    designation: R.F. stage (of a radio transmitter)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/R.F._stage
+termid: 4-1-645
+id: 33962058-f13a-583f-8b84-c493f8544acc

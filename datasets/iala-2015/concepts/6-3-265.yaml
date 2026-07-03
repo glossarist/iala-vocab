@@ -1,69 +1,43 @@
 ---
-id: 6-3-265
 data:
   identifier: 6-3-265
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Oscillating_water_column
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-265
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 6-3-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-3-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-265
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-265
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Oscillating_water_column
+  type: authoritative
+status: valid
+id: 6-3-265
 ---
-id: 6-3-265-eng
-termid: 6-3-265
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Oscillating water column
-    normative_status: preferred
   definition:
   - content: |-
       Acronym: OWC
 
       A form of wave-actuated generator that can be used on buoys, consisting of an inverted tube open to the sea at its base, within which the water column can oscillate and act as a piston forcing air through overhead valves into a low-pressure air turbine.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Oscillating water column
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oscillating_water_column
+termid: 6-3-265
+id: 73aa0bfb-d943-5d87-b3e7-e053e1063ec1

@@ -1,72 +1,46 @@
 ---
-id: 4-2-000
 data:
   identifier: 4-2-000
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_station
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-2-000
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-2-000
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-2-000
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_station
+  type: authoritative
+status: valid
+id: 4-2-000
 ---
-id: 4-2-000-eng
-termid: 4-2-000
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radio beacon station
-    normative_status: preferred
   definition:
   - content: A station in the radionavigation service, the emissions of which are
       intended to enable a mobile station to determine its bearing or direction in
       relation to the radio beacon station.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.T.U
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radio beacon station
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radio_beacon_station
+termid: 4-2-000
+id: 1e661f83-4b7e-56b2-9c5f-1060acc8f33e

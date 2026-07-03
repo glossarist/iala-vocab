@@ -1,71 +1,45 @@
 ---
-id: 5-3-210
 data:
   identifier: 5-3-210
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Linear_detection
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-210
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-3-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-210
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-210
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Linear_detection
+  type: authoritative
+status: valid
+id: 5-3-210
 ---
-id: 5-3-210-eng
-termid: 5-3-210
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Linear detection
-    normative_status: preferred
   definition:
   - content: Detection in which the output is proportional to the input over the useful
       range of the device.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Linear detection
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Linear_detection
+termid: 5-3-210
+id: f86d9767-c94d-51cf-a086-40cd6f2a6b43

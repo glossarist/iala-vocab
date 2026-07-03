@@ -1,66 +1,40 @@
 ---
-id: 7-6-045
 data:
   identifier: 7-6-045
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Shrinkage_(of_concrete)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-6-045
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-6-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-045
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Shrinkage_(of_concrete)
+  type: authoritative
+status: valid
+id: 7-6-045
 ---
-id: 7-6-045-eng
-termid: 7-6-045
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Shrinkage (of concrete)
-    normative_status: preferred
   definition:
   - content: Reduction in the volume of a concrete mass which occurs as it hardens.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Shrinkage (of concrete)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Shrinkage_(of_concrete)
+termid: 7-6-045
+id: dbb1153f-3f25-5947-862b-30414da1670e

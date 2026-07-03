@@ -1,56 +1,25 @@
 ---
-id: global-navigation-satellite-system-gnss-
 data:
   identifier: global-navigation-satellite-system-gnss-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Global_Navigation_Satellite_System_(GNSS)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: global-navigation-satellite-system-gnss-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: global-navigation-satellite-system-gnss-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: global-navigation-satellite-system-gnss-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: global-navigation-satellite-system-gnss-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: global-navigation-satellite-system-gnss-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: global-navigation-satellite-system-gnss-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: global-navigation-satellite-system-gnss-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Global_Navigation_Satellite_System_(GNSS)
+  type: authoritative
+status: valid
+id: global-navigation-satellite-system-gnss-
 ---
-id: global-navigation-satellite-system-gnss--eng
-termid: global-navigation-satellite-system-gnss-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Global Navigation Satellite System (GNSS)
-    normative_status: preferred
   definition:
   - content: |-
       A world-wide position, time and velocity radio determination system comprising space, ground and user segments.
@@ -64,10 +33,19 @@ data:
       GNSS service. The service relates to the properties of the signal in space provided by the space and ground segments of the GNSS.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Global Navigation Satellite System (GNSS)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Global_Navigation_Satellite_System_(GNSS)
+termid: global-navigation-satellite-system-gnss-
+id: c734fc9b-0b64-5bd2-b88a-e481b95e7814

@@ -1,74 +1,48 @@
 ---
-id: 4-4-150
 data:
   identifier: 4-4-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Decometer
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Decometer
+  type: authoritative
+status: valid
+id: 4-4-150
 ---
-id: 4-4-150-eng
-termid: 4-4-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Decometer
-    normative_status: preferred
   definition:
   - content: |-
       A phase-meter used for the display of Decca position-line information within a pattern.
 
       The readings of a decometer and the lane identification meter together determine the line of position on which the craft lies.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Decometer
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decometer
+termid: 4-4-150
+id: 70f0ea00-dd73-5bf4-83b3-fce0ef69d584

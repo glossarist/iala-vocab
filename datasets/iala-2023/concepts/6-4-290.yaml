@@ -1,68 +1,42 @@
 ---
-id: 6-4-290
 data:
   identifier: 6-4-290
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reactor-start_motor
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-4-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-4-290
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-4-290
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reactor-start_motor
+  type: authoritative
+status: valid
+id: 6-4-290
 ---
-id: 6-4-290-eng
-termid: 6-4-290
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reactor-start motor
-    normative_status: preferred
   definition:
   - content: A split-phase motor in which a reactor is normally connected in series
       with the main primary winding, and in which the auxiliary primary winding and
       the reactor are energised only during the starting operation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reactor-start motor
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reactor-start_motor
+termid: 6-4-290
+id: 45eee104-a0ec-5948-8fed-f0f6bfe786b9

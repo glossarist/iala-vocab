@@ -1,75 +1,49 @@
 ---
-id: 1-1-160
 data:
   identifier: 1-1-160
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Spectral_concentration
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-160
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 1-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-160
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-160
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Spectral_concentration
+  type: authoritative
+status: valid
+id: 1-1-160
 ---
-id: 1-1-160-eng
-termid: 1-1-160
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Spectral concentration
-    normative_status: preferred
-  - type: expression
-    designation: Spectral concentration (of a radiometric quantity radiant flux, radiant
-      intensity, etc.)
-    normative_status: admitted
   definition:
   - content: Quotient of the quantity, taken over an infinitesimal range on either
       side of a given wavelength, by the range.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E. (extract)
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Spectral concentration
+  - type: expression
+    normative_status: admitted
+    designation: Spectral concentration (of a radiometric quantity radiant flux, radiant
+      intensity, etc.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spectral_concentration
+termid: 1-1-160
+id: 5d2fcbf6-b90f-592d-894f-00bee248a4da

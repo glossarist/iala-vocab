@@ -1,52 +1,25 @@
 ---
-id: message-markers
 data:
   identifier: message-markers
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Message_Markers
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: message-markers
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: message-markers
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: message-markers
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: message-markers
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: message-markers
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: message-markers
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Message_Markers
+  type: authoritative
+status: valid
+id: message-markers
 ---
-id: message-markers-eng
-termid: message-markers
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Message Markers
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-20
@@ -65,10 +38,19 @@ data:
       Source: IMO A.918(22)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Message Markers
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Message_Markers
+termid: message-markers
+id: fa8cda33-08c9-507b-9fdb-c667eb7990b7

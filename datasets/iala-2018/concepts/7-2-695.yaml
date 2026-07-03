@@ -1,67 +1,41 @@
 ---
-id: 7-2-695
 data:
   identifier: 7-2-695
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Weight_tube
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-695
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-695
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-695
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-695
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-695
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-2-695
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-695
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-695
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Weight_tube
+  type: authoritative
+status: valid
+id: 7-2-695
 ---
-id: 7-2-695-eng
-termid: 7-2-695
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Weight tube
-    normative_status: preferred
   definition:
   - content: Tube running vertically through a lighthouse tower, usually centrally,
       up to the lantern level, which contains the weights for clockwork operated mechanisms.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Weight tube
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Weight_tube
+termid: 7-2-695
+id: bd521ba0-6849-5fda-a996-e4697042e163

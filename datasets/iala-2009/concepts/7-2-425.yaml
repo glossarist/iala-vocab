@@ -1,67 +1,41 @@
 ---
-id: 7-2-425
 data:
   identifier: 7-2-425
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_(of_a_load)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 7-2-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-425
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-425
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_(of_a_load)
+  type: authoritative
+status: valid
+id: 7-2-425
 ---
-id: 7-2-425-eng
-termid: 7-2-425
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bearing (of a load)
-    normative_status: preferred
   definition:
   - content: Particular device or part of a structure designed to support another
       structure.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bearing (of a load)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing_(of_a_load)
+termid: 7-2-425
+id: f5cf976f-5373-5093-81b3-2ddfbbae466b

@@ -1,69 +1,47 @@
 ---
-id: reconstruction
 data:
   identifier: reconstruction
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-12
+  - concept_id: section-12
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reconstruction
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: reconstruction
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: reconstruction
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reconstruction
+  type: authoritative
+status: valid
+id: reconstruction
 ---
-id: reconstruction-eng
-termid: reconstruction
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reconstruction
-    normative_status: preferred
   definition:
   - content: |-
       Re-establishment of what occurred or what existed in the past, on the basis of documentary or physical evidence.
 
       (This definition was noted at the IALA Seminar on the Practical Aspects of Lighthouse Preservation in Gothenburg 2005)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: Stirlingcharter
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reconstruction
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reconstruction
+termid: reconstruction
+id: 55528409-c374-53f6-a956-ee427a3e2769

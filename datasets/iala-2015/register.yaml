@@ -2,9 +2,18 @@
 schema_type: glossarist
 schema_version: '3'
 id: iala-2015
+ref: IALA Dictionary 2015 Revision
 year: 2015
 urn: urn:iala:dictionary:2015
-status: retired
+status: superseded
+owner: IALA
+sourceRepo: https://github.com/metanorma/iala-vocab
+tags:
+- maritime
+- aids-to-navigation
+- lighthouse
+- iala
+- dictionary
 languages:
 - eng
 - fra
@@ -16,6 +25,9 @@ languageOrder:
 - spa
 - deu
 ordering: systematic
+description:
+  eng: Cumulative state of the IALA Dictionary as of the 2015 Revision. Superseded
+    by the 2016 Revision. ~2,709 concepts.
 sections:
 - id: '0'
   names:

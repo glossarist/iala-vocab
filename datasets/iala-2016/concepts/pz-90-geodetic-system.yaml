@@ -1,65 +1,43 @@
 ---
-id: pz-90-geodetic-system
 data:
   identifier: pz-90-geodetic-system
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/PZ-90_geodetic_system
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: pz-90-geodetic-system
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: pz-90-geodetic-system
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: pz-90-geodetic-system
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: pz-90-geodetic-system
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: pz-90-geodetic-system
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: pz-90-geodetic-system
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: pz-90-geodetic-system
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/PZ-90_geodetic_system
+  type: authoritative
+status: valid
+id: pz-90-geodetic-system
 ---
-id: pz-90-geodetic-system-eng
-termid: pz-90-geodetic-system
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: PZ-90 geodetic system
-    normative_status: preferred
   definition:
   - content: |-
       A consistent set of parameters used in GLONASS describing the size and shape of the Earth, positions of a network of points with respect to the centre of mass of the Earth, transformations from major geodetic datums and the potential of the Earth, developed in 1990.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: PZ-90 geodetic system
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/PZ-90_geodetic_system
+termid: pz-90-geodetic-system
+id: 76275cc8-0800-5bc7-8c8c-500c7b4f7851

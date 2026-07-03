@@ -1,67 +1,41 @@
 ---
-id: 4-1-855
 data:
   identifier: 4-1-855
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Vertically_polarized_wave
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-855
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-1-855
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-855
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-855
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-855
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-855
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-855
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 4-1-855
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Vertically_polarized_wave
+  type: authoritative
+status: valid
+id: 4-1-855
 ---
-id: 4-1-855-eng
-termid: 4-1-855
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Vertically polarized wave
-    normative_status: preferred
   definition:
   - content: A plane polarized wave in which the electric field vector is in a vertical
       plane.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vertically polarized wave
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vertically_polarized_wave
+termid: 4-1-855
+id: 50caff8c-796a-56ef-87c2-d889c00d2529

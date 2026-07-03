@@ -14,14 +14,6 @@ sources:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Geographical_Range
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: geographical-range
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: geographical-range
 - type: supersedes
   ref:
     source: urn:iala:dictionary:2023

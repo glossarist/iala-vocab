@@ -1,68 +1,41 @@
 ---
-id: 6-2-085
 data:
   identifier: 6-2-085
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cylinder_liner
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-2-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-2-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-2-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-2-085
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-2-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-2-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-2-085
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-2-085
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cylinder_liner
+  type: authoritative
+status: valid
+id: 6-2-085
 ---
-id: 6-2-085-eng
-termid: 6-2-085
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cylinder liner
-    normative_status: preferred
   definition:
   - content: A thin replaceable lining to a cylinder.
+  examples: []
   notes:
   - content: The term wet liner refers to a cylinder liner in a water-cooled cylinder.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cylinder liner
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cylinder_liner
+termid: 6-2-085
+id: 3d8d7006-8160-544e-b142-c65a1c5f61f0

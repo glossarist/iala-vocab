@@ -1,66 +1,40 @@
 ---
-id: 6-7-100
 data:
   identifier: 6-7-100
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Power_pack
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-7-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-7-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-7-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-7-100
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-7-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-7-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-7-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-7-100
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Power_pack
+  type: authoritative
+status: valid
+id: 6-7-100
 ---
-id: 6-7-100-eng
-termid: 6-7-100
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Power pack
-    normative_status: preferred
   definition:
   - content: A converter that provides one or more voltages from a compact unit.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Power pack
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Power_pack
+termid: 6-7-100
+id: 708814af-0959-5581-b01b-7afe328e097b

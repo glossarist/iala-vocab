@@ -1,67 +1,41 @@
 ---
-id: 1-1-355
 data:
   identifier: 1-1-355
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Synchronism
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-355
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-355
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 1-1-355
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Synchronism
+  type: authoritative
+status: valid
+id: 1-1-355
 ---
-id: 1-1-355-eng
-termid: 1-1-355
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Synchronism
-    normative_status: preferred
   definition:
   - content: Coincidence of periodic phenomena of the same frequency or phase.
   - content: Coincidence of the characters of navigation lights.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Synchronism
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Synchronism
+termid: 1-1-355
+id: 769bb6a2-f563-505d-b37e-2b3b05ea8255

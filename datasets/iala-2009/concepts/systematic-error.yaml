@@ -13,35 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Systematic_error
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: systematic-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: systematic-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: systematic-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: systematic-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: systematic-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: systematic-error
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: systematic-error
+related: []
 ---
 id: systematic-error-eng
 termid: systematic-error

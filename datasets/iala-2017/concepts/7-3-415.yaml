@@ -1,67 +1,41 @@
 ---
-id: 7-3-415
 data:
   identifier: 7-3-415
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pickling
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-415
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-415
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-415
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pickling
+  type: authoritative
+status: valid
+id: 7-3-415
 ---
-id: 7-3-415-eng
-termid: 7-3-415
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pickling
-    normative_status: preferred
   definition:
   - content: The preparation of steelwork for painting or galvanising by removing
       mill scale, using a chemical process.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pickling
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pickling
+termid: 7-3-415
+id: 6d365275-64db-588f-8c5d-38b56709576b

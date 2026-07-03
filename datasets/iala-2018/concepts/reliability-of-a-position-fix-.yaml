@@ -1,56 +1,25 @@
 ---
-id: reliability-of-a-position-fix-
 data:
   identifier: reliability-of-a-position-fix-
   domains:
-  - source: urn:iala:dictionary:iala-2009
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2009
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reliability_(of_a_position_fix)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: reliability-of-a-position-fix-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: reliability-of-a-position-fix-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: reliability-of-a-position-fix-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reliability_(of_a_position_fix)
+  type: authoritative
+status: valid
+id: reliability-of-a-position-fix-
 ---
-id: reliability-of-a-position-fix--eng
-termid: reliability-of-a-position-fix-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reliability (of a position fix)
-    normative_status: preferred
   definition:
   - content: |-
       A measure of the propagation of a non-detected gross error in an observation to the position fix.
@@ -58,10 +27,19 @@ data:
       This "external" reliability is usually expressed in terms of marginally detectable error (MDE).
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reliability (of a position fix)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reliability_(of_a_position_fix)
+termid: reliability-of-a-position-fix-
+id: 1e448665-585a-5b8e-a998-c1c720dcbc04

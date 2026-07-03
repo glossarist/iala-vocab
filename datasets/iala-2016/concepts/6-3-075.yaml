@@ -1,109 +1,87 @@
 ---
-id: 6-3-075
 data:
   identifier: 6-3-075
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Blocking_diode
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-3-075
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 6-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-075
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-075
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Blocking_diode
+  type: authoritative
+status: valid
+id: 6-3-075
 ---
-id: 6-3-075-eng
-termid: 6-3-075
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Blocking diode
-    normative_status: preferred
   definition:
   - content: A diode connected in series with a module or panel to prevent damage
       by reverse current.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Blocking diode
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blocking_diode
----
-id: 6-3-075-spa
 termid: 6-3-075
+id: b48d3c16-a636-5ed2-95f4-1b99bd2cea91
+---
 data:
-  language_code: spa
+  definition:
+  - content: |-
+      Diodo de bloqueo
+
+      Diodo conectado en serie al módulo o panel solar para evitar daños por inversión de corriente.
+  examples: []
+  notes: []
+  sources:
+  - origin:
+      ref:
+        source: IALA Dictionary
+    type: authoritative
   terms:
   - type: expression
+    normative_status: preferred
     designation: Blocking diode/es
-    normative_status: preferred
+  language_code: spa
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blocking_diode/es
+termid: 6-3-075
+id: 5343bfb3-aca5-5a02-8202-6d11dc4c60ac
+---
+data:
   definition:
   - content: |-
       Diodo de bloqueo
 
       Diodo conectado en serie al módulo o panel solar para evitar daños por inversión de corriente.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blocking_diode/es
----
-id: 6-3-075-spa
-termid: 6-3-075
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 6-3-075
     normative_status: preferred
-  definition:
-  - content: |-
-      Diodo de bloqueo
-
-      Diodo conectado en serie al módulo o panel solar para evitar daños por inversión de corriente.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: 6-3-075
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blocking_diode/es
+termid: 6-3-075
+id: fa75184a-959b-5c54-bb7e-ad839be64a8a

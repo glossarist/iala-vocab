@@ -1,69 +1,43 @@
 ---
-id: 3-1-040
 data:
   identifier: 3-1-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Spectrum_analysis
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-1-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-1-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-1-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-1-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 3-1-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 3-1-040
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 3-1-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-1-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Spectrum_analysis
+  type: authoritative
+status: valid
+id: 3-1-040
 ---
-id: 3-1-040-eng
-termid: 3-1-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Spectrum analysis
-    normative_status: preferred
-  - type: expression
-    designation: Spectrum analysis (of a sound)
-    normative_status: admitted
   definition:
   - content: The process of determining the spectrum of a sound.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Spectrum analysis
+  - type: expression
+    normative_status: admitted
+    designation: Spectrum analysis (of a sound)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Spectrum_analysis
+termid: 3-1-040
+id: f5ad6e47-dd3b-5540-b135-91f909f8ce25

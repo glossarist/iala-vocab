@@ -1,69 +1,43 @@
 ---
-id: 4-4-145
 data:
   identifier: 4-4-145
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Decca_Fundamental_frequency
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-145
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 4-4-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-145
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Decca_Fundamental_frequency
+  type: authoritative
+status: valid
+id: 4-4-145
 ---
-id: 4-4-145-eng
-termid: 4-4-145
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Decca Fundamental frequency
-    normative_status: preferred
   definition:
   - content: |-
       Fundamental frequency (in Decca)
 
       The frequency from which the other frequencies in a chain are derived by harmonic multiplication.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Decca Fundamental frequency
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Decca_Fundamental_frequency
+termid: 4-4-145
+id: e43435eb-13d3-5e88-a7a6-cae8e4d6075f

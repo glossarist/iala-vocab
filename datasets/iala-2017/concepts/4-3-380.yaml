@@ -1,71 +1,45 @@
 ---
-id: 4-3-380
 data:
   identifier: 4-3-380
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Modulator
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-380
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 4-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-380
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-380
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Modulator
+  type: authoritative
+status: valid
+id: 4-3-380
 ---
-id: 4-3-380-eng
-termid: 4-3-380
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Modulator
-    normative_status: preferred
   definition:
   - content: In pulse radar, a device for generating a succession of short pulses
       of energy which cause a transmitter valve to oscillate during each pulse.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Modulator
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Modulator
+termid: 4-3-380
+id: ac62731f-5162-5e29-b5fa-5c2a3ad1f89a

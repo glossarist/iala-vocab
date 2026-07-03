@@ -1,67 +1,41 @@
 ---
-id: 7-5-120
 data:
   identifier: 7-5-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Allowable_stress
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Allowable_stress
+  type: authoritative
+status: valid
+id: 7-5-120
 ---
-id: 7-5-120-eng
-termid: 7-5-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Allowable stress
-    normative_status: preferred
   definition:
   - content: The maximum permitted stress in a member without exceeding its design
       parameters.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Allowable stress
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Allowable_stress
+termid: 7-5-120
+id: 531dfce4-a005-5e82-9997-3f19223df759

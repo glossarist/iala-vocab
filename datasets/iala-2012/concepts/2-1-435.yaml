@@ -1,63 +1,25 @@
 ---
-id: 2-1-435
 data:
   identifier: 2-1-435
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Colour_(G.B.)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-435
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-435
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Colour_(G.B.)
+  type: authoritative
+status: valid
+id: 2-1-435
 ---
-id: 2-1-435-eng
-termid: 2-1-435
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Colour (G.B.)
-    normative_status: preferred
-  - type: expression
-    designation: Color (U.S.A.)
-    normative_status: admitted
   definition:
   - content: Perceived colour Aspect of visual perception by which an observer may
       distinguish differences between two fields of view of the same size, shape and
@@ -67,14 +29,26 @@ data:
       an observer may distinguish differences between two fields of view of the same
       size, shape and structure, such as may be caused by differences in the spectral
       composition of the radiation concerned in the observation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E. (extract)
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Colour (G.B.)
+  - type: expression
+    normative_status: admitted
+    designation: Color (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Colour_(G.B.)
+termid: 2-1-435
+id: a2eeec97-3ae1-5c7b-8f55-a7e9a80ce91d

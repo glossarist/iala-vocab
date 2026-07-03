@@ -1,69 +1,43 @@
 ---
-id: 7-4-070
 data:
   identifier: 7-4-070
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Current
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-070
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-070
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Current
+  type: authoritative
+status: valid
+id: 7-4-070
 ---
-id: 7-4-070-eng
-termid: 7-4-070
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Current
-    normative_status: preferred
-  - type: expression
-    designation: Stream
-    normative_status: admitted
   definition:
   - content: General flow of water in a particular direction.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Current
+  - type: expression
+    normative_status: admitted
+    designation: Stream
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Current
+termid: 7-4-070
+id: e86bcfb3-2df9-5194-85f9-2eb4954e671a

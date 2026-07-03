@@ -1,65 +1,31 @@
 ---
-id: 2-1-370
 data:
   identifier: 2-1-370
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Point_Vision
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-370
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 2-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-370
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-370
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Point_Vision
+  type: authoritative
+status: valid
+id: 2-1-370
 ---
-id: 2-1-370-eng
-termid: 2-1-370
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Point Vision
-    normative_status: preferred
   definition:
   - content: |-
       Point Vision (of a light source);
 
       A special mode of vision which takes place when the threshold of illuminance {{2-1-390, Threshold of Illuminance}} at the eye of an observer is independent of the angular subtense of the light source.
+  examples: []
   notes:
   - content: For a background luminance of less than about 0.1 candela per square
       metre, point vision takes place when the light source has an apparent angular
@@ -67,9 +33,16 @@ data:
       luminance, point vision can also take place if the angular diameter of the light
       source is accordingly smaller.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Point Vision
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Point_Vision
+termid: 2-1-370
+id: 305bd751-2de7-597e-aa73-994abcc7d01e

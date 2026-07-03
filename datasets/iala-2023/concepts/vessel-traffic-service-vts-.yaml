@@ -1,52 +1,25 @@
 ---
-id: vessel-traffic-service-vts-
 data:
   identifier: vessel-traffic-service-vts-
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Vessel_Traffic_Service_(VTS)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: vessel-traffic-service-vts-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: vessel-traffic-service-vts-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: vessel-traffic-service-vts-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vessel-traffic-service-vts-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vessel-traffic-service-vts-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: vessel-traffic-service-vts-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Vessel_Traffic_Service_(VTS)
+  type: authoritative
+status: valid
+id: vessel-traffic-service-vts-
 ---
-id: vessel-traffic-service-vts--eng
-termid: vessel-traffic-service-vts-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Vessel Traffic Service (VTS)
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-38
@@ -58,10 +31,19 @@ data:
       Source: IMO A.857(20)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vessel Traffic Service (VTS)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vessel_Traffic_Service_(VTS)
+termid: vessel-traffic-service-vts-
+id: 1620c58e-3e02-569f-b297-ad601832fb2f

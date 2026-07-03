@@ -1,74 +1,47 @@
 ---
-id: 4-2-075
 data:
   identifier: 4-2-075
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Automatic_direction_finder
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-2-075
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-2-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-2-075
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Automatic_direction_finder
+  type: authoritative
+status: valid
+id: 4-2-075
 ---
-id: 4-2-075-eng
-termid: 4-2-075
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Automatic direction finder
-    normative_status: preferred
   definition:
   - content: A direction finder in which the bearing, with or without sense, is determined
       automatically.
+  examples: []
   notes:
   - content: The automatic radio compass is an example of an automatic direction finder.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Automatic direction finder
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Automatic_direction_finder
+termid: 4-2-075
+id: e3535f92-72bd-56d7-bc5e-1a23ecffd815

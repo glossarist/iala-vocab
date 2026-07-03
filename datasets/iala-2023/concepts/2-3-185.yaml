@@ -1,72 +1,46 @@
 ---
-id: 2-3-185
 data:
   identifier: 2-3-185
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Coiled-Coil_Lamp
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-185
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-185
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-3-185
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Coiled-Coil_Lamp
+  type: authoritative
+status: valid
+id: 2-3-185
 ---
-id: 2-3-185-eng
-termid: 2-3-185
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Coiled-Coil Lamp
-    normative_status: preferred
   definition:
   - content: An incandescent lamp with a helical filament itself wound into a larger
       helix.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Coiled-Coil Lamp
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Coiled-Coil_Lamp
+termid: 2-3-185
+id: 1c29b0f3-5340-5582-bc4c-58bf8b380cec

@@ -1,69 +1,43 @@
 ---
-id: 3-2-150
 data:
   identifier: 3-2-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Compressed-air_diaphragm_horn
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 3-2-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 3-2-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 3-2-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 3-2-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 3-2-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 3-2-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 3-2-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 3-2-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Compressed-air_diaphragm_horn
+  type: authoritative
+status: valid
+id: 3-2-150
 ---
-id: 3-2-150-eng
-termid: 3-2-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Compressed-air diaphragm horn
-    normative_status: preferred
   definition:
   - content: |-
       Compressed-air (diaphragm) horn
 
       A fog signalling apparatus comprising a resonant horn excited at its throat by impulsive emissions of compressed air regulated by an elastic diaphragm.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Compressed-air diaphragm horn
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Compressed-air_diaphragm_horn
+termid: 3-2-150
+id: ec8ea43f-81df-586f-acc2-30f4cd3309c9

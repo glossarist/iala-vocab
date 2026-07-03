@@ -1,66 +1,40 @@
 ---
-id: 4-3-455
 data:
   identifier: 4-3-455
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Triggering
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-455
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-3-455
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-3-455
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-455
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-455
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-455
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-455
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-455
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Triggering
+  type: authoritative
+status: valid
+id: 4-3-455
 ---
-id: 4-3-455-eng
-termid: 4-3-455
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Triggering
-    normative_status: preferred
   definition:
   - content: The process of causing a transponder to reply, for example by interrogation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Triggering
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Triggering
+termid: 4-3-455
+id: 4856a524-f1b8-5cd4-bd18-c05f5593fef2

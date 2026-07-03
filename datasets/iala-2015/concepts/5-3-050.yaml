@@ -1,71 +1,45 @@
 ---
-id: 5-3-050
 data:
   identifier: 5-3-050
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pulse_modulation_(of_pulses)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 5-3-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pulse_modulation_(of_pulses)
+  type: authoritative
+status: valid
+id: 5-3-050
 ---
-id: 5-3-050-eng
-termid: 5-3-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pulse modulation (of pulses)
-    normative_status: preferred
   definition:
   - content: Modification of one or more of the characteristics of a pulse train used
       as a carrier (pulse carrier)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pulse modulation (of pulses)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pulse_modulation_(of_pulses)
+termid: 5-3-050
+id: 41451916-1bd3-5fe1-ad2c-ca1cd086892c

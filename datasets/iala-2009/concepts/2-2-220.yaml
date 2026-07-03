@@ -1,69 +1,43 @@
 ---
-id: 2-2-220
 data:
   identifier: 2-2-220
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Diverged_Beam
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 2-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-2-220
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-220
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-220
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Diverged_Beam
+  type: authoritative
+status: valid
+id: 2-2-220
 ---
-id: 2-2-220-eng
-termid: 2-2-220
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Diverged Beam
-    normative_status: preferred
   definition:
   - content: |-
       A form of fan beam {{2-1-090, Luminous fan beam}} produced by diverging a pencil beam {{2-1-095, Luminous Pencil Beam}} in a plane containing the axis of the beam (usually either horizontally or vertically) so that the angle of divergence of the diverged beam is greater than that of the original beam.
 
       ![Ch2_Fig19.jpg](/iala-vocab/images/iala/Ch2_Fig19.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Diverged Beam
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Diverged_Beam
+termid: 2-2-220
+id: 594eef85-5321-5205-a8e2-de60899f80f3

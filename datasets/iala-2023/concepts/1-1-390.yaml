@@ -1,72 +1,45 @@
 ---
-id: 1-1-390
 data:
   identifier: 1-1-390
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Record
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-390
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-390
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 1-1-390
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Record
+  type: authoritative
+status: valid
+id: 1-1-390
 ---
-id: 1-1-390-eng
-termid: 1-1-390
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Record
-    normative_status: preferred
-  - type: expression
-    designation: Recording
-    normative_status: admitted
   definition:
   - content: Material (e.g. paper-roll, disc, magnetic tape or wire) in which recorded
       information is stored and from which it can be reproduced as required.
+  examples: []
   notes:
   - content: Usually a suitable apparatus is necessary for reproduction.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Record
+  - type: expression
+    normative_status: admitted
+    designation: Recording
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Record
+termid: 1-1-390
+id: a2dae286-18f7-5639-b8b7-ea4dc1213d31

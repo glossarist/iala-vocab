@@ -1,60 +1,25 @@
 ---
-id: 8-1-035
 data:
   identifier: 8-1-035
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Depot_motor_launch
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-1-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-1-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-1-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-1-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-1-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-1-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-1-035
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 8-1-035
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Depot_motor_launch
+  type: authoritative
+status: valid
+id: 8-1-035
 ---
-id: 8-1-035-eng
-termid: 8-1-035
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Depot motor launch
-    normative_status: preferred
   definition:
   - content: |-
       A launch used for transporting personnel and stores between a depot and vessels at harbour moorings. Also used as a general depot workboat.
@@ -62,10 +27,19 @@ data:
       Note :
 
       Also sometimes called a tender.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Depot motor launch
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Depot_motor_launch
+termid: 8-1-035
+id: fff8c09e-75ac-50eb-bd31-3c04b2b7d529

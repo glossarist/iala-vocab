@@ -1,60 +1,25 @@
 ---
-id: 5-3-270
 data:
   identifier: 5-3-270
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Intermodulation_products
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-270
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 5-3-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-270
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Intermodulation_products
+  type: authoritative
+status: valid
+id: 5-3-270
 ---
-id: 5-3-270-eng
-termid: 5-3-270
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Intermodulation products
-    normative_status: preferred
   definition:
   - content: Spurious radiation at frequencies resulting from intermodulation between
       the oscillation and the carrier, characteristic or harmonic frequencies of an
@@ -62,15 +27,24 @@ data:
       oscillations are produced, and oscillations of the same nature of the same or
       several other emissions originating from the same or different transmitting
       systems.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.C.I.R
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Intermodulation products
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Intermodulation_products
+termid: 5-3-270
+id: 1395d11e-552d-5028-a193-a36fb2e1121b

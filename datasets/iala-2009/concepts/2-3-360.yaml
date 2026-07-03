@@ -1,71 +1,45 @@
 ---
-id: 2-3-360
 data:
   identifier: 2-3-360
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/High_Pressure_Sodium_(Vapour)_Lamp
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 2-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-360
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-360
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/High_Pressure_Sodium_(Vapour)_Lamp
+  type: authoritative
+status: valid
+id: 2-3-360
 ---
-id: 2-3-360-eng
-termid: 2-3-360
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: High Pressure Sodium (Vapour) Lamp
-    normative_status: preferred
   definition:
   - content: A sodium vapour lamp in which the partial pressure of the vapour during
       operation is of the order of 104newtons per square metre (0.1 atmosphere).
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: High Pressure Sodium (Vapour) Lamp
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/High_Pressure_Sodium_(Vapour)_Lamp
+termid: 2-3-360
+id: 6fa9aed6-8cbc-52f4-a079-99fdee47a497

@@ -1,69 +1,42 @@
 ---
-id: 6-5-190
 data:
   identifier: 6-5-190
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Terminal_(of_a_cell_or_battery)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-5-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-5-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-5-190
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 6-5-190
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Terminal_(of_a_cell_or_battery)
+  type: authoritative
+status: valid
+id: 6-5-190
 ---
-id: 6-5-190-eng
-termid: 6-5-190
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Terminal (of a cell or battery)
-    normative_status: preferred
   definition:
   - content: A part of a cell or battery to which an external circuit is connected.
+  examples: []
   notes:
   - content: It is international practice to mark the positive terminal with a plus
       sign or the colour red.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Terminal (of a cell or battery)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Terminal_(of_a_cell_or_battery)
+termid: 6-5-190
+id: bb8361e2-13ac-5c36-84ce-81cc506d01d1

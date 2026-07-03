@@ -13,39 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Dip
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: dip
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: dip
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: dip
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: dip
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: dip
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: dip
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: dip
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: dip
+related: []
 ---
 id: dip-eng
 termid: dip

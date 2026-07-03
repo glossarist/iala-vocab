@@ -1,74 +1,47 @@
 ---
-id: 2-1-485
 data:
   identifier: 2-1-485
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Chromaticity
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-485
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-1-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-485
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-485
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Chromaticity
+  type: authoritative
+status: valid
+id: 2-1-485
 ---
-id: 2-1-485-eng
-termid: 2-1-485
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Chromaticity
-    normative_status: preferred
   definition:
   - content: The colour quality of a colour stimulus definable by its chromaticity
       co-ordinates, or by its dominant (or complementary) wavelength and its purity
       taken together.
+  examples: []
   notes:
   - content: 'For definitions relating to Purity see Reference: C.I.E.'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Chromaticity
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Chromaticity
+termid: 2-1-485
+id: 231e8ae9-8c68-5081-ae1a-40aab23761a0

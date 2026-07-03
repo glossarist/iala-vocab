@@ -1,66 +1,40 @@
 ---
-id: 7-2-120
 data:
   identifier: 7-2-120
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bed_(of_a_machine)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-120
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-120
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-120
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bed_(of_a_machine)
+  type: authoritative
+status: valid
+id: 7-2-120
 ---
-id: 7-2-120-eng
-termid: 7-2-120
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bed (of a machine)
-    normative_status: preferred
   definition:
   - content: The structure upon which a machine is supported.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bed (of a machine)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bed_(of_a_machine)
+termid: 7-2-120
+id: c75b0066-2242-57a2-bd4c-c587e7566b05

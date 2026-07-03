@@ -1,52 +1,25 @@
 ---
-id: allied-services
 data:
   identifier: allied-services
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Allied_Services
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: allied-services
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: allied-services
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: allied-services
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: allied-services
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: allied-services
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: allied-services
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Allied_Services
+  type: authoritative
+status: valid
+id: allied-services
 ---
-id: allied-services-eng
-termid: allied-services
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Allied Services
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-4
@@ -54,10 +27,19 @@ data:
       Allied Services are services actively involved in the safe and efficient passage of the vessel through the VTS area.
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Allied Services
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Allied_Services
+termid: allied-services
+id: 5e31c49e-db15-5377-a2c1-1d5b80243b11

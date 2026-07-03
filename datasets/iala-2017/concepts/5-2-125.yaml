@@ -1,60 +1,25 @@
 ---
-id: 5-2-125
 data:
   identifier: 5-2-125
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reference_input_signal
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-2-125
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 5-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-2-125
-- type: related_concept
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-2-125
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reference_input_signal
+  type: authoritative
+status: valid
+id: 5-2-125
 ---
-id: 5-2-125-eng
-termid: 5-2-125
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reference input signal
-    normative_status: preferred
   definition:
   - content: |-
       A signal external to a control loop which serves as the reference and standard of comparison for the directly controlled variable.
@@ -62,15 +27,24 @@ data:
       ![Ch5_Fig2.jpg](/iala-vocab/images/iala/Ch5_Fig2.jpg)
 
       Figure 2 - Block diagram of automatic control system (5-2-045) incorporating a closed loop {{5-2-080, Closed Loop}}
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reference input signal
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reference_input_signal
+termid: 5-2-125
+id: 61fd1ae1-89b1-5211-893c-7f925c0ffafe

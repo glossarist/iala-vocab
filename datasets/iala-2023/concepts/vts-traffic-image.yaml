@@ -1,52 +1,25 @@
 ---
-id: vts-traffic-image
 data:
   identifier: vts-traffic-image
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/VTS_traffic_image
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: vts-traffic-image
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: vts-traffic-image
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: vts-traffic-image
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/VTS_traffic_image
+  type: authoritative
+status: valid
+id: vts-traffic-image
 ---
-id: vts-traffic-image-eng
-termid: vts-traffic-image
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: VTS traffic image
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-53
@@ -54,10 +27,19 @@ data:
       A VTS traffic image is the surface picture of vessels and their movements in a VTS area.
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: VTS traffic image
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/VTS_traffic_image
+termid: vts-traffic-image
+id: 757b5c5c-b9cd-56dc-940f-d7347d680b67

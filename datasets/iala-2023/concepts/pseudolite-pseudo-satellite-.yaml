@@ -1,65 +1,43 @@
 ---
-id: pseudolite-pseudo-satellite-
 data:
   identifier: pseudolite-pseudo-satellite-
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-10
+  - concept_id: section-10
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pseudolite_(pseudo-satellite)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: pseudolite-pseudo-satellite-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: pseudolite-pseudo-satellite-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: pseudolite-pseudo-satellite-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: pseudolite-pseudo-satellite-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: pseudolite-pseudo-satellite-
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: pseudolite-pseudo-satellite-
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: pseudolite-pseudo-satellite-
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pseudolite_(pseudo-satellite)
+  type: authoritative
+status: valid
+id: pseudolite-pseudo-satellite-
 ---
-id: pseudolite-pseudo-satellite--eng
-termid: pseudolite-pseudo-satellite-
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pseudolite (pseudo-satellite)
-    normative_status: preferred
   definition:
   - content: |-
       A ground-based augmentation station transmitting a GNSS-like signal providing additional navigation information to the user.
 
       Source: Nick Ward, Vicechair, IALA e-Nav Committee, March 2009
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pseudolite (pseudo-satellite)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pseudolite_(pseudo-satellite)
+termid: pseudolite-pseudo-satellite-
+id: 13651c43-98d1-5914-8c1e-4eb79a2f70bc

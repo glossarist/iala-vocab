@@ -1,69 +1,43 @@
 ---
-id: 1-3-070
 data:
   identifier: 1-3-070
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Fog
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-3-070
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 1-3-070
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Fog
+  type: authoritative
+status: valid
+id: 1-3-070
 ---
-id: 1-3-070-eng
-termid: 1-3-070
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Fog
-    normative_status: preferred
   definition:
   - content: |-
       Alternative terms: Mist, Haze
 
       States of the atmosphere in which the meteorological visibility is influenced owing to scattering (and in some cases to absorption or both) of light by a large number of minute water droplets or other particles suspended in the atmosphere. In the case of fog the meteorological visibility is usually more reduced than in the case of mist or haze.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Fog
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog
+termid: 1-3-070
+id: 476191f9-9745-5576-a274-e966d2602754

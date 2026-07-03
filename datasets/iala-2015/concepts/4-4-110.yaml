@@ -1,69 +1,43 @@
 ---
-id: 4-4-110
 data:
   identifier: 4-4-110
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Loran_Fixed_slave_time_delay
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-110
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-110
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-110
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Loran_Fixed_slave_time_delay
+  type: authoritative
+status: valid
+id: 4-4-110
 ---
-id: 4-4-110-eng
-termid: 4-4-110
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Loran Fixed slave time delay
-    normative_status: preferred
   definition:
   - content: |-
       Fixed slave time delay (in Loran)
 
       A time delay in the transmission of pulse signals from the slave station to permit the resolution of ambiguity and to provide identification.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Loran Fixed slave time delay
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Fixed_slave_time_delay
+termid: 4-4-110
+id: 18efaf67-ed6c-5f5e-8d6f-ac69279609ef

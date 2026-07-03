@@ -1,69 +1,43 @@
 ---
-id: 7-2-285
 data:
   identifier: 7-2-285
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Extruded_section
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-285
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-285
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-285
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Extruded_section
+  type: authoritative
+status: valid
+id: 7-2-285
 ---
-id: 7-2-285-eng
-termid: 7-2-285
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Extruded section
-    normative_status: preferred
   definition:
   - content: |-
       Rods, tubes or sections of intricate shape formed by forcing metal or plastic through a die shaped to the required section.
 
       The process may be undertaken hot or cold depending on the material.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Extruded section
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Extruded_section
+termid: 7-2-285
+id: 5969a730-de7d-5b20-91a2-5e86ee7ceab6

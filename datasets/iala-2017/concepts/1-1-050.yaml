@@ -1,67 +1,41 @@
 ---
-id: 1-1-050
 data:
   identifier: 1-1-050
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Operating
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-050
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 1-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-1-050
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-1-050
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Operating
+  type: authoritative
+status: valid
+id: 1-1-050
 ---
-id: 1-1-050-eng
-termid: 1-1-050
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Operating
-    normative_status: preferred
   definition:
   - content: The placing or starting of aids to navigation or parts thereof for normal
       operation or for testing their functions.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Operating
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Operating
+termid: 1-1-050
+id: e621c5ff-25dd-5298-a9a2-015816eadf46

@@ -1,63 +1,25 @@
 ---
-id: 2-1-290
 data:
   identifier: 2-1-290
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Meteorological_Optical_Range
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-290
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 2-1-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-290
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-290
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Meteorological_Optical_Range
+  type: authoritative
+status: valid
+id: 2-1-290
 ---
-id: 2-1-290-eng
-termid: 2-1-290
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Meteorological Optical Range
-    normative_status: preferred
-  - type: symbol
-    designation: stem:[MOR]
-    normative_status: preferred
   definition:
   - content: The length of path in the atmosphere required to reduce the luminous
       flux in a collimated beam from an incandescent lamp at a colour temperature
@@ -65,6 +27,7 @@ data:
       by means of the curve of spectral luminous efficiencies for photopic vision
       given by the International Commission on Illumination (C.I.E.) {{2-1-015, Spectral
       Luminous Efficiency}}.
+  examples: []
   notes:
   - content: The quantity so defined above approximately corresponds to the distance
       in the atmosphere required to reduce the contrast of an object against its background
@@ -74,14 +37,24 @@ data:
       earlier use of the "meteorological range" (2-1-280, Note 2:) was rather optimistic
       for practical applications.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: W.M.O
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Meteorological Optical Range
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[MOR]
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Meteorological_Optical_Range
+termid: 2-1-290
+id: 6f4c2238-6a13-5c20-9473-50890d129ee3

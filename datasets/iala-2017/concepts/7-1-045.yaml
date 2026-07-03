@@ -1,68 +1,42 @@
 ---
-id: 7-1-045
 data:
   identifier: 7-1-045
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Pier_(2)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-1-045
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 7-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-1-045
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-1-045
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Pier_(2)
+  type: authoritative
+status: valid
+id: 7-1-045
 ---
-id: 7-1-045-eng
-termid: 7-1-045
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Pier (2)
-    normative_status: preferred
   definition:
   - content: A structure with a wood or concrete deck supported on piles extending
       over open water to provide a landing place where the depth of water would otherwise
       be prohibitive.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Pier (2)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Pier_(2)
+termid: 7-1-045
+id: adce9199-0db1-5dd2-b6ae-bee8c2b59bdb

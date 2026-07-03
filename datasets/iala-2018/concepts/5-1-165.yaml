@@ -1,72 +1,46 @@
 ---
-id: 5-1-165
 data:
   identifier: 5-1-165
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Sample
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-1-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-1-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-1-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-1-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-1-165
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 5-1-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-1-165
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-1-165
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Sample
+  type: authoritative
+status: valid
+id: 5-1-165
 ---
-id: 5-1-165-eng
-termid: 5-1-165
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Sample
-    normative_status: preferred
   definition:
   - content: One of several items taken from a population and aimed at giving information
       on the population.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.S.O
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Sample
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Sample
+termid: 5-1-165
+id: 7aacc626-3129-57b7-988d-91dd4ecc1ce7

@@ -1,74 +1,47 @@
 ---
-id: 4-3-325
 data:
   identifier: 4-3-325
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Range_marker
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-3-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-3-325
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 4-3-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-3-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-3-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-3-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-3-325
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-3-325
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Range_marker
+  type: authoritative
+status: valid
+id: 4-3-325
 ---
-id: 4-3-325-eng
-termid: 4-3-325
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Range marker
-    normative_status: preferred
   definition:
   - content: A visual indication on a radar display for measuring the range or for
       calibrating the time-base.
+  examples: []
   notes:
   - content: Range markers may be either fixed or continuously variable.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Range marker
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Range_marker
+termid: 4-3-325
+id: 189a4ca8-53b9-5a6d-a5f8-11ddb7f5235c

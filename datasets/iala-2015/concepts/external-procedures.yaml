@@ -1,52 +1,25 @@
 ---
-id: external-procedures
 data:
   identifier: external-procedures
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/External_Procedures
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: external-procedures
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: external-procedures
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: external-procedures
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: external-procedures
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: external-procedures
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: external-procedures
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/External_Procedures
+  type: authoritative
+status: valid
+id: external-procedures
 ---
-id: external-procedures-eng
-termid: external-procedures
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: External Procedures
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-14
@@ -56,10 +29,19 @@ data:
       Source: IALA Recommendation V-127 (2004)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: External Procedures
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/External_Procedures
+termid: external-procedures
+id: 625ddd61-b64f-53d4-9d93-2e41c04024ca

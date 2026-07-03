@@ -1,67 +1,41 @@
 ---
-id: 8-5-125
 data:
   identifier: 8-5-125
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Forelock
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-5-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-5-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-5-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-5-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-5-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-5-125
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 8-5-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-5-125
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Forelock
+  type: authoritative
+status: valid
+id: 8-5-125
 ---
-id: 8-5-125-eng
-termid: 8-5-125
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Forelock
-    normative_status: preferred
   definition:
   - content: A steel or iron wedge bent back at the ends, used to secure a shackle
       pin in position.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Forelock
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Forelock
+termid: 8-5-125
+id: ab489278-e4f2-5d20-bf16-c58a152ddbe7

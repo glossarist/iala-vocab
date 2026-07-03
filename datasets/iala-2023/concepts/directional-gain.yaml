@@ -1,80 +1,54 @@
 ---
-id: directional-gain
 data:
   identifier: directional-gain
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-3
+  - concept_id: section-3
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Directional_gain
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: directional-gain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: directional-gain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: directional-gain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: directional-gain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: directional-gain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: directional-gain
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: directional-gain
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: directional-gain
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Directional_gain
+  type: authoritative
+status: valid
+id: directional-gain
 ---
-id: directional-gain-eng
-termid: directional-gain
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Directional gain
-    normative_status: preferred
-  - type: expression
-    designation: Directional gain (of a sound source, in decibels)
-    normative_status: admitted
-  - type: expression
-    designation: Directivity index (of a sound source, in decibels)
-    normative_status: admitted
   definition:
   - content: |-
       3-1 -150
 
       Ten times the logarithm to the base 10 of the directivity factor.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Directional gain
+  - type: expression
+    normative_status: admitted
+    designation: Directional gain (of a sound source, in decibels)
+  - type: expression
+    normative_status: admitted
+    designation: Directivity index (of a sound source, in decibels)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Directional_gain
+termid: directional-gain
+id: 349dd261-dea7-569f-b534-81843bdf30ee

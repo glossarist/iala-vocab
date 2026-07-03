@@ -1,67 +1,41 @@
 ---
-id: 7-5-345
 data:
   identifier: 7-5-345
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_surface
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-345
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-5-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-345
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-345
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bearing_surface
+  type: authoritative
+status: valid
+id: 7-5-345
 ---
-id: 7-5-345-eng
-termid: 7-5-345
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bearing surface
-    normative_status: preferred
   definition:
   - content: The surface to which the load of the structure is transferred, generally
       applied to the ground beneath a foundation.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bearing surface
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bearing_surface
+termid: 7-5-345
+id: c89fafbe-b150-56b9-a6f5-551a49698332

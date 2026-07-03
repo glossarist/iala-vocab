@@ -1,68 +1,42 @@
 ---
-id: 7-3-375
 data:
   identifier: 7-3-375
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Plywood
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-3-375
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-3-375
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 7-3-375
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-375
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-375
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-375
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-375
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-375
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Plywood
+  type: authoritative
+status: valid
+id: 7-3-375
 ---
-id: 7-3-375-eng
-termid: 7-3-375
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Plywood
-    normative_status: preferred
   definition:
   - content: Structural timber board manufactured from an odd number of sheets of
       veneer glued together, the grain of each sheet alternating at right angles in
       each layer, giving a high strength and dimensional stability.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Plywood
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Plywood
+termid: 7-3-375
+id: 38c8a335-6071-56b0-989b-542b817ae78a

@@ -1,70 +1,44 @@
 ---
-id: 1-2-065
 data:
   identifier: 1-2-065
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Leading_line
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 1-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 1-2-065
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 1-2-065
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Leading_line
+  type: authoritative
+status: valid
+id: 1-2-065
 ---
-id: 1-2-065-eng
-termid: 1-2-065
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Leading line
-    normative_status: preferred
-  - type: expression
-    designation: Range (U.S.A.)
-    normative_status: admitted
   definition:
   - content: Straight line used for navigation produced by the alignment of marks
       (leading marks) or lights (leading lights) or by the use of radio transmitters.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Leading line
+  - type: expression
+    normative_status: admitted
+    designation: Range (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Leading_line
+termid: 1-2-065
+id: b0bea20b-f5e9-594e-986e-08575fb71ae2

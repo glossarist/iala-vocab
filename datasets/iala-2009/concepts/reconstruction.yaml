@@ -13,35 +13,7 @@ sources:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Reconstruction
-related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: reconstruction
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: reconstruction
+related: []
 ---
 id: reconstruction-eng
 termid: reconstruction

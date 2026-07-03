@@ -1,69 +1,43 @@
 ---
-id: 1-2-125
 data:
   identifier: 1-2-125
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Amplitude_of_an_observed_heavenly_body
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-2-125
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-2-125
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 1-2-125
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Amplitude_of_an_observed_heavenly_body
+  type: authoritative
+status: valid
+id: 1-2-125
 ---
-id: 1-2-125-eng
-termid: 1-2-125
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Amplitude of an observed heavenly body
-    normative_status: preferred
   definition:
   - content: |-
       Amplitude (of an observed heavenly body)
 
       The angle subtended at the observer's zenith between two great circles of the celestial sphere perpendicular to the observer's horizon, one of which passes through the observed body and the other through the east and west points of the observer's horizon.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Amplitude of an observed heavenly body
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Amplitude_of_an_observed_heavenly_body
+termid: 1-2-125
+id: e7e4a7d8-59de-595c-9bea-754a1b8bbf95

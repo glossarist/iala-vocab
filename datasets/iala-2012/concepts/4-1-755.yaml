@@ -1,67 +1,30 @@
 ---
-id: 4-1-755
 data:
   identifier: 4-1-755
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Signal-to-noise_ratio
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-755
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-1-755
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-755
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-755
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-755
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-755
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-755
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-755
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Signal-to-noise_ratio
+  type: authoritative
+status: valid
+id: 4-1-755
 ---
-id: 4-1-755-eng
-termid: 4-1-755
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Signal-to-noise ratio
-    normative_status: preferred
-  - type: expression
-    designation: Signal-to-noise ratio (at a specified point in a receiver)
-    normative_status: admitted
   definition:
   - content: For given conditions of adjustment and signal input, the ratio of the
       magnitude of some specified feature of the wanted response to the magnitude
       of the appropriate feature of the co-existent noise.
+  examples: []
   notes:
   - content: The co-existent noise may differ from the noise when the receiver input
       is reduced to zero.
@@ -70,14 +33,24 @@ data:
       when the signal magnitude is several times greater than that of the noise.
   - content: The ratio is often expressed in decibels.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Signal-to-noise ratio
+  - type: expression
+    normative_status: admitted
+    designation: Signal-to-noise ratio (at a specified point in a receiver)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Signal-to-noise_ratio
+termid: 4-1-755
+id: d2135d36-ac88-5e96-ae77-dc1ba9421ba5

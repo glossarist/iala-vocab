@@ -1,60 +1,25 @@
 ---
-id: 4-4-100
 data:
   identifier: 4-4-100
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Loran_C_Phase_coding
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-100
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-100
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Loran_C_Phase_coding
+  type: authoritative
+status: valid
+id: 4-4-100
 ---
-id: 4-4-100-eng
-termid: 4-4-100
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Loran C Phase coding
-    normative_status: preferred
   definition:
   - content: |-
       Phase coding (in Loran C)
@@ -62,10 +27,19 @@ data:
       The shifting in a fixed sequence of the relative phase of the carrier cycles between certain pulses of a group this facilitates automatic synchronisation in identical sequence within the group of eight pulses that are transmitted at each repetition interval.
 
       It also minimises the effect of unusually long skywave transmissions causing one pulse to interfere with the succeeding pulse in the group received by groundwave.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Loran C Phase coding
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_C_Phase_coding
+termid: 4-4-100
+id: 8934db6c-80aa-5ca8-aa80-3f5442e6b83a

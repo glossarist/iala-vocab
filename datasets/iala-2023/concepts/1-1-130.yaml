@@ -1,70 +1,30 @@
 ---
-id: 1-1-130
 data:
   identifier: 1-1-130
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-1
+  - concept_id: section-1
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Radiant_intensity
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 1-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 1-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 1-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 1-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 1-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 1-1-130
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 1-1-130
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 1-1-130
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Radiant_intensity
+  type: authoritative
+status: valid
+id: 1-1-130
 ---
-id: 1-1-130-eng
-termid: 1-1-130
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Radiant intensity
-    normative_status: preferred
-  - type: expression
-    designation: Radiant intensity (of a source, in a given direction)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[Ie]
-    normative_status: preferred
   definition:
   - content: Quotient of the radiant flux (dFe) leaving the source, propagated in
       an element of solid angle (dO) containing the given direction, by the element
       of solid angle.
+  examples: []
   notes:
   - content: If within a finite solid angle O the radiant flux may be considered uniformly
       distributed, then the radiant intensity is given by ?? where Fe is the total
@@ -72,15 +32,28 @@ data:
   - content: The above definition strictly applies only to a point source. For a source
       which is not a point source see C.I.E.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: C.I.E
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Radiant intensity
+  - type: expression
+    normative_status: admitted
+    designation: Radiant intensity (of a source, in a given direction)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[Ie]
+  language_code: eng
   annotations:
   - content: Unit watt per steradian (W/sr)
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Radiant_intensity
+termid: 1-1-130
+id: a5273b0c-2530-59f1-bd65-739749a1c97e

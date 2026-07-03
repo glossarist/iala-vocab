@@ -1,71 +1,45 @@
 ---
-id: 5-3-450
 data:
   identifier: 5-3-450
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Character_recognition
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-3-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-3-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-450
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 5-3-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-450
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-450
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Character_recognition
+  type: authoritative
+status: valid
+id: 5-3-450
 ---
-id: 5-3-450-eng
-termid: 5-3-450
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Character recognition
-    normative_status: preferred
   definition:
   - content: The identification of graphic, phonic or other characters by automatic
       means.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Character recognition
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Character_recognition
+termid: 5-3-450
+id: e8296970-8127-5404-87eb-3a4d98a61069

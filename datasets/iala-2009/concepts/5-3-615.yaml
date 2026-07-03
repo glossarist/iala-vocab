@@ -1,71 +1,45 @@
 ---
-id: 5-3-615
 data:
   identifier: 5-3-615
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Synchro_angle
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 5-3-615
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-3-615
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-3-615
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-3-615
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-3-615
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-3-615
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-3-615
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-3-615
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Synchro_angle
+  type: authoritative
+status: valid
+id: 5-3-615
 ---
-id: 5-3-615-eng
-termid: 5-3-615
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Synchro angle
-    normative_status: preferred
   definition:
   - content: The angular displacement of the synchro rotor from its electrical zero
       position.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Synchro angle
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Synchro_angle
+termid: 5-3-615
+id: 9a5e3b98-6c0d-552a-a323-fb93a9a326c7

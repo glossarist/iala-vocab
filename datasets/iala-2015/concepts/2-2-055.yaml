@@ -1,69 +1,43 @@
 ---
-id: 2-2-055
 data:
   identifier: 2-2-055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Rack
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-2-055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-2-055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-2-055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Rack
+  type: authoritative
+status: valid
+id: 2-2-055
 ---
-id: 2-2-055-eng
-termid: 2-2-055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Rack
-    normative_status: preferred
   definition:
   - content: |-
       Parts of the frame of an optic, into which the rings are fitted.
 
       ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rack
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rack
+termid: 2-2-055
+id: 07c1262b-dc49-52a6-b0a9-153ed2ce9342

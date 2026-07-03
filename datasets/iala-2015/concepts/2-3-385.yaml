@@ -1,72 +1,46 @@
 ---
-id: 2-3-385
 data:
   identifier: 2-3-385
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Arc_(Discharge)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-385
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-385
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-3-385
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-3-385
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-385
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-385
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-385
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-385
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Arc_(Discharge)
+  type: authoritative
+status: valid
+id: 2-3-385
 ---
-id: 2-3-385-eng
-termid: 2-3-385
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Arc (Discharge)
-    normative_status: preferred
   definition:
   - content: A luminous discharge of electricity across a gas, characterised by a
       large current and a low voltage gradient, often accompanied by partial volatilisation
       of the electrodes.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.E.C
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Arc (Discharge)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Arc_(Discharge)
+termid: 2-3-385
+id: 3da7591d-9d32-5dd0-8760-768072895a37

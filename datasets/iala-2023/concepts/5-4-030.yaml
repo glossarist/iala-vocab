@@ -1,71 +1,45 @@
 ---
-id: 5-4-030
 data:
   identifier: 5-4-030
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Reperforator
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-030
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 5-4-030
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Reperforator
+  type: authoritative
+status: valid
+id: 5-4-030
 ---
-id: 5-4-030-eng
-termid: 5-4-030
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Reperforator
-    normative_status: preferred
   definition:
   - content: A tape punch that automatically converts coded electrical signals into
       perforations on tape.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: ANSI
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Reperforator
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reperforator
+termid: 5-4-030
+id: fe7cc298-574c-5a58-af06-df44f09365fd

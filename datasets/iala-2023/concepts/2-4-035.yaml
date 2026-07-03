@@ -1,72 +1,45 @@
 ---
-id: 2-4-035
 data:
   identifier: 2-4-035
   domains:
-  - source: urn:iala:dictionary:iala-2023
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2023
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Optic_rotation_mechanism
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-4-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-4-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-4-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-4-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-4-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-4-035
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-4-035
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: 2-4-035
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Optic_rotation_mechanism
+  type: authoritative
+status: valid
+id: 2-4-035
 ---
-id: 2-4-035-eng
-termid: 2-4-035
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Optic rotation mechanism
-    normative_status: preferred
   definition:
   - content: |-
       The mechanism which rotates the optic or revolving screen in a flashing or occulting light.
 
       ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+  examples: []
   notes:
   - content: The terms Lens Clock and, in French, Machine de Rotation a Poids refer
       to such a mechanism when driven by a falling weight.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Optic rotation mechanism
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Optic_rotation_mechanism
+termid: 2-4-035
+id: 324979ed-dba6-5dfa-a68c-276697486945

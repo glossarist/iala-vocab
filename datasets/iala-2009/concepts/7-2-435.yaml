@@ -1,69 +1,43 @@
 ---
-id: 7-2-435
 data:
   identifier: 7-2-435
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Damp-proof_course
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 7-2-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-435
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-435
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Damp-proof_course
+  type: authoritative
+status: valid
+id: 7-2-435
 ---
-id: 7-2-435-eng
-termid: 7-2-435
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Damp-proof course
-    normative_status: preferred
   definition:
   - content: |-
       Acronym: dpc
 
       The course in a wall into which a horizontal impervious material is inserted to prevent damp rising above ground level.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Damp-proof course
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Damp-proof_course
+termid: 7-2-435
+id: e0ef8a83-0af1-566f-a4bb-8aacd3d4c04a

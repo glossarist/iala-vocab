@@ -1,67 +1,41 @@
 ---
-id: 6-8-200
 data:
   identifier: 6-8-200
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Plug_(top)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-8-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-8-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-8-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-8-200
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-8-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-8-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-8-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-8-200
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Plug_(top)
+  type: authoritative
+status: valid
+id: 6-8-200
 ---
-id: 6-8-200-eng
-termid: 6-8-200
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Plug (top)
-    normative_status: preferred
   definition:
   - content: That part of a socket and plug connection that is connected to the end
       of the moveable conductor.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Plug (top)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Plug_(top)
+termid: 6-8-200
+id: ffbe5d5e-1dc2-5aad-a35b-505d4f2fade4

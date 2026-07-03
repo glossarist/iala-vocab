@@ -1,73 +1,47 @@
 ---
-id: 4-1-805
 data:
   identifier: 4-1-805
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Linear_detector
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-1-805
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-805
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-805
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-805
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-805
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-805
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-805
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-805
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Linear_detector
+  type: authoritative
+status: valid
+id: 4-1-805
 ---
-id: 4-1-805-eng
-termid: 4-1-805
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Linear detector
-    normative_status: preferred
   definition:
   - content: |-
       Linear rectifier (U.S.A.)
 
       A detector, the output current or voltage of which contains a wave having a form identical with that of the envelope of an impressed signal wave.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: I.R.E
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Linear detector
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Linear_detector
+termid: 4-1-805
+id: faee9847-a51b-5a0f-9843-d05285a91962

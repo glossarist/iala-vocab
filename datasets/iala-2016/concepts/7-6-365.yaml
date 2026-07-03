@@ -1,67 +1,41 @@
 ---
-id: 7-6-365
 data:
   identifier: 7-6-365
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Gantry_crane
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-6-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-6-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-6-365
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-6-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-6-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-6-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-6-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-6-365
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Gantry_crane
+  type: authoritative
+status: valid
+id: 7-6-365
 ---
-id: 7-6-365-eng
-termid: 7-6-365
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Gantry crane
-    normative_status: preferred
   definition:
   - content: A lifting device supported on a four-legged portal frame beneath which
       vehicles can pass for unloading.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Gantry crane
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Gantry_crane
+termid: 7-6-365
+id: 0e37dfce-75cb-5f7a-9ea3-24c23d733e7e

@@ -1,60 +1,25 @@
 ---
-id: 8-4-135
 data:
   identifier: 8-4-135
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Roll_damping_device
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-4-135
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 8-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-135
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Roll_damping_device
+  type: authoritative
+status: valid
+id: 8-4-135
 ---
-id: 8-4-135-eng
-termid: 8-4-135
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Roll damping device
-    normative_status: preferred
   definition:
   - content: |-
       Device fitted to a buoy or Lanby to reduce the amplitude of rolling motion.
@@ -66,12 +31,20 @@ data:
       the skirt
 
       the stabilising ring
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Roll damping device
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Roll_damping_device
+termid: 8-4-135
+id: abd5c4af-703b-59e3-ad2f-6bd8a0004af6

@@ -1,67 +1,41 @@
 ---
-id: 8-4-200
 data:
   identifier: 8-4-200
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Non-skid_covering
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-4-200
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 8-4-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-4-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-4-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-4-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-4-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-4-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-4-200
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Non-skid_covering
+  type: authoritative
+status: valid
+id: 8-4-200
 ---
-id: 8-4-200-eng
-termid: 8-4-200
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Non-skid covering
-    normative_status: preferred
   definition:
   - content: A surface covering used on buoys or vessels to reduce the danger that
       personnel may slip.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Non-skid covering
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Non-skid_covering
+termid: 8-4-200
+id: 374bc89a-9d64-56b6-bc67-c2053fcf5f40

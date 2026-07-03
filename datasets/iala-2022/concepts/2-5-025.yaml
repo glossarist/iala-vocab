@@ -1,67 +1,41 @@
 ---
-id: 2-5-025
 data:
   identifier: 2-5-025
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Manned_Light_(U.S.A.)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-5-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-5-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-5-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-5-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-5-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-5-025
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-5-025
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-5-025
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Manned_Light_(U.S.A.)
+  type: authoritative
+status: valid
+id: 2-5-025
 ---
-id: 2-5-025-eng
-termid: 2-5-025
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Manned Light (U.S.A.)
-    normative_status: preferred
   definition:
   - content: A light which is operated and kept in service by a keeper able to intervene
       at once in case of need.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Manned Light (U.S.A.)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Manned_Light_(U.S.A.)
+termid: 2-5-025
+id: 02c23b21-7465-51a3-ad03-6d1286f5479d

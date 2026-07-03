@@ -1,72 +1,46 @@
 ---
-id: 4-1-1055
 data:
   identifier: 4-1-1055
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Head
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-1-1055
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 4-1-1055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-1055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-1055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-1055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-1055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-1055
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-1055
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Head
+  type: authoritative
+status: valid
+id: 4-1-1055
 ---
-id: 4-1-1055-eng
-termid: 4-1-1055
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Head
-    normative_status: preferred
-  - type: expression
-    designation: "(Ship's) Heading (defined in Chapter 1-2-045)"
-    normative_status: admitted
   definition:
   - content: |-
       (Ship's) Head
 
       The horizontal direction in which a ship is pointed, expressed as an angular measure from a reference direction, usually true North.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Head
+  - type: expression
+    normative_status: admitted
+    designation: "(Ship's) Heading (defined in Chapter 1-2-045)"
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Head
+termid: 4-1-1055
+id: 87e2d114-6f8d-582f-8785-5d78b375dcdf

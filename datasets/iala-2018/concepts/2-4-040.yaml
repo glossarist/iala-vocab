@@ -1,65 +1,31 @@
 ---
-id: 2-4-040
 data:
   identifier: 2-4-040
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Rollers
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-4-040
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 2-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-4-040
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-4-040
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Rollers
+  type: authoritative
+status: valid
+id: 2-4-040
 ---
-id: 2-4-040-eng
-termid: 2-4-040
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Rollers
-    normative_status: preferred
   definition:
   - content: |-
       Small rotating bodies in the form of balls, wheels, cylinders or truncated cones, used to assist movement by reducing friction.
 
       ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
+  examples: []
   notes:
   - content: In lighthouse service, rollers are mainly used to assist and guide the
       movement of a rotating optic.
@@ -67,9 +33,16 @@ data:
       terms are used when the rollers are in the form of balls (Kugellager), wheels
       (Walzenlager), cylinders (Zylinderlager) or truncated cones (Kegellager).
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Rollers
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Rollers
+termid: 2-4-040
+id: bb4324be-7106-531a-9e47-d7d30fa825e6

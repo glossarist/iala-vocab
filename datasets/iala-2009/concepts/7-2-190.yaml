@@ -1,66 +1,40 @@
 ---
-id: 7-2-190
 data:
   identifier: 7-2-190
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Joist
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 7-2-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-190
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-190
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Joist
+  type: authoritative
+status: valid
+id: 7-2-190
 ---
-id: 7-2-190-eng
-termid: 7-2-190
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Joist
-    normative_status: preferred
   definition:
   - content: A horizontal crossbeam which supports a floor.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Joist
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Joist
+termid: 7-2-190
+id: '059711e8-3026-5990-87c4-6682d1673241'

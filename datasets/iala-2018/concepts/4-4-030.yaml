@@ -1,72 +1,46 @@
 ---
-id: 4-4-030
 data:
   identifier: 4-4-030
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lattice
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-030
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-030
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-030
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lattice
+  type: authoritative
+status: valid
+id: 4-4-030
 ---
-id: 4-4-030-eng
-termid: 4-4-030
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lattice
-    normative_status: preferred
   definition:
   - content: In navigational systems, the system of lines overprinted on a navigational
       chart for the purpose of position fixing.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
     modification: modified from source
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lattice
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lattice
+termid: 4-4-030
+id: 4b4520f7-b123-51f9-8606-c1e9b6116ba2

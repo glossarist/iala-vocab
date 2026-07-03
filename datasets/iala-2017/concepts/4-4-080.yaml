@@ -1,60 +1,25 @@
 ---
-id: 4-4-080
 data:
   identifier: 4-4-080
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Loran_Drift_control
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-080
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 4-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-080
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-080
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Loran_Drift_control
+  type: authoritative
+status: valid
+id: 4-4-080
 ---
-id: 4-4-080-eng
-termid: 4-4-080
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Loran Drift control
-    normative_status: preferred
   definition:
   - content: |-
       Drift control (in Loran)
@@ -62,10 +27,19 @@ data:
       The equipment control by means of which the local time base oscillator is brought into synchronisation with the transmitted time base.
 
       In Loran C and in most Loran A receivers the final "lock-in" is accomplished automatically.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Loran Drift control
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_Drift_control
+termid: 4-4-080
+id: c3b7f595-d10a-5aba-b276-f6f52d363d84

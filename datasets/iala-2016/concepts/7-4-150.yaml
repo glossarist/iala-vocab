@@ -1,67 +1,41 @@
 ---
-id: 7-4-150
 data:
   identifier: 7-4-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Backwash
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-4-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-4-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-4-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Backwash
+  type: authoritative
+status: valid
+id: 7-4-150
 ---
-id: 7-4-150-eng
-termid: 7-4-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Backwash
-    normative_status: preferred
   definition:
   - content: Waves reflected from obstacles, such as cliffs or breakwaters, and running
       seaward, combining with incoming waves to form a steep sea.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Backwash
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Backwash
+termid: 7-4-150
+id: 1ba7979e-09e3-5b68-a30b-dc05a0e530bc

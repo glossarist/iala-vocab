@@ -1,73 +1,47 @@
 ---
-id: 2-5-200
 data:
   identifier: 2-5-200
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Morse_Code_Light
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-5-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-5-200
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-5-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-5-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-5-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-5-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-5-200
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-5-200
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Morse_Code_Light
+  type: authoritative
+status: valid
+id: 2-5-200
 ---
-id: 2-5-200-eng
-termid: 2-5-200
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Morse Code Light
-    normative_status: preferred
   definition:
   - content: |-
       A light in which flashes of different duration are grouped in such a manner as to reproduce a Morse character.
 
       ![Ch2_Fig44.jpg](/iala-vocab/images/iala/Ch2_Fig44.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: N.L
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Morse Code Light
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Morse_Code_Light
+termid: 2-5-200
+id: 5df5e5fd-8e36-5443-adac-7f4cb96b73ef

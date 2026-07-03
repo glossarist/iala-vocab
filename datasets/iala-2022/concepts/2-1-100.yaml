@@ -1,60 +1,25 @@
 ---
-id: 2-1-100
 data:
   identifier: 2-1-100
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Angle_of_Divergence
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-1-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-1-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-100
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 2-1-100
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-100
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Angle_of_Divergence
+  type: authoritative
+status: valid
+id: 2-1-100
 ---
-id: 2-1-100-eng
-termid: 2-1-100
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Angle of Divergence
-    normative_status: preferred
   definition:
   - content: |-
       The angle formed by two rays of a luminous beam in a given plane, the intensity within the angle being at least equal to an assigned percentage of the maximum of the curve of the intensity distribution in that plane.
@@ -66,24 +31,25 @@ data:
       For an optical apparatus which does not produce a converged beam {{2-2-215, Converged Beam}} or a diverged beam {{2-2-220, Diverged Beam}}, the angle of divergence is also defined approximately by radians or degrees, where f is the focal distance of an optical apparatus and d is the maximum dimension of a light source placed at its focus, measured in the same plane as the angle of divergence.
 
       ![Ch2_Fig5.jpg](/iala-vocab/images/iala/Ch2_Fig5.jpg)
+  examples: []
   notes:
   - content: The word Divergence is also used as an abbreviation for "angle of divergence".
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Angle_of_Divergence
----
-id: 2-1-100-deu
-termid: 2-1-100
-data:
-  language_code: deu
+    type: authoritative
   terms:
   - type: expression
-    designation: Streuwinkel
     normative_status: preferred
+    designation: Angle of Divergence
+  language_code: eng
+  annotations:
+  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Angle_of_Divergence
+termid: 2-1-100
+id: 4369d6fd-968d-5bd2-afde-b7a1a8e1753e
+---
+data:
   definition:
   - content: |-
       Winkel, der durch zwei Strahlen eines Lichtbündels in einer defmierten Ebene gebildet wird. Innerhalb dieses Winkels ist die Lichtstärke gleich oder größer einem vorgegebenen Prozentsatz vom Maximum der Lichtstärkeverteilungskurve in dieser Ebene.
@@ -97,10 +63,19 @@ data:
       Anmerkung:
 
       Der Ausdruck Streuung wird mitunter auch als Abkürzung für "Streuwinkel" benutzt.
+  examples: []
+  notes: []
   sources:
   - origin:
       ref:
         source: IALA Dictionary
     type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Streuwinkel
+  language_code: deu
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Angle_of_Divergence/de
+termid: 2-1-100
+id: 30d17057-4a97-57e8-adf9-a1da49818dab

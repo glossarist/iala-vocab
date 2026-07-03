@@ -1,53 +1,43 @@
 ---
-id: alternating-sectors
 data:
   identifier: alternating-sectors
   domains:
-  - source: urn:iala:dictionary:iala-2016
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-2016
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Alternating_Sectors
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: alternating-sectors
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: alternating-sectors
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: alternating-sectors
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2022
     id: alternating-sectors
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Alternating_Sectors
+  type: authoritative
+status: valid
+id: alternating-sectors
 ---
-id: alternating-sectors-eng
-termid: alternating-sectors
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Alternating Sectors
-    normative_status: preferred
   definition:
   - content: |-
       An alternating sector is a sector with alternating flashing colours of fixed flash length throughout the sector.
 
       Source: ENG4, Guideline 1041
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Alternating Sectors
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Alternating_Sectors
+termid: alternating-sectors
+id: 3616f0e6-b6c7-5e0c-8b1d-24ef75bdb225

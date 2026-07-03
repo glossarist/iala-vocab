@@ -1,67 +1,41 @@
 ---
-id: 8-3-205
 data:
   identifier: 8-3-205
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Grapnel
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-3-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-3-205
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 8-3-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-3-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-3-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-3-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-3-205
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-3-205
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Grapnel
+  type: authoritative
+status: valid
+id: 8-3-205
 ---
-id: 8-3-205-eng
-termid: 8-3-205
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Grapnel
-    normative_status: preferred
   definition:
   - content: A multi-pronged grab used for dragging the bottom, to recover sunken
       objects.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Grapnel
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Grapnel
+termid: 8-3-205
+id: 9b6ef427-0be1-572e-8571-0f5d3b693da4

@@ -1,66 +1,40 @@
 ---
-id: 7-3-070
 data:
   identifier: 7-3-070
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bronze
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 7-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-070
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-070
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bronze
+  type: authoritative
+status: valid
+id: 7-3-070
 ---
-id: 7-3-070-eng
-termid: 7-3-070
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bronze
-    normative_status: preferred
   definition:
   - content: An alloy of copper and tin.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bronze
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bronze
+termid: 7-3-070
+id: 72291cde-2f24-5566-9dbd-d49eb035600f

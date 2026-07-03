@@ -1,67 +1,41 @@
 ---
-id: 7-2-660
 data:
   identifier: 7-2-660
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Astragals
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-660
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 7-2-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-660
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-660
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Astragals
+  type: authoritative
+status: valid
+id: 7-2-660
 ---
-id: 7-2-660-eng
-termid: 7-2-660
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Astragals
-    normative_status: preferred
   definition:
   - content: The bars which support the glazing of a lantern. They may also support
       the roof.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Astragals
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Astragals
+termid: 7-2-660
+id: 83418124-1b88-53a8-a8bb-4607d8772a13

@@ -1,52 +1,25 @@
 ---
-id: ship-safety-zone
 data:
   identifier: ship-safety-zone
   domains:
-  - source: urn:iala:dictionary:iala-2012
-    concept_id: section-9
+  - concept_id: section-9
+    source: urn:iala:dictionary:iala-2012
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Ship_Safety_Zone
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: ship-safety-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: ship-safety-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: ship-safety-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: ship-safety-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: ship-safety-zone
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: ship-safety-zone
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Ship_Safety_Zone
+  type: authoritative
+status: valid
+id: ship-safety-zone
 ---
-id: ship-safety-zone-eng
-termid: ship-safety-zone
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Ship Safety Zone
-    normative_status: preferred
   definition:
   - content: |-
       VTS-2012-31
@@ -56,10 +29,19 @@ data:
       Source: VTS Manual (2008)
 
       (VTS33/output/8 refers)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Ship Safety Zone
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ship_Safety_Zone
+termid: ship-safety-zone
+id: c8e3e4d2-e40d-5f19-9c5e-bd9327fb1830

@@ -1,70 +1,44 @@
 ---
-id: 5-4-365
 data:
   identifier: 5-4-365
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Transmissometer
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 5-4-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 5-4-365
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 5-4-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-4-365
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-365
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Transmissometer
+  type: authoritative
+status: valid
+id: 5-4-365
 ---
-id: 5-4-365-eng
-termid: 5-4-365
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Transmissometer
-    normative_status: preferred
   definition:
   - content: A device which assesses the visibility by measurement of the attenuation
       of radiation along a straight path through the atmosphere, resulting from the
       presence of particles which cause scattering and absorption of radiation out
       of the path. In a homogenous atmosphere, the attenuation can be directly related
       to the atmospheric transmission factor {{2-1-270, Atmospheric Transmission Factor}}.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Transmissometer
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Transmissometer
+termid: 5-4-365
+id: fc76ad96-4765-5eb3-b5a4-26e8991e0f3f

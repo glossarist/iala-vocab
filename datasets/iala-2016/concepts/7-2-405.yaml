@@ -1,67 +1,41 @@
 ---
-id: 7-2-405
 data:
   identifier: 7-2-405
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Corbel
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 7-2-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-2-405
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 7-2-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-405
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-405
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Corbel
+  type: authoritative
+status: valid
+id: 7-2-405
 ---
-id: 7-2-405-eng
-termid: 7-2-405
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Corbel
-    normative_status: preferred
   definition:
   - content: Brick, stone or concrete projecting from a wall face to provide support
       for a beam or truss.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Corbel
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Corbel
+termid: 7-2-405
+id: 84245b01-1d6d-5d5c-8967-2667db650c6b

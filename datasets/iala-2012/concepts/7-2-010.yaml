@@ -1,67 +1,41 @@
 ---
-id: 7-2-010
 data:
   identifier: 7-2-010
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Frame
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Frame
+  type: authoritative
+status: valid
+id: 7-2-010
 ---
-id: 7-2-010-eng
-termid: 7-2-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Frame
-    normative_status: preferred
   definition:
   - content: A group of component parts of a structure joined together to provide
       strength and stability, and to support superimposed design loads.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Frame
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Frame
+termid: 7-2-010
+id: 8127cb40-4a18-5488-bea4-5076fcda6d2a

@@ -1,60 +1,25 @@
 ---
-id: 4-4-060
 data:
   identifier: 4-4-060
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Loran_C
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 4-4-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 4-4-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-060
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2017
     id: 4-4-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-060
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-060
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Loran_C
+  type: authoritative
+status: valid
+id: 4-4-060
 ---
-id: 4-4-060-eng
-termid: 4-4-060
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Loran C
-    normative_status: preferred
   definition:
   - content: |-
       A system operating on the assigned frequency of 100 kHz and having a groundwave range of nominally 1500 miles over sea water or land.
@@ -62,10 +27,19 @@ data:
       Very high accuracy is obtained by comparing the phase of the cycles comprising the pulses of the paired stations.
 
       The occupied bandwidth is 20 kHz.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Loran C
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Loran_C
+termid: 4-4-060
+id: e077ce8c-26c9-5b23-b9ab-3a5b3ec9e63a

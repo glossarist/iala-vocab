@@ -1,60 +1,25 @@
 ---
-id: 2-5-115
 data:
   identifier: 2-5-115
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Period_(of_a_rhythmic_light)
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 2-5-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-5-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 2-5-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-5-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-5-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-5-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-5-115
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-5-115
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Period_(of_a_rhythmic_light)
+  type: authoritative
+status: valid
+id: 2-5-115
 ---
-id: 2-5-115-eng
-termid: 2-5-115
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Period (of a rhythmic light)
-    normative_status: preferred
   definition:
   - content: |-
       The interval of time between the commencement of two identical successive cycles of the character of a rhythmic light. (Figs. 40-44)
@@ -68,10 +33,19 @@ data:
       ![Ch2_Fig43.jpg](/iala-vocab/images/iala/Ch2_Fig43.jpg)
 
       ![Ch2_Fig44.jpg](/iala-vocab/images/iala/Ch2_Fig44.jpg)
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Period (of a rhythmic light)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Period_(of_a_rhythmic_light)
+termid: 2-5-115
+id: 5b12462e-6578-5a63-8bed-3ec5952f43ba

@@ -1,70 +1,43 @@
 ---
-id: 7-3-295
 data:
   identifier: 7-3-295
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Slaked_lime
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 7-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 7-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-3-295
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-3-295
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Slaked_lime
+  type: authoritative
+status: valid
+id: 7-3-295
 ---
-id: 7-3-295-eng
-termid: 7-3-295
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Slaked lime
-    normative_status: preferred
   definition:
   - content: Dry hydrated lime (calcium hydroxide) in a powder form, sometimes used
       as a component of mortar.
+  examples: []
   notes:
   - content: Calcium hydroxide is obtained from calcium oxide by the addition of a
       suitable amount of water. This process is called slaking.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Slaked lime
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Slaked_lime
+termid: 7-3-295
+id: f6b78d7a-972d-5e11-9a84-b62421802b8f

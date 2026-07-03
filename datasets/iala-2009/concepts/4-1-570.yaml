@@ -1,74 +1,48 @@
 ---
-id: 4-1-570
 data:
   identifier: 4-1-570
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Vertex_plate
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-1-570
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-1-570
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-1-570
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-1-570
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-1-570
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-1-570
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-1-570
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-1-570
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Vertex_plate
+  type: authoritative
+status: valid
+id: 4-1-570
 ---
-id: 4-1-570-eng
-termid: 4-1-570
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Vertex plate
-    normative_status: preferred
-  - type: expression
-    designation: Vertex plate (of a reflector)
-    normative_status: admitted
   definition:
   - content: A plate placed near the vertex of a reflector to prevent undesired reflection
       back to the primary radiator.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Vertex plate
+  - type: expression
+    normative_status: admitted
+    designation: Vertex plate (of a reflector)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vertex_plate
+termid: 4-1-570
+id: d98eb853-3a67-528f-801d-5a38b2f70e26

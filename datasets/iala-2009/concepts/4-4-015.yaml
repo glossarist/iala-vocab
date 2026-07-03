@@ -1,74 +1,48 @@
 ---
-id: 4-4-015
 data:
   identifier: 4-4-015
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-4
+  - concept_id: section-4
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Master_station
 related:
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:1970-89
     id: 4-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 4-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 4-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 4-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 4-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 4-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 4-4-015
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 4-4-015
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Master_station
+  type: authoritative
+status: valid
+id: 4-4-015
 ---
-id: 4-4-015-eng
-termid: 4-4-015
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Master station
-    normative_status: preferred
-  - type: expression
-    designation: Master
-    normative_status: admitted
   definition:
   - content: In radio navigation, the station of a chain which provides a datum by
       which the emissions of the other (slave) stations are controlled.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  - type: authoritative
-    origin:
+    type: authoritative
+  - origin:
       ref:
         source: B.S
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Master station
+  - type: expression
+    normative_status: admitted
+    designation: Master
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Master_station
+termid: 4-4-015
+id: 3587e195-782b-5c79-91df-a5b5f0c55792

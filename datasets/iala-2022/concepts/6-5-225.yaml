@@ -1,69 +1,42 @@
 ---
-id: 6-5-225
 data:
   identifier: 6-5-225
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Battery_charger
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-5-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-5-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-5-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-5-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 6-5-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 6-5-225
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 6-5-225
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-5-225
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Battery_charger
+  type: authoritative
+status: valid
+id: 6-5-225
 ---
-id: 6-5-225-eng
-termid: 6-5-225
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Battery charger
-    normative_status: preferred
   definition:
   - content: An apparatus designed to charge a secondary battery.
+  examples: []
   notes:
   - content: It is usually a converter from alternating current to direct or unidirectional
       current.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Battery charger
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Battery_charger
+termid: 6-5-225
+id: 042a3938-a94c-597a-8383-61594cc4e6a8

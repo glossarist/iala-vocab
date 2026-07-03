@@ -1,67 +1,41 @@
 ---
-id: 5-4-215
 data:
   identifier: 5-4-215
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-5
+  - concept_id: section-5
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Amplidyne
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 5-4-215
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 5-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 5-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 5-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 5-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 5-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 5-4-215
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 5-4-215
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Amplidyne
+  type: authoritative
+status: valid
+id: 5-4-215
 ---
-id: 5-4-215-eng
-termid: 5-4-215
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Amplidyne
-    normative_status: preferred
   definition:
   - content: A rotary magnetic amplifier is used as a power amplifier stage in electromechanical
       systems.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Amplidyne
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Amplidyne
+termid: 5-4-215
+id: a8de7fdb-0525-5128-9fa0-22181a26f9aa

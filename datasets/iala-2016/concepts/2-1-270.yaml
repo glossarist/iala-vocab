@@ -1,66 +1,25 @@
 ---
-id: 2-1-270
 data:
   identifier: 2-1-270
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Atmospheric_Transmission_Factor
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-1-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-1-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-1-270
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-1-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-1-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-1-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-1-270
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-1-270
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Atmospheric_Transmission_Factor
+  type: authoritative
+status: valid
+id: 2-1-270
 ---
-id: 2-1-270-eng
-termid: 2-1-270
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Atmospheric Transmission Factor
-    normative_status: preferred
-  - type: expression
-    designation: Atmospheric Transmissivity (U.S.A.)
-    normative_status: admitted
-  - type: symbol
-    designation: stem:[T]
-    normative_status: preferred
   definition:
   - content: |-
       Atmospheric Transmission Factor (for
@@ -82,6 +41,7 @@ data:
       = e-1.852s
 
       where e is the base of natural logarithms.
+  examples: []
   notes:
   - content: 'In Germany, according to the DIN standard, in place of the "atmospheric
       transmission factor" T, two terms are used, Transmissionsfaktor q, used when
@@ -96,10 +56,21 @@ data:
       z, etc. should not be used so widely in future and that the "meteorological
       visibility" V (2-1-280 and   2-1-290, Note:) should be used instead.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Atmospheric Transmission Factor
+  - type: expression
+    normative_status: admitted
+    designation: Atmospheric Transmissivity (U.S.A.)
+  - type: symbol
+    normative_status: preferred
+    designation: stem:[T]
+  language_code: eng
   annotations:
   - content: Unit distance) (G.B.)
   - content: Unit distance to the luminous flux which would be transmitted along the
@@ -109,3 +80,5 @@ data:
   - content: Unit of distance chosen is the kilometre. It is related to the 'Transmissionsfaktor"
       q and to the "Sichtwert" s by the formulae
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Atmospheric_Transmission_Factor
+termid: 2-1-270
+id: 9f02e035-7948-5e97-9ab3-8c89c0f437cd

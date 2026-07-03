@@ -1,68 +1,41 @@
 ---
-id: 2-3-075
 data:
   identifier: 2-3-075
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Trimming
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 2-3-075
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2015
     id: 2-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-3-075
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-3-075
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Trimming
+  type: authoritative
+status: valid
+id: 2-3-075
 ---
-id: 2-3-075-eng
-termid: 2-3-075
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Trimming
-    normative_status: preferred
   definition:
   - content: The operation of removing the carbonised part of the wick of an oil lamp.
+  examples: []
   notes:
   - content: Trimming is usually effected by the use of curved scissors.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Trimming
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Trimming
+termid: 2-3-075
+id: 5af4d539-cc5e-58eb-8a95-5bf2afb45f4b

@@ -1,74 +1,47 @@
 ---
-id: 8-5-145
 data:
   identifier: 8-5-145
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lewis_(GB)
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-5-145
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 8-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 8-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 8-5-145
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-5-145
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lewis_(GB)
+  type: authoritative
+status: valid
+id: 8-5-145
 ---
-id: 8-5-145-eng
-termid: 8-5-145
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lewis (GB)
-    normative_status: preferred
-  - type: expression
-    designation: Sinker bail (USA)
-    normative_status: admitted
   definition:
   - content: |-
       Lug made of iron or steel, embedded in a sinker, to which a mooring chain is shackled.
 
       The term "anchor ring" is also loosely used in Great Britain with this meaning.
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lewis (GB)
+  - type: expression
+    normative_status: admitted
+    designation: Sinker bail (USA)
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lewis_(GB)
+termid: 8-5-145
+id: 9e8e042f-e2a4-5f75-a696-9e9d05a8b26a

@@ -1,67 +1,41 @@
 ---
-id: 7-5-150
 data:
   identifier: 7-5-150
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Poisson's_ratio
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-5-150
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-5-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-5-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-5-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-5-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-5-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-5-150
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-5-150
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Poisson's_ratio
+  type: authoritative
+status: valid
+id: 7-5-150
 ---
-id: 7-5-150-eng
-termid: 7-5-150
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Poisson's ratio
-    normative_status: preferred
   definition:
   - content: The ratio between transverse strain and longitudinal strain under tensile
       or compressive stress.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Poisson's ratio
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Poisson's_ratio
+termid: 7-5-150
+id: ab4fbab3-3e8a-5a79-9562-ac42c9042fee

@@ -1,69 +1,43 @@
 ---
-id: 6-3-010
 data:
   identifier: 6-3-010
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-6
+  - concept_id: section-6
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Solar_module
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 6-3-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 6-3-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 6-3-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 6-3-010
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2016
     id: 6-3-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 6-3-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 6-3-010
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 6-3-010
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Solar_module
+  type: authoritative
+status: valid
+id: 6-3-010
 ---
-id: 6-3-010-eng
-termid: 6-3-010
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Solar module
-    normative_status: preferred
   definition:
   - content: |-
       (solar) module
 
       The smallest complete environmentally-protected assembly of interconnected solar cells.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Solar module
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Solar_module
+termid: 6-3-010
+id: 6fc7a490-7d75-5a1a-9634-a593bc042d6d

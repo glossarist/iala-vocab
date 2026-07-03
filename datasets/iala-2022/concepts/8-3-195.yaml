@@ -1,67 +1,41 @@
 ---
-id: 8-3-195
 data:
   identifier: 8-3-195
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Bridle
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 8-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 8-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2012
-    id: 8-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 8-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 8-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 8-3-195
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2018
     id: 8-3-195
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 8-3-195
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Bridle
+  type: authoritative
+status: valid
+id: 8-3-195
 ---
-id: 8-3-195-eng
-termid: 8-3-195
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Bridle
-    normative_status: preferred
   definition:
   - content: Two lengths of chain connected by a central ring and used for lifting
       wide loads.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Bridle
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bridle
+termid: 8-3-195
+id: 070630f3-c7bd-5ac9-87bd-d3bb3e9894b7

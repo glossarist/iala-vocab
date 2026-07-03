@@ -1,70 +1,43 @@
 ---
-id: 2-4-135
 data:
   identifier: 2-4-135
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-2
+  - concept_id: section-2
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Cut_screen
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 2-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2009
-    id: 2-4-135
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2012
     id: 2-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 2-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 2-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 2-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 2-4-135
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 2-4-135
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Cut_screen
+  type: authoritative
+status: valid
+id: 2-4-135
 ---
-id: 2-4-135-eng
-termid: 2-4-135
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Cut screen
-    normative_status: preferred
   definition:
   - content: An opaque screen located at the optic and intended to reduce the luminous
       intensity of the beam, and also, in the case of revolving optics, to reduce
       the angle of uncertainty
+  examples: []
   notes:
   - content: In the second case, this is a form of "cut screen".
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Cut screen
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cut_screen
+termid: 2-4-135
+id: e11bc97a-4436-56bb-8d59-addc3270f7ae

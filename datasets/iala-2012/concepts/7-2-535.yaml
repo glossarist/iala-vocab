@@ -1,73 +1,46 @@
 ---
-id: 7-2-535
 data:
   identifier: 7-2-535
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-7
+  - concept_id: section-7
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
-sources:
-- type: authoritative
-  origin:
-    ref:
-      source: IALA Dictionary
-    link: https://www.iala.int/wiki/dictionary/index.php/Lintel
 related:
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:1970-89
-    id: 7-2-535
-- type: equivalent
+- type: supersedes
   ref:
     source: urn:iala:dictionary:2009
     id: 7-2-535
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2015
-    id: 7-2-535
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2016
-    id: 7-2-535
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2017
-    id: 7-2-535
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2018
-    id: 7-2-535
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2022
-    id: 7-2-535
-- type: equivalent
-  ref:
-    source: urn:iala:dictionary:2023
-    id: 7-2-535
+sources:
+- origin:
+    ref:
+      source: IALA Dictionary
+    link: https://www.iala.int/wiki/dictionary/index.php/Lintel
+  type: authoritative
+status: valid
+id: 7-2-535
 ---
-id: 7-2-535-eng
-termid: 7-2-535
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Lintel
-    normative_status: preferred
-  - type: expression
-    designation: Lintol
-    normative_status: admitted
   definition:
   - content: A beam over a wall opening, typically over a door or window, to carry
       the wall load.
+  examples: []
   notes:
   - content: The German term Sturz and the French term linteau can also apply to a
       brick arch construction used instead of a lintel.
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Lintel
+  - type: expression
+    normative_status: admitted
+    designation: Lintol
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lintel
+termid: 7-2-535
+id: 1b628350-2f3b-5513-ab14-1e7d4dffc947
