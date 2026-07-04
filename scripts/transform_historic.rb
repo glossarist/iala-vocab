@@ -165,19 +165,18 @@ def build_managed_model(termid, source_edition, target_edition, target_termid, p
   managed.data ||= Glossarist::V3::ManagedConceptData.new
   managed.data.id = termid
   managed.data.domains = [
-    Glossarist::V3::ConceptReference.new(
+    Glossarist::ConceptReference.new(
       source: urn_for(source_edition),
       concept_id: "section-historic",
       ref_type: "section",
     ),
   ]
 
-  if target_edition && target_termid
-    managed.related << Glossarist::V3::RelatedConcept.new(
-      type: "retired_by",
-      ref: Glossarist::V3::ConceptRef.new(source: urn_for(target_edition), id: target_termid),
-    )
-  end
+  # Per OIML pattern: forward `retires` edges live on the active
+  # target concept (written by +append_retires_to_target+ below).
+  # The backward `retired_by` is NOT stored — the concept-browser
+  # derives it from incoming `retires` edges at render time.
+
   managed
 end
 

@@ -90,14 +90,10 @@ each_concept_file do |edition, path|
     dirty = true
   end
 
-  unless has_related?(managed, "superseded_by", urn_for(target_edition), target_termid)
-    managed.related << Glossarist::V3::RelatedConcept.new(
-      type: "superseded_by",
-      ref: Glossarist::V3::ConceptRef.new(source: urn_for(target_edition), id: target_termid),
-    )
-    stats[:edges_added] += 1
-    dirty = true
-  end
+  # Per OIML pattern: forward `supersedes` edges live on the active
+  # target concept (written in the second pass below). The backward
+  # `superseded_by` is NOT stored — the concept-browser derives it
+  # from incoming `supersedes` edges at render time.
 
   target_year = EDITION_YEARS[target_edition]
   if target_year && !has_date?(managed, "retired", target_year)
