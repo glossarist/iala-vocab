@@ -5,10 +5,15 @@
     "generate": "npx concept-browser generate",
     "build": "npx concept-browser build && node scripts/install-favicons.mjs",
     "dev": "npm run generate && NODE_PATH=node_modules/@glossarist/concept-browser/node_modules node_modules/@glossarist/concept-browser/node_modules/.bin/vite --config node_modules/@glossarist/concept-browser/vite.config.ts",
-    "preview": "NODE_PATH=node_modules/@glossarist/concept-browser/node_modules node_modules/@glossarist/concept-browser/node_modules/.bin/vite preview --config node_modules/@glossarist/concept-browser/vite.config.ts"
+    "preview": "NODE_PATH=node_modules/@glossarist/concept-browser/node_modules node_modules/@glossarist/concept-browser/node_modules/.bin/vite preview --config node_modules/@glossarist/concept-browser/vite.config.ts",
+    "postinstall": "patch-package"
   },
   "dependencies": {
-    "@glossarist/concept-browser": "^0.7.59",
-    "glossarist": "^0.4.8"
+    "@glossarist/concept-browser": "^0.7.64",
+    "glossarist": "^0.4.12"
+  },
+  "devDependencies": {
+    "patch-package": "^8.0.1",
+    "postinstall-postinstall": "^2.1.0"
   }
 }
