@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo does
 
-Ports the IALA Dictionary (MediaWiki at `https://www.iala.int/wiki/dictionary/`) to a Glossarist Concept Browser site deployed on GitHub Pages at `https://metanorma.github.io/iala-vocab/`. The deployment pattern follows `oimlsmart/vocab`.
+Ports the IALA Dictionary (MediaWiki at `https://www.iala.int/wiki/dictionary/`) to a Glossarist Concept Browser site deployed on GitHub Pages at `https://www.glossarist.org/iala-vocab/`. The deployment pattern follows `oimlsmart/vocab`.
 
 Nine cumulative-edition datasets live under `datasets/`, forming a lineage from `iala-1970-89` through `iala-2023` (current). Each dataset is complete upon itself — the cumulative state of the dictionary at that year.
 
@@ -128,7 +128,7 @@ Duplicate `termid`s are disambiguated with a `-N` suffix inside `transform_iala.
 - **`site-config.yml`** — canonical config (id, basePath `/iala-vocab/`, branding, datasets, datasetGroups, features, pages). `npm run generate` turns this into `public/site-config.json` and `public/datasets.json`. Both are gitignored-visible artifacts.
 - **`about-eng.md`** — markdown source for the About page, registered via `pages: [{type: about, source: about-eng.md}]` in `site-config.yml`. Becomes `public/pages/about.json` after `generate`.
 - **`.github/workflows/build_deploy.yml`** — runs on push to `main`, on PR, on `workflow_dispatch`, and on `repository_dispatch: deploy` (this is how other repos can trigger a rebuild). Installs concept-browser from npm (NOT the `file:` reference in `package.json` — the workflow rewrites it), runs `npx concept-browser build`, uploads `dist/` as the Pages artifact, and deploys on `main`.
-- **`basePath: /iala-vocab/`** — every URL is under this prefix because the site lives at `metanorma.github.io/iala-vocab/`, not a root domain. Image paths in `download_images.rb` (`/iala-vocab/images/iala/…`) and concept-browser routing assume this.
+- **`basePath: /iala-vocab/`** — every URL is under this prefix because the site lives at `www.glossarist.org/iala-vocab/`, not a root domain. Image paths in `download_images.rb` (`/iala-vocab/images/iala/…`) and concept-browser routing assume this.
 
 ## Gitignored but load-bearing
 
