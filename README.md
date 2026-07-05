@@ -1,82 +1,97 @@
 # IALA Dictionary
 
-[![Deploy](https://github.com/glossarist/iala-vocab/actions/workflows/deploy.yml/badge.svg)](https://github.com/glossarist/iala-vocab/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/glossarist/iala-vocab/actions/workflows/build_deploy.yml/badge.svg)](https://github.com/glossarist/iala-vocab/actions/workflows/build_deploy.yml)
 
-The International Association of Lighthouse Authorities (IALA) Dictionary is a comprehensive vocabulary resource for maritime navigation and lighthouse terminology. This site provides access to standardized definitions across multiple editions.
+The IALA Dictionary is a comprehensive vocabulary of maritime aids-to-navigation terminology published by the International Association of Marine Aids to Navigation and Lighthouse Authorities (IALA). This repo deploys the dictionary as a [Glossarist Concept Browser](https://github.com/glossarist/concept-browser) site at **<https://www.glossarist.org/iala-vocab/>**.
 
-## Repository Structure
+The deployment pattern follows [`oimlsmart/vocab`](https://github.com/oimlsmart/vocab).
 
-- `concepts/` — YAML files containing concept definitions
-- `scripts/` — Ruby scripts for scraping and processing IALA data
-- `public/` — Static assets (favicon, etc.)
-- `site-config.yml` — Configuration for the concept browser
-- `package.json` — Node.js dependencies and build scripts
-- `Gemfile` — Ruby dependencies
+## Editions
 
-## Building Locally
+Nine cumulative-edition datasets live under `datasets/`, forming a lineage:
+
+```
+iala-1970-89 → iala-2009 → iala-2012 → iala-2015 → iala-2016
+            → iala-2017 → iala-2018 → iala-2022 → iala-2023 (current)
+```
+
+Each edition is complete upon itself — the cumulative state of the dictionary at that year. Cross-edition relationships use a directed `supersedes` chain (newer → immediate predecessor); the concept-browser derives the inverse at render time.
+
+## Repository structure
+
+```
+datasets/                # 9 edition datasets (authoritative, hand-curated)
+  iala-<year>/
+    concepts/*.yaml      # Glossarist v3 multi-doc YAML per concept
+    register.yaml        # per-edition metadata (id, year, urn, status, description)
+lib/iala_vocab/          # typed Ruby library (autoloaded, model-driven)
+scripts/                 # pipeline entry points (thin wrappers around lib/)
+scripts/historical/      # one-shot migration scripts (provenance only — do not re-run)
+reference-docs/          # cached MediaWiki API responses + scraped envelopes (gitignored)
+site-config.yml          # deployment config (datasets, branding, basePath)
+iala_vocab.gemspec       # path-gem spec — referenced from Gemfile
+```
+
+See [`CLAUDE.md`](./CLAUDE.md) for the full architecture: `Edition` / `EditionSeries` / `ConceptFile` / `CrossEditionLinker` / `LifecycleMarker` / `CitationExtractor` / `GermanTranslator` / `RegisterBuilder` / `Auditor` / `ApiClient`.
+
+## Building locally
 
 ### Prerequisites
 
-- Node.js 20 or later
-- Ruby 3.0 or later
-- npm or yarn
+- Node.js 20+ and npm
+- Ruby 3.0+ and Bundler
 
-### Installation and Development
-
-```bash
-# Install Node.js dependencies
-npm install
-
-# Install Ruby dependencies
-bundle install
-
-# Generate concept data
-npm run generate
-
-# Start development server
-npm run dev
-```
-
-The development server will be available at `http://localhost:5173`.
-
-### Production Build
+### Install
 
 ```bash
-npm run build
+npm install                       # concept-browser + glossarist JS deps
+bundle install                    # Ruby deps (glossarist gem, httparty, nokogiri, rspec)
 ```
 
-## Configuration
+### Generate and dev
 
-The site is configured via `site-config.yml`, which specifies:
+```bash
+npm run generate                  # reads site-config.yml → public/site-config.json + datasets.json
+npm run dev                       # vite dev server at http://localhost:5173
+```
 
-- `basePath` — Base URL path for deployment
-- `localPath` — Local file path for concept data
-- `title` — Site title and branding
+`npm run dev` runs `generate` first; `npm run build` does not — always run `generate` after editing `site-config.yml` or any concept YAML.
 
-## Dataset
+### Production build
 
-The IALA Dictionary includes two main editions:
+```bash
+npm run build                     # produces dist/ for GH Pages
+```
 
-- **1970-89** — Early standardized definitions
-- **2023** — Current edition with updated terminology
+### Test
 
-## Updating the Dataset
+```bash
+bundle exec rspec                 # spec suite for lib/iala_vocab/ (real models, no doubles)
+bundle exec ruby scripts/audit_iala.rb   # exit 0 = clean, exit 1 = schema/URI errors
+```
 
-To update the vocabulary data:
+## Updating the dataset
 
-1. Run the Ruby scraper scripts in `scripts/`:
+Datasets are authoritative — hand-curated by editors. To regenerate from upstream MediaWiki:
+
+1. Populate `reference-docs/` via the scrape scripts (see CLAUDE.md "Data pipeline"):
    ```bash
-   bundle exec ruby scripts/scrape_iala.rb
+   bundle exec ruby scripts/scrape_sections.rb
+   bundle exec ruby scripts/scrape_edition.rb "IALA_Dictionary_2023_Revision"
+   bundle exec ruby scripts/scrape_translations.rb
+   bundle exec ruby scripts/scrape_historic.rb
+   ```
+2. Transform cached pages into Glossarist v3 YAML:
+   ```bash
+   bundle exec ruby scripts/transform_iala.rb iala-2023
+   bundle exec ruby scripts/build_cumulative_editions.rb
+   bundle exec ruby -e 'require "iala_vocab"; IalaVocab::CrossEditionLinker.new.run!'
+   bundle exec ruby scripts/generate_register.rb
+   bundle exec ruby scripts/audit_iala.rb
    ```
 
-2. The scripts will fetch data from IALA sources and generate YAML concept files in `concepts/`
-
-3. Regenerate the site:
-   ```bash
-   npm run generate
-   npm run build
-   ```
+For adding a new edition, see "Adding a new edition" in [`CLAUDE.md`](./CLAUDE.md) — it's a one-line append to `IalaVocab::EditionSeries::LINEAGE` plus dataset placement; no code changes anywhere else (OCP).
 
 ## License
 
-This project is licensed under the CC BY 4.0 License. See LICENSE file for details.
+CC BY 4.0. See [`LICENSE`](./LICENSE) for details.

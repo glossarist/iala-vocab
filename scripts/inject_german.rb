@@ -1,11 +1,13 @@
 #!/usr/bin/env ruby
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "iala_vocab"
+
 require "json"
 require "nokogiri"
 require "yaml"
-require_relative "glossarist_helpers"
 
 TRANSLATIONS_DIR = "reference-docs/scraped/translations/deu"
-DATASETS = %w[iala-1970-89 iala-2009 iala-2012 iala-2015 iala-2016 iala-2017 iala-2018 iala-2022 iala-2023]
+DATASETS = IalaVocab::EditionSeries.all.map(&:id)
 SKIP_TITLES = ["TestPage"].freeze
 
 # German citation markers. Source pages use:
@@ -105,7 +107,7 @@ def build_localized_model(termid, designation, definition_body, citation_sources
 end
 
 def append_localized_doc(yaml_path, localized_model)
-  concept = GlossaristHelpers.read_concept_file(yaml_path)
+  concept = IalaVocab::ConceptFile.read(yaml_path)
   return false unless concept && concept.managed
 
   lang = localized_model.data&.language_code
