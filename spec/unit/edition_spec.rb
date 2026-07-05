@@ -21,7 +21,7 @@ RSpec.describe IalaVocab::Edition do
 
   it "defaults owner to IALA and source_repo to the github URL" do
     expect(edition.owner).to eq("IALA")
-    expect(edition.source_repo).to eq("https://github.com/metanorma/iala-vocab")
+    expect(edition.source_repo).to eq("https://github.com/glossarist/iala-vocab")
   end
 
   it "derives concepts_dir and register_path from id" do
