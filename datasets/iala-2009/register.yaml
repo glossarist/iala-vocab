@@ -7,7 +7,7 @@ year: 2009
 urn: urn:iala:dictionary:2009
 status: superseded
 owner: IALA
-sourceRepo: https://github.com/metanorma/iala-vocab
+sourceRepo: https://github.com/glossarist/iala-vocab
 tags:
 - maritime
 - aids-to-navigation

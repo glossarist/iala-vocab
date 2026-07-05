@@ -12,7 +12,7 @@ module IalaVocab
     # rubocop:disable Metrics/ParameterLists
     def initialize(id:, year:, urn:, status:, ref:,
                    ref_aliases: [], owner: "IALA",
-                   source_repo: "https://github.com/metanorma/iala-vocab",
+                   source_repo: "https://github.com/glossarist/iala-vocab",
                    tags: default_tags, directory: default_directory(id),
                    description: {})
       @id = id
