@@ -1,25 +1,17 @@
 #!/usr/bin/env ruby
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "iala_vocab"
+
 require "json"
 require "fileutils"
 require "nokogiri"
-require_relative "glossarist_helpers"
 
 HISTORIC_INDEX = "reference-docs/scraped/editions/iala-historic/index.json"
-DATASETS = %w[iala-1970-89 iala-2009 iala-2012 iala-2015 iala-2016 iala-2017 iala-2018 iala-2022 iala-2023].freeze
-EDITION_YEARS = {
-  "iala-1970-89" => 1989, "iala-2009" => 2009, "iala-2012" => 2012,
-  "iala-2015" => 2015, "iala-2016" => 2016, "iala-2017" => 2017,
-  "iala-2018" => 2018, "iala-2022" => 2022, "iala-2023" => 2023,
-}.freeze
-
-def urn_for(edition)
-  "urn:iala:dictionary:#{edition.sub('iala-', '')}"
-end
 
 def load_indices
   hash = {}
-  DATASETS.each do |edition|
-    path = "reference-docs/scraped/editions/#{edition}/index.json"
+  IalaVocab::EditionSeries.all.each do |edition|
+    path = "reference-docs/scraped/editions/#{edition.id}/index.json"
     next unless File.exist?(path)
     JSON.parse(File.read(path)).each { |e| (hash[e["title"]] ||= []) << edition }
   end
@@ -31,8 +23,8 @@ INDICES = load_indices.freeze
 def active_target_for(stripped_title)
   candidates = INDICES[stripped_title] || []
   return nil if candidates.empty?
-  latest = candidates.max_by { |ed| EDITION_YEARS[ed] || 0 }
-  idx_path = "reference-docs/scraped/editions/#{latest}/index.json"
+  latest = candidates.max_by(&:year)
+  idx_path = "reference-docs/scraped/editions/#{latest.id}/index.json"
   idx = JSON.parse(File.read(idx_path))
   entry = idx.find { |e| e["title"] == stripped_title }
   termid = entry && (entry["numeric_code"] || entry["title"].downcase.gsub(/[^a-z0-9]+/, "-").gsub(/^-|-$/, ""))
@@ -166,7 +158,7 @@ def build_managed_model(termid, source_edition, target_edition, target_termid, p
   managed.data.id = termid
   managed.data.domains = [
     Glossarist::ConceptReference.new(
-      source: urn_for(source_edition),
+      source: source_edition.urn,
       concept_id: "section-historic",
       ref_type: "section",
     ),
@@ -182,24 +174,23 @@ end
 
 def append_retires_to_target(target_edition, target_termid, source_edition, source_termid)
   return unless target_edition && target_termid
-  target_path = "datasets/#{target_edition}/concepts/#{target_termid}.yaml"
+  target_path = File.join(target_edition.concepts_dir, "#{target_termid}.yaml")
   return unless File.exist?(target_path)
 
-  concept = GlossaristHelpers.read_concept_file(target_path)
+  concept = IalaVocab::ConceptFile.read(target_path)
   return unless concept && concept.managed
   managed = concept.managed
-  managed.related ||= []
 
-  already = managed.related.any? do |r|
-    r.type == "retires" && r.ref&.id == source_termid && r.ref&.source == urn_for(source_edition)
-  end
-  return if already
-
-  managed.related << Glossarist::V3::RelatedConcept.new(
+  edge = Glossarist::V3::RelatedConcept.new(
     type: "retires",
-    ref: Glossarist::V3::ConceptRef.new(source: urn_for(source_edition), id: source_termid),
+    ref: Glossarist::V3::ConceptRef.new(source: source_edition.urn, id: source_termid),
   )
-  GlossaristHelpers.write_concept_file(target_path, concept)
+  return if concept.has_edge?(type: "retires",
+                              source: source_edition.urn,
+                              id: source_termid)
+
+  concept.add_related(edge)
+  concept.save!
 end
 
 abort "Historic index not found: #{HISTORIC_INDEX}" unless File.exist?(HISTORIC_INDEX)
@@ -246,10 +237,10 @@ index.each do |entry|
 
     designation = section[:heading]
     termid = code
-    source_edition = "iala-1970-89"
+    source_edition = IalaVocab::EditionSeries.find("iala-1970-89")
     suffix = ""
     n = 1
-    while File.exist?("datasets/#{source_edition}/concepts/#{termid}#{suffix}.yaml")
+    while File.exist?(File.join(source_edition.concepts_dir, "#{termid}#{suffix}.yaml"))
       n += 1
       suffix = "-#{n}"
     end
@@ -259,7 +250,7 @@ index.each do |entry|
     localized = build_localized_model(final_termid, designation, alt_designation, definition_text, notes, page_url, title)
 
     # Both docs via V3 library models — annotations are now supported.
-    out_path = "datasets/#{source_edition}/concepts/#{final_termid}.yaml"
+    out_path = File.join(source_edition.concepts_dir, "#{final_termid}.yaml")
     parts = [managed.to_yaml, localized.to_yaml]
     File.write(out_path, parts.join)
     stats[:sections_emitted] += 1
