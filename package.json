@@ -1,6 +1,6 @@
 {
   "private": true,
-  "description": "IALA Dictionary — deployment config for @glossarist/concept-browser",
+  "description": "IALA Dictionary \u2014 deployment config for @glossarist/concept-browser",
   "scripts": {
     "generate": "npx concept-browser generate",
     "build": "npx concept-browser build && node scripts/install-favicons.mjs",
