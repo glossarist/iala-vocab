@@ -22,10 +22,10 @@ module IalaVocab
         "urn" => edition.urn,
         "status" => edition.status,
         "owner" => edition.owner,
-        "sourceRepo" => edition.source_repo,
+        "source_repo" => edition.source_repo,
         "tags" => edition.tags,
         "languages" => languages.dup,
-        "languageOrder" => languages.dup,
+        "language_order" => languages.dup,
         "ordering" => "systematic",
         "description" => stringify_keys(edition.description),
         "sections" => sections_tree,
@@ -52,7 +52,7 @@ module IalaVocab
     def format_yaml(data)
       ordered_keys = %w[
         schema_type schema_version id ref year urn status owner
-        sourceRepo tags languages languageOrder ordering description about sections
+        source_repo tags languages language_order ordering description about sections
       ]
       ordered = {}
       ordered_keys.each { |k| ordered[k] = data[k] if data.key?(k) }

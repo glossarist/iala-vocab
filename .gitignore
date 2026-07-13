@@ -13,6 +13,7 @@ public/routing.json
 public/pages/
 public/logos/
 public/favicon-links.html
+public/site.webmanifest
 *.log
 Gemfile.lock
 datasets_raw/

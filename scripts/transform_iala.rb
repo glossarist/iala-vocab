@@ -227,7 +227,7 @@ index.each do |item|
   # The "Please note that this is the term as it stands in the original IALA
   # Dictionary edition" disclaimer is intentionally NOT extracted: the same
   # provenance information is already encoded via the cross-edition
-  # `related: type: equivalent` link injected by link_editions.rb.
+  # `related: type: supersedes` chain installed by IalaVocab::CrossEditionLinker.
   doc.css("i").each { |i| i.remove if i.text.include?("Please note that this is the term") }
 
   # Extract langlinks before removing them!
