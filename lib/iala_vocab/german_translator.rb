@@ -23,7 +23,10 @@ module IalaVocab
 
       each_translation_entry do |entry|
         stats[:scanned] += 1
-        next if skip_titles.include?(entry["english_title"])
+        if skip_titles.include?(entry["english_title"])
+          stats[:skipped] += 1
+          next
+        end
 
         code = extract_numeric_code(entry)
         unless code
@@ -75,7 +78,10 @@ module IalaVocab
     end
 
     def read_cached_page(page_file)
-      path = File.join("reference-docs/scraped/translations", page_file)
+      # translations_dir is e.g. "reference-docs/scraped/translations/deu"
+      # page_file is e.g. "deu/light-de.json" — resolve relative to parent
+      translations_parent = File.dirname(translations_dir)
+      path = File.join(translations_parent, page_file)
       return nil unless File.exist?(path)
 
       JSON.parse(File.read(path))
@@ -83,7 +89,9 @@ module IalaVocab
 
     def find_concept_files(numeric_code)
       datasets.each_with_object([]) do |edition_id, hits|
-        path = File.join("datasets", edition_id, "concepts", "#{numeric_code}.yaml")
+        edition = IalaVocab::EditionSeries.find(edition_id)
+        dir = edition ? edition.concepts_dir : File.join("datasets", edition_id, "concepts")
+        path = File.join(dir, "#{numeric_code}.yaml")
         hits << path if File.exist?(path)
       end
     end

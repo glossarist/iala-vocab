@@ -1,81 +1,81 @@
 id: iala
 domain: www.glossarist.org/iala-vocab
-uriBase: https://www.glossarist.org/iala-vocab
-basePath: /iala-vocab/
+uri_base: https://www.glossarist.org/iala-vocab
+base_path: /iala-vocab/
 title: IALA Dictionary
 subtitle: International Association of Marine Aids to Navigation and Lighthouse Authorities Dictionary
 description: Terminology from the IALA Dictionary of Marine Aids to Navigation
-uiLanguages:
+ui_languages:
 - code: eng
   label: English
 datasets:
 - id: iala-2023
   title: IALA Dictionary 2023 Revision
   description: Current edition of the IALA Dictionary reflecting contemporary practices in electronic navigation, VTS, AIS, and e-Navigation.
-  localPath: datasets/iala-2023
+  local_path: datasets/iala-2023
   ref: IALA Dictionary (2023 Revision)
   owner: IALA
   color: '#00857E'
 - id: iala-2022
   title: IALA Dictionary 2022 Revision
   description: Cumulative state of the IALA Dictionary as of the 2022 Revision.
-  localPath: datasets/iala-2022
+  local_path: datasets/iala-2022
   ref: IALA Dictionary (2022 Revision)
   owner: IALA
   color: '#922B21'
 - id: iala-2018
   title: IALA Dictionary 2018 Revision
   description: Cumulative state of the IALA Dictionary as of the 2018 Revision.
-  localPath: datasets/iala-2018
+  local_path: datasets/iala-2018
   ref: IALA Dictionary (2018 Revision)
   owner: IALA
   color: '#8B4513'
 - id: iala-2017
   title: IALA Dictionary 2017 Revision
   description: Cumulative state of the IALA Dictionary as of the 2017 Revision.
-  localPath: datasets/iala-2017
+  local_path: datasets/iala-2017
   ref: IALA Dictionary (2017 Revision)
   owner: IALA
   color: '#B7950B'
 - id: iala-2016
   title: IALA Dictionary 2016 Revision
   description: Cumulative state of the IALA Dictionary as of the 2016 Revision.
-  localPath: datasets/iala-2016
+  local_path: datasets/iala-2016
   ref: IALA Dictionary (2016 Revision)
   owner: IALA
   color: '#117A65'
 - id: iala-2015
   title: IALA Dictionary 2015 Revision
   description: Cumulative state of the IALA Dictionary as of the 2015 Revision.
-  localPath: datasets/iala-2015
+  local_path: datasets/iala-2015
   ref: IALA Dictionary (2015 Revision)
   owner: IALA
   color: '#1F618D'
 - id: iala-2012
   title: IALA Dictionary 2012 Revision
   description: Cumulative state of the IALA Dictionary as of the 2012 Revision.
-  localPath: datasets/iala-2012
+  local_path: datasets/iala-2012
   ref: IALA Dictionary (2012 Revision)
   owner: IALA
   color: '#7D3C98'
 - id: iala-2009
   title: IALA Dictionary 2009 Edition
   description: Cumulative state of the IALA Dictionary as of the 2009 Edition.
-  localPath: datasets/iala-2009
+  local_path: datasets/iala-2009
   ref: IALA Dictionary (2009 Edition)
   owner: IALA
   color: '#5B2C6F'
 - id: iala-1970-89
   title: IALA Dictionary 1970–1989 Edition
   description: Foundational maritime navigation terminology compiled by the International Association of Marine Aids to Navigation and Lighthouse Authorities between 1970 and 1989.
-  localPath: datasets/iala-1970-89
+  local_path: datasets/iala-1970-89
   ref: IALA Dictionary (1970–1989 Edition)
   owner: IALA
   color: '#003366'
 routing: []
 branding:
-  primaryColor: '#003366'
-  darkColor: '#001a33'
+  primary_color: '#003366'
+  dark_color: '#001a33'
   fonts:
     header:
       family: Source Serif 4
@@ -92,17 +92,17 @@ branding:
       - 700
   logo:
     alt: IALA Dictionary
-    localLight: public/images/iala-logo_full-light.svg
-    localDark: public/images/iala-logo_full-dark.svg
-  ownerName: IALA
-  ownerUrl: https://www.iala-aism.org
+    local_light: public/images/iala-logo_full-light.svg
+    local_dark: public/images/iala-logo_full-dark.svg
+  owner_name: IALA
+  owner_url: https://www.iala-aism.org
 features:
   news: false
   stats: true
   graph: true
   about: true
   search: true
-  poweredBy:
+  powered_by:
     title: Glossarist
     url: https://glossarist.org
 pages:
@@ -113,7 +113,7 @@ pages:
   source: about-eng.md
 defaults:
   language: eng
-datasetGroups:
+dataset_groups:
 - id: iala
   label: IALA Dictionary
   kind: lineage

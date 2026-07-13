@@ -7,7 +7,7 @@ year: 2018
 urn: urn:iala:dictionary:2018
 status: superseded
 owner: IALA
-sourceRepo: https://github.com/glossarist/iala-vocab
+source_repo: https://github.com/glossarist/iala-vocab
 tags:
 - maritime
 - aids-to-navigation
@@ -19,7 +19,7 @@ languages:
 - fra
 - spa
 - deu
-languageOrder:
+language_order:
 - eng
 - fra
 - spa
