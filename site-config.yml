@@ -8,6 +8,10 @@ description: Terminology from the IALA Dictionary of Marine Aids to Navigation
 ui_languages:
 - code: eng
   label: English
+bulk_exports:
+- csv
+- ttl
+- jsonld
 datasets:
 - id: iala-2023
   title: IALA Dictionary 2023 Revision
