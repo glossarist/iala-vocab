@@ -41,10 +41,7 @@ id: 282912c5-19ce-5a3b-b367-696e33e0a079
 ---
 data:
   definition:
-  - content: |-
-      Cola de la boya
-
-      Tubo central bajo del cuerpo de la boya.
+  - content: Tubo central bajo del cuerpo de la boya.
   examples: []
   notes: []
   sources:
@@ -55,7 +52,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 8-4-140
+    designation: Cola de la boya
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Tail_tube_(of_a_buoy)/es

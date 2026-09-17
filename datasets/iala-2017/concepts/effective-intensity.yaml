@@ -21,10 +21,11 @@ id: effective-intensity
 ---
 data:
   definition:
-  - content: |-
-      2-1 -400
-
-      The luminous intensity of a fictitious juxtaposed steady-burning point light source that would appear to exhibit a luminosity equal to that of the rhythmic point light source it describes. The apparent reduction in intensity of the rhythmic light is subjective and is due to the nature of the response of the eye of the observer.
+  - content: The luminous intensity of a fictitious juxtaposed steady-burning point
+      light source that would appear to exhibit a luminosity equal to that of the
+      rhythmic point light source it describes. The apparent reduction in intensity
+      of the rhythmic light is subjective and is due to the nature of the response
+      of the eye of the observer.
   examples: []
   notes:
   - content: The quantity Ie so defined is a function not only of the intensity versus

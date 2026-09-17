@@ -44,8 +44,6 @@ id: 997810a1-5d06-5b76-9bf6-fdea1d634abb
 data:
   definition:
   - content: |-
-      Reserva de flotabilidad
-
       Volumen hermético de un barco por encima de la línea de flotación diseñada , expresado como un porcentaje de la flotabilidad total (volumen). Es una indicación de la navegabilidad de la embarcación
       .
   examples: []
@@ -58,7 +56,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 8-4-185
+    designation: Reserva de flotabilidad
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Reserve_buoyancy/es

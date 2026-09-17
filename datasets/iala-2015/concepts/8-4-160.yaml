@@ -43,8 +43,6 @@ id: c77f33a7-0740-5f19-9e0b-252c0c292d22
 data:
   definition:
   - content: |-
-      Asa de seguridad
-
       Parte de la superestructura A la que se sujeta el personal  de servicio para evitar caer.
       .
   examples: []
@@ -57,33 +55,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Safety hand-hold/es
+    designation: Asa de seguridad
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Safety_hand-hold/es
 termid: 8-4-160
 id: dae5bb12-2c3e-5125-b847-b93becfd7921
----
-data:
-  definition:
-  - content: |-
-      Asa de seguridad
-
-      Parte de la superestructura A la que se sujeta el personal  de servicio para evitar caer.
-      .
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 8-4-160
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Safety_hand-hold/es
-termid: 8-4-160
-id: 1774e9c8-734c-5749-b076-187db11fa637

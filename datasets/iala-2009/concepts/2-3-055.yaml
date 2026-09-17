@@ -45,8 +45,6 @@ id: 0312ffd7-279b-5c45-88d5-0df8231ac312
 data:
   definition:
   - content: |-
-      Lámpara de aceite
-
       Conjunto que consiste en un depósito que contiene combustible líquido (generalmente aceite de parafina) y una mecha que produce una llama.
 
       ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
@@ -60,34 +58,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Oil Lamp/es
+    designation: Lámpara de aceite
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp/es
 termid: 2-3-055
 id: 967cbe78-e262-57e2-a288-e4ebb452bc99
----
-data:
-  definition:
-  - content: |-
-      Lámpara de aceite
-
-      Conjunto que consiste en un depósito que contiene combustible líquido (generalmente aceite de parafina) y una mecha que produce una llama.
-
-      ![Ch2_Fig21.jpg](/iala-vocab/images/iala/Ch2_Fig21.jpg)
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 2-3-055
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Oil_Lamp/es
-termid: 2-3-055
-id: 5edbdef6-0606-5c3d-999e-7b826c5f19e6

@@ -21,10 +21,8 @@ id: 4-1-630
 ---
 data:
   definition:
-  - content: |-
-      Tank circuit (G.B.)
-
-      The tuned circuit in the anode circuit of the final stage of a transmitter which supplies the radio-frequency energy to the antenna or antenna feeder.
+  - content: The tuned circuit in the anode circuit of the final stage of a transmitter
+      which supplies the radio-frequency energy to the antenna or antenna feeder.
   examples: []
   notes: []
   sources:

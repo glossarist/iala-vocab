@@ -21,10 +21,10 @@ id: point-brilliance
 ---
 data:
   definition:
-  - content: |-
-      2-1 -395
-
-      A quantity involved in the visual observation of a source of light when viewed directly from such a distance that the apparent diameter is inappreciable. The point brilliance is measured by the illuminance produced by the source on a plane at the observer's eye normal to the direction of the source.
+  - content: A quantity involved in the visual observation of a source of light when
+      viewed directly from such a distance that the apparent diameter is inappreciable.
+      The point brilliance is measured by the illuminance produced by the source on
+      a plane at the observer's eye normal to the direction of the source.
   examples: []
   notes: []
   sources:

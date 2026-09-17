@@ -20,5 +20,6 @@ module IalaVocab
   autoload :GermanTranslator,    "iala_vocab/german_translator"
   autoload :RegisterBuilder,     "iala_vocab/register_builder"
   autoload :Auditor,             "iala_vocab/auditor"
+  autoload :ContentCleaner,      "iala_vocab/content_cleaner"
   autoload :ApiClient,           "iala_vocab/api_client"
 end

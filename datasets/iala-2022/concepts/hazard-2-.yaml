@@ -48,62 +48,6 @@ id: f0246731-fcfe-5d9d-b607-aec34c713974
 data:
   definition:
   - content: |-
-      Danger
-
-      Danger signifie toute situation ou menace qui:
-
-      a) représente un danger ou une entrave à la navigation; ou
-      b) peut raisonnablemet être susceptible d’entraîner des conséquence majeurs dommageables au milieu marin, ou des dommages au littoral ou relevant d’intérêts connexes à un ou plusieurs États.
-
-      La source: Convention de Nairobi 2017, fourni par le comité IALA ARM dans le document ARM7-12.1.14 en 2017.
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Hazard (2)/fr
-  language_code: fra
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/fr
-termid: hazard-2-
-id: b3e9dca9-40f1-50d8-a075-5b73c3b45935
----
-data:
-  definition:
-  - content: |-
-      Peligro
-
-      Peligro significa cualquier condición o amenaza que:
-
-      presente un peligro o impedimento para la navegación;
-      o puede esperarse razonablemente que produzca importantes consecuencias perjudiciales para el medio ambiente marino, o daños a la línea costera   o a intereses relacionados con uno o más Estados.
-
-      Fuente: Convenio de Nairobi 2017, proporcionado por el Comité ARM de IALA en el documento ARM7-12.1.14 en 2017.
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Hazard (2)/es
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/es
-termid: hazard-2-
-id: e084a8e4-327a-5aaf-9fa4-8ade1066fa68
----
-data:
-  definition:
-  - content: |-
       Danger signifie toute situation ou menace qui:
 
       a) représente un danger ou une entrave à la navigation; ou
@@ -125,7 +69,7 @@ data:
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/fr
 termid: hazard-2-
-id: c9747a03-0db2-53f7-ad4e-d09fbf22fc29
+id: b3e9dca9-40f1-50d8-a075-5b73c3b45935
 ---
 data:
   definition:
@@ -151,4 +95,4 @@ data:
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Hazard_(2)/es
 termid: hazard-2-
-id: bed562f9-d74c-5cf8-bfc4-82c07b4c3587
+id: e084a8e4-327a-5aaf-9fa4-8ade1066fa68

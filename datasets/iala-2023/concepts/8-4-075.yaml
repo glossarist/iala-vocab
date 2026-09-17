@@ -51,8 +51,6 @@ id: d3ec2b83-f863-51f9-9272-ac9b471218a1
 data:
   definition:
   - content: |-
-      Superestructura (de una boya)
-
       Armazón o construcción considerable que se realiza sobre el cuerpo de una boya. Puede servir como marca diurna y puede llevar una señal luminosa, marca de tope y otras ayudas a la navegación.
       .
 
@@ -75,7 +73,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 8-4-075
+    designation: Superestructura (de una boya)
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)/es

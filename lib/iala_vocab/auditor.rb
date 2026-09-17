@@ -14,7 +14,14 @@ module IalaVocab
   # - *Cross-edition*: every +supersedes+ ref resolves to a real file
   #   in the target edition; the supersedes chain is acyclic and
   #   length ≤ +EditionSeries.all.length − 1+.
+  #
+  # - *Content quality*: no duplicate localized docs per language, no
+  #     numeric-code designations, no MediaWiki translation-suffix
+  #     designations (+/es+ +/fr+ +/de+), and no definition bodies
+  #     opening with a numeric code line.
   class Auditor
+    NUMERIC_CODE = /\A\d{1,2}-\d{1,2}(?:\s?-?\s?\d{1,3})?\z/
+    LANG_SUFFIX = %r{/(es|fr|de)\z}
     attr_reader :series, :errors
 
     def initialize(series: EditionSeries)
@@ -58,20 +65,39 @@ module IalaVocab
     end
 
     def audit_localized(edition, path, localized_docs)
+      languages = Hash.new(0)
       localized_docs.each do |doc|
         next unless doc.is_a?(Hash)
 
         data = doc["data"] || {}
         lang = data["language_code"]
+        languages[lang] += 1
         terms = data["terms"]
         unless terms.is_a?(Array) && !terms.empty?
           record_error(path, "missing terms (#{lang})")
+        end
+        (terms || []).each do |term|
+          designation = term["designation"].to_s
+          if designation.match?(NUMERIC_CODE)
+            record_error(path, "numeric designation #{designation.inspect} (#{lang})")
+          end
+          if designation.match?(LANG_SUFFIX)
+            record_error(path, "designation carries language suffix: #{designation.inspect} (#{lang})")
+          end
         end
         definition = data["definition"]
         if definition && !(definition.is_a?(Array) &&
                            definition.all? { |d| d.is_a?(Hash) && d.key?("content") })
           record_error(path, "invalid definition structure (#{lang})")
         end
+        first_def = definition.to_a.first
+        first_line = first_def.is_a?(Hash) ? first_def["content"].to_s.lines.first.to_s.strip : ""
+        if first_line.match?(NUMERIC_CODE)
+          record_error(path, "definition starts with numeric code #{first_line.inspect} (#{lang})")
+        end
+      end
+      languages.each do |lang, count|
+        record_error(path, "duplicate localized doc (#{lang}) x#{count}") if count > 1
       end
     end
 

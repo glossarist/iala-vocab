@@ -22,8 +22,6 @@ id: 2-3-150
 data:
   definition:
   - content: |-
-      Lámpara de vacío
-
       Lámpara incandescente en la que el elemento luminoso (filamento) funciona en un bulbo al vacío.
 
       Referencia: C.I.E.
@@ -37,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Vacuum Lamp/es
+    designation: Lámpara de vacío
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Vacuum_Lamp/es

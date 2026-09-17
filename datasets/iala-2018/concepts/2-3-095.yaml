@@ -22,8 +22,6 @@ id: 2-3-095
 data:
   definition:
   - content: |-
-      Soporte del filamento
-
       Alambre de metal utilizado como soporte del filamento de una lámpara.
 
       ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
@@ -39,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Filament Support/es
+    designation: Soporte del filamento
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament_Support/es

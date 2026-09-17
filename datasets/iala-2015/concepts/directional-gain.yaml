@@ -21,10 +21,7 @@ id: directional-gain
 ---
 data:
   definition:
-  - content: |-
-      3-1 -150
-
-      Ten times the logarithm to the base 10 of the directivity factor.
+  - content: Ten times the logarithm to the base 10 of the directivity factor.
   examples: []
   notes: []
   sources:

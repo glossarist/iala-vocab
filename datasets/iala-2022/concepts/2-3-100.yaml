@@ -22,8 +22,6 @@ id: 2-3-100
 data:
   definition:
   - content: |-
-      Bulbo
-
       Recubrimiento transparente o translúcido, hermético al gas que encierra el elemento luminoso de una lámpara.
 
       Referencia: C.I.E. (modificado)
@@ -39,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Bulb/es
+    designation: Bulbo
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bulb/es

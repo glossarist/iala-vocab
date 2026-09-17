@@ -42,10 +42,8 @@ id: 1dd242c4-91e8-5bcf-8ff8-f66820cf73c5
 ---
 data:
   definition:
-  - content: |-
-      Casquillo miniatura
-
-      Casquillo de lámpara de pequeñas dimensiones, por ejemplo uno de rosca Edison en miniatura (tipo E14), pigmeo (tipo E10), etc. C.I.E
+  - content: Casquillo de lámpara de pequeñas dimensiones, por ejemplo uno de rosca
+      Edison en miniatura (tipo E14), pigmeo (tipo E10), etc. C.I.E
   examples: []
   notes: []
   sources:
@@ -56,32 +54,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Miniature Cap/es
+    designation: Casquillo miniatura
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Miniature_Cap/es
 termid: 2-3-140
 id: 5874b6a9-cb65-5e00-8a97-3e3317ac8847
----
-data:
-  definition:
-  - content: |-
-      Casquillo miniatura
-
-      Casquillo de lámpara de pequeñas dimensiones, por ejemplo uno de rosca Edison en miniatura (tipo E14), pigmeo (tipo E10), etc. C.I.E
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 2-3-140
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Miniature_Cap/es
-termid: 2-3-140
-id: bf4cfe8a-e41e-5cdc-8e96-1ad52794999c

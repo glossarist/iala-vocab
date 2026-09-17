@@ -47,8 +47,6 @@ id: 7630c3df-88ab-5e4a-aed0-883de135c18c
 data:
   definition:
   - content: |-
-      Lámpara de descarga
-
       Lámpara en la que la luz se produce mediante una descarga eléctrica a través de un gas, un vapor de metal o una mezcla de varios gases o vapores.
 
       Referencia: C.I.E.
@@ -62,7 +60,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 2-3-310
+    designation: Lámpara de descarga
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Discharge_Lamp/es

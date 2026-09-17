@@ -21,10 +21,9 @@ id: organ-of-vision
 ---
 data:
   definition:
-  - content: |-
-      2-1 -320
-
-      The group of structures comprising the eye, the optic nerve and certain parts of the brain, which transforms the light stimulus into a complex of nerve excitations, whose subjective correlate is visual perception.
+  - content: The group of structures comprising the eye, the optic nerve and certain
+      parts of the brain, which transforms the light stimulus into a complex of nerve
+      excitations, whose subjective correlate is visual perception.
   examples: []
   notes: []
   sources:

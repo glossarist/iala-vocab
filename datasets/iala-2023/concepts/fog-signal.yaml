@@ -22,8 +22,6 @@ id: fog-signal
 data:
   definition:
   - content: |-
-      3-1 -030
-
       Sound signal to warn ships in conditions of poor visibility.
 
       Also called Audible Signal or Sound Signal.
@@ -49,8 +47,6 @@ id: 16487f62-7f3c-50cf-9a5b-e181cefdfec8
 data:
   definition:
   - content: |-
-      Signal de brume
-
       (Signal sonore)
 
       Un signal sonore destiné à avertir ou guider les navires par visibilité réduite.
@@ -68,7 +64,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 3-1 -030
+    designation: Signal de brume
   language_code: fra
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal/fr
@@ -78,8 +74,6 @@ id: b076bda5-9bb6-595b-b94b-27071cb0de7c
 data:
   definition:
   - content: |-
-      Señal de niebla
-
       (Señal sonora)
 
       Señal audible destinada a advertir o guiar a los buques en situaciones de baja visibilidad.
@@ -97,7 +91,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 3-1 -030
+    designation: Señal de niebla
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fog_signal/es

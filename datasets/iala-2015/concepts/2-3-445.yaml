@@ -42,10 +42,8 @@ id: 8338f5d0-d614-5fb3-a01f-b761c003dc51
 ---
 data:
   definition:
-  - content: |-
-      Vida útil (de una lámpara)
-
-      El tiempo durante el cual el flujo luminoso emitido por la lámpara excede una proporción especificada de su valor inicial.
+  - content: El tiempo durante el cual el flujo luminoso emitido por la lámpara excede
+      una proporción especificada de su valor inicial.
   examples: []
   notes: []
   sources:
@@ -56,32 +54,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Useful Life (of a lamp)/es
+    designation: Vida útil (de una lámpara)
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Useful_Life_(of_a_lamp)/es
 termid: 2-3-445
 id: fb12c81e-176a-56e4-8bc6-773f76c158e0
----
-data:
-  definition:
-  - content: |-
-      Vida útil (de una lámpara)
-
-      El tiempo durante el cual el flujo luminoso emitido por la lámpara excede una proporción especificada de su valor inicial.
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 2-3-445
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Useful_Life_(of_a_lamp)/es
-termid: 2-3-445
-id: 82359199-85e5-503a-8dfa-50057c0da634

@@ -46,8 +46,6 @@ id: 4f5e06a5-e120-53d2-98cd-62470ad1bd36
 data:
   definition:
   - content: |-
-      Marca de tope
-
       Objeto o par de objetos de forma y color característico que se instalan en la parte superior de una boya como medio de identificación.
 
       Nota:
@@ -63,7 +61,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 8-4-095
+    designation: Marca de tope
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark/es

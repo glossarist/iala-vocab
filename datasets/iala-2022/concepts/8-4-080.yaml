@@ -21,10 +21,8 @@ id: 8-4-080
 ---
 data:
   definition:
-  - content: |-
-      Equipo luminoso de la boya (linterna)
-
-      Equipamiento instalado en una boya que comprende la fuente luminosa, la óptica y el  contenedor con cubrelentes.
+  - content: Equipamiento instalado en una boya que comprende la fuente luminosa,
+      la óptica y el  contenedor con cubrelentes.
   examples: []
   notes: []
   sources:
@@ -35,7 +33,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Buoy light/es
+    designation: Equipo luminoso de la boya (linterna)
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoy_light/es
