@@ -22,8 +22,6 @@ id: 8-4-050
 data:
   definition:
   - content: |-
-      Boya de invierno
-
       Boya en general ciega utilizada como sustitución de una boya luminosa o una boya ciega grande  en ciertas áreas durante los meses de invierno cuando se retiran temporalmente otras ayudas  a  la navegación.
 
       Nota 1:
@@ -47,7 +45,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Winter buoy/es
+    designation: Boya de invierno
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Winter_buoy/es

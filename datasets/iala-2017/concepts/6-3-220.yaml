@@ -21,10 +21,8 @@ id: 6-3-220
 ---
 data:
   definition:
-  - content: |-
-      Velocidad de arranque del viento (de un generador eólico)
-
-      Velocidad del viento a partir de la cual el generador comienza a producir energía utilizable.
+  - content: Velocidad del viento a partir de la cual el generador comienza a producir
+      energía utilizable.
   examples: []
   notes: []
   sources:
@@ -35,7 +33,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Cut-in wind speed (of a wind-power genearator)/es
+    designation: Velocidad de arranque del viento (de un generador eólico)
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cut-in_wind_speed_(of_a_wind-power_genearator)/es

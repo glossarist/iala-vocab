@@ -22,8 +22,6 @@ id: 8-4-160
 data:
   definition:
   - content: |-
-      Asa de seguridad
-
       Parte de la superestructura A la que se sujeta el personal  de servicio para evitar caer.
       .
   examples: []
@@ -36,7 +34,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Safety hand-hold/es
+    designation: Asa de seguridad
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Safety_hand-hold/es

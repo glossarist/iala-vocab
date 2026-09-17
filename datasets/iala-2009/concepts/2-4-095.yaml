@@ -50,8 +50,6 @@ id: 14d53450-d852-5b6f-a438-7626e246ccea
 data:
   definition:
   - content: |-
-      Cambiador de lámpara
-
       Término alternativo: Cambia-lámpara (G.B.)
 
       Mecanismo generalmente automático que reemplaza una lámpara por otra en servicio en una luz.
@@ -69,38 +67,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Lamp Changer/es
+    designation: Cambiador de lámpara
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer/es
 termid: 2-4-095
 id: c3d9a02a-cca3-5d62-876d-533536dace93
----
-data:
-  definition:
-  - content: |-
-      Cambiador de lámpara
-
-      Término alternativo: Cambia-lámpara (G.B.)
-
-      Mecanismo generalmente automático que reemplaza una lámpara por otra en servicio en una luz.
-
-      Normalmente esto ocurre cuando falla la primera lámpara en servicio.
-
-      ![Ch2_Fig10.jpg](/iala-vocab/images/iala/Ch2_Fig10.jpg)
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 2-4-095
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Lamp_Changer/es
-termid: 2-4-095
-id: 40a586ce-358a-5978-b9da-8555809e7f78

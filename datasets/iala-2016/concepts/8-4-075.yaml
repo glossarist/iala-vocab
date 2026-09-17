@@ -51,8 +51,6 @@ id: d3ec2b83-f863-51f9-9272-ac9b471218a1
 data:
   definition:
   - content: |-
-      Superestructura (de una boya)
-
       Armazón o construcción considerable que se realiza sobre el cuerpo de una boya. Puede servir como marca diurna y puede llevar una señal luminosa, marca de tope y otras ayudas a la navegación.
       .
 
@@ -75,43 +73,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Superstructure (of a buoy)/es
+    designation: Superestructura (de una boya)
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)/es
 termid: 8-4-075
 id: c20d6956-8d1f-5636-a0fc-105d8691c948
----
-data:
-  definition:
-  - content: |-
-      Superestructura (de una boya)
-
-      Armazón o construcción considerable que se realiza sobre el cuerpo de una boya. Puede servir como marca diurna y puede llevar una señal luminosa, marca de tope y otras ayudas a la navegación.
-      .
-
-      Nota 1:
-
-      El término jaula se refiere a una parte de una superestructura que es un marco externo de listones o costillas muy separadas. El propósito de una jaula es proporcionar una forma característica como un cilindro, cono o esfera.
-
-      Nota 2:
-
-      Los términos soporte de linterna y poste de linterna (EE. UU.) Se refieren a la parte de la superestructura de la boya que proporciona soporte directo a la luz de la boya y, posiblemente, también al topmark y al reflector de radar.
-
-      El término francés support de lanterne tiene el mismo significado.
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 8-4-075
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Superstructure_(of_a_buoy)/es
-termid: 8-4-075
-id: 2cff65b9-c613-537c-ba07-a95213b88fc3

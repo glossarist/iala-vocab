@@ -22,8 +22,6 @@ id: 2-3-290
 data:
   definition:
   - content: |-
-      Electroluminiscencia
-
       Luminiscencia  de ciertas sustancias, generalmente sólidas, bajo la acción de un campo eléctrico.
 
       Nota: Anteriormente, este término se ha utilizado principalmente para la luminiscencia de un gas bajo la acción de una descarga eléctrica.
@@ -39,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Electroluminescence/es
+    designation: Electroluminiscencia
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Electroluminescence/es

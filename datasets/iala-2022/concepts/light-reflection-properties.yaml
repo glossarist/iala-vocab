@@ -21,10 +21,7 @@ id: light-reflection-properties
 ---
 data:
   definition:
-  - content: |-
-      2-1 -165
-
-      The capacity of a body to reflect light.
+  - content: The capacity of a body to reflect light.
   examples: []
   notes: []
   sources:

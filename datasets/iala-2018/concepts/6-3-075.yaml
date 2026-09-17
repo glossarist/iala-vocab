@@ -21,10 +21,8 @@ id: 6-3-075
 ---
 data:
   definition:
-  - content: |-
-      Diodo de bloqueo
-
-      Diodo conectado en serie al módulo o panel solar para evitar daños por inversión de corriente.
+  - content: Diodo conectado en serie al módulo o panel solar para evitar daños por
+      inversión de corriente.
   examples: []
   notes: []
   sources:
@@ -35,7 +33,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Blocking diode/es
+    designation: Diodo de bloqueo
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Blocking_diode/es

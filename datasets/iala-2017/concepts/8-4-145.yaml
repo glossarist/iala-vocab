@@ -46,8 +46,6 @@ id: da5a2f98-0f0d-556c-aa4e-cccd7b1998ed
 data:
   definition:
   - content: |-
-      Defensas
-
       Término alternativo: Fendering
 
       Dispositivos  de absorción de impactos  que rodean un cuerpo flotante  para  limitar los efectos del impacto.
@@ -61,34 +59,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Fenders/es
+    designation: Defensas
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fenders/es
 termid: 8-4-145
 id: ff686d3f-cd35-586b-95e2-d4b8e25b2182
----
-data:
-  definition:
-  - content: |-
-      Defensas
-
-      Término alternativo: Fendering
-
-      Dispositivos  de absorción de impactos  que rodean un cuerpo flotante  para  limitar los efectos del impacto.
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 8-4-145
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Fenders/es
-termid: 8-4-145
-id: d377b6f5-2a76-5610-8495-57e760b5982f

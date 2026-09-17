@@ -22,7 +22,6 @@ id: 5-4-260
 data:
   definition:
   - content: |-
-      5-4-260
       (Key) Sender
 
       In automatic telephony, a device which accepts and stores groups of coded pulses and which thereafter controls the setting up of a call. For a key sender, the pulses are produced by the depression of digit keys.

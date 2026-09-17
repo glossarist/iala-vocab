@@ -46,8 +46,6 @@ id: 4f5e06a5-e120-53d2-98cd-62470ad1bd36
 data:
   definition:
   - content: |-
-      Marca de tope
-
       Objeto o par de objetos de forma y color característico que se instalan en la parte superior de una boya como medio de identificación.
 
       Nota:
@@ -63,36 +61,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Topmark/es
+    designation: Marca de tope
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark/es
 termid: 8-4-095
 id: e1e8de9e-ff6e-5a9c-95f0-b0fc8b57ed7f
----
-data:
-  definition:
-  - content: |-
-      Marca de tope
-
-      Objeto o par de objetos de forma y color característico que se instalan en la parte superior de una boya como medio de identificación.
-
-      Nota:
-
-      Para obtener información sobre los topmarks utilizados en el Sistema de flotación marítima de IALA, consulte el Capítulo 2 (Rev).
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 8-4-095
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Topmark/es
-termid: 8-4-095
-id: 7e89218f-d70c-5e6e-bcf2-540ebe630fb0

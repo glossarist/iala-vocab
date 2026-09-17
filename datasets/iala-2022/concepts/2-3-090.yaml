@@ -22,8 +22,6 @@ id: 2-3-090
 data:
   definition:
   - content: |-
-      Filamento
-
       Conductor similar a un hilo, generalmente de tungsteno (o de carbono), que se calienta hasta la incandescencia por el paso de una corriente eléctrica.
 
       ![Ch2_Fig22.jpg](/iala-vocab/images/iala/Ch2_Fig22.jpg)
@@ -39,7 +37,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Filament/es
+    designation: Filamento
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Filament/es

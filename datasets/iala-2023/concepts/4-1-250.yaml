@@ -22,8 +22,6 @@ id: 4-1-250
 data:
   definition:
   - content: |-
-      Effective height (U.S.A.)
-
       The height of the antenna centre of radiation above the effective ground level.
 
       For an antenna with asymmetrical current distribution the centre of radiation is the centre of current moments when viewed from directions near the direction of maximum radiation.

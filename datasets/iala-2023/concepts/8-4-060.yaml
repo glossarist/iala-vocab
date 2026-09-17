@@ -47,8 +47,6 @@ id: b2dd0ea1-bd6e-5b84-9fee-46ca1b45254e
 data:
   definition:
   - content: |-
-      Boya ODAS
-
       Término alternativo: boya de Sistema de Adquisición de Datos Oceánicos.
 
       Boya  destinada a la recopilación de datos oceanográficos. Puede estar fondeada  o flotar libremente . No es una ayuda a la navegación, pero está clasificada como una boya  especial en el Sistema de Señalización Marítimo de IALA.
@@ -62,7 +60,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 8-4-060
+    designation: Boya ODAS
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/ODAS_buoy/es

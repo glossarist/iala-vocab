@@ -22,8 +22,6 @@ id: 2-3-330
 data:
   definition:
   - content: |-
-      Balasto
-
       Dispositivo utilizado en lámparas de descarga para estabilizar la descarga.
 
       Nota 1: El balasto puede ser resistivo, inductivo o capacitivo, o una combinación de estos.
@@ -41,7 +39,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Ballast/es
+    designation: Balasto
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Ballast/es

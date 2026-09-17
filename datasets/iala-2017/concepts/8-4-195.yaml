@@ -42,10 +42,9 @@ id: 81887b31-e33e-5839-9cf4-2f58dbe1338b
 ---
 data:
   definition:
-  - content: |-
-      Pintura anti-incrustante
-
-      Pintura utilizada en  embarcaciones y boyas que tiene la propiedad de reducir la tasa de crecimiento de la fauna marina en la superficie del casco o cuerpo protegido.
+  - content: Pintura utilizada en  embarcaciones y boyas que tiene la propiedad de
+      reducir la tasa de crecimiento de la fauna marina en la superficie del casco
+      o cuerpo protegido.
   examples: []
   notes: []
   sources:
@@ -56,32 +55,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Anti-fouling paint/es
+    designation: Pintura anti-incrustante
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Anti-fouling_paint/es
 termid: 8-4-195
 id: 6eeda266-d040-52db-8858-6eb5f5d6cc22
----
-data:
-  definition:
-  - content: |-
-      Pintura anti-incrustante
-
-      Pintura utilizada en  embarcaciones y boyas que tiene la propiedad de reducir la tasa de crecimiento de la fauna marina en la superficie del casco o cuerpo protegido.
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 8-4-195
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Anti-fouling_paint/es
-termid: 8-4-195
-id: c56a2a55-e866-5937-a3cd-a00b9d22a5a1

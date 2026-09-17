@@ -22,8 +22,6 @@ id: 6-3-350
 data:
   definition:
   - content: |-
-      Butano
-
       Combustible de hidrocarburo, C4H10, gas a temperaturas  y presión atmosférica normales. Dado que posee un punto de ebullición de 1° grado Celsius a presión atmosférica no puede ser utilizado en climas fríos como combustible gaseoso.
 
       Nota: El butano está disponible comercialmente bajo varios nombres.
@@ -37,7 +35,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Butane/es
+    designation: Butano
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Butane/es

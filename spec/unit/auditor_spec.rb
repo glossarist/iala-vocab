@@ -98,4 +98,70 @@ RSpec.describe IalaVocab::Auditor do
     expect(auditor.run!).to be(false)
     expect(auditor.errors.any? { |e| e[:message].include?("missing file") }).to be(true)
   end
+
+  def write_localized_concept(docs:)
+    path = File.join(tmpdir, "concepts", "2-3-095.yaml")
+    FileUtils.mkdir_p(File.dirname(path))
+    File.write(path, docs.map { |d| YAML.dump(d) }.join)
+    path
+  end
+
+  def managed_doc
+    { "id" => "2-3-095", "data" => { "identifier" => "2-3-095" } }
+  end
+
+  def localized_doc(lang:, designation:, definition: nil)
+    {
+      "id" => "#{lang}-doc",
+      "data" => {
+        "language_code" => lang,
+        "terms" => [{ "type" => "expression",
+                      "normative_status" => "preferred",
+                      "designation" => designation }],
+        "definition" => definition ? [{ "content" => definition }] : [],
+      },
+    }
+  end
+
+  it "fails on a numeric designation" do
+    write_localized_concept(docs: [
+      managed_doc,
+      localized_doc(lang: "spa", designation: "2-3-095", definition: "Casquillo."),
+    ])
+    auditor = described_class.new(series: series)
+    expect(auditor.run!).to be(false)
+    expect(auditor.errors.any? { |e| e[:message].include?("numeric designation") }).to be(true)
+  end
+
+  it "fails on a designation carrying a language suffix" do
+    write_localized_concept(docs: [
+      managed_doc,
+      localized_doc(lang: "spa", designation: "Oil Lamp/es", definition: "Lámpara."),
+    ])
+    auditor = described_class.new(series: series)
+    expect(auditor.run!).to be(false)
+    expect(auditor.errors.any? { |e| e[:message].include?("language suffix") }).to be(true)
+  end
+
+  it "fails on duplicate localized docs for one language" do
+    write_localized_concept(docs: [
+      managed_doc,
+      localized_doc(lang: "spa", designation: "Lámpara de aceite", definition: "Conjunto."),
+      localized_doc(lang: "spa", designation: "Lámpara de aceite", definition: "Conjunto."),
+    ])
+    auditor = described_class.new(series: series)
+    expect(auditor.run!).to be(false)
+    expect(auditor.errors.any? { |e| e[:message].include?("duplicate localized doc") }).to be(true)
+  end
+
+  it "fails when a definition opens with a numeric code line" do
+    write_localized_concept(docs: [
+      managed_doc,
+      localized_doc(lang: "eng", designation: "Fog signal",
+                    definition: "3-1 -030\n\nSound signal to warn ships."),
+    ])
+    auditor = described_class.new(series: series)
+    expect(auditor.run!).to be(false)
+    expect(auditor.errors.any? { |e| e[:message].include?("starts with numeric code") }).to be(true)
+  end
 end

@@ -21,10 +21,9 @@ id: 6-3-360
 ---
 data:
   definition:
-  - content: |-
-      Acetileno
-
-      Combustible de hidrocarburo, C2H2, gas incoloro y altamente inflamable a temperaturas  y presión atmosférica normales. Se utilizaba  como iluminante en señales luminosas con o sin capillo.
+  - content: Combustible de hidrocarburo, C2H2, gas incoloro y altamente inflamable
+      a temperaturas  y presión atmosférica normales. Se utilizaba  como iluminante
+      en señales luminosas con o sin capillo.
   examples: []
   notes: []
   sources:
@@ -35,7 +34,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Acetylene/es
+    designation: Acetileno
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Acetylene/es

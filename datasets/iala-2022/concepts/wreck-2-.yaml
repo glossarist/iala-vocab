@@ -50,67 +50,6 @@ id: d3c970c8-8238-5749-9b3d-fea090da5fd2
 data:
   definition:
   - content: |-
-      Épave
-
-      Épave, à la suite d’un sinistre maritime, signifie:
-
-      a) un navire coulé ou échoué; ou
-      b) toute partie d’un navire coulé ou échoué, y compris les objets qui se trouvent ou se trouvaient à bord d’un tel navire; ou
-      c) tout objet perdu en mer, coulé, échoué ou à la dérive, provenant d’un navire; ou
-      d) un navire qui est en train, ou raisonnablement susceptible de, couler ou s’échouer, lorsque des mesures efficaces d’assistance au navire ou aux biens en danger n’ont pas encore été prises.
-
-      La source: Convention de Nairobi 2017, fourni par le comité IALA ARM dans le document ARM7-12.1.14 en 2017.
-
-      Ce numéro de définition remplace 1-2-205 dans l'édition originale du dictionnaire IALA (1970-1989).
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Wreck (2)/fr
-  language_code: fra
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wreck_(2)/fr
-termid: wreck-2-
-id: d949bad8-69c0-52e4-9c2e-85b76dc96fb9
----
-data:
-  definition:
-  - content: "Naufragio\n\nNaufragio, tras un siniestro marítimo, significa:\n\na)\tun
-      barco hundido o varado; o\nb)\tcualquier parte de un barco hundido o varado,
-      incluido cualquier objeto que esté o haya estado a bordo de dicho barco; o\nc)\tcualquier
-      objeto perdido en el mar por un barco y que esté varado, hundido o a la deriva
-      en el mar; o\nd)\tun barco que esté a punto, o pueda esperarse razonablemente
-      que se hunda o vare, donde todavía no se estén tomando medidas efectivas  para
-      ayudar al barco o cualquier propiedad en peligro.\n\nFuente: Convenio de Nairobi
-      2017, proporcionado por el Comité ARM de IALA en el documento ARM7-12.1.14 en
-      2017.\n\nEsto reemplaza la definición número 1-2-205 en la edición original
-      del Diccionario IALA (1970-1989)."
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: Wreck (2)/es
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wreck_(2)/es
-termid: wreck-2-
-id: 9f2fea41-d51a-59d6-a0b2-bdee21fecf60
----
-data:
-  definition:
-  - content: |-
       Épave, à la suite d’un sinistre maritime, signifie:
 
       a) un navire coulé ou échoué; ou
@@ -136,7 +75,7 @@ data:
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wreck_(2)/fr
 termid: wreck-2-
-id: '097176c8-1e61-56be-a2eb-1a25f0ecb10c'
+id: d949bad8-69c0-52e4-9c2e-85b76dc96fb9
 ---
 data:
   definition:
@@ -165,4 +104,4 @@ data:
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Wreck_(2)/es
 termid: wreck-2-
-id: 3f037a8d-7b63-5077-98ef-eae332aaf58c
+id: 9f2fea41-d51a-59d6-a0b2-bdee21fecf60

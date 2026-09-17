@@ -21,10 +21,7 @@ id: 8-4-055
 ---
 data:
   definition:
-  - content: |-
-      Boya de amarre
-
-      Boya a la cual  pueden amarrarse embarcaciones u otras estructuras flotantes.
+  - content: Boya a la cual  pueden amarrarse embarcaciones u otras estructuras flotantes.
   examples: []
   notes: []
   sources:
@@ -35,7 +32,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Mooring buoy/es
+    designation: Boya de amarre
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Mooring_buoy/es

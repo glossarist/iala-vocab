@@ -1,89 +1,64 @@
 ---
-id: 8-4-085
 data:
   identifier: 8-4-085
   domains:
-  - source: urn:iala:dictionary:iala-1970-89
-    concept_id: section-8
+  - concept_id: section-8
+    source: urn:iala:dictionary:iala-1970-89
     ref_type: section
-status: valid
 sources:
-- type: authoritative
-  origin:
+- origin:
     ref:
       source: IALA Dictionary
     link: https://www.iala.int/wiki/dictionary/index.php/Buoy_lantern
-related: []
+  type: authoritative
+status: valid
+id: 8-4-085
 ---
-id: 8-4-085-eng
-termid: 8-4-085
 data:
-  language_code: eng
-  terms:
-  - type: expression
-    designation: Buoy lantern
-    normative_status: preferred
   definition:
   - content: |-
       The glazed enclosure near the top of a buoy, usually of cylindrical shape, that surrounds and protects the optical apparatus.
 
       The term is sometimes used loosely for the buoy light
+  examples: []
   notes:
   - content: 'Note:'
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
+    type: authoritative
+  terms:
+  - type: expression
+    normative_status: preferred
+    designation: Buoy lantern
+  language_code: eng
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoy_lantern
----
-id: 8-4-085-spa
 termid: 8-4-085
+id: 7742ed36-2cb3-5213-b59a-99e95266f7a7
+---
 data:
-  language_code: spa
-  terms:
-  - type: expression
-    designation: Buoy lantern/es
-    normative_status: preferred
   definition:
   - content: |-
-      Linterna de boya
-
       Envolvente acristalada cerca de la parte superior de la boya generalmente de forma cilíndrica que rodea y protege el aparato óptico-luminoso.
 
       Nota:
 
       El término se usa a veces para la luz de la boya.
+  examples: []
+  notes: []
   sources:
-  - type: authoritative
-    origin:
+  - origin:
       ref:
         source: IALA Dictionary
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoy_lantern/es
----
-id: 8-4-085-spa
-termid: 8-4-085
-data:
-  language_code: spa
+    type: authoritative
   terms:
   - type: expression
-    designation: 8-4-085
     normative_status: preferred
-  definition:
-  - content: |-
-      Linterna de boya
-
-      Envolvente acristalada cerca de la parte superior de la boya generalmente de forma cilíndrica que rodea y protege el aparato óptico-luminoso.
-
-      Nota:
-
-      El término se usa a veces para la luz de la boya.
-  sources:
-  - type: authoritative
-    origin:
-      ref:
-        source: IALA Dictionary
+    designation: Linterna de boya
+  language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Buoy_lantern/es
+termid: 8-4-085
+id: 12ba51dd-d3c0-514c-9cec-bb499ebe0f77

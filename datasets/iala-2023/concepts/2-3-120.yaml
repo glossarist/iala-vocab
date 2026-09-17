@@ -49,8 +49,6 @@ id: 5921fa6b-371b-56c0-8a8c-ff5e9bdd72c5
 data:
   definition:
   - content: |-
-      Casquillo de bayoneta
-
       Casquillo (tipo B) con pequeños pasadores en su carcasa que encajan en las ranuras de un portalámparas.
 
       ![Ch2_Fig24.jpg](/iala-vocab/images/iala/Ch2_Fig24.jpg)
@@ -66,7 +64,7 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: 2-3-120
+    designation: Casquillo de bayoneta
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Bayonet_Cap/es

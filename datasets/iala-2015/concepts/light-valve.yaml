@@ -21,10 +21,9 @@ id: light-valve
 ---
 data:
   definition:
-  - content: |-
-      2-4 155
-
-      A device, operated by daylight, that automatically lights and extinguishes a gas light, usually lighting it at or about sunset and extinguishing it at or about sunrise.
+  - content: A device, operated by daylight, that automatically lights and extinguishes
+      a gas light, usually lighting it at or about sunset and extinguishing it at
+      or about sunrise.
   examples: []
   notes: []
   sources:

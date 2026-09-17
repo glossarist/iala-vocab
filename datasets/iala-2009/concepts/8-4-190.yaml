@@ -43,10 +43,9 @@ id: 5ed2358f-fb78-5726-94ec-e400af06ef25
 ---
 data:
   definition:
-  - content: |-
-      Protección catódica
-
-      Protección de las partes metálicas sumergidas mediante  la corrosión preferente de metales electropositivos especialmente ubicados formando estos el ánodo de sacrificio.
+  - content: Protección de las partes metálicas sumergidas mediante  la corrosión
+      preferente de metales electropositivos especialmente ubicados formando estos
+      el ánodo de sacrificio.
   examples: []
   notes: []
   sources:
@@ -57,32 +56,9 @@ data:
   terms:
   - type: expression
     normative_status: preferred
-    designation: Cathodic protection/es
+    designation: Protección catódica
   language_code: spa
   annotations:
   - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection/es
 termid: 8-4-190
 id: 28eac225-69fe-5714-be4a-1d594b5ce6cc
----
-data:
-  definition:
-  - content: |-
-      Protección catódica
-
-      Protección de las partes metálicas sumergidas mediante  la corrosión preferente de metales electropositivos especialmente ubicados formando estos el ánodo de sacrificio.
-  examples: []
-  notes: []
-  sources:
-  - origin:
-      ref:
-        source: IALA Dictionary
-    type: authoritative
-  terms:
-  - type: expression
-    normative_status: preferred
-    designation: 8-4-190
-  language_code: spa
-  annotations:
-  - content: Sourced from https://www.iala.int/wiki/dictionary/index.php/Cathodic_protection/es
-termid: 8-4-190
-id: e2d19661-e307-5773-aedb-93d4aaa36dad
